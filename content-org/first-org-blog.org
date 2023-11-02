@@ -8,6 +8,12 @@
 #+HUGO_TAGS: 标签1 标签2
 #+HUGO_CATEGORIES: 类别
 #+HUGO_DRAFT: false
-#+TiTLE: my firstblog 
+#+TiTLE: 使用org-mode和ox-hugo编写博客
 
-This is my first blog!
+* 参考链接
++ [[https://hugodoit.pages.dev/theme-documentation-basics/][官方文档]]
++ [[https://wowow005.github.io/posts/2022/04/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E5%92%8Corg-mode%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/][Mushi' Blog]]
+
+* 安装 hugo
+
+
