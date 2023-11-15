@@ -1,7 +1,7 @@
 +++
 title = "使用org-mode和ox-hugo编写博客"
 date = 2022-04-24T20:29:00+08:00
-lastmod = 2023-11-02T09:52:51+08:00
+lastmod = 2023-11-14T20:48:38+08:00
 tags = ["标签1", "标签2"]
 categories = ["类别"]
 draft = false
@@ -15,3 +15,21 @@ toc = true
 
 
 ## 安装 hugo {#安装-hugo}
+
+
+### 在 [releases](https://github.com/gohugoio/hugo/releases/tag/v0.120.4) 中安装适合自己版本的带 extended 后缀的 hugo，然后双击运行 hugo.exe。可以使用~hugo version~判断是否安装成功。 {#在-releases-中安装适合自己版本的带-extended-后缀的-hugo-然后双击运行-hugo-dot-exe-可以使用-hugo-version-判断是否安装成功}
+
+
+### 在合适的目录中打开命令行工具，执行如下命令 {#在合适的目录中打开命令行工具-执行如下命令}
+
+```shell
+  hugo new site myblog
+cd myblog
+```
+
+
+## 安装 yasnippet {#安装-yasnippet}
+
+```nil
+
+```
