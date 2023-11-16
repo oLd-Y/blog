@@ -1,0 +1,17 @@
+#+OPTIONS: author:nil ^:{}
+#+hugo_front_matter_format: yaml
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: posts/2023/11
+#+DATE: [2023-11-15 周三 14:07]
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: ["编码", "Emacs"]
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+#+TITLE: emacs编码相关
+
+
+
+C-x RET r （即 revert-buffer-with-coding-system 命令） 输入 “GBK” 回车
+C-x RET f （即 set-buffer-file-coding-system 命令） 输入 “utf-8” 回车
+C-x C-s 保存

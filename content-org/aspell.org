@@ -1,0 +1,40 @@
+#+OPTIONS: author:nil ^:{}
+#+hugo_front_matter_format: yaml
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: posts/2023/11
+#+DATE: [2023-11-15 周三 16:19]
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: "aspell"
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+#+TITLE: windows aspell 安装
+
+
+* 安装
+** 安装 msys2
+在[[https://www.msys2.org/][msys2官网]]安装 msys2
+** 依次执行如下命令：
+#+begin_src shell
+In MingW64 terminal search aspell:
+
+    pacman -Ss aspell
+    
+Installing aspell and dictionary you need :
+
+    pacman -S mingw64/mingw-w64-x86_64-aspell
+    pacman -S mingw64/mingw-w64-x86_64-aspell-en
+    
+Find aspell.exe location with which aspell, e.g. C:\msys64\mingw64\bin
+
+Update in dotfile. Especially in Spacemacs:
+
+    (add-to-list 'exec-path "C:/msys64/mingw64/bin/")
+    (setq ispell-program-name "aspell")
+    (setq ispell-personal-dictionary "c:/msys64/mingw64/lib/aspell-0.60/en_GB")
+#+end_src
+** 将
+* 快捷键
+| shortcuts | function |
+|-----------+----------|
+| C-M-i     | 快捷修复   |

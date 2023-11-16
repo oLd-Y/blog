@@ -1,0 +1,14 @@
+#+OPTIONS: author:nil ^:{}
+#+hugo_front_matter_format: yaml
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: posts/2023/11
+#+DATE: [2023-11-15 周三 14:07]
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: "Emacs"
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+#+TITLE: Direcd 常用快捷键
+
+
+[[https://wolfsonliu.github.io/archive/2016/emacs-xue-xi-bi-ji-dired-mode-he-wen-jian-guan-li.html][参考链接]]
