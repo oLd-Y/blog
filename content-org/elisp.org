@@ -1,0 +1,31 @@
+#+OPTIONS: author:nil ^:{}
+#+hugo_front_matter_format: yaml
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: posts/2023/11
+#+DATE: [2023-11-15 周三 22:29]
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+#+TITLE: elisp 简单总结
+
+* let 和 let* 的区别
+** let：先定义变量，在同一个 let 定义下一个变量的时候不能使用事先定义的变量
+#+begin_src elisp
+(defun circle-area (radix)
+  (let ((pi 3.1415926)
+        area)
+    (setq area (* pi radix radix))
+    (message "直径为 %.2f 的圆面积是 %.2f" radix area)))
+(circle-area 3)
+#+end_src
+** let*：定义变量之后可以直接使用
+#+begin_src elisp
+(defun circle-area (radix)
+  (let* ((pi 3.1415926)
+         (area (* pi radix radix)))
+    (message "直径为 %.2f 的圆面积是 %.2f" radix area)))
+#+end_src
+
+
