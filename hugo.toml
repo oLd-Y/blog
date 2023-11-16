@@ -1,9 +1,11 @@
 baseURL = "http://localhost:1313/"
 # [en, zh-cn, fr, ...] determines default content language
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh-cn"
 # language code
-languageCode = "en"
-title = "My New Hugo Site"
+languageCode = "zh-CN"
+# whether or not having Chinese Japanese or Korea characters
+hasCJKLanguage = true
+title = "oLd-Y's 博客"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "DoIt"
