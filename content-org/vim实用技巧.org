@@ -1,0 +1,30 @@
+#+OPTIONS: author:nil ^:{}
+#+hugo_front_matter_format: yaml
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: posts/2023/11
+#+DATE: [2023-11-18 周六 09:55]
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: "VIm"
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+#+TITLE: Vim实用技巧
+
+
+| 快捷键          | 作用                        | 解释                                            |
+|----------------+----------------------------+------------------------------------------------|
+| > G            | 移动当前行到文件末尾的 tab 层级 |                                                |
+| :'<,'>normal . | 为选中范围执行 . 操作         | '<,'> 表示选中范围, normal 表示在 normal 模式中执行 |
+|                |                            |                                                |
+
+var foo = 1;
+var bar = 'a';
+var foobar = foo + bar;
+var foobar = foo + bar;
+var foobar = foo + bar;
+var foobar = foo + bar;
+var foobar = foo + bar;
+var foobar = foo + bar;
+var foobar = foo + bar;
+var foobar = foo + bar;
+var foobar = foo + bar;
