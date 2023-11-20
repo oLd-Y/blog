@@ -1,0 +1,13 @@
+#+OPTIONS: author:nil ^:{}
+#+hugo_front_matter_format: yaml
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: posts/2023/11
+#+DATE: [2023-11-16 周四 10:14]
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+#+TITLE: how-to-take-notes-through-org-roam
+
+* references:[[https://jethrokuan.github.io/org-roam-guide/][org-roam author note taking methods]]
