@@ -32,7 +32,9 @@
 ** C-; 快捷键切换设置
 ** 寄存器改为系统粘贴板设置
 
+
 * TODO 公司 VFP 项目管理器在主表单获取焦点时会自动隐藏, 而家里的则不会
 * TODO MdNice 网站(将 md 转为公众号, 知乎等支持的格式)
 * TODO 剪映和 PR 对比
+* TODO blog github actions 发布出错 https://github.com/oLd-Y/blog/actions/workflows/hugo.yml
 

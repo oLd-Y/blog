@@ -1,7 +1,7 @@
 ---
 title: "任务清单"
 date: 2023-11-19T10:00:00+08:00
-lastmod: 2023-11-20T12:06:59+08:00
+lastmod: 2023-11-20T12:26:52+08:00
 draft: false
 toc: true
 ---
@@ -49,3 +49,6 @@ toc: true
 
 
 ## <span class="org-todo todo TODO">TODO</span> 剪映和 PR 对比 {#剪映和-pr-对比}
+
+
+## <span class="org-todo todo TODO">TODO</span> blog github actions 发布出错 <https://github.com/oLd-Y/blog/actions/workflows/hugo.yml> {#blog-github-actions-发布出错-https-github-dot-com-old-y-blog-actions-workflows-hugo-dot-yml}
