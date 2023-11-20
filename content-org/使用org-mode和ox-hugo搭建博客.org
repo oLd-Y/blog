@@ -13,8 +13,10 @@
 * 参考链接
 + [[https://hugodoit.pages.dev/theme-documentation-basics/][官方文档]]
 + [[https://wowow005.github.io/posts/2022/04/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E5%92%8Corg-mode%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/][Mushi' Blog]]
-
++ [[https://prime167.github.io/post/2019-11-25-hugo-setup/][配置注意事项]]
 * 安装 hugo
 ** 到[[https://github.com/gohugoio/hugo/releases到][releases]]页面获取 hugo 的最新安装包，在本地解压之后将 hugo.exe 所在的文件夹加入到环境变量中。
 ** 
 
+* 中英双语博客
+[[https://cyrusyip.org/zh-cn/post/2022/05/30/hugo-multilingual/][中英双语博客修改]]

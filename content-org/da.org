@@ -1,1 +1,19 @@
+#+OPTIONS: author:nil ^:{}
+#+hugo_front_matter_format: yaml
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: posts/2023/11
+#+DATE: [2023-11-16 周四 15:48]
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+#+TITLE: 需求分析
 
+
+你是一个 VFP 的高手. 请你修改下列代码, 使得:
+1. 每一行只有 3 个 Label 控件, 总共 3 行.
+2. 为每一个 Label 控件添加一个相应的 XXXVal 控件用于展示数据. 例如为 labBMKMC 添加一个 labBMKMCVal 的 Label 控件.  label 和 相应的 labval 之间作为一个组, 要求组内, 以及各组之间保持前后上下对齐且保持合理的间距.  每一行的 label 和 labxxxVal 之间应当保持水平对齐.
+3. labVal 的 caption 可以暂时使用其 name 占位.
+
+   
