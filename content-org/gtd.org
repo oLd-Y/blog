@@ -10,11 +10,22 @@
 #+HUGO_DRAFT: false
 #+TITLE: 任务清单
 
+* DONE blog github actions 发布出错 https://github.com/oLd-Y/blog/actions/workflows/hugo.yml
+CLOSED: [2023-11-20 周一 14:13]
+
+- State "DONE"       from "TODO"       [2023-11-20 周一 14:13]
+* DONE (idea) vim 高亮搜索单词
+CLOSED: [2023-11-20 周一 15:47]
+
+- State "DONE"       from "TODO"       [2023-11-20 周一 15:47]
+* DONE 公司 ideaVim 安装
+CLOSED: [2023-11-20 周一 15:46]
+- State "DONE"       from "TODO"       [2023-11-20 周一 15:46]
+** C-; 快捷键切换设置
+** 寄存器改为系统粘贴板设置
+
+
 * TODO vim 多光标操作
-
-* TODO (idea) vim 高亮搜索单词
-
-* TODO pmt_2 中的 label 名称应该为
 
 * TODO 家里 IDEA 的 live template(wi, fori 等)
 
@@ -28,13 +39,8 @@
 
 * TODO idea 每次拉取代码都会跟 .idea/workspace.xml 冲突
 
-* TODO 公司 ideaVim 安装
-** C-; 快捷键切换设置
-** 寄存器改为系统粘贴板设置
-
-
 * TODO 公司 VFP 项目管理器在主表单获取焦点时会自动隐藏, 而家里的则不会
 * TODO MdNice 网站(将 md 转为公众号, 知乎等支持的格式)
 * TODO 剪映和 PR 对比
-* TODO blog github actions 发布出错 https://github.com/oLd-Y/blog/actions/workflows/hugo.yml
-
+* TODO org-mode 将格式化的文字快速转为表格(一般从网页中的表格复制而来)
+* TODO org-mode 如何表示行内代码

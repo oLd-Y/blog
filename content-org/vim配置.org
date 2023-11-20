@@ -1,0 +1,26 @@
+#+OPTIONS: author:nil ^:{}
+#+hugo_front_matter_format: yaml
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: posts/2023/11
+#+DATE: [2023-11-20 周一 14:30]
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: ["Vim"]
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+#+TITLE: Vim 配置
+
+* y/p 使用系统剪贴板
+在 vim 的配置文件(.vimrc/.ideaVimrc)中添加如下设置: 
+#+begin_src shell
+  set clipboard^=unnamed,unnamedplus
+#+end_src
+其中:
++ unnamed 代表*寄存器, unamedplus 代表+寄存器.
+* 搜索高亮
+#+begin_src vimscript
+  set hlsearch
+#+end_src
++ 搜索完了之后会持续高亮. 要想清除单词的高亮状态, 需要输入 `:noh`
+
+
