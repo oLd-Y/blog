@@ -18,6 +18,23 @@ CLOSED: [2023-11-20 周一 14:13]
 CLOSED: [2023-11-20 周一 15:47]
 
 - State "DONE"       from "TODO"       [2023-11-20 周一 15:47]
+* DONE 家里 IDEA 的 live template(wi, fori 等)
+CLOSED: [2023-11-21 周二 09:40]
+
+- State "DONE"       from "TODO"       [2023-11-21 周二 09:40]
+* DONE org-mode 如何表示行内代码
+CLOSED: [2023-11-21 周二 09:40]
+- State "DONE"       from "TODO"       [2023-11-21 周二 09:40]
+* DONE 公司 VFP 项目管理器在主表单获取焦点时会自动隐藏, 而家里的则不会(关掉最大化即可)
+CLOSED: [2023-11-21 周二 13:21]
+- State "DONE"       from "TODO"       [2023-11-21 周二 13:21]
+- State "MEETING"    from "CANCELLED"  [2023-11-21 周二 11:41]
+- State "SOMEDAY"    from "WAITING"    [2023-11-21 周二 11:41]
+- State "DONE"       from "TODO"       [2023-11-21 周二 11:33]
+* DONE vim 搜索忽略大小写(在搜索字符串后加上\c 或者使用 set ignorecase 命令)
+CLOSED: [2023-11-21 周二 13:22]
+
+- State "DONE"       from "TODO"       [2023-11-21 周二 13:22]
 * DONE 公司 ideaVim 安装
 CLOSED: [2023-11-20 周一 15:46]
 - State "DONE"       from "TODO"       [2023-11-20 周一 15:46]
@@ -27,10 +44,6 @@ CLOSED: [2023-11-20 周一 15:46]
 
 * TODO vim 多光标操作
 
-* TODO 家里 IDEA 的 live template(wi, fori 等)
-
-* TODO vim 搜索忽略大小写
-
 * TODO 使用 Git 实现自动同步
 
 * TODO markdown 转成 org-mode
@@ -39,8 +52,6 @@ CLOSED: [2023-11-20 周一 15:46]
 
 * TODO idea 每次拉取代码都会跟 .idea/workspace.xml 冲突
 
-* TODO 公司 VFP 项目管理器在主表单获取焦点时会自动隐藏, 而家里的则不会
 * TODO MdNice 网站(将 md 转为公众号, 知乎等支持的格式)
 * TODO 剪映和 PR 对比
 * TODO org-mode 将格式化的文字快速转为表格(一般从网页中的表格复制而来)
-* TODO org-mode 如何表示行内代码
