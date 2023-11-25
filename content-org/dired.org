@@ -6,9 +6,21 @@
 #+HUGO_CUSTOM_FRONT_MATTER: :toc true
 #+HUGO_AUTO_SET_LASTMOD: t
 #+HUGO_TAGS: "Emacs"
-#+HUGO_CATEGORIES: 
+#+HUGO_CATEGORIES:
 #+HUGO_DRAFT: false
-#+TITLE: Direcd 常用快捷键
+#+TITLE: emacs Dired mode 常用快捷键
 
 
-[[https://wolfsonliu.github.io/archive/2016/emacs-xue-xi-bi-ji-dired-mode-he-wen-jian-guan-li.html][参考链接]]
+* 文件管理
+| 快捷键 | 作用                  |
+|-------+----------------------|
+| m     |                      |
+| ~     | 标记所有结尾为 ~ 的文件 |
+| u     | 删除标记              |
+|       |                      |
+
+
+
+* [[https://wolfsonliu.github.io/archive/2016/emacs-xue-xi-bi-ji-dired-mode-he-wen-jian-guan-li.html][参考链接]]
+
+

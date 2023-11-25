@@ -6,7 +6,7 @@
 #+HUGO_CUSTOM_FRONT_MATTER: :toc true
 #+HUGO_AUTO_SET_LASTMOD: t
 #+HUGO_TAGS:
-#+HUGO_CATEGORIES: 
+#+HUGO_CATEGORIES:
 #+HUGO_DRAFT: false
 #+TITLE: 任务清单
 
@@ -44,3 +44,5 @@ CLOSED: [2023-11-20 周一 15:46]
 * TODO 剪映和 PR 对比
 * TODO org-mode 将格式化的文字快速转为表格(一般从网页中的表格复制而来)
 * TODO org-mode 如何表示行内代码
+* TODO 上午把 pmt₃的多余 label 改为数组显示; 下午询问平面图分块
+* TODO a

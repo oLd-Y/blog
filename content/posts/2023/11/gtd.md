@@ -1,7 +1,7 @@
 ---
 title: "任务清单"
 date: 2023-11-19T10:00:00+08:00
-lastmod: 2023-11-20T15:47:47+08:00
+lastmod: 2023-11-20T22:15:36+08:00
 draft: false
 toc: true
 ---
@@ -61,3 +61,6 @@ toc: true
 
 
 ## <span class="org-todo todo TODO">TODO</span> org-mode 如何表示行内代码 {#org-mode-如何表示行内代码}
+
+
+## <span class="org-todo todo TODO">TODO</span> 上午把 pmt₃的多余 label 改为数组显示; 下午询问平面图分块 {#上午把-pmt-的多余-label-改为数组显示-下午询问平面图分块}
