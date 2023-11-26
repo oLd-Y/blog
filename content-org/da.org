@@ -11,9 +11,17 @@
 #+TITLE: 需求分析
 
 
-你是一个 VFP 的高手. 请你修改下列代码, 使得:
-1. 每一行只有 3 个 Label 控件, 总共 3 行.
-2. 为每一个 Label 控件添加一个相应的 XXXVal 控件用于展示数据. 例如为 labBMKMC 添加一个 labBMKMCVal 的 Label 控件.  label 和 相应的 labval 之间作为一个组, 要求组内, 以及各组之间保持前后上下对齐且保持合理的间距.  每一行的 label 和 labxxxVal 之间应当保持水平对齐.
-3. labVal 的 caption 可以暂时使用其 name 占位.
+* pmt_1
+** TODO 单击 ShpQykSc3显示蔬菜1, 2区的信息
+- [ ] 修改信息展示按行排为按列排
+** TODO 双击 ShpQykSc3跳转到 pmt_2, 并传递 .name 和 .tag
 
-   
+* pmt_2
+** 单击 ShpArea_<areakey> 跳转相应 pmt_3 中的块, 并传递 ShpArea_<areaKey>.name
+** 根据 CtnQykSc3.tag 渲染其中所有的 CtnXwk_<areakey>_<xwmc>
+
+* pmt_3
+** 根据 CtnArea_<areakey>.tag 渲染其中所有 CtnXwk_<areakey>_<xwmc>
+** 先将所有 Ctn<xwmc>_<xwbh> 改为 CtnXwk_<areakey>_<xwmc>
+** 单击 CtnXwk_<areakey>_<xwmc> 可以显示该席位的信息
+
