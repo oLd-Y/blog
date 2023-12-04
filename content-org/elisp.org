@@ -10,6 +10,11 @@
 #+HUGO_DRAFT: false
 #+TITLE: elisp 简单总结
 
+
+* S-表达式: 用括号括起来的那部分内容
+| 执行S-表达式 | C-x C-e / C-j |
+|            |               |
+
 * let 和 let* 的区别
 ** let：先定义变量，在同一个 let 定义下一个变量的时候不能使用事先定义的变量
 #+begin_src elisp

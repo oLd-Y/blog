@@ -2,14 +2,15 @@
 #+hugo_front_matter_format: yaml
 #+HUGO_BASE_DIR: ../
 #+HUGO_SECTION: posts/2023/11
-#+DATE: [2023-11-22 周三 09:36]
+#+DATE: [2023-11-29 周三 21:21]
 #+HUGO_CUSTOM_FRONT_MATTER: :toc true
 #+HUGO_AUTO_SET_LASTMOD: t
-#+HUGO_TAGS: "Prompt"
+#+HUGO_TAGS: "prompt"
 #+HUGO_CATEGORIES: 
 #+HUGO_DRAFT: false
-#+TITLE: 句子润色优化 prompt
+#+TITLE: nice prompts
 
+* 句子润色优化
 #+begin_example prompt
 
 I will give you text content, you will rewrite it and output a better version of my text. 
@@ -24,5 +25,16 @@ I will give you text content, you will rewrite it and output a better version of
 
 #+end_example
 
+* 自媒体创作
+#+begin_src prompt
+你是一个微信公众号自媒体博主, 我编写了一篇文章, 却正在为字数不够而苦恼. 请你润色和扩充这篇文章, 使其内容更加丰富.
+要求:
+1. 文章不得偏离原意.
+2. 符合自媒体创作风格.
+3. 将内容扩充至1200字左右.
 
+文章的具体内容如下所示:
+"""
 
+"""
+#+end_src

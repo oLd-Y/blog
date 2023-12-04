@@ -14,9 +14,35 @@
 + [[https://hugodoit.pages.dev/theme-documentation-basics/][官方文档]]
 + [[https://wowow005.github.io/posts/2022/04/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E5%92%8Corg-mode%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/][Mushi' Blog]]
 + [[https://prime167.github.io/post/2019-11-25-hugo-setup/][配置注意事项]]
-* 安装 hugo
-** 到[[https://github.com/gohugoio/hugo/releases到][releases]]页面获取 hugo 的最新安装包，在本地解压之后将 hugo.exe 所在的文件夹加入到环境变量中。
-** 
 
+* windows 中安装 hugo
+** 到[[https://github.com/gohugoio/hugo/releases到][releases]]页面获取 hugo 的最新安装包，在本地解压之后将 hugo.exe 所在的文件夹加入到环境变量中。
+** 可在命令行使用 ~hugo version~ 查看 ~hugo~ 是否安装成功
+* Emacs 中安装 ~ox-hugo~
+** 普通安装
+在emacs配置文件中加入下列代码:
+#+begin_src elisp
+  (with-eval-after-load 'ox
+  (require 'ox-hugo))
+#+end_src
+** use-pacakge 安装
+或者可以使用use-package. 同样在emacs配置文件中加入下列代码:
+#+begin_src elisp
+(use-package ox-hugo
+  :ensure t
+  :pin melpa
+  :after ox)
+#+end_src
+安装完成之后就可以使用 ~C-c C-e~ 呼出 ~ox-hugo~ 的相关命令了
+
+* 初始化 Hugo
+使用命令 ~hugo new site blog~ 在当前目录下创建一个 ~blog~ 作为博客的根目录.
+其中, 你的博客为 ~content~ 目录下的 ~.md~ 文件.
+
+* TODO 安装 hugo 主题
+
+做完这一步, 你就可以用markdown写代码了. 把 ~.md~ 文件放在刚才说的 ~content~ 文件夹下即可. 并且之后直接部署到 ~Github Pages~ 上也是可以的, 但是我们使用的是 ~org-mode~, 还需要进一步操作.
+
+* 
 * 中英双语博客
 [[https://cyrusyip.org/zh-cn/post/2022/05/30/hugo-multilingual/][中英双语博客修改]]
