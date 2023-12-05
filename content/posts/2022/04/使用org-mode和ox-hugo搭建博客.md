@@ -1,7 +1,7 @@
 +++
 title = "使用org-mode和ox-hugo编写博客"
 date = 2022-04-24T20:29:00+08:00
-lastmod = 2023-11-16T10:18:50+08:00
+lastmod = 2023-12-05T22:45:45+08:00
 tags = ["标签1", "标签2"]
 categories = ["类别"]
 draft = false
@@ -15,13 +15,198 @@ toc = true
 -   [配置注意事项](https://prime167.github.io/post/2019-11-25-hugo-setup/)
 
 
-## 安装 hugo {#安装-hugo}
+## windows 中安装 hugo {#windows-中安装-hugo}
 
 
 ### 到[releases](https://github.com/gohugoio/hugo/releases%E5%88%B0)页面获取 hugo 的最新安装包，在本地解压之后将 hugo.exe 所在的文件夹加入到环境变量中。 {#到-releases-页面获取-hugo-的最新安装包-在本地解压之后将-hugo-dot-exe-所在的文件夹加入到环境变量中}
 
 
-###  {#d41d8c}
+### 可在命令行使用 `hugo version` 查看 `hugo` 是否安装成功 {#可在命令行使用-hugo-version-查看-hugo-是否安装成功}
+
+
+## Emacs 中安装 `ox-hugo` {#emacs-中安装-ox-hugo}
+
+
+### 普通安装 {#普通安装}
+
+在emacs配置文件中加入下列代码:
+
+```elisp
+(with-eval-after-load 'ox
+(require 'ox-hugo))
+```
+
+
+### use-pacakge 安装 {#use-pacakge-安装}
+
+或者可以使用use-package. 同样在emacs配置文件中加入下列代码:
+
+```elisp
+(use-package ox-hugo
+  :ensure t
+  :pin melpa
+  :after ox)
+```
+
+安装完成之后就可以使用 `C-c C-e` 呼出 `ox-hugo` 的相关命令了
+
+
+## 初始化 Hugo {#初始化-hugo}
+
+-   使用命令 `hugo new site blog` 在当前目录下创建一个 `blog` 作为博客的根目录.
+
+其中, 你的博客为 `content` 目录下的 `.md` 文件.
+
+-   切换到 `blog` 目录使用 `git init` 命令将 `blog` 文件夹初始化为 git 仓库
+
+
+## 安装 hugo 主题 {#安装-hugo-主题}
+
+-   为了美化博客页面, 我们还需要下载一个hugo相关的主题. 我这里选用的是 [doit](https://github.com/HEIGE-PCloud/DoIt).
+    在 `blog` 目录下使用 `git add submodule https://github.com/HEIGE-PCloud/DoIt.git themes/DoIt` 命令将 DoIt 主题作为子模块进行安装.
+-   将下列代码覆盖 `blog` 目录下的 `hugo.toml` 配置文件(原 `config.toml`), 其中 baseURL 填写的是在本地启动的端口
+    ```toml
+
+    baseURL = "http://localhost:1313/"
+    # [en, zh-cn, fr, ...] determines default content language
+    defaultContentLanguage = "zh-cn"
+    # language code
+    languageCode = "zh-CN"
+    # whether or not having Chinese Japanese or Korea characters
+    hasCJKLanguage = true
+    title = "oLd-Y's 博客"
+
+    # Change the default theme to be use when building the site with Hugo
+    theme = "DoIt"
+
+    [params]
+      # DoIt theme version
+      version = "0.2.X"
+
+    [author]
+      name = "oLd-Y"
+
+    [menu]
+      [[menu.main]]
+        identifier = "posts"
+        # you can add extra information before the name (HTML format is supported), such as icons
+        pre = ""
+        # you can add extra information after the name (HTML format is supported), such as icons
+        post = ""
+        name = "Posts"
+        url = "/posts/"
+        # title will be shown when you hover on this menu link
+        title = ""
+        weight = 1
+      [[menu.main]]
+        identifier = "tags"
+        pre = ""
+        post = ""
+        name = "Tags"
+        url = "/tags/"
+        title = ""
+        weight = 2
+      [[menu.main]]
+        identifier = "categories"
+        pre = ""
+        post = ""
+        name = "Categories"
+        url = "/categories/"
+        title = ""
+        weight = 3
+
+    # Markup related configuration in Hugo
+    [markup]
+      # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+      [markup.highlight]
+        # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+        noClasses = false
+    ```
+
+做完这一步, 你就可以用markdown写代码了. 把 `.md` 文件放在刚才说的 `content` 文件夹下的 `posts` 目录下即可. 并且之后直接部署到 `Github Pages` 上也是可以的, 但是我们使用的是 `org-mode`, 还需要进一步操作.
+
+
+## 在 `blog` 根目录下创建一个 `content-org` (可以随意取) 目录, 在里面新建一个 `test.org` 文件, 并在其中填入如下模板: {#在-blog-根目录下创建一个-content-org--可以随意取--目录-在里面新建一个-test-dot-org-文件-并在其中填入如下模板}
+
+```org-mode
+#+OPTIONS: author:nil ^:{}
+#+HUGO_FRONT_MATTER_FORMAT: YAML
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: posts/2022/04
+#+DATE: [2022-04-24 Sun 20:29]
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 标签1 标签2
+#+HUGO_CATEGORIES: 类别
+#+HUGO_DRAFT: false
+#+TITLE: 我的第一篇博客
+
+我的第一篇博客
+```
+
+然后按 M-x 执行命令 `org-hugo-export-to-md` 命令将 org 文件导出为 markdown 文件, 导出的路径由上方的 `#+HUGO_SECTION: ~ 参数决定, 该参数会在根目录的 ~content` 目录下创建出相应的文件夹存放markdown文件.
+
+
+## 上述模板自然不能每次都手动输入, 那样也太麻烦了. 因此我们需要用到 [yasnippet](https://github.com/joaotavora/yasnippet) 插件. {#上述模板自然不能每次都手动输入-那样也太麻烦了-dot-因此我们需要用到-yasnippet-插件-dot}
+
+在 emacs 配置文件中输入下列代码安装 yasnippet
+
+```elisp
+(use-package yasnippet
+  :bind
+  ("C-c y s" . yas-insert-snippet)
+  ("C-c y v" . yas-visit-snippet-file)
+  :config
+  (add-to-list 'yas-snippet-dirs "~/.emacs.d/snippets")
+  (yas-global-mode 1))
+```
+
+然后便可以 M-x 执行 `yas-new-snippet` 命令创建yasnippet模板, 模板的内容如下所示:
+
+```code
+# -*- mode: snippet -*-
+# name: hugo_blog
+# key: <hugo
+# --
+#+OPTIONS: author:nil ^:{}
+#+hugo_front_matter_format: yaml
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: posts/`(format-time-string "%Y/%m")`
+#+DATE: `(format-time-string "[%Y-%m-%d %a %H:%M]")`
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: $1
+#+HUGO_CATEGORIES: $2
+#+HUGO_DRAFT: false
+#+TITLE: $3
+
+$0
+```
+
+然后按 C-x C-s 根据提示保存代码模板即可. 然后回到博客的 org 文件, 使用 `<hugo` 加 `Tab` 即可呼出代码模板.
+
+
+## ox-hugo 还提供了一个自动导出为markdown 的功能. {#ox-hugo-还提供了一个自动导出为markdown-的功能-dot}
+
+在博客根目录放置一个 `.dir-locals.el` 文件, 填写如下内容
+
+```elisp
+(("content-org/"
+  . ((org-mode . ((eval . (org-hugo-auto-export-mode)))))))
+```
+
+这样就ox-hugo就会自动将content-org目录下的 org 文件在保存的时候自动导出了
+
+
+## 本地预览博客 {#本地预览博客}
+
+在博客根目录使用命令 `hugo server` 就可以在本地启动一个博客网站, 网址由 `hugo.toml` 文件的 `baseURL` 属性指定.
+注意被标记为草稿的文件(HUGO_DRAFT为True)需要指定额外的参数才能查看, 具体是啥忘记了, 可以自行google.
+
+
+## 托管至github pages {#托管至github-pages}
+
+把博客目录上传至github仓库, 在你的博客项目的 settings -&gt; Pages 选择或搜索 hugo 相关的 toml 文件, 啥都不用改, 直接发布即可. 然后你的blog就会被托管到github pages 上了. 之后有新的提交
 
 
 ## 中英双语博客 {#中英双语博客}
