@@ -1,27 +1,17 @@
 +++
 title = "使用org-mode和ox-hugo编写博客"
-date = 2022-04-24T20:29:00+08:00
-lastmod = 2023-12-05T22:45:45+08:00
+date = 2023-11-16T20:29:00+08:00
+lastmod = 2023-12-09T22:38:52+08:00
 tags = ["标签1", "标签2"]
 categories = ["类别"]
 draft = false
 toc = true
 +++
 
-## 参考链接 {#参考链接}
-
--   [官方文档](https://hugodoit.pages.dev/theme-documentation-basics/)
--   [Mushi' Blog](https://wowow005.github.io/posts/2022/04/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E5%92%8Corg-mode%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)
--   [配置注意事项](https://prime167.github.io/post/2019-11-25-hugo-setup/)
-
-
 ## windows 中安装 hugo {#windows-中安装-hugo}
 
-
-### 到[releases](https://github.com/gohugoio/hugo/releases%E5%88%B0)页面获取 hugo 的最新安装包，在本地解压之后将 hugo.exe 所在的文件夹加入到环境变量中。 {#到-releases-页面获取-hugo-的最新安装包-在本地解压之后将-hugo-dot-exe-所在的文件夹加入到环境变量中}
-
-
-### 可在命令行使用 `hugo version` 查看 `hugo` 是否安装成功 {#可在命令行使用-hugo-version-查看-hugo-是否安装成功}
+-   到[releases](https://github.com/gohugoio/hugo/releases%E5%88%B0)页面获取 hugo 的最新安装包，在本地解压之后将 hugo.exe 所在的文件夹加入到环境变量中。
+-   可在命令行使用 `hugo version` 查看 `hugo` 是否安装成功
 
 
 ## Emacs 中安装 `ox-hugo` {#emacs-中安装-ox-hugo}
@@ -147,8 +137,9 @@ toc = true
 然后按 M-x 执行命令 `org-hugo-export-to-md` 命令将 org 文件导出为 markdown 文件, 导出的路径由上方的 `#+HUGO_SECTION: ~ 参数决定, 该参数会在根目录的 ~content` 目录下创建出相应的文件夹存放markdown文件.
 
 
-## 上述模板自然不能每次都手动输入, 那样也太麻烦了. 因此我们需要用到 [yasnippet](https://github.com/joaotavora/yasnippet) 插件. {#上述模板自然不能每次都手动输入-那样也太麻烦了-dot-因此我们需要用到-yasnippet-插件-dot}
+## 安装 Yasnippet 包 {#安装-yasnippet-包}
 
+上述模板自然不能每次都手动输入, 那样也太麻烦了. 因此我们需要用到 [yasnippet](https://github.com/joaotavora/yasnippet) 插件.
 在 emacs 配置文件中输入下列代码安装 yasnippet
 
 ```elisp
@@ -183,11 +174,12 @@ toc = true
 $0
 ```
 
-然后按 C-x C-s 根据提示保存代码模板即可. 然后回到博客的 org 文件, 使用 `<hugo` 加 `Tab` 即可呼出代码模板.
+然后按 C-x C-s 根据提示保存代码模板即可. 接着回到博客的 org 文件, 使用 `<hugo` 加 `Tab` 即可呼出代码模板.
 
 
-## ox-hugo 还提供了一个自动导出为markdown 的功能. {#ox-hugo-还提供了一个自动导出为markdown-的功能-dot}
+## org 自动导出为 markdown {#org-自动导出为-markdown}
 
+ox-hugo 还提供了一个 org 文件自动导出为 markdown 的功能.
 在博客根目录放置一个 `.dir-locals.el` 文件, 填写如下内容
 
 ```elisp
@@ -206,9 +198,16 @@ $0
 
 ## 托管至github pages {#托管至github-pages}
 
-把博客目录上传至github仓库, 在你的博客项目的 settings -&gt; Pages 选择或搜索 hugo 相关的 toml 文件, 啥都不用改, 直接发布即可. 然后你的blog就会被托管到github pages 上了. 之后有新的提交
+把博客目录上传至github仓库, 在你的博客项目的 settings -&gt; Pages 选择或搜索 hugo 相关的 toml 文件, 啥都不用改, 直接发布即可. 然后你的blog就会被托管到github pages 上了. 之后有新的提交就会自动更新.
 
 
 ## 中英双语博客 {#中英双语博客}
 
 [中英双语博客修改](https://cyrusyip.org/zh-cn/post/2022/05/30/hugo-multilingual/)
+
+
+## 参考链接 {#参考链接}
+
+-   [官方文档](https://hugodoit.pages.dev/theme-documentation-basics/)
+-   [Mushi' Blog](https://wowow005.github.io/posts/2022/04/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E5%92%8Corg-mode%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)
+-   [配置注意事项](https://prime167.github.io/post/2019-11-25-hugo-setup/)
