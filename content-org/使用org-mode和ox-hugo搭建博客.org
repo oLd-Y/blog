@@ -14,7 +14,6 @@
 #+HUGO_DRAFT: false
 #+TITLE: 使用org-mode和ox-hugo编写博客
 
-
 * windows 中安装 hugo
 + 到[[https://github.com/gohugoio/hugo/releases到][releases]]页面获取 hugo 的最新安装包，在本地解压之后将 hugo.exe 所在的文件夹加入到环境变量中。
 + 可在命令行使用 ~hugo version~ 查看 ~hugo~ 是否安装成功
