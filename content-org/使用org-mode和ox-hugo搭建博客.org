@@ -1,23 +1,23 @@
-:PROPERTIES:
-:ID:       17d25793-4d27-4a35-be1e-27ca6f2054c9
-:END:
+:properties:
+:id:       17d25793-4d27-4a35-be1e-27ca6f2054c9
+:end:
 
-#+OPTIONS: author:nil ^:{}
-#+HUGO_FRONT_MATTER_FORMAT: YAML
-#+HUGO_BASE_DIR: ../
-#+HUGO_SECTION: posts/2023/11
-#+DATE: [2023-11-16 Sun 20:29]
-#+HUGO_CUSTOM_FRONT_MATTER: :toc true
-#+HUGO_AUTO_SET_LASTMOD: t
-#+HUGO_TAGS: 标签1 标签2
-#+HUGO_CATEGORIES: 类别
-#+HUGO_DRAFT: false
-#+TITLE: 使用org-mode和ox-hugo编写博客
+#+options: author:nil ^:{}
+#+hugo_front_matter_format: yaml
+#+hugo_base_dir: ../
+#+hugo_section: posts/2023/11
+#+date: [2023-11-16 sun 20:29]
+#+hugo_custom_front_matter: :toc true
+#+hugo_auto_set_lastmod: t
+#+hugo_tags: 标签1 标签2
+#+hugo_categories: 类别
+#+hugo_draft: false
+#+title: 使用org-mode和ox-hugo编写博客
 
 * windows 中安装 hugo
 + 到[[https://github.com/gohugoio/hugo/releases到][releases]]页面获取 hugo 的最新安装包，在本地解压之后将 hugo.exe 所在的文件夹加入到环境变量中。
 + 可在命令行使用 ~hugo version~ 查看 ~hugo~ 是否安装成功
-* Emacs 中安装 ~ox-hugo~
+* emacs 中安装 ~ox-hugo~
 ** 普通安装
 在emacs配置文件中加入下列代码:
 #+begin_src elisp
@@ -32,46 +32,46 @@
   :pin melpa
   :after ox)
 #+end_src
-安装完成之后就可以使用 ~C-c C-e~ 呼出 ~ox-hugo~ 的相关命令了
+安装完成之后就可以使用 ~c-c c-e~ 呼出 ~ox-hugo~ 的相关命令了
 
-* 初始化 Hugo
+* 初始化 hugo
 + 使用命令 ~hugo new site blog~ 在当前目录下创建一个 ~blog~ 作为博客的根目录.
 其中, 你的博客为 ~content~ 目录下的 ~.md~ 文件.
 + 切换到 ~blog~ 目录使用 ~git init~ 命令将 ~blog~ 文件夹初始化为 git 仓库
 
 * 安装 hugo 主题
-+ 为了美化博客页面, 我们还需要下载一个hugo相关的主题. 我这里选用的是 [[https://github.com/HEIGE-PCloud/DoIt][doit]].
-  在 ~blog~ 目录下使用 ~git add submodule https://github.com/HEIGE-PCloud/DoIt.git themes/DoIt~ 命令将 DoIt 主题作为子模块进行安装.
-+ 将下列代码覆盖 ~blog~ 目录下的 ~hugo.toml~ 配置文件(原 ~config.toml~), 其中 baseURL 填写的是在本地启动的端口
++ 为了美化博客页面, 我们还需要下载一个hugo相关的主题. 我这里选用的是 [[https://github.com/heige-pcloud/doit][doit]].
+  在 ~blog~ 目录下使用 ~git add submodule https://github.com/heige-pcloud/doit.git themes/doit~ 命令将 doit 主题作为子模块进行安装.
++ 将下列代码覆盖 ~blog~ 目录下的 ~hugo.toml~ 配置文件(原 ~config.toml~), 其中 baseurl 填写的是在本地启动的端口
   #+begin_src toml
 
-  baseURL = "http://localhost:1313/"
+  baseurl = "http://localhost:1313/"
   # [en, zh-cn, fr, ...] determines default content language
-  defaultContentLanguage = "zh-cn"
+  defaultcontentlanguage = "zh-cn"
   # language code
-  languageCode = "zh-CN"
-  # whether or not having Chinese Japanese or Korea characters
-  hasCJKLanguage = true
-  title = "oLd-Y's 博客"
+  languagecode = "zh-cn"
+  # whether or not having chinese japanese or korea characters
+  hascjklanguage = true
+  title = "old-y's 博客"
 
-  # Change the default theme to be use when building the site with Hugo
-  theme = "DoIt"
+  # change the default theme to be use when building the site with hugo
+  theme = "doit"
 
   [params]
-    # DoIt theme version
-    version = "0.2.X"
+    # doit theme version
+    version = "0.2.x"
 
   [author]
-    name = "oLd-Y"
+    name = "old-y"
 
   [menu]
     [[menu.main]]
       identifier = "posts"
-      # you can add extra information before the name (HTML format is supported), such as icons
+      # you can add extra information before the name (html format is supported), such as icons
       pre = ""
-      # you can add extra information after the name (HTML format is supported), such as icons
+      # you can add extra information after the name (html format is supported), such as icons
       post = ""
-      name = "Posts"
+      name = "posts"
       url = "/posts/"
       # title will be shown when you hover on this menu link
       title = ""
@@ -80,7 +80,7 @@
       identifier = "tags"
       pre = ""
       post = ""
-      name = "Tags"
+      name = "tags"
       url = "/tags/"
       title = ""
       weight = 2
@@ -88,72 +88,72 @@
       identifier = "categories"
       pre = ""
       post = ""
-      name = "Categories"
+      name = "categories"
       url = "/categories/"
       title = ""
       weight = 3
 
-  # Markup related configuration in Hugo
+  # markup related configuration in hugo
   [markup]
-    # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+    # syntax highlighting (https://gohugo.io/content-management/syntax-highlighting)
     [markup.highlight]
-      # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
-      noClasses = false
+      # false is a necessary configuration (https://github.com/dillonzq/loveit/issues/158)
+      noclasses = false
   #+end_src
-做完这一步, 你就可以用markdown写代码了. 把 ~.md~ 文件放在刚才说的 ~content~ 文件夹下的 ~posts~ 目录下即可. 并且之后直接部署到 ~Github Pages~ 上也是可以的, 但是我们使用的是 ~org-mode~, 还需要进一步操作.
+做完这一步, 你就可以用markdown写代码了. 把 ~.md~ 文件放在刚才说的 ~content~ 文件夹下的 ~posts~ 目录下即可. 并且之后直接部署到 ~github pages~ 上也是可以的, 但是我们使用的是 ~org-mode~, 还需要进一步操作.
 
 * 在 ~blog~ 根目录下创建一个 ~content-org~ (可以随意取) 目录, 在里面新建一个 ~test.org~ 文件, 并在其中填入如下模板:
 #+begin_src org-mode
-#+OPTIONS: author:nil ^:{}
-#+HUGO_FRONT_MATTER_FORMAT: YAML
-#+HUGO_BASE_DIR: ../
-#+HUGO_SECTION: posts/2022/04
-#+DATE: [2022-04-24 Sun 20:29]
-#+HUGO_CUSTOM_FRONT_MATTER: :toc true
-#+HUGO_AUTO_SET_LASTMOD: t
-#+HUGO_TAGS: 标签1 标签2
-#+HUGO_CATEGORIES: 类别
-#+HUGO_DRAFT: false
-#+TITLE: 我的第一篇博客
+#+options: author:nil ^:{}
+#+hugo_front_matter_format: yaml
+#+hugo_base_dir: ../
+#+hugo_section: posts/2022/04
+#+date: [2022-04-24 sun 20:29]
+#+hugo_custom_front_matter: :toc true
+#+hugo_auto_set_lastmod: t
+#+hugo_tags: 标签1 标签2
+#+hugo_categories: 类别
+#+hugo_draft: false
+#+title: 我的第一篇博客
 
 我的第一篇博客
 #+end_src
-然后按 M-x 执行命令 ~org-hugo-export-to-md~ 命令将 org 文件导出为 markdown 文件, 导出的路径由上方的 ~#+HUGO_SECTION: ~ 参数决定, 该参数会在根目录的 ~content~ 目录下创建出相应的文件夹存放markdown文件.
+然后按 m-x 执行命令 ~org-hugo-export-to-md~ 命令将 org 文件导出为 markdown 文件, 导出的路径由上方的 ~#+hugo_section: ~ 参数决定, 该参数会在根目录的 ~content~ 目录下创建出相应的文件夹存放markdown文件.
 
-* 安装 Yasnippet 包
+* 安装 yasnippet 包
 上述模板自然不能每次都手动输入, 那样也太麻烦了. 因此我们需要用到 [[https://github.com/joaotavora/yasnippet][yasnippet]] 插件.
 在 emacs 配置文件中输入下列代码安装 yasnippet
 #+begin_src elisp
 (use-package yasnippet
   :bind
-  ("C-c y s" . yas-insert-snippet)
-  ("C-c y v" . yas-visit-snippet-file)
+  ("c-c y s" . yas-insert-snippet)
+  ("c-c y v" . yas-visit-snippet-file)
   :config
   (add-to-list 'yas-snippet-dirs "~/.emacs.d/snippets")
   (yas-global-mode 1))
 #+end_src
 
-然后便可以 M-x 执行 ~yas-new-snippet~ 命令创建yasnippet模板, 模板的内容如下所示:
+然后便可以 m-x 执行 ~yas-new-snippet~ 命令创建yasnippet模板, 模板的内容如下所示:
 #+begin_src code
 # -*- mode: snippet -*-
 # name: hugo_blog
 # key: <hugo
 # --
-#+OPTIONS: author:nil ^:{}
+#+options: author:nil ^:{}
 #+hugo_front_matter_format: yaml
-#+HUGO_BASE_DIR: ../
-#+HUGO_SECTION: posts/`(format-time-string "%Y/%m")`
-#+DATE: `(format-time-string "[%Y-%m-%d %a %H:%M]")`
-#+HUGO_CUSTOM_FRONT_MATTER: :toc true
-#+HUGO_AUTO_SET_LASTMOD: t
-#+HUGO_TAGS: $1
-#+HUGO_CATEGORIES: $2
-#+HUGO_DRAFT: false
-#+TITLE: $3
+#+hugo_base_dir: ../
+#+hugo_section: posts/`(format-time-string "%y/%m")`
+#+date: `(format-time-string "[%y-%m-%d %a %h:%m]")`
+#+hugo_custom_front_matter: :toc true
+#+hugo_auto_set_lastmod: t
+#+hugo_tags: $1
+#+hugo_categories: $2
+#+hugo_draft: false
+#+title: $3
 
 $0
 #+end_src
-然后按 C-x C-s 根据提示保存代码模板即可. 接着回到博客的 org 文件, 使用 ~<hugo~ 加 ~Tab~ 即可呼出代码模板.
+然后按 c-x c-s 根据提示保存代码模板即可. 接着回到博客的 org 文件, 使用 ~<hugo~ 加 ~tab~ 即可呼出代码模板.
 
 
 * org 自动导出为 markdown
@@ -166,11 +166,11 @@ ox-hugo 还提供了一个 org 文件自动导出为 markdown 的功能.
 这样就ox-hugo就会自动将content-org目录下的 org 文件在保存的时候自动导出了
 
 * 本地预览博客
-在博客根目录使用命令 ~hugo server~ 就可以在本地启动一个博客网站, 网址由 ~hugo.toml~ 文件的 ~baseURL~ 属性指定.
-注意被标记为草稿的文件(HUGO_DRAFT为True)需要指定额外的参数才能查看, 具体是啥忘记了, 可以自行google.
+在博客根目录使用命令 ~hugo server~ 就可以在本地启动一个博客网站, 网址由 ~hugo.toml~ 文件的 ~baseurl~ 属性指定.
+注意被标记为草稿的文件(hugo_draft为true)需要指定额外的参数才能查看, 具体是啥忘记了, 可以自行google.
 
 * 托管至github pages
-把博客目录上传至github仓库, 在你的博客项目的 settings -> Pages 选择或搜索 hugo 相关的 toml 文件, 啥都不用改, 直接发布即可. 然后你的blog就会被托管到github pages 上了. 之后有新的提交就会自动更新.
+把博客目录上传至github仓库, 在你的博客项目的 settings -> pages 选择或搜索 hugo 相关的 toml 文件, 啥都不用改, 直接发布即可. 然后你的blog就会被托管到github pages 上了. 之后有新的提交就会自动更新.
 
 
 
@@ -179,5 +179,5 @@ ox-hugo 还提供了一个 org 文件自动导出为 markdown 的功能.
 
 * 参考链接
 + [[https://hugodoit.pages.dev/theme-documentation-basics/][官方文档]]
-+ [[https://wowow005.github.io/posts/2022/04/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E5%92%8Corg-mode%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/][Mushi' Blog]]
++ [[https://wowow005.github.io/posts/2022/04/%e5%a6%82%e4%bd%95%e7%94%a8hugo%e5%92%8corg-mode%e6%90%ad%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2/][mushi' blog]]
 + [[https://prime167.github.io/post/2019-11-25-hugo-setup/][配置注意事项]]
