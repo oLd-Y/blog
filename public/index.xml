@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>谷丽杳的博客</title>
-    <link>http://localhost:7805/</link>
+    <link>http://localhost:8945/</link>
     <description>Recent content on 谷丽杳的博客</description>
     <image>
       <title>谷丽杳的博客</title>
-      <url>http://localhost:7805/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:7805/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:8945/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:8945/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.124.1</generator>
     <language>zh</language>
     <lastBuildDate>Wed, 10 Apr 2024 21:11:38 +0800</lastBuildDate>
-    <atom:link href="http://localhost:7805/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:8945/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntu 默认终端设置</title>
-      <link>http://localhost:7805/posts/ubuntu-%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF%E8%AE%BE%E7%BD%AE/</link>
+      <link>http://localhost:8945/posts/ubuntu-%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF%E8%AE%BE%E7%BD%AE/</link>
       <pubDate>Wed, 10 Apr 2024 21:11:38 +0800</pubDate>
-      <guid>http://localhost:7805/posts/ubuntu-%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF%E8%AE%BE%E7%BD%AE/</guid>
+      <guid>http://localhost:8945/posts/ubuntu-%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF%E8%AE%BE%E7%BD%AE/</guid>
       <description>Ubuntu 的默认终端不太好用, 在 ~/.inputrc 文件中, 加上一点设置:
 # do not show hidden files in the list set match-hidden-files off # auto complete ignoring case set show-all-if-ambiguous on set completion-ignore-case on &amp;#34;\e[A&amp;#34;: history-search-backward &amp;#34;\e[B&amp;#34;: history-search-forward 解释: show-all-if-ambiguous : 默认情况下，按下两次 &amp;lt;tab&amp;gt; 才会出现提示，现在只需要一次了。 match-hidden-files : 不显示隐藏文件，特别是当你在 Home 目录时，你会觉得眼前好干净。 completion-ignore-case : 在自动补全时忽略大小写 history-search-* : 输入某个命令的一部分时，按上下箭头，会匹配关于这个这命令最近的使用历史。
 原链接</description>
     </item>
     <item>
       <title>使用 git 让 org 目录和 hugo 博客目录同步</title>
-      <link>http://localhost:7805/posts/%E4%BD%BF%E7%94%A8-git-%E8%AE%A9-org-%E7%9B%AE%E5%BD%95%E5%92%8C-hugo-%E5%8D%9A%E5%AE%A2%E7%9B%AE%E5%BD%95%E5%90%8C%E6%AD%A5/</link>
+      <link>http://localhost:8945/posts/%E4%BD%BF%E7%94%A8-git-%E8%AE%A9-org-%E7%9B%AE%E5%BD%95%E5%92%8C-hugo-%E5%8D%9A%E5%AE%A2%E7%9B%AE%E5%BD%95%E5%90%8C%E6%AD%A5/</link>
       <pubDate>Mon, 08 Apr 2024 12:40:04 +0800</pubDate>
-      <guid>http://localhost:7805/posts/%E4%BD%BF%E7%94%A8-git-%E8%AE%A9-org-%E7%9B%AE%E5%BD%95%E5%92%8C-hugo-%E5%8D%9A%E5%AE%A2%E7%9B%AE%E5%BD%95%E5%90%8C%E6%AD%A5/</guid>
+      <guid>http://localhost:8945/posts/%E4%BD%BF%E7%94%A8-git-%E8%AE%A9-org-%E7%9B%AE%E5%BD%95%E5%92%8C-hugo-%E5%8D%9A%E5%AE%A2%E7%9B%AE%E5%BD%95%E5%90%8C%E6%AD%A5/</guid>
       <description>同步脚本 使用 org-mode 和 hugo 搭建博客的时候, 总是需要频繁地使用 git add ., git commit -m &amp;quot;XXX&amp;quot;, git push origin main 命令同步到远程仓库, 如果 org 文件夹和 hugo 站点目录不在同一个文件夹下的话, 就需要执行两遍这样的操作, 很是繁琐. 可以利用以下脚本自动执行相关命令:
 #!/bin/bash # Define the paths to the two repositories repo1=&amp;#34;$HOME/org/&amp;#34; repo2=&amp;#34;$HOME/blog/&amp;#34; # Get the current date and time current_time=$(date &amp;#34;+%Y-%m-%d %H:%M:%S&amp;#34;) # Change to the first repository and pull any new changes cd &amp;#34;$repo1&amp;#34; git add . # Add and commit any new changes with a default message if [ $# -ge 1 ]; then git commit -m &amp;#34;$1 - $current_time&amp;#34; else git commit -m &amp;#34;Commit from $repo1 - $current_time&amp;#34; fi git pull origin main # Push the changes to the remote repository git push origin main # Change to the second repository and repeat the process cd &amp;#34;$repo2&amp;#34; git add .</description>
     </item>
     <item>
       <title>设置默认的声音输出设备</title>
-      <link>http://localhost:7805/posts/%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%9A%84%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E8%AE%BE%E5%A4%87/</link>
+      <link>http://localhost:8945/posts/%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%9A%84%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E8%AE%BE%E5%A4%87/</link>
       <pubDate>Mon, 08 Apr 2024 12:28:33 +0800</pubDate>
-      <guid>http://localhost:7805/posts/%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%9A%84%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E8%AE%BE%E5%A4%87/</guid>
+      <guid>http://localhost:8945/posts/%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%9A%84%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E8%AE%BE%E5%A4%87/</guid>
       <description>使用带有监听耳机插口的麦克风时, 会默认将其监听接口作为输出设备, 每次重启系统都需要重新设置, 很烦, 所以需要重新设置默认的. 在终端中执行以下命令进行设置:
 查看设备名称 pactl list sinks 查看你在设置的“声音”中的设备具体是什么名称, 比如我的设置中的名称为 Line Out - Built-in Audio, 实际的名称为 alsa_output.pci-0000_00_1f.3.analog-stereo.
 修改默认设备 执行一下命令修改默认的音频输出设备
@@ -42,51 +42,51 @@ pactl set-default-sink alsa_output.pci-0000_00_1f.3.analog-stereo 然后在 star
     </item>
     <item>
       <title>ox-hugo 自动生成模板代码解析</title>
-      <link>http://localhost:7805/posts/ox-hugo-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%A8%A1%E6%9D%BF%E4%BB%A3%E7%A0%81%E8%A7%A3%E6%9E%90/</link>
+      <link>http://localhost:8945/posts/ox-hugo-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%A8%A1%E6%9D%BF%E4%BB%A3%E7%A0%81%E8%A7%A3%E6%9E%90/</link>
       <pubDate>Mon, 08 Apr 2024 11:24:29 +0800</pubDate>
-      <guid>http://localhost:7805/posts/ox-hugo-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%A8%A1%E6%9D%BF%E4%BB%A3%E7%A0%81%E8%A7%A3%E6%9E%90/</guid>
+      <guid>http://localhost:8945/posts/ox-hugo-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%A8%A1%E6%9D%BF%E4%BB%A3%E7%A0%81%E8%A7%A3%E6%9E%90/</guid>
       <description>ox-hugo 单文件组织博客的教程中有这样一段代码(手动改造增加了一个 :ID: 属性):
 (defun org-hugo-new-subtree-post-capture-template () &amp;#34;Returns `org-capture&amp;#39; template string for new Hugo post. See `org-capture-templates&amp;#39; for more information.&amp;#34; (let* ((title (read-from-minibuffer &amp;#34;Post Title: &amp;#34;)) ;Prompt to enter the post title (fname (org-hugo-slug title)) (id (org-id-new))) ;Generate a new ID without a prefix (mapconcat #&amp;#39;identity `( ,(concat &amp;#34;* TODO &amp;#34; title) &amp;#34;:PROPERTIES:&amp;#34; ,(concat &amp;#34;:EXPORT_HUGO_BUNDLE: &amp;#34; fname) &amp;#34;:EXPORT_FILE_NAME: index&amp;#34; ,(concat &amp;#34;:ID: &amp;#34; id) ;Add the ID property &amp;#34;:END:&amp;#34; &amp;#34;%?\n&amp;#34;) ;Place the cursor here finally &amp;#34;\n&amp;#34;))) let*: 先定义变量, 再执行方法.</description>
     </item>
     <item>
       <title>ox-hugo org-template 理解</title>
-      <link>http://localhost:7805/posts/ox-hugo-org-template-%E7%90%86%E8%A7%A3/</link>
+      <link>http://localhost:8945/posts/ox-hugo-org-template-%E7%90%86%E8%A7%A3/</link>
       <pubDate>Mon, 08 Apr 2024 06:58:23 +0800</pubDate>
-      <guid>http://localhost:7805/posts/ox-hugo-org-template-%E7%90%86%E8%A7%A3/</guid>
+      <guid>http://localhost:8945/posts/ox-hugo-org-template-%E7%90%86%E8%A7%A3/</guid>
       <description>olp, org link path, org mode 中的标题层级路径.
 (add-to-list &amp;#39;org-capture-templates &amp;#39;(&amp;#34;h&amp;#34; ;`org-capture&amp;#39; binding + h &amp;#34;Hugo post&amp;#34; entry ;; It is assumed that below file is present in `org-directory&amp;#39; ;; and that it has a &amp;#34;Blog Ideas&amp;#34; heading. It can even be a ;; symlink pointing to the actual location of all-posts.org! (file+olp &amp;#34;roam/all-posts.org&amp;#34; &amp;#34;Blog Ideas&amp;#34;) (function org-hugo-new-subtree-post-capture-template)))) 对于上述代码, 如果希望在 * Blog Ideas, **Ideas 层级下生成博客, 就应该写成 (file+olp &amp;quot;roam/all-posts.org&amp;quot; &amp;quot;Blog Ideas&amp;quot; &amp;quot;Ideas&amp;quot;) doom emacs 中如果想要修改 org-capture-templates 的内容, 只需要找到 ~/.</description>
     </item>
     <item>
       <title>Angular Git 提交规范</title>
-      <link>http://localhost:7805/posts/angular-git-%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83/</link>
+      <link>http://localhost:8945/posts/angular-git-%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83/</link>
       <pubDate>Sun, 07 Apr 2024 20:29:01 +0800</pubDate>
-      <guid>http://localhost:7805/posts/angular-git-%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83/</guid>
+      <guid>http://localhost:8945/posts/angular-git-%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83/</guid>
       <description>格式 type(scope): subject
 type: 本次提交的类型, 必填. scope: 提交的范围, 指定相关文件夹, 更好定位错误, 可选. subject: 提交的描述, 必填. 例如 fix(src/login): 修改弹窗显示错误.
 type 的种类 type 描述 feat feature, 增加了一个新功能. fix 修复了 bug. style 仅修改了代码格式（如删除空格、换行等） docs documents, 修改了文档 build 修改了编译相关的内容，发布版本、对项目构建或者依赖，即npm、gulp、yarn等文件 ci 修改了持续集成，示例范围：Travis、Circle、BrowserStack、SauceLabs perf performance, 包含优化相关，比如提升性能、优化用户体验 test 包含测试用例的修改时 refactor 既不修复错误也不添加功能的代码更改 chore 有其他修改（不在上述类型中的修改） </description>
     </item>
     <item>
       <title>org-roam 节点</title>
-      <link>http://localhost:7805/posts/org-roam-%E8%8A%82%E7%82%B9/</link>
+      <link>http://localhost:8945/posts/org-roam-%E8%8A%82%E7%82%B9/</link>
       <pubDate>Sun, 07 Apr 2024 20:13:32 +0800</pubDate>
-      <guid>http://localhost:7805/posts/org-roam-%E8%8A%82%E7%82%B9/</guid>
+      <guid>http://localhost:8945/posts/org-roam-%E8%8A%82%E7%82%B9/</guid>
       <description>只要有个 ID 的元数据, 就可以被 org-roam 视为一个节点, 即
 :PROPERTIES::ID: xxx:END: </description>
     </item>
     <item>
       <title>ox-hugo 结合 org-download 粘贴图片</title>
-      <link>http://localhost:7805/posts/ox-hugo-%E7%BB%93%E5%90%88-org-download-%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/</link>
+      <link>http://localhost:8945/posts/ox-hugo-%E7%BB%93%E5%90%88-org-download-%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/</link>
       <pubDate>Sun, 07 Apr 2024 20:13:17 +0800</pubDate>
-      <guid>http://localhost:7805/posts/ox-hugo-%E7%BB%93%E5%90%88-org-download-%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/</guid>
+      <guid>http://localhost:8945/posts/ox-hugo-%E7%BB%93%E5%90%88-org-download-%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/</guid>
       <description>ox-hugo 提供了一个单文件组织博客的功能, 一直以为无法和 org-roam 联动, 就一直没用过. 后来发现原来只要 org 文件的某个 level 下有个 ID 就会被认为是 org-roam 的节点, 于是就放心使用了. hugo 提供了一个 Page Bundles 的功能, 稍微研究了一点, 发现比正常方式更好管理静态资源, 就决定使用这个方式了. 简单理解, page bundles 就是把博客从单个 markdown 文件变为一个文件夹里放着 index.md 和其他资源文件. 原先的 org-download 的配置如下所示:
 (use-package! org-download :after org :custom (org-download-method &amp;#39;directory) ) 我的单文件放在 ~/org/all-posts.org 下, 所有博客都放在这里. 大致的结构如下所示:
 #+title: All Posts #+begin_no_export #+options: author:nil ^:{} #+hugo_front_matter_format: yaml #+hugo_base_dir: ~/blog/ #+hugo_section: posts/ #+date: [24-04-07 Sun Apr:04] #+hugo_custom_front_matter: :toc true #+hugo_auto_set_lastmod: t #+hugo_tags: #+hugo_categories: #+hugo_draft: false #+end_no_export * BLog Ideas ** DONE test-page-bundle2 :ATTACH: :PROPERTIES: :EXPORT_HUGO_BUNDLE: test-page-bundle2 :EXPORT_FILE_NAME: index :ID: 5fd9659c-085a-443b-940a-be3c522be6ab :END: [[download:test-page-bundle2/_20240407_180600screenshot.</description>
     </item>
     <item>
       <title>emacs 使用 org-mode 搭配 ox-hugo 搭建博客</title>
-      <link>http://localhost:7805/posts/emacs-%E4%BD%BF%E7%94%A8-org-mode-%E6%90%AD%E9%85%8D-ox-hugo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>http://localhost:8945/posts/emacs-%E4%BD%BF%E7%94%A8-org-mode-%E6%90%AD%E9%85%8D-ox-hugo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sun, 07 Apr 2024 20:10:19 +0800</pubDate>
-      <guid>http://localhost:7805/posts/emacs-%E4%BD%BF%E7%94%A8-org-mode-%E6%90%AD%E9%85%8D-ox-hugo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>http://localhost:8945/posts/emacs-%E4%BD%BF%E7%94%A8-org-mode-%E6%90%AD%E9%85%8D-ox-hugo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>windows 中安装 hugo 到releases页面获取 hugo 的最新安装包，在本地解压之后将 hugo.exe 所在的文件夹加入到环境变量中。 可在命令行使用 hugo version 查看 hugo 是否安装成功 emacs 中安装 ox-hugo 普通安装 在emacs配置文件中加入下列代码:
 (with-eval-after-load &amp;#39;ox (require &amp;#39;ox-hugo)) use-pacakge 安装 或者可以使用use-package. 同样在emacs配置文件中加入下列代码:
 (use-package ox-hugo :ensure t :pin melpa :after ox) 安装完成之后就可以使用 c-c c-e 呼出 ox-hugo 的相关命令了
@@ -94,9 +94,9 @@ type 的种类 type 描述 feat feature, 增加了一个新功能. fix 修复了
     </item>
     <item>
       <title></title>
-      <link>http://localhost:7805/posts/obsidian-vim-%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%AD%E8%8B%B1%E7%8A%B6%E6%80%81/</link>
+      <link>http://localhost:8945/posts/obsidian-vim-%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%AD%E8%8B%B1%E7%8A%B6%E6%80%81/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7805/posts/obsidian-vim-%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%AD%E8%8B%B1%E7%8A%B6%E6%80%81/</guid>
+      <guid>http://localhost:8945/posts/obsidian-vim-%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%AD%E8%8B%B1%E7%8A%B6%E6%80%81/</guid>
       <description>https://github.com/gamife/im-select-cn 将上述地址中的代码复制到本地 解压之后将 im-select-cn.exe 的文件路径放到环境变量中 按照如下设置插件 重启 obsidian 即可.
 补充:
 在 cmd 使用 im-select-cn.exe 0|1|2 可以修改搜狗输入法的输入状态. 0 - 英文 1 - 中文 2 - 自动切换 </description>

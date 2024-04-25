@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Org-Mode on 谷丽杳的博客</title>
-    <link>http://localhost:7805/tags/org-mode/</link>
+    <link>http://localhost:8945/tags/org-mode/</link>
     <description>Recent content in Org-Mode on 谷丽杳的博客</description>
     <image>
       <title>谷丽杳的博客</title>
-      <url>http://localhost:7805/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:7805/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:8945/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:8945/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.124.1</generator>
     <language>zh</language>
     <lastBuildDate>Sun, 07 Apr 2024 20:13:17 +0800</lastBuildDate>
-    <atom:link href="http://localhost:7805/tags/org-mode/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:8945/tags/org-mode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ox-hugo 结合 org-download 粘贴图片</title>
-      <link>http://localhost:7805/posts/ox-hugo-%E7%BB%93%E5%90%88-org-download-%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/</link>
+      <link>http://localhost:8945/posts/ox-hugo-%E7%BB%93%E5%90%88-org-download-%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/</link>
       <pubDate>Sun, 07 Apr 2024 20:13:17 +0800</pubDate>
-      <guid>http://localhost:7805/posts/ox-hugo-%E7%BB%93%E5%90%88-org-download-%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/</guid>
+      <guid>http://localhost:8945/posts/ox-hugo-%E7%BB%93%E5%90%88-org-download-%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/</guid>
       <description>ox-hugo 提供了一个单文件组织博客的功能, 一直以为无法和 org-roam 联动, 就一直没用过. 后来发现原来只要 org 文件的某个 level 下有个 ID 就会被认为是 org-roam 的节点, 于是就放心使用了. hugo 提供了一个 Page Bundles 的功能, 稍微研究了一点, 发现比正常方式更好管理静态资源, 就决定使用这个方式了. 简单理解, page bundles 就是把博客从单个 markdown 文件变为一个文件夹里放着 index.md 和其他资源文件. 原先的 org-download 的配置如下所示:
 (use-package! org-download :after org :custom (org-download-method &amp;#39;directory) ) 我的单文件放在 ~/org/all-posts.org 下, 所有博客都放在这里. 大致的结构如下所示:
 #+title: All Posts #+begin_no_export #+options: author:nil ^:{} #+hugo_front_matter_format: yaml #+hugo_base_dir: ~/blog/ #+hugo_section: posts/ #+date: [24-04-07 Sun Apr:04] #+hugo_custom_front_matter: :toc true #+hugo_auto_set_lastmod: t #+hugo_tags: #+hugo_categories: #+hugo_draft: false #+end_no_export * BLog Ideas ** DONE test-page-bundle2 :ATTACH: :PROPERTIES: :EXPORT_HUGO_BUNDLE: test-page-bundle2 :EXPORT_FILE_NAME: index :ID: 5fd9659c-085a-443b-940a-be3c522be6ab :END: [[download:test-page-bundle2/_20240407_180600screenshot.</description>
