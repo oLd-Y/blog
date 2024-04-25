@@ -1,7 +1,7 @@
 ---
 title: "ox-hugo 结合 org-download 粘贴图片"
 lastmod: 2024-04-07T20:13:17+08:00
-tags: ["ATTACH"]
+tags: ["org-mode"]
 draft: false
 toc: true
 ---
