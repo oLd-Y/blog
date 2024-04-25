@@ -2,6 +2,7 @@
 date: 2024-4-25
 share: "true"
 ---
+# Obsidian Vim 自动切换搜狗输入法中英状态
 https://github.com/gamife/im-select-cn
 将上述地址中的代码复制到本地
 解压之后将 `im-select-cn.exe` 的文件路径放到环境变量中
