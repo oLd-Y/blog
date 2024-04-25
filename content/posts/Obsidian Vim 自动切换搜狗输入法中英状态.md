@@ -1,0 +1,17 @@
+---
+date: 2024-4-25
+share: "true"
+---
+https://github.com/gamife/im-select-cn
+将上述地址中的代码复制到本地
+解压之后将 `im-select-cn.exe` 的文件路径放到环境变量中
+按照如下设置插件
+![Pasted image 20240412163932.png](/images/Pasted%20image%2020240412163932.png)
+重启 obsidian 即可.
+
+补充:
+
+- 在 `cmd` 使用 `im-select-cn.exe 0|1|2` 可以修改搜狗输入法的输入状态.
+- 0 - 英文
+- 1 - 中文
+- 2 - 自动切换
