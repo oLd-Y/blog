@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "设置默认的声音输出设备.md",
+                "file": "01 TODO.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "设置默认的声音输出设备.md",
+                "file": "01 TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "设置默认的声音输出设备.md",
+                "file": "01 TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "设置默认的声音输出设备.md"
+                "file": "01 TODO.md"
               }
             }
           },
@@ -165,12 +165,35 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "d7850c7966211d08",
   "lastOpenFiles": [
-    "双系统卸载 Ubuntu.md",
-    "使用 PaperMod 和 Hugo 搭建博客.md",
     "WSL 安装.md",
     "Windows 自动推送 git 脚本.md",
+    "使用 PaperMod 和 Hugo 搭建博客.md",
+    "设置默认的声音输出设备.md",
+    "设置默认的声音输出设备/index.md",
+    "设置默认的声音输出设备",
+    "使用-git-让-org-目录和-hugo-博客目录同步/index.md",
+    "使用-git-让-org-目录和-hugo-博客目录同步",
+    "ubuntu-默认终端设置/index.md",
+    "ubuntu-默认终端设置",
+    "ox-hugo-自动生成模板代码解析/index.md",
+    "ox-hugo-自动生成模板代码解析",
+    "ox-hugo-结合-org-download-粘贴图片/index.md",
+    "ox-hugo-结合-org-download-粘贴图片",
+    "ox-hugo-org-template-理解/index.md",
+    "ox-hugo-org-template-理解",
+    "org-roam-节点/index.md",
+    "org-roam-节点",
+    "hugo-开启搜索功能/index.md",
+    "hugo-开启搜索功能",
+    "git-clone-参数解析/index.md",
+    "git-clone-参数解析",
+    "emacs-使用-org-mode-搭配-ox-hugo-搭建博客/index.md",
+    "emacs-使用-org-mode-搭配-ox-hugo-搭建博客",
+    "Doom-emacs-快速添加括号/index.md",
+    "Angular-Git-提交规范/index.md",
+    "双系统卸载 Ubuntu.md",
     "Windows 显卡硬件加速.md",
     "Windows 全局新建笔记.md",
     "Windows 利用 auto hotkey 模拟常用 emacs 快捷键.md",
@@ -180,29 +203,6 @@
     "SD 关键词记录.md",
     "reading notes -《Automatic Habits》.md",
     "obsidian publisher 文章模板.md",
-    "01 TODO.md",
-    "daily/2024-04-23.md",
-    "daily/2024-04-22.md",
-    "daily/2024-04-15.md",
-    "daily",
-    "_Templates/hugo.md",
-    "_Templates",
-    "维生素采购和使用.md",
-    "Ubuntu 默认终端设置.md",
-    "ox-hugo org-template 理解.md",
-    "ox-hugo 自动生成模板代码解析.md",
-    "ox-hugo 结合 org-download 粘贴图片.md",
-    "org-roam 节点.md",
-    "hugo 开启搜索功能.md",
-    "git clone 参数解析.md",
-    "设置默认的声音输出设备",
-    "使用-git-让-org-目录和-hugo-博客目录同步",
-    "ubuntu-默认终端设置",
-    "ox-hugo-自动生成模板代码解析",
-    "ox-hugo-结合-org-download-粘贴图片",
-    "ox-hugo-org-template-理解",
-    "org-roam-节点",
-    "hugo-开启搜索功能",
     "Pasted image 20240412163932.png",
     "Pasted image 20240412083715.png",
     "Pasted image 20240412083742.png"
