@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Doom emacs 快速添加括号.md",
+                "file": "git 清空提交历史.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Doom emacs 快速添加括号.md",
+                "file": "git 清空提交历史.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Doom emacs 快速添加括号.md",
+                "file": "git 清空提交历史.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Doom emacs 快速添加括号.md"
+                "file": "git 清空提交历史.md"
               }
             }
           },
@@ -167,10 +167,11 @@
   },
   "active": "d7850c7966211d08",
   "lastOpenFiles": [
+    "Doom emacs 快速添加括号.md",
+    "test.md",
     "双系统卸载 Ubuntu.md",
     "reading notes -《Automatic Habits》.md",
     "_Templates/hugo.md",
-    "test.md",
     "git 清空提交历史.md",
     "Windows 自动推送 git 脚本.md",
     "01 TODO.md",
@@ -202,7 +203,6 @@
     "Windows 显卡硬件加速.md",
     "Windows 全局新建笔记.md",
     "Windows 利用 auto hotkey 模拟常用 emacs 快捷键.md",
-    "Windows 解决 wsl 代理问题.md",
     "Pasted image 20240412163932.png",
     "Pasted image 20240412083715.png",
     "Pasted image 20240412083742.png"
