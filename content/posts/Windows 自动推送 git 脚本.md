@@ -8,27 +8,32 @@ hideInList: false
 isTop: false
 feature: 
 share: "true"
-lastmod: 2024-04-26T18:34:11+08:00
+lastmod: 2024-04-26T20:51:12+08:00
 ---
 
 # 编写脚本
 
 ```batch
 @echo off
-setlocal
+echo "DOCS PUSH BAT"
 
-set "datestamp=%date:~0,4%%date:~5,2%%date:~8,2%"
-set "timestamp=%time:~0,2%%time:~3,2%%time:~6,2%"
-set "datetime=%datestamp%_%timestamp%"
+echo "1. Move to working directory" 
+D:
+cd D:\home\guolianyao\blog\
 
-cd /d D:\home\guolianyao\blog
-
+echo "2. Start submitting code to the local repository"
 git add .
-git status
-git commit -m "自动推送 - %datetime%"
-git push -u origin main
 
-endlocal
+echo "3. Commit the changes to the local repository"
+set now=%date% %time%
+echo "Time:" %now%
+git commit -m "%now%"
+
+echo "4. Push the changes to the remote git server"
+git push -uf origin main 
+
+echo "Batch execution complete!"
+pause
 ```
 
 # 设置 Windows 定时任务

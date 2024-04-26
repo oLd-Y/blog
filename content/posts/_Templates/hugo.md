@@ -1,13 +1,12 @@
 ---
-title:
-  "{ NAME }": 
-tags:
-  - "{ VALUE:tag？ }": 
-date:
-  "{ DATE:YYYY-MM-DD HH:mm:ss }": 
+tags: 
 draft: true
 hideInList: false
 isTop: false
 feature: 
-lastmod: 2024-04-26T18:07:23+08:00
+lastmod: 2024-04-26T21:06:23+08:00
+title: "{{NAME}}"
+date: "{{DATE}}"
 ---
+test
+

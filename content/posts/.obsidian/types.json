@@ -4,6 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "share": "checkbox",
-    "date": "date"
+    "date": "text",
+    "title": "text"
   }
 }

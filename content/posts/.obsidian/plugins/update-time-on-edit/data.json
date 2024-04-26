@@ -22,21 +22,22 @@
     "ox-hugo 自动生成模板代码解析.md": "ed9bbddbd64a83513eb2ddbde20894def4a9736609db85749661fabdc6b2c9eb",
     "ox-hugo org-template 理解.md": "fd14f6e1db1a729812edd7454cd6d7f44bbd994d05ee1a3716d4c20964c755fa",
     "Ubuntu 默认终端设置.md": "158e8f2594f78399a4d261095550f8106c680bf05b2ff9a29c29a1007a41bb6f",
-    "01 TODO.md": "6a6c18b70ad64236e51e37be1d3d65a15c0a601b11148a963f912e10d27c64fc",
+    "01 TODO.md": "baf67beb3721bf89d64dff740fc40be8bcd680e2fb732f633bf723cb1b27762e",
     "SD 关键词记录.md": "a701ace6f9d2c9a76581d8d95ba745cd21ca1435efbcaf9d51d48bf2aca1ccc9",
     "WSL 安装.md": "2f7d7b1808e0c463a90132a1eaf958e5e4516c0ead7f9dccbfdf8757e1b9dde2",
     "Windows 全局新建笔记.md": "89655c80c6ccf1b1571aaa323f66767639b4029d46ea5f9328157ae988d70e56",
     "Windows 利用 auto hotkey 模拟常用 emacs 快捷键.md": "e616b7ca9f53b7770e1491f01bb4c37ebcd358a2f1bbb14b52447171a4e517ce",
     "Windows 显卡硬件加速.md": "56b4a1a2e4e89147826385bfdd808d84339f990970f7c41d86a5a7c1f835a88b",
-    "Windows 自动推送 git 脚本.md": "ea93deced6a146dfdfeee88c61c17a6899a6c24f0945e7783876f88169867685",
+    "Windows 自动推送 git 脚本.md": "b66394c869ad7de47fa80f3641ba0c0bf7fda3162a58954030b5f3d353546e91",
     "Windows 解决 wsl 代理问题.md": "734fae6089d81c3e2064d66585d610b899b65a2e230bfc489e0f98d7e75f8293",
-    "_Templates/hugo.md": "d3f328f1a905ea9b5e60ff20277ab0f4d64086ad45c474fd10ff67650fe1cf5c",
+    "_Templates/hugo.md": "9380aa0a57e0567056e549aee343b28f008213f18c2e0737a477ca0c9c5c4a60",
     "daily/2024-04-22.md": "2f1580bc4cc0dfcbccf1b4815ad47cdf2f7ca6690d531e8714248c7f2b10fb84",
     "obsidian publisher 文章模板.md": "420028bfaa2049baa40f95e30dc86574ab7ed81bb16ccaf737616784daa235cd",
-    "reading notes -《Automatic Habits》.md": "54bc63db0530dba7436caede10a2a7eb7f14b37ba850d3cecaf42c0a3f7fe11c",
+    "reading notes -《Automatic Habits》.md": "ea26e5441835741a2a1f428a93a1b081d2efaf7afcb82adf1966d774079e1da1",
     "vscode vim 快捷键.md": "956c44199d3639bd670e872a13ead949eaeb854cbaeeceafe9a40b117b961b53",
     "使用 PaperMod 和 Hugo 搭建博客.md": "eaaadd240a38e896d0579acfd41155818e1237ec1223aaa89afd22a907fab60e",
-    "双系统卸载 Ubuntu.md": "a0028849fbce5da0d0e8c30a94d7d6b4bc4b8204ef3159cc6e384606cf34c4c8",
-    "维生素采购和使用.md": "a83722c2630050a3a9eca652a3a8ebb8cfa878a857817c62a3ed3325fc5900f6"
+    "双系统卸载 Ubuntu.md": "17e5143d5b41aada26b77b82fbec8b7ccc020da7a592785a6e3007493438989b",
+    "维生素采购和使用.md": "a83722c2630050a3a9eca652a3a8ebb8cfa878a857817c62a3ed3325fc5900f6",
+    "git 清空提交历史.md": "611c3a157e7e507da49b850611613208de02b8edd3d2fa6ca6e880ab8a423604"
   }
 }

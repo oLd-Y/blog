@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 TODO.md",
+                "file": "Doom emacs 快速添加括号.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "angular",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 TODO.md",
+                "file": "Doom emacs 快速添加括号.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 TODO.md",
+                "file": "Doom emacs 快速添加括号.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 TODO.md"
+                "file": "Doom emacs 快速添加括号.md"
               }
             }
           },
@@ -167,8 +167,14 @@
   },
   "active": "d7850c7966211d08",
   "lastOpenFiles": [
-    "WSL 安装.md",
+    "双系统卸载 Ubuntu.md",
+    "reading notes -《Automatic Habits》.md",
+    "_Templates/hugo.md",
+    "test.md",
+    "git 清空提交历史.md",
     "Windows 自动推送 git 脚本.md",
+    "01 TODO.md",
+    "WSL 安装.md",
     "使用 PaperMod 和 Hugo 搭建博客.md",
     "设置默认的声音输出设备.md",
     "设置默认的声音输出设备/index.md",
@@ -193,16 +199,10 @@
     "emacs-使用-org-mode-搭配-ox-hugo-搭建博客",
     "Doom-emacs-快速添加括号/index.md",
     "Angular-Git-提交规范/index.md",
-    "双系统卸载 Ubuntu.md",
     "Windows 显卡硬件加速.md",
     "Windows 全局新建笔记.md",
     "Windows 利用 auto hotkey 模拟常用 emacs 快捷键.md",
     "Windows 解决 wsl 代理问题.md",
-    "Windows 关闭显存共享.md",
-    "vscode vim 快捷键.md",
-    "SD 关键词记录.md",
-    "reading notes -《Automatic Habits》.md",
-    "obsidian publisher 文章模板.md",
     "Pasted image 20240412163932.png",
     "Pasted image 20240412083715.png",
     "Pasted image 20240412083742.png"
