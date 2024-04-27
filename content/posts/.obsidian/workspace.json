@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git 清空提交历史.md",
+                "file": "_Templates/hugo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4312fa544594e9d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "test.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "按照",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git 清空提交历史.md",
+                "file": "test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git 清空提交历史.md",
+                "file": "test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git 清空提交历史.md"
+                "file": "test.md"
               }
             }
           },
@@ -165,14 +178,14 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "d7850c7966211d08",
+  "active": "4312fa544594e9d8",
   "lastOpenFiles": [
-    "Doom emacs 快速添加括号.md",
+    "_Templates/hugo.md",
     "test.md",
     "双系统卸载 Ubuntu.md",
-    "reading notes -《Automatic Habits》.md",
-    "_Templates/hugo.md",
     "git 清空提交历史.md",
+    "Doom emacs 快速添加括号.md",
+    "reading notes -《Automatic Habits》.md",
     "Windows 自动推送 git 脚本.md",
     "01 TODO.md",
     "WSL 安装.md",
