@@ -4,13 +4,13 @@ draft: true
 hideInList: false
 isTop: false
 feature: 
-lastmod: 2024-04-26T21:02:38+08:00
+lastmod: 2024-04-26T22:50:45+08:00
 title: git 清空提交历史
 date: 2024-04-26
 ---
 执行下列命令
 ```shell
-git checkout --orphan latest_branch # 创建一个只包含当前提交记录的分支
+git checkout --orphan latest_branch # 创建并切换到一个只包含当前提交记录的分支
 git add .
 git commit -m "message"
 git branch -D main # 删除原来的 main 分支
