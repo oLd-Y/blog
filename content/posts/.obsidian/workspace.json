@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Templates/hugo.md",
+                "file": "test.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Templates/hugo.md",
+                "file": "test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Templates/hugo.md",
+                "file": "test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Templates/hugo.md"
+                "file": "test.md"
               }
             }
           },
@@ -166,10 +166,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4312fa544594e9d8",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "test.md",
     "_Templates/hugo.md",
+    "test.md",
     "双系统卸载 Ubuntu.md",
     "git 清空提交历史.md",
     "Doom emacs 快速添加括号.md",
