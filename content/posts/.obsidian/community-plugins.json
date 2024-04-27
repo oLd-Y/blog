@@ -2,7 +2,6 @@
   "obsidian-git",
   "vim-im-select",
   "obsidian-advanced-uri",
-  "tray",
   "obsidian-style-settings",
   "obsidian-tasks-plugin",
   "mermaid-tools",
@@ -15,5 +14,7 @@
   "obsidian-image-auto-upload-plugin",
   "obsidian-pangu",
   "quickadd",
-  "update-time-on-edit"
+  "update-time-on-edit",
+  "table-editor-obsidian",
+  "obsidian-latex-suite"
 ]

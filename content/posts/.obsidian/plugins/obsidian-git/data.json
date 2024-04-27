@@ -54,5 +54,5 @@
     "lastShownAuthorDisplay": "initials",
     "lastShownDateTimeFormatOptions": "date"
   },
-  "autoCommitMessage": "{{files}} changed: - {{date}}"
+  "autoCommitMessage": "auto backup, {{files}} changed, {{date}}"
 }
