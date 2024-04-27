@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d7850c7966211d08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Templates/hugo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4312fa544594e9d8",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
