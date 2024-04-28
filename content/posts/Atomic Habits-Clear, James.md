@@ -12,7 +12,7 @@ readingTime: 2小时38分钟
 readingDate: 2024-01-07
 isbn: 
 lastReadDate: 2024-04-26
-
+lastmod: 2024-04-28T11:27:18+08:00
 ---
 # 元数据
 > [!abstract] Atomic Habits
@@ -35,10 +35,10 @@ lastReadDate: 2024-04-26
 
 ### 1: The Surprising Power of Atomic Habits
 
-> 📌  he referred to as “the aggregation of marginal gains,”which was the philosophy of searching for a tiny margin of improvement ineverything you do. Brailsford said, “ The whole principle came from theidea that if you broke down everything you could think of that goes intoriding a bike, and then improve it by 1 percent, you will get a significantincrease when you put them all together. ^CB-7xbFkhFlKG9h6lV6ksG2y4VK-7-2595-3052
+> 📌  he referred to as “the aggregation of marginal gains, ”which was the philosophy of searching for a tiny margin of improvement in everything you do. Brailsford said, “ The whole principle came from the idea that if you broke down everything you could think of that goes into riding a bike, and then improve it by 1 percent, you will get a significant increase when you put them all together. ^CB-7xbFkhFlKG9h6lV6ksG2y4VK-7-2595-3052
 - 💭 首先要开始做, 有成品之后从各个环节提升1%. - ⏱ 2024-04-24 13:54:48 
 
-> 📌 It is so easy to overestimate the importance of one defining moment andunderestimate the value of making small improvements on a daily basis 
+> 📌 It is so easy to overestimate the importance of one defining moment and underestimate the value of making small improvements on a daily basis 
 > ⏱ 2024-04-24 14:31:27 ^CB-7xbFkhFlKG9h6lV6ksG2y4VK-7-7691-7832
 
 > 📌 Habits are the compound interest of self-improvement. 
