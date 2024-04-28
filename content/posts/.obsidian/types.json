@@ -5,6 +5,7 @@
     "tags": "tags",
     "share": "checkbox",
     "date": "text",
-    "title": "text"
+    "title": "text",
+    "cover": "multitext"
   }
 }

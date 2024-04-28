@@ -107,9 +107,16 @@ params:
       SiteVerificationTag: "XYZabc"
 
   cover:
+    image: "<image path/url>"
+    # can also paste direct link from external site
+    # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
+    alt: "<alt text>"
+    caption: "<text>"
+    relative: false # To use relative path for cover image, used in hugo Page-bundles
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
+    linkFullImages: true
 
   editPost:
     URL: "https://github.com/<path_to_repo>/content"
