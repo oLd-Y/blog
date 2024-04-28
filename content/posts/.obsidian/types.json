@@ -6,6 +6,7 @@
     "share": "checkbox",
     "date": "text",
     "title": "text",
-    "cover": "multitext"
+    "cover": "multitext",
+    "cover.image": "text"
   }
 }

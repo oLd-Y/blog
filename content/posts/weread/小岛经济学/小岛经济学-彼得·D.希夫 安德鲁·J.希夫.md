@@ -16,6 +16,7 @@ category: 经济理财-财经
 publisher: 中信出版集团
 publishTime: 2016-09-01 00:00:00
 isbn: 9787508649221
+cover.image: https://cdn.weread.qq.com/weread/cover/76/YueWen_912417/t7_YueWen_912417.jpg
 
 ---
 # 元数据
