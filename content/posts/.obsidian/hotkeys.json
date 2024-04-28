@@ -155,14 +155,6 @@
       "key": "T"
     }
   ],
-  "obsidian-tasks-plugin:toggle-done": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "D"
-    }
-  ],
   "obsidian-pangu:pangu-format": [
     {
       "modifiers": [

@@ -1,3 +1,5 @@
 {
-  "folder": "/daily/"
+  "folder": "/daily/",
+  "format": "YYYY-MM-DD_dddd",
+  "template": "_Templates/hugo"
 }
