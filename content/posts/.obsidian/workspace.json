@@ -28,24 +28,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "fe9fb8d1f121286e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "47cc5b0ac7ffe8a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "git 清空提交历史.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -177,7 +159,7 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "4312fa544594e9d8",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
     "weread/傲慢与偏见（上）英文版/傲慢与偏见（上）英文版-简·奥斯汀.md",
     "weread/明朝那些事儿（全集）/明朝那些事儿（全集）-当年明月.md",
