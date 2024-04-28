@@ -13,7 +13,6 @@ readingDate: 2023-05-19
 finishedDate: 2023-05-31
 isbn: 
 lastReadDate: 2023-05-31
-category: 
 
 ---
 # 元数据

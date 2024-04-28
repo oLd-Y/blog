@@ -13,7 +13,6 @@ readingDate: 2022-08-17
 finishedDate: 2022-08-23
 isbn: 9787508649221
 lastReadDate: 2022-08-23
-category: 经济理财-财经
 
 ---
 # 元数据
