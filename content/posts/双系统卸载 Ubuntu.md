@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-04-27T09:04:33+08:00
+lastmod: 2024-04-28T13:27:32+08:00
 title: 双系统卸载 Ubuntu
 tags:
   - Ubuntu

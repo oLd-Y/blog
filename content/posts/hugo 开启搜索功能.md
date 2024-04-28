@@ -1,8 +1,9 @@
 ---
 title: hugo 开启搜索功能
-lastmod: 2024-04-26T18:07:23+08:00
+lastmod: 2024-04-28T13:25:39+08:00
 draft: true
 toc: true
+hideInList: false
 ---
 
 [Hugo系列(3.0) - LoveIt主题美化与博客功能增强 · 第一章 - Yulin Lewis' Blog](https://lewky233.top/posts/hugo-3.html/#%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD)

@@ -1,5 +1,6 @@
 ---
-lastmod: 2024-04-26T18:07:23+08:00
+lastmod: 2024-04-28T13:26:42+08:00
+hideInList: false
 ---
 # 解决方法
 在 windows 的 `%USERPROFILE%` 目录下打开或新建 `.wslconfig` 文件并输入如下代码:

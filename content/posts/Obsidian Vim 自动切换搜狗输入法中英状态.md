@@ -2,7 +2,8 @@
 date: 2024-4-25
 share: "true"
 title: Obsidian Vim 自动切换搜狗输入法中英状态
-lastmod: 2024-04-26T18:07:23+08:00
+lastmod: 2024-04-28T13:25:58+08:00
+hideInList: false
 ---
 
 https://github.com/gamife/im-select-cn

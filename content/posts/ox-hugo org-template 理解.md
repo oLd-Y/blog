@@ -1,8 +1,9 @@
 ---
 title: ox-hugo org-template 理解
-lastmod: 2024-04-26T18:07:23+08:00
+lastmod: 2024-04-28T13:26:14+08:00
 draft: false
 toc: true
+hideInList: false
 ---
 
 olp, org link path, org mode 中的标题层级路径.

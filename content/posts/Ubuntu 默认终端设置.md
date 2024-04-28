@@ -1,8 +1,9 @@
 ---
 title: Ubuntu 默认终端设置
-lastmod: 2024-04-26T18:07:23+08:00
+lastmod: 2024-04-28T13:26:28+08:00
 draft: false
 toc: true
+hideInList: false
 ---
 
 Ubuntu 的默认终端不太好用, 在 ~/.inputrc 文件中, 加上一点设置:

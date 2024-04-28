@@ -1,8 +1,9 @@
 ---
 title: ox-hugo 自动生成模板代码解析
-lastmod: 2024-04-26T18:07:23+08:00
+lastmod: 2024-04-28T13:26:10+08:00
 draft: false
 toc: true
+hideInList: false
 ---
 
 ox-hugo 单文件组织博客的教程中有这样一段代码(手动改造增加了一个 `:ID:` 属性):

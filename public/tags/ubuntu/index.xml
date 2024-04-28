@@ -2,26 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ubuntu on 谷丽杳的博客</title>
-    <link>http://localhost:8945/tags/ubuntu/</link>
+    <link>http://localhost:1313/tags/ubuntu/</link>
     <description>Recent content in Ubuntu on 谷丽杳的博客</description>
     <image>
       <title>谷丽杳的博客</title>
-      <url>http://localhost:8945/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:8945/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.124.1</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 08 Apr 2024 12:28:33 +0800</lastBuildDate>
-    <atom:link href="http://localhost:8945/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Apr 2024 13:28:19 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>设置默认的声音输出设备</title>
-      <link>http://localhost:8945/posts/%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%9A%84%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E8%AE%BE%E5%A4%87/</link>
-      <pubDate>Mon, 08 Apr 2024 12:28:33 +0800</pubDate>
-      <guid>http://localhost:8945/posts/%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%9A%84%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E8%AE%BE%E5%A4%87/</guid>
+      <link>http://localhost:1313/posts/%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%9A%84%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E8%AE%BE%E5%A4%87/</link>
+      <pubDate>Sun, 28 Apr 2024 13:28:19 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%9A%84%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E8%AE%BE%E5%A4%87/</guid>
       <description>使用带有监听耳机插口的麦克风时, 会默认将其监听接口作为输出设备, 每次重启系统都需要重新设置, 很烦, 所以需要重新设置默认的. 在终端中执行以下命令进行设置:
 查看设备名称 pactl list sinks 查看你在设置的“声音”中的设备具体是什么名称, 比如我的设置中的名称为 Line Out - Built-in Audio, 实际的名称为 alsa_output.pci-0000_00_1f.3.analog-stereo.
 修改默认设备 执行一下命令修改默认的音频输出设备
 pactl set-default-sink alsa_output.pci-0000_00_1f.3.analog-stereo 然后在 start applications 中把这行命令加入开机自启即可.</description>
+    </item>
+    <item>
+      <title>双系统卸载 Ubuntu</title>
+      <link>http://localhost:1313/posts/%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%8D%B8%E8%BD%BD-ubuntu/</link>
+      <pubDate>Sun, 28 Apr 2024 13:27:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%8D%B8%E8%BD%BD-ubuntu/</guid>
+      <description>https://bbs.huaweicloud.com/blogs/303695 按照文中 2, 3 步操作即可.</description>
     </item>
   </channel>
 </rss>

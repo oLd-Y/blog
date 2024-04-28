@@ -1,10 +1,11 @@
 ---
 title: ox-hugo 结合 org-download 粘贴图片
-lastmod: 2024-04-26T18:07:23+08:00
+lastmod: 2024-04-28T13:26:05+08:00
 tags:
   - org-mode
 draft: false
 toc: true
+hideInList: false
 ---
 
 ox-hugo 提供了一个单文件组织博客的功能, 一直以为无法和 org-roam 联动, 就一直没用过. 后来发现原来只要 org 文件的某个 level 下有个 ID 就会被认为是 org-roam 的节点, 于是就放心使用了.
