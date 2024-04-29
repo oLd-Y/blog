@@ -1,0 +1,55 @@
+---
+title: {{metaData.title}}
+author: {{metaData.author}}
+category: {{metaData.category}}
+publisher: {{metaData.publisher}}
+publishTime: {{metaData.publishTime}}
+isbn: {{metaData.isbn}}
+bookId: {{metaData.bookId}}
+cover.image: {{metaData.cover}}
+cover: 
+---
+# 元数据
+> [!abstract]- {{metaData.title}}
+> - ![ {{metaData.title}}|200]({{metaData.cover}})
+> - 书名： {{metaData.title}}
+> - 作者： {{metaData.author}}
+> - 简介： {{metaData.intro}}
+> - 出版时间： {{metaData.publishTime}}
+> - ISBN： {{metaData.isbn}}
+> - 分类： {{metaData.category}}
+> - 出版社： {{metaData.publisher}}
+
+# 高亮划线
+{% for chapter in chapterHighlights %}{% if chapter.level == 1 %}## {{chapter.chapterTitle}}{% elif chapter.level == 2 %}### {{chapter.chapterTitle}}{% elif chapter.level == 3 %}#### {{chapter.chapterTitle}}{% endif %}
+{% for highlight in chapter.highlights %}{% set colors = ['#ffce78', '#ff8a78', '#c69eff', '#78edff', '#87d37c', '#ffce78'] %}{% set highlightColor = colors[highlight.colorStyle] %}
+{% if highlight.reviewContent %}
+> [!Annotation]+ <span style="color: {{highlightColor}};">Annotation</span>
+> {{ highlight.markText | trim | replace("      ","") | replace("。”", "。”\n> ") | replace("。“", "。\n> “")| replace("”“","”\n> “") | replace("。 ", "。\n> ") | replace("”。","”。\n> ") | replace("  ", "\n> ") }}
+> {{ '---' }}
+> {{ highlight.reviewContent | replace('\n', '\n> ') }}
+{% else %}
+> [!Cite]+ <span style="color: {{highlightColor}};">Highlight</span>
+> {{ highlight.markText | trim | replace("      ","") | replace("。”", "。”\n> ") | replace("。“", "。\n> “")| replace("”“","”\n> “") | replace("。 ", "。\n> ") | replace("”。","”。\n> ") | replace("  ", "\n> ") }}
+> ^{{highlight.chapterUid}}-{{highlight.range}}
+{% endif %}{% endfor %}{% endfor %}
+{% if bookReview.chapterReviews  | length %}{{\n}}# 读书笔记{% endif %}
+{% for chapter in bookReview.chapterReviews %}{% if chapter.reviews or chapter.chapterReview %}
+### {{chapter.chapterTitle}}
+{% if  chapter.chapterReviews %}{% for chapterReview in chapter.chapterReviews %}
+#### 章节评论 No.{{loop.index}}
+{{chapterReview.content}}
+^{{chapterReview.reviewId}}{{\n}}{% endfor%}{% endif %}{% if chapter.reviews %}{# #### 划线评论 #}{%for review in chapter.reviews %}
+> [!Annotation] {{ review.abstract | truncate(12, true, "...") }}
+> {{review.abstract | trim | replace("      ","") | replace("。”", "。”\n> ") | replace("。“", "。\n> “")| replace("”“","”\n> “") | replace("。 ", "。\n> ") | replace("”。","”。\n> ") }} 
+> ^{{review.reviewId}}
+> {{ '---' }}
+> {{review.content | replace('\n', '\n> ')}}
+{% endfor %}{%endif %}{% endif %}{% endfor %}
+{% if bookReview.bookReviews | length %}
+## 本书评论
+{% for bookReview in bookReview.bookReviews %}
+> [!Review] 书评 No.{{loop.index}} 
+> {{bookReview.mdContent | replace("\r\n", "\n> ")}} 
+> ^{{bookReview.reviewId}}
+{% endfor%}{% endif %}

@@ -3,12 +3,12 @@ doc_type: weread-highlights-reviews
 bookId: CB_7xbFkhFlKG9h6lV6ksG2y4VK
 author: Clear, James
 cover: 
-reviewCount: 7
-noteCount: 14
+reviewCount: 8
+noteCount: 17
 readingStatus: 未标记
 progress: 3%
 totalReadDay: 11
-readingTime: 2小时54分钟
+readingTime: 2小时57分钟
 readingDate: 2024-01-07
 title: Atomic Habits
 category: 
@@ -16,7 +16,7 @@ publisher: Penguin Publishing Group
 publishTime: 
 isbn: 
 cover.image: https://res.weread.qq.com/wrepub/CB_GbJ1U11UZEV96i36gZ6nmEpt_parsecover
-
+lastmod: 2024-04-29T15:33:04+08:00
 ---
 # 元数据
 > [!abstract]- Atomic Habits
@@ -108,6 +108,21 @@ cover.image: https://res.weread.qq.com/wrepub/CB_GbJ1U11UZEV96i36gZ6nmEpt_parsec
 > ---
 > 目标是重要的，但一旦目标设立了之后，我们就只需要关注整个系统了。
 
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> 
+> ^7-36239-36270
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> 
+> ^7-36362-36454
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Furthermore, goals create an “either-or” conflict
+> ^7-37084-37133
+
 # 读书笔记
 
 ### 1: The Surprising Power of Atomic Habits
@@ -154,4 +169,10 @@ cover.image: https://res.weread.qq.com/wrepub/CB_GbJ1U11UZEV96i36gZ6nmEpt_parsec
 > ^392912636-7QJX5S2CO
 > ---
 > 目标是重要的，但一旦目标设立了之后，我们就只需要关注整个系统了。
+
+> [!Annotation] Goals restri...
+> Goals restrict your happiness. 
+> ^392912636-7QOxQnHch
+> ---
+> 快乐与悲伤都是从比较中得来的. 如果没有比较, 其实能够满足温饱, 能够进行娱乐, 其实就已经让人感到快乐了.   
 

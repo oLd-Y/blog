@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WeRead/纳瓦尔宝典.md",
+                "file": "daily/2024-04-29_Monday.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WeRead/纳瓦尔宝典.md",
+                "file": "daily/2024-04-29_Monday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WeRead/纳瓦尔宝典.md",
+                "file": "daily/2024-04-29_Monday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WeRead/纳瓦尔宝典.md"
+                "file": "daily/2024-04-29_Monday.md"
               }
             }
           }
@@ -174,7 +174,11 @@
   },
   "active": "6104b76a4f6bede8",
   "lastOpenFiles": [
+    "WeRead/Atomic Habits.md",
     "daily/2024-04-29_Monday.md",
+    "WeRead/傲慢与偏见（上）英文版.md",
+    "test.html",
+    "WeRead/纳瓦尔宝典.md",
     "daily.md",
     "_Templates/hugo.md",
     "蛤蟆先生去看心理医生-罗伯特·戴博德.md",
@@ -182,7 +186,6 @@
     "WeRead/谁动了我的奶酪.md",
     "WeRead/增广贤文（国学大书院）.md",
     "WeRead/人性的弱点.md",
-    "WeRead/傲慢与偏见（上）英文版.md",
     "WeRead/平凡的世界（全三册）.md",
     "WeRead/一本书读懂财报（全新修订版）.md",
     "WeRead/小岛经济学.md",
@@ -196,10 +199,8 @@
     "WeRead/高效能人士的七个习惯（30周年纪念版）打造一套全新的思维方式和原则体系（经典著作，附赠个人效能PEQ在线测评）.md",
     "WeRead/史蒂夫·乔布斯传（修订版）.md",
     "daily/+0020242024-04-29_Monday.md",
-    "WeRead/纳瓦尔宝典.md",
     "WeRead/亲密关系：通往灵魂的桥梁+无拘无束的关系（套装共2册）.md",
     "WeRead/圆圈正义.md",
-    "WeRead/乡土中国.md",
     "WeRead",
     "weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
     "weread/谁动了我的奶酪",
@@ -209,7 +210,6 @@
     "weread/平凡的世界（全三册）",
     "weread/一本书读懂财报（全新修订版）",
     "weread/小岛经济学",
-    "weread/福尔摩斯探案集（上）英文版",
     "Pasted image 20240412163932.png",
     "Pasted image 20240412083715.png",
     "Pasted image 20240412083742.png"
