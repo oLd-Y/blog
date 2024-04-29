@@ -8,39 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8bf4bd3d01001cee",
-            "type": "leaf",
-            "state": {
-              "type": "custom-frames-weread",
-              "state": {}
-            }
-          },
-          {
-            "id": "67ac43e58a10be0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily/2024-04-29_Monday.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6104b76a4f6bede8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2024-04-29_Monday.md",
+                "file": "_Templates/hugo.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024-04-29_Monday.md",
+                "file": "_Templates/hugo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024-04-29_Monday.md",
+                "file": "_Templates/hugo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2024-04-29_Monday.md"
+                "file": "_Templates/hugo.md"
               }
             }
           }
@@ -174,14 +153,13 @@
   },
   "active": "6104b76a4f6bede8",
   "lastOpenFiles": [
-    "WeRead/Atomic Habits.md",
-    "daily/2024-04-29_Monday.md",
-    "WeRead/傲慢与偏见（上）英文版.md",
-    "test.html",
-    "WeRead/纳瓦尔宝典.md",
-    "daily.md",
+    "WeRead/圆圈正义.md",
     "_Templates/hugo.md",
-    "蛤蟆先生去看心理医生-罗伯特·戴博德.md",
+    "daily/2024-04-28.md",
+    "daily/2024-04-29_Monday.md",
+    "WeRead/圆圈正义：作为自由前提的信念.md",
+    "WeRead/傲慢与偏见（上）英文版.md",
+    "WeRead/Atomic Habits.md",
     "WeRead/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
     "WeRead/谁动了我的奶酪.md",
     "WeRead/增广贤文（国学大书院）.md",
@@ -192,16 +170,17 @@
     "WeRead/福尔摩斯探案集（上）英文版.md",
     "WeRead/手把手教你读财报财报是用来排除企业的.md",
     "WeRead/小米创业思考.md",
-    "WeRead/圆圈正义：作为自由前提的信念.md",
     "WeRead/穷查理宝典：查理·芒格智慧箴言录(elib.cc).md",
     "WeRead/高效能家庭的7个习惯.md",
     "WeRead/影响力（全新升级版）.md",
     "WeRead/高效能人士的七个习惯（30周年纪念版）打造一套全新的思维方式和原则体系（经典著作，附赠个人效能PEQ在线测评）.md",
     "WeRead/史蒂夫·乔布斯传（修订版）.md",
-    "daily/+0020242024-04-29_Monday.md",
+    "WeRead/纳瓦尔宝典.md",
     "WeRead/亲密关系：通往灵魂的桥梁+无拘无束的关系（套装共2册）.md",
-    "WeRead/圆圈正义.md",
+    "WeRead/乡土中国.md",
+    "WeRead/愿少年乘风破浪.md",
     "WeRead",
+    "test.html",
     "weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
     "weread/谁动了我的奶酪",
     "weread/增广贤文（国学大书院）",

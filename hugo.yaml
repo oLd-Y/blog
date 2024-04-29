@@ -31,7 +31,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -40,7 +40,7 @@ params:
   comments: true
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true
   TocOpen: true
 
 
@@ -91,10 +91,12 @@ params:
     Content: 欢迎来到我的博客
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    # - name: x
+    #   url: "https://x.com/"
+    # - name: stackoverflow
+    #   url: "https://stackoverflow.com"
+    - name: bilibili
+      url: "https://space.bilibili.com/180272185?spm_id_from=333.1007.0.0"
     - name: github
       url: "https://github.com/"
 
@@ -119,8 +121,8 @@ params:
     linkFullImages: true
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
+    URL: "https://github.com/oLd-Y/blog/content"
+    Text: "修改建议" # edit text
     appendFilePath: true # to append file path to Edit link
 
 
@@ -140,7 +142,7 @@ menu:
       weight: 20      
     - identifier: archives
       name: 归档
-      url: /search/
+      url: /archives/
       weight: 20      
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true

@@ -17,6 +17,7 @@ publisher: 中信出版社 ,elib.cc
 publishTime: 
 isbn: 
 cover.image: https://res.weread.qq.com/wrepub/CB_5QgGPyGR0GTJ6gL6gv5O8FvC_parsecover
+draft: true
 
 ---
 # 元数据

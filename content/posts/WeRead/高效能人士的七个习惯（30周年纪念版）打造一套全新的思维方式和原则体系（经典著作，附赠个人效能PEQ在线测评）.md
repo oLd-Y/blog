@@ -17,6 +17,7 @@ publisher: ：北京中青文文化传媒有限公司
 publishTime: 
 isbn: 
 cover.image: https://res.weread.qq.com/wrepub/CB_4SFGRTGQa5tF6gn6gWC5pE5S_parsecover
+draft: true
 
 ---
 # 元数据
