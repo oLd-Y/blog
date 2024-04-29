@@ -21,14 +21,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "蛤蟆先生去看心理医生-罗伯特·戴博德.md",
+                "file": "daily/2024-04-29_Monday.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6104b76a4f6bede8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WeRead/纳瓦尔宝典.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "蛤蟆先生去看心理医生-罗伯特·戴博德.md",
+                "file": "WeRead/纳瓦尔宝典.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "蛤蟆先生去看心理医生-罗伯特·戴博德.md",
+                "file": "WeRead/纳瓦尔宝典.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "蛤蟆先生去看心理医生-罗伯特·戴博德.md"
+                "file": "WeRead/纳瓦尔宝典.md"
               }
             }
           }
@@ -160,44 +172,44 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "67ac43e58a10be0a",
+  "active": "6104b76a4f6bede8",
   "lastOpenFiles": [
-    "weread/楚汉双雄(中国古代史上桥段频出的8年,旧制度为什么无法搞定新问题)/楚汉双雄(中国古代史上桥段频出的8年,旧制度为什么无法搞定新问题)-渤海小吏.md",
-    "weread/傲慢与偏见（上）英文版/傲慢与偏见（上）英文版-简·奥斯汀.md",
+    "daily/2024-04-29_Monday.md",
+    "daily.md",
+    "_Templates/hugo.md",
     "蛤蟆先生去看心理医生-罗伯特·戴博德.md",
-    "明朝那些事儿（全集）-当年明月.md",
-    "weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课/被讨厌的勇气：“自我启发之父”阿德勒的哲学课-岸见一郎 古贺史健.md",
+    "WeRead/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
+    "WeRead/谁动了我的奶酪.md",
+    "WeRead/增广贤文（国学大书院）.md",
+    "WeRead/人性的弱点.md",
+    "WeRead/傲慢与偏见（上）英文版.md",
+    "WeRead/平凡的世界（全三册）.md",
+    "WeRead/一本书读懂财报（全新修订版）.md",
+    "WeRead/小岛经济学.md",
+    "WeRead/福尔摩斯探案集（上）英文版.md",
+    "WeRead/手把手教你读财报财报是用来排除企业的.md",
+    "WeRead/小米创业思考.md",
+    "WeRead/圆圈正义：作为自由前提的信念.md",
+    "WeRead/穷查理宝典：查理·芒格智慧箴言录(elib.cc).md",
+    "WeRead/高效能家庭的7个习惯.md",
+    "WeRead/影响力（全新升级版）.md",
+    "WeRead/高效能人士的七个习惯（30周年纪念版）打造一套全新的思维方式和原则体系（经典著作，附赠个人效能PEQ在线测评）.md",
+    "WeRead/史蒂夫·乔布斯传（修订版）.md",
+    "daily/+0020242024-04-29_Monday.md",
+    "WeRead/纳瓦尔宝典.md",
+    "WeRead/亲密关系：通往灵魂的桥梁+无拘无束的关系（套装共2册）.md",
+    "WeRead/圆圈正义.md",
+    "WeRead/乡土中国.md",
+    "WeRead",
     "weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
-    "weread/谁动了我的奶酪/谁动了我的奶酪-斯宾塞·约翰逊.md",
     "weread/谁动了我的奶酪",
-    "weread/增广贤文（国学大书院）/增广贤文（国学大书院）-佚名.md",
     "weread/增广贤文（国学大书院）",
-    "weread/人性的弱点/人性的弱点-卡耐基.md",
     "weread/人性的弱点",
     "weread/傲慢与偏见（上）英文版",
-    "weread/平凡的世界（全三册）/平凡的世界（全三册）-路遥.md",
     "weread/平凡的世界（全三册）",
-    "weread/一本书读懂财报（全新修订版）/一本书读懂财报（全新修订版）-肖星.md",
     "weread/一本书读懂财报（全新修订版）",
-    "weread/小岛经济学/小岛经济学-彼得·D.希夫 安德鲁·J.希夫.md",
     "weread/小岛经济学",
-    "weread/福尔摩斯探案集（上）英文版/福尔摩斯探案集（上）英文版-阿瑟·柯南·道尔.md",
     "weread/福尔摩斯探案集（上）英文版",
-    "weread/小米创业思考/小米创业思考-雷军 徐洁云.md",
-    "weread/小米创业思考",
-    "weread/圆圈正义：作为自由前提的信念/圆圈正义：作为自由前提的信念-罗翔.md",
-    "weread/穷查理宝典：查理·芒格智慧箴言录(elib.cc)/穷查理宝典：查理·芒格智慧箴言录(elib.cc)-查理·芒格 elib.cc.md",
-    "weread/高效能家庭的7个习惯/高效能家庭的7个习惯-史蒂芬·柯维.md",
-    "weread/影响力（全新升级版）/影响力（全新升级版）-罗伯特·西奥迪尼.md",
-    "weread/史蒂夫·乔布斯传（修订版）/史蒂夫·乔布斯传（修订版）-沃尔特·艾萨克森.md",
-    "weread/纳瓦尔宝典/纳瓦尔宝典-埃里克·乔根森.md",
-    "weread/亲密关系：通往灵魂的桥梁+无拘无束的关系（套装共2册）/亲密关系：通往灵魂的桥梁+无拘无束的关系（套装共2册）-克里斯多福·孟.md",
-    "weread/圆圈正义/圆圈正义-罗翔.md",
-    "weread/乡土中国/乡土中国-费孝通.md",
-    "weread/愿少年乘风破浪/愿少年乘风破浪-汪曾祺.md",
-    "weread/舍不得看完的中国史(秦并天下,没有一个重大选择是轻松的)/舍不得看完的中国史(秦并天下,没有一个重大选择是轻松的)-渤海小吏.md",
-    "weread/三体（全集）/三体（全集）-刘慈欣.md",
-    "weread/写给地球人的《三体》说明书/写给地球人的《三体》说明书-齐锐.md",
     "Pasted image 20240412163932.png",
     "Pasted image 20240412083715.png",
     "Pasted image 20240412083742.png"
