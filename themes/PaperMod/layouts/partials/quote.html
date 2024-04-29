@@ -1,0 +1,7 @@
+<!-- layouts/partials/obsidian-quote.html -->
+
+{{ $style := .Get "style" | default "color: #ffce78;" }}
+
+<div class="obsidian-quote" style="{{$style}}">
+    {{ .Content }}
+</div>
