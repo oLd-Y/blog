@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Templates/hugo.md",
+                "file": "daily/2024-04-29_Monday.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Templates/hugo.md",
+                "file": "daily/2024-04-29_Monday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Templates/hugo.md",
+                "file": "daily/2024-04-29_Monday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Templates/hugo.md"
+                "file": "daily/2024-04-29_Monday.md"
               }
             }
           }
@@ -153,8 +153,8 @@
   },
   "active": "6104b76a4f6bede8",
   "lastOpenFiles": [
-    "WeRead/圆圈正义.md",
     "_Templates/hugo.md",
+    "WeRead/圆圈正义.md",
     "daily/2024-04-28.md",
     "daily/2024-04-29_Monday.md",
     "WeRead/圆圈正义：作为自由前提的信念.md",
