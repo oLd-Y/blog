@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2024-04-29_Monday.md",
+                "file": "reading notes -《Automatic Habits》.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024-04-29_Monday.md",
+                "file": "reading notes -《Automatic Habits》.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024-04-29_Monday.md",
+                "file": "reading notes -《Automatic Habits》.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,12 +125,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2024-04-29_Monday.md"
+                "file": "reading notes -《Automatic Habits》.md"
               }
+            }
+          },
+          {
+            "id": "b2d04053317a6ff7",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -151,15 +159,20 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "6104b76a4f6bede8",
+  "active": "b2d04053317a6ff7",
   "lastOpenFiles": [
+    "test.md",
+    "reading notes -《Automatic Habits》.md",
+    "daily.md",
+    "WeRead/Atomic Habits.md",
+    "daily/2024-04-30_Tuesday.md",
+    "daily/2024-04-29_Monday.md",
+    "daily/Untitled.md",
     "_Templates/hugo.md",
     "WeRead/圆圈正义.md",
     "daily/2024-04-28.md",
-    "daily/2024-04-29_Monday.md",
     "WeRead/圆圈正义：作为自由前提的信念.md",
     "WeRead/傲慢与偏见（上）英文版.md",
-    "WeRead/Atomic Habits.md",
     "WeRead/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
     "WeRead/谁动了我的奶酪.md",
     "WeRead/增广贤文（国学大书院）.md",
@@ -174,11 +187,6 @@
     "WeRead/高效能家庭的7个习惯.md",
     "WeRead/影响力（全新升级版）.md",
     "WeRead/高效能人士的七个习惯（30周年纪念版）打造一套全新的思维方式和原则体系（经典著作，附赠个人效能PEQ在线测评）.md",
-    "WeRead/史蒂夫·乔布斯传（修订版）.md",
-    "WeRead/纳瓦尔宝典.md",
-    "WeRead/亲密关系：通往灵魂的桥梁+无拘无束的关系（套装共2册）.md",
-    "WeRead/乡土中国.md",
-    "WeRead/愿少年乘风破浪.md",
     "WeRead",
     "test.html",
     "weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
