@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024-04-30_Tuesday.md",
+                "file": "reading notes -《Automatic Habits》.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024-04-30_Tuesday.md",
+                "file": "reading notes -《Automatic Habits》.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2024-04-30_Tuesday.md"
+                "file": "reading notes -《Automatic Habits》.md"
               }
             }
           },
@@ -172,10 +173,10 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "6104b76a4f6bede8",
+  "active": "ebe2f8da31a3aac9",
   "lastOpenFiles": [
-    "reading notes -《Automatic Habits》.md",
     "daily/2024-04-30_Tuesday.md",
+    "reading notes -《Automatic Habits》.md",
     "_index.md",
     "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",
     "windows 使用 auto hotkey 模拟 emacs 快捷键.md",

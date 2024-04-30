@@ -1,7 +1,7 @@
 ---
 tags:
   - 读书笔记/英语
-lastmod: 2024-04-30T16:51:14+08:00
+lastmod: 2024-04-30T22:05:45+08:00
 ---
 # 生词/词组
 
@@ -19,6 +19,7 @@ lastmod: 2024-04-30T16:51:14+08:00
 | biceps                                     | 二头肌             |                                                                                    |
 | fight tooth and nail to                    | 拼尽全力            | Once your pride getsinvolved, you’ll fight tooth and nail to maintain your habits. |
 | allegiance                                 | 效忠              |                                                                                    |
+| slumber                                    | 沉睡              |                                                                                    |
 
 
 
