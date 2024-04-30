@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5c89e4bf115d41f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "windows 使用 auto hotkey 模拟 emacs 快捷键.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024-04-30_Tuesday.md",
+                "file": "windows 使用 auto hotkey 模拟 emacs 快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024-04-30_Tuesday.md",
+                "file": "windows 使用 auto hotkey 模拟 emacs 快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2024-04-30_Tuesday.md"
+                "file": "windows 使用 auto hotkey 模拟 emacs 快捷键.md"
               }
             }
           },
@@ -160,13 +173,14 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "6104b76a4f6bede8",
+  "active": "5c89e4bf115d41f4",
   "lastOpenFiles": [
+    "daily/2024-04-30_Tuesday.md",
+    "windows 使用 auto hotkey 模拟 emacs 快捷键.md",
     "reading notes -《Automatic Habits》.md",
     "test.md",
     "daily.md",
     "WeRead/Atomic Habits.md",
-    "daily/2024-04-30_Tuesday.md",
     "daily/2024-04-29_Monday.md",
     "daily/Untitled.md",
     "_Templates/hugo.md",
@@ -187,7 +201,6 @@
     "WeRead/穷查理宝典：查理·芒格智慧箴言录(elib.cc).md",
     "WeRead/高效能家庭的7个习惯.md",
     "WeRead/影响力（全新升级版）.md",
-    "WeRead/高效能人士的七个习惯（30周年纪念版）打造一套全新的思维方式和原则体系（经典著作，附赠个人效能PEQ在线测评）.md",
     "WeRead",
     "test.html",
     "weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
