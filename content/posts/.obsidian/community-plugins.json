@@ -16,5 +16,8 @@
   "obsidian-latex-suite",
   "obsidian-weread-plugin",
   "obsidian-custom-frames",
-  "deepl"
+  "deepl",
+  "remotely-save",
+  "obsidian-vimrc-support",
+  "vim-im-select"
 ]
