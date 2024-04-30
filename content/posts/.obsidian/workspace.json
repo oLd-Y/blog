@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",
+                "file": "reading notes -《Automatic Habits》.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",
+                "file": "reading notes -《Automatic Habits》.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",
+                "file": "reading notes -《Automatic Habits》.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md"
+                "file": "reading notes -《Automatic Habits》.md"
               }
             }
           },
@@ -163,6 +163,8 @@
   "active": "6104b76a4f6bede8",
   "lastOpenFiles": [
     "daily/2024-04-30_Tuesday.md",
+    "_index.md",
+    "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",
     "windows 使用 auto hotkey 模拟 emacs 快捷键.md",
     "reading notes -《Automatic Habits》.md",
     "test.md",
@@ -186,8 +188,6 @@
     "WeRead/手把手教你读财报财报是用来排除企业的.md",
     "WeRead/小米创业思考.md",
     "WeRead/穷查理宝典：查理·芒格智慧箴言录(elib.cc).md",
-    "WeRead/高效能家庭的7个习惯.md",
-    "WeRead/影响力（全新升级版）.md",
     "WeRead",
     "test.html",
     "weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课",

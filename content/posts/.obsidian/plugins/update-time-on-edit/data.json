@@ -12,7 +12,7 @@
     "_index.md": "01711d6cbcf3f74d150b3a5e377dad0b411aef2b39894f00a0d1de5a7ddda955",
     "设置默认的声音输出设备.md": "56473394ed3b22392e82f2c2e9ce224264274db07da7b6eb2375e2c4d3a8961d",
     "Angular Git 提交规范.md": "612664a979c62873d7c15d6f07c6a18678e159e0acdd9dd062e66d2ce253825d",
-    "Doom emacs 快速添加括号.md": "b5c3607ead7d496ab0666164c888bfd86baaac2557321de8e16c493fdf7b09dc",
+    "Doom emacs 快速添加括号.md": "a704410c4c61e1e616871a7dc4c88d10b92f46417612578bfeb8e93166fe278b",
     "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md": "4eaa60c887d34d7152bc2bce1719aac45d5e19be66a24fbb3203ac5b88679973",
     "git clone 参数解析.md": "d6f10e00dfb63f9e059a41fcb1975efaf0c278f60f46c5b40fb1f2249881121b",
     "hugo 开启搜索功能.md": "6fe1a07ef092d031e9ae0edef501423e5705424bc6a9530ba540fab3d5909ed7",
@@ -32,7 +32,7 @@
     "_Templates/hugo.md": "f151956a273b1a0f3677df9b279ab26bc0fd0857c32d26f1e39fd97e71977e1a",
     "daily/2024-04-22.md": "48b6ba1be9bdbe6243f37d47dab496c91bde7110eea219f6a0cde06b5ada7319",
     "obsidian publisher 文章模板.md": "cd4416251734f4e82dbbccef5f1cba4a05482bb3e174d555fb7e6ef9ea3f63c6",
-    "reading notes -《Automatic Habits》.md": "709b922e415785213b41e920e654f3e93aba7594b19c40efc48aa954c82b0a6c",
+    "reading notes -《Automatic Habits》.md": "9dcc81ea8d363178ded721fb7a12860ebcc79118a0275220c50034b017b874e7",
     "vscode vim 快捷键.md": "40432f057ea85b5728edfaeda1fd76c06256e4f521132b88a1077aab5f23d645",
     "双系统卸载 Ubuntu.md": "7977ae97328acab1422feb3ab2ea881caab10a505bf611b77a925c3d7e4fc8ae",
     "维生素采购和使用.md": "3f18df2df32cbb5c63e56bf69105f297be6f22e4dcd8ae409b41d3fe0c342f98",
@@ -41,7 +41,8 @@
     "Hugo 渲染 Latex.md": "6ff91d29c4efc744eef231ed5c30a0b38b1c79269f15cc8b6be281573e081f8a",
     "daily/2024-04-29_Monday.md": "a35ac6587a2fed8c218543d24195eeda4ea360fcd4f634d5b251faa75cfde2fd",
     "WeRead/傲慢与偏见（上）英文版.md": "727f00af71252387763f4b3eead7ec9fc85e81b13b3933499544b1e8784357ba",
-    "daily/2024-04-30_Tuesday.md": "0a3acc6f7b7a71d080040ed4945cc083b68d7938afbd12c58ab0d63f51d444d5",
-    "windows 使用 auto hotkey 模拟 emacs 快捷键.md": "17a7010edf96b098dc777b8f299706cf148c0bd34d90c881247e52ff4d41144c"
+    "daily/2024-04-30_Tuesday.md": "89e52784a28e8cf14bf868773337a01b91d232aa0410de1258a53affbe93c478",
+    "windows 使用 auto hotkey 模拟 emacs 快捷键.md": "17a7010edf96b098dc777b8f299706cf148c0bd34d90c881247e52ff4d41144c",
+    "test.md": "3696da59638573100940075b7690aed54f5d2aaa27bb3f7cf20ffbc0d5936ce1"
   }
 }

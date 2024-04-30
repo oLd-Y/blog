@@ -1,6 +1,6 @@
 ---
 title: Doom emacs 快速添加括号
-lastmod: 2024-04-30T14:55:36+08:00
+lastmod: 2024-04-30T15:47:26+08:00
 draft: true
 toc: true
 ---
