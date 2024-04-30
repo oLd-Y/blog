@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reading notes -《Automatic Habits》.md",
+                "file": "daily/2024-04-30_Tuesday.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reading notes -《Automatic Habits》.md",
+                "file": "daily/2024-04-30_Tuesday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "reading notes -《Automatic Habits》.md",
+                "file": "daily/2024-04-30_Tuesday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "reading notes -《Automatic Habits》.md"
+                "file": "daily/2024-04-30_Tuesday.md"
               }
             }
           },
@@ -159,10 +159,10 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "b2d04053317a6ff7",
+  "active": "6104b76a4f6bede8",
   "lastOpenFiles": [
-    "test.md",
     "reading notes -《Automatic Habits》.md",
+    "test.md",
     "daily.md",
     "WeRead/Atomic Habits.md",
     "daily/2024-04-30_Tuesday.md",

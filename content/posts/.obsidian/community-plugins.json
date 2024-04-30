@@ -1,11 +1,9 @@
 [
   "obsidian-git",
-  "vim-im-select",
   "obsidian-advanced-uri",
   "obsidian-style-settings",
   "obsidian-tasks-plugin",
   "mermaid-tools",
-  "obsidian-vimrc-support",
   "obsidian-linter",
   "obsidian-auto-link-title",
   "note-refactor-obsidian",
@@ -20,5 +18,7 @@
   "obsidian-weread-plugin",
   "obsidian-custom-frames",
   "obsidian-dictionary-plugin",
-  "deepl"
+  "deepl",
+  "obsidian-markmind",
+  "language-translator"
 ]

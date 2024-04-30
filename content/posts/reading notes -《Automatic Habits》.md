@@ -1,7 +1,7 @@
 ---
 tags:
   - 读书笔记/英语
-lastmod: 2024-04-30T09:58:48+08:00
+lastmod: 2024-04-30T10:40:34+08:00
 hideInList: false
 ---
 # 生词/词组
@@ -12,7 +12,7 @@ hideInList: false
 | molecules<br>         | 分子   |
 | double-edged sword    | 双刃剑  |
 | procrastinate         | 拖延   |
-| declutter             |      |
+| 去芜存菁             |      |
 
 
 

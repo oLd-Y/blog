@@ -171,5 +171,13 @@
       ],
       "key": "L"
     }
+  ],
+  "deepl:deepl-translate-selection-to": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "O"
+    }
   ]
 }
