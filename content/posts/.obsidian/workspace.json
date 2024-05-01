@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WeRead/Atomic Habits.md",
+                "file": "daily/2024-05-01_Wednesday.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WeRead/Atomic Habits.md",
+                "file": "daily/2024-05-01_Wednesday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WeRead/Atomic Habits.md",
+                "file": "daily/2024-05-01_Wednesday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WeRead/Atomic Habits.md"
+                "file": "daily/2024-05-01_Wednesday.md"
               }
             }
           },
@@ -186,6 +186,7 @@
   },
   "active": "6104b76a4f6bede8",
   "lastOpenFiles": [
+    "WeRead/Atomic Habits.md",
     "daily/2024-05-01_Wednesday.md",
     "reading notes -《Automatic Habits》.md",
     "_Templates/dairy.md",
@@ -194,7 +195,6 @@
     "daily/2024-04-30_Tuesday.md",
     "test.md",
     "_Templates/hugo.md",
-    "WeRead/Atomic Habits.md",
     "_index.md",
     "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",
     "windows 使用 auto hotkey 模拟 emacs 快捷键.md",
