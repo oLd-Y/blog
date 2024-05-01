@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2024-04-30_Tuesday.md",
+                "file": "reading notes -《Automatic Habits》.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024-05-01_Wednesday.md",
+                "file": "reading notes -《Automatic Habits》.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024-05-01_Wednesday.md",
+                "file": "reading notes -《Automatic Habits》.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2024-05-01_Wednesday.md"
+                "file": "reading notes -《Automatic Habits》.md"
               }
             }
           },
@@ -185,16 +184,17 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "38ffd2d37a0419f1",
+  "active": "6104b76a4f6bede8",
   "lastOpenFiles": [
-    "_Templates/hugo.md",
-    "daily/2024-05-01_Wednesday.md",
-    "_Templates/dairy.md",
-    "daily/2024-04-30_Tuesday.md",
+    "自然码辅助码表.md",
     "Untitled.md",
-    "test.md",
-    "WeRead/Atomic Habits.md",
     "reading notes -《Automatic Habits》.md",
+    "daily/2024-04-30_Tuesday.md",
+    "test.md",
+    "daily/2024-05-01_Wednesday.md",
+    "_Templates/hugo.md",
+    "_Templates/dairy.md",
+    "WeRead/Atomic Habits.md",
     "_index.md",
     "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",
     "windows 使用 auto hotkey 模拟 emacs 快捷键.md",
@@ -212,7 +212,6 @@
     "WeRead/平凡的世界（全三册）.md",
     "WeRead/一本书读懂财报（全新修订版）.md",
     "WeRead/小岛经济学.md",
-    "WeRead/福尔摩斯探案集（上）英文版.md",
     "WeRead",
     "test.html",
     "weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课",

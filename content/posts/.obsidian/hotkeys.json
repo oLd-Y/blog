@@ -76,15 +76,7 @@
       "key": "P"
     }
   ],
-  "file-explorer:new-file": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "N"
-    }
-  ],
+  "file-explorer:new-file": [],
   "editor:delete-paragraph": [],
   "editor:insert-embed": [
     {
@@ -178,6 +170,15 @@
         "Alt"
       ],
       "key": "O"
+    }
+  ],
+  "quickadd:runQuickAdd": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
     }
   ]
 }

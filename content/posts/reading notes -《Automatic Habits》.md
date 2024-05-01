@@ -1,7 +1,7 @@
 ---
 tags:
   - 读书笔记/英语
-lastmod: 2024-05-01T08:10:03+08:00
+lastmod: 2024-05-01T10:38:12+08:00
 ---
 # 生词/词组
 
@@ -15,12 +15,17 @@ lastmod: 2024-05-01T08:10:03+08:00
 | incongruent                                | 不一致的            | Behavior that is incongruent with the self will not last.                          |
 | morphed into an undesirable grooming ritua | 演变成了一种不受欢迎的梳妆仪式 |                                                                                    |
 | first-ever manicure                        | 有史以来第一次剪指甲      |                                                                                    |
-| not even asingle close call.               | 练一次侥幸的机会都没有     | not even asingle close call                                                        |
+| not even asingle close call.               | 连一次侥幸的机会都没有     | not even asingle close call                                                        |
 | biceps                                     | 二头肌             |                                                                                    |
 | fight tooth and nail to                    | 拼尽全力            | Once your pride getsinvolved, you’ll fight tooth and nail to maintain your habits. |
 | allegiance                                 | 效忠              |                                                                                    |
 | slumber                                    | 沉睡              |                                                                                    |
 | groove                                     | 凹槽              |                                                                                    |
+| emerges out of                             | 源于              |                                                                                    |
+| embody                                     | 体现              | your habits are how you embody your identity                                       |
+| scribbled                                  | 潦草地画            |                                                                                    |
+| one-off experience                         | 一次性体验           |                                                                                    |
+| snap one‘s fingers                         | 打响指             |                                                                                    |
 
 
 
