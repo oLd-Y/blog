@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Templates/dairy.md",
+                "file": "daily/2024-05-01_Wednesday.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Templates/dairy.md",
+                "file": "daily/2024-05-01_Wednesday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Templates/dairy.md",
+                "file": "daily/2024-05-01_Wednesday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Templates/dairy.md"
+                "file": "daily/2024-05-01_Wednesday.md"
               }
             }
           },
@@ -185,13 +185,14 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "38ffd2d37a0419f1",
   "lastOpenFiles": [
-    "Untitled.md",
     "_Templates/hugo.md",
+    "daily/2024-05-01_Wednesday.md",
     "_Templates/dairy.md",
-    "test.md",
     "daily/2024-04-30_Tuesday.md",
+    "Untitled.md",
+    "test.md",
     "WeRead/Atomic Habits.md",
     "reading notes -《Automatic Habits》.md",
     "_index.md",
@@ -212,7 +213,6 @@
     "WeRead/一本书读懂财报（全新修订版）.md",
     "WeRead/小岛经济学.md",
     "WeRead/福尔摩斯探案集（上）英文版.md",
-    "WeRead/手把手教你读财报财报是用来排除企业的.md",
     "WeRead",
     "test.html",
     "weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
