@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reading notes -《Automatic Habits》.md",
+                "file": "daily/2024-05-01_Wednesday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "reading notes -《Automatic Habits》.md",
+                "file": "daily/2024-05-01_Wednesday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "reading notes -《Automatic Habits》.md"
+                "file": "daily/2024-05-01_Wednesday.md"
               }
             }
           },
@@ -184,11 +185,11 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "6104b76a4f6bede8",
+  "active": "38ffd2d37a0419f1",
   "lastOpenFiles": [
+    "reading notes -《Automatic Habits》.md",
     "自然码辅助码表.md",
     "Untitled.md",
-    "reading notes -《Automatic Habits》.md",
     "daily/2024-04-30_Tuesday.md",
     "test.md",
     "daily/2024-05-01_Wednesday.md",
