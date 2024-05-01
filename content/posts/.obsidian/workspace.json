@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reading notes -《Automatic Habits》.md",
+                "file": "test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "38ffd2d37a0419f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Templates/dairy.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "this",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reading notes -《Automatic Habits》.md",
+                "file": "_Templates/dairy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "reading notes -《Automatic Habits》.md",
+                "file": "_Templates/dairy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "reading notes -《Automatic Habits》.md"
+                "file": "_Templates/dairy.md"
               }
             }
           },
@@ -173,19 +185,21 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "ebe2f8da31a3aac9",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "Untitled.md",
+    "_Templates/hugo.md",
+    "_Templates/dairy.md",
+    "test.md",
     "daily/2024-04-30_Tuesday.md",
+    "WeRead/Atomic Habits.md",
     "reading notes -《Automatic Habits》.md",
     "_index.md",
     "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",
     "windows 使用 auto hotkey 模拟 emacs 快捷键.md",
-    "test.md",
     "daily.md",
-    "WeRead/Atomic Habits.md",
     "daily/2024-04-29_Monday.md",
     "daily/Untitled.md",
-    "_Templates/hugo.md",
     "WeRead/圆圈正义.md",
     "daily/2024-04-28.md",
     "WeRead/圆圈正义：作为自由前提的信念.md",
@@ -199,8 +213,6 @@
     "WeRead/小岛经济学.md",
     "WeRead/福尔摩斯探案集（上）英文版.md",
     "WeRead/手把手教你读财报财报是用来排除企业的.md",
-    "WeRead/小米创业思考.md",
-    "WeRead/穷查理宝典：查理·芒格智慧箴言录(elib.cc).md",
     "WeRead",
     "test.html",
     "weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课",

@@ -1,7 +1,7 @@
 ---
 tags:
   - 读书笔记/英语
-lastmod: 2024-04-30T22:33:46+08:00
+lastmod: 2024-05-01T08:10:03+08:00
 ---
 # 生词/词组
 
@@ -20,6 +20,7 @@ lastmod: 2024-04-30T22:33:46+08:00
 | fight tooth and nail to                    | 拼尽全力            | Once your pride getsinvolved, you’ll fight tooth and nail to maintain your habits. |
 | allegiance                                 | 效忠              |                                                                                    |
 | slumber                                    | 沉睡              |                                                                                    |
+| groove                                     | 凹槽              |                                                                                    |
 
 
 

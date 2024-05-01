@@ -3,12 +3,12 @@ doc_type: weread-highlights-reviews
 bookId: CB_7xbFkhFlKG9h6lV6ksG2y4VK
 author: Clear, James
 cover: 
-reviewCount: 8
-noteCount: 16
+reviewCount: 10
+noteCount: 23
 readingStatus: 未标记
 progress: 3%
-totalReadDay: 11
-readingTime: 3小时3分钟
+totalReadDay: 13
+readingTime: 3小时42分钟
 readingDate: 2024-01-07
 title: Atomic Habits
 category: 
@@ -17,7 +17,7 @@ publishTime:
 isbn: 
 cover.image: https://res.weread.qq.com/wrepub/CB_GbJ1U11UZEV96i36gZ6nmEpt_parsecover
 draft: true
-
+lastmod: 2024-05-01T08:12:47+08:00
 ---
 # 元数据
 > [!abstract]- Atomic Habits
@@ -38,6 +38,11 @@ draft: true
 > The backbone of this book is my four-step model of habits—cue, craving, response, and reward—and the four laws of behavior change that evolve out of these steps.
 > ^5-24465-24626
 ### 1: The Surprising Power of Atomic Habits
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> It often feels difficult to keep good habits going for more than a few days, evenwith sincere effort and the occasional burst of motivation
+> ^7-1578-1718
 
 
 > [!Annotation]+ <span style="color: #ffce78;">Annotation</span>
@@ -119,6 +124,39 @@ draft: true
 > 
 > ^7-36362-36454
 
+
+> [!Annotation]+ <span style="color: #ffce78;">Annotation</span>
+> It’s not about any single accomplishment. It is about the cycle ofendless refinement and continuous improvement.
+> ---
+> 人生不是一场单次的游戏, 它不会因为你达成某个目标就停止了进程.
+### 2: How Your Habits Shape Your Identity (and Vice Versa)
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> It often feels difficult to keep good habits going for more than a few days, evenwith sincere effort and the occasional burst of motivation.
+> ^8-1578-1719
+
+
+> [!Annotation]+ <span style="color: #ffce78;">Annotation</span>
+> You might start a habit because ofmotivation, but the only reason you’ll stick with one is that it becomes part ofyour identity.
+> ---
+> 网络上不乏这种“因为身边人的一句恶语而坚持锻炼最后改变成功"的例子。不论一个人如何装作风轻云淡，一句评价自身的言语还是会影响人的心态. 人们本质还是非常在意在公众面前的形象的, 会因他人的赞美而欣喜, 因他人的诋毁而愤怒. 只不过高人将心态修炼得很好, 很快就可以调整过来罢了.
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Your behaviors are usually a reflection of your identity.
+> ^8-14681-14738
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Many people walk through life in a cognitive slumber, blindly following the norms attached to their identity.
+> ^8-16316-16425
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Good habits can make rational sense, but if they conflict with your identity, you will fail to put them into action.
+> ^8-18709-18825
+
 # 读书笔记
 
 ### 1: The Surprising Power of Atomic Habits
@@ -171,4 +209,18 @@ draft: true
 > ^392912636-7QOxQnHch
 > ---
 > 快乐与悲伤都是从比较中得来的. 如果没有比较, 其实能够满足温饱, 能够进行娱乐, 其实就已经让人感到快乐了.   
+
+> [!Annotation] It’s not abo...
+> It’s not about any single accomplishment. It is about the cycle ofendless refinement and continuous improvement. 
+> ^392912636-7QOAFMps2
+> ---
+> 人生不是一场单次的游戏, 它不会因为你达成某个目标就停止了进程.
+
+### 2: How Your Habits Shape Your Identity (and Vice Versa)
+
+> [!Annotation] You might st...
+> You might start a habit because ofmotivation, but the only reason you’ll stick with one is that it becomes part ofyour identity. 
+> ^392912636-7QQ8A7zJ8
+> ---
+> 网络上不乏这种“因为身边人的一句恶语而坚持锻炼最后改变成功"的例子。不论一个人如何装作风轻云淡，一句评价自身的言语还是会影响人的心态. 人们本质还是非常在意在公众面前的形象的, 会因他人的赞美而欣喜, 因他人的诋毁而愤怒. 只不过高人将心态修炼得很好, 很快就可以调整过来罢了.
 
