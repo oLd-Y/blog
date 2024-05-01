@@ -3,12 +3,12 @@ doc_type: weread-highlights-reviews
 bookId: CB_7xbFkhFlKG9h6lV6ksG2y4VK
 author: Clear, James
 cover: 
-reviewCount: 10
-noteCount: 23
+reviewCount: 14
+noteCount: 26
 readingStatus: 未标记
 progress: 3%
 totalReadDay: 13
-readingTime: 3小时42分钟
+readingTime: 4小时4分钟
 readingDate: 2024-01-07
 title: Atomic Habits
 category: 
@@ -17,7 +17,7 @@ publishTime:
 isbn: 
 cover.image: https://res.weread.qq.com/wrepub/CB_GbJ1U11UZEV96i36gZ6nmEpt_parsecover
 draft: true
-lastmod: 2024-05-01T08:12:47+08:00
+lastmod: 2024-05-01T19:52:11+08:00
 ---
 # 元数据
 > [!abstract]- Atomic Habits
@@ -153,9 +153,27 @@ lastmod: 2024-05-01T08:12:47+08:00
 > ^8-16316-16425
 
 
-> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> [!Annotation]+ <span style="color: #ffce78;">Annotation</span>
 > Good habits can make rational sense, but if they conflict with your identity, you will fail to put them into action.
-> ^8-18709-18825
+> ---
+> 太对了，不想养成习惯其实是因为要做的事和自己认为自己当前的身份不符合。很多人感慨，如果没有上过大学，可能就放得下面子去当个服务员。如果我没学过技术，没有投入大量时间去学习一些小众的知识，可能就不会期望自己会继续做这些技术上的事。
+
+
+> [!Annotation]+ <span style="color: #ffce78;">Annotation</span>
+> The more you repeat a behavior, the more you reinforce the identity associated with that behavior.
+> ---
+> 你的行为是你身份的体现，并且你没重复一次这样的行为，你与该身份的关联便更深一分。
+
+
+> [!Annotation]+ <span style="color: #ffce78;">Annotation</span>
+> As the evidence grew, so did my identity as a writer
+> ---
+> 不是你的身份决定了你的行为，而是你的行为导致了你的身份。
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> In this way, the process of building habits is actually the process of becoming yourself.
+> ^8-23825-23915
 
 # 读书笔记
 
@@ -223,4 +241,28 @@ lastmod: 2024-05-01T08:12:47+08:00
 > ^392912636-7QQ8A7zJ8
 > ---
 > 网络上不乏这种“因为身边人的一句恶语而坚持锻炼最后改变成功"的例子。不论一个人如何装作风轻云淡，一句评价自身的言语还是会影响人的心态. 人们本质还是非常在意在公众面前的形象的, 会因他人的赞美而欣喜, 因他人的诋毁而愤怒. 只不过高人将心态修炼得很好, 很快就可以调整过来罢了.
+
+> [!Annotation] Good habits ...
+> Good habits can make rational sense, but if they conflict with your identity, you will fail to put them into action. 
+> ^392912636-7QReNNi54
+> ---
+> 太对了，不想养成习惯其实是因为要做的事和自己认为自己当前的身份不符合。很多人感慨，如果没有上过大学，可能就放得下面子去当个服务员。如果我没学过技术，没有投入大量时间去学习一些小众的知识，可能就不会期望自己会继续做这些技术上的事。
+
+> [!Annotation] The more you...
+> The more you repeat a behavior, the more you reinforce the identity associated with that behavior. 
+> ^392912636-7QRfD3368
+> ---
+> 你的行为是你身份的体现，并且你没重复一次这样的行为，你与该身份的关联便更深一分。
+
+> [!Annotation] As the evide...
+> As the evidence grew, so did my identity as a writer 
+> ^392912636-7QRfSC2Ti
+> ---
+> 不是你的身份决定了你的行为，而是你的行为导致了你的身份。
+
+> [!Annotation] the proc
+> the proc 
+> ^392912636-7QRhgE9FR
+> ---
+> 这与我的理念十分契合。要想持续精进，就需要对自己进行复盘，因此记录日记就显得十分重要了。日记把自己今天做了哪些事记录下来，可以方便复盘。
 

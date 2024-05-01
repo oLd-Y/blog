@@ -1,7 +1,7 @@
 ---
 title: "{{TITLE}}"
 date: "{{DATE}}"
-draft: false
+draft: true
 tags:
   - dairy
 ---

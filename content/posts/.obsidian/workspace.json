@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reading notes -《Automatic Habits》.md",
+                "file": "WeRead/Atomic Habits.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2024-05-01_Wednesday.md",
+                "file": "_Templates/dairy.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024-05-01_Wednesday.md",
+                "file": "WeRead/Atomic Habits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024-05-01_Wednesday.md",
+                "file": "WeRead/Atomic Habits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2024-05-01_Wednesday.md"
+                "file": "WeRead/Atomic Habits.md"
               }
             }
           },
@@ -185,16 +184,16 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "38ffd2d37a0419f1",
+  "active": "6104b76a4f6bede8",
   "lastOpenFiles": [
+    "daily/2024-05-01_Wednesday.md",
     "reading notes -《Automatic Habits》.md",
+    "_Templates/dairy.md",
     "自然码辅助码表.md",
     "Untitled.md",
     "daily/2024-04-30_Tuesday.md",
     "test.md",
-    "daily/2024-05-01_Wednesday.md",
     "_Templates/hugo.md",
-    "_Templates/dairy.md",
     "WeRead/Atomic Habits.md",
     "_index.md",
     "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",
