@@ -1,13 +1,13 @@
 ---
 tags:
   - 读书笔记/英语
-lastmod: 2024-05-01T22:11:49+08:00
+lastmod: 2024-05-02T08:14:35+08:00
 ---
 # 生词/词组
 
 | 单词/词组                                      | 释义              | 例句                                                                                  |
 | ------------------------------------------ | --------------- | ----------------------------------------------------------------------------------- |
-| Prevailing wisdom<br>                      | 主流观点            |                                                                                     |
+| Prevailing wisdom suggest that<br>         | 主流观点表示          |                                                                                     |
 | molecules<br>                              | 分子              |                                                                                     |
 | double-edged sword                         | 双刃剑             |                                                                                     |
 | procrastinate                              | 拖延              |                                                                                     |
@@ -27,6 +27,8 @@ lastmod: 2024-05-01T22:11:49+08:00
 | one-off experience                         | 一次性体验           |                                                                                     |
 | snap one‘s fingers                         | 打响指             |                                                                                     |
 | set in stone                               | 一成不变的           |                                                                                     |
+| cord                                       | 绳子              |                                                                                     |
+|                                            |                 |                                                                                     |
 
 
 

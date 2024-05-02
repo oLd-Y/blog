@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2024-05-01_Wednesday.md",
+                "file": "daily/2024-05-02_Thursday.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024-05-01_Wednesday.md",
+                "file": "reading notes -《Automatic Habits》.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024-05-01_Wednesday.md",
+                "file": "reading notes -《Automatic Habits》.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2024-05-01_Wednesday.md"
+                "file": "reading notes -《Automatic Habits》.md"
               }
             }
           },
@@ -172,10 +173,11 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "6104b76a4f6bede8",
+  "active": "5dba6f25a694cfe7",
   "lastOpenFiles": [
-    "reading notes -《Automatic Habits》.md",
+    "daily/2024-05-02_Thursday.md",
     "daily/2024-05-01_Wednesday.md",
+    "reading notes -《Automatic Habits》.md",
     "_Templates/dairy.md",
     "daily/2024-04-30_Tuesday.md",
     "test.md",
@@ -199,7 +201,6 @@
     "WeRead/人性的弱点.md",
     "WeRead/平凡的世界（全三册）.md",
     "WeRead/一本书读懂财报（全新修订版）.md",
-    "WeRead/小岛经济学.md",
     "WeRead",
     "test.html",
     "weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
