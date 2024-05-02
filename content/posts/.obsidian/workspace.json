@@ -18,33 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "eeacfbc6a27a5043",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "放弃折腾 vim 和 emacs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9b337a7b9c823549",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "857. 雇佣 K 名工人的最低成本.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7d69860275a0679d",
@@ -129,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reading notes -《Automatic Habits》.md",
+                "file": "daily/2024-05-02_Thursday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "reading notes -《Automatic Habits》.md",
+                "file": "daily/2024-05-02_Thursday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "reading notes -《Automatic Habits》.md"
+                "file": "daily/2024-05-02_Thursday.md"
               }
             }
           },
@@ -204,12 +179,12 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "5dba6f25a694cfe7",
+  "active": "6104b76a4f6bede8",
   "lastOpenFiles": [
-    "放弃折腾 vim 和 emacs.md",
+    "857. 雇佣 K 名工人的最低成本.md",
     "daily/2024-05-02_Thursday.md",
     "reading notes -《Automatic Habits》.md",
-    "857. 雇佣 K 名工人的最低成本.md",
+    "放弃折腾 vim 和 emacs.md",
     "daily/2024-05-01_Wednesday.md",
     "_Templates/dairy.md",
     "daily/2024-04-30_Tuesday.md",

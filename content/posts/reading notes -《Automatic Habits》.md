@@ -1,7 +1,7 @@
 ---
 tags:
   - 读书笔记/英语
-lastmod: 2024-05-02T21:06:01+08:00
+lastmod: 2024-05-02T21:11:29+08:00
 ---
 # 生词/词组
 
@@ -43,7 +43,9 @@ lastmod: 2024-05-02T21:06:01+08:00
 | potent trigger                                    | 强有力的引发器         |                                                                                     |
 | sparks an intense wave of desire                  | 引发强烈的欲望浪潮       |                                                                                     |
 | the jingles and chimes of the casino              | 赌场的叮当和钟声        |                                                                                     |
-|                                                   |                 |                                                                                     |
+| dunk a basketball                                 | 灌篮              |                                                                                     |
+| hoop                                              | 篮框              |                                                                                     |
+| you’re out of luck.                               | 算你倒霉            |                                                                                     |
 
 
 
