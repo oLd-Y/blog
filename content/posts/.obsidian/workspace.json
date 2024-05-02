@@ -18,7 +18,13 @@
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "7d69860275a0679d",
+        "type": "tabs",
+        "children": [
           {
             "id": "5dba6f25a694cfe7",
             "type": "leaf",
@@ -31,8 +37,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -176,8 +182,8 @@
   "active": "5dba6f25a694cfe7",
   "lastOpenFiles": [
     "daily/2024-05-02_Thursday.md",
-    "daily/2024-05-01_Wednesday.md",
     "reading notes -《Automatic Habits》.md",
+    "daily/2024-05-01_Wednesday.md",
     "_Templates/dairy.md",
     "daily/2024-04-30_Tuesday.md",
     "test.md",
