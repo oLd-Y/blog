@@ -1,7 +1,7 @@
 ---
 tags:
   - 读书笔记/英语
-lastmod: 2024-05-02T10:51:49+08:00
+lastmod: 2024-05-02T20:05:36+08:00
 ---
 # 生词/词组
 
@@ -36,6 +36,9 @@ lastmod: 2024-05-02T10:51:49+08:00
 | pawn off tasks to                                 | 把任务推给           |                                                                                     |
 | pigeonhole                                        |                 |                                                                                     |
 | pigeonhole myself into a lifestyle I don’t enjoy. | 把自己束缚在不喜欢的生活方式中 |                                                                                     |
+| behind the curve.                                 | 落后于时代           |                                                                                     |
+| dial in habits                                    | 养成习惯            |                                                                                     |
+| craving                                           | 渴望              |                                                                                     |
 
 
 
