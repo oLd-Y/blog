@@ -1,7 +1,7 @@
 ---
 tags:
   - 读书笔记/英语
-lastmod: 2024-05-02T20:05:36+08:00
+lastmod: 2024-05-02T21:06:01+08:00
 ---
 # 生词/词组
 
@@ -39,6 +39,11 @@ lastmod: 2024-05-02T20:05:36+08:00
 | behind the curve.                                 | 落后于时代           |                                                                                     |
 | dial in habits                                    | 养成习惯            |                                                                                     |
 | craving                                           | 渴望              |                                                                                     |
+| gambler                                           | 赌徒              |                                                                                     |
+| potent trigger                                    | 强有力的引发器         |                                                                                     |
+| sparks an intense wave of desire                  | 引发强烈的欲望浪潮       |                                                                                     |
+| the jingles and chimes of the casino              | 赌场的叮当和钟声        |                                                                                     |
+|                                                   |                 |                                                                                     |
 
 
 
