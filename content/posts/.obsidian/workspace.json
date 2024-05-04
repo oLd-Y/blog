@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "23f1b1f503417ba5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "虎码音托助记表.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "7d69860275a0679d",
@@ -116,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自然码辅助码表.md",
+                "file": "虎码音托助记表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "自然码辅助码表.md",
+                "file": "虎码音托助记表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "自然码辅助码表.md"
+                "file": "虎码音托助记表.md"
               }
             }
           },
@@ -191,11 +203,12 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "bf359f6930e71359",
+  "active": "23f1b1f503417ba5",
   "lastOpenFiles": [
+    "自然码辅助码表.md",
+    "虎码音托助记表.md",
     "《古文观止》读书笔记.md",
     "reading notes -《Automatic Habits》.md",
-    "Untitled.md",
     "daily/2024-05-02_Thursday.md",
     "857. 雇佣 K 名工人的最低成本.md",
     "放弃折腾 vim 和 emacs.md",
@@ -204,7 +217,6 @@
     "daily/2024-04-30_Tuesday.md",
     "test.md",
     "WeRead/Atomic Habits.md",
-    "自然码辅助码表.md",
     "_Templates/hugo.md",
     "_index.md",
     "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",
