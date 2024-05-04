@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "《古文观止》读书笔记.md",
+                "file": "自然码辅助码表.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《古文观止》读书笔记.md",
+                "file": "自然码辅助码表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《古文观止》读书笔记.md",
+                "file": "自然码辅助码表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《古文观止》读书笔记.md"
+                "file": "自然码辅助码表.md"
               }
             }
           },
@@ -193,8 +193,8 @@
   },
   "active": "bf359f6930e71359",
   "lastOpenFiles": [
-    "reading notes -《Automatic Habits》.md",
     "《古文观止》读书笔记.md",
+    "reading notes -《Automatic Habits》.md",
     "Untitled.md",
     "daily/2024-05-02_Thursday.md",
     "857. 雇佣 K 名工人的最低成本.md",
