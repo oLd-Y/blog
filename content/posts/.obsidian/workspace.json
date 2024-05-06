@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reading notes -《Automatic Habits》.md",
+                "file": "daily/2024-05-06_Monday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "reading notes -《Automatic Habits》.md",
+                "file": "daily/2024-05-06_Monday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "reading notes -《Automatic Habits》.md"
+                "file": "daily/2024-05-06_Monday.md"
               }
             }
           },
@@ -203,13 +203,13 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "5dba6f25a694cfe7",
+  "active": "23f1b1f503417ba5",
   "lastOpenFiles": [
+    "reading notes -《Automatic Habits》.md",
     "daily/2024-05-06_Monday.md",
     "虎码笔记.md",
     "自然码辅助码表.md",
     "《古文观止》读书笔记.md",
-    "reading notes -《Automatic Habits》.md",
     "daily/2024-05-02_Thursday.md",
     "857. 雇佣 K 名工人的最低成本.md",
     "放弃折腾 vim 和 emacs.md",

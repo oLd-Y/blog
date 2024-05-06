@@ -1,7 +1,7 @@
 ---
 tags:
   - 读书笔记/英语
-lastmod: 2024-05-06T19:52:15+08:00
+lastmod: 2024-05-06T20:45:46+08:00
 ---
 # 生词/词组
 
@@ -50,7 +50,20 @@ lastmod: 2024-05-06T19:52:15+08:00
 | urge                                              | 冲动              |                                                                                     |
 | phone buzz                                        | 手机震动            |                                                                                     |
 | doughnut                                          | 油炸圈饼            |                                                                                     |
-| feeling stalled at work.                          | 感觉工作停kl         |                                                                                     |
+| feeling stalled at work.                          | 感觉工作停滞不前        |                                                                                     |
+| it goes against the grain of human nature.        | 违背了人类的本性        |                                                                                     |
+| is doomed to                                      | 注定              |                                                                                     |
+| paramedic                                         | 护理人员            |                                                                                     |
+| had a blockage to a major artery                  | 有一条大动脉堵塞        |                                                                                     |
+| at immediate risk of a heart attack               | 有突发心脏病的风险       |                                                                                     |
+| peripheral                                        | 次要的             |                                                                                     |
+| obstruct                                          | 阻塞              |                                                                                     |
+| blip on a radar screen                            | 雷达上的光点          |                                                                                     |
+| Lieutenant Commander                              | 中校              |                                                                                     |
+| expertly produced counterfeit                     | 赝品              |                                                                                     |
+| tipped them off                                   | 向某人告密           |                                                                                     |
+| impending                                         | 即将发生的           |                                                                                     |
+| on autopilot.                                     | 处于自动架驶装态（自动的）   |                                                                                     |
 
 
 
