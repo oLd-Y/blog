@@ -1,7 +1,7 @@
 ---
 tags:
   - 读书笔记/英语
-lastmod: 2024-05-02T21:11:29+08:00
+lastmod: 2024-05-06T19:52:15+08:00
 ---
 # 生词/词组
 
@@ -46,6 +46,11 @@ lastmod: 2024-05-02T21:11:29+08:00
 | dunk a basketball                                 | 灌篮              |                                                                                     |
 | hoop                                              | 篮框              |                                                                                     |
 | you’re out of luck.                               | 算你倒霉            |                                                                                     |
+| flipping on the light switch                      | 打开电灯开关          |                                                                                     |
+| urge                                              | 冲动              |                                                                                     |
+| phone buzz                                        | 手机震动            |                                                                                     |
+| doughnut                                          | 油炸圈饼            |                                                                                     |
+| feeling stalled at work.                          | 感觉工作停kl         |                                                                                     |
 
 
 
