@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "虎码笔记.md",
+                "file": "daily/2024-05-06_Monday.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "虎码笔记.md",
+                "file": "daily/2024-05-06_Monday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "虎码笔记.md",
+                "file": "daily/2024-05-06_Monday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "虎码笔记.md"
+                "file": "daily/2024-05-06_Monday.md"
               }
             }
           },
@@ -205,8 +205,9 @@
   },
   "active": "23f1b1f503417ba5",
   "lastOpenFiles": [
-    "自然码辅助码表.md",
     "虎码笔记.md",
+    "daily/2024-05-06_Monday.md",
+    "自然码辅助码表.md",
     "《古文观止》读书笔记.md",
     "reading notes -《Automatic Habits》.md",
     "daily/2024-05-02_Thursday.md",
@@ -230,7 +231,6 @@
     "WeRead/傲慢与偏见（上）英文版.md",
     "WeRead/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
     "WeRead/谁动了我的奶酪.md",
-    "WeRead/增广贤文（国学大书院）.md",
     "WeRead",
     "test.html",
     "weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
