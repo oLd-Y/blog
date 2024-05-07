@@ -1,7 +1,8 @@
 ---
 tags:
   - 读书笔记/英语
-lastmod: 2024-05-07T12:31:18+08:00
+lastmod: 2024-05-07T13:19:29+08:00
+title: "{{TITLE}}"
 ---
 # 生词/词组
 
@@ -66,6 +67,8 @@ lastmod: 2024-05-07T12:31:18+08:00
 | on autopilot.                                     | 处于自动驾驶装态（自动的）   |                                                                                     |
 | retail clerk                                      | 零售              |                                                                                     |
 | stunned                                           | 惊愕的             |                                                                                     |
+| sneak up on us                                    | 掩人耳目            |                                                                                     |
+| bagel                                             | 百奇饼             |                                                                                     |
 
 
 

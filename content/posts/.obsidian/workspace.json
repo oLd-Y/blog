@@ -8,50 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6104b76a4f6bede8",
+            "id": "5dba6f25a694cfe7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2024-05-02_Thursday.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bf359f6930e71359",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "自然码辅助码表.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23f1b1f503417ba5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily/2024-05-06_Monday.md",
+                "file": "daily/2024-05-07_Tuesday.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
-        "id": "7d69860275a0679d",
+        "id": "eb802e98f9f0a45f",
         "type": "tabs",
         "children": [
           {
-            "id": "5dba6f25a694cfe7",
+            "id": "bf359f6930e71359",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -112,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -203,12 +179,13 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "5dba6f25a694cfe7",
+  "active": "bf359f6930e71359",
   "lastOpenFiles": [
-    "daily/2024-05-06_Monday.md",
-    "reading notes -《Automatic Habits》.md",
     "虎码笔记.md",
+    "reading notes -《Automatic Habits》.md",
     "自然码辅助码表.md",
+    "daily/2024-05-07_Tuesday.md",
+    "daily/2024-05-06_Monday.md",
     "《古文观止》读书笔记.md",
     "daily/2024-05-02_Thursday.md",
     "857. 雇佣 K 名工人的最低成本.md",
@@ -230,7 +207,6 @@
     "WeRead/圆圈正义：作为自由前提的信念.md",
     "WeRead/傲慢与偏见（上）英文版.md",
     "WeRead/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
-    "WeRead/谁动了我的奶酪.md",
     "WeRead",
     "test.html",
     "weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
