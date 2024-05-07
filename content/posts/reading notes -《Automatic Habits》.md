@@ -1,7 +1,7 @@
 ---
 tags:
   - 读书笔记/英语
-lastmod: 2024-05-07T13:19:29+08:00
+lastmod: 2024-05-07T13:40:31+08:00
 title: "{{TITLE}}"
 ---
 # 生词/词组
@@ -69,6 +69,8 @@ title: "{{TITLE}}"
 | stunned                                           | 惊愕的             |                                                                                     |
 | sneak up on us                                    | 掩人耳目            |                                                                                     |
 | bagel                                             | 百奇饼             |                                                                                     |
+| binge-eat                                         | 暴饮暴食            |                                                                                     |
+| to be on the lookout for them                     | 时刻注意他们          |                                                                                     |
 
 
 
