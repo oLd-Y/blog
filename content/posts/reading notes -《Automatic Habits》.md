@@ -1,7 +1,7 @@
 ---
 tags:
   - 读书笔记/英语
-lastmod: 2024-05-06T20:53:42+08:00
+lastmod: 2024-05-07T12:31:18+08:00
 ---
 # 生词/词组
 
@@ -64,6 +64,8 @@ lastmod: 2024-05-06T20:53:42+08:00
 | tipped them off                                   | 向某人告密           |                                                                                     |
 | impending                                         | 即将发生的           |                                                                                     |
 | on autopilot.                                     | 处于自动驾驶装态（自动的）   |                                                                                     |
+| retail clerk                                      | 零售              |                                                                                     |
+| stunned                                           | 惊愕的             |                                                                                     |
 
 
 
