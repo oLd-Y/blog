@@ -1,7 +1,7 @@
 ---
 tags:
   - 读书笔记/英语
-lastmod: 2024-05-07T13:40:31+08:00
+lastmod: 2024-05-08T11:33:16+08:00
 title: "{{TITLE}}"
 ---
 # 生词/词组
@@ -35,7 +35,7 @@ title: "{{TITLE}}"
 | itch                                              | 痒               | you get the itch to run. 你就会心痒难耐，想要跑步。                                              |
 | bottleneck                                        | 瓶颈              |                                                                                     |
 | pawn off tasks to                                 | 把任务推给           |                                                                                     |
-| pigeonhole                                        |                 |                                                                                     |
+| pigeonhole                                        | 鸽子洞             |                                                                                     |
 | pigeonhole myself into a lifestyle I don’t enjoy. | 把自己束缚在不喜欢的生活方式中 |                                                                                     |
 | behind the curve.                                 | 落后于时代           |                                                                                     |
 | dial in habits                                    | 养成习惯            |                                                                                     |
@@ -71,6 +71,7 @@ title: "{{TITLE}}"
 | bagel                                             | 百奇饼             |                                                                                     |
 | binge-eat                                         | 暴饮暴食            |                                                                                     |
 | to be on the lookout for them                     | 时刻注意他们          |                                                                                     |
+| coronary heart disease                            |                 |                                                                                     |
 
 
 
