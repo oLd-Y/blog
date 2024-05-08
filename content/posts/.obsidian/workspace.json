@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "eb802e98f9f0a45f",
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "emacs 入坑建议.md",
+                "file": "emacs 默认快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "emacs 入坑建议.md",
+                "file": "emacs 默认快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "emacs 入坑建议.md"
+                "file": "emacs 默认快捷键.md"
               }
             }
           },
@@ -203,11 +203,11 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "0eee826cc9d3cd8e",
+  "active": "05e1c6588f5124cb",
   "lastOpenFiles": [
+    "emacs 入坑建议.md",
     "emacs 默认快捷键.md",
     "Untitled.md",
-    "emacs 入坑建议.md",
     "daily/2024-05-08_Wednesday.md",
     "WeRead/傲慢与偏见（上）英文版.md",
     "daily/2024-05-07_Tuesday.md",
