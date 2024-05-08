@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WeRead/Atomic Habits.md",
+                "file": "daily/2024-05-07_Tuesday.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WeRead/Atomic Habits.md",
+                "file": "daily/2024-05-07_Tuesday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WeRead/Atomic Habits.md",
+                "file": "daily/2024-05-07_Tuesday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WeRead/Atomic Habits.md"
+                "file": "daily/2024-05-07_Tuesday.md"
               }
             }
           },
@@ -180,6 +180,7 @@
   },
   "active": "5dba6f25a694cfe7",
   "lastOpenFiles": [
+    "WeRead/Atomic Habits.md",
     "daily/2024-05-07_Tuesday.md",
     "reading notes -《Automatic Habits》.md",
     "WeRead/呐喊.md",
@@ -194,7 +195,6 @@
     "_Templates/dairy.md",
     "daily/2024-04-30_Tuesday.md",
     "test.md",
-    "WeRead/Atomic Habits.md",
     "_Templates/hugo.md",
     "_index.md",
     "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",
