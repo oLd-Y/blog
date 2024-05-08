@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0eee826cc9d3cd8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "emacs 入坑建议.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "eb802e98f9f0a45f",
@@ -103,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024-05-08_Wednesday.md",
+                "file": "emacs 入坑建议.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024-05-08_Wednesday.md",
+                "file": "emacs 入坑建议.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2024-05-08_Wednesday.md"
+                "file": "emacs 入坑建议.md"
               }
             }
           },
@@ -178,10 +191,11 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "5dba6f25a694cfe7",
+  "active": "0eee826cc9d3cd8e",
   "lastOpenFiles": [
-    "WeRead/傲慢与偏见（上）英文版.md",
     "daily/2024-05-08_Wednesday.md",
+    "emacs 入坑建议.md",
+    "WeRead/傲慢与偏见（上）英文版.md",
     "daily/2024-05-07_Tuesday.md",
     "WeRead/Atomic Habits.md",
     "reading notes -《Automatic Habits》.md",
@@ -205,7 +219,6 @@
     "daily/2024-04-29_Monday.md",
     "daily/Untitled.md",
     "WeRead/圆圈正义.md",
-    "daily/2024-04-28.md",
     "WeRead",
     "test.html",
     "weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
