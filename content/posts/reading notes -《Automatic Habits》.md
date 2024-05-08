@@ -1,7 +1,7 @@
 ---
 tags:
   - 读书笔记/英语
-lastmod: 2024-05-08T11:33:16+08:00
+lastmod: 2024-05-08T13:13:20+08:00
 title: "{{TITLE}}"
 ---
 # 生词/词组
@@ -71,7 +71,12 @@ title: "{{TITLE}}"
 | bagel                                             | 百奇饼             |                                                                                     |
 | binge-eat                                         | 暴饮暴食            |                                                                                     |
 | to be on the lookout for them                     | 时刻注意他们          |                                                                                     |
-| coronary heart disease                            |                 |                                                                                     |
+| coronary heart disease                            | 冠心病             |                                                                                     |
+| partake                                           | 分享              |                                                                                     |
+| vigorous                                          | 精力充沛的           |                                                                                     |
+| ambulance sirens                                  | 救护车警笛           |                                                                                     |
+| get a flu shot                                    | 打一个流感疫苗         |                                                                                     |
+| colonoscopy appointment.                          | 结肠镜检查预约。        |                                                                                     |
 
 
 
