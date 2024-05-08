@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2024-05-07_Tuesday.md",
+                "file": "WeRead/Atomic Habits.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024-05-07_Tuesday.md",
+                "file": "WeRead/Atomic Habits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024-05-07_Tuesday.md",
+                "file": "WeRead/Atomic Habits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2024-05-07_Tuesday.md"
+                "file": "WeRead/Atomic Habits.md"
               }
             }
           },
@@ -180,9 +180,9 @@
   },
   "active": "5dba6f25a694cfe7",
   "lastOpenFiles": [
+    "daily/2024-05-07_Tuesday.md",
     "reading notes -《Automatic Habits》.md",
     "WeRead/呐喊.md",
-    "daily/2024-05-07_Tuesday.md",
     "虎码笔记.md",
     "自然码辅助码表.md",
     "daily/2024-05-06_Monday.md",

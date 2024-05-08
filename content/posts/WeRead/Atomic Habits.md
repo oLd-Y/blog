@@ -17,7 +17,7 @@ publishTime:
 isbn: 
 cover.image: https://res.weread.qq.com/wrepub/CB_GbJ1U11UZEV96i36gZ6nmEpt_parsecover
 draft: true
-lastmod: 2024-05-08T13:17:51+08:00
+lastmod: 2024-05-08T14:32:41+08:00
 ---
 # 元数据
 > [!abstract]- Atomic Habits
