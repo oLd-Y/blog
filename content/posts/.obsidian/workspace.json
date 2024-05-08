@@ -30,6 +30,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "05e1c6588f5124cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "emacs 默认快捷键.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -193,8 +205,10 @@
   },
   "active": "0eee826cc9d3cd8e",
   "lastOpenFiles": [
-    "daily/2024-05-08_Wednesday.md",
+    "emacs 默认快捷键.md",
+    "Untitled.md",
     "emacs 入坑建议.md",
+    "daily/2024-05-08_Wednesday.md",
     "WeRead/傲慢与偏见（上）英文版.md",
     "daily/2024-05-07_Tuesday.md",
     "WeRead/Atomic Habits.md",
@@ -217,8 +231,6 @@
     "windows 使用 auto hotkey 模拟 emacs 快捷键.md",
     "daily.md",
     "daily/2024-04-29_Monday.md",
-    "daily/Untitled.md",
-    "WeRead/圆圈正义.md",
     "WeRead",
     "test.html",
     "weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
