@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ox-hugo 自动生成模板代码解析.md",
+                "file": "emacs 默认快捷键.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,8 +108,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ox-hugo 自动生成模板代码解析.md",
+                "file": "emacs 默认快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ox-hugo 自动生成模板代码解析.md",
+                "file": "emacs 默认快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ox-hugo 自动生成模板代码解析.md"
+                "file": "emacs 默认快捷键.md"
               }
             }
           },
@@ -206,8 +205,9 @@
   },
   "active": "05e1c6588f5124cb",
   "lastOpenFiles": [
-    "ox-hugo org-template 理解.md",
     "ox-hugo 结合 org-download 粘贴图片.md",
+    "ox-hugo org-template 理解.md",
+    "ox-hugo 自动生成模板代码解析.md",
     "emacs 默认快捷键.md",
     "emacs 入坑建议.md",
     "Untitled.md",
@@ -231,7 +231,6 @@
     "_Templates/hugo.md",
     "_index.md",
     "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",
-    "windows 使用 auto hotkey 模拟 emacs 快捷键.md",
     "WeRead",
     "test.html",
     "weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
