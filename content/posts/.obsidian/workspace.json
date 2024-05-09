@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "emacs 默认快捷键.md",
+                "file": "ox-hugo org-template 理解.md",
                 "mode": "source",
                 "source": false
               }
@@ -91,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "new subt",
+                "query": "olp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +108,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -128,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "emacs 默认快捷键.md",
+                "file": "ox-hugo org-template 理解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "emacs 默认快捷键.md",
+                "file": "ox-hugo org-template 理解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "emacs 默认快捷键.md"
+                "file": "ox-hugo org-template 理解.md"
               }
             }
           },
@@ -205,10 +206,10 @@
   },
   "active": "05e1c6588f5124cb",
   "lastOpenFiles": [
+    "emacs 默认快捷键.md",
     "ox-hugo 结合 org-download 粘贴图片.md",
     "ox-hugo org-template 理解.md",
     "ox-hugo 自动生成模板代码解析.md",
-    "emacs 默认快捷键.md",
     "emacs 入坑建议.md",
     "Untitled.md",
     "daily/2024-05-08_Wednesday.md",
