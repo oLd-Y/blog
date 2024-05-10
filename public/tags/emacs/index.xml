@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Emacs on 谷丽杳的博客</title>
+    <link>http://localhost:5786/tags/emacs/</link>
+    <description>Recent content in Emacs on 谷丽杳的博客</description>
+    <image>
+      <title>谷丽杳的博客</title>
+      <url>http://localhost:5786/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:5786/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.124.1</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 08 May 2024 22:40:47 +0800</lastBuildDate>
+    <atom:link href="http://localhost:5786/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>emacs 入坑建议</title>
+      <link>http://localhost:5786/posts/emacs-%E5%85%A5%E5%9D%91%E5%BB%BA%E8%AE%AE/</link>
+      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5786/posts/emacs-%E5%85%A5%E5%9D%91%E5%BB%BA%E8%AE%AE/</guid>
+      <description>不知不觉地也用了 emacs 快半年了，代码没写多少，天天搁那折腾各种各样的插件。直到现在，我也只能说是勉强会用一点。这里给出一些想要入坑 emacs 的新人一点建议。如果你不想像我一样搞了这么久啥名堂都没搞出来，请务必谨记以下经验，真的是血泪教训！
+使用他人的配置包进行过渡 在早期对 emacs 一无所知的时候，还是比较推荐先通过大佬的配置入门的。一开我也头铁，尝试过自己直接从零配置。我去，各种报错，各种 error，看又看不慬，学又学不会，当时气得我差点一拳把电脑显示屏给干爆了（。
+这一阶段的主要目的是：
+学会 emacs 的常用操作，包括查找文件，移动屏幕，操作 buffer 等。 学会如何为 emacs 添加插件并进行配置。 学会如何 debug。 编写1~2门编程语言的简单代码并跑通。 （可选）学会使用 org-mode 简单记录笔记。 尤于基本上所有的 emacs 原生都在囯外服务器上，尽管很多囯人大佬的配置中都设置了国内镜像，但仍时常出现网络问题。因此，加果条件允许的话，最好还是开一个代理。方法自行网络搜索。 然后，最重要的一点，记得在 emacs 中添加配置代理的代码！当初我明明开启了系统代理，还是死活连接不上，网上也查不到资料。也是后来偶然发现问题出现在这里。
+相关的代码如下所示：
+(setq url-proxy-services &amp;#39;((&amp;#34;no_proxy&amp;#34; . &amp;#34;^\\(192\\.168\\..*\\)&amp;#34;) (&amp;#34;http&amp;#34; . &amp;#34;localhost:7890&amp;#34;) (&amp;#34;https&amp;#34; . &amp;#34;localhost:7890&amp;#34;))) 攒自已的配置 在使用大佬的配置过程中，对于我这种有强迫症的人来说，看着一堆看不懂的和不知道何时会用到的配置代码，真是哪哪都不舒服。好在网络上诸多教程都是教你从零开始积攒自己的配置，再加上此前使用大佬配置的经验，从零开始攒自己的配置便成为可能。
+是否使用 evil？ 网上很多 vimer 人转 emacs 时，都会强调 evil 完美兼容 vim 的操作，是个值得转 emacs 的好理由，包括 emacs 中的两个 star 最多的发行版 spacemacs 和 doom emacs，都是以 evil 为根基构建其配置的。我最开始也毫不犹豫地选择 doom emacs 作为我的入坑配置。然而在一段时间的使用之后，我逐渐发现了一些个人使用上的问题：</description>
+    </item>
+  </channel>
+</rss>

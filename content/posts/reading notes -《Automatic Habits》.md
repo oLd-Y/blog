@@ -1,8 +1,8 @@
 ---
 tags:
   - 读书笔记/英语
-lastmod: 2024-05-08T13:13:20+08:00
-title: "{{TITLE}}"
+lastmod: 2024-05-10T09:58:42+08:00
+title: reading notes -《Automatic Habits》
 ---
 # 生词/词组
 
@@ -77,6 +77,18 @@ title: "{{TITLE}}"
 | ambulance sirens                                  | 救护车警笛           |                                                                                     |
 | get a flu shot                                    | 打一个流感疫苗         |                                                                                     |
 | colonoscopy appointment.                          | 结肠镜检查预约。        |                                                                                     |
+| salivating                                        | 垂涎三尺            |                                                                                     |
+| antsy                                             | 焦躁不安            |                                                                                     |
+| of the time                                       | 当时              |                                                                                     |
+| encyclopedias                                     | 百科全书            |                                                                                     |
+| scarlet robe                                      | 大红袍             |                                                                                     |
+| coordination                                      | 协调              |                                                                                     |
+| unity                                             | 统一              |                                                                                     |
+| rug                                               | 地毯              |                                                                                     |
+| couch                                             | 沙发              |                                                                                     |
+| chain reaction                                    | 连锁反应            |                                                                                     |
+| detergent                                         | 洗涤剂             |                                                                                     |
+| momentum                                          | 自然动力            |                                                                                     |
 
 
 

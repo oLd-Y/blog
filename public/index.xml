@@ -2,22 +2,139 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>谷丽杳的博客</title>
-    <link>http://localhost:5585/</link>
+    <link>http://localhost:5786/</link>
     <description>Recent content on 谷丽杳的博客</description>
     <image>
       <title>谷丽杳的博客</title>
-      <url>http://localhost:5585/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:5585/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:5786/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:5786/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.124.1</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 29 Apr 2024 22:36:23 +0800</lastBuildDate>
-    <atom:link href="http://localhost:5585/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 May 2024 09:58:42 +0800</lastBuildDate>
+    <atom:link href="http://localhost:5786/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>reading notes -《Automatic Habits》</title>
+      <link>http://localhost:5786/posts/reading-notes--automatic-habits/</link>
+      <pubDate>Fri, 10 May 2024 09:58:42 +0800</pubDate>
+      <guid>http://localhost:5786/posts/reading-notes--automatic-habits/</guid>
+      <description>生词/词组 单词/词组 释义 例句 Prevailing wisdom suggest that 主流观点表示 molecules 分子 double-edged sword 双刃剑 procrastinate 拖延 get off the ground 实现 but such behavior change would never get off the ground in a dictatorship incongruent 不一致的 Behavior that is incongruent with the self will not last. morphed into an undesirable grooming ritua 演变成了一种不受欢迎的梳妆仪式 first-ever manicure 有史以来第一次剪指甲 not even a single close call. 连一次侥幸的机会都没有 biceps 二头肌 fight tooth and nail to 拼尽全力 Once your pride gets involved, you’ll fight tooth and nail to maintain your habits.</description>
+    </item>
+    <item>
+      <title>test blog</title>
+      <link>http://localhost:5786/posts/test-blog/</link>
+      <pubDate>Fri, 10 May 2024 09:38:18 +0800</pubDate>
+      <guid>http://localhost:5786/posts/test-blog/</guid>
+      <description>test1 test2</description>
+    </item>
+    <item>
+      <title>2024-05-08_Wednesday</title>
+      <link>http://localhost:5786/posts/daily/2024-05-08_wednesday/</link>
+      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5786/posts/daily/2024-05-08_wednesday/</guid>
+      <description>感觉自己老是喜欢做一些“长期主义”的事，不知道这算不算一种另类的自私。
+重要的是你想成为什么样的人。如果你找到了这个问题的答案，那么你朝着这个方向走的每一步——不论成功的或是失败的，都是正确的。</description>
+    </item>
+    <item>
+      <title>emacs 默认快捷键</title>
+      <link>http://localhost:5786/posts/emacs-%E9%BB%98%E8%AE%A4%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
+      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5786/posts/emacs-%E9%BB%98%E8%AE%A4%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
+      <description> 快捷键 命令 作用 C-h m describe-mode 列出当前主模式下的可用快捷键 ESC 后松开 无 默认等效于 Meta 前缀 C-u args 快捷键 无 为快捷键增加参数 </description>
+    </item>
+    <item>
+      <title>emacs 入坑建议</title>
+      <link>http://localhost:5786/posts/emacs-%E5%85%A5%E5%9D%91%E5%BB%BA%E8%AE%AE/</link>
+      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5786/posts/emacs-%E5%85%A5%E5%9D%91%E5%BB%BA%E8%AE%AE/</guid>
+      <description>不知不觉地也用了 emacs 快半年了，代码没写多少，天天搁那折腾各种各样的插件。直到现在，我也只能说是勉强会用一点。这里给出一些想要入坑 emacs 的新人一点建议。如果你不想像我一样搞了这么久啥名堂都没搞出来，请务必谨记以下经验，真的是血泪教训！
+使用他人的配置包进行过渡 在早期对 emacs 一无所知的时候，还是比较推荐先通过大佬的配置入门的。一开我也头铁，尝试过自己直接从零配置。我去，各种报错，各种 error，看又看不慬，学又学不会，当时气得我差点一拳把电脑显示屏给干爆了（。
+这一阶段的主要目的是：
+学会 emacs 的常用操作，包括查找文件，移动屏幕，操作 buffer 等。 学会如何为 emacs 添加插件并进行配置。 学会如何 debug。 编写1~2门编程语言的简单代码并跑通。 （可选）学会使用 org-mode 简单记录笔记。 尤于基本上所有的 emacs 原生都在囯外服务器上，尽管很多囯人大佬的配置中都设置了国内镜像，但仍时常出现网络问题。因此，加果条件允许的话，最好还是开一个代理。方法自行网络搜索。 然后，最重要的一点，记得在 emacs 中添加配置代理的代码！当初我明明开启了系统代理，还是死活连接不上，网上也查不到资料。也是后来偶然发现问题出现在这里。
+相关的代码如下所示：
+(setq url-proxy-services &amp;#39;((&amp;#34;no_proxy&amp;#34; . &amp;#34;^\\(192\\.168\\..*\\)&amp;#34;) (&amp;#34;http&amp;#34; . &amp;#34;localhost:7890&amp;#34;) (&amp;#34;https&amp;#34; . &amp;#34;localhost:7890&amp;#34;))) 攒自已的配置 在使用大佬的配置过程中，对于我这种有强迫症的人来说，看着一堆看不懂的和不知道何时会用到的配置代码，真是哪哪都不舒服。好在网络上诸多教程都是教你从零开始积攒自己的配置，再加上此前使用大佬配置的经验，从零开始攒自己的配置便成为可能。
+是否使用 evil？ 网上很多 vimer 人转 emacs 时，都会强调 evil 完美兼容 vim 的操作，是个值得转 emacs 的好理由，包括 emacs 中的两个 star 最多的发行版 spacemacs 和 doom emacs，都是以 evil 为根基构建其配置的。我最开始也毫不犹豫地选择 doom emacs 作为我的入坑配置。然而在一段时间的使用之后，我逐渐发现了一些个人使用上的问题：</description>
+    </item>
+    <item>
+      <title>2024-05-07_Tuesday</title>
+      <link>http://localhost:5786/posts/daily/2024-05-07_tuesday/</link>
+      <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5786/posts/daily/2024-05-07_tuesday/</guid>
+      <description>当你沉浸在某项事物中的时候，时间真的过得很快。</description>
+    </item>
+    <item>
+      <title>2024-05-06_Monday</title>
+      <link>http://localhost:5786/posts/daily/2024-05-06_monday/</link>
+      <pubDate>Mon, 06 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5786/posts/daily/2024-05-06_monday/</guid>
+      <description>前几天开始练习“虎码”，今天终于可以用来打字了，虽然目前还只能龟速写字。 为了连贯的输入，不打断思维，相信这投入还是值得的。 已经可以慢慢写字了，接下来就是逐渐提速然后在官网不断巩固了。 话说直接从音码转到形码着实有些不习惯。
+人的生活就是由一个一个不同的生活习惯构成的。你很可能意识不到，其实你每天早上都是从同一只鞋开始系鞋带的。有的时候甚至会忘记自己今天刷没刷过牙。
+养成一个好习惯的终极四问： How can I make it obvious? &amp;ndash; cue How can I make it attractive? &amp;ndash; craving How can I make it easy? &amp;ndash; response How can I make it satisfying? &amp;ndash; reward
+中校可以识别出雷达上几乎相同的己方战机，博物馆馆长可以识别出仿真赝品和真品的区别。尽管很难解释具体的原理，但人的大脑会自动将周围的线索汇集整理，以便下次进行预测。</description>
+    </item>
+    <item>
+      <title>《古文观止》读书笔记</title>
+      <link>http://localhost:5786/posts/%E5%8F%A4%E6%96%87%E8%A7%82%E6%AD%A2%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5786/posts/%E5%8F%A4%E6%96%87%E8%A7%82%E6%AD%A2%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description>诘屈聱耳
+聱耳</description>
+    </item>
+    <item>
+      <title>2024-05-02_Thursday</title>
+      <link>http://localhost:5786/posts/daily/2024-05-02_thursday/</link>
+      <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5786/posts/daily/2024-05-02_thursday/</guid>
+      <description>输出决定输入，而不是常规理解的输入决定输出。你先有想要产出的内容，再根据内容挑选需要的输入。学会对不需要的东西说 no，是学习的一个重要方式，这样可以减少你无用的时间浪费。比如在使用一个工具，如果漫无目的地寻找这个工具有什么用，就很容易陷入追求效率的陷阱之中——因为可能在日常中根本用不到这些所谓效率工具，有其他的替代方案可以临时的解决这些问题。如果问题频繁地出现，再去寻求解决方案也并不迟。
+人的短期或者长期规划中应当有一些“项目”，你的输中的内容如果跟你已有的项目无法产生关联，那么这种知识留在互联网和留在你的笔记中其实没有任何区别。
+大脑其实就是一个奖励检测器，只要能够给你奖励的，就会让你有持续做下去的动力。如打游戏的即时奖励</description>
+    </item>
+    <item>
+      <title>857. 雇佣 K 名工人的最低成本</title>
+      <link>http://localhost:5786/posts/857.-%E9%9B%87%E4%BD%A3-k-%E5%90%8D%E5%B7%A5%E4%BA%BA%E7%9A%84%E6%9C%80%E4%BD%8E%E6%88%90%E6%9C%AC/</link>
+      <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5786/posts/857.-%E9%9B%87%E4%BD%A3-k-%E5%90%8D%E5%B7%A5%E4%BA%BA%E7%9A%84%E6%9C%80%E4%BD%8E%E6%88%90%E6%9C%AC/</guid>
+      <description>. - 力扣（LeetCode）</description>
+    </item>
+    <item>
+      <title>放弃折腾 vim 和 emacs</title>
+      <link>http://localhost:5786/posts/%E6%94%BE%E5%BC%83%E6%8A%98%E8%85%BE-vim-%E5%92%8C-emacs/</link>
+      <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5786/posts/%E6%94%BE%E5%BC%83%E6%8A%98%E8%85%BE-vim-%E5%92%8C-emacs/</guid>
+      <description>折腾这些编辑器容易陷入一种追求效率的陷阱。从我裸辞之前就在折腾 emacs，到现在裸辞2个月了，非常惭愧地说，我没有产出任何有价值的东西。并且可以预见的将来，如果我继续沉迷折腾这些编辑器，那么我在其他方面，例如写作、做饭等其他方面，也难以有时间学习。并且，目前折腾这些东西，在研究鼠标强依赖的技术，例如剪视频、ai绘画、建模等方面时，又会失去应有的效率，实在是不值得。</description>
+    </item>
+    <item>
+      <title>2024-05-01_Wednesday</title>
+      <link>http://localhost:5786/posts/daily/2024-05-01_wednesday/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5786/posts/daily/2024-05-01_wednesday/</guid>
+      <description>如果没有网络，我们甚至连 5 米内的隔壁寝室发生了什么都不知道。
+在一项本领无法扎根之前，最好不要怀着“顺便做某事”的心态在完成一项任务的同时做另一件事。从我多年的学习经验来看，专注地做一件事效率才最高。频繁地切换当前的任务，或是做一些”额外“的工作，容易打断“心流“状态。
+原子习惯 一书中提到，与其关注具体的目标，不如关心整个系统。原因有下：
+赢家和输家持有相同的目标。在一场比赛中，无论输赢，选手都只有一个目标，那就是获得胜利。然而对于我们个人而言，难道在达到目标之后就 </description>
+    </item>
+    <item>
+      <title>自然码辅助码表</title>
+      <link>http://localhost:5786/posts/%E8%87%AA%E7%84%B6%E7%A0%81%E8%BE%85%E5%8A%A9%E7%A0%81%E8%A1%A8/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5786/posts/%E8%87%AA%E7%84%B6%E7%A0%81%E8%BE%85%E5%8A%A9%E7%A0%81%E8%A1%A8/</guid>
+      <description></description>
+    </item>
     <item>
       <title></title>
-      <link>http://localhost:5585/posts/daily/2024-04-29_monday/</link>
+      <link>http://localhost:5786/posts/daily/2024-04-30_tuesday/</link>
+      <pubDate>Tue, 30 Apr 2024 21:50:34 +0800</pubDate>
+      <guid>http://localhost:5786/posts/daily/2024-04-30_tuesday/</guid>
+      <description>传奇投资人沃伦‧巴菲特（Warrent Buffett）说：“成功人士和非常成功人士的区别在于，非常成功的人几乎对所有事情都说&amp;rsquo;不&amp;rsquo;”。
+这真是一语惊醒梦中人. 你的价格由你的价值决定. 事事都做等于事事平庸, 没有一项拿得出手的的技能, 也就对他人, 尤其是你的更高圈层的人毫无价值. 应当做到一个 T 型人才, 在某个领域有极深的造诣, 然后横向拓展与之相关的其他能力, 舍弃其他一切无法对构造当前你的能力闭环(脱离平台生存能力)产生裨益的技能.
+一个认为自己是&amp;quot;选民&amp;quot;的人, 比认为自己想要投票的人更加有可能进行投票; 一个认为自己是创作者的人, 则更愿意创作内容而非仅满足当一个观众. 人的意识和行为很大程度上受到&amp;quot;身份&amp;quot;的影响. 再如你是一个追求效率的人, 那么就很有可能会一直追求一些效率工具; 如果你认为自己本来就应该是一个瘦子, 那么减肥的时候就会更有动力. 同样, 如果你一直认为自己是一个失败者, 那么事情出了差错, 便会习惯性的认为本该如此, 而失去了去改正的动力; 反之, 如果你认为自己就是一个会成功的人, 那么你的行为上也会一直去尝试做一些至少自认为会成功的事, 并在失败之后不断精进.
+抛开场景谈功能都是耍流氓. 锄头放在办公室里, 那基本上派不上用场。</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:5786/posts/daily/2024-04-29_monday/</link>
       <pubDate>Mon, 29 Apr 2024 22:36:23 +0800</pubDate>
-      <guid>http://localhost:5585/posts/daily/2024-04-29_monday/</guid>
+      <guid>http://localhost:5786/posts/daily/2024-04-29_monday/</guid>
       <description>读书读多了, 又常常闭门造车, 就喜欢把自己端着. 以为自己做了一些高大尚的东西, 实际能否拿得出手自己心里也清清楚楚. 真就像那孔乙己. 不过我和孔乙己还是有些不一样的, 我其实是肯脱下长衫做事的, 然而我最不能忍受的是浪费时间. 可是假如在大方向上错了, 那么无论你早期自认为有多努力, 多么肯为以后考虑, 最终还是会把该赔的时间赔进去.
 无论是编程语言, 正常的语言, 还是各种软件, 本质上都是工具, 是需要为人类的实际需求服务的. 脱离了需求, 为了使用工具而使用工具, 其实是极其愚蠢的, 因为精进一个工具是需要花费时间的. 你花费了时间, 但是却又没有用处, 那么最终迟早会忘记. 在考试脑科学这本书中提到, 一门新的知识, 学了之后一个月不用, 基本上就得重新学; 而如果一个知识可以反复用到, 那么这些知识你也会掌握得越来越熟练.
 肖申克的救赎
@@ -26,9 +143,9 @@
     </item>
     <item>
       <title>emacs 使用 org-mode 搭配 ox-hugo 搭建博客</title>
-      <link>http://localhost:5585/posts/emacs-%E4%BD%BF%E7%94%A8-org-mode-%E6%90%AD%E9%85%8D-ox-hugo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>http://localhost:5786/posts/emacs-%E4%BD%BF%E7%94%A8-org-mode-%E6%90%AD%E9%85%8D-ox-hugo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sun, 28 Apr 2024 13:28:46 +0800</pubDate>
-      <guid>http://localhost:5585/posts/emacs-%E4%BD%BF%E7%94%A8-org-mode-%E6%90%AD%E9%85%8D-ox-hugo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>http://localhost:5786/posts/emacs-%E4%BD%BF%E7%94%A8-org-mode-%E6%90%AD%E9%85%8D-ox-hugo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>windows 中安装 hugo 到releases页面获取 hugo 的最新安装包，在本地解压之后将 hugo.exe 所在的文件夹加入到环境变量中。 可在命令行使用 hugo version 查看 hugo 是否安装成功 emacs 中安装 ox-hugo 普通安装 在emacs配置文件中加入下列代码:
 (with-eval-after-load &amp;#39;ox (require &amp;#39;ox-hugo)) use-pacakge 安装 或者可以使用use-package. 同样在emacs配置文件中加入下列代码:
 (use-package ox-hugo :ensure t :pin melpa :after ox) 安装完成之后就可以使用 c-c c-e 呼出 ox-hugo 的相关命令了
@@ -36,9 +153,9 @@
     </item>
     <item>
       <title>设置默认的声音输出设备</title>
-      <link>http://localhost:5585/posts/%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%9A%84%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E8%AE%BE%E5%A4%87/</link>
+      <link>http://localhost:5786/posts/%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%9A%84%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E8%AE%BE%E5%A4%87/</link>
       <pubDate>Sun, 28 Apr 2024 13:28:19 +0800</pubDate>
-      <guid>http://localhost:5585/posts/%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%9A%84%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E8%AE%BE%E5%A4%87/</guid>
+      <guid>http://localhost:5786/posts/%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%9A%84%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E8%AE%BE%E5%A4%87/</guid>
       <description>使用带有监听耳机插口的麦克风时, 会默认将其监听接口作为输出设备, 每次重启系统都需要重新设置, 很烦, 所以需要重新设置默认的. 在终端中执行以下命令进行设置:
 查看设备名称 pactl list sinks 查看你在设置的“声音”中的设备具体是什么名称, 比如我的设置中的名称为 Line Out - Built-in Audio, 实际的名称为 alsa_output.pci-0000_00_1f.3.analog-stereo.
 修改默认设备 执行一下命令修改默认的音频输出设备
@@ -46,179 +163,158 @@ pactl set-default-sink alsa_output.pci-0000_00_1f.3.analog-stereo 然后在 star
     </item>
     <item>
       <title>Angular Git 提交规范</title>
-      <link>http://localhost:5585/posts/angular-git-%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83/</link>
+      <link>http://localhost:5786/posts/angular-git-%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83/</link>
       <pubDate>Sun, 28 Apr 2024 13:28:12 +0800</pubDate>
-      <guid>http://localhost:5585/posts/angular-git-%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83/</guid>
+      <guid>http://localhost:5786/posts/angular-git-%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83/</guid>
       <description>格式 type(scope): subject
 type: 本次提交的类型, 必填. scope: 提交的范围, 指定相关文件夹, 更好定位错误, 可选. subject: 提交的描述, 必填. 例如 fix(src/login): 修改弹窗显示错误.
 type 的种类 type 描述 feat feature, 增加了一个新功能. fix 修复了 bug. style 仅修改了代码格式（如删除空格、换行等） docs documents, 修改了文档 build 修改了编译相关的内容，发布版本、对项目构建或者依赖，即npm、gulp、yarn等文件 ci 修改了持续集成，示例范围：Travis、Circle、BrowserStack、SauceLabs perf performance, 包含优化相关，比如提升性能、优化用户体验 test 包含测试用例的修改时 refactor 既不修复错误也不添加功能的代码更改 chore 有其他修改（不在上述类型中的修改） </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:5585/posts/%E7%BB%B4%E7%94%9F%E7%B4%A0%E9%87%87%E8%B4%AD%E5%92%8C%E4%BD%BF%E7%94%A8/</link>
+      <link>http://localhost:5786/posts/%E7%BB%B4%E7%94%9F%E7%B4%A0%E9%87%87%E8%B4%AD%E5%92%8C%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Sun, 28 Apr 2024 13:27:42 +0800</pubDate>
-      <guid>http://localhost:5585/posts/%E7%BB%B4%E7%94%9F%E7%B4%A0%E9%87%87%E8%B4%AD%E5%92%8C%E4%BD%BF%E7%94%A8/</guid>
+      <guid>http://localhost:5786/posts/%E7%BB%B4%E7%94%9F%E7%B4%A0%E9%87%87%E8%B4%AD%E5%92%8C%E4%BD%BF%E7%94%A8/</guid>
       <description> 种类 数量 待买 用量 异维A酸 12 * 6 粒 0 一天一粒 葡萄糖酸锌片 3 瓶 0 一天3次, 一次1粒 维生素A 0 瓶 0 0 复合维生素B 1 瓶 2 一天3次, 一次2片 维生素B6 1瓶 1 一天2次, 一次1片 维生素C 2瓶 0 一天3次, 一次2片 维生素D 0瓶 2瓶 一天2粒 维生素E 0 2瓶 一天2粒 钙片 0 2瓶 </description>
     </item>
     <item>
       <title>双系统卸载 Ubuntu</title>
-      <link>http://localhost:5585/posts/%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%8D%B8%E8%BD%BD-ubuntu/</link>
+      <link>http://localhost:5786/posts/%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%8D%B8%E8%BD%BD-ubuntu/</link>
       <pubDate>Sun, 28 Apr 2024 13:27:32 +0800</pubDate>
-      <guid>http://localhost:5585/posts/%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%8D%B8%E8%BD%BD-ubuntu/</guid>
+      <guid>http://localhost:5786/posts/%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%8D%B8%E8%BD%BD-ubuntu/</guid>
       <description>https://bbs.huaweicloud.com/blogs/303695 按照文中 2, 3 步操作即可.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:5585/posts/wsl-%E5%AE%89%E8%A3%85/</link>
+      <link>http://localhost:5786/posts/wsl-%E5%AE%89%E8%A3%85/</link>
       <pubDate>Sun, 28 Apr 2024 13:26:59 +0800</pubDate>
-      <guid>http://localhost:5585/posts/wsl-%E5%AE%89%E8%A3%85/</guid>
+      <guid>http://localhost:5786/posts/wsl-%E5%AE%89%E8%A3%85/</guid>
       <description>常用命令:
 wsl --install Ubuntu // 安装 Ubuntu 的发行版 wsl --update // 更新 wsl 防止乱码 </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:5585/posts/windows-%E6%98%BE%E5%8D%A1%E7%A1%AC%E4%BB%B6%E5%8A%A0%E9%80%9F/</link>
+      <link>http://localhost:5786/posts/windows-%E6%98%BE%E5%8D%A1%E7%A1%AC%E4%BB%B6%E5%8A%A0%E9%80%9F/</link>
       <pubDate>Sun, 28 Apr 2024 13:26:55 +0800</pubDate>
-      <guid>http://localhost:5585/posts/windows-%E6%98%BE%E5%8D%A1%E7%A1%AC%E4%BB%B6%E5%8A%A0%E9%80%9F/</guid>
+      <guid>http://localhost:5786/posts/windows-%E6%98%BE%E5%8D%A1%E7%A1%AC%E4%BB%B6%E5%8A%A0%E9%80%9F/</guid>
       <description>1、打开控制面板，点击“网络和Internet”。 2、点击Internet选项。 3、在高级中找到“加速的图形”下的“使用软件呈现而不使用GPU呈现”，打上勾，保存即可。</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:5585/posts/windows-%E5%85%A8%E5%B1%80%E6%96%B0%E5%BB%BA%E7%AC%94%E8%AE%B0/</link>
+      <link>http://localhost:5786/posts/windows-%E5%85%A8%E5%B1%80%E6%96%B0%E5%BB%BA%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Sun, 28 Apr 2024 13:26:50 +0800</pubDate>
-      <guid>http://localhost:5585/posts/windows-%E5%85%A8%E5%B1%80%E6%96%B0%E5%BB%BA%E7%AC%94%E8%AE%B0/</guid>
+      <guid>http://localhost:5786/posts/windows-%E5%85%A8%E5%B1%80%E6%96%B0%E5%BB%BA%E7%AC%94%E8%AE%B0/</guid>
       <description>全局新建Obsidian笔记的快捷键 - 疑问解答 - Obsidian 中文论坛</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:5585/posts/windows-%E5%88%A9%E7%94%A8-auto-hotkey-%E6%A8%A1%E6%8B%9F%E5%B8%B8%E7%94%A8-emacs-%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
+      <link>http://localhost:5786/posts/windows-%E5%88%A9%E7%94%A8-auto-hotkey-%E6%A8%A1%E6%8B%9F%E5%B8%B8%E7%94%A8-emacs-%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
       <pubDate>Sun, 28 Apr 2024 13:26:46 +0800</pubDate>
-      <guid>http://localhost:5585/posts/windows-%E5%88%A9%E7%94%A8-auto-hotkey-%E6%A8%A1%E6%8B%9F%E5%B8%B8%E7%94%A8-emacs-%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
+      <guid>http://localhost:5786/posts/windows-%E5%88%A9%E7%94%A8-auto-hotkey-%E6%A8%A1%E6%8B%9F%E5%B8%B8%E7%94%A8-emacs-%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
       <description>#Requires AutoHotkey v2.0 ; ~ 表示发送指令前还需执行一次原来按键的功能 ~^[:: { Send &amp;#34;{Esc}&amp;#34; } ;; google chrome emacs-like setting ;; ^ - Ctrl ;; ! - Alt ;#HotIf WinActive(&amp;#34;ahk_exe Chrome.exe&amp;#34;) or WinActive(&amp;#34;ahk_exe Obsidian.exe&amp;#34;) or WinActive(&amp;#34;ahk_exe idea64.exe&amp;#34;) or WinActive(&amp;#34;ahk_exe Notepad.exe&amp;#34;) or WinActive(&amp;#34;ahk_exe Code.exe&amp;#34;) ;{ ^n::Send &amp;#34;{Down}&amp;#34; ^p::Send &amp;#34;{Up}&amp;#34; ^f::Send &amp;#34;{Right}&amp;#34; ^b::Send &amp;#34;{Left}&amp;#34; !b::Send &amp;#34;^{Left}&amp;#34; !f::Send &amp;#34;^{Right}&amp;#34; !e::Send &amp;#34;{End}&amp;#34; !a::Send &amp;#34;{Home}&amp;#34; ^k::kill_line() ^@::Send &amp;#34;+{Right}&amp;#34; ;^DEL::kill_word() ;} kill_line() { Send &amp;#34;{ShiftDown}{END}{SHIFTUP}&amp;#34; ;; Sleep 50 ;[ms] this value depends on your environment Send &amp;#34;{BACKSPACE}&amp;#34; Return } kill_word() { Send &amp;#34;!</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:5585/posts/windows-%E8%A7%A3%E5%86%B3-wsl-%E4%BB%A3%E7%90%86%E9%97%AE%E9%A2%98/</link>
+      <link>http://localhost:5786/posts/windows-%E8%A7%A3%E5%86%B3-wsl-%E4%BB%A3%E7%90%86%E9%97%AE%E9%A2%98/</link>
       <pubDate>Sun, 28 Apr 2024 13:26:42 +0800</pubDate>
-      <guid>http://localhost:5585/posts/windows-%E8%A7%A3%E5%86%B3-wsl-%E4%BB%A3%E7%90%86%E9%97%AE%E9%A2%98/</guid>
+      <guid>http://localhost:5786/posts/windows-%E8%A7%A3%E5%86%B3-wsl-%E4%BB%A3%E7%90%86%E9%97%AE%E9%A2%98/</guid>
       <description>解决方法 在 windows 的 %USERPROFILE% 目录下打开或新建 .wslconfig 文件并输入如下代码:
 [experimental] autoMemoryReclaim=dropcache # gradual | dropcache | disabled networkingMode=mirrored dnsTunneling=true firewall=true autoProxy=true 然后在 Windows 命令行中执行 wsl --shutdown 之后重新打开 wsl 即可. WSL2 的 2.0 更新彻底解决网络问题 - 知乎</description>
     </item>
     <item>
       <title>Ubuntu 默认终端设置</title>
-      <link>http://localhost:5585/posts/ubuntu-%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF%E8%AE%BE%E7%BD%AE/</link>
+      <link>http://localhost:5786/posts/ubuntu-%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF%E8%AE%BE%E7%BD%AE/</link>
       <pubDate>Sun, 28 Apr 2024 13:26:28 +0800</pubDate>
-      <guid>http://localhost:5585/posts/ubuntu-%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF%E8%AE%BE%E7%BD%AE/</guid>
+      <guid>http://localhost:5786/posts/ubuntu-%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF%E8%AE%BE%E7%BD%AE/</guid>
       <description>Ubuntu 的默认终端不太好用, 在 ~/.inputrc 文件中, 加上一点设置:
 # do not show hidden files in the list set match-hidden-files off # auto complete ignoring case set show-all-if-ambiguous on set completion-ignore-case on &amp;#34;\e[A&amp;#34;: history-search-backward &amp;#34;\e[B&amp;#34;: history-search-forward 解释: show-all-if-ambiguous : 默认情况下，按下两次 &amp;lt;tab&amp;gt; 才会出现提示，现在只需要一次了。 match-hidden-files : 不显示隐藏文件，特别是当你在 Home 目录时，你会觉得眼前好干净。 completion-ignore-case : 在自动补全时忽略大小写 history-search-* : 输入某个命令的一部分时，按上下箭头，会匹配关于这个这命令最近的使用历史。
 原链接</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:5585/posts/sd-%E5%85%B3%E9%94%AE%E8%AF%8D%E8%AE%B0%E5%BD%95/</link>
+      <link>http://localhost:5786/posts/sd-%E5%85%B3%E9%94%AE%E8%AF%8D%E8%AE%B0%E5%BD%95/</link>
       <pubDate>Sun, 28 Apr 2024 13:26:23 +0800</pubDate>
-      <guid>http://localhost:5585/posts/sd-%E5%85%B3%E9%94%AE%E8%AF%8D%E8%AE%B0%E5%BD%95/</guid>
+      <guid>http://localhost:5786/posts/sd-%E5%85%B3%E9%94%AE%E8%AF%8D%E8%AE%B0%E5%BD%95/</guid>
       <description> 关键词名称 Hi-Res Fix SD Upscale Embeddings VAE </description>
     </item>
     <item>
-      <title></title>
-      <link>http://localhost:5585/posts/reading-notes--automatic-habits/</link>
-      <pubDate>Sun, 28 Apr 2024 13:26:18 +0800</pubDate>
-      <guid>http://localhost:5585/posts/reading-notes--automatic-habits/</guid>
-      <description>生词/词组 单词/词组 释义 Prevailing wisdom 主流观点 </description>
-    </item>
-    <item>
       <title>ox-hugo org-template 理解</title>
-      <link>http://localhost:5585/posts/ox-hugo-org-template-%E7%90%86%E8%A7%A3/</link>
+      <link>http://localhost:5786/posts/ox-hugo-org-template-%E7%90%86%E8%A7%A3/</link>
       <pubDate>Sun, 28 Apr 2024 13:26:14 +0800</pubDate>
-      <guid>http://localhost:5585/posts/ox-hugo-org-template-%E7%90%86%E8%A7%A3/</guid>
+      <guid>http://localhost:5786/posts/ox-hugo-org-template-%E7%90%86%E8%A7%A3/</guid>
       <description>olp, org link path, org mode 中的标题层级路径.
 (add-to-list &amp;#39;org-capture-templates &amp;#39;(&amp;#34;h&amp;#34; ;`org-capture&amp;#39; binding + h &amp;#34;Hugo post&amp;#34; entry ;; It is assumed that below file is present in `org-directory&amp;#39; ;; and that it has a &amp;#34;Blog Ideas&amp;#34; heading. It can even be a ;; symlink pointing to the actual location of all-posts.org! (file+olp &amp;#34;roam/all-posts.org&amp;#34; &amp;#34;Blog Ideas&amp;#34;) (function org-hugo-new-subtree-post-capture-template)))) 对于上述代码, 如果希望在 * Blog Ideas, **Ideas 层级下生成博客, 就应该写成 (file+olp &amp;quot;roam/all-posts.org&amp;quot; &amp;quot;Blog Ideas&amp;quot; &amp;quot;Ideas&amp;quot;) doom emacs 中如果想要修改 org-capture-templates 的内容, 只需要找到 ~/.</description>
     </item>
     <item>
       <title>ox-hugo 自动生成模板代码解析</title>
-      <link>http://localhost:5585/posts/ox-hugo-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%A8%A1%E6%9D%BF%E4%BB%A3%E7%A0%81%E8%A7%A3%E6%9E%90/</link>
+      <link>http://localhost:5786/posts/ox-hugo-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%A8%A1%E6%9D%BF%E4%BB%A3%E7%A0%81%E8%A7%A3%E6%9E%90/</link>
       <pubDate>Sun, 28 Apr 2024 13:26:10 +0800</pubDate>
-      <guid>http://localhost:5585/posts/ox-hugo-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%A8%A1%E6%9D%BF%E4%BB%A3%E7%A0%81%E8%A7%A3%E6%9E%90/</guid>
+      <guid>http://localhost:5786/posts/ox-hugo-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%A8%A1%E6%9D%BF%E4%BB%A3%E7%A0%81%E8%A7%A3%E6%9E%90/</guid>
       <description>ox-hugo 单文件组织博客的教程中有这样一段代码(手动改造增加了一个 :ID: 属性):
 (defun org-hugo-new-subtree-post-capture-template () &amp;#34;Returns `org-capture&amp;#39; template string for new Hugo post. See `org-capture-templates&amp;#39; for more information.&amp;#34; (let* ((title (read-from-minibuffer &amp;#34;Post Title: &amp;#34;)) ;Prompt to enter the post title (fname (org-hugo-slug title)) (id (org-id-new))) ;Generate a new ID without a prefix (mapconcat #&amp;#39;identity `( ,(concat &amp;#34;* TODO &amp;#34; title) &amp;#34;:PROPERTIES:&amp;#34; ,(concat &amp;#34;:EXPORT_HUGO_BUNDLE: &amp;#34; fname) &amp;#34;:EXPORT_FILE_NAME: index&amp;#34; ,(concat &amp;#34;:ID: &amp;#34; id) ;Add the ID property &amp;#34;:END:&amp;#34; &amp;#34;%?\n&amp;#34;) ;Place the cursor here finally &amp;#34;\n&amp;#34;))) let*: 先定义变量, 再执行方法.</description>
     </item>
     <item>
       <title>ox-hugo 结合 org-download 粘贴图片</title>
-      <link>http://localhost:5585/posts/ox-hugo-%E7%BB%93%E5%90%88-org-download-%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/</link>
+      <link>http://localhost:5786/posts/ox-hugo-%E7%BB%93%E5%90%88-org-download-%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/</link>
       <pubDate>Sun, 28 Apr 2024 13:26:05 +0800</pubDate>
-      <guid>http://localhost:5585/posts/ox-hugo-%E7%BB%93%E5%90%88-org-download-%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/</guid>
+      <guid>http://localhost:5786/posts/ox-hugo-%E7%BB%93%E5%90%88-org-download-%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/</guid>
       <description>ox-hugo 提供了一个单文件组织博客的功能, 一直以为无法和 org-roam 联动, 就一直没用过. 后来发现原来只要 org 文件的某个 level 下有个 ID 就会被认为是 org-roam 的节点, 于是就放心使用了. hugo 提供了一个 Page Bundles 的功能, 稍微研究了一点, 发现比正常方式更好管理静态资源, 就决定使用这个方式了. 简单理解, page bundles 就是把博客从单个 markdown 文件变为一个文件夹里放着 index.md 和其他资源文件. 原先的 org-download 的配置如下所示:
 (use-package! org-download :after org :custom (org-download-method &amp;#39;directory) ) 我的单文件放在 ~/org/all-posts.org 下, 所有博客都放在这里. 大致的结构如下所示:
 #+title: All Posts #+begin_no_export #+options: author:nil ^:{} #+hugo_front_matter_format: yaml #+hugo_base_dir: ~/blog/ #+hugo_section: posts/ #+date: [24-04-07 Sun Apr:04] #+hugo_custom_front_matter: :toc true #+hugo_auto_set_lastmod: t #+hugo_tags: #+hugo_categories: #+hugo_draft: false #+end_no_export * BLog Ideas ** DONE test-page-bundle2 :ATTACH: :PROPERTIES: :EXPORT_HUGO_BUNDLE: test-page-bundle2 :EXPORT_FILE_NAME: index :ID: 5fd9659c-085a-443b-940a-be3c522be6ab :END: [[download:test-page-bundle2/_20240407_180600screenshot.</description>
     </item>
     <item>
       <title>org-roam 节点</title>
-      <link>http://localhost:5585/posts/org-roam-%E8%8A%82%E7%82%B9/</link>
+      <link>http://localhost:5786/posts/org-roam-%E8%8A%82%E7%82%B9/</link>
       <pubDate>Sun, 28 Apr 2024 13:26:02 +0800</pubDate>
-      <guid>http://localhost:5585/posts/org-roam-%E8%8A%82%E7%82%B9/</guid>
+      <guid>http://localhost:5786/posts/org-roam-%E8%8A%82%E7%82%B9/</guid>
       <description>只要有个 ID 的元数据, 就可以被 org-roam 视为一个节点, 即
 :PROPERTIES: :ID: xxx :END: </description>
     </item>
     <item>
       <title>Obsidian Vim 自动切换搜狗输入法中英状态</title>
-      <link>http://localhost:5585/posts/obsidian-vim-%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%AD%E8%8B%B1%E7%8A%B6%E6%80%81/</link>
+      <link>http://localhost:5786/posts/obsidian-vim-%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%AD%E8%8B%B1%E7%8A%B6%E6%80%81/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5585/posts/obsidian-vim-%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%AD%E8%8B%B1%E7%8A%B6%E6%80%81/</guid>
+      <guid>http://localhost:5786/posts/obsidian-vim-%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%AD%E8%8B%B1%E7%8A%B6%E6%80%81/</guid>
       <description>https://github.com/gamife/im-select-cn 将上述地址中的代码复制到本地 解压之后将 im-select-cn.exe 的文件路径放到环境变量中 按照如下设置插件 重启 obsidian 即可.
 补充:
 在 cmd 使用 im-select-cn.exe 0|1|2 可以修改搜狗输入法的输入状态. 0 - 英文 1 - 中文 2 - 自动切换 </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:5585/posts/obsidian-publisher-%E6%96%87%E7%AB%A0%E6%A8%A1%E6%9D%BF/</link>
+      <link>http://localhost:5786/posts/obsidian-publisher-%E6%96%87%E7%AB%A0%E6%A8%A1%E6%9D%BF/</link>
       <pubDate>Sun, 28 Apr 2024 13:25:53 +0800</pubDate>
-      <guid>http://localhost:5585/posts/obsidian-publisher-%E6%96%87%E7%AB%A0%E6%A8%A1%E6%9D%BF/</guid>
+      <guid>http://localhost:5786/posts/obsidian-publisher-%E6%96%87%E7%AB%A0%E6%A8%A1%E6%9D%BF/</guid>
       <description>--- date: &amp;#34;{{date}}&amp;#34; # 创建时间，我这边生成的格式是 YYYY-MM-DDTHH:mm:ssZ tags: - 标签1 - 标签2 title: &amp;#34;{{title}}&amp;#34; slug: &amp;#34;{{time}}&amp;#34; # 自定义 URL 中文章的访问名称，默认用时间戳填充模板格式为X share: false # 配合 Github Publisher插件用的,true表示 obsidian 的文章可以发布 canonicalURL: &amp;#34;&amp;#34; # 之前文章在其他地方被发布的地址，避免搜索引擎重复，设置了该属性会优先展示 canonicalURL 执行的文章 keywords: # 用于 SEO 优化，也可以不配置该内容默认会使用 tags 的内容 - 关键字1 - 关键字2 description: &amp;#34;&amp;#34; # 文章的描述 SEO 优化，为空时默认会截取文章前面的内容 series: &amp;#34;系列&amp;#34; # 系列文章 lastmod: # 文章最后更新的时间 lang: &amp;#34;cn&amp;#34; # 默认不用写，配置文件会设置默认 cn 中文，en 英文等等 cover.image: &amp;#34;&amp;#34; # 文章封面图片地址 author: # 作者名称 dir: &amp;#34;posts&amp;#34; # 搭配 Github Publisher 插件设置文章上传的目录 --- </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:5585/posts/daily/2024-04-22/</link>
+      <link>http://localhost:5786/posts/daily/2024-04-22/</link>
       <pubDate>Sun, 28 Apr 2024 11:04:50 +0800</pubDate>
-      <guid>http://localhost:5585/posts/daily/2024-04-22/</guid>
+      <guid>http://localhost:5786/posts/daily/2024-04-22/</guid>
       <description>想做的事情太多, 能力又不够, 反而容易摆烂, 白白浪费大量的时间. 思路应当聚焦, 并且没人规定某些事情一定不能一起长期做, 但是每个大类中的东西应该做一些取舍. 下面按照重要程度列举一些我应该做的事:
 读书: 重中之重, 一日不可缺少. 写作: 每日的所思所想需记录. 相关事件: 手机和电脑文字记录同步 个人博客搭建 剪辑 AIGC: 媒体宣传提效 ComfyUI gpt-sovits-tts 做菜: 挣钱目的 敲代码: 技术是学不完的, 尽量把基础打好, 保持语感. 把时间花在 api 的记忆上本就是十分不应该的. 目前根本就达不到需要自主的地步, 因此应该充分利用 ai 为自己赋能. </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:5585/posts/daily/2024-04-28/</link>
+      <link>http://localhost:5786/posts/daily/2024-04-28/</link>
       <pubDate>Sun, 28 Apr 2024 10:58:41 +0800</pubDate>
-      <guid>http://localhost:5585/posts/daily/2024-04-28/</guid>
+      <guid>http://localhost:5786/posts/daily/2024-04-28/</guid>
       <description>互联网上真正被人广泛认识的人, 几乎没有搞技术, 或者说是纯粹搞技术的. 你不去主动宣传, 不在互联网上留下自己的足迹, 几乎没有人会知道你这个人的存在. 而单纯搞技术是没办法变现的. 尽管我的内心深处希望可以安安静静的搞技术, 但现在情况如此, 要想吃自媒体这碗饭, 还是要铆足了劲把自己宣传出去.
 人和动物的区别就在于工具的使用. 尽管向猩猩之类的可以简单地使用木棍挑起不要为了用这个工具而用这个工具, 要搞清楚真正想要的东西是什么.</description>
     </item>
     <item>
-      <title>test</title>
-      <link>http://localhost:5585/posts/test/</link>
-      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5585/posts/test/</guid>
-      <description>$$ sqx $$ $$ \sqrt{ x } \sum $$</description>
-    </item>
-    <item>
       <title></title>
-      <link>http://localhost:5585/posts/01-todo/</link>
+      <link>http://localhost:5786/posts/01-todo/</link>
       <pubDate>Fri, 26 Apr 2024 20:50:44 +0800</pubDate>
-      <guid>http://localhost:5585/posts/01-todo/</guid>
+      <guid>http://localhost:5786/posts/01-todo/</guid>
       <description> 让通过 win + r 启动的 cmd 以管理员的身份运行. ✅ 2024-04-18 - [ ] obsidian 手机端和电脑端同步 明朝那些事儿读书笔记 ✅ 2024-04-22 - [ ] Obsidian 设置手机同步 博客搭建 hugo picgo obsidian 插件配置 quickadd 小闪电用法 本地接收邮箱 </description>
     </item>
     <item>
       <title>vscode vim 快捷键</title>
-      <link>http://localhost:5585/posts/vscode-vim-%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
+      <link>http://localhost:5786/posts/vscode-vim-%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
       <pubDate>Fri, 26 Apr 2024 10:48:05 +0000</pubDate>
-      <guid>http://localhost:5585/posts/vscode-vim-%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
+      <guid>http://localhost:5786/posts/vscode-vim-%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
       <description>vim-surround 快捷键 作用 S&amp;quot; 为选中的内容增加双引号 ysiw[ 选中单词并增加中括号(左括号会额外增加空格) cs&amp;quot;&#39; 将当前所在最近的双引号改为单引号 ds&amp;quot; 删除选中内容的双引号 vim-easymotion 任意门：easymotion，让光标移动得随心所欲 | Just Vim It 相关插件: vim-sneak, vim-easymotion</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:5585/posts/daily/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5585/posts/daily/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>
