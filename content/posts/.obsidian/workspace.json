@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git clone 参数解析.md",
+                "file": "WeRead/Atomic Habits.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git clone 参数解析.md",
+                "file": "WeRead/Atomic Habits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git clone 参数解析.md",
+                "file": "WeRead/Atomic Habits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git clone 参数解析.md"
+                "file": "WeRead/Atomic Habits.md"
               }
             }
           },
@@ -205,6 +205,7 @@
   },
   "active": "05e1c6588f5124cb",
   "lastOpenFiles": [
+    "git clone 参数解析.md",
     "daily/2024-05-08_Wednesday.md",
     "test-blog/index.md",
     "test-blog",
@@ -231,7 +232,6 @@
     "daily/2024-04-30_Tuesday.md",
     "test.md",
     "_Templates/hugo.md",
-    "_index.md",
     "WeRead",
     "test.html",
     "weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
