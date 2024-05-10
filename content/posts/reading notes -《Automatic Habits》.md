@@ -1,7 +1,7 @@
 ---
 tags:
   - 读书笔记/英语
-lastmod: 2024-05-10T11:51:23+08:00
+lastmod: 2024-05-10T12:33:49+08:00
 title: reading notes -《Automatic Habits》
 ---
 # 生词/词组
@@ -103,6 +103,12 @@ title: reading notes -《Automatic Habits》
 | chemoreceptors                                    | 化学感受器           |                                                                                     |
 | sensory cells                                     | 感觉细胞            |                                                                                     |
 | stimuli                                           | 刺激物             |                                                                                     |
+| catalyst                                          | 催化剂             |                                                                                     |
+| oil embargo                                       | 石油禁运            |                                                                                     |
+| suburb                                            | 郊区              |                                                                                     |
+| pantry                                            | 茶水间             |                                                                                     |
+| urinal                                            | 小便池             |                                                                                     |
+| sticker                                           | 小贴纸             |                                                                                     |
 
 
 
