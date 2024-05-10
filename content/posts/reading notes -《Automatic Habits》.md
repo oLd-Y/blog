@@ -1,7 +1,7 @@
 ---
 tags:
   - 读书笔记/英语
-lastmod: 2024-05-10T09:58:42+08:00
+lastmod: 2024-05-10T10:03:52+08:00
 title: reading notes -《Automatic Habits》
 ---
 # 生词/词组
@@ -89,6 +89,10 @@ title: reading notes -《Automatic Habits》
 | chain reaction                                    | 连锁反应            |                                                                                     |
 | detergent                                         | 洗涤剂             |                                                                                     |
 | momentum                                          | 自然动力            |                                                                                     |
+| wipe down the counter.                            | 擦拭柜台。           |                                                                                     |
+| mug                                               | 杯               |                                                                                     |
+| veggies                                           | 素食              |                                                                                     |
+|                                                   |                 |                                                                                     |
 
 
 
