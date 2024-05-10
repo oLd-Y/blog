@@ -1,7 +1,7 @@
 ---
 tags:
   - 读书笔记/英语
-lastmod: 2024-05-10T10:03:52+08:00
+lastmod: 2024-05-10T11:51:23+08:00
 title: reading notes -《Automatic Habits》
 ---
 # 生词/词组
@@ -88,11 +88,21 @@ title: reading notes -《Automatic Habits》
 | couch                                             | 沙发              |                                                                                     |
 | chain reaction                                    | 连锁反应            |                                                                                     |
 | detergent                                         | 洗涤剂             |                                                                                     |
-| momentum                                          | 自然动力            |                                                                                     |
+| momentum                                          | 动力              |                                                                                     |
 | wipe down the counter.                            | 擦拭柜台。           |                                                                                     |
 | mug                                               | 杯               |                                                                                     |
 | veggies                                           | 素食              |                                                                                     |
-|                                                   |                 |                                                                                     |
+| chaotic                                           | 混乱的             |                                                                                     |
+| Brew a cup of coffee.                             | 煮一杯咖啡           |                                                                                     |
+| The sun sets.                                     | 太阳落山。           |                                                                                     |
+| cafeteria                                         | 餐厅              |                                                                                     |
+| communal table                                    | 公用桌             |                                                                                     |
+| wary                                              | 小心翼翼            |                                                                                     |
+| are tucked away                                   | 藏着              | while cheaper alternatives are tucked away in harder-to-reach spots                 |
+| vibrations                                        | 振动              |                                                                                     |
+| chemoreceptors                                    | 化学感受器           |                                                                                     |
+| sensory cells                                     | 感觉细胞            |                                                                                     |
+| stimuli                                           | 刺激物             |                                                                                     |
 
 
 
