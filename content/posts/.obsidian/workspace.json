@@ -42,21 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0e9d26d3d38049ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "windows 11 蓝牙无法搜索到设备的原因 .md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "windows 11 蓝牙无法搜索到设备的原因 .md",
+                "file": "reading notes -《Automatic Habits》.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "windows 11 蓝牙无法搜索到设备的原因 .md",
+                "file": "reading notes -《Automatic Habits》.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "windows 11 蓝牙无法搜索到设备的原因 .md"
+                "file": "reading notes -《Automatic Habits》.md"
               }
             }
           },
@@ -197,10 +185,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e9d26d3d38049ff",
+  "active": "bf359f6930e71359",
   "lastOpenFiles": [
-    "reading notes -《Automatic Habits》.md",
     "windows 11 蓝牙无法搜索到设备的原因 .md",
+    "reading notes -《Automatic Habits》.md",
     "Untitled.md",
     "2024-5-10_Friday/index.md",
     "2024-5-10_Friday",
