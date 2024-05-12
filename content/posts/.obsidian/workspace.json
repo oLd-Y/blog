@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "emacs 默认快捷键.md",
+                "file": "ox-hugo 结合 org-download 粘贴图片.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "org download",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "emacs 默认快捷键.md",
+                "file": "ox-hugo 结合 org-download 粘贴图片.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "emacs 默认快捷键.md",
+                "file": "ox-hugo 结合 org-download 粘贴图片.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "emacs 默认快捷键.md"
+                "file": "ox-hugo 结合 org-download 粘贴图片.md"
               }
             }
           },
@@ -186,8 +186,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "75ab60c5b57d6774",
+  "active": "bf359f6930e71359",
   "lastOpenFiles": [
+    "emacs 入坑建议.md",
     "windows-下-emacs-卡顿可能原因/index.md",
     "windows-下-emacs-卡顿可能原因",
     "reading notes -《Automatic Habits》.md",
@@ -198,7 +199,6 @@
     "WeRead/Atomic Habits.md",
     "test-blog/index.md",
     "test-blog",
-    "emacs 入坑建议.md",
     "daily/2024-05-08_Wednesday.md",
     "git clone 参数解析.md",
     "ox-hugo org-template 理解.md",
