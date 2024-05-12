@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "emacs",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,8 +186,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf359f6930e71359",
+  "active": "75ab60c5b57d6774",
   "lastOpenFiles": [
+    "windows-下-emacs-卡顿可能原因/index.md",
+    "windows-下-emacs-卡顿可能原因",
     "reading notes -《Automatic Habits》.md",
     "windows 11 蓝牙无法搜索到设备的原因 .md",
     "Untitled.md",
@@ -215,7 +217,6 @@
     "放弃折腾 vim 和 emacs.md",
     "daily/2024-05-01_Wednesday.md",
     "_Templates/dairy.md",
-    "daily/2024-04-30_Tuesday.md",
     "WeRead",
     "test.html",
     "weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
@@ -223,7 +224,6 @@
     "weread/增广贤文（国学大书院）",
     "weread/人性的弱点",
     "weread/傲慢与偏见（上）英文版",
-    "weread/平凡的世界（全三册）",
     "Pasted image 20240412163932.png",
     "Pasted image 20240412083715.png",
     "Pasted image 20240412083742.png"
