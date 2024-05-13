@@ -1,7 +1,7 @@
 ---
 tags: 
 draft: false
-lastmod: 2024-05-13T08:20:17+08:00
+lastmod: 2024-05-13T10:13:37+08:00
 title: wsl2 安装 gnome 桌面环境
 date: 2024-05-13
 ---
@@ -9,7 +9,9 @@ date: 2024-05-13
 
 ```
 sudo apt update && sudo apt upgrade -y
-sudo apt-fast install ubuntu-desktop gnome
+apt purge -y acpid acpi-support modemmanager
+sudo apt-mark hold acpid acpi-support
+sudo apt install ubuntu-desktop gnome
 
 vim ~/.bashrc
 export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0  
