@@ -25,43 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "windows 和 arch 双系统安装.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "05e1c6588f5124cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WeRead/Atomic Habits.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1c95aec119b85ccc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "windows 无法进入 wsl.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51cc131f4d2e3dd5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ubuntu 22.04 更换镜像源.md",
+                "file": "重装系统之后出现 git 出现 detected dubious ownership in repository .md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wsl",
+                "query": "detected",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "windows 和 arch 双系统安装.md",
+                "file": "重装系统之后出现 git 出现 detected dubious ownership in repository .md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "windows 和 arch 双系统安装.md",
+                "file": "重装系统之后出现 git 出现 detected dubious ownership in repository .md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "windows 和 arch 双系统安装.md"
+                "file": "重装系统之后出现 git 出现 detected dubious ownership in repository .md"
               }
             }
           },
@@ -197,11 +161,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-weread-plugin:同步微信读书笔记": false,
-      "remotely-save:Remotely Save": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -212,12 +171,14 @@
   },
   "active": "f9793f0488bb1999",
   "lastOpenFiles": [
-    "emacs 入坑建议.md",
-    "windows 和 arch 双系统安装.md",
-    "windows 无法进入 wsl.md",
-    "wsl2 安装 gnome 桌面环境.md",
-    "Ubuntu 22.04 更换镜像源.md",
+    "test.md",
+    "kde-arch-linux-安装-fcitx5-和-rime-输入法/index.md",
     "WeRead/Atomic Habits.md",
+    "windows 无法进入 wsl.md",
+    "Ubuntu 22.04 更换镜像源.md",
+    "windows 和 arch 双系统安装.md",
+    "emacs 入坑建议.md",
+    "wsl2 安装 gnome 桌面环境.md",
     "ox-hugo 结合 org-download 粘贴图片.md",
     "重装系统之后出现 git 出现 detected dubious ownership in repository .md",
     "Untitled.md",
@@ -239,8 +200,6 @@
     "WeRead/呐喊.md",
     "虎码笔记.md",
     "自然码辅助码表.md",
-    "daily/2024-05-06_Monday.md",
-    "《古文观止》读书笔记.md",
     "WeRead",
     "test.html",
     "weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
