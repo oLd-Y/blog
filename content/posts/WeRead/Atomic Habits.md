@@ -3,12 +3,12 @@ doc_type: weread-highlights-reviews
 bookId: CB_7xbFkhFlKG9h6lV6ksG2y4VK
 author: Clear, James
 cover: 
-reviewCount: 21
-noteCount: 41
+reviewCount: 28
+noteCount: 137
 readingStatus: 未标记
 progress: 3%
-totalReadDay: 18
-readingTime: 7小时23分钟
+totalReadDay: 28
+readingTime: 12小时8分钟
 readingDate: 2024-01-07
 title: Atomic Habits
 category: 
@@ -17,7 +17,7 @@ publishTime:
 isbn: 
 cover.image: https://res.weread.qq.com/wrepub/CB_GbJ1U11UZEV96i36gZ6nmEpt_parsecover
 draft: true
-lastmod: 2024-05-08T14:32:41+08:00
+lastmod: 2024-06-05T21:19:58+08:00
 ---
 # 元数据
 > [!abstract]- Atomic Habits
@@ -248,13 +248,504 @@ lastmod: 2024-05-08T14:32:41+08:00
 
 > [!Cite]+ <span style="color: #ffce78;">Highlight</span>
 > N 2001 , RESEARCHERS in Great Britain began working with 248 people to build better exercise habits over the course of two weeks. The subjects were divided into three groups.The first group was the control group. They were simply asked to track how often they exercised.The second group was the “motivation” group. They were asked not only to track their workouts but also to read some material on the benefits of exercise.The researchers also explained to the group how exercise could reduce the risk of coronary heart disease and improve heart health.Finally, there was the third group. These subjects received the same presentation as the second group, which ensured that they had equal levels of motivation. However, they were also asked to formulate a plan for when and where they would exercise over the following week. Specifically, each member of the third group completed the following sentence: “During the next week, I will partake in at least 20 minutes of vigorous exercise on [DAY] at [TIME] in [PLACE].”In the first and second groups, 35 to 38 percent of people exercised at least once per week. (Interestingly, the motivational presentation given to the second group seemed to have no meaningful impact on behavior.) But 91percent of the third group exercised at least once per week—more than double the normal rate.
-> ^12-1092-3118
+> ^12-1092-3100
 
 
 > [!Annotation]+ <span style="color: #ffce78;">Annotation</span>
 > Too many people try to change their habits without these basic details figured out. We tell ourselves, “I’m going to eat healthier” or “I’m going to write more,”but we never say when and where these habits are going to happen.
 > ---
 > 越具体的习惯越容易被执行。
+
+
+> [!Annotation]+ <span style="color: #ffce78;">Annotation</span>
+> Many people think they lack motivation when what they really lack is clarity.
+> ---
+> when 替代 but
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> I will [BEHAVIOR] at [TIME] in [LOCATION].
+> ^12-7761-7803
+
+
+> [!Annotation]+ <span style="color: #ffce78;">Annotation</span>
+> Being specific about what you want and how you will achieve it helps you say no to things that derail progress, distract your attention, and pull you off course.
+> ---
+> 这么看来，GTD 还是很有必要的，可以防止自己偏离当前需要做事。在没有实施 GTD 的时候，经常陷入“深度优先搜索”，导致当前做事的效率极低。
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> When your dreams are vague, it’s easy to rationalize little exceptions all day long and never get around to the specific things you need to do to succeed.
+> ^12-9597-9751
+
+
+> [!Annotation]+ <span style="color: #ffce78;">Annotation</span>
+> Diderot soon felt the urge to upgrade his possessions. He replaced his rug with one from Damascus. He decorated his home with expensive sculptures. He bought a mirror to place above the mantel, and a better kitchen table. He tossed aside his old straw chair for a leather one. Like falling dominoes, one purchase led to the next.
+> ---
+> 为了这瓶醋包的这份饺子。苹果也是这样的，只要入手了它的一个设备，就容易不由自主地想买其它设备。
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Diderot’s behavior is not uncommon. In fact, the tendency for one purchase to lead to another one has a name: the Diderot Effect. The Diderot Effect states that obtaining a new possession often creates a spiral of consumption that leads to additional purchases.
+> ^12-13661-13958
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> After [CURRENT HABIT], I will [NEW HABIT].”
+> ^12-16539-16582
+### 6: Motivation Is Overrated; Environment Often Matters More
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> items at eye level tend to be purchased more than those down near the floor.
+> ^13-6351-6427
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> choose water over soda, we assume it is because we wanted to do so. The truth, however, is that many of the actions we take each day are shaped not by purposeful drive and choice but by the most obvious option.
+> ^13-7480-7690
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> habits can be easier to change in a new environment.
+> ^13-20922-20974
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> rooftop patio
+> ^13-22244-22257
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> mantra
+> ^13-23176-23182
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> versatility
+> ^13-24796-24807
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> mishmash
+> ^13-25197-25205
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> If you can manage to stick with this strategy, each context will become associated with a particular habit and mode of thought.
+> ^13-26267-26394
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> thrive
+> ^13-26402-26408
+### 7: The Secret to Self-Control
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> congressmen
+> ^14-1148-1160
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> stunned
+> ^14-1245-1253
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> a flurry of
+> ^14-1883-1894
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> was one of the researchers in charge
+> ^14-2317-2353
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> upended
+> ^14-2384-2391
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> relapsed
+> ^14-2580-2588
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> engulfed
+> ^14-3354-3362
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> clinic
+> ^14-4059-4065
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> devoid
+> ^14-4088-4094
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> rehab
+> ^14-4499-4504
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> tremendous
+> ^14-5457-5468
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Instead, “ disciplined” people are better at structuring their lives in a way that does not require heroic willpower and self-control. In other words, they spend less time in tempting situations.
+> ^14-5570-5841
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> perseverance
+> ^14-6258-6270
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> grit
+> ^14-6272-6276
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> autocatalytic
+> ^14-8459-8472
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> sluggish
+> ^14-8655-8663
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Once you notice something, you begin to want it.
+> ^14-9390-9455
+### 8: How to Make a Habit Irresistible
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> herring gulls
+> ^16-1355-1368
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> beak
+> ^16-1680-1684
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> newly hatched chicks
+> ^16-1713-1733
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> peck this spot
+> ^16-1740-1754
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> greylag goose
+> ^16-3181-3194
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> ground-nesting bird
+> ^16-3200-3219
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> waddle over
+> ^16-3375-3386
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> billiard ball
+> ^16-3768-3781
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> lightbulb
+> ^16-3787-3796
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> exaggerated
+> ^16-4623-4634
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> elicits
+> ^16-4805-4812
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> are also prone to fall for
+> ^16-5048-5074
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> frenzy
+> ^16-5165-5171
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> foraging
+> ^16-5231-5239
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> roaming the savannah
+> ^16-5429-5449
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> stretching our Paleolithic instincts
+> ^16-6233-6269
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> fizz
+> ^16-6868-6872
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> orosensation
+> ^16-6987-6999
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> crunchy
+> ^16-7112-7119
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> the gooeyness of melted cheese on top of a crispy pizza crust,
+> ^16-7556-7618
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> the crunch of an Oreo cookie
+> ^16-7622-7650
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> are high in dynamic contrast
+> ^16-7915-7943
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> “bliss point”
+> ^16-8376-8389
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> hyperpalatable
+> ^16-8566-8580
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> obesity
+> ^16-8703-8710
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> it has spawned
+> ^16-9104-9118
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> mannequin
+> ^16-9579-9588
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> splices together stimulating scenes at a rate
+> ^16-9765-9810
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> stimuli
+> ^16-10062-10069
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> excessive
+> ^16-10208-10217
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> enticing
+> ^16-10821-10829
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> board games
+> ^16-11017-11028
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> pleasure-packed experiences
+> ^16-11056-11083
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> the dopamine spike.
+> ^16-12107-12126
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> neurotransmitter
+> ^16-12421-12437
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> dopamine
+> ^16-12445-12453
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> electrodes
+> ^16-12860-12870
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> inhibited
+> ^16-13481-13490
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> they squirted little droplets of sugar
+> ^16-13549-13588
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> grins
+> ^16-13682-13687
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> tasty substance
+> ^16-13697-13712
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> poked
+> ^16-14436-14443
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Habits are a dopamine-driven feedback loop
+> ^16-15079-15158
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> aversion
+> ^16-15823-15831
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> the key takeaway is this
+> ^16-16024-16048
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> anticipate
+> ^16-16176-16186
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> Gambling addicts
+> ^16-16196-16212
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> get a surge of dopamine
+> ^16-16310-16333
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> It is the anticipation of a reward—not the fulfillment of it—that gets us to take action.
+> ^16-16819-16908
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> nucleus accumbens
+> ^16-19813-19830
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> ventral tegmental area,
+> ^16-19836-19859
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> dorsal striatum
+> ^16-19864-19879
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> amygdala
+> ^16-19885-19893
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> portions of the prefrontal cortex
+> ^16-19899-19932
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> hedonic
+> ^16-20030-20037
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> precious
+> ^16-20600-20608
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> stationary bike
+> ^16-21899-21914
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> binge
+> ^16-22288-22293
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> celebrity gossip
+> ^16-25492-25508
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> but you need to get in shape
+> ^16-25510-25538
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> tabloids
+> ^16-25591-25599
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> pedicure
+> ^16-25695-25703
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> overdue work emails
+> ^16-25796-25815
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Named after the work of professor David Premack, the principle states that “ more probable behaviors will reinforce less probable behaviors.”
+> ^16-26109-26287
 
 # 读书笔记
 
@@ -395,4 +886,50 @@ lastmod: 2024-05-08T14:32:41+08:00
 > ^392912636-7R264uM6B
 > ---
 > 越具体的习惯越容易被执行。
+
+> [!Annotation] Many people ...
+> Many people think they lack motivation when what they really lack is clarity. 
+> ^392912636-7R3iT2qjl
+> ---
+> when 替代 but
+
+> [!Annotation] Being specif...
+> Being specific about what you want and how you will achieve it helps you say no to things that derail progress, distract your attention, and pull you off course. 
+> ^392912636-7R4RUqCDy
+> ---
+> 这么看来，GTD 还是很有必要的，可以防止自己偏离当前需要做事。在没有实施 GTD 的时候，经常陷入“深度优先搜索”，导致当前做事的效率极低。
+
+> [!Annotation] Diderot soon...
+> Diderot soon felt the urge to upgrade his possessions. He replaced his rug with one from Damascus. He decorated his home with expensive sculptures. He bought a mirror to place above the mantel, and a better kitchen table. He tossed aside his old straw chair for a leather one. Like falling dominoes, one purchase led to the next. 
+> ^392912636-7R4TmtZlv
+> ---
+> 为了这瓶醋包的这份饺子。苹果也是这样的，只要入手了它的一个设备，就容易不由自主地想买其它设备。
+
+### 6: Motivation Is Overrated; Environment Often Matters More
+
+> [!Annotation] Small change...
+> Small changes in context can lead to large changes in behavior over time. 
+> ^392912636-7RoDyxXu1
+> ---
+> 比如我把手机留在了工作室，回屋就是睡觉的，结果习惯了之后很快就睡着了。
+
+### 8: How to Make a Habit Irresistible
+
+> [!Annotation] Like the bab...
+> Like the baby gulls automatically pecking at red dots, the greylag goose was following an instinctive rule: When I see a round object nearby, I must roll it back into the nest. The bigger the round object, the harder I should try to get it. 
+> ^392912636-7RCqER4Kv
+> ---
+> 还比如人们所熟知的公牛会撞向红色的物品。动物包括人类的大脑天生就制定好了某些程序，会对某些特征或者场景作出特定的反应，比如人们看到点赞多的视频，也会顷向于点赞。
+
+> [!Annotation] nd without d...
+> nd without desire, action stopped. 
+> ^392912636-7RDSCcqdp
+> ---
+> 失去了多巴胺，并不会说就会讨厌之前所喜欢的事物。该喜欢还是会喜欢，只是说再也没有动力去喜欢了。
+
+> [!Annotation] Whenever you...
+> Whenever you predict that an opportunity will be rewarding, your levels of dopamine spike in anticipation. 
+> ^392912636-7RDVYfikF
+> ---
+> 并不是只有抽卡获得自己想要的角色之后才产生多巴胺，而是在抽卡之前就已经产生，并促使自己在未获得目标角色时继续抽卡，直至获得，也即所谓上头。
 

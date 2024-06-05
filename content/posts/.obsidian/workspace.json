@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2024-06-05_Wednesday.md",
+                "file": "windows-下-emacs-卡顿可能原因/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024-06-05_Wednesday.md",
+                "file": "windows-下-emacs-卡顿可能原因/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024-06-05_Wednesday.md",
+                "file": "windows-下-emacs-卡顿可能原因/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2024-06-05_Wednesday.md"
+                "file": "windows-下-emacs-卡顿可能原因/index.md"
               }
             }
           },
@@ -162,6 +162,14 @@
   },
   "active": "f9793f0488bb1999",
   "lastOpenFiles": [
+    "daily/2024-5-10_Friday.md",
+    "test-blog/index.md",
+    "test.md",
+    "test1.md",
+    "daily/2024-06-05_Wednesday.md",
+    "WeRead/人性的弱点（果麦经典）.md",
+    "WeRead/呐喊（果麦经典）.md",
+    "WeRead/围城.md",
     "daily/2024-05-08_Wednesday.md",
     "daily/2024-05-07_Tuesday.md",
     "daily/2024-05-06_Monday.md",
@@ -171,24 +179,16 @@
     "daily/2024-04-29_Monday.md",
     "daily/2024-04-28.md",
     "daily/2024-04-22.md",
-    "daily/2024-06-05_Wednesday.md",
     "_Templates/dairy.md",
-    "test1.md",
     "重装系统之后出现 git 出现 detected dubious ownership in repository .md",
     "Untitled.md",
-    "test.md",
     "kde-arch-linux-安装-fcitx5-和-rime-输入法/index.md",
     "WeRead/Atomic Habits.md",
     "windows 无法进入 wsl.md",
     "Ubuntu 22.04 更换镜像源.md",
     "windows 和 arch 双系统安装.md",
     "emacs 入坑建议.md",
-    "wsl2 安装 gnome 桌面环境.md",
-    "ox-hugo 结合 org-download 粘贴图片.md",
-    "windows-下-emacs-卡顿可能原因/index.md",
     "windows-下-emacs-卡顿可能原因",
-    "reading notes -《Automatic Habits》.md",
-    "windows 11 蓝牙无法搜索到设备的原因 .md",
     "2024-5-10_Friday",
     "test-blog",
     "WeRead",
