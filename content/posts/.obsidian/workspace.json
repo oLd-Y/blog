@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "重装系统之后出现 git 出现 detected dubious ownership in repository .md",
+                "file": "daily/2024-06-05_Wednesday.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "重装系统之后出现 git 出现 detected dubious ownership in repository .md",
+                "file": "daily/2024-06-05_Wednesday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "重装系统之后出现 git 出现 detected dubious ownership in repository .md",
+                "file": "daily/2024-06-05_Wednesday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "重装系统之后出现 git 出现 detected dubious ownership in repository .md"
+                "file": "daily/2024-06-05_Wednesday.md"
               }
             }
           },
@@ -161,8 +160,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "75ab60c5b57d6774",
+  "active": "f9793f0488bb1999",
   "lastOpenFiles": [
+    "daily/2024-05-08_Wednesday.md",
+    "daily/2024-05-07_Tuesday.md",
+    "daily/2024-05-06_Monday.md",
+    "daily/2024-05-02_Thursday.md",
+    "daily/2024-05-01_Wednesday.md",
+    "daily/2024-04-30_Tuesday.md",
+    "daily/2024-04-29_Monday.md",
+    "daily/2024-04-28.md",
+    "daily/2024-04-22.md",
+    "daily/2024-06-05_Wednesday.md",
+    "_Templates/dairy.md",
+    "test1.md",
+    "重装系统之后出现 git 出现 detected dubious ownership in repository .md",
+    "Untitled.md",
     "test.md",
     "kde-arch-linux-安装-fcitx5-和-rime-输入法/index.md",
     "WeRead/Atomic Habits.md",
@@ -172,26 +185,12 @@
     "emacs 入坑建议.md",
     "wsl2 安装 gnome 桌面环境.md",
     "ox-hugo 结合 org-download 粘贴图片.md",
-    "重装系统之后出现 git 出现 detected dubious ownership in repository .md",
-    "Untitled.md",
     "windows-下-emacs-卡顿可能原因/index.md",
     "windows-下-emacs-卡顿可能原因",
     "reading notes -《Automatic Habits》.md",
     "windows 11 蓝牙无法搜索到设备的原因 .md",
-    "2024-5-10_Friday/index.md",
     "2024-5-10_Friday",
-    "test-blog/index.md",
     "test-blog",
-    "daily/2024-05-08_Wednesday.md",
-    "git clone 参数解析.md",
-    "ox-hugo org-template 理解.md",
-    "emacs 默认快捷键.md",
-    "ox-hugo 自动生成模板代码解析.md",
-    "WeRead/傲慢与偏见（上）英文版.md",
-    "daily/2024-05-07_Tuesday.md",
-    "WeRead/呐喊.md",
-    "虎码笔记.md",
-    "自然码辅助码表.md",
     "WeRead",
     "test.html",
     "weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
