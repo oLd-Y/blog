@@ -1,8 +1,8 @@
 ---
 tags: 
-draft: false
-lastmod: 2024-06-06T13:47:18+08:00
-title: wsl（ubuntu）安装李治军操作系统环境依赖
+draft: true
+lastmod: 2024-06-06T15:29:11+08:00
+title: "{{NAME}}"
 date: 2024-06-06
 ---
 正在学习操作系统，尝试在 wsl 上安装相关的环境。
@@ -17,6 +17,8 @@ Reading package lists... Done Building dependency tree... Done Reading state inf
 `sudo apt update`
 
 # 安装库依赖
+
+
 首先根据下列链接把 os-lab 和 gcc-3.4 配置好：[阿里云ubuntu系统配置linux-0.11（哈工大 李治军）实验环境搭建\_.利用提供的“hit-oslab-linux-20110823.tar.gz”压缩包中的文件,在ub-CSDN博客](https://blog.csdn.net/leoabcd12/article/details/118755040)
 
 然后就是运行 os-lab 中的 `run` 脚本，查看缺少哪些依赖，安装其对应的 32 位库（i386）即可。
