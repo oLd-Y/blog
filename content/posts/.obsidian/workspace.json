@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "windows-下-emacs-卡顿可能原因/index.md",
+                "file": "WeRead/Atomic Habits.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dce1ce1312895b6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily/2024-06-06_Thursday.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "windows-下-emacs-卡顿可能原因/index.md",
+                "file": "daily/2024-06-06_Thursday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "windows-下-emacs-卡顿可能原因/index.md",
+                "file": "daily/2024-06-06_Thursday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "windows-下-emacs-卡顿可能原因/index.md"
+                "file": "daily/2024-06-06_Thursday.md"
               }
             }
           },
@@ -160,20 +173,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9793f0488bb1999",
+  "active": "dce1ce1312895b6c",
   "lastOpenFiles": [
-    "daily/2024-5-10_Friday.md",
-    "test-blog/index.md",
-    "test.md",
-    "test1.md",
-    "daily/2024-06-05_Wednesday.md",
-    "WeRead/人性的弱点（果麦经典）.md",
-    "WeRead/呐喊（果麦经典）.md",
-    "WeRead/围城.md",
+    "WeRead/Atomic Habits.md",
     "daily/2024-05-08_Wednesday.md",
     "daily/2024-05-07_Tuesday.md",
     "daily/2024-05-06_Monday.md",
     "daily/2024-05-02_Thursday.md",
+    "daily/2024-06-06_Thursday.md",
+    "test1.md",
+    "test.md",
+    "Untitled.md",
+    "archlinux-graphics/index.md",
+    "windows-下-emacs-卡顿可能原因/index.md",
+    "daily/2024-5-10_Friday.md",
+    "test-blog/index.md",
+    "daily/2024-06-05_Wednesday.md",
+    "WeRead/人性的弱点（果麦经典）.md",
+    "WeRead/呐喊（果麦经典）.md",
+    "WeRead/围城.md",
     "daily/2024-05-01_Wednesday.md",
     "daily/2024-04-30_Tuesday.md",
     "daily/2024-04-29_Monday.md",
@@ -181,13 +199,8 @@
     "daily/2024-04-22.md",
     "_Templates/dairy.md",
     "重装系统之后出现 git 出现 detected dubious ownership in repository .md",
-    "Untitled.md",
     "kde-arch-linux-安装-fcitx5-和-rime-输入法/index.md",
-    "WeRead/Atomic Habits.md",
     "windows 无法进入 wsl.md",
-    "Ubuntu 22.04 更换镜像源.md",
-    "windows 和 arch 双系统安装.md",
-    "emacs 入坑建议.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",
