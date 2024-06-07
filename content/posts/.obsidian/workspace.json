@@ -20,43 +20,19 @@
             }
           },
           {
-            "id": "dce1ce1312895b6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily/2024-06-06_Thursday.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "70cdf033cb40c780",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "nvm 设置代理.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0bba7a8b774b5810",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "自然码辅助码表.md",
+                "file": "李治军操作系统总结.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wslcon",
+                "query": "李治",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -122,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自然码辅助码表.md",
+                "file": "李治军操作系统总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "自然码辅助码表.md",
+                "file": "李治军操作系统总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "自然码辅助码表.md"
+                "file": "李治军操作系统总结.md"
               }
             }
           },
@@ -199,6 +176,10 @@
   },
   "active": "0bba7a8b774b5810",
   "lastOpenFiles": [
+    "自然码辅助码表.md",
+    "WeRead/Atomic Habits.md",
+    "daily/2024-06-06_Thursday.md",
+    "nvm 设置代理.md",
     "维生素采购和使用.md",
     "ox-hugo 自动生成模板代码解析.md",
     "arch linux wayland chrome 浏览器输无法输入中文.md",
@@ -213,10 +194,7 @@
     "水木社区 emacs 教程.md",
     "archlinux graphics.md",
     "李治军操作系统总结.md",
-    "nvm 设置代理.md",
-    "daily/2024-06-06_Thursday.md",
     "wsl（ubuntu）安装李治军操作系统环境依赖.md",
-    "WeRead/Atomic Habits.md",
     "hdc 无法挂载 minix.md",
     "Windows 解决 wsl 代理问题.md",
     "nvm 安装和使用.md",
@@ -224,7 +202,6 @@
     "daily/2024-05-07_Tuesday.md",
     "daily/2024-05-06_Monday.md",
     "daily/2024-05-02_Thursday.md",
-    "test1.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",
