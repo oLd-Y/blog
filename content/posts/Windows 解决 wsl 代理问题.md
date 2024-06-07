@@ -1,6 +1,6 @@
 ---
-lastmod: 2024-04-28T13:26:42+08:00
-hideInList: false
+lastmod: 2024-06-07T11:53:53+08:00
+title: Windows 解决 wsl 代理问题
 ---
 # 解决方法
 在 windows 的 `%USERPROFILE%` 目录下打开或新建 `.wslconfig` 文件并输入如下代码:

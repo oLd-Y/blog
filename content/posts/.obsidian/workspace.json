@@ -32,43 +32,19 @@
             }
           },
           {
-            "id": "745f2c1d26a8ed2d",
+            "id": "70cdf033cb40c780",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wsl（ubuntu）安装李治军操作系统环境依赖.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c3de6601de52c042",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "hdc 无法挂载 minix.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "00ae9543489689cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "nvm 安装和使用.md",
+                "file": "nvm 设置代理.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "32",
+                "query": "wslcon",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nvm 安装和使用.md",
+                "file": "nvm 设置代理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "nvm 安装和使用.md",
+                "file": "nvm 设置代理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "nvm 安装和使用.md"
+                "file": "nvm 设置代理.md"
               }
             }
           },
@@ -209,13 +185,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "00ae9543489689cc",
+  "active": "70cdf033cb40c780",
   "lastOpenFiles": [
-    "hdc 无法挂载 minix.md",
-    "nvm 安装和使用.md",
-    "wsl（ubuntu）安装李治军操作系统环境依赖.md",
     "daily/2024-06-06_Thursday.md",
+    "nvm 设置代理.md",
+    "wsl（ubuntu）安装李治军操作系统环境依赖.md",
     "WeRead/Atomic Habits.md",
+    "hdc 无法挂载 minix.md",
+    "Windows 解决 wsl 代理问题.md",
+    "nvm 安装和使用.md",
     "daily/2024-05-08_Wednesday.md",
     "daily/2024-05-07_Tuesday.md",
     "daily/2024-05-06_Monday.md",
@@ -235,8 +213,6 @@
     "daily/2024-04-30_Tuesday.md",
     "daily/2024-04-29_Monday.md",
     "daily/2024-04-28.md",
-    "daily/2024-04-22.md",
-    "_Templates/dairy.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",
