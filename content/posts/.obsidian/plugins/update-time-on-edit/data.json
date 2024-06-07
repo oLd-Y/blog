@@ -37,7 +37,7 @@
     "reading notes -《Automatic Habits》.md": "b5357882df97160645209a37b618aa2be5df0c52f972b4989a332f65f35e8815",
     "vscode vim 快捷键.md": "40432f057ea85b5728edfaeda1fd76c06256e4f521132b88a1077aab5f23d645",
     "双系统卸载 Ubuntu.md": "7977ae97328acab1422feb3ab2ea881caab10a505bf611b77a925c3d7e4fc8ae",
-    "维生素采购和使用.md": "3f18df2df32cbb5c63e56bf69105f297be6f22e4dcd8ae409b41d3fe0c342f98",
+    "维生素采购和使用.md": "eae2b512eeb2064c22ba6bfb40d18aae79aee59dd9b726182ff85ef3bea33d42",
     "git 清空提交历史.md": "be4499212409351c3d0213c09b71dc8c665eac731387513cb21188e4a528f5d7",
     "daily/2024-04-28.md": "97e7c52022377e5fd74685f4dfdd1f6691a94ae803ec443779765d5dfe080dae",
     "Hugo 渲染 Latex.md": "6ff91d29c4efc744eef231ed5c30a0b38b1c79269f15cc8b6be281573e081f8a",
@@ -58,7 +58,6 @@
     "emacs 入坑建议.md": "12ed2767c7a6037daa64cda443db3fb515af6c45a601d4023e9dbbf7812b8292",
     "emacs 默认快捷键.md": "bf4c5af8e4447f69efb221120099273424954585208116b71ee0a0ad28dbd018",
     "windows 11 蓝牙无法搜索到设备的原因 .md": "e0e8d481decf0d7be0085fe0fede143a642a7c005597f7a444355ab2ddd2b7f5",
-    "windows-下-emacs-卡顿可能原因/index.md": "dd74e601868169a237ac30965362a1bc31a01cef2b7679434b813b945265ef6a",
     "重装系统之后出现 git 出现 detected dubious ownership in repository .md": "ed23adb21e98bbe0f6047a8a052d20fc3cff68ab00da7956c09a0df67d2b89b2",
     "wsl2 安装 gnome 桌面环境.md": "46e0bd87fa19a3d877b3746cd9902cdd1fe88ceacd5af18a2dc31e4c2fac2fd3",
     "Ubuntu 22.04 更换镜像源.md": "0536ffa9bb1692fa21687ce4ddd482409ae1e97642b3edd48a8a9e3d85253671",
@@ -69,6 +68,8 @@
     "wsl（ubuntu）安装李治军操作系统环境依赖.md": "491d6e02fe460c10f85579a7754779006bd985bbc5fcd5c4f721284ddf12de30",
     "hdc 无法挂载 minix.md": "b79910f92f1b62c311a4e1084459495d47e83a47df541eb4cf4da45c69a876c8",
     "nvm 安装和使用.md": "2d457335ecabff731d7c46ef19a0adaeff929474a8565757ca350d1a6b6fce03",
-    "nvm 设置代理.md": "f6c99158c6c64755a2cd657ce9ac029a356358105f4e764999acaa78f16e41d9"
+    "nvm 设置代理.md": "cf3ce8e972c7106fee2497089d918b1060bf8e4b1a2b396264f61866881a7e8e",
+    "李治军操作系统总结.md": "c32abeeb04ba552b3d255d9313a667279cb405fcf6c104730895fac18b8d5583",
+    "Windows 下 emacs 卡顿可能原因.md": "dd74e601868169a237ac30965362a1bc31a01cef2b7679434b813b945265ef6a"
   }
 }

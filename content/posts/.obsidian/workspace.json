@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0bba7a8b774b5810",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "自然码辅助码表.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nvm 设置代理.md",
+                "file": "自然码辅助码表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "nvm 设置代理.md",
+                "file": "自然码辅助码表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "nvm 设置代理.md"
+                "file": "自然码辅助码表.md"
               }
             }
           },
@@ -185,10 +197,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "70cdf033cb40c780",
+  "active": "0bba7a8b774b5810",
   "lastOpenFiles": [
-    "daily/2024-06-06_Thursday.md",
+    "维生素采购和使用.md",
+    "ox-hugo 自动生成模板代码解析.md",
+    "arch linux wayland chrome 浏览器输无法输入中文.md",
+    "emacs 配置备份.md",
+    "Windows 下 emacs 卡顿可能原因.md",
+    "《古文观止》读书笔记.md",
+    "lsp-bridge 安装过程问题汇总.md",
+    "放弃折腾 vim 和 emacs.md",
+    "KDE arch linux 安装 fcitx5 和 rime 输入法.md",
+    "error target not found lib32-zlib.md",
+    "emacs bug 汇总.md",
+    "水木社区 emacs 教程.md",
+    "archlinux graphics.md",
+    "李治军操作系统总结.md",
     "nvm 设置代理.md",
+    "daily/2024-06-06_Thursday.md",
     "wsl（ubuntu）安装李治军操作系统环境依赖.md",
     "WeRead/Atomic Habits.md",
     "hdc 无法挂载 minix.md",
@@ -199,20 +225,6 @@
     "daily/2024-05-06_Monday.md",
     "daily/2024-05-02_Thursday.md",
     "test1.md",
-    "test.md",
-    "Untitled.md",
-    "archlinux-graphics/index.md",
-    "windows-下-emacs-卡顿可能原因/index.md",
-    "daily/2024-5-10_Friday.md",
-    "test-blog/index.md",
-    "daily/2024-06-05_Wednesday.md",
-    "WeRead/人性的弱点（果麦经典）.md",
-    "WeRead/呐喊（果麦经典）.md",
-    "WeRead/围城.md",
-    "daily/2024-05-01_Wednesday.md",
-    "daily/2024-04-30_Tuesday.md",
-    "daily/2024-04-29_Monday.md",
-    "daily/2024-04-28.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",
