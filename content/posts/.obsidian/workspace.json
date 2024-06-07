@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "00ae9543489689cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nvm 安装和使用.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hdc 无法挂载 minix.md",
+                "file": "nvm 安装和使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hdc 无法挂载 minix.md",
+                "file": "nvm 安装和使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hdc 无法挂载 minix.md"
+                "file": "nvm 安装和使用.md"
               }
             }
           },
@@ -197,10 +209,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3de6601de52c042",
+  "active": "00ae9543489689cc",
   "lastOpenFiles": [
-    "wsl（ubuntu）安装李治军操作系统环境依赖.md",
     "hdc 无法挂载 minix.md",
+    "nvm 安装和使用.md",
+    "wsl（ubuntu）安装李治军操作系统环境依赖.md",
     "daily/2024-06-06_Thursday.md",
     "WeRead/Atomic Habits.md",
     "daily/2024-05-08_Wednesday.md",
@@ -224,7 +237,6 @@
     "daily/2024-04-28.md",
     "daily/2024-04-22.md",
     "_Templates/dairy.md",
-    "重装系统之后出现 git 出现 detected dubious ownership in repository .md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",
