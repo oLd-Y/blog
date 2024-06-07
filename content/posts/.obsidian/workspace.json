@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "李治军操作系统总结.md",
+                "file": "daily/2024-06-07_Friday.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "李治军操作系统总结.md",
+                "file": "daily/2024-06-07_Friday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "李治军操作系统总结.md",
+                "file": "daily/2024-06-07_Friday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "李治军操作系统总结.md"
+                "file": "daily/2024-06-07_Friday.md"
               }
             }
           },
@@ -176,6 +176,8 @@
   },
   "active": "0bba7a8b774b5810",
   "lastOpenFiles": [
+    "李治军操作系统总结.md",
+    "daily/2024-06-07_Friday.md",
     "自然码辅助码表.md",
     "WeRead/Atomic Habits.md",
     "daily/2024-06-06_Thursday.md",
@@ -193,7 +195,6 @@
     "emacs bug 汇总.md",
     "水木社区 emacs 教程.md",
     "archlinux graphics.md",
-    "李治军操作系统总结.md",
     "wsl（ubuntu）安装李治军操作系统环境依赖.md",
     "hdc 无法挂载 minix.md",
     "Windows 解决 wsl 代理问题.md",
@@ -201,7 +202,6 @@
     "daily/2024-05-08_Wednesday.md",
     "daily/2024-05-07_Tuesday.md",
     "daily/2024-05-06_Monday.md",
-    "daily/2024-05-02_Thursday.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",
