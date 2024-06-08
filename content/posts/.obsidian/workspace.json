@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2024-06-07_Friday.md",
+                "file": "WeRead/Atomic Habits.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "李治",
+                "query": "ato",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024-06-07_Friday.md",
+                "file": "WeRead/Atomic Habits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024-06-07_Friday.md",
+                "file": "WeRead/Atomic Habits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2024-06-07_Friday.md"
+                "file": "WeRead/Atomic Habits.md"
               }
             }
           },
@@ -176,18 +176,23 @@
   },
   "active": "0bba7a8b774b5810",
   "lastOpenFiles": [
-    "李治军操作系统总结.md",
+    "ox-hugo 自动生成模板代码解析.md",
+    "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",
+    "Angular Git 提交规范.md",
+    "01 TODO.md",
+    "《古文观止》读书笔记.md",
+    "_index.md",
+    "857. 雇佣 K 名工人的最低成本.md",
     "daily/2024-06-07_Friday.md",
+    "李治军操作系统总结.md",
     "自然码辅助码表.md",
     "WeRead/Atomic Habits.md",
     "daily/2024-06-06_Thursday.md",
     "nvm 设置代理.md",
     "维生素采购和使用.md",
-    "ox-hugo 自动生成模板代码解析.md",
     "arch linux wayland chrome 浏览器输无法输入中文.md",
     "emacs 配置备份.md",
     "Windows 下 emacs 卡顿可能原因.md",
-    "《古文观止》读书笔记.md",
     "lsp-bridge 安装过程问题汇总.md",
     "放弃折腾 vim 和 emacs.md",
     "KDE arch linux 安装 fcitx5 和 rime 输入法.md",
@@ -197,11 +202,6 @@
     "archlinux graphics.md",
     "wsl（ubuntu）安装李治军操作系统环境依赖.md",
     "hdc 无法挂载 minix.md",
-    "Windows 解决 wsl 代理问题.md",
-    "nvm 安装和使用.md",
-    "daily/2024-05-08_Wednesday.md",
-    "daily/2024-05-07_Tuesday.md",
-    "daily/2024-05-06_Monday.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",
