@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WeRead/Atomic Habits.md",
+                "file": "_Templates/hugo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9f654e7c6dbddd54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zsh 查看所有绑定的快捷键.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WeRead/Atomic Habits.md",
+                "file": "zsh 查看所有绑定的快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WeRead/Atomic Habits.md",
+                "file": "zsh 查看所有绑定的快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WeRead/Atomic Habits.md"
+                "file": "zsh 查看所有绑定的快捷键.md"
               }
             }
           },
@@ -174,8 +185,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0bba7a8b774b5810",
+  "active": "9f654e7c6dbddd54",
   "lastOpenFiles": [
+    "_Templates/hugo.md",
+    "zsh 查看所有绑定的快捷键.md",
+    "_Templates/dairy.md",
+    "WeRead/Atomic Habits.md",
     "ox-hugo 自动生成模板代码解析.md",
     "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",
     "Angular Git 提交规范.md",
@@ -186,7 +201,6 @@
     "daily/2024-06-07_Friday.md",
     "李治军操作系统总结.md",
     "自然码辅助码表.md",
-    "WeRead/Atomic Habits.md",
     "daily/2024-06-06_Thursday.md",
     "nvm 设置代理.md",
     "维生素采购和使用.md",
@@ -199,9 +213,6 @@
     "error target not found lib32-zlib.md",
     "emacs bug 汇总.md",
     "水木社区 emacs 教程.md",
-    "archlinux graphics.md",
-    "wsl（ubuntu）安装李治军操作系统环境依赖.md",
-    "hdc 无法挂载 minix.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",
