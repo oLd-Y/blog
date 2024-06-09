@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WeRead/Atomic Habits.md",
+                "file": "daily/2024-06-07_Friday.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Templates/hugo.md",
+                "file": "李治军操作系统总结.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "李治军操作系统总结.md",
+                "file": "01 TODO.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "7de424bffe440c60",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.2"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "李治",
+                "query": "hdc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +100,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,21 +195,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9f654e7c6dbddd54",
+  "active": "0bba7a8b774b5810",
   "lastOpenFiles": [
-    "zsh 查看所有绑定的快捷键.md",
     "_Templates/hugo.md",
-    "_Templates/dairy.md",
+    "daily/2024-06-07_Friday.md",
+    "daily/2024-06-09_Sunday.md",
+    "hdc 无法挂载 minix.md",
     "WeRead/Atomic Habits.md",
+    "01 TODO.md",
+    "李治军操作系统总结.md",
+    "zsh 查看所有绑定的快捷键.md",
+    "_Templates/dairy.md",
     "ox-hugo 自动生成模板代码解析.md",
     "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",
     "Angular Git 提交规范.md",
-    "01 TODO.md",
     "《古文观止》读书笔记.md",
     "_index.md",
     "857. 雇佣 K 名工人的最低成本.md",
-    "daily/2024-06-07_Friday.md",
-    "李治军操作系统总结.md",
     "自然码辅助码表.md",
     "daily/2024-06-06_Thursday.md",
     "nvm 设置代理.md",
@@ -212,8 +223,6 @@
     "放弃折腾 vim 和 emacs.md",
     "KDE arch linux 安装 fcitx5 和 rime 输入法.md",
     "error target not found lib32-zlib.md",
-    "emacs bug 汇总.md",
-    "水木社区 emacs 教程.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",
