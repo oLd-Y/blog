@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zsh 查看所有绑定的快捷键.md",
+                "file": "李治军操作系统总结.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ato",
+                "query": "李治",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zsh 查看所有绑定的快捷键.md",
+                "file": "李治军操作系统总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zsh 查看所有绑定的快捷键.md",
+                "file": "李治军操作系统总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zsh 查看所有绑定的快捷键.md"
+                "file": "李治军操作系统总结.md"
               }
             }
           },
@@ -187,8 +188,8 @@
   },
   "active": "9f654e7c6dbddd54",
   "lastOpenFiles": [
-    "_Templates/hugo.md",
     "zsh 查看所有绑定的快捷键.md",
+    "_Templates/hugo.md",
     "_Templates/dairy.md",
     "WeRead/Atomic Habits.md",
     "ox-hugo 自动生成模板代码解析.md",
