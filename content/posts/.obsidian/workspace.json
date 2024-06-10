@@ -42,16 +42,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "7de424bffe440c60",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.2"
-              }
-            }
           }
         ],
         "currentTab": 1
