@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2024-06-07_Friday.md",
+                "file": "WeRead/Atomic Habits.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "李治军操作系统总结.md",
+                "file": "WeRead/Atomic Habits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "李治军操作系统总结.md",
+                "file": "WeRead/Atomic Habits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "李治军操作系统总结.md"
+                "file": "WeRead/Atomic Habits.md"
               }
             }
           },
@@ -185,15 +184,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0bba7a8b774b5810",
+  "active": "f9793f0488bb1999",
   "lastOpenFiles": [
-    "_Templates/hugo.md",
+    "daily/2024-06-11_Tuesday.md",
     "daily/2024-06-07_Friday.md",
+    "李治军操作系统总结.md",
+    "_Templates/hugo.md",
     "daily/2024-06-09_Sunday.md",
     "hdc 无法挂载 minix.md",
     "WeRead/Atomic Habits.md",
     "01 TODO.md",
-    "李治军操作系统总结.md",
     "zsh 查看所有绑定的快捷键.md",
     "_Templates/dairy.md",
     "ox-hugo 自动生成模板代码解析.md",
@@ -212,7 +212,6 @@
     "lsp-bridge 安装过程问题汇总.md",
     "放弃折腾 vim 和 emacs.md",
     "KDE arch linux 安装 fcitx5 和 rime 输入法.md",
-    "error target not found lib32-zlib.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",

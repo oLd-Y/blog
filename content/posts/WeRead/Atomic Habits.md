@@ -3,12 +3,12 @@ doc_type: weread-highlights-reviews
 bookId: CB_7xbFkhFlKG9h6lV6ksG2y4VK
 author: Clear, James
 cover: 
-reviewCount: 28
-noteCount: 137
+reviewCount: 34
+noteCount: 197
 readingStatus: 未标记
 progress: 3%
-totalReadDay: 28
-readingTime: 12小时8分钟
+totalReadDay: 33
+readingTime: 14小时23分钟
 readingDate: 2024-01-07
 title: Atomic Habits
 category: 
@@ -17,7 +17,7 @@ publishTime:
 isbn: 
 cover.image: https://res.weread.qq.com/wrepub/CB_GbJ1U11UZEV96i36gZ6nmEpt_parsecover
 draft: true
-lastmod: 2024-06-05T21:19:58+08:00
+lastmod: 2024-06-11T08:37:10+08:00
 ---
 # 元数据
 > [!abstract]- Atomic Habits
@@ -747,6 +747,309 @@ lastmod: 2024-06-05T21:19:58+08:00
 > Named after the work of professor David Premack, the principle states that “ more probable behaviors will reinforce less probable behaviors.”
 > ^16-26109-26287
 
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> burpees
+> ^16-29161-29168
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> which are heightened versions of reality
+> ^16-29975-30015
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> irresistible
+> ^16-30202-30215
+### 9: The Role of Family and Friends in Shaping Your Habits
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> innate talent
+> ^17-1520-1533
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> mantra
+> ^17-1660-1666
+
+
+> [!Annotation]+ <span style="color: #78edff;">Annotation</span>
+> needed a wife willing to jump on board
+> ---
+> I need a assistent, who are willing to jump to board, helping me with something difficult. 
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> adamant
+> ^17-2162-2169
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> laid out a plan
+> ^17-2518-2533
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> prodigies
+> ^17-2572-2581
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> home-schooled
+> ^17-2601-2614
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> a rarity in Hungary at the time
+> ^17-2616-2647
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> tournaments
+> ^17-2808-2819
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> meticulous
+> ^17-2896-2906
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> successfully courted
+> ^17-3268-3288
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> atypical
+> ^17-4625-4633
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> the sisters talk about their childhood as entertaining rather than grueling.
+> ^17-4762-4838
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> THE SEDUCTIVE PULL OF SOCIAL NORMS
+> ^17-5881-5915
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Humans are herd animals. We want to fit in, to bond with others, and to earn the respect and approval of our peers. Such inclinations are essential to our survival. For most of our evolutionary history, our ancestors lived in tribes.Becoming separated from the tribe—or worse, being cast out—was a death sentence. “The lone wolf dies, but the pack survives.”*
+> ^17-6001-6474
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> those who learned to collaborate and improvise most effectively have prevailed.
+> ^17-6873-6952
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> one of the deepest human desires is to belong.
+> ^17-6967-7013
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> And this ancient preference exerts a powerful influence on our modern behavior.
+> ^17-7014-7093
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> you’ll be inclined to splurge on one as well.
+> ^17-8757-8802
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Behaviors are attractive when they help us fit in.
+> ^17-8935-8985
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> We imitate the habits of three groups in particular:The close.The many.The powerful.
+> ^17-9288-9809
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> flirt
+> ^17-10644-10649
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> posture
+> ^17-11177-11184
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> groundbreaking
+> ^17-11681-11695
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> soak up the qualities and practices
+> ^17-13068-13103
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> One of the most effective things you can do to build better habits is to join a culture where your desired behavior is the normal behavior.
+> ^17-13381-13520
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Join a culture where (1) your desired behavior is the normal behavior and (2) you already have something in common with the group.
+> ^17-14406-14536
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> misfits
+> ^17-14674-14681
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> mutants
+> ^17-14687-14694
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> legions of undergrads
+> ^17-16701-16722
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> social conformity
+> ^17-18036-18053
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> bewildered
+> ^17-19342-19352
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> agitation
+> ^17-19491-19500
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> all the way to eight
+> ^17-20365-20385
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> For example, one study found that when a chimpanzee learns an effective way to crack nuts open as a member of one group and then switches to a new group that uses a less effective strategy, it will avoid using the superior nut cracking method just to blend in with the rest of the chimps.
+> ^17-21630-21955
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> comply with the norms of the group
+> ^17-22201-22236
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> The reward of being accepted is often greater than the reward of winning an argument, looking smart, or finding truth
+> ^17-22238-22390
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> prestige
+> ^17-23508-23516
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> medallions on our jackets
+> ^17-23547-23572
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> mimic
+> ^17-25102-25108
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> trim our hedges and mow our lawn
+> ^17-25759-25791
+### 10: How to Find and Fix the Causes of Your Bad Habits
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> overly simplistic
+> ^18-5774-5791
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> tacos
+> ^18-6333-6338
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> latches
+> ^18-8791-8798
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> is repulsed by the smell
+> ^18-13312-13336
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> If the temperature drops by one degree, you probably won’t do anything. If the temperature drops ten degrees, however, you’ll feel cold and put on another layer of clothing.
+> ^18-14089-14262
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> You have been sensing the cues the entire time, but it is only when you predict that you would be better off in a different state that you take action.
+> ^18-14317-14468
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> is tinged with
+> ^18-15393-15407
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> binge-eat
+> ^18-15479-15488
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> steady
+> ^18-15891-15897
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> the best course of action
+> ^18-15960-15985
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> impaired
+> ^18-16089-16097
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> You don’t “have” to. You “get” to.
+> ^18-18137-18171
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> When asked if it was difficult being confined, he responded, “ I’m not confined to my wheelchair—I am liberated by it. If it wasn’t for my wheelchair, I would be bed-bound and never able to leave my house.”
+> ^18-19115-19357
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> Pregame jitters.
+> ^18-21522-21538
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> heightened arousal
+> ^18-21698-21716
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> fluidity
+> ^18-21867-21875
+
 # 读书笔记
 
 ### 1: The Surprising Power of Atomic Habits
@@ -932,4 +1235,44 @@ lastmod: 2024-06-05T21:19:58+08:00
 > ^392912636-7RDVYfikF
 > ---
 > 并不是只有抽卡获得自己想要的角色之后才产生多巴胺，而是在抽卡之前就已经产生，并促使自己在未获得目标角色时继续抽卡，直至获得，也即所谓上头。
+
+> [!Annotation] The greater ...
+> The greater the anticipation, the greater the dopamine spike. 
+> ^392912636-7RJPHAPiH
+> ---
+> We got lots of dopamine once our desire for the anticipation.
+
+### 9: The Role of Family and Friends in Shaping Your Habits
+
+> [!Annotation] needed a wif...
+> needed a wife willing to jump on board 
+> ^392912636-7RJPXPAdK
+> ---
+> I need a assistent, who are willing to jump to board, helping me with something difficult. 
+
+> [!Annotation] Our friends ...
+> Our friends and family provide a sort of invisible peer pressure that pulls us in their direction. 
+> ^392912636-7RJRxDf5t
+> ---
+> Humans are born with the odds of being pull by mental pressure of others who surround us, especially the peers.
+
+> [!Annotation] Many people ...
+> Many people feel out of place the first time they go to the gym or try to change their diet, but if you are already similar to the other members of the group in some way—say, your mutual love of Star Wars —change becomes more appealing because it feels like something people like you already do. 
+> ^392912636-7RJSY2vRn
+> ---
+> People are more likely to join a group with similarity due to the sense of identify.
+
+> [!Annotation] We are reade...
+> We are readers. We are musicians. We are cyclists. The shared identity begins to reinforce your personal identity. 
+> ^392912636-7RJTC4ypc
+> ---
+> 想到自己的经历，每次都是刷视频刷到一个自己感兴趣的，然后会不由自主地去尝试，最后有所经历，接着在网上遇到同一类有着相同话题的人的时候，会莫名其妙地产生一种认同感，觉得自已“有资格”谈论这件事，然后和别人津津乐道。
+
+### 10: How to Find and Fix the Causes of Your Bad Habits
+
+> [!Annotation] Once you ass...
+> Once you associate a solution with the problem you need to solve, you keep coming back to it. 
+> ^392912636-7RQ45wMEt
+> ---
+> 这就是为什么坏始终改不掉——坏习惯本身也是为了解决自身的某个需求的，单纯凭借意志力，他没有办法解决这些需求。没有替代品，旧毛病自然容易再犯。
 
