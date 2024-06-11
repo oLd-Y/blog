@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WeRead/Atomic Habits.md",
+                "file": "李治军操作系统总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WeRead/Atomic Habits.md",
+                "file": "李治军操作系统总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WeRead/Atomic Habits.md"
+                "file": "李治军操作系统总结.md"
               }
             }
           },
@@ -184,15 +185,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9793f0488bb1999",
+  "active": "0bba7a8b774b5810",
   "lastOpenFiles": [
+    "WeRead/Atomic Habits.md",
     "daily/2024-06-11_Tuesday.md",
     "daily/2024-06-07_Friday.md",
     "李治军操作系统总结.md",
     "_Templates/hugo.md",
     "daily/2024-06-09_Sunday.md",
     "hdc 无法挂载 minix.md",
-    "WeRead/Atomic Habits.md",
     "01 TODO.md",
     "zsh 查看所有绑定的快捷键.md",
     "_Templates/dairy.md",
