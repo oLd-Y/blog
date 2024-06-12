@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "0215c1d5701718c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "保护模式相关.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9f654e7c6dbddd54",
             "type": "leaf",
             "state": {
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "李治军操作系统总结.md",
+                "file": "保护模式相关.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "李治军操作系统总结.md",
+                "file": "保护模式相关.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "李治军操作系统总结.md"
+                "file": "保护模式相关.md"
               }
             }
           },
@@ -185,12 +197,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0bba7a8b774b5810",
+  "active": "0215c1d5701718c6",
   "lastOpenFiles": [
+    "李治军操作系统总结.md",
+    "保护模式相关.md",
     "WeRead/Atomic Habits.md",
     "daily/2024-06-11_Tuesday.md",
     "daily/2024-06-07_Friday.md",
-    "李治军操作系统总结.md",
     "_Templates/hugo.md",
     "daily/2024-06-09_Sunday.md",
     "hdc 无法挂载 minix.md",
@@ -212,7 +225,6 @@
     "Windows 下 emacs 卡顿可能原因.md",
     "lsp-bridge 安装过程问题汇总.md",
     "放弃折腾 vim 和 emacs.md",
-    "KDE arch linux 安装 fcitx5 和 rime 输入法.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",
