@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2024-06-16_Sunday.md",
+                "file": "daily/2024-06-17_Monday.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "01ee10810578b61d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WeRead/Atomic Habits.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,14 +77,6 @@
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "01ee10810578b61d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
@@ -141,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024-06-16_Sunday.md",
+                "file": "daily/2024-06-17_Monday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024-06-16_Sunday.md",
+                "file": "daily/2024-06-17_Monday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2024-06-16_Sunday.md"
+                "file": "daily/2024-06-17_Monday.md"
               }
             }
           },
@@ -218,32 +222,32 @@
   },
   "active": "f9793f0488bb1999",
   "lastOpenFiles": [
+    "_Templates/dairy.md",
+    "_Templates/hugo.md",
+    "daily/2024-06-17_Monday.md",
+    "daily/2024-06-16_Sunday.md",
+    "WeRead/Atomic Habits.md",
     "daily/2024-06-15_Saturday.md",
     "daily/2024-06-11_Tuesday.md",
     "daily/2024-06-07_Friday.md",
-    "daily/2024-06-09_Sunday.md",
     "daily/2024-06-06_Thursday.md",
     "daily/2024-06-05_Wednesday.md",
     "daily/2024-5-10_Friday.md",
     "daily/2024-05-08_Wednesday.md",
     "daily/2024-05-07_Tuesday.md",
+    "daily/2024-05-06_Monday.md",
+    "daily/2024-05-01_Wednesday.md",
     "daily/2024-04-30_Tuesday.md",
+    "daily/2024-04-29_Monday.md",
+    "李治军操作系统总结.md",
+    "daily/2024-06-09_Sunday.md",
     "daily/2024-04-28.md",
     "daily/2024-04-22.md",
-    "daily/2024-06-16_Sunday.md",
     "保护模式相关.md",
     "01 TODO.md",
     "hdc 无法挂载 minix.md",
-    "WeRead/Atomic Habits.md",
     "_set_gate 宏解释.md",
-    "李治军操作系统总结.md",
-    "_Templates/hugo.md",
     "zsh 查看所有绑定的快捷键.md",
-    "_Templates/dairy.md",
-    "ox-hugo 自动生成模板代码解析.md",
-    "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",
-    "Angular Git 提交规范.md",
-    "《古文观止》读书笔记.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",

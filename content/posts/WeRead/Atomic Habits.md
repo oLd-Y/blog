@@ -3,12 +3,12 @@ doc_type: weread-highlights-reviews
 bookId: CB_7xbFkhFlKG9h6lV6ksG2y4VK
 author: Clear, James
 cover: 
-reviewCount: 34
-noteCount: 197
+reviewCount: 36
+noteCount: 237
 readingStatus: 未标记
 progress: 3%
-totalReadDay: 33
-readingTime: 14小时23分钟
+totalReadDay: 38
+readingTime: 16小时20分钟
 readingDate: 2024-01-07
 title: Atomic Habits
 category: 
@@ -17,7 +17,7 @@ publishTime:
 isbn: 
 cover.image: https://res.weread.qq.com/wrepub/CB_GbJ1U11UZEV96i36gZ6nmEpt_parsecover
 draft: true
-lastmod: 2024-06-11T08:37:10+08:00
+lastmod: 2024-06-17T07:10:50+08:00
 ---
 # 元数据
 > [!abstract]- Atomic Habits
@@ -1049,6 +1049,211 @@ lastmod: 2024-06-11T08:37:10+08:00
 > [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
 > fluidity
 > ^18-21867-21875
+### 11: Walk Slowly, but Never Backward
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> tally
+> ^20-1544-1549
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> sat around speculating about perfection
+> ^20-2674-2748
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> In the end, they had little to show for their efforts other than unverified theories and one mediocre photo.*
+> ^20-2787-3009
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> get bogged down
+> ^20-3265-3280
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> As Voltaire once wrote, “The best is the enemy of the good.”
+> ^20-3559-3619
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Those are all good things, but they don’t produce a result.
+> ^20-3997-4056
+
+
+> [!Annotation]+ <span style="color: #ffce78;">Annotation</span>
+> Action, on the other hand, is the type of behavior that will deliver an outcome.If I outline twenty ideas for articles I want to write, that’s motion. If I actually sit down and write an article, that’s action. If I search for a better diet plan and read a few books on the topic, that’s motion. If I actually eat a healthy meal, that’s action.
+> ---
+> 动机和行动其实是两码事。只有采取行动才会产生结果，光有动机不会。
+> 你把20本书放进书架，想着有时间去读，也不如真正把一本读完产生的效益多；你读无数的书，心中有再多的朦胧的想法，也不如写出一篇实在的读后感来得深刻。
+
+
+> [!Annotation]+ <span style="color: #ffce78;">Annotation</span>
+> If motion doesn’t lead to results, why do we do it? Sometimes we do it because we actually need to plan or learn more. But more often than not, we do it because motion allows us to feel like we’re making progress without running the risk of failure. Most of us are experts at avoiding criticism. It doesn’t feel good to fail or to be judged publicly, so we tend to avoid situations where that might happen. And that’s the biggest reason why you slip into motion rather than taking action: you want to delay failure.
+> ---
+> 别骂了别骂了
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Motion makes you feel like you’re getting things done. But really, you’re just preparing to get something done.
+> ^20-6424-6535
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> map out
+> ^20-6929-6936
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> get your reps in.
+> ^20-7057-7074
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> long-term potentiation
+> ^20-7655-7677
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> cerebellum
+> ^20-8460-8470
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> plucking a guitar string or pulling a violin bow
+> ^20-8508-8556
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> gray matter
+> ^20-8674-8685
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> inferior parietal lobule
+> ^20-8728-8752
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> hippocampus
+> ^20-9303-9314
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> spatial
+> ^20-9349-9356
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> atrophy
+> ^20-9640-9647
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> poking around
+> ^20-9986-9999
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> neural circuit
+> ^20-10949-10963
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> trajectory
+> ^20-11598-11608
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> a good deal of effort
+> ^20-12557-12578
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> concentration
+> ^20-12583-12596
+### 12: The Law of Least Effort
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> anthropologist
+> ^21-1225-1239
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> landmass
+> ^21-1717-1725
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> latitude
+> ^21-2542-2550
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> climates
+> ^21-2575-2583
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> domesticate
+> ^21-2694-2705
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> crops
+> ^21-4374-4379
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> domesticate
+> ^21-4437-4448
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> but compounded into substantial differences over time.
+> ^21-5182-5236
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Conventional wisdom holds that motivation is the key to habit change. Maybe if you really wanted it, you’d actually do it. But the truth is, our real motivation is to be lazy and to do what is convenient.
+> ^21-5562-5774
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> is wired to conserve it
+> ^21-6113-6136
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> will naturally gravitate toward
+> ^21-6315-6347
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> muster the strength to get started
+> ^21-7351-7385
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> You don’t actually want the habit itself. What you really want is the outcome the habit delivers
+> ^21-8548-8644
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> hose
+> ^21-10647-10651
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> crank up the valve
+> ^21-10846-10864
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> tax revenue
+> ^21-18031-18042
 
 # 读书笔记
 
@@ -1275,4 +1480,19 @@ lastmod: 2024-06-11T08:37:10+08:00
 > ^392912636-7RQ45wMEt
 > ---
 > 这就是为什么坏始终改不掉——坏习惯本身也是为了解决自身的某个需求的，单纯凭借意志力，他没有办法解决这些需求。没有替代品，旧毛病自然容易再犯。
+
+### 11: Walk Slowly, but Never Backward
+
+> [!Annotation] Action, on t...
+> Action, on the other hand, is the type of behavior that will deliver an outcome.If I outline twenty ideas for articles I want to write, that’s motion. If I actually sit down and write an article, that’s action. If I search for a better diet plan and read a few books on the topic, that’s motion. If I actually eat a healthy meal, that’s action. 
+> ^392912636-7RXvvG5Y6
+> ---
+> 动机和行动其实是两码事。只有采取行动才会产生结果，光有动机不会。
+> 你把20本书放进书架，想着有时间去读，也不如真正把一本读完产生的效益多；你读无数的书，心中有再多的朦胧的想法，也不如写出一篇实在的读后感来得深刻。
+
+> [!Annotation] If motion do...
+> If motion doesn’t lead to results, why do we do it? Sometimes we do it because we actually need to plan or learn more. But more often than not, we do it because motion allows us to feel like we’re making progress without running the risk of failure. Most of us are experts at avoiding criticism. It doesn’t feel good to fail or to be judged publicly, so we tend to avoid situations where that might happen. And that’s the biggest reason why you slip into motion rather than taking action: you want to delay failure. 
+> ^392912636-7RXvOzDvm
+> ---
+> 别骂了别骂了
 
