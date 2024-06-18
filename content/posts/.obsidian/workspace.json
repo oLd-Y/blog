@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "李治军操作系统总结.md",
+                "file": "李治军操作系统-前置知识.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WeRead/Atomic Habits.md",
+                "file": "李治军操作系统-前置知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WeRead/Atomic Habits.md",
+                "file": "李治军操作系统-前置知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WeRead/Atomic Habits.md"
+                "file": "李治军操作系统-前置知识.md"
               }
             }
           },
@@ -209,12 +209,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "01ee10810578b61d",
+  "active": "0bba7a8b774b5810",
   "lastOpenFiles": [
+    "李治军操作系统总结.md",
+    "WeRead/Atomic Habits.md",
     "01 TODO.md",
     "daily/2024-06-18_Tuesday.md",
-    "WeRead/Atomic Habits.md",
-    "李治军操作系统总结.md",
     "线程.md",
     "李治军操作系统-前置知识.md",
     "_index.md",
