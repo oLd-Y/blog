@@ -3,12 +3,12 @@ doc_type: weread-highlights-reviews
 bookId: CB_7xbFkhFlKG9h6lV6ksG2y4VK
 author: Clear, James
 cover: 
-reviewCount: 36
-noteCount: 237
+reviewCount: 42
+noteCount: 273
 readingStatus: 未标记
 progress: 3%
-totalReadDay: 38
-readingTime: 16小时20分钟
+totalReadDay: 39
+readingTime: 18小时27分钟
 readingDate: 2024-01-07
 title: Atomic Habits
 category: 
@@ -17,7 +17,7 @@ publishTime:
 isbn: 
 cover.image: https://res.weread.qq.com/wrepub/CB_GbJ1U11UZEV96i36gZ6nmEpt_parsecover
 draft: true
-lastmod: 2024-06-17T07:10:50+08:00
+lastmod: 2024-06-18T08:39:38+08:00
 ---
 # 元数据
 > [!abstract]- Atomic Habits
@@ -1255,6 +1255,188 @@ lastmod: 2024-06-17T07:10:50+08:00
 > tax revenue
 > ^21-18031-18042
 
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> skillet
+> ^21-21511-21518
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> set the cooking spray on the counter
+> ^21-21533-21569
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> utensils
+> ^21-21598-21606
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> unplug
+> ^21-23115-23121
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> curb
+> ^21-25362-25366
+### 13: How to Stop Procrastinating by Using the Two-Minute Rule
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> choreographers
+> ^22-1274-1288
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> habitualizes
+> ^22-2602-2614
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> in my arsenal of routines
+> ^22-2735-2798
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> the entrance ramp to a highway
+> ^22-3954-3984
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> It seems to be easier to continue what you are already doing than to start doing something different. You sit through a bad movie for two hours. You keep snacking even when you’re already full.
+> ^22-4079-4272
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> You check your phone for “just a second” and soon you have spent twenty minutes staring at the screen.
+> ^22-4273-4375
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> deliver an outsized impact
+> ^22-5757-5783
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Habits are the entry point, not the end point.
+> ^22-8385-8431
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> get hyped about
+> ^22-14874-14889
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> The truth is, a habit must be established before it can be improved.
+> ^22-15047-15116
+### 14: How to Make Good Habits Inevitable and Bad Habits Impossible
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> concocted
+> ^23-1781-1790
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> procrastination
+> ^23-1818-1833
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> shawl
+> ^23-1974-1979
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> take a page from
+> ^23-2866-2882
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> casinos
+> ^23-4021-4028
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> bail
+> ^23-6019-6023
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> sawmill
+> ^23-6958-6965
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> mulled over his predicament
+> ^23-8170-8197
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> ethical behavior
+> ^23-9746-9762
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> up front
+> ^23-10183-10191
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> wager
+> ^23-10747-10752
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> mattress.
+> ^23-12061-12070
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> blackout curtains.
+> ^23-12160-12178
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> cable
+> ^23-14274-14279
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> like rebalancing your investment portfolio
+> ^23-15156-15198
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Binge-watching becomes a habit because you have to put more effort in to stoplooking at the screen than to continue doing so
+> ^23-17244-17377
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> whims
+> ^23-17788-17793
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> boredom
+> ^23-17908-17915
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> vast expanse of
+> ^23-17941-17956
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> slipping into
+> ^23-18067-18080
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> I often find myself gravitating toward social media during any downtime. If I feel bored for just a fraction of a second, I reach for my phone. It’s easy to write off these minor distractions as “just taking a break,” but over time they can accumulate into a serious issue. The constant tug of “just one more minute” can prevent me from doing anything of consequence.
+> ^23-18528-18930
+
 # 读书笔记
 
 ### 1: The Surprising Power of Atomic Habits
@@ -1495,4 +1677,44 @@ lastmod: 2024-06-17T07:10:50+08:00
 > ^392912636-7RXvOzDvm
 > ---
 > 别骂了别骂了
+
+### 12: The Law of Least Effort
+
+> [!Annotation] She is incre...
+> She is incredibly good at remembering to send cards because she has reduced the friction of doing so. 
+> ^392912636-7S0Aad39r
+> ---
+> 把垃圾放在门口，比把垃圾放在垃圾埇边上，更容易避免出门忘把垃圾拿出去丢的情况发生。
+
+> [!Annotation] This setup c...
+> This setup creates just enough friction to prevent mindless viewing. 
+> ^392912636-7S0AMr0tM
+> ---
+> 假使每次打开电脑都需要把所有的线缆插上，每次使用结束之后都需要把所有的线缆拔掉，那么我想没过多久，大部分人都会遗失玩电脑的兴致吧。
+
+> [!Annotation]  You can be ...
+> You can be sure you’ll only take it out when you really want to watch something. The greater the friction, the less likely the habit. 
+> ^392912636-7S0BB5POS
+> ---
+> 正是把游戏删除，避免了随时打开就可以玩一把，才最大程度的防止了“不小心就浪费了一天“的情况发生。之前老是直接放在手机里，觉得偶而玩一把不要紧，结果就是容易上头，输了想赢回来，赢了想继续赢。光把游戏删掉，安装包没有卸载干净，也是导致重新下回来好几次的罪魁祸首——少了一步从官网下回来的过程。
+
+### 13: How to Stop Procrastinating by Using the Two-Minute Rule
+
+> [!Annotation] They lead yo...
+> They lead you down a path and, before you know it, you’re speeding toward the next behavior. 
+> ^392912636-7S0CMeqhB
+> ---
+> 是的，每当学习完一段时间，我的下意识动作就成了打开手机，点开b站。如果运气好的话，没啥好看的，那么就浪费少一点时间；如果一不小心刷到一个电影解说或者感兴趣的直播，那么一两个小时直接就是没跑了。
+
+> [!Annotation] We rarely th...
+> We rarely think about change this way because everyone is consumed by the end goal. But one push-up is better than not exercising. One minute of guitar practice is better than none at all. One minute of reading is better than never picking up a book. It’s better to do less than you hoped than to do nothing at all. 
+> ^392912636-7S0Jajyus
+> ---
+> 简单的开始，可能无法给技能，你的形体带来什么重大的改变，但是会改变你对于你的身份的认同。每次简单的开始，你对于你的身份的认同就会强上一分。
+
+> [!Annotation] Phase 1: Be ...
+> Phase 1: Be home by 10 p.m. every night.Phase 2: Have all devices (TV, phone, etc.) turned off by 10 p.m.every night.Phase 3: Be in bed by 10 p.m. every night (reading a book, talking with your partner).Phase 4: Lights off by 10 p.m. every night.Phase 5: Wake up at 6 a.m. every day. 
+> ^392912636-7S0Jrjpml
+> ---
+> 任何习惯也都不是一蹴而就的，需要分阶段慢慢建立
 

@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "李治军操作系统总结.md",
+                "file": "WeRead/Atomic Habits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "李治军操作系统总结.md",
+                "file": "WeRead/Atomic Habits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "李治军操作系统总结.md"
+                "file": "WeRead/Atomic Habits.md"
               }
             }
           },
@@ -209,18 +209,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0bba7a8b774b5810",
+  "active": "01ee10810578b61d",
   "lastOpenFiles": [
+    "01 TODO.md",
+    "daily/2024-06-18_Tuesday.md",
     "WeRead/Atomic Habits.md",
     "李治军操作系统总结.md",
     "线程.md",
     "李治军操作系统-前置知识.md",
-    "01 TODO.md",
     "_index.md",
     "linux-0.11 _set_gate 宏解释.md",
     "古文观止 读书笔记.md",
     "hdc 无法挂载 minix.md",
-    "daily/2024-06-18_Tuesday.md",
     "daily/2024-06-17_Monday.md",
     "保护模式相关.md",
     "_Templates/dairy.md",
