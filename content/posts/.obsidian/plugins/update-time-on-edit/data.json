@@ -30,7 +30,6 @@
     "Windows 利用 auto hotkey 模拟常用 emacs 快捷键.md": "716273c0a7ce53accf58749e41c2bfa056452801594b3e782356b45e383204cd",
     "Windows 显卡硬件加速.md": "0477e7f9f3d37653cd064e812a785e9b4e05ed055a2cb427f3a855bd296e825b",
     "Windows 自动推送 git 脚本.md": "b66394c869ad7de47fa80f3641ba0c0bf7fda3162a58954030b5f3d353546e91",
-    "Windows 解决 wsl 代理问题.md": "3bf7a343b353bf8a239689dc2f102cf4701c0c921adf34fb2b62273ead6bb031",
     "_Templates/hugo.md": "f151956a273b1a0f3677df9b279ab26bc0fd0857c32d26f1e39fd97e71977e1a",
     "daily/2024-04-22.md": "48b6ba1be9bdbe6243f37d47dab496c91bde7110eea219f6a0cde06b5ada7319",
     "obsidian publisher 文章模板.md": "cd4416251734f4e82dbbccef5f1cba4a05482bb3e174d555fb7e6ef9ea3f63c6",
@@ -83,6 +82,7 @@
     "linux-0.11 _set_gate 宏解释.md": "e234270b14b3d70c0a362f873e30bede6f1ac4feb2880208c35dd5744b0b75b4",
     "李治军操作系统-前置知识.md": "c87b9b38f155bc7227e57362303130c6ed9f554b7def347d954bc37db303d9e2",
     "哈工大操作系统实验3.md": "0e06f8e7295fb64952d61876cce1d4b0a3c8d259814b265b10e24337ea8debf7",
-    "哈工大操作系统实验4.md": "aa61070ee51d32a69a248037ad53933518b3e41547609f25cc0542803a59fd76"
+    "哈工大操作系统实验4.md": "aa61070ee51d32a69a248037ad53933518b3e41547609f25cc0542803a59fd76",
+    "wsl 网络问题.md": "18a50d563b0205c5bc0bb33e5310035c02f7c3b1f93f5bbc515240a93097bc58"
   }
 }
