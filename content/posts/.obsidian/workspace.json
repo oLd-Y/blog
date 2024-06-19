@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2024-06-19_Wednesday.md",
+                "file": "hdc 无法挂载 minix.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "实验4",
+                "query": "minix",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024-06-19_Wednesday.md",
+                "file": "hdc 无法挂载 minix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024-06-19_Wednesday.md",
+                "file": "hdc 无法挂载 minix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2024-06-19_Wednesday.md"
+                "file": "hdc 无法挂载 minix.md"
               }
             }
           },
@@ -227,8 +227,8 @@
   },
   "active": "f9793f0488bb1999",
   "lastOpenFiles": [
-    "哈工大操作系统实验4.md",
     "daily/2024-06-19_Wednesday.md",
+    "哈工大操作系统实验4.md",
     "wsl 网络问题.md",
     "01 TODO.md",
     "wsl2 安装 gnome 桌面环境.md",
