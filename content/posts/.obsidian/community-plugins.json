@@ -17,5 +17,7 @@
   "obsidian-weread-plugin",
   "obsidian-custom-frames",
   "deepl",
-  "remotely-save"
+  "remotely-save",
+  "remember-cursor-position",
+  "obsidian-reveal-active-file"
 ]

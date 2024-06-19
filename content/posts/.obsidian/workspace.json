@@ -91,7 +91,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024-06-19_Wednesday.md",
+                "file": "WeRead/Atomic Habits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024-06-19_Wednesday.md",
+                "file": "WeRead/Atomic Habits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2024-06-19_Wednesday.md"
+                "file": "WeRead/Atomic Habits.md"
               }
             }
           },
@@ -232,25 +233,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9793f0488bb1999",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "daily/2024-06-18_Tuesday.md",
     "daily/2024-06-19_Wednesday.md",
+    "obsidian 插件.md",
     "wsl 网络问题.md",
+    "wsl2 安装 gnome 桌面环境.md",
+    "李治军操作系统-前置知识.md",
+    "WeRead/Atomic Habits.md",
+    "哈工大操作系统实验4.md",
+    "daily/2024-06-18_Tuesday.md",
     "Windows 解决 wsl 代理问题.md",
     "_Templates/hugo.md",
-    "wsl2 安装 gnome 桌面环境.md",
     "wsl（ubuntu）安装李治军操作系统环境依赖.md",
     "WSL 安装.md",
     "windows 无法进入 wsl.md",
-    "哈工大操作系统实验4.md",
     "哈工大操作系统实验3.md",
     "nvm 安装和使用.md",
     "线程.md",
-    "李治军操作系统-前置知识.md",
     "01 TODO.md",
     "李治军操作系统总结.md",
-    "WeRead/Atomic Habits.md",
     "_index.md",
     "linux-0.11 _set_gate 宏解释.md",
     "古文观止 读书笔记.md",
@@ -259,7 +261,6 @@
     "保护模式相关.md",
     "_Templates/dairy.md",
     "daily/2024-06-16_Sunday.md",
-    "daily/2024-06-15_Saturday.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",
