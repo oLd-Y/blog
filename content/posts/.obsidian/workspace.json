@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hdc 无法挂载 minix.md",
+                "file": "daily/2024-06-19_Wednesday.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hdc 无法挂载 minix.md",
+                "file": "daily/2024-06-19_Wednesday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hdc 无法挂载 minix.md",
+                "file": "daily/2024-06-19_Wednesday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hdc 无法挂载 minix.md"
+                "file": "daily/2024-06-19_Wednesday.md"
               }
             }
           },
@@ -227,6 +227,7 @@
   },
   "active": "f9793f0488bb1999",
   "lastOpenFiles": [
+    "hdc 无法挂载 minix.md",
     "daily/2024-06-19_Wednesday.md",
     "哈工大操作系统实验4.md",
     "wsl 网络问题.md",
@@ -248,7 +249,6 @@
     "_index.md",
     "linux-0.11 _set_gate 宏解释.md",
     "古文观止 读书笔记.md",
-    "hdc 无法挂载 minix.md",
     "daily/2024-06-17_Monday.md",
     "保护模式相关.md",
     "_Templates/dairy.md",
