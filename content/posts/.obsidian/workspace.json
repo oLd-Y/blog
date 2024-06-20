@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2024-06-19_Wednesday.md",
+                "file": "daily/2024-06-20_Thursday.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024-06-19_Wednesday.md",
+                "file": "daily/2024-06-20_Thursday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024-06-19_Wednesday.md",
+                "file": "daily/2024-06-20_Thursday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2024-06-19_Wednesday.md"
+                "file": "daily/2024-06-20_Thursday.md"
               }
             }
           },
@@ -227,8 +227,9 @@
   },
   "active": "f9793f0488bb1999",
   "lastOpenFiles": [
-    "hdc 无法挂载 minix.md",
     "daily/2024-06-19_Wednesday.md",
+    "daily/2024-06-20_Thursday.md",
+    "hdc 无法挂载 minix.md",
     "哈工大操作系统实验4.md",
     "wsl 网络问题.md",
     "01 TODO.md",
@@ -252,7 +253,6 @@
     "daily/2024-06-17_Monday.md",
     "保护模式相关.md",
     "_Templates/dairy.md",
-    "daily/2024-06-16_Sunday.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",
