@@ -67,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -133,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024-06-20_Thursday.md",
+                "file": "信号量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024-06-20_Thursday.md",
+                "file": "信号量.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2024-06-20_Thursday.md"
+                "file": "信号量.md"
               }
             }
           },
@@ -226,13 +227,13 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "daily/2024-06-20_Thursday.md",
     "信号量.md",
     "WeRead/Atomic Habits.md",
     "李治军操作系统总结.md",
     "线程.md",
     "李治军操作系统-前置知识.md",
     "wsl 网络问题.md",
-    "daily/2024-06-20_Thursday.md",
     "daily/2024-06-19_Wednesday.md",
     "hdc 无法挂载 minix.md",
     "哈工大操作系统实验4.md",
