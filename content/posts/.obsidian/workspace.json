@@ -67,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "信号量.md",
+                "file": "daily/2024-06-20_Thursday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "信号量.md",
+                "file": "daily/2024-06-20_Thursday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "信号量.md"
+                "file": "daily/2024-06-20_Thursday.md"
               }
             }
           },
@@ -225,11 +224,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0bba7a8b774b5810",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "信号量.md",
+    "WeRead/Atomic Habits.md",
     "李治军操作系统总结.md",
     "线程.md",
-    "信号量.md",
     "李治军操作系统-前置知识.md",
     "wsl 网络问题.md",
     "daily/2024-06-20_Thursday.md",
@@ -238,7 +238,6 @@
     "哈工大操作系统实验4.md",
     "01 TODO.md",
     "wsl2 安装 gnome 桌面环境.md",
-    "WeRead/Atomic Habits.md",
     "obsidian 插件.md",
     "daily/2024-06-18_Tuesday.md",
     "Windows 解决 wsl 代理问题.md",
