@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2024-06-20_Thursday.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "01ee10810578b61d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WeRead/Atomic Habits.md",
+                "file": "daily/2024-06-21_Friday.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,18 +26,6 @@
               "type": "markdown",
               "state": {
                 "file": "信号量.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4355e20612d2b393",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "弃用 emacs 转用 neovim 的原因.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2f5980ca021296d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WeRead/Atomic Habits.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -146,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024-06-20_Thursday.md",
+                "file": "WeRead/Atomic Habits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024-06-20_Thursday.md",
+                "file": "WeRead/Atomic Habits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2024-06-20_Thursday.md"
+                "file": "WeRead/Atomic Habits.md"
               }
             }
           },
@@ -237,34 +225,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "2f5980ca021296d4",
   "lastOpenFiles": [
-    "信号量.md",
-    "弃用 emacs 转用 neovim 的原因.md",
-    "daily/2024-06-20_Thursday.md",
+    "daily/2024-06-21_Friday.md",
     "WeRead/Atomic Habits.md",
+    "daily/2024-06-20_Thursday.md",
+    "_Templates/hugo.md",
+    "_Templates/dairy.md",
+    "daily/2024-06-19_Wednesday.md",
+    "daily/2024-06-18_Tuesday.md",
+    "daily/2024-06-17_Monday.md",
+    "daily/2024-06-16_Sunday.md",
+    "daily/2024-06-15_Saturday.md",
+    "daily/2024-06-11_Tuesday.md",
+    "daily/2024-06-07_Friday.md",
+    "daily/2024-06-06_Thursday.md",
+    "daily/2024-06-05_Wednesday.md",
+    "弃用 emacs 转用 neovim 的原因.md",
+    "信号量.md",
     "李治军操作系统总结.md",
     "线程.md",
     "李治军操作系统-前置知识.md",
     "wsl 网络问题.md",
-    "daily/2024-06-19_Wednesday.md",
     "hdc 无法挂载 minix.md",
     "哈工大操作系统实验4.md",
     "01 TODO.md",
     "wsl2 安装 gnome 桌面环境.md",
     "obsidian 插件.md",
-    "daily/2024-06-18_Tuesday.md",
     "Windows 解决 wsl 代理问题.md",
-    "_Templates/hugo.md",
-    "wsl（ubuntu）安装李治军操作系统环境依赖.md",
-    "WSL 安装.md",
-    "windows 无法进入 wsl.md",
-    "哈工大操作系统实验3.md",
-    "nvm 安装和使用.md",
-    "_index.md",
-    "linux-0.11 _set_gate 宏解释.md",
-    "古文观止 读书笔记.md",
-    "daily/2024-06-17_Monday.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",

@@ -1,7 +1,7 @@
 ---
 tags:
   - dairy
-date: 2024-06-05
+date: "{{DATE}}"
 draft: true
 title: "{{NAME}}"
 ---

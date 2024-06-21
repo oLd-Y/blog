@@ -3,12 +3,12 @@ doc_type: weread-highlights-reviews
 bookId: CB_7xbFkhFlKG9h6lV6ksG2y4VK
 author: Clear, James
 cover: 
-reviewCount: 42
-noteCount: 273
+reviewCount: 44
+noteCount: 420
 readingStatus: 未标记
 progress: 3%
-totalReadDay: 39
-readingTime: 18小时27分钟
+totalReadDay: 42
+readingTime: 21小时58分钟
 readingDate: 2024-01-07
 title: Atomic Habits
 category: 
@@ -17,7 +17,7 @@ publishTime:
 isbn: 
 cover.image: https://res.weread.qq.com/wrepub/CB_GbJ1U11UZEV96i36gZ6nmEpt_parsecover
 draft: true
-lastmod: 2024-06-18T08:39:38+08:00
+lastmod: 2024-06-21T08:57:27+08:00
 ---
 # 元数据
 > [!abstract]- Atomic Habits
@@ -1436,6 +1436,745 @@ lastmod: 2024-06-18T08:39:38+08:00
 > [!Cite]+ <span style="color: #ffce78;">Highlight</span>
 > I often find myself gravitating toward social media during any downtime. If I feel bored for just a fraction of a second, I reach for my phone. It’s easy to write off these minor distractions as “just taking a break,” but over time they can accumulate into a serious issue. The constant tug of “just one more minute” can prevent me from doing anything of consequence.
 > ^23-18528-18930
+### 15: The Cardinal Rule of Behavior Change
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> transportation hub
+> ^25-1669-1687
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> amenities
+> ^25-1829-1838
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> bustling
+> ^25-1843-1851
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> squatter settlements and slums.
+> ^25-2227-2258
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> densely packed neighborhoods
+> ^25-2265-2293
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> makeshift houses cobbled together from old boards, cinder blocks, and other discarded materials.
+> ^25-2311-2407
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> waste removal system
+> ^25-2421-2441
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> electricity grid,
+> ^25-2446-2463
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> a muddy pit of sewage
+> ^25-2569-2590
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> unsanitary
+> ^25-2900-2910
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> Contaminated water
+> ^25-2997-3015
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> epidemics of diarrhea, vomiting, and abdominal pain
+> ^25-3031-3082
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> malnourished
+> ^25-3135-3147
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> crammed into
+> ^25-3169-3181
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> bacterial infections
+> ^25-3214-3234
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> sanitation
+> ^25-3607-3617
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> haphazard fashion
+> ^25-4035-4052
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> lather their hands with suds
+> ^25-5103-5131
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> flossing one’s teeth.
+> ^25-5698-5719
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> relatively bland resins—chewy, but not tasty
+> ^25-8102-8146
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> Spearmint
+> ^25-8244-8253
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> skyrocketed
+> ^25-8863-8874
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> Toothpaste
+> ^25-9180-9190
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> spearmint
+> ^25-9282-9291
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> peppermint
+> ^25-9293-9303
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> cinnamon
+> ^25-9309-9317
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> narcissistic
+> ^25-10040-10052
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> egomaniac
+> ^25-10125-10134
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> Cardinal Rule
+> ^25-10586-10599
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> What is rewarded is repeated. What is punished is avoided.
+> ^25-10623-10681
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> You learn what to do in the future based on what you were rewarded for doing (or punished for doing) in the past. Positive emotions cultivate habits. Negative emotions destroy them
+> ^25-10687-10867
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> roaming the plains of
+> ^25-11969-11990
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> predator
+> ^25-12179-12187
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> Homo sapiens sapiens
+> ^25-13493-13513
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> neocortex
+> ^25-13699-13708
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> Paleolithic ancestors.
+> ^25-13921-13943
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> predominantly
+> ^25-14290-14303
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> Beyoncé
+> ^25-14709-14716
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> instant gratification
+> ^25-15253-15274
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> our bias
+> ^25-16179-16187
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> sexually transmitted disease?
+> ^25-16643-16672
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> eases your nicotine cravings
+> ^25-16893-16921
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> appetizing
+> ^25-16978-16988
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> misaligned
+> ^25-17600-17610
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> The French economist Frédéric Bastiat explained the problem clearly when he wrote, “It almost always happens that when the immediate consequence is favorable, the later consequences are disastrous, and vice versa. . . . Often, the sweeter the first fruit of a habit, the more bitter are its later fruits.”
+> ^25-17823-18165
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Put another way, the costs of your good habits are in the present. The costs of your bad habits are in the future.
+> ^25-18444-18558
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> envision
+> ^25-18896-18904
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> gratification
+> ^25-19114-19127
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> pampered
+> ^25-19337-19345
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> What is immediately rewarded is repeated. What is immediatelypunished is avoided.
+> ^25-20119-20217
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> chasing quick hits of satisfaction
+> ^25-20545-20579
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> substance abuse
+> ^25-21163-21178
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> vital
+> ^25-22807-22812
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> shed a few pounds
+> ^25-23518-23535
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> your arms gain some definition
+> ^25-23539-23569
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> stay on track
+> ^25-23663-23676
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> frivolous
+> ^25-25134-25143
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> deprived
+> ^25-26171-26179
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> leisurely walk
+> ^25-27295-27309
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> aligns with your ultimate goal
+> ^25-27372-27402
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> ends up being a wash
+> ^25-27580-27600
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> intrinsic
+> ^25-28122-28131
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> Incentives
+> ^25-28476-28486
+### 17: How an Accountability Partner Can Change Everything
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> escalated
+> ^27-1529-1538
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> Any sitting president
+> ^27-1941-1962
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> implant
+> ^27-2400-2407
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> plumber
+> ^27-4328-4335
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> blood vessel
+> ^27-4471-4483
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> anatomy
+> ^27-4513-4520
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> predicament
+> ^27-5336-5347
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> jump through a lot of hoops
+> ^27-5888-5915
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> tangible
+> ^27-6900-6908
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> buckled up
+> ^27-8329-8339
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> accountability
+> ^27-14703-14717
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Knowing that someone is watching can be a powerful motivator.
+> ^27-14923-14985
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> uphold your promises
+> ^27-15187-15207
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> streak
+> ^27-22243-22249
+### 18: The Truth About Talent (When Genes Matter and When They Don’t)
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> inseam
+> ^29-2825-2831
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> At peak fitness,
+> ^29-3679-3695
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> ultralight
+> ^29-3788-3798
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> would be doomed from the start.
+> ^29-3949-3980
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> gymnastics routine
+> ^29-6771-6789
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> hindrance
+> ^29-6824-6833
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> When our environment changes, so do the qualities that determine success.
+> ^29-6931-7004
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> knitting
+> ^29-7395-7403
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> rocket propulsion
+> ^29-7405-7422
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> predispose
+> ^29-8158-8168
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> rebellious
+> ^29-9658-9668
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> five spectrums of behavior.
+> ^29-10821-10848
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> Conscientiousness
+> ^29-11345-11362
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> Extroversion
+> ^29-11564-11576
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> extroverts
+> ^29-12654-12664
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> introverts.
+> ^29-12752-12763
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> oxytocin
+> ^29-13145-13153
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> antidepressant
+> ^29-13274-13288
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> amygdala
+> ^29-13903-13911
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> nudge
+> ^29-14397-14402
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> bodybuilder
+> ^29-15538-15549
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> steamy romance novels
+> ^29-15861-15882
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> nonfiction
+> ^29-15888-15898
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> propels
+> ^29-17813-17820
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> virtuous cycle.
+> ^29-17870-17885
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> skillset
+> ^29-18936-18944
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> eligible
+> ^29-19397-19405
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> bachelor
+> ^29-19406-19414
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> conundrum
+> ^29-19503-19512
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> explore/exploit trade-off .
+> ^29-19577-19609
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> cast a wide net.
+> ^29-20066-20082
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> The mark of whether you are made for a task is not whether you love it but whether you can handle the pain of the task easier than most people
+> ^29-22446-22588
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> you were made to do
+> ^29-22719-22738
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Flow is the mental state you enter when you are so focused on the task at hand that the rest of the world fades away.
+> ^29-23065-23182
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> This blend of happiness and peak performance
+> ^29-23183-23227
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> at least to some degree.
+> ^29-23384-23408
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> For just a moment, ignore what you have been taught. Ignore what society has told you. Ignore what others expect of you.
+> ^29-24449-24569
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Boiling water will soften a potato but harden an egg
+> ^29-29041-29093
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> You can’t control whether you’re a potato or an egg, but you can decide to play a game where it’s better to be hard or soft.
+> ^29-29095-29219
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> strengths
+> ^29-29793-29802
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> dealt
+> ^29-31066-31071
+### 19: The Goldilocks Rule: How to Stay Motivated in Life and Work
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> The Goldilocks Rule
+> ^30-953-972
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> land a position
+> ^30-1336-1351
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> apiece.
+> ^30-1381-1388
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> catapulted
+> ^30-3992-4002
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> timid
+> ^30-4595-4600
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> that would strike fear into the hearts of more people
+> ^30-4636-4689
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> While there is still much to learn, one of the most consistent findings is that the way to maintain motivation and achieve peak levels of desire is to work on tasks of “ just manageable difficulty.”
+> ^30-5500-5734
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> The Goldilocks Rule states that humans experience peak motivation when working on tasks that are right on the edge of their current abilities. Not too hard. Not too easy. Just right.
+> ^30-7158-7340
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> There were just enough victories to keep him motivated and just enough mistakes to keep him working hard.
+> ^30-8517-8622
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> immersed
+> ^30-9846-9854
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> feasible
+> ^30-10094-10102
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> perimeter
+> ^30-10275-10284
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> villain
+> ^30-10897-10904
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> on the quest for self-improvement.
+> ^30-10905-10939
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> weightlifting
+> ^30-11342-11356
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> ethic
+> ^30-12518-12523
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> amped up”
+> ^30-12552-12561
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> bottomless reserve of passion
+> ^30-12846-12875
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> delighting us.
+> ^30-14163-14177
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> derailing
+> ^30-14252-14261
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> seek novelty
+> ^30-14278-14290
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> culinary
+> ^30-15249-15258
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> amplify
+> ^30-16455-16462
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> The sweet spot of desire occurs at a 50/50 split between success and failure.Half of the time you get what you want. Half of the time you don’t. You need just enough “winning” to experience satisfaction and just enough “wanting” to experience desire.
+> ^30-16691-16942
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> If Uber only picked up half of my trips, I doubt I’d be using that service much longer
+> ^30-17560-17646
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> flossed
+> ^30-17657-17664
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> But stepping up when it’s annoying or painful or draining to do so, that’s what makes the difference between a professional and an amateur.
+> ^30-19103-19243
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Professionals stick to the schedule; amateurs let life get in the way.Professionals know what is important to them and work toward it with purpose; amateurs get pulled off course by the urgencies of life.
+> ^30-19458-19663
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> fair-weather
+> ^30-19890-19902
 
 # 读书笔记
 
@@ -1717,4 +2456,20 @@ lastmod: 2024-06-18T08:39:38+08:00
 > ^392912636-7S0Jrjpml
 > ---
 > 任何习惯也都不是一蹴而就的，需要分阶段慢慢建立
+
+### 17: How an Accountability Partner Can Change Everything
+
+> [!Annotation] Anytime I sk...
+> Anytime I skip this part,” he said, “I start slacking almost immediately.” 
+> ^392912636-7S57esoe5
+> ---
+> 签字是一份契约中最为重要的部分，代表你认可这份协议。一旦签字，光是自己的心理就难过毁约的关，更别说还有法律的支持了。所以我们经常可以在网上看到，即便是一些无赖，再对方搬出法律条款之后也基本上沉默不语。
+
+### 18: The Truth About Talent (When Genes Matter and When They Don’t)
+
+> [!Annotation] Many bodybui...
+> Many bodybuilders are stronger than the average arm wrestler, but even a massive bodybuilder may lose at arm wrestling because the arm wrestling champ has very specific strength. 
+> ^392912636-7S5fgfiJz
+> ---
+> 比如大块头的肌肉男去参加快乐向前冲，几乎全员落水，反而是一些身资较为轻盁的能闯得更远。
 
