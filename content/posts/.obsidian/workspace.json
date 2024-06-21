@@ -67,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WeRead/Atomic Habits.md",
+                "file": "daily/2024-06-21_Friday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WeRead/Atomic Habits.md",
+                "file": "daily/2024-06-21_Friday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WeRead/Atomic Habits.md"
+                "file": "daily/2024-06-21_Friday.md"
               }
             }
           },
@@ -225,10 +224,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2f5980ca021296d4",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "daily/2024-06-21_Friday.md",
     "WeRead/Atomic Habits.md",
+    "daily/2024-06-21_Friday.md",
     "daily/2024-06-20_Thursday.md",
     "_Templates/hugo.md",
     "_Templates/dairy.md",
