@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "090e2b20e07875f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "《围城》读后感.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0bba7a8b774b5810",
             "type": "leaf",
             "state": {
@@ -67,7 +79,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -133,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024-06-21_Friday.md",
+                "file": "《围城》读后感.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024-06-21_Friday.md",
+                "file": "《围城》读后感.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2024-06-21_Friday.md"
+                "file": "《围城》读后感.md"
               }
             }
           },
@@ -226,8 +239,9 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "WeRead/Atomic Habits.md",
     "daily/2024-06-21_Friday.md",
+    "《围城》读后感.md",
+    "WeRead/Atomic Habits.md",
     "daily/2024-06-20_Thursday.md",
     "_Templates/hugo.md",
     "_Templates/dairy.md",
@@ -251,7 +265,6 @@
     "01 TODO.md",
     "wsl2 安装 gnome 桌面环境.md",
     "obsidian 插件.md",
-    "Windows 解决 wsl 代理问题.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",
