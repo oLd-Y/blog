@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2024-06-22_Saturday.md",
+                "file": "daily/2024-06-23_Sunday.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024-06-22_Saturday.md",
+                "file": "daily/2024-06-23_Sunday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024-06-22_Saturday.md",
+                "file": "daily/2024-06-23_Sunday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2024-06-22_Saturday.md"
+                "file": "daily/2024-06-23_Sunday.md"
               }
             }
           },
@@ -244,12 +244,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9793f0488bb1999",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "daily/2024-06-22_Saturday.md",
+    "daily/2024-06-23_Sunday.md",
     "daily/2024-06-21_Friday.md",
     "WeRead/Atomic Habits.md",
     "WeRead/围城.md",
-    "daily/2024-06-22_Saturday.md",
     "《围城》读后感.md",
     "daily/2024-06-20_Thursday.md",
     "_Templates/hugo.md",
@@ -271,7 +272,6 @@
     "wsl 网络问题.md",
     "hdc 无法挂载 minix.md",
     "哈工大操作系统实验4.md",
-    "01 TODO.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",
