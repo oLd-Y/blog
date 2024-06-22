@@ -17,7 +17,7 @@ publishTime:
 isbn: 
 cover.image: https://res.weread.qq.com/wrepub/CB_GbJ1U11UZEV96i36gZ6nmEpt_parsecover
 draft: true
-lastmod: 2024-06-21T08:57:27+08:00
+lastmod: 2024-06-22T12:16:57+08:00
 ---
 # 元数据
 > [!abstract]- Atomic Habits
@@ -124,6 +124,8 @@ lastmod: 2024-06-21T08:57:27+08:00
 > It’s not about any single accomplishment. It is about the cycle ofendless refinement and continuous improvement.
 > ---
 > 人生不是一场单次的游戏, 它不会因为你达成某个目标就停止了进程.
+
+
 ### 2: How Your Habits Shape Your Identity (and Vice Versa)
 
 
@@ -137,6 +139,7 @@ lastmod: 2024-06-21T08:57:27+08:00
 > ---
 > 网络上不乏这种“因为身边人的一句恶语而坚持锻炼最后改变成功"的例子。不论一个人如何装作风轻云淡，一句评价自身的言语还是会影响人的心态. 人们本质还是非常在意在公众面前的形象的, 会因他人的赞美而欣喜, 因他人的诋毁而愤怒. 只不过高人将心态修炼得很好, 很快就可以调整过来罢了.
 
+you may ~~build~~ start a habit ~~due to~~ because of motivation, but the only reason to ~~build a habit~~ stick to one is (that) it become(s) a part of your identity.
 
 > [!Cite]+ <span style="color: #ffce78;">Highlight</span>
 > Your behaviors are usually a reflection of your identity.
@@ -147,7 +150,7 @@ lastmod: 2024-06-21T08:57:27+08:00
 > Many people walk through life in a cognitive slumber, blindly following the norms attached to their identity.
 > ^8-16316-16425
 
-
+many people ~~go~~ walk through ~~their~~ life in the congnitive ~~sleep~~ slumber, bindly follow the norms ~~related to self's~~ attached to their identity.
 > [!Annotation]+ <span style="color: #ffce78;">Annotation</span>
 > Good habits can make rational sense, but if they conflict with your identity, you will fail to put them into action.
 > ---

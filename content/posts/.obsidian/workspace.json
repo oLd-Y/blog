@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2024-06-21_Friday.md",
+                "file": "daily/2024-06-22_Saturday.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,8 +79,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WeRead/Atomic Habits.md",
+                "file": "daily/2024-06-22_Saturday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WeRead/Atomic Habits.md",
+                "file": "daily/2024-06-22_Saturday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WeRead/Atomic Habits.md"
+                "file": "daily/2024-06-22_Saturday.md"
               }
             }
           },
@@ -213,9 +212,17 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "5a9800ba14b90c7b",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -237,13 +244,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "090e2b20e07875f7",
+  "active": "f9793f0488bb1999",
   "lastOpenFiles": [
+    "daily/2024-06-21_Friday.md",
+    "WeRead/Atomic Habits.md",
     "WeRead/围城.md",
     "daily/2024-06-22_Saturday.md",
-    "daily/2024-06-21_Friday.md",
     "《围城》读后感.md",
-    "WeRead/Atomic Habits.md",
     "daily/2024-06-20_Thursday.md",
     "_Templates/hugo.md",
     "_Templates/dairy.md",
