@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "线程.md",
+                "file": "WeRead/Atomic Habits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "线程.md",
+                "file": "WeRead/Atomic Habits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "线程.md"
+                "file": "WeRead/Atomic Habits.md"
               }
             }
           },
@@ -246,11 +246,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0bba7a8b774b5810",
+  "active": "090e2b20e07875f7",
   "lastOpenFiles": [
+    "线程.md",
     "vim command mode.md",
     "vim.md",
-    "线程.md",
     "信号量.md",
     "daily/2024-06-23_Sunday.md",
     "daily/2024-06-22_Saturday.md",

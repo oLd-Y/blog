@@ -25,7 +25,14 @@
     }
   ],
   "markdown:toggle-preview": [],
-  "editor:open-search": [],
+  "editor:open-search": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
   "emacs-text-editor:forward-char": [
     {
       "modifiers": [
