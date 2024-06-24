@@ -1,16 +1,18 @@
 {
   "showGettingStartedBanner": true,
-  "hasMigratedDailyNoteSettings": false,
+  "hasMigratedDailyNoteSettings": true,
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
-    "format": "",
-    "template": "",
-    "folder": ""
+    "format": "YYYY-MM-DD_dddd",
+    "folder": "/daily/",
+    "template": "_Templates/dairy1",
+    "enabled": true
   },
   "weekly": {
     "format": "",
     "template": "",
-    "folder": ""
+    "folder": "",
+    "enabled": true
   },
   "monthly": {
     "format": "",
