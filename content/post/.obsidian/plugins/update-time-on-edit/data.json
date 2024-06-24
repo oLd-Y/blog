@@ -23,7 +23,6 @@
     "ox-hugo 自动生成模板代码解析.md": "768ac1e9900d561d5de1265e412b1a05bca1b89fa9404a591e8480d5194a5c3b",
     "ox-hugo org-template 理解.md": "a62719a0930a66a9f8d513e7dd9fc419598b37fdeebdf30ec6925a032637896e",
     "Ubuntu 默认终端设置.md": "561dc83bf35e9ddf40a2ef9a187ef07d4e52d74c328e2b181b7c11322e860319",
-    "01 TODO.md": "5c41e7200f4d8717a9023d7428b52e7bba58e6b9863251947d7b03644cdbf266",
     "SD 关键词记录.md": "9c30843d64f034af9aa3329c51c64cf7b517ceb40bad657a9d0fcdba4fa2f8dd",
     "WSL 安装.md": "e80fdf9399d0d576e9c5e10eb47fefb0c57fbe591f78b908640e6c28d273d68f",
     "Windows 全局新建笔记.md": "eb9d95097639e661b7285eb65838e23a7ea61abe0dace9cefee1dc0dba1b9cd9",
@@ -90,9 +89,10 @@
     "vim.md": "523be80b34121a7552cee67a03b76a739dc2b2f764c6b000f7866335d5674ada",
     "vim command mode.md": "2ea8d6209aabbc1639360086562ef33c915229abc832ea7c6a788d42d0dac142",
     "reading notes -《Atomatic Habits》.md": "b5357882df97160645209a37b618aa2be5df0c52f972b4989a332f65f35e8815",
-    "daily/2024-5-10_Friday.md": "b58580cd1cf65d0631385e7d01eb3d624f1899921795d5c18ddaa2c30c9857e7",
+    "daily/2024-5-10_Friday.md": "c2dcacf6c98ed9bde0f1bc5e82c01996fab907220afc048e3ae500103b76ef95",
     "《Atomic Habits》读后感.md": "618de812943dc7d5a37a1f0412a0baee2cb103151b1dc8b3a5ffd0cfc34a3904",
     "daily/2024-06-24_Monday.md": "6bb8dc3e51e9aae6c50efb2f8f825938638322aca643d95630fa94233fadd429",
-    "《围城》读后感/index.md": "ea588b5b1ffa3a6742a452456ebb3ae0d31179cdbfbda8a2bd91feb7ac818cb6"
+    "《围城》读后感/index.md": "ea588b5b1ffa3a6742a452456ebb3ae0d31179cdbfbda8a2bd91feb7ac818cb6",
+    "markdown-syntax/index.md": "ef3206c1f095aa140d73ae57353e869ca2fddfa66072c772ac133d6d6a70e6ae"
   }
 }

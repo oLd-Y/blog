@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Templates/templater/new-blog.md",
+                "file": "markdown-syntax/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Templates/templater/new-blog.md",
+                "file": "markdown-syntax/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Templates/templater/new-blog.md",
+                "file": "markdown-syntax/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Templates/templater/new-blog.md"
+                "file": "markdown-syntax/index.md"
               }
             }
           },
@@ -202,10 +202,12 @@
   },
   "active": "090e2b20e07875f7",
   "lastOpenFiles": [
+    "_Templates/templater/new-blog.md",
     "daily/2024-5-10_Friday.md",
+    "test/index.md",
+    "test",
     "《围城》读后感/index.md",
     "《围城》读后感",
-    "_Templates/templater/new-blog.md",
     "content/post/《围城》读后感",
     "content/post",
     "content",
@@ -240,7 +242,6 @@
     "chinese-test/helena-hertz-wWZzXlDpMog-unsplash.jpg",
     "chinese-test/florian-klauer-nptLmg6jqDo-unsplash.jpg",
     "chinese-test",
-    "123456",
     "Pasted image 20240412163932.png",
     "Pasted image 20240412083715.png",
     "Pasted image 20240412083742.png"
