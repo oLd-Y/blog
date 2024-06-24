@@ -1,3 +1,14 @@
+---
+title: "123456"
+description: ""
+slug: ""
+date: ""
+image: ""
+categories: ""
+tags: ""
+weight: 1
+lastmod: 2024-06-24T14:44:24+08:00
+---
 <%*
 let qcFileName = await tp.system.prompt("Note Title")
 let titleName = qcFileName

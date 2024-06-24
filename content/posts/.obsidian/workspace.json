@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Templates/templater/dairy1.md",
+                "file": "123456/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Templates/templater/dairy1.md",
+                "file": "123456/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Templates/templater/dairy1.md",
+                "file": "123456/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Templates/templater/dairy1.md"
+                "file": "123456/index.md"
               }
             }
           },
@@ -247,10 +247,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "090e2b20e07875f7",
   "lastOpenFiles": [
+    "123456",
     "content/post/test/index.md",
-    "_Templates/templater/dairy1.md",
+    "123456/index.md",
     "content/post/test",
     "content/post",
     "content",
