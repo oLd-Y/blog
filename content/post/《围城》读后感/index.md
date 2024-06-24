@@ -2,15 +2,16 @@
 directory: 
 tags: 
 draft: false
-lastmod: 2024-06-24T22:31:20+08:00
+lastmod: 2024-06-25T06:50:29+08:00
 title: 《围城》读后感
 date: ""
 description: ""
 slug: ""
-image: ""
+image: http://api.mtyqx.cn/api/random.php
 categories:
   - ""
 weight: 1
+"": 
 ---
 围城主要讲述的是20世纪40年代左右，方鸿渐及其朋友、家人、同事之间交际、求职以及爱情相关的故事。按照我粗糙的印象，整个故事大致分为：
 1. 方鸿渐、苏文纨、唐晓芙、赵辛楣等的感情瓜葛；
