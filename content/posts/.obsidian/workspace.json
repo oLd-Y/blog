@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WeRead/Atomic Habits.md",
+                "file": "《automic habits》读后感.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "线程",
+                "query": "craving",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WeRead/Atomic Habits.md",
+                "file": "《automic habits》读后感.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WeRead/Atomic Habits.md",
+                "file": "《automic habits》读后感.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WeRead/Atomic Habits.md"
+                "file": "《automic habits》读后感.md"
               }
             }
           },
@@ -246,8 +246,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "090e2b20e07875f7",
+  "active": "75ab60c5b57d6774",
   "lastOpenFiles": [
+    "《围城》读后感.md",
+    "《automic habits》读后感.md",
+    "WeRead/Atomic Habits.md",
     "线程.md",
     "vim command mode.md",
     "vim.md",
@@ -255,9 +258,7 @@
     "daily/2024-06-23_Sunday.md",
     "daily/2024-06-22_Saturday.md",
     "daily/2024-06-21_Friday.md",
-    "WeRead/Atomic Habits.md",
     "WeRead/围城.md",
-    "《围城》读后感.md",
     "daily/2024-06-20_Thursday.md",
     "_Templates/hugo.md",
     "_Templates/dairy.md",
@@ -273,7 +274,6 @@
     "弃用 emacs 转用 neovim 的原因.md",
     "李治军操作系统总结.md",
     "李治军操作系统-前置知识.md",
-    "wsl 网络问题.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",
