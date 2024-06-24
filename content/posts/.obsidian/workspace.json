@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Templates/dairy1.md",
+                "file": "content/post/test/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Templates/dairy1.md",
+                "file": "content/post/test/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Templates/dairy1.md",
+                "file": "content/post/test/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Templates/dairy1.md"
+                "file": "content/post/test/index.md"
               }
             }
           },
@@ -243,15 +243,20 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "090e2b20e07875f7",
   "lastOpenFiles": [
+    "content/post/test",
+    "content/post",
+    "content",
+    "_Templates/templater/dairy1.md",
     "daily/2024-06-24_Monday.md",
+    "_Templates/templater",
     "daily/2024-06-24_Monday1.md",
-    "_Templates/dairy1.md",
-    "_Templates/dairy.md",
+    "content/post/test/index.md",
     "daily/2024-5-10_Friday.md",
     "《Atomic Habits》读后感.md",
     "daily/2024-06-22_Saturday.md",
@@ -273,7 +278,6 @@
     "_Templates/hugo.md",
     "daily/2024-06-19_Wednesday.md",
     "daily/2024-06-18_Tuesday.md",
-    "daily/2024-06-17_Monday.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",
@@ -281,9 +285,6 @@
     "test.html",
     "weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
     "weread/谁动了我的奶酪",
-    "weread/增广贤文（国学大书院）",
-    "weread/人性的弱点",
-    "weread/傲慢与偏见（上）英文版",
     "Pasted image 20240412163932.png",
     "Pasted image 20240412083715.png",
     "Pasted image 20240412083742.png"
