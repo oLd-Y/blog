@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dia",
+                "query": "狄德罗",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -249,9 +249,10 @@
   "active": "090e2b20e07875f7",
   "lastOpenFiles": [
     "daily/2024-06-24_Monday.md",
-    "daily/2024-06-23_Sunday.md",
+    "《Atomic Habits》读后感.md",
     "daily/2024-06-22_Saturday.md",
-    "《atomic habits》读后感.md",
+    "daily/2024-06-23_Sunday.md",
+    "daily/2024-5-10_Friday.md",
     "reading notes -《Atomatic Habits》.md",
     "WeRead/Atomic Habits.md",
     "daily/2024-04-30_Tuesday.md",
@@ -273,7 +274,6 @@
     "daily/2024-06-17_Monday.md",
     "daily/2024-06-16_Sunday.md",
     "daily/2024-06-15_Saturday.md",
-    "daily/2024-06-11_Tuesday.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",
