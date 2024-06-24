@@ -9,10 +9,10 @@
         <copyright>Example Person</copyright>
         <lastBuildDate>Sun, 28 Apr 2024 13:26:05 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/org-mode/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>ox-hugo 结合 org-download 粘贴图片</title>
-        <link>http://localhost:1313/posts/ox-hugo-%E7%BB%93%E5%90%88-org-download-%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/</link>
+        <link>http://localhost:1313/p/ox-hugo-%E7%BB%93%E5%90%88-org-download-%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/</link>
         <pubDate>Sun, 28 Apr 2024 13:26:05 +0800</pubDate>
         
-        <guid>http://localhost:1313/posts/ox-hugo-%E7%BB%93%E5%90%88-org-download-%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/</guid>
+        <guid>http://localhost:1313/p/ox-hugo-%E7%BB%93%E5%90%88-org-download-%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/</guid>
         <description>&lt;p&gt;ox-hugo 提供了一个单文件组织博客的功能, 一直以为无法和 org-roam 联动, 就一直没用过. 后来发现原来只要 org 文件的某个 level 下有个 ID 就会被认为是 org-roam 的节点, 于是就放心使用了.
 hugo 提供了一个 &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/content-management/page-bundles/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Page Bundles&lt;/a&gt; 的功能, 稍微研究了一点, 发现比正常方式更好管理静态资源, 就决定使用这个方式了.

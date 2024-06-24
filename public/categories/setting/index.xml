@@ -9,10 +9,10 @@
         <copyright>Example Person</copyright>
         <lastBuildDate>Sun, 28 Apr 2024 13:28:19 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/setting/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>设置默认的声音输出设备</title>
-        <link>http://localhost:1313/posts/%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%9A%84%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E8%AE%BE%E5%A4%87/</link>
+        <link>http://localhost:1313/p/%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%9A%84%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E8%AE%BE%E5%A4%87/</link>
         <pubDate>Sun, 28 Apr 2024 13:28:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/posts/%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%9A%84%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E8%AE%BE%E5%A4%87/</guid>
+        <guid>http://localhost:1313/p/%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%9A%84%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E8%AE%BE%E5%A4%87/</guid>
         <description>&lt;p&gt;使用带有监听耳机插口的麦克风时, 会默认将其监听接口作为输出设备, 每次重启系统都需要重新设置, 很烦, 所以需要重新设置默认的.
 在终端中执行以下命令进行设置:&lt;/p&gt;
 &lt;h2 id=&#34;查看设备名称&#34;&gt;查看设备名称

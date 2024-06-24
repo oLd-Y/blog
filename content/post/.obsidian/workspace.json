@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "723784ecd9d99c53",
+    "type": "split",
+    "children": [
+      {
+        "id": "23ec842d780636ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "090e2b20e07875f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Templates/hugo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "091a4d77250ccb56",
+    "type": "split",
+    "children": [
+      {
+        "id": "782667c5180e71f1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3c82df03627e692a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "75ab60c5b57d6774",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "狄德罗",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5ca10ab574120a31",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3dd1f0e1b777ab09",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c9e5f75cf8faf1a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "efbabfc5ae4ea0ea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_Templates/hugo.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "aff158dfc15ba055",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_Templates/hugo.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e356070b0a7927c7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7648983be24237ba",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_Templates/hugo.md"
+              }
+            }
+          },
+          {
+            "id": "b2d04053317a6ff7",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "0bb0f97fd84791df",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "e0151af0e7ced0c7",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "5a9800ba14b90c7b",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "3c82df03627e692a",
+  "lastOpenFiles": [
+    "放弃折腾 vim 和 emacs.md",
+    "123456/index.md",
+    "古文观止 读书笔记.md",
+    "SD 关键词记录.md",
+    "Ubuntu 默认终端设置.md",
+    "哈工大操作系统实验4.md",
+    "重装系统之后出现 git 出现 detected dubious ownership in repository .md",
+    "设置默认的声音输出设备.md",
+    "自然码辅助码表.md",
+    "维生素采购和使用.md",
+    "线程.md",
+    "水木社区 emacs 教程.md",
+    "李治军操作系统总结.md",
+    "李治军操作系统-前置知识.md",
+    "弃用 emacs 转用 neovim 的原因.md",
+    "哈工大操作系统实验3.md",
+    "双系统卸载 Ubuntu.md",
+    "信号量.md",
+    "保护模式相关.md",
+    "《围城》读后感.md",
+    "《Atomic Habits》读后感.md",
+    "_index.md",
+    "zsh 查看所有绑定的快捷键.md",
+    "wsl（ubuntu）安装李治军操作系统环境依赖.md",
+    "wsl2 安装 gnome 桌面环境.md",
+    "wsl 网络问题.md",
+    "123456",
+    "content/post/test",
+    "content/post",
+    "content",
+    "_Templates/templater",
+    "windows-下-emacs-卡顿可能原因",
+    "2024-5-10_Friday",
+    "test-blog",
+    "WeRead",
+    "test.html",
+    "Pasted image 20240412163932.png",
+    "Pasted image 20240412083715.png",
+    "Pasted image 20240412083742.png"
+  ]
+}

@@ -1,15 +1,759 @@
-<!doctype html><html lang=zh dir=auto><head><meta name=generator content="Hugo 0.124.1"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=5786&amp;path=livereload" data-no-instant defer></script><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>谷丽杳的博客</title>
-<meta name=keywords content="Blog,Portfolio,PaperMod"><meta name=description content="ExampleSite description"><meta name=author content="谷丽杳"><link rel=canonical href=http://localhost:5786/><meta name=google-site-verification content="XYZabc"><meta name=yandex-verification content="XYZabc"><meta name=msvalidate.01 content="XYZabc"><link crossorigin=anonymous href=/assets/css/stylesheet.4599eadb9eb2ad3d0a8d6827b41a8fda8f2f4af226b63466c09c5fddbc8706b7.css integrity="sha256-RZnq256yrT0KjWgntBqP2o8vSvImtjRmwJxf3byHBrc=" rel="preload stylesheet" as=style><link rel=icon href=http://localhost:5786/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=16x16 href=http://localhost:5786/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=32x32 href=http://localhost:5786/%3Clink%20/%20abs%20url%3E><link rel=apple-touch-icon href=http://localhost:5786/%3Clink%20/%20abs%20url%3E><link rel=mask-icon href=http://localhost:5786/%3Clink%20/%20abs%20url%3E><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=http://localhost:5786/index.xml><link rel=alternate type=application/json href=http://localhost:5786/index.json><link rel=alternate hreflang=zh href=http://localhost:5786/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><meta property="og:title" content="谷丽杳的博客"><meta property="og:description" content="ExampleSite description"><meta property="og:type" content="website"><meta property="og:url" content="http://localhost:5786/"><meta property="og:image" content="http://localhost:5786/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta property="og:site_name" content="ExampleSite"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="http://localhost:5786/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:title content="谷丽杳的博客"><meta name=twitter:description content="ExampleSite description"><script type=application/ld+json>{"@context":"https://schema.org","@type":"Organization","name":"谷丽杳的博客","url":"http://localhost:5786/","description":"ExampleSite description","thumbnailUrl":"http://localhost:5786/%3Clink%20/%20abs%20url%3E","sameAs":["https://space.bilibili.com/180272185?spm_id_from=333.1007.0.0","https://github.com/"]}</script></head><body class=list id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=http://localhost:5786/ accesskey=h title="主页 (Alt + H)"><img src=http://localhost:5786/apple-touch-icon.png alt aria-label=logo height=35>主页</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=http://localhost:5786/categories/ title=菜单><span>菜单</span></a></li><li><a href=http://localhost:5786/archives/ title=归档><span>归档</span></a></li><li><a href=http://localhost:5786/search/ title="搜索 (Alt + /)" accesskey=/><span>搜索</span></a></li><li><a href=http://localhost:5786/tags/ title=标签><span>标签</span></a></li></ul></nav></header><main class=main><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>emacs 使用 org-mode 搭配 ox-hugo 搭建博客</h2></header><div class=entry-content><p>windows 中安装 hugo 到releases页面获取 hugo 的最新安装包，在本地解压之后将 hugo.exe 所在的文件夹加入到环境变量中。 可在命令行使用 hugo version 查看 hugo 是否安装成功 emacs 中安装 ox-hugo 普通安装 在emacs配置文件中加入下列代码:
-(with-eval-after-load 'ox (require 'ox-hugo)) use-pacakge 安装 或者可以使用use-package. 同样在emacs配置文件中加入下列代码:
-(use-package ox-hugo :ensure t :pin melpa :after ox) 安装完成之后就可以使用 c-c c-e 呼出 ox-hugo 的相关命令了
-初始化 hugo 使用命令 hugo new site blog 在当前目录下创建一个 blog 作为博客的根目录. 其中, 你的博客为 content 目录下的 .md 文件. 切换到 blog 目录使用 git init 命令将 blog 文件夹初始化为 git 仓库 安装 hugo 主题 为了美化博客页面, 我们还需要下载一个hugo相关的主题....</p></div><footer class=entry-footer><span title='2024-04-28 13:28:46 +0800 CST'>四月 28, 2024</span>&nbsp;·&nbsp;3 分钟&nbsp;·&nbsp;573 字&nbsp;·&nbsp;谷丽杳</footer><a class=entry-link aria-label="post link to emacs 使用 org-mode 搭配 ox-hugo 搭建博客" href=http://localhost:5786/posts/emacs-%E4%BD%BF%E7%94%A8-org-mode-%E6%90%AD%E9%85%8D-ox-hugo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>设置默认的声音输出设备</h2></header><div class=entry-content><p>使用带有监听耳机插口的麦克风时, 会默认将其监听接口作为输出设备, 每次重启系统都需要重新设置, 很烦, 所以需要重新设置默认的. 在终端中执行以下命令进行设置:
-查看设备名称 pactl list sinks 查看你在设置的“声音”中的设备具体是什么名称, 比如我的设置中的名称为 Line Out - Built-in Audio, 实际的名称为 alsa_output.pci-0000_00_1f.3.analog-stereo.
-修改默认设备 执行一下命令修改默认的音频输出设备
-pactl set-default-sink alsa_output.pci-0000_00_1f.3.analog-stereo 然后在 start applications 中把这行命令加入开机自启即可.</p></div><footer class=entry-footer><span title='2024-04-28 13:28:19 +0800 CST'>四月 28, 2024</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;28 字&nbsp;·&nbsp;谷丽杳</footer><a class=entry-link aria-label="post link to 设置默认的声音输出设备" href=http://localhost:5786/posts/%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%9A%84%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E8%AE%BE%E5%A4%87/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Angular Git 提交规范</h2></header><div class=entry-content><p>格式 type(scope): subject
-type: 本次提交的类型, 必填. scope: 提交的范围, 指定相关文件夹, 更好定位错误, 可选. subject: 提交的描述, 必填. 例如 fix(src/login): 修改弹窗显示错误.
-type 的种类 type 描述 feat feature, 增加了一个新功能. fix 修复了 bug. style 仅修改了代码格式（如删除空格、换行等） docs documents, 修改了文档 build 修改了编译相关的内容，发布版本、对项目构建或者依赖，即npm、gulp、yarn等文件 ci 修改了持续集成，示例范围：Travis、Circle、BrowserStack、SauceLabs perf performance, 包含优化相关，比如提升性能、优化用户体验 test 包含测试用例的修改时 refactor 既不修复错误也不添加功能的代码更改 chore 有其他修改（不在上述类型中的修改）</p></div><footer class=entry-footer><span title='2024-04-28 13:28:12 +0800 CST'>四月 28, 2024</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;45 字&nbsp;·&nbsp;谷丽杳</footer><a class=entry-link aria-label="post link to Angular Git 提交规范" href=http://localhost:5786/posts/angular-git-%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent></h2></header><div class=entry-content><p>种类 数量 待买 用量 异维A酸 12 * 6 粒 0 一天一粒 葡萄糖酸锌片 3 瓶 0 一天3次, 一次1粒 维生素A 0 瓶 0 0 复合维生素B 1 瓶 2 一天3次, 一次2片 维生素B6 1瓶 1 一天2次, 一次1片 维生素C 2瓶 0 一天3次, 一次2片 维生素D 0瓶 2瓶 一天2粒 维生素E 0 2瓶 一天2粒 钙片 0 2瓶</p></div><footer class=entry-footer><span title='2024-04-28 13:27:42 +0800 CST'>四月 28, 2024</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;49 字&nbsp;·&nbsp;谷丽杳</footer><a class=entry-link aria-label="post link to " href=http://localhost:5786/posts/%E7%BB%B4%E7%94%9F%E7%B4%A0%E9%87%87%E8%B4%AD%E5%92%8C%E4%BD%BF%E7%94%A8/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>双系统卸载 Ubuntu</h2></header><div class=entry-content><p>https://bbs.huaweicloud.com/blogs/303695 按照文中 2, 3 步操作即可.</p></div><footer class=entry-footer><span title='2024-04-28 13:27:32 +0800 CST'>四月 28, 2024</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;5 字&nbsp;·&nbsp;谷丽杳</footer><a class=entry-link aria-label="post link to 双系统卸载 Ubuntu" href=http://localhost:5786/posts/%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%8D%B8%E8%BD%BD-ubuntu/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=http://localhost:5786/page/3/>«&nbsp;上一页&nbsp;
-</a><a class=next href=http://localhost:5786/page/5/>下一页&nbsp;&nbsp;»</a></nav></footer></main><footer class=footer><span>&copy; 2024 <a href=http://localhost:5786/>谷丽杳的博客</a></span> ·
-<span>Powered by
-<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
-        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
-</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script></body></html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+	<meta name="generator" content="Hugo 0.127.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Example description">
+<title>Pager 4 - Example Site</title>
+
+<link rel='canonical' href='http://localhost:1313/'>
+
+<link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="Example Site">
+<meta property='og:description' content="Example description">
+<meta property='og:url' content='http://localhost:1313/'>
+<meta property='og:site_name' content='Example Site'>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2024-06-24T12:01:55&#43;08:00 '/>
+<meta name="twitter:title" content="Example Site">
+<meta name="twitter:description" content="Example description"><link rel="alternate" type="application/rss&#43;xml" href="http://localhost:1313/index.xml">
+  
+
+
+    </head>
+    <body class="">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_huda2458f72ce188392d75c5d51cd8e24e_373_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Example Site</a></h1>
+            <h2 class="site-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/CaiJimmy/hugo-theme-stack'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li  class='current' >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="http://localhost:1313/" selected>English</option>
+                                
+                                    <option value="http://localhost:1313/zh-cn/" >中文</option>
+                                
+                                    <option value="http://localhost:1313/ar/" >عربي</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                <form action="/search/" class="search-form widget" >
+        <p>
+            <label>Search</label>
+            <input name="keyword" required placeholder="Type something..." />
+        
+            <button title="Search">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+            </button>
+        </p>
+    </form>
+            
+        
+            
+                <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Archives</h2>
+
+        
+        
+        
+        
+        
+        <div class="widget-archive--list">
+            <div class="archives-year">
+                    <a href="/archives/#2024">
+                        
+                            <span class="year">2024</span>
+                            <span class="count">67</span>
+                        
+                    </a> 
+                </div>
+            
+        </div>
+    </section>
+            
+        
+            
+                <section class="widget tagCloud">
+    <div class="widget-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+    </div>
+    <h2 class="widget-title section-title">Categories</h2>
+
+    <div class="tagCloud-tags">
+        
+            <a href="/categories/test/" class="font_size_2">
+                Test
+            </a>
+        
+            <a href="/categories/setting/" class="font_size_1">
+                Setting
+            </a>
+        
+            <a href="/categories/syntax/" class="font_size_1">
+                Syntax
+            </a>
+        
+            <a href="/categories/test-with-whitespaces/" class="font_size_1">
+                Test With Whitespaces
+            </a>
+        
+            <a href="/categories/themes/" class="font_size_1">
+                Themes
+            </a>
+        
+    </div>
+</section>
+
+            
+        
+            
+                <section class="widget tagCloud">
+    <div class="widget-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+    </div>
+    <h2 class="widget-title section-title">Tags</h2>
+
+    <div class="tagCloud-tags">
+        
+            <a href="/tags/dairy/" class="font_size_20">
+                Dairy
+            </a>
+        
+            <a href="/tags/ubuntu/" class="font_size_3">
+                Ubuntu
+            </a>
+        
+            <a href="/tags/markdown/" class="font_size_2">
+                Markdown
+            </a>
+        
+            <a href="/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/" class="font_size_2">
+                读后感
+            </a>
+        
+            <a href="/tags/css/" class="font_size_1">
+                Css
+            </a>
+        
+            <a href="/tags/emacs/" class="font_size_1">
+                Emacs
+            </a>
+        
+            <a href="/tags/emoji/" class="font_size_1">
+                Emoji
+            </a>
+        
+            <a href="/tags/html/" class="font_size_1">
+                Html
+            </a>
+        
+            <a href="/tags/org-mode/" class="font_size_1">
+                Org-Mode
+            </a>
+        
+            <a href="/tags/tag-with-whitespaces/" class="font_size_1">
+                Tag With Whitespaces
+            </a>
+        
+    </div>
+</section>
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    
+    
+    
+    
+
+    <section class="article-list">
+        
+            
+<article class="">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/2024-06-20_thursday/">2024-06-20_Thursday</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jun 20, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    1 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+</article>
+        
+            
+<article class="">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/2024-06-19_wednesday/">2024-06-19_Wednesday</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jun 19, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    1 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+</article>
+        
+            
+<article class="">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/2024-06-18_tuesday/">2024-06-18_Tuesday</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jun 18, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    1 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+</article>
+        
+    </section>
+    <nav class='pagination'>
+        
+        
+
+        
+            
+                    <a class='page-link' href='/'>1</a>
+                
+            
+            
+                    
+                        
+                        <span class='page-link dots'>&hellip;</span>
+                    
+                
+            
+            
+                    <a class='page-link' href='/page/3/'>3</a>
+                
+            
+            
+                <span class='page-link current'>4</span>
+                
+            
+            
+                    <a class='page-link' href='/page/5/'>5</a>
+                
+            
+            
+                    
+                        
+                        <span class='page-link dots'>&hellip;</span>
+                    
+                
+            
+            
+                    
+                
+            
+            
+                    
+                
+            
+            
+                    
+                
+            
+            
+                    
+                
+            
+            
+                    
+                
+            
+            
+                    
+                
+            
+            
+                    
+                
+            
+            
+                    
+                
+            
+            
+                    
+                
+            
+            
+                    
+                
+            
+            
+                    
+                
+            
+            
+                    
+                
+            
+            
+                    
+                
+            
+            
+                    
+                
+            
+            
+                    
+                
+            
+            
+                    
+                
+            
+            
+                    <a class='page-link' href='/page/23/'>23</a>
+                
+            
+    </nav>
+
+<footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2024 Example Person
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.26.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

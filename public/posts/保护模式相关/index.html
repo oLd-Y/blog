@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='http://localhost:1313/posts/%E4%BF%9D%E6%8A%A4%E6%A8%A1%E5%BC%8F%E7%9B%B8%E5%85%B3/'>
 
-<link rel="stylesheet" href="/scss/style.scss"><meta property='og:title' content="保护模式相关">
+<link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="保护模式相关">
 <meta property='og:description' content="系统调用过程 系统调用是用户空间程序与内核通信的一种机制。用户空间程序通过软中断 (software interrupt) int 0x80 进入内核，eax 寄存器中包含系统调用号，其他寄存器 (ebx, ecx, edx 等) 中包含系统调用参数。内核接收到系统调用后，进行一系列处理，最终调用对应的系统调用处理函数。 段寄存器和选择子 选择子 (Selector): 用于选择段描述符。每个段描述符包含段基地址、段限长和段属性。 段寄存器 (Segment Registers): cs, ds, es, fs, gs, ss，用于指向不同的段。 ds: 数据段寄存器，指向当前数据段。 es: 额外段寄存器，通常用于字符串操作。 fs 和 gs: 一般用于指向特殊数据段，如线程本地存储 (TLS)。 cs: 代码段寄存器，指向当前执行代码段。 ss: 堆栈段寄存器，指向当前堆栈段。 % 符号用于标识寄存器 数据寄存器（General Purpose Registers） 数据寄存器用于存储数据或操作数，常见的通用寄存器包括 ax, bx, cx, dx 等。这些寄存器可以用于各种运算、数据传输和地址计算。 dx: 全称是 Data Register（数据寄存器）。 可以被分为高位和低位部分，即 dh（高字节）和 dl（低字节）。 作为一个 32 位寄存器时，它被称为 edx，可以存储 32 位数据。e，extended。 用途广泛，包括 I/O 操作、乘法和除法操作中的数据存储等。 段寄存器（Segment Registers） 段寄存器用于存储内存段的基地址。x86 架构使用分段内存模型，通过段寄存器和偏移地址来访问内存。">
 <meta property='og:url' content='http://localhost:1313/posts/%E4%BF%9D%E6%8A%A4%E6%A8%A1%E5%BC%8F%E7%9B%B8%E5%85%B3/'>
 <meta property='og:site_name' content='Example Site'>
@@ -119,6 +119,103 @@
             
         </ol><ol class="menu" id="main-menu">
         
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
         
         <li class="menu-bottom-section">
             <ol class="menu">

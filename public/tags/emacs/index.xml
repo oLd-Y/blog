@@ -9,10 +9,10 @@
         <copyright>Example Person</copyright>
         <lastBuildDate>Wed, 08 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/emacs/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>emacs 入坑建议</title>
-        <link>http://localhost:1313/posts/emacs-%E5%85%A5%E5%9D%91%E5%BB%BA%E8%AE%AE/</link>
+        <link>http://localhost:1313/p/emacs-%E5%85%A5%E5%9D%91%E5%BB%BA%E8%AE%AE/</link>
         <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/posts/emacs-%E5%85%A5%E5%9D%91%E5%BB%BA%E8%AE%AE/</guid>
+        <guid>http://localhost:1313/p/emacs-%E5%85%A5%E5%9D%91%E5%BB%BA%E8%AE%AE/</guid>
         <description>&lt;p&gt;不知不觉地也用了 emacs 快半年了，代码没写多少，天天搁那折腾各种各样的插件。直到现在，我也只能说是勉强会用一点。这里给出一些想要入坑 emacs 的新人一点建议。如果你不想像我一样搞了这么久啥名堂都没搞出来，请务必谨记以下经验，真的是血泪教训！&lt;/p&gt;
 &lt;h1 id=&#34;使用他人的配置包进行过渡&#34;&gt;使用他人的配置包进行过渡
 &lt;/h1&gt;&lt;p&gt;在早期对 emacs 一无所知的时候，还是比较推荐先通过大佬的配置入门的。一开我也头铁，尝试过自己直接从零配置。我去，各种报错，各种 error，看又看不慬，学又学不会，当时气得我差点一拳把电脑显示屏给干爆了（。&lt;/p&gt;

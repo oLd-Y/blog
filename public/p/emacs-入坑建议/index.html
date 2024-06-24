@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="不知不觉地也用了 emacs 快半年了，代码没写多少，天天搁那折腾各种各样的插件。直到现在，我也只能说是勉强会用一点。这里给出一些想要入坑 emacs 的新人一点建议。如果你不想像我一样搞了这么久啥名堂都没搞出来，请务必谨记以下经验，真的是血泪教训！ 使用他人的配置包进行过渡 在早期对 emacs 一无所知的时候，还是比较推荐先通过大佬的配置入门的。一开我也头铁，尝试过自己直接从零配置。我去，各种报错，各种 error，看又看不慬，学又学不会，当时气得我差点一拳把电脑显示屏给干爆了（。 这一阶段的主要目的是： 学会 emacs 的常用操作，包括查找文件，移动屏幕，操作 buffer 等。 学会如何为 emacs 添加插件并进行配置。 学会如何 debug。 编写1~2门编程语言的简单代码并跑通。 （可选）学会使用 org-mode 简单记录笔记。 尤于基本上所有的 emacs 原生都在囯外服务器上，尽管很多囯人大佬的配置中都设置了国内镜像，但仍时常出现网络问题。因此，加果条件允许的话，最好还是开一个代理。方法自行网络搜索。 然后，最重要的一点，记得在 emacs 中添加配置代理的代码！当初我明明开启了系统代理，还是死活连接不上，网上也查不到资料。也是后来偶然发现问题出现在这里。 相关的代码如下所示： 1 2 3 (setq url-proxy-services &#39;((&#34;no_proxy&#34; . &#34;^\\\\(192\\\\.168\\\\..*\\\\)&#34;) (&#34;http&#34; . &#34;localhost:7890&#34;) (&#34;https&#34; . &#34;localhost:7890&#34;))) 攒自已的配置 在使用大佬的配置过程中，对于我这种有强迫症的人来说，看着一堆看不懂的和不知道何时会用到的配置代码，真是哪哪都不舒服。好在网络上诸多教程都是教你从零开始积攒自己的配置，再加上此前使用大佬配置的经验，从零开始攒自己的配置便成为可能。 是否使用 evil？ 网上很多 vimer 人转 emacs 时，都会强调 evil 完美兼容 vim 的操作，是个值得转 emacs 的好理由，包括 emacs 中的两个 star 最多的发行版 spacemacs 和 doom emacs，都是以 evil 为根基构建其配置的。我最开始也毫不犹豫地选择 doom emacs 作为我的入坑配置。然而在一段时间的使用之后，我逐渐发现了一些个人使用上的问题：">
+<title>emacs 入坑建议</title>
+
+<link rel='canonical' href='http://localhost:1313/p/emacs-%E5%85%A5%E5%9D%91%E5%BB%BA%E8%AE%AE/'>
+
+<link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="emacs 入坑建议">
+<meta property='og:description' content="不知不觉地也用了 emacs 快半年了，代码没写多少，天天搁那折腾各种各样的插件。直到现在，我也只能说是勉强会用一点。这里给出一些想要入坑 emacs 的新人一点建议。如果你不想像我一样搞了这么久啥名堂都没搞出来，请务必谨记以下经验，真的是血泪教训！ 使用他人的配置包进行过渡 在早期对 emacs 一无所知的时候，还是比较推荐先通过大佬的配置入门的。一开我也头铁，尝试过自己直接从零配置。我去，各种报错，各种 error，看又看不慬，学又学不会，当时气得我差点一拳把电脑显示屏给干爆了（。 这一阶段的主要目的是： 学会 emacs 的常用操作，包括查找文件，移动屏幕，操作 buffer 等。 学会如何为 emacs 添加插件并进行配置。 学会如何 debug。 编写1~2门编程语言的简单代码并跑通。 （可选）学会使用 org-mode 简单记录笔记。 尤于基本上所有的 emacs 原生都在囯外服务器上，尽管很多囯人大佬的配置中都设置了国内镜像，但仍时常出现网络问题。因此，加果条件允许的话，最好还是开一个代理。方法自行网络搜索。 然后，最重要的一点，记得在 emacs 中添加配置代理的代码！当初我明明开启了系统代理，还是死活连接不上，网上也查不到资料。也是后来偶然发现问题出现在这里。 相关的代码如下所示： 1 2 3 (setq url-proxy-services &#39;((&#34;no_proxy&#34; . &#34;^\\\\(192\\\\.168\\\\..*\\\\)&#34;) (&#34;http&#34; . &#34;localhost:7890&#34;) (&#34;https&#34; . &#34;localhost:7890&#34;))) 攒自已的配置 在使用大佬的配置过程中，对于我这种有强迫症的人来说，看着一堆看不懂的和不知道何时会用到的配置代码，真是哪哪都不舒服。好在网络上诸多教程都是教你从零开始积攒自己的配置，再加上此前使用大佬配置的经验，从零开始攒自己的配置便成为可能。 是否使用 evil？ 网上很多 vimer 人转 emacs 时，都会强调 evil 完美兼容 vim 的操作，是个值得转 emacs 的好理由，包括 emacs 中的两个 star 最多的发行版 spacemacs 和 doom emacs，都是以 evil 为根基构建其配置的。我最开始也毫不犹豫地选择 doom emacs 作为我的入坑配置。然而在一段时间的使用之后，我逐渐发现了一些个人使用上的问题：">
+<meta property='og:url' content='http://localhost:1313/p/emacs-%E5%85%A5%E5%9D%91%E5%BB%BA%E8%AE%AE/'>
+<meta property='og:site_name' content='Example Site'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='emacs' /><meta property='article:published_time' content='2024-05-08T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-05-13T10:54:22&#43;08:00'/>
+<meta name="twitter:title" content="emacs 入坑建议">
+<meta name="twitter:description" content="不知不觉地也用了 emacs 快半年了，代码没写多少，天天搁那折腾各种各样的插件。直到现在，我也只能说是勉强会用一点。这里给出一些想要入坑 emacs 的新人一点建议。如果你不想像我一样搞了这么久啥名堂都没搞出来，请务必谨记以下经验，真的是血泪教训！ 使用他人的配置包进行过渡 在早期对 emacs 一无所知的时候，还是比较推荐先通过大佬的配置入门的。一开我也头铁，尝试过自己直接从零配置。我去，各种报错，各种 error，看又看不慬，学又学不会，当时气得我差点一拳把电脑显示屏给干爆了（。 这一阶段的主要目的是： 学会 emacs 的常用操作，包括查找文件，移动屏幕，操作 buffer 等。 学会如何为 emacs 添加插件并进行配置。 学会如何 debug。 编写1~2门编程语言的简单代码并跑通。 （可选）学会使用 org-mode 简单记录笔记。 尤于基本上所有的 emacs 原生都在囯外服务器上，尽管很多囯人大佬的配置中都设置了国内镜像，但仍时常出现网络问题。因此，加果条件允许的话，最好还是开一个代理。方法自行网络搜索。 然后，最重要的一点，记得在 emacs 中添加配置代理的代码！当初我明明开启了系统代理，还是死活连接不上，网上也查不到资料。也是后来偶然发现问题出现在这里。 相关的代码如下所示： 1 2 3 (setq url-proxy-services &#39;((&#34;no_proxy&#34; . &#34;^\\\\(192\\\\.168\\\\..*\\\\)&#34;) (&#34;http&#34; . &#34;localhost:7890&#34;) (&#34;https&#34; . &#34;localhost:7890&#34;))) 攒自已的配置 在使用大佬的配置过程中，对于我这种有强迫症的人来说，看着一堆看不懂的和不知道何时会用到的配置代码，真是哪哪都不舒服。好在网络上诸多教程都是教你从零开始积攒自己的配置，再加上此前使用大佬配置的经验，从零开始攒自己的配置便成为可能。 是否使用 evil？ 网上很多 vimer 人转 emacs 时，都会强调 evil 完美兼容 vim 的操作，是个值得转 emacs 的好理由，包括 emacs 中的两个 star 最多的发行版 spacemacs 和 doom emacs，都是以 evil 为根基构建其配置的。我最开始也毫不犹豫地选择 doom emacs 作为我的入坑配置。然而在一段时间的使用之后，我逐渐发现了一些个人使用上的问题：">
+  
+
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_huda2458f72ce188392d75c5d51cd8e24e_373_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Example Site</a></h1>
+            <h2 class="site-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/CaiJimmy/hugo-theme-stack'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="http://localhost:1313/" selected>English</option>
+                                
+                                    <option value="http://localhost:1313/zh-cn/" >中文</option>
+                                
+                                    <option value="http://localhost:1313/ar/" >عربي</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/emacs-%E5%85%A5%E5%9D%91%E5%BB%BA%E8%AE%AE/">emacs 入坑建议</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">May 08, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    1 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>不知不觉地也用了 emacs 快半年了，代码没写多少，天天搁那折腾各种各样的插件。直到现在，我也只能说是勉强会用一点。这里给出一些想要入坑 emacs 的新人一点建议。如果你不想像我一样搞了这么久啥名堂都没搞出来，请务必谨记以下经验，真的是血泪教训！</p>
+<h1 id="使用他人的配置包进行过渡">使用他人的配置包进行过渡
+</h1><p>在早期对 emacs 一无所知的时候，还是比较推荐先通过大佬的配置入门的。一开我也头铁，尝试过自己直接从零配置。我去，各种报错，各种 error，看又看不慬，学又学不会，当时气得我差点一拳把电脑显示屏给干爆了（。</p>
+<p>这一阶段的主要目的是：</p>
+<ol>
+<li>学会 emacs 的常用操作，包括查找文件，移动屏幕，操作 buffer 等。</li>
+<li>学会如何为 emacs 添加插件并进行配置。</li>
+<li>学会如何 debug。</li>
+<li>编写1~2门编程语言的简单代码并跑通。</li>
+<li>（可选）学会使用 org-mode 简单记录笔记。</li>
+</ol>
+<p>尤于基本上所有的 emacs 原生都在囯外服务器上，尽管很多囯人大佬的配置中都设置了国内镜像，但仍时常出现网络问题。因此，加果条件允许的话，最好还是开一个代理。方法自行网络搜索。
+然后，最重要的一点，<strong>记得在 emacs 中添加配置代理的代码</strong>！当初我明明开启了系统代理，还是死活连接不上，网上也查不到资料。也是后来偶然发现问题出现在这里。</p>
+<p>相关的代码如下所示：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="line"><span class="cl"><span class="p">(</span><span class="nb">setq</span> <span class="nv">url-proxy-services</span> <span class="o">&#39;</span><span class="p">((</span><span class="s">&#34;no_proxy&#34;</span> <span class="o">.</span> <span class="s">&#34;^\\(192\\.168\\..*\\)&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                           <span class="p">(</span><span class="s">&#34;http&#34;</span> <span class="o">.</span> <span class="s">&#34;localhost:7890&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">			   <span class="p">(</span><span class="s">&#34;https&#34;</span> <span class="o">.</span> <span class="s">&#34;localhost:7890&#34;</span><span class="p">)))</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h1 id="攒自已的配置">攒自已的配置
+</h1><p>在使用大佬的配置过程中，对于我这种有强迫症的人来说，看着一堆看不懂的和不知道何时会用到的配置代码，真是哪哪都不舒服。好在网络上诸多教程都是教你从零开始积攒自己的配置，再加上此前使用大佬配置的经验，从零开始攒自己的配置便成为可能。</p>
+<h1 id="是否使用-evil">是否使用 evil？
+</h1><p>网上很多 vimer 人转 emacs 时，都会强调 evil 完美兼容 vim 的操作，是个值得转 emacs 的好理由，包括 emacs 中的两个 star 最多的发行版 spacemacs 和 doom emacs，都是以 evil 为根基构建其配置的。我最开始也毫不犹豫地选择 doom emacs 作为我的入坑配置。然而在一段时间的使用之后，我逐渐发现了一些个人使用上的问题：</p>
+<ol>
+<li>最明显的问题是：doom emacs 的配置实在是太多太杂了，也就是所谓”笨重“。这种”大而全“所代来的的结果就是很多功能我根本就用不上，快捷键也很乱，难以记忆。更令人难顶的是，它的每一个快捷键都有2套方案，真是搞得我选择困难症都犯了。</li>
+<li>一开始我在 linux 平台用 emacs，但后来因为一些软件的兼容性还是回到了 windows 平台。然而尤于 doom emacs 的包实在太多，再加上自己的一些配置不合理，每次启动的时间都很长。</li>
+<li>doom emacs 为了整体的规范易用，自定义了一套宏。这大大增加了 debug 插件的难度。同时又产生了新的语让你学习，让本就困难的自定义 emacs 之路更加雪上加霜。
+出于以上种种原因，再加上我已经练习 emacs 1/5 鲲年，我觉得我可以开始积攒自己的配置了。</li>
+</ol>
+<p>一开始我是坚定不移地要使用 evil 的。我本身也是 vim 操作模式的忠实粉丝，已经使用了3年的vim了，其常用操作我己经很熟悉了。<em>Vim实用技巧</em>也过了一大半，且无论哪个软件都会寻找是否有插件得以让我以 vim 的操作逻辑使用该软件。即便如此，当我在 emacs 中引入别的插件时，我还是为这些插件与 evil 的兼容性头痛，开始考虑是否继续 evil 了。一方面，同时使用两份快捷键表容易引起记忆混乱和选择困难症；另一方面，说实话，无论哪个 vim 上的操作，都能在原生 emacs 中找到相同或者类似的替代品。</p>
+<p>经过慎重考虑，虽然很难割舍，我还是决定放弃 evil 插件，转而使用原生 emacs。巴菲特老爷子曾经说，成功的人和非常成功的人的区别在于，非常成功的人会对所有自己不需要的东西说不。emacs 如此庞杂，生活又如此多彩，我必然不可能既要又要，还是捡点自己需要的，幸福地过好自己的日子就好。</p>
+<p>最后吐槽一下，emacs 的入门是真的很艰难，它需要你有较好的英语底子和一定的计算机基础，才能有入门的体验。尤于 emacs 本身就太宽泛了，很难说有一个固定的入门教程；再如上 emacs 的圈子，虽然大家都很友善热情，但术语什么的都太专业了，新人根本看不慬他们在说什么，有种圈地自萌、束之高阁的感觉。</p>
+<p>然而，一旦开始对其有一定的了解之后，特别是看到一个个牛X的功能在自己的手中实现时，那种兴奋之感真是难以言语。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/emacs/">Emacs</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            Last updated on May 13, 2024 10:54 CST
+        </span>
+    </section></footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2024 Example Person
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.26.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

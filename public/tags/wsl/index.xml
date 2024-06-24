@@ -9,10 +9,10 @@
         <copyright>Example Person</copyright>
         <lastBuildDate>Tue, 18 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/wsl/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>wsl 网络问题</title>
-        <link>http://localhost:1313/posts/wsl-%E7%BD%91%E7%BB%9C%E9%97%AE%E9%A2%98/</link>
+        <link>http://localhost:1313/p/wsl-%E7%BD%91%E7%BB%9C%E9%97%AE%E9%A2%98/</link>
         <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/posts/wsl-%E7%BD%91%E7%BB%9C%E9%97%AE%E9%A2%98/</guid>
+        <guid>http://localhost:1313/p/wsl-%E7%BD%91%E7%BB%9C%E9%97%AE%E9%A2%98/</guid>
         <description>&lt;h1 id=&#34;解决方法&#34;&gt;解决方法
 &lt;/h1&gt;&lt;p&gt;在 windows 的 &lt;code&gt;%USERPROFILE%&lt;/code&gt; 目录下打开或新建 &lt;code&gt;.wslconfig&lt;/code&gt; 文件并输入如下代码:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;

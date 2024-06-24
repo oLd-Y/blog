@@ -2,12 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/daily/2024-5-10_friday/</loc>
-    <lastmod>2024-06-24T11:58:12+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/dairy/</loc>
-    <lastmod>2024-06-24T11:58:12+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-06-24T12:01:55+08:00</lastmod>
     <xhtml:link
@@ -25,6 +19,12 @@
                 hreflang="en"
                 href="http://localhost:1313/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/p/2024-5-10_friday/</loc>
+    <lastmod>2024-06-24T11:58:12+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/dairy/</loc>
+    <lastmod>2024-06-24T11:58:12+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-06-24T12:01:55+08:00</lastmod>
@@ -44,169 +44,169 @@
                 href="http://localhost:1313/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-04-30_tuesday/</loc>
+    <loc>http://localhost:1313/p/2024-04-30_tuesday/</loc>
     <lastmod>2024-06-24T11:50:41+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/atomic-habits%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
+    <loc>http://localhost:1313/p/atomic-habits%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
     <lastmod>2024-06-24T12:01:55+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-06-24_monday/</loc>
+    <loc>http://localhost:1313/p/2024-06-24_monday/</loc>
     <lastmod>2024-06-24T11:57:34+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
     <lastmod>2024-06-24T12:01:55+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-06-23_sunday/</loc>
+    <loc>http://localhost:1313/p/2024-06-23_sunday/</loc>
     <lastmod>2024-06-24T11:51:35+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/vim-command-mode/</loc>
+    <loc>http://localhost:1313/p/vim-command-mode/</loc>
     <lastmod>2024-06-23T13:03:03+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-06-22_saturday/</loc>
+    <loc>http://localhost:1313/p/2024-06-22_saturday/</loc>
     <lastmod>2024-06-22T20:39:02+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%E5%9B%B4%E5%9F%8E%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
+    <loc>http://localhost:1313/p/%E5%9B%B4%E5%9F%8E%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
     <lastmod>2024-06-21T13:29:29+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-06-21_friday/</loc>
+    <loc>http://localhost:1313/p/2024-06-21_friday/</loc>
     <lastmod>2024-06-21T10:14:09+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-06-20_thursday/</loc>
+    <loc>http://localhost:1313/p/2024-06-20_thursday/</loc>
     <lastmod>2024-06-21T08:25:52+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-06-19_wednesday/</loc>
+    <loc>http://localhost:1313/p/2024-06-19_wednesday/</loc>
     <lastmod>2024-06-21T08:25:47+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-06-18_tuesday/</loc>
+    <loc>http://localhost:1313/p/2024-06-18_tuesday/</loc>
     <lastmod>2024-06-21T08:25:42+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/wsl/</loc>
     <lastmod>2024-06-19T14:25:55+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/wsl-%E7%BD%91%E7%BB%9C%E9%97%AE%E9%A2%98/</loc>
+    <loc>http://localhost:1313/p/wsl-%E7%BD%91%E7%BB%9C%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2024-06-19T14:25:55+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%E4%BF%A1%E5%8F%B7%E9%87%8F/</loc>
+    <loc>http://localhost:1313/p/%E4%BF%A1%E5%8F%B7%E9%87%8F/</loc>
     <lastmod>2024-06-20T13:54:18+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-06-17_monday/</loc>
+    <loc>http://localhost:1313/p/2024-06-17_monday/</loc>
     <lastmod>2024-06-21T08:25:38+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%E7%BA%BF%E7%A8%8B/</loc>
+    <loc>http://localhost:1313/p/%E7%BA%BF%E7%A8%8B/</loc>
     <lastmod>2024-06-23T17:05:55+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-06-16_sunday/</loc>
+    <loc>http://localhost:1313/p/2024-06-16_sunday/</loc>
     <lastmod>2024-06-21T08:25:31+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-06-15_saturday/</loc>
+    <loc>http://localhost:1313/p/2024-06-15_saturday/</loc>
     <lastmod>2024-06-21T08:25:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/linux-0.11-_set_gate-%E5%AE%8F%E8%A7%A3%E9%87%8A/</loc>
+    <loc>http://localhost:1313/p/linux-0.11-_set_gate-%E5%AE%8F%E8%A7%A3%E9%87%8A/</loc>
     <lastmod>2024-06-18T08:15:33+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%E4%BF%9D%E6%8A%A4%E6%A8%A1%E5%BC%8F%E7%9B%B8%E5%85%B3/</loc>
+    <loc>http://localhost:1313/p/%E4%BF%9D%E6%8A%A4%E6%A8%A1%E5%BC%8F%E7%9B%B8%E5%85%B3/</loc>
     <lastmod>2024-06-13T16:04:06+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-06-11_tuesday/</loc>
+    <loc>http://localhost:1313/p/2024-06-11_tuesday/</loc>
     <lastmod>2024-06-21T08:25:21+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/zsh/</loc>
     <lastmod>2024-06-08T11:30:16+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/zsh-%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%BB%91%E5%AE%9A%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
+    <loc>http://localhost:1313/p/zsh-%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%BB%91%E5%AE%9A%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
     <lastmod>2024-06-08T11:30:16+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-06-07_friday/</loc>
+    <loc>http://localhost:1313/p/2024-06-07_friday/</loc>
     <lastmod>2024-06-21T08:25:16+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</loc>
+    <loc>http://localhost:1313/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</loc>
     <lastmod>2024-06-07T10:57:05+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/nvm-%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/</loc>
+    <loc>http://localhost:1313/p/nvm-%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/</loc>
     <lastmod>2024-06-07T18:35:57+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-06-06_thursday/</loc>
+    <loc>http://localhost:1313/p/2024-06-06_thursday/</loc>
     <lastmod>2024-06-21T08:25:13+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hdc-%E6%97%A0%E6%B3%95%E6%8C%82%E8%BD%BD-minix/</loc>
+    <loc>http://localhost:1313/p/hdc-%E6%97%A0%E6%B3%95%E6%8C%82%E8%BD%BD-minix/</loc>
     <lastmod>2024-06-09T10:15:26+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-06-05_wednesday/</loc>
+    <loc>http://localhost:1313/p/2024-06-05_wednesday/</loc>
     <lastmod>2024-06-21T08:25:09+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/arch-linux-wayland-chrome-%E6%B5%8F%E8%A7%88%E5%99%A8%E8%BE%93%E6%97%A0%E6%B3%95%E8%BE%93%E5%85%A5%E4%B8%AD%E6%96%87/</loc>
+    <loc>http://localhost:1313/p/arch-linux-wayland-chrome-%E6%B5%8F%E8%A7%88%E5%99%A8%E8%BE%93%E6%97%A0%E6%B3%95%E8%BE%93%E5%85%A5%E4%B8%AD%E6%96%87/</loc>
     <lastmod>2024-05-16T22:02:27+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ubuntu/</loc>
     <lastmod>2024-05-13T10:03:12+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ubuntu-22.04-%E6%9B%B4%E6%8D%A2%E9%95%9C%E5%83%8F%E6%BA%90/</loc>
+    <loc>http://localhost:1313/p/ubuntu-%E6%9B%B4%E6%8D%A2%E9%95%9C%E5%83%8F%E6%BA%90/</loc>
     <lastmod>2024-05-13T10:03:12+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/windows-%E5%92%8C-arch-%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/</loc>
+    <loc>http://localhost:1313/p/windows-%E5%92%8C-arch-%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/</loc>
     <lastmod>2024-05-13T13:38:13+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/windows-%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5-wsl/</loc>
+    <loc>http://localhost:1313/p/windows-%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5-wsl/</loc>
     <lastmod>2024-05-13T10:25:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/wsl2-%E5%AE%89%E8%A3%85-gnome-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83/</loc>
+    <loc>http://localhost:1313/p/wsl2-%E5%AE%89%E8%A3%85-gnome-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83/</loc>
     <lastmod>2024-05-13T10:26:54+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/windows-%E4%B8%8B-emacs-%E5%8D%A1%E9%A1%BF%E5%8F%AF%E8%83%BD%E5%8E%9F%E5%9B%A0/</loc>
+    <loc>http://localhost:1313/p/windows-%E4%B8%8B-emacs-%E5%8D%A1%E9%A1%BF%E5%8F%AF%E8%83%BD%E5%8E%9F%E5%9B%A0/</loc>
     <lastmod>2024-05-12T11:22:45+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/windows-11-%E8%93%9D%E7%89%99%E6%97%A0%E6%B3%95%E6%90%9C%E7%B4%A2%E5%88%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E5%8E%9F%E5%9B%A0-/</loc>
+    <loc>http://localhost:1313/p/windows-11-%E8%93%9D%E7%89%99%E6%97%A0%E6%B3%95%E6%90%9C%E7%B4%A2%E5%88%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E5%8E%9F%E5%9B%A0/</loc>
     <lastmod>2024-05-11T13:11:50+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/reading-notes--atomatic-habits/</loc>
+    <loc>http://localhost:1313/p/reading-notes-automatic-habits/</loc>
     <lastmod>2024-05-10T12:33:49+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E8%8B%B1%E8%AF%AD/</loc>
     <lastmod>2024-05-10T12:33:49+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-05-08_wednesday/</loc>
+    <loc>http://localhost:1313/p/2024-05-08_wednesday/</loc>
     <lastmod>2024-05-08T18:06:22+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/emacs/</loc>
     <lastmod>2024-05-13T10:54:22+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/emacs-%E5%85%A5%E5%9D%91%E5%BB%BA%E8%AE%AE/</loc>
+    <loc>http://localhost:1313/p/emacs-%E5%85%A5%E5%9D%91%E5%BB%BA%E8%AE%AE/</loc>
     <lastmod>2024-05-13T10:54:22+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/emacs-%E9%BB%98%E8%AE%A4%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
+    <loc>http://localhost:1313/p/emacs-%E9%BB%98%E8%AE%A4%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
     <lastmod>2024-05-09T13:53:27+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-05-07_tuesday/</loc>
+    <loc>http://localhost:1313/p/2024-05-07_tuesday/</loc>
     <lastmod>2024-05-08T14:28:10+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-05-06_monday/</loc>
+    <loc>http://localhost:1313/p/2024-05-06_monday/</loc>
     <lastmod>2024-05-07T10:28:20+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%E5%8F%A4%E6%96%87%E8%A7%82%E6%AD%A2-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    <loc>http://localhost:1313/p/%E5%8F%A4%E6%96%87%E8%A7%82%E6%AD%A2-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2024-06-18T08:14:43+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-05-02_thursday/</loc>
+    <loc>http://localhost:1313/p/2024-05-02_thursday/</loc>
     <lastmod>2024-05-02T21:26:37+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/857.-%E9%9B%87%E4%BD%A3-k-%E5%90%8D%E5%B7%A5%E4%BA%BA%E7%9A%84%E6%9C%80%E4%BD%8E%E6%88%90%E6%9C%AC/</loc>
+    <loc>http://localhost:1313/p/857.-%E9%9B%87%E4%BD%A3-k-%E5%90%8D%E5%B7%A5%E4%BA%BA%E7%9A%84%E6%9C%80%E4%BD%8E%E6%88%90%E6%9C%AC/</loc>
     <lastmod>2024-05-02T10:35:34+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%E6%94%BE%E5%BC%83%E6%8A%98%E8%85%BE-vim-%E5%92%8C-emacs/</loc>
+    <loc>http://localhost:1313/p/%E6%94%BE%E5%BC%83%E6%8A%98%E8%85%BE-vim-%E5%92%8C-emacs/</loc>
     <lastmod>2024-05-02T19:17:48+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-05-01_wednesday/</loc>
+    <loc>http://localhost:1313/p/2024-05-01_wednesday/</loc>
     <lastmod>2024-05-01T22:22:09+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%E8%87%AA%E7%84%B6%E7%A0%81%E8%BE%85%E5%8A%A9%E7%A0%81%E8%A1%A8/</loc>
+    <loc>http://localhost:1313/p/%E8%87%AA%E7%84%B6%E7%A0%81%E8%BE%85%E5%8A%A9%E7%A0%81%E8%A1%A8/</loc>
     <lastmod>2024-05-01T10:18:02+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/%E8%BE%93%E5%85%A5%E6%B3%95/</loc>
     <lastmod>2024-05-01T10:18:02+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-04-29_monday/</loc>
+    <loc>http://localhost:1313/p/</loc>
     <lastmod>2024-04-29T22:36:23+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/emacs-%E4%BD%BF%E7%94%A8-org-mode-%E6%90%AD%E9%85%8D-ox-hugo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>http://localhost:1313/p/emacs-%E4%BD%BF%E7%94%A8-org-mode-%E6%90%AD%E9%85%8D-ox-hugo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2024-04-28T13:28:46+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/setting/</loc>
@@ -230,68 +230,184 @@
                 href="http://localhost:1313/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%9A%84%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E8%AE%BE%E5%A4%87/</loc>
+    <loc>http://localhost:1313/p/%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%9A%84%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E8%AE%BE%E5%A4%87/</loc>
     <lastmod>2024-04-28T13:28:19+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/angular-git-%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83/</loc>
+    <loc>http://localhost:1313/p/angular-git-%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83/</loc>
     <lastmod>2024-04-28T13:28:12+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%8D%B8%E8%BD%BD-ubuntu/</loc>
+    <loc>http://localhost:1313/p/%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%8D%B8%E8%BD%BD-ubuntu/</loc>
     <lastmod>2024-04-28T13:27:32+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/wsl-%E5%AE%89%E8%A3%85/</loc>
+    <loc>http://localhost:1313/p/</loc>
     <lastmod>2024-04-28T13:26:59+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/windows-%E6%98%BE%E5%8D%A1%E7%A1%AC%E4%BB%B6%E5%8A%A0%E9%80%9F/</loc>
+    <loc>http://localhost:1313/p/</loc>
     <lastmod>2024-04-28T13:26:55+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/windows-%E5%85%A8%E5%B1%80%E6%96%B0%E5%BB%BA%E7%AC%94%E8%AE%B0/</loc>
+    <loc>http://localhost:1313/p/</loc>
     <lastmod>2024-04-28T13:26:50+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/windows-%E5%88%A9%E7%94%A8-auto-hotkey-%E6%A8%A1%E6%8B%9F%E5%B8%B8%E7%94%A8-emacs-%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
+    <loc>http://localhost:1313/p/</loc>
     <lastmod>2024-04-28T13:26:46+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ubuntu-%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF%E8%AE%BE%E7%BD%AE/</loc>
+    <loc>http://localhost:1313/p/ubuntu-%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF%E8%AE%BE%E7%BD%AE/</loc>
     <lastmod>2024-04-28T13:26:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/sd-%E5%85%B3%E9%94%AE%E8%AF%8D%E8%AE%B0%E5%BD%95/</loc>
+    <loc>http://localhost:1313/p/</loc>
     <lastmod>2024-04-28T13:26:23+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ox-hugo-org-template-%E7%90%86%E8%A7%A3/</loc>
+    <loc>http://localhost:1313/p/ox-hugo-org-template-%E7%90%86%E8%A7%A3/</loc>
     <lastmod>2024-04-28T13:26:14+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ox-hugo-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%A8%A1%E6%9D%BF%E4%BB%A3%E7%A0%81%E8%A7%A3%E6%9E%90/</loc>
+    <loc>http://localhost:1313/p/ox-hugo-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%A8%A1%E6%9D%BF%E4%BB%A3%E7%A0%81%E8%A7%A3%E6%9E%90/</loc>
     <lastmod>2024-04-28T13:26:10+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/org-mode/</loc>
     <lastmod>2024-04-28T13:26:05+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ox-hugo-%E7%BB%93%E5%90%88-org-download-%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/</loc>
+    <loc>http://localhost:1313/p/ox-hugo-%E7%BB%93%E5%90%88-org-download-%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/</loc>
     <lastmod>2024-04-28T13:26:05+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/org-roam-%E8%8A%82%E7%82%B9/</loc>
+    <loc>http://localhost:1313/p/org-roam-%E8%8A%82%E7%82%B9/</loc>
     <lastmod>2024-04-28T13:26:02+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/obsidian-vim-%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%AD%E8%8B%B1%E7%8A%B6%E6%80%81/</loc>
+    <loc>http://localhost:1313/p/obsidian-vim-%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%AD%E8%8B%B1%E7%8A%B6%E6%80%81/</loc>
     <lastmod>2024-04-28T13:25:58+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/obsidian-publisher-%E6%96%87%E7%AB%A0%E6%A8%A1%E6%9D%BF/</loc>
+    <loc>http://localhost:1313/p/</loc>
     <lastmod>2024-04-28T13:25:53+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2024-04-28T13:23:48+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-04-22/</loc>
+    <loc>http://localhost:1313/p/</loc>
     <lastmod>2024-04-28T11:04:50+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/daily/2024-04-28/</loc>
+    <loc>http://localhost:1313/p/</loc>
     <lastmod>2024-04-28T10:58:41+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/vim/</loc>
     <lastmod>2024-04-28T13:26:35+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/vscode-vim-%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
+    <loc>http://localhost:1313/p/vscode-vim-%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
     <lastmod>2024-04-28T13:26:35+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/page/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/zh-cn/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/page/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/css/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/html/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/markdown/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/postbak/markdown-syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/postbak/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/zh-cn/postbak/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/postbak/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/postbak/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/categories/syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/themes/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/themes/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/postbak/placeholder-text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/postbak/placeholder-text/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/postbak/placeholder-text/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/tag-with-whitespaces/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/test/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/zh-cn/categories/test/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/categories/test/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/categories/test-with-whitespaces/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/postbak/math-typesetting/</loc>
+    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/emoji/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/postbak/emoji-support/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/zh-cn/%E5%85%B3%E4%BA%8E/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/links/</loc>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
   </url><url>

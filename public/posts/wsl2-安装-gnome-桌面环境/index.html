@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='http://localhost:1313/posts/wsl2-%E5%AE%89%E8%A3%85-gnome-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83/'>
 
-<link rel="stylesheet" href="/scss/style.scss"><meta property='og:title' content="wsl2 安装 gnome 桌面环境">
+<link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="wsl2 安装 gnome 桌面环境">
 <meta property='og:description' content="1 2 3 4 5 6 7 8 9 10 11 12 sudo apt update &amp;&amp; sudo apt upgrade -y sudo apt purge -y acpid acpi-support modemmanager sudo apt-mark hold acpid acpi-support sudo\u00a0apt\u00a0install\u00a0ubuntu-desktop\u00a0gnome vim ~/.bashrc export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk &#39;{print $2}&#39;):0 export LIBGL_ALWAYS_INDIRECT=1 git clone https://github.com/DamionGans/ubuntu-wsl2-system-script.git cd ubuntu-wsl2-system-script/ bash ubuntu-wsl2-system-script.sh apt purge -y acpid acpi-support modemmanager apt purge：这个命令用于彻底删除软件包，包括它们的配置文件。与apt remove不同，purge不会留下任何痕迹，因此如果将来需要重新安装这些软件包，它们将完全从头开始安装。 -y：这个选项是告诉apt在执行过程中自动回答所有的提示问题，相当于默认回答“yes”，用于自动化脚本中，以避免手动输入。 acpid、acpi-support、modemmanager：这些是要从系统中删除的软件包的名称。acpid是一个守护进程，用于处理ACPI（高级配置和电源接口）事件；acpi-support提供了ACPI相关的支持工具；modemmanager是一个守护进程，用于管理调制解调器设备。 sudo apt-mark hold acpid acpi-support">
 <meta property='og:url' content='http://localhost:1313/posts/wsl2-%E5%AE%89%E8%A3%85-gnome-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83/'>
 <meta property='og:site_name' content='Example Site'>
@@ -119,6 +119,103 @@
             
         </ol><ol class="menu" id="main-menu">
         
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
         
         <li class="menu-bottom-section">
             <ol class="menu">

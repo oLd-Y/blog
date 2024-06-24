@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='http://localhost:1313/posts/linux-0.11-_set_gate-%E5%AE%8F%E8%A7%A3%E9%87%8A/'>
 
-<link rel="stylesheet" href="/scss/style.scss"><meta property='og:title' content="linux-0.11 _set_gate 宏解释">
+<link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="linux-0.11 _set_gate 宏解释">
 <meta property='og:description' content="_set_gate，用于设置中断门或陷阱门（gate）在全局描述符表（GDT）或中断描述符表（IDT）中的入口。这段代码利用内嵌汇编实现了对描述符表入口的初始化。 1 2 3 4 5 6 7 8 9 10 #define _set_gate(gate_addr,type,dpl,addr) \\ __asm__ (&#34;movw %%dx,%%ax\\n\\t&#34; \\ &#34;movw %0,%%dx\\n\\t&#34; \\ &#34;movl %%eax,%1\\n\\t&#34; \\ &#34;movl %%edx,%2&#34; \\ : \\ : &#34;i&#34; ((short) (0x8000+(dpl&lt;&lt;13)+(type&lt;&lt;8))), \\ &#34;o&#34; (*((char *) (gate_addr))), \\ &#34;o&#34; (*(4+(char *) (gate_addr))), \\ &#34;d&#34; ((char *) (addr)),&#34;a&#34; (0x00080000)) #define _set_gate(gate_addr,type,dpl,addr): 定义一个宏 _set_gate，它接受四个参数： gate_addr：门描述符的地址。 type：描述符类型。 dpl：描述符特权级（Descriptor Privilege Level）。 addr：门处理程序的地址。 __asm__：内嵌汇编开始。 &quot;movw %%dx,%%ax\\n\\t&quot;：将寄存器 dx 的低16位复制到寄存器 ax。 &quot;movw %0,%%dx\\n\\t&quot;：将第一个输入操作数 %0 的值复制到寄存器 dx。">
 <meta property='og:url' content='http://localhost:1313/posts/linux-0.11-_set_gate-%E5%AE%8F%E8%A7%A3%E9%87%8A/'>
 <meta property='og:site_name' content='Example Site'>
@@ -119,6 +119,103 @@
             
         </ol><ol class="menu" id="main-menu">
         
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
         
         <li class="menu-bottom-section">
             <ol class="menu">
