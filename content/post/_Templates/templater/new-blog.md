@@ -9,17 +9,21 @@ let title = titleName
 let description = ""
 let slug = ""
 let date = ""
-let image = ""
 let categories = ""
 let tags = ""
 let weight = ""
-setTimeout(() => { app.fileManager.processFrontMatter(tp.config.target_file, frontmatter =>{ frontmatter["title"] = title; 
-frontmatter["description"] = description; 
-frontmatter["slug"] = slug; 
-frontmatter["date"] = date; 
-frontmatter["image"] = image; 
-frontmatter["categories"] = categories; 
-frontmatter["tags"] = tags; 
-frontmatter["weight"] = 1; 
+
+// 获取随机图片 URL
+let image = await tp.web.random_picture();
+
+setTimeout(() => { app.fileManager.processFrontMatter(tp.config.target_file, frontmatter =>{ 
+    frontmatter["title"] = title; 
+    frontmatter["description"] = description; 
+    frontmatter["slug"] = slug; 
+    frontmatter["date"] = date; 
+    frontmatter["image"] = image; 
+    frontmatter["categories"] = categories; 
+    frontmatter["tags"] = tags; 
+    frontmatter["weight"] = 1; 
 }) }, 200)
 -%>
