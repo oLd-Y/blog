@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "古文观止 读书笔记.md",
+                "file": "放弃折腾 vim 和 emacs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "古文观止 读书笔记.md",
+                "file": "放弃折腾 vim 和 emacs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "古文观止 读书笔记.md",
+                "file": "放弃折腾 vim 和 emacs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "古文观止 读书笔记.md"
+                "file": "放弃折腾 vim 和 emacs.md"
               }
             }
           },
@@ -188,6 +188,7 @@
   },
   "active": "090e2b20e07875f7",
   "lastOpenFiles": [
+    "古文观止 读书笔记.md",
     "SD 关键词记录.md",
     "Ubuntu 默认终端设置.md",
     "哈工大操作系统实验4.md",
@@ -202,7 +203,6 @@
     "放弃折腾 vim 和 emacs.md",
     "弃用 emacs 转用 neovim 的原因.md",
     "哈工大操作系统实验3.md",
-    "古文观止 读书笔记.md",
     "双系统卸载 Ubuntu.md",
     "信号量.md",
     "保护模式相关.md",
