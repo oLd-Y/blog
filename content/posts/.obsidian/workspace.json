@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2024-06-23_Sunday.md",
+                "file": "daily/2024-06-24_Monday.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "《automic habits》读后感.md",
+                "file": "WeRead/飞鸟集.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,8 +79,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,8 +125,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《automic habits》读后感.md",
+                "file": "daily/2024-06-24_Monday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《automic habits》读后感.md",
+                "file": "daily/2024-06-24_Monday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《automic habits》读后感.md"
+                "file": "daily/2024-06-24_Monday.md"
               }
             }
           },
@@ -246,16 +244,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "090e2b20e07875f7",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "《围城》读后感.md",
+    "daily/2024-06-23_Sunday.md",
+    "daily/2024-06-24_Monday.md",
+    "WeRead/飞鸟集.md",
     "WeRead/Atomic Habits.md",
+    "WeRead/津巴多普通心理学（第8版）.md",
+    "WeRead/红楼梦.md",
+    "《围城》读后感.md",
     "《automic habits》读后感.md",
     "线程.md",
     "vim command mode.md",
     "vim.md",
     "信号量.md",
-    "daily/2024-06-23_Sunday.md",
     "daily/2024-06-22_Saturday.md",
     "daily/2024-06-21_Friday.md",
     "WeRead/围城.md",
@@ -270,10 +272,6 @@
     "daily/2024-06-11_Tuesday.md",
     "daily/2024-06-07_Friday.md",
     "daily/2024-06-06_Thursday.md",
-    "daily/2024-06-05_Wednesday.md",
-    "弃用 emacs 转用 neovim 的原因.md",
-    "李治军操作系统总结.md",
-    "李治军操作系统-前置知识.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",

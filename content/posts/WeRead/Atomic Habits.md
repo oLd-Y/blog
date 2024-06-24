@@ -3,12 +3,12 @@ doc_type: weread-highlights-reviews
 bookId: CB_7xbFkhFlKG9h6lV6ksG2y4VK
 author: Clear, James
 cover: 
-reviewCount: 44
-noteCount: 420
-readingStatus: 未标记
+reviewCount: 45
+noteCount: 472
+readingStatus: 读完
 progress: 3%
-totalReadDay: 42
-readingTime: 21小时58分钟
+totalReadDay: 45
+readingTime: 23小时49分钟
 readingDate: 2024-01-07
 title: Atomic Habits
 category: 
@@ -17,7 +17,8 @@ publishTime:
 isbn: 
 cover.image: https://res.weread.qq.com/wrepub/CB_GbJ1U11UZEV96i36gZ6nmEpt_parsecover
 draft: true
-lastmod: 2024-06-22T12:16:57+08:00
+lastmod: 2024-06-24T10:29:37+08:00
+finishedDate: 2024-06-24
 ---
 # 元数据
 > [!abstract]- Atomic Habits
@@ -124,8 +125,6 @@ lastmod: 2024-06-22T12:16:57+08:00
 > It’s not about any single accomplishment. It is about the cycle ofendless refinement and continuous improvement.
 > ---
 > 人生不是一场单次的游戏, 它不会因为你达成某个目标就停止了进程.
-
-
 ### 2: How Your Habits Shape Your Identity (and Vice Versa)
 
 
@@ -139,7 +138,6 @@ lastmod: 2024-06-22T12:16:57+08:00
 > ---
 > 网络上不乏这种“因为身边人的一句恶语而坚持锻炼最后改变成功"的例子。不论一个人如何装作风轻云淡，一句评价自身的言语还是会影响人的心态. 人们本质还是非常在意在公众面前的形象的, 会因他人的赞美而欣喜, 因他人的诋毁而愤怒. 只不过高人将心态修炼得很好, 很快就可以调整过来罢了.
 
-you may ~~build~~ start a habit ~~due to~~ because of motivation, but the only reason to ~~build a habit~~ stick to one is (that) it become(s) a part of your identity.
 
 > [!Cite]+ <span style="color: #ffce78;">Highlight</span>
 > Your behaviors are usually a reflection of your identity.
@@ -150,7 +148,7 @@ you may ~~build~~ start a habit ~~due to~~ because of motivation, but the only r
 > Many people walk through life in a cognitive slumber, blindly following the norms attached to their identity.
 > ^8-16316-16425
 
-many people ~~go~~ walk through ~~their~~ life in the congnitive ~~sleep~~ slumber, bindly follow the norms ~~related to self's~~ attached to their identity.
+
 > [!Annotation]+ <span style="color: #ffce78;">Annotation</span>
 > Good habits can make rational sense, but if they conflict with your identity, you will fail to put them into action.
 > ---
@@ -2178,6 +2176,271 @@ many people ~~go~~ walk through ~~their~~ life in the congnitive ~~sleep~~ slumb
 > [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
 > fair-weather
 > ^30-19890-19902
+### 20: The Downside of Creating Good Habits
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> When you know the simple movements so well that you can perform them without thinking, you are free to pay attention to more advanced details.
+> ^31-1558-1700
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> In reality, you are merely reinforcing your current habits—not improving them.
+> ^31-2822-2935
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> nuanced
+> ^31-3951-3958
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> deliberate practice.
+> ^31-4153-4173
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> dribble
+> ^31-4586-4593
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> layups with their nondominant hand
+> ^31-4648-4682
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> incision
+> ^31-4718-4726
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> nightclubs
+> ^31-16708-16718
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> executives and investors
+> ^31-17133-17157
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> tally
+> ^31-18436-18441
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> thereof
+> ^31-18747-18754
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> rolls around
+> ^31-19584-19596
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> accordance
+> ^31-19863-19873
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Periodic reflection and review is like viewing yourself in the mirror from a conversational distance.
+> ^31-22335-22436
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> gets stuck in a rut
+> ^31-24353-24372
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> wreck
+> ^31-25195-25200
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> brittle
+> ^31-25398-25405
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> mitigating
+> ^31-26739-26749
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> brittle
+> ^31-27920-27927
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> The following quote from the Tao Te Ching encapsulates the ideas perfectly:
+> ^31-28179-28262
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> supple
+> ^31-28383-28389
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> stiff
+> ^31-28487-28492
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> tender and pliant
+> ^31-28596-28613
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> antidote
+> ^31-30138-30146
+### Conclusion: The Secret to Results That Last
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> parable
+> ^32-1038-1045
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> The holy grail of
+> ^32-2313-2330
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> tilting
+> ^32-3309-3316
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> you hit a tipping point
+> ^32-3373-3396
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> vault to the top of their field
+> ^32-4011-4042
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> unrelenting
+> ^32-4222-4234
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> spectrum
+> ^32-7538-7546
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> cluster
+> ^32-7628-7635
+### Little Lessons from the Four Laws
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> are content with
+> ^35-3122-3138
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Happiness is not about the achievement of pleasure (which is joy or satisfaction), but about the lack of desire.
+> ^35-3162-3274
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> This is what the Austrian neurologist Victor Frankl meant when he said that happiness cannot be pursued, it must ensue
+> ^35-4369-4524
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Friedrich Nietzsche, the German philosopher and poet, famously wrote, “ He who has a why to live for can bear almost any how.
+> ^35-5773-5934
+
+
+> [!Cite]+ <span style="color: #78edff;">Highlight</span>
+> This phrase harbors an important truth about
+> ^35-5936-5981
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Being motivated and curious counts for more than being smart because it leads to action
+> ^35-6558-6645
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> As Naval Ravikant says, “The trick to doing anything is first cultivating a desire for it.”
+> ^35-6787-6878
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> compelled
+> ^35-7218-7227
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> intervenes
+> ^35-8518-8528
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> This is one reason why appealing to emotion is typically more powerful than appealing to reason
+> ^35-9122-9289
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> This makes self-control ineffective because inhibiting our desires does not usually resolve them
+> ^35-11635-11731
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Our expectations determine our satisfaction. The gap between our cravings and our rewards determines how satisfied we feel after taking action. If the mismatch between expectations and outcomes is positive (surprise and delight), then we are more likely to repeat a behavior in the future. If the mismatch is negative (disappointment and frustration), then we are less likely to do so.
+> ^35-12107-12532
+
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> Seneca’s famous quote, “ Being poor is not having too little, it is wanting more.
+> ^35-13484-13601
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> outpace
+> ^35-13617-13624
+## Acknowledgments
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> spouse
+> ^38-1039-1045
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> exaggeration
+> ^38-1108-1120
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> sprinkled
+> ^38-2982-2991
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> indebted
+> ^38-3532-3540
+## About the Author
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> geeked out
+> ^41-5880-5890
+
+
+> [!Cite]+ <span style="color: #ff8a78;">Highlight</span>
+> nitpicking
+> ^41-7390-7400
 
 # 读书笔记
 
@@ -2476,3 +2739,26 @@ many people ~~go~~ walk through ~~their~~ life in the congnitive ~~sleep~~ slumb
 > ---
 > 比如大块头的肌肉男去参加快乐向前冲，几乎全员落水，反而是一些身资较为轻盁的能闯得更远。
 
+
+## 本书评论
+
+> [!Review] 书评 No.1 
+> 原子习惯这本书，主要讲述了如何养成一个好习惯，以及如何改掉一个坏习惯。
+
+人们每天习惯性的动作占据了一个人的50%\~60%的时间：起床后自动地去洗漱，出门时无意识地先穿左脚的鞋，学一会儿不由自主地打开手机，无需思考也能打出想要的字……
+
+一个习惯的培养或者淡化，主要涉及四个方面：线索、渴望、反馈、奖励。说人话就是，你看到了某个人或者事物，他激发了你心中的某个兴趣，让你产生了做某件事的冲突，然后在做了之后产生反馈，进而产生正向或者反向的奖励，使你继续/不愿继续保持这个习惯。
+
+这中有几个观点我比较印象深刻：
+
+  
+1\. 专注于成为什么样的人，而非某个具体的目标。一个是因为你的人生并不是在实现某个目标之后就停止了，还会继续前进。二是因为专注于具体的目标有一个问题。大家应该有这样的经历：由于对自己能力的错误判断，再加上现实情况也和预期大相径庭，常常设置了目标却无法及时完成。每当这时，往往有一种任务无法完成的无力感。我们不能说设置目标这个行为本身有问题，可是设置目标这种事，其实是后来人为前人来做，设置的目标才会更显得合理，就像大人为小孩子进行引导，而不都让他们自主选择，否则小孩子没有自主判断的能力，容易误入歧途。但是，如果专注于自己成为什么样的人，选择的是一个大致的方向，而非一个具体的点，你迈的每一步，你都知道是有用的，并且不会因为目标过于不贴合实际而心累，这就大大提高了持续下去的动力。
+
+  
+2\. 把一个大的项目拆分成尽可能多的小项目，每个小项目都提升一点，最后综合到一起就是一个难以忽略的提升。网上有这样一个观点：每天提升 1 %，一年后你就可以提升 37 倍。这个观点乍一听好像没有什么问题，但仔细想想就会发现，这其实根本不符合实际情况。这是因为，人的进步，或者说知识的累积，其实是一个线性的过程，而非指数级增长。你今天在 10 分钟记住 10 个单词，一年后尽管你的单词量上升，但你的记忆能力一般而言不会有突飞猛进地增长。然而，把一个项目拆分成多个小项目，这每个小项目都提升 1 %——这是完全可以做到的。最经典如高考，每个科目都多错一道题，所有科目合起来就是十几大分，这分数很多时候甚至决定了你是否可以被心仪的大学录取。
+
+  
+3\. 让练习发生就好，不必刻意追求完美。某大学教授将他的两个摄影班分为了两个组，一个为完美组，期末只需交一张照片，根据这张照片的质量打分；另一个为数量组，根据最后提交的照片数量打分。出人意料的是，几乎所有的最优秀的作品，都来自数量组。我们常说，量变引起质变。虽然很多时候我们看起来自己做的是 bullsh\\\*t，但其实我们在不断练习的过程中，通过“重复”这个环节，不断地建立神经连接，将一些可以做出优质作品的动作变成自动的行为，为成为优秀提前铺好道路。
+
+我们养成习惯，再由习惯来培育我们。总而言之，原子习惯是一本不可多得的好书。以后有机会还会重温。 
+> ^392912636-7Sbp9JLHl
