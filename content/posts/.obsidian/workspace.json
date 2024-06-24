@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2024-06-24_Monday.md",
+                "file": "_Templates/dairy1.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024-06-24_Monday.md",
+                "file": "_Templates/dairy1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024-06-24_Monday.md",
+                "file": "_Templates/dairy1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2024-06-24_Monday.md"
+                "file": "_Templates/dairy1.md"
               }
             }
           },
@@ -246,11 +246,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "090e2b20e07875f7",
   "lastOpenFiles": [
+    "daily/2024-06-24_Monday.md",
+    "daily/2024-06-24_Monday1.md",
     "_Templates/dairy1.md",
     "_Templates/dairy.md",
-    "daily/2024-06-24_Monday.md",
     "daily/2024-5-10_Friday.md",
     "《Atomic Habits》读后感.md",
     "daily/2024-06-22_Saturday.md",
@@ -273,7 +274,6 @@
     "daily/2024-06-19_Wednesday.md",
     "daily/2024-06-18_Tuesday.md",
     "daily/2024-06-17_Monday.md",
-    "daily/2024-06-16_Sunday.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",
