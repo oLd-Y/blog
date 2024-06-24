@@ -126,8 +126,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -246,7 +245,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "090e2b20e07875f7",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
     "daily/2024-06-24_Monday.md",
     "《Atomic Habits》读后感.md",
