@@ -1,31 +1,38 @@
-baseurl: https://blog.linsnow.cn/
-languageCode: zh-cn
+baseurl: https://example.com
+languageCode: en-us
 theme: hugo-theme-stack
-paginate: 7
-title: L1nSn0w's Blog
-copyright: L1nSn0w
+paginate: 3
+title: Example Site
+copyright: Example Person
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
-DefaultContentLanguage: zh-cn
+DefaultContentLanguage: en
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
-hasCJKLanguage: true
+hasCJKLanguage: false
 
 languages:
-    zh-cn:
-        languageName: 中文
-        title: L1nSn0w's Blog
+    en:
+        languageName: English
+        title: Example Site
         weight: 1
         params:
-            description: 无限进步.✍️
-    # en:
-    #     languageName: Notes
-    #     title: L1nSn0w's Notes
-    #     weight: 2
-    #     params:
-    #         description: Infinite Progress.🖥️
+            description: Example description
+    zh-cn:
+        languageName: 中文
+        title: 演示站点
+        weight: 2
+        params:
+            description: 演示说明
+    ar:
+        languageName: عربي
+        languagedirection: rtl
+        title: موقع تجريبي
+        weight: 3
+        params:
+            description: وصف تجريبي
 
 services:
     # Change it to your Disqus shortname before using
@@ -44,24 +51,23 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: /img/favicon.ico # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+    favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
         since: 2020
-        customText: <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2023006542</a>
+        customText:
 
     dateFormat:
         published: Jan 02, 2006
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        compact: false
         emoji: 🍥
-        subtitle: 无限进步.✍️
+        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         avatar:
             enabled: true
-            local: false
-            src: /img/avatar.png
+            local: true
+            src: img/avatar.png
 
     article:
         math: false
@@ -73,8 +79,7 @@ params:
 
     comments:
         enabled: true
-        provider: waline
-
+        provider: disqus
 
         disqusjs:
             shortname:
@@ -109,21 +114,18 @@ params:
 
         # Waline client configuration see: https://waline.js.org/en/reference/component.html
         waline:
-            serverURL: https://comment.linsnow.cn
-            lang: zh-CN
-            pageview: true
-            search: false
-            copyright: false
+            serverURL:
+            lang:
+            pageview:
             emoji:
-                - /source/Sticker-100/
+                - https://unpkg.com/@waline/emojis@1.0.1/weibo
             requiredMeta:
                 - name
                 - email
+                - url
             locale:
-                admin: 👻屑博主
-                placeholder: 🎉留下你的脚印.
-            reaction: false
-
+                admin: Admin
+                placeholder:
 
         twikoo:
             envId:
@@ -163,7 +165,7 @@ params:
             - type: search
             - type: archives
               params:
-                  limit: 3
+                  limit: 5
             - type: categories
               params:
                   limit: 10
@@ -196,44 +198,29 @@ params:
 
     imageProcessing:
         cover:
-            enabled: false
+            enabled: true
         content:
-            enabled: false
+            enabled: true
 
 ### Custom menu
-### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
+### See https://stack.jimmycai.com/config/menu
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
     main: []
 
     social:
-        - identifier: rss
-          name: RSS
-          url: /index.xml
-          params:
-            newTab: true
-            icon: rss
-        
         - identifier: github
           name: GitHub
-          url: https://github.com/lin-snow
+          url: https://github.com/CaiJimmy/hugo-theme-stack
           params:
-            newTab: true
-            icon: brand-github
-            
-        - identifier: memos
-          name: Memos
-          url: https://memos.linsnow.cn
-          params:
-            newTab: true
-            icon: memos
+              icon: brand-github
 
-        - identifier: gallery
-          name: Gallery
-          url: https://gallery.linsnow.cn
+        - identifier: twitter
+          name: Twitter
+          url: https://twitter.com
           params:
-            newTab: true
-            icon: gallery
+              icon: brand-twitter
+
 related:
     includeNewer: true
     threshold: 60
@@ -259,6 +246,4 @@ markup:
         codeFences: true
         guessSyntax: true
         lineNoStart: 1
-        lineNos: false
-        lineNumbersInTable: true
-        tabWidth: 4
+——
