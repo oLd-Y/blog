@@ -13,10 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Templates/hugo.md",
+                "file": "obsidian publisher 文章模板.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "3b537fdba8979967",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "125e7fdd5d89a4a1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "狄德罗",
+                "query": "关键字1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Templates/hugo.md",
+                "file": "obsidian publisher 文章模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Templates/hugo.md",
+                "file": "obsidian publisher 文章模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Templates/hugo.md"
+                "file": "obsidian publisher 文章模板.md"
               }
             }
           },
@@ -182,48 +196,52 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-weread-plugin:同步微信读书笔记": false,
       "remotely-save:Remotely Save": false,
-      "periodic-notes:Open today": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "markdown-syntax/index.md",
+    "archlinux graphics.md",
+    "Chinese Test.md",
+    "windows 无法进入 wsl.md",
+    "content/post/test4/index.md",
+    "content/post/test/index.md",
+    "_Templates/hugo.md",
+    "content/post/test4",
+    "content/post/null/index.md",
+    "test3/index.md",
+    "test3",
+    "daily/2024-06-24_Monday.md",
+    "content/post/null",
+    "content/post/test",
+    "content/post",
+    "content",
+    "org-roam 节点.md",
+    "reading notes -《Atomatic Habits》.md",
+    "Ubuntu 22.04 更换镜像源.md",
+    "zsh 查看所有绑定的快捷键.md",
+    "古文观止 读书笔记.md",
+    "857. 雇佣 K 名工人的最低成本.md",
+    "linux-0.11 _set_gate 宏解释.md",
+    "弃用 emacs 转用 neovim 的原因.md",
+    "自然码辅助码表.md",
+    "chinese-test/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg",
+    "chinese-test/luca-bravo-alS7ewQ41M8-unsplash.jpg",
+    "chinese-test/helena-hertz-wWZzXlDpMog-unsplash.jpg",
+    "chinese-test/florian-klauer-nptLmg6jqDo-unsplash.jpg",
+    "chinese-test",
     "放弃折腾 vim 和 emacs.md",
     "123456/index.md",
-    "古文观止 读书笔记.md",
     "SD 关键词记录.md",
     "Ubuntu 默认终端设置.md",
     "哈工大操作系统实验4.md",
     "重装系统之后出现 git 出现 detected dubious ownership in repository .md",
     "设置默认的声音输出设备.md",
-    "自然码辅助码表.md",
-    "维生素采购和使用.md",
-    "线程.md",
-    "水木社区 emacs 教程.md",
-    "李治军操作系统总结.md",
-    "李治军操作系统-前置知识.md",
-    "弃用 emacs 转用 neovim 的原因.md",
-    "哈工大操作系统实验3.md",
-    "双系统卸载 Ubuntu.md",
-    "信号量.md",
-    "保护模式相关.md",
-    "《围城》读后感.md",
-    "《Atomic Habits》读后感.md",
-    "_index.md",
-    "zsh 查看所有绑定的快捷键.md",
-    "wsl（ubuntu）安装李治军操作系统环境依赖.md",
-    "wsl2 安装 gnome 桌面环境.md",
-    "wsl 网络问题.md",
     "123456",
-    "content/post/test",
-    "content/post",
-    "content",
     "_Templates/templater",
     "windows-下-emacs-卡顿可能原因",
-    "2024-5-10_Friday",
-    "test-blog",
-    "WeRead",
-    "test.html",
     "Pasted image 20240412163932.png",
     "Pasted image 20240412083715.png",
     "Pasted image 20240412083742.png"

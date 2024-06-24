@@ -182,26 +182,14 @@
     <loc>http://localhost:1313/p/2024-05-06_monday/</loc>
     <lastmod>2024-05-07T10:28:20+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/%E5%8F%A4%E6%96%87%E8%A7%82%E6%AD%A2-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2024-06-18T08:14:43+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/p/2024-05-02_thursday/</loc>
     <lastmod>2024-05-02T21:26:37+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/857.-%E9%9B%87%E4%BD%A3-k-%E5%90%8D%E5%B7%A5%E4%BA%BA%E7%9A%84%E6%9C%80%E4%BD%8E%E6%88%90%E6%9C%AC/</loc>
-    <lastmod>2024-05-02T10:35:34+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/p/%E6%94%BE%E5%BC%83%E6%8A%98%E8%85%BE-vim-%E5%92%8C-emacs/</loc>
     <lastmod>2024-05-02T19:17:48+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/p/2024-05-01_wednesday/</loc>
     <lastmod>2024-05-01T22:22:09+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/%E8%87%AA%E7%84%B6%E7%A0%81%E8%BE%85%E5%8A%A9%E7%A0%81%E8%A1%A8/</loc>
-    <lastmod>2024-05-01T10:18:02+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E8%BE%93%E5%85%A5%E6%B3%95/</loc>
-    <lastmod>2024-05-01T10:18:02+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/p/</loc>
     <lastmod>2024-04-29T22:36:23+08:00</lastmod>
@@ -318,6 +306,9 @@
     <loc>http://localhost:1313/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/p/markdown-syntax-guide/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/postbak/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
@@ -404,6 +395,8 @@
                 hreflang="en"
                 href="http://localhost:1313/about/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/p/</loc>
   </url><url>
     <loc>http://localhost:1313/links/</loc>
   </url><url>
