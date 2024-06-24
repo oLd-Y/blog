@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian publisher 文章模板.md",
+                "file": "_Templates/templater/new-blog.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian publisher 文章模板.md",
+                "file": "_Templates/templater/new-blog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian publisher 文章模板.md",
+                "file": "_Templates/templater/new-blog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian publisher 文章模板.md"
+                "file": "_Templates/templater/new-blog.md"
               }
             }
           },
@@ -200,8 +200,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "090e2b20e07875f7",
   "lastOpenFiles": [
+    "daily/2024-5-10_Friday.md",
+    "《围城》读后感/index.md",
+    "《围城》读后感",
+    "_Templates/templater/new-blog.md",
+    "content/post/《围城》读后感",
+    "content/post",
+    "content",
+    "_index.md",
+    "daily/2024-06-24_Monday.md",
+    "daily/2024-06-24_Monday.md",
+    "Ubuntu 默认终端设置.md",
+    "vim.md",
+    "Untitled.md",
+    "obsidian publisher 文章模板.md",
     "markdown-syntax/index.md",
     "archlinux graphics.md",
     "Chinese Test.md",
@@ -213,35 +227,20 @@
     "content/post/null/index.md",
     "test3/index.md",
     "test3",
-    "daily/2024-06-24_Monday.md",
     "content/post/null",
     "content/post/test",
-    "content/post",
-    "content",
     "org-roam 节点.md",
     "reading notes -《Atomatic Habits》.md",
     "Ubuntu 22.04 更换镜像源.md",
     "zsh 查看所有绑定的快捷键.md",
     "古文观止 读书笔记.md",
     "857. 雇佣 K 名工人的最低成本.md",
-    "linux-0.11 _set_gate 宏解释.md",
-    "弃用 emacs 转用 neovim 的原因.md",
-    "自然码辅助码表.md",
     "chinese-test/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg",
     "chinese-test/luca-bravo-alS7ewQ41M8-unsplash.jpg",
     "chinese-test/helena-hertz-wWZzXlDpMog-unsplash.jpg",
     "chinese-test/florian-klauer-nptLmg6jqDo-unsplash.jpg",
     "chinese-test",
-    "放弃折腾 vim 和 emacs.md",
-    "123456/index.md",
-    "SD 关键词记录.md",
-    "Ubuntu 默认终端设置.md",
-    "哈工大操作系统实验4.md",
-    "重装系统之后出现 git 出现 detected dubious ownership in repository .md",
-    "设置默认的声音输出设备.md",
     "123456",
-    "_Templates/templater",
-    "windows-下-emacs-卡顿可能原因",
     "Pasted image 20240412163932.png",
     "Pasted image 20240412083715.png",
     "Pasted image 20240412083742.png"
