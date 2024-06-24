@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2024-5-10_Friday.md",
+                "file": "_Templates/dairy.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024-5-10_Friday.md",
+                "file": "_Templates/dairy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024-5-10_Friday.md",
+                "file": "_Templates/dairy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2024-5-10_Friday.md"
+                "file": "_Templates/dairy.md"
               }
             }
           },
@@ -245,13 +245,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "090e2b20e07875f7",
   "lastOpenFiles": [
     "daily/2024-06-24_Monday.md",
+    "_Templates/dairy.md",
+    "_Templates/dairy 1.md",
+    "daily/2024-5-10_Friday.md",
     "《Atomic Habits》读后感.md",
     "daily/2024-06-22_Saturday.md",
     "daily/2024-06-23_Sunday.md",
-    "daily/2024-5-10_Friday.md",
     "reading notes -《Atomatic Habits》.md",
     "WeRead/Atomic Habits.md",
     "daily/2024-04-30_Tuesday.md",
@@ -267,12 +269,10 @@
     "WeRead/围城.md",
     "daily/2024-06-20_Thursday.md",
     "_Templates/hugo.md",
-    "_Templates/dairy.md",
     "daily/2024-06-19_Wednesday.md",
     "daily/2024-06-18_Tuesday.md",
     "daily/2024-06-17_Monday.md",
     "daily/2024-06-16_Sunday.md",
-    "daily/2024-06-15_Saturday.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",
