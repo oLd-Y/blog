@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "放弃折腾 vim 和 emacs.md",
+                "file": "_Templates/hugo.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "放弃折腾 vim 和 emacs.md",
+                "file": "_Templates/hugo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "放弃折腾 vim 和 emacs.md",
+                "file": "_Templates/hugo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "放弃折腾 vim 和 emacs.md"
+                "file": "_Templates/hugo.md"
               }
             }
           },
@@ -188,6 +188,8 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "放弃折腾 vim 和 emacs.md",
+    "123456/index.md",
     "古文观止 读书笔记.md",
     "SD 关键词记录.md",
     "Ubuntu 默认终端设置.md",
@@ -200,7 +202,6 @@
     "水木社区 emacs 教程.md",
     "李治军操作系统总结.md",
     "李治军操作系统-前置知识.md",
-    "放弃折腾 vim 和 emacs.md",
     "弃用 emacs 转用 neovim 的原因.md",
     "哈工大操作系统实验3.md",
     "双系统卸载 Ubuntu.md",
@@ -213,7 +214,6 @@
     "wsl（ubuntu）安装李治军操作系统环境依赖.md",
     "wsl2 安装 gnome 桌面环境.md",
     "wsl 网络问题.md",
-    "WSL 安装.md",
     "123456",
     "content/post/test",
     "content/post",
