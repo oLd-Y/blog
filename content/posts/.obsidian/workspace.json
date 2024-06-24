@@ -11,8 +11,12 @@
             "id": "090e2b20e07875f7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "古文观止 读书笔记.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "古文观止 读书笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "古文观止 读书笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "古文观止 读书笔记.md"
+              }
             }
           },
           {
@@ -178,8 +186,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "090e2b20e07875f7",
   "lastOpenFiles": [
+    "SD 关键词记录.md",
+    "Ubuntu 默认终端设置.md",
+    "哈工大操作系统实验4.md",
     "重装系统之后出现 git 出现 detected dubious ownership in repository .md",
     "设置默认的声音输出设备.md",
     "自然码辅助码表.md",
@@ -190,7 +201,6 @@
     "李治军操作系统-前置知识.md",
     "放弃折腾 vim 和 emacs.md",
     "弃用 emacs 转用 neovim 的原因.md",
-    "哈工大操作系统实验4.md",
     "哈工大操作系统实验3.md",
     "古文观止 读书笔记.md",
     "双系统卸载 Ubuntu.md",
@@ -204,8 +214,6 @@
     "wsl2 安装 gnome 桌面环境.md",
     "wsl 网络问题.md",
     "WSL 安装.md",
-    "Windows 自动推送 git 脚本.md",
-    "Windows 显卡硬件加速.md",
     "123456",
     "content/post/test",
     "content/post",
