@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2024-06-24_Monday.md",
+                "file": "vim.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WeRead/飞鸟集.md",
+                "file": "daily/2024-5-10_Friday.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,7 +79,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "craving",
+                "query": "dia",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -125,7 +126,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -145,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024-06-24_Monday.md",
+                "file": "daily/2024-5-10_Friday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024-06-24_Monday.md",
+                "file": "daily/2024-5-10_Friday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2024-06-24_Monday.md"
+                "file": "daily/2024-5-10_Friday.md"
               }
             }
           },
@@ -244,21 +246,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "090e2b20e07875f7",
   "lastOpenFiles": [
-    "daily/2024-06-23_Sunday.md",
     "daily/2024-06-24_Monday.md",
-    "WeRead/飞鸟集.md",
+    "daily/2024-06-23_Sunday.md",
+    "daily/2024-06-22_Saturday.md",
+    "《atomic habits》读后感.md",
+    "reading notes -《Atomatic Habits》.md",
     "WeRead/Atomic Habits.md",
+    "daily/2024-04-30_Tuesday.md",
+    "WeRead/飞鸟集.md",
+    "vim.md",
     "WeRead/津巴多普通心理学（第8版）.md",
     "WeRead/红楼梦.md",
     "《围城》读后感.md",
-    "《automic habits》读后感.md",
     "线程.md",
     "vim command mode.md",
-    "vim.md",
     "信号量.md",
-    "daily/2024-06-22_Saturday.md",
     "daily/2024-06-21_Friday.md",
     "WeRead/围城.md",
     "daily/2024-06-20_Thursday.md",
@@ -270,8 +274,6 @@
     "daily/2024-06-16_Sunday.md",
     "daily/2024-06-15_Saturday.md",
     "daily/2024-06-11_Tuesday.md",
-    "daily/2024-06-07_Friday.md",
-    "daily/2024-06-06_Thursday.md",
     "windows-下-emacs-卡顿可能原因",
     "2024-5-10_Friday",
     "test-blog",

@@ -2,8 +2,8 @@
 directory: 
 tags:
   - vim
-draft: false
-lastmod: 2024-06-23T13:02:01+08:00
+draft: true
+lastmod: 2024-06-24T11:49:19+08:00
 title: vim
 date: 2024-06-23
 ---

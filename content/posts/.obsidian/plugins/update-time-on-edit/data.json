@@ -33,7 +33,6 @@
     "_Templates/hugo.md": "f151956a273b1a0f3677df9b279ab26bc0fd0857c32d26f1e39fd97e71977e1a",
     "daily/2024-04-22.md": "48b6ba1be9bdbe6243f37d47dab496c91bde7110eea219f6a0cde06b5ada7319",
     "obsidian publisher 文章模板.md": "cd4416251734f4e82dbbccef5f1cba4a05482bb3e174d555fb7e6ef9ea3f63c6",
-    "reading notes -《Automatic Habits》.md": "b5357882df97160645209a37b618aa2be5df0c52f972b4989a332f65f35e8815",
     "vscode vim 快捷键.md": "40432f057ea85b5728edfaeda1fd76c06256e4f521132b88a1077aab5f23d645",
     "双系统卸载 Ubuntu.md": "7977ae97328acab1422feb3ab2ea881caab10a505bf611b77a925c3d7e4fc8ae",
     "维生素采购和使用.md": "eae2b512eeb2064c22ba6bfb40d18aae79aee59dd9b726182ff85ef3bea33d42",
@@ -42,7 +41,7 @@
     "Hugo 渲染 Latex.md": "6ff91d29c4efc744eef231ed5c30a0b38b1c79269f15cc8b6be281573e081f8a",
     "daily/2024-04-29_Monday.md": "a35ac6587a2fed8c218543d24195eeda4ea360fcd4f634d5b251faa75cfde2fd",
     "WeRead/傲慢与偏见（上）英文版.md": "727f00af71252387763f4b3eead7ec9fc85e81b13b3933499544b1e8784357ba",
-    "daily/2024-04-30_Tuesday.md": "d0e03c36a275643401b8ac1f33f43282c1e52f3725fa9f112af8bf242151e0a3",
+    "daily/2024-04-30_Tuesday.md": "1ae8e81c1a7c142925188457ddf1402c08159632733b2854389c532094775147",
     "windows 使用 auto hotkey 模拟 emacs 快捷键.md": "17a7010edf96b098dc777b8f299706cf148c0bd34d90c881247e52ff4d41144c",
     "WeRead/Atomic Habits.md": "e4e6d7e1cf9b0437f9d72ba1eac5f1c5b7fa71a54e8f742d22c3085993d1b439",
     "自然码辅助码表.md": "a552ef541296f7cd0e93d5816c8d796d05c252498505d19f8d504b7313a5c320",
@@ -91,10 +90,12 @@
     "daily/2024-06-21_Friday.md": "6b387413325d596a9915ca2fb4bff5c7f1c20c0a5ed3811f190b16ffd66853f6",
     "《围城》读后感.md": "972dd201c92a2a6de13302d3a3f5b15ae645311078500cc339d1cb9926c6b3be",
     "daily/2024-06-22_Saturday.md": "f2fcdf38f14382b466f3967cd709e226bcba795d3e480d733ab2b7f5a342fd53",
-    "daily/2024-06-23_Sunday.md": "59be4ce03914cc0344793ccbaa17670922fc6dc1cbf0455fc996838b3fb1326c",
-    "vim.md": "76c680ecabf0b2a5e7a7b86be26031b6281266e22592a7e5a1a8ed72b9d52ff9",
+    "daily/2024-06-23_Sunday.md": "6969d26d34b5013b21681993a537bd1bff05b7d38cf4e2b61a71e76e782ee6c2",
+    "vim.md": "523be80b34121a7552cee67a03b76a739dc2b2f764c6b000f7866335d5674ada",
     "vim command mode.md": "2ea8d6209aabbc1639360086562ef33c915229abc832ea7c6a788d42d0dac142",
-    "《automic habits》读后感.md": "210e8b52649584705bb8a4525dfedc01a414d072c89e34104aa2829e28641df7",
-    "daily/2024-06-24_Monday.md": "b913f0f0c4356b8229c1543264dea0c2147f00a39e7fdc90fa1a5fa27be94f2a"
+    "daily/2024-06-24_Monday.md": "6bb8dc3e51e9aae6c50efb2f8f825938638322aca643d95630fa94233fadd429",
+    "reading notes -《Atomatic Habits》.md": "b5357882df97160645209a37b618aa2be5df0c52f972b4989a332f65f35e8815",
+    "《atomic habits》读后感.md": "6a61d6c5f7d001da087bedd3ac468e19dd2c57ac3f25100454f1db63b4b2a960",
+    "daily/2024-5-10_Friday.md": "9d8ab4783fede83956953e4fbc10342f7d430db32ed41e3f40da9e89a3a3938d"
   }
 }

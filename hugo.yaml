@@ -1,5 +1,5 @@
 baseURL: "https://examplesite.com/"
-title: 谷丽杳的博客
+title: 谷栗杳的博客
 paginate: 5
 theme: PaperMod
 
@@ -17,10 +17,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: 谷栗杳的博客
+  description: "分享我的所思所想"
   keywords: [Blog, Portfolio, PaperMod]
-  author: 谷丽杳
+  author: 谷栗杳
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -120,16 +120,16 @@ params:
     hiddenInSingle: true # hide on single page
     linkFullImages: true
 
-  editPost:
-    URL: "https://github.com/oLd-Y/blog/content"
-    Text: "修改建议" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #   URL: "https://github.com/oLd-Y/blog/content"
+  #   Text: "修改建议" # edit text
+  #   appendFilePath: true # to append file path to Edit link
 
 
 menu:
   main:
     - identifier: categories
-      name: 菜单
+      name: 分类
       url: /categories/
       weight: 10
     - identifier: tags

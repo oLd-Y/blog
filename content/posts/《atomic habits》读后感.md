@@ -1,10 +1,10 @@
 ---
-directory: 
+directory: 读书笔记
 tags:
   - 读后感
 draft: false
-lastmod: 2024-06-24T10:28:48+08:00
-title: 《automic habits》读后感
+lastmod: 2024-06-24T11:56:24+08:00
+title: 《atomic habits》读后感
 date: 2024-06-24
 ---
 原子习惯这本书，主要讲述了如何养成一个好习惯，以及如何改掉一个坏习惯。
