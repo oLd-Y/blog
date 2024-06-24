@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/test/index.md",
+                "file": "_Templates/templater/dairy1.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/test/index.md",
+                "file": "_Templates/templater/dairy1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/test/index.md",
+                "file": "_Templates/templater/dairy1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/test/index.md"
+                "file": "_Templates/templater/dairy1.md"
               }
             }
           },
@@ -249,6 +249,7 @@
   },
   "active": "090e2b20e07875f7",
   "lastOpenFiles": [
+    "content/post/test/index.md",
     "content/post/test",
     "content/post",
     "content",
@@ -256,7 +257,6 @@
     "daily/2024-06-24_Monday.md",
     "_Templates/templater",
     "daily/2024-06-24_Monday1.md",
-    "content/post/test/index.md",
     "daily/2024-5-10_Friday.md",
     "《Atomic Habits》读后感.md",
     "daily/2024-06-22_Saturday.md",
@@ -284,7 +284,6 @@
     "WeRead",
     "test.html",
     "weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
-    "weread/谁动了我的奶酪",
     "Pasted image 20240412163932.png",
     "Pasted image 20240412083715.png",
     "Pasted image 20240412083742.png"
