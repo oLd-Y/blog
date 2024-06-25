@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test4/index.md",
+                "file": "_Templates/templater/new-blog.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test4/index.md",
+                "file": "_Templates/templater/new-blog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test4/index.md",
+                "file": "_Templates/templater/new-blog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test4/index.md"
+                "file": "_Templates/templater/new-blog.md"
               }
             }
           },
@@ -200,8 +200,8 @@
   },
   "active": "2e16088cab0c4d4b",
   "lastOpenFiles": [
-    "test4/cover.jpg",
     "test4/index.md",
+    "test4/cover.jpg",
     "test4",
     "_Templates/templater/new-blog.md",
     "wsl 网络问题.md",
