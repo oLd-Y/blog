@@ -5,7 +5,7 @@
   "daily": {
     "format": "YYYY-MM-DD_dddd",
     "folder": "/daily/",
-    "template": "_Templates/dairy1",
+    "template": "_Templates/dairy",
     "enabled": true
   },
   "weekly": {

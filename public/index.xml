@@ -7,13 +7,13 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Tue, 25 Jun 2024 09:51:44 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>test6</title>
-        <link>http://localhost:1313/p/test6/</link>
-        <pubDate>Tue, 25 Jun 2024 09:51:44 +0800</pubDate>
+        <lastBuildDate>Tue, 25 Jun 2024 10:08:08 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>test3</title>
+        <link>http://localhost:1313/p/test3/</link>
+        <pubDate>Tue, 25 Jun 2024 10:08:08 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/test6/</guid>
-        <description>&lt;img src="http://localhost:1313/test6/image.jpg" alt="Featured image of post test6" /&gt;&lt;table&gt;
+        <guid>http://localhost:1313/p/test3/</guid>
+        <description>&lt;img src="http://localhost:1313/p/test3/cover.jpg" alt="Featured image of post test3" /&gt;&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;种类&lt;/th&gt;
@@ -3774,7 +3774,7 @@ let title = titleName&lt;/p&gt;
 &lt;p&gt;// 获取 Obsidian 根 vault 路径
 let vaultPath = app.vault.adapter.basePath;&lt;/p&gt;
 &lt;p&gt;// 构建封面保存路径
-let imagePath = &lt;code&gt;${vaultPath}/${newFolder}/cover.jpg&lt;/code&gt;;&lt;/p&gt;
+let imagePath = &lt;code&gt;${vaultPath}/${newFolder}&lt;/code&gt; + &lt;code&gt;cover.jpg&lt;/code&gt;;&lt;/p&gt;
 &lt;p&gt;// 创建目录（如果不存在）
 const fs = require(&amp;lsquo;fs&amp;rsquo;);
 const dirs = imagePath.substring(0, imagePath.lastIndexOf(&amp;rsquo;/&amp;rsquo;));&lt;/p&gt;
@@ -3787,7 +3787,7 @@ await tp.user.download_image(&amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;htt
 &lt;p&gt;let description = &amp;quot;&amp;rdquo;
 let slug = &amp;quot;&amp;quot;
 let date = &amp;quot;&amp;quot;
-let image = &lt;code&gt;${newFolder}/cover.jpg&lt;/code&gt;
+let image = &amp;ldquo;cover.jpg&amp;rdquo;
 let categories = &amp;quot;&amp;quot;
 let tags = &amp;quot;&amp;quot;
 let weight = &amp;quot;&amp;quot;&lt;/p&gt;

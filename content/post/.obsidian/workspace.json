@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test6/index.md",
+                "file": "test3/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Templates/templater/new-blog.md",
+                "file": "重装系统之后出现 git 出现 detected dubious ownership in repository .md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "关键字1",
+                "query": "dubious",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test6/index.md",
+                "file": "重装系统之后出现 git 出现 detected dubious ownership in repository .md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test6/index.md",
+                "file": "重装系统之后出现 git 出现 detected dubious ownership in repository .md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test6/index.md"
+                "file": "重装系统之后出现 git 出现 detected dubious ownership in repository .md"
               }
             }
           },
@@ -195,27 +196,28 @@
       "obsidian-weread-plugin:同步微信读书笔记": false,
       "remotely-save:Remotely Save": false,
       "templater-obsidian:Templater": false,
-      "periodic-notes:Open today": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
+      "periodic-notes:Open today": false
     }
   },
-  "active": "090e2b20e07875f7",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
     "_Templates/templater/new-blog.md",
-    "test6/index.md",
     "test3/index.md",
+    "test3/cover.jpg",
+    "test3",
+    "test1/cover.jpg",
+    "test2/cover.jpg",
+    "test2",
+    "test1",
     "test6/image.jpg",
     "test6",
     "daily/2024-5-10_Friday.md",
     "test5",
     "test4",
     "null",
-    "test3",
-    "test2",
     "content/post/test2",
     "content/post",
     "content",
-    "test",
     "Untitled.md",
     "_Templates/Scripts/Untitled.md",
     "_Templates/templater/index.md",
@@ -242,7 +244,6 @@
     "chinese-test/helena-hertz-wWZzXlDpMog-unsplash.jpg",
     "chinese-test/florian-klauer-nptLmg6jqDo-unsplash.jpg",
     "Pasted image 20240412163932.png",
-    "Pasted image 20240412083715.png",
-    "Pasted image 20240412083742.png"
+    "Pasted image 20240412083715.png"
   ]
 }

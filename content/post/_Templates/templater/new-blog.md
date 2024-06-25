@@ -11,7 +11,7 @@ let title = titleName
 let vaultPath = app.vault.adapter.basePath;
 
 // 构建封面保存路径
-let imagePath = `${vaultPath}/${newFolder}/cover.jpg`;
+let imagePath = `${vaultPath}/${newFolder}` + `cover.jpg`;
 
 // 创建目录（如果不存在）
 const fs = require('fs');
@@ -27,7 +27,7 @@ await tp.user.download_image("http://api.mtyqx.cn/api/random.php", imagePath);
 let description = ""
 let slug = ""
 let date = ""
-let image = `${newFolder}/cover.jpg`
+let image = "cover.jpg"
 let categories = ""
 let tags = ""
 let weight = ""
