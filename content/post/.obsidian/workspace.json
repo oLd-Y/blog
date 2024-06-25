@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hugo + stack + obsidian 搭建博客/index.md",
+                "file": "_templates/templater/convert-blog.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "140 字（可选）",
+                "query": "qcFileName ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hugo + stack + obsidian 搭建博客/index.md",
+                "file": "_templates/templater/convert-blog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hugo + stack + obsidian 搭建博客/index.md",
+                "file": "_templates/templater/convert-blog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hugo + stack + obsidian 搭建博客/index.md"
+                "file": "_templates/templater/convert-blog.md"
               }
             }
           },
@@ -187,10 +187,10 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "hugo + stack + obsidian 搭建博客/cover.jpg",
-    "hugo + stack + obsidian 搭建博客/index.md",
-    "zsh 查看所有绑定的快捷键.md",
     "windows 11 蓝牙无法搜索到设备的原因 .md",
+    "hugo + stack + obsidian 搭建博客/index.md",
+    "hugo + stack + obsidian 搭建博客/cover.jpg",
+    "zsh 查看所有绑定的快捷键.md",
     "ox-hugo 结合 org-download 粘贴图片.md",
     "ox-hugo 自动生成模板代码解析.md",
     "ox-hugo org-template 理解.md",
