@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_templates/templater/convert-blog.md",
+                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "53729d9e7e91e96e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hugo + stack + obsidian 搭建博客/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_templates/templater/convert-blog.md",
+                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_templates/templater/convert-blog.md",
+                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_templates/templater/convert-blog.md"
+                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md"
               }
             }
           },
@@ -187,8 +199,17 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "windows 11 蓝牙无法搜索到设备的原因 .md",
+    "lsp-bridge 安装过程问题汇总.md",
+    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
     "hugo + stack + obsidian 搭建博客/index.md",
+    "_templates/templater/new-blog.md",
+    "menu.scss/cover.jpg",
+    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/cover.jpg",
+    "menu.scss/index.md",
+    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识",
+    "_templates/templater/convert-blog.md",
+    "menu.scss",
+    "windows 11 蓝牙无法搜索到设备的原因 .md",
     "hugo + stack + obsidian 搭建博客/cover.jpg",
     "zsh 查看所有绑定的快捷键.md",
     "ox-hugo 结合 org-download 粘贴图片.md",
@@ -196,7 +217,6 @@
     "ox-hugo org-template 理解.md",
     "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",
     "Ubuntu 22.04 更换镜像源.md",
-    "_templates/templater/new-blog.md",
     "保护模式相关.md",
     "hugo + stack + obsidian 搭建博客",
     "Atomic Habits 读后感/cover.jpg",
@@ -212,25 +232,18 @@
     "null/index.md",
     "Atomic Habits 读后感",
     "null",
-    "_templates/templater/convert-blog.md",
     "testsss/index.md",
     "testsss/cover.jpg",
     "testsss",
     "test444.md",
-    "content/post/null/index.md",
     "content/post/null/cover.jpg",
     "content/post/null",
-    "_templates/hugo.md",
     "content/post/test444/cover.jpg",
     "content/post/test4/cover.jpg",
     "content/post/test444",
     "content/post/test4",
     "content/post",
-    "content",
     "content/post/testsss/cover.jpg",
-    "content/post/testsss",
-    "content/post/test212/cover.jpg",
-    "content/post/test11111/cover.jpg",
-    "content/post/test222/cover.jpg"
+    "content/post/test212/cover.jpg"
   ]
 }

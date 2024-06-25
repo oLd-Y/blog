@@ -10,7 +10,7 @@
 <meta property='og:description' content="_set_gate，用于设置中断门或陷阱门（gate）在全局描述符表（GDT）或中断描述符表（IDT）中的入口。这段代码利用内嵌汇编实现了对描述符表入口的初始化。 1 2 3 4 5 6 7 8 9 10 #define _set_gate(gate_addr,type,dpl,addr) \\ __asm__ (&#34;movw %%dx,%%ax\\n\\t&#34; \\ &#34;movw %0,%%dx\\n\\t&#34; \\ &#34;movl %%eax,%1\\n\\t&#34; \\ &#34;movl %%edx,%2&#34; \\ : \\ : &#34;i&#34; ((short) (0x8000+(dpl&lt;&lt;13)+(type&lt;&lt;8))), \\ &#34;o&#34; (*((char *) (gate_addr))), \\ &#34;o&#34; (*(4+(char *) (gate_addr))), \\ &#34;d&#34; ((char *) (addr)),&#34;a&#34; (0x00080000)) #define _set_gate(gate_addr,type,dpl,addr): 定义一个宏 _set_gate，它接受四个参数： gate_addr：门描述符的地址。 type：描述符类型。 dpl：描述符特权级（Descriptor Privilege Level）。 addr：门处理程序的地址。 __asm__：内嵌汇编开始。 &quot;movw %%dx,%%ax\\n\\t&quot;：将寄存器 dx 的低16位复制到寄存器 ax。 &quot;movw %0,%%dx\\n\\t&quot;：将第一个输入操作数 %0 的值复制到寄存器 dx。">
 <meta property='og:url' content='http://localhost:1313/p/linux-0.11-_set_gate-%E5%AE%8F%E8%A7%A3%E9%87%8A/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-06-13T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-06-18T08:15:33&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-06-13T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-06-25T11:23:40&#43;08:00'/>
 <meta name="twitter:title" content="linux-0.11 _set_gate 宏解释">
 <meta name="twitter:description" content="_set_gate，用于设置中断门或陷阱门（gate）在全局描述符表（GDT）或中断描述符表（IDT）中的入口。这段代码利用内嵌汇编实现了对描述符表入口的初始化。 1 2 3 4 5 6 7 8 9 10 #define _set_gate(gate_addr,type,dpl,addr) \\ __asm__ (&#34;movw %%dx,%%ax\\n\\t&#34; \\ &#34;movw %0,%%dx\\n\\t&#34; \\ &#34;movl %%eax,%1\\n\\t&#34; \\ &#34;movl %%edx,%2&#34; \\ : \\ : &#34;i&#34; ((short) (0x8000+(dpl&lt;&lt;13)+(type&lt;&lt;8))), \\ &#34;o&#34; (*((char *) (gate_addr))), \\ &#34;o&#34; (*(4+(char *) (gate_addr))), \\ &#34;d&#34; ((char *) (addr)),&#34;a&#34; (0x00080000)) #define _set_gate(gate_addr,type,dpl,addr): 定义一个宏 _set_gate，它接受四个参数： gate_addr：门描述符的地址。 type：描述符类型。 dpl：描述符特权级（Descriptor Privilege Level）。 addr：门处理程序的地址。 __asm__：内嵌汇编开始。 &quot;movw %%dx,%%ax\\n\\t&quot;：将寄存器 dx 的低16位复制到寄存器 ax。 &quot;movw %0,%%dx\\n\\t&quot;：将第一个输入操作数 %0 的值复制到寄存器 dx。">
   
@@ -438,7 +438,7 @@
 
 
         <span>
-            Last updated on Jun 18, 2024 08:15 CST
+            Last updated on Jun 25, 2024 11:23 CST
         </span>
     </section></footer>
 

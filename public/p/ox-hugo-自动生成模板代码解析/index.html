@@ -10,7 +10,7 @@
 <meta property='og:description' content="ox-hugo 单文件组织博客的教程中有这样一段代码(手动改造增加了一个 :ID: 属性): 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 (defun org-hugo-new-subtree-post-capture-template () &#34;Returns `org-capture&#39; template string for new Hugo post. See `org-capture-templates&#39; for more information.&#34; (let* ((title (read-from-minibuffer &#34;Post Title: &#34;)) ;Prompt to enter the post title (fname (org-hugo-slug title)) (id (org-id-new))) ;Generate a new ID without a prefix (mapconcat #&#39;identity `( ,(concat &#34;* TODO &#34; title) &#34;:PROPERTIES:&#34; ,(concat &#34;:EXPORT_HUGO_BUNDLE: &#34; fname) &#34;:EXPORT_FILE_NAME: index&#34; ,(concat &#34;:ID: &#34; id) ;Add the ID property &#34;:END:&#34; &#34;%?">
 <meta property='og:url' content='http://localhost:1313/p/ox-hugo-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%A8%A1%E6%9D%BF%E4%BB%A3%E7%A0%81%E8%A7%A3%E6%9E%90/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-04-28T13:26:10&#43;08:00'/><meta property='article:modified_time' content='2024-04-28T13:26:10&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-06-25T16:38:55&#43;08:00'/><meta property='article:modified_time' content='2024-06-25T16:38:55&#43;08:00'/>
 <meta name="twitter:title" content="ox-hugo 自动生成模板代码解析">
 <meta name="twitter:description" content="ox-hugo 单文件组织博客的教程中有这样一段代码(手动改造增加了一个 :ID: 属性): 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 (defun org-hugo-new-subtree-post-capture-template () &#34;Returns `org-capture&#39; template string for new Hugo post. See `org-capture-templates&#39; for more information.&#34; (let* ((title (read-from-minibuffer &#34;Post Title: &#34;)) ;Prompt to enter the post title (fname (org-hugo-slug title)) (id (org-id-new))) ;Generate a new ID without a prefix (mapconcat #&#39;identity `( ,(concat &#34;* TODO &#34; title) &#34;:PROPERTIES:&#34; ,(concat &#34;:EXPORT_HUGO_BUNDLE: &#34; fname) &#34;:EXPORT_FILE_NAME: index&#34; ,(concat &#34;:ID: &#34; id) ;Add the ID property &#34;:END:&#34; &#34;%?">
   
@@ -304,7 +304,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Apr 28, 2024</time>
+                <time class="article-time--published">Jun 25, 2024</time>
             </div>
         
 

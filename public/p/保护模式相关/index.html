@@ -10,7 +10,7 @@
 <meta property='og:description' content="系统调用过程 系统调用是用户空间程序与内核通信的一种机制。用户空间程序通过软中断 (software interrupt) int 0x80 进入内核，eax 寄存器中包含系统调用号，其他寄存器 (ebx, ecx, edx 等) 中包含系统调用参数。内核接收到系统调用后，进行一系列处理，最终调用对应的系统调用处理函数。 段寄存器和选择子 选择子 (Selector): 用于选择段描述符。每个段描述符包含段基地址、段限长和段属性。 段寄存器 (Segment Registers): cs, ds, es, fs, gs, ss，用于指向不同的段。 ds: 数据段寄存器，指向当前数据段。 es: 额外段寄存器，通常用于字符串操作。 fs 和 gs: 一般用于指向特殊数据段，如线程本地存储 (TLS)。 cs: 代码段寄存器，指向当前执行代码段。 ss: 堆栈段寄存器，指向当前堆栈段。 % 符号用于标识寄存器 数据寄存器（General Purpose Registers） 数据寄存器用于存储数据或操作数，常见的通用寄存器包括 ax, bx, cx, dx 等。这些寄存器可以用于各种运算、数据传输和地址计算。 dx: 全称是 Data Register（数据寄存器）。 可以被分为高位和低位部分，即 dh（高字节）和 dl（低字节）。 作为一个 32 位寄存器时，它被称为 edx，可以存储 32 位数据。e，extended。 用途广泛，包括 I/O 操作、乘法和除法操作中的数据存储等。 段寄存器（Segment Registers） 段寄存器用于存储内存段的基地址。x86 架构使用分段内存模型，通过段寄存器和偏移地址来访问内存。">
 <meta property='og:url' content='http://localhost:1313/p/%E4%BF%9D%E6%8A%A4%E6%A8%A1%E5%BC%8F%E7%9B%B8%E5%85%B3/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-06-12T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-06-13T16:04:06&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-06-12T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-06-25T11:25:12&#43;08:00'/>
 <meta name="twitter:title" content="保护模式相关">
 <meta name="twitter:description" content="系统调用过程 系统调用是用户空间程序与内核通信的一种机制。用户空间程序通过软中断 (software interrupt) int 0x80 进入内核，eax 寄存器中包含系统调用号，其他寄存器 (ebx, ecx, edx 等) 中包含系统调用参数。内核接收到系统调用后，进行一系列处理，最终调用对应的系统调用处理函数。 段寄存器和选择子 选择子 (Selector): 用于选择段描述符。每个段描述符包含段基地址、段限长和段属性。 段寄存器 (Segment Registers): cs, ds, es, fs, gs, ss，用于指向不同的段。 ds: 数据段寄存器，指向当前数据段。 es: 额外段寄存器，通常用于字符串操作。 fs 和 gs: 一般用于指向特殊数据段，如线程本地存储 (TLS)。 cs: 代码段寄存器，指向当前执行代码段。 ss: 堆栈段寄存器，指向当前堆栈段。 % 符号用于标识寄存器 数据寄存器（General Purpose Registers） 数据寄存器用于存储数据或操作数，常见的通用寄存器包括 ax, bx, cx, dx 等。这些寄存器可以用于各种运算、数据传输和地址计算。 dx: 全称是 Data Register（数据寄存器）。 可以被分为高位和低位部分，即 dh（高字节）和 dl（低字节）。 作为一个 32 位寄存器时，它被称为 edx，可以存储 32 位数据。e，extended。 用途广泛，包括 I/O 操作、乘法和除法操作中的数据存储等。 段寄存器（Segment Registers） 段寄存器用于存储内存段的基地址。x86 架构使用分段内存模型，通过段寄存器和偏移地址来访问内存。">
   
@@ -448,7 +448,7 @@
 
 
         <span>
-            Last updated on Jun 13, 2024 16:04 CST
+            Last updated on Jun 25, 2024 11:25 CST
         </span>
     </section></footer>
 

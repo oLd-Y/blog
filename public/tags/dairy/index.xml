@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Mon, 24 Jun 2024 23:43:30 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/dairy/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 25 Jun 2024 10:58:27 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/dairy/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>2024-5-10_Friday</title>
         <link>http://localhost:1313/p/2024-5-10_friday/</link>
-        <pubDate>Mon, 24 Jun 2024 23:43:30 +0800</pubDate>
+        <pubDate>Tue, 25 Jun 2024 10:58:27 +0800</pubDate>
         
         <guid>http://localhost:1313/p/2024-5-10_friday/</guid>
         <description>&lt;img src="http://api.mtyqx.cn/api/random.php" alt="Featured image of post 2024-5-10_Friday" /&gt;&lt;p&gt;每个人的行为都容易陷入狄德罗效应：会由一个行为的结果引发另一个行为，进而引螺旋式的行为连锁反应。You often decide what to do next based on what you have just finished doing.&lt;/p&gt;
@@ -205,6 +205,16 @@
 创造完成之后：史。
 但不论如何，创造出的这个东西，它都是属于你的。&lt;/p&gt;
 &lt;p&gt;失败是成功的唯一捷径。不经历失败，就没办法知道哪些地方有坑，无法从中吸取教训。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>重装系统之后出现 git 出现 detected dubious ownership in repository </title>
+        <link>http://localhost:1313/p/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E4%B9%8B%E5%90%8E%E5%87%BA%E7%8E%B0-git-%E5%87%BA%E7%8E%B0-detected-dubious-ownership-in-repository/</link>
+        <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E4%B9%8B%E5%90%8E%E5%87%BA%E7%8E%B0-git-%E5%87%BA%E7%8E%B0-detected-dubious-ownership-in-repository/</guid>
+        <description>&lt;p&gt;对出错的文件夹进行如下操作：
+右击 =》属性 =》安全 =》高级 =》更改 =》高级 =》立即查找 =》找到当前登录用户 =》确定 =》确定 =》勾上“替换子容器和对象的所有者”和“使用可从此对象继承的权限项目替换所有子对象的权限项目（P）” =》确定 =》是（Y）。&lt;/p&gt;
 </description>
         </item>
         <item>
