@@ -1,8 +1,8 @@
 ---
 tags:
   - wsl
-draft: false
-lastmod: 2024-06-19T14:25:55+08:00
+draft: true
+lastmod: 2024-06-25T16:17:54+08:00
 title: wsl 网络问题
 date: 2024-06-18
 ---

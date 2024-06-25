@@ -1,8 +1,8 @@
 ---
 tags:
   - Ubuntu
-draft: false
-lastmod: 2024-05-13T10:03:12+08:00
+draft: true
+lastmod: 2024-06-25T16:39:34+08:00
 title: Ubuntu 更换镜像源
 date: 2024-05-13
 ---

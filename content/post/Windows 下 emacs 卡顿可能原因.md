@@ -1,7 +1,7 @@
 ---
 title: Windows 下 emacs 卡顿可能原因
-lastmod: 2024-05-12T11:22:45+08:00
-draft: false
+lastmod: 2024-06-25T16:19:10+08:00
+draft: true
 toc: true
 ---
 

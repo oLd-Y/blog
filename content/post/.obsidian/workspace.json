@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "testsss/index.md",
+                "file": "hugo + stack + obsidian 搭建博客/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "let qcFileName",
+                "query": "140 字（可选）",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "testsss/index.md",
+                "file": "hugo + stack + obsidian 搭建博客/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "testsss/index.md",
+                "file": "hugo + stack + obsidian 搭建博客/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "testsss/index.md"
+                "file": "hugo + stack + obsidian 搭建博客/index.md"
               }
             }
           },
@@ -185,9 +185,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "090e2b20e07875f7",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "_Templates/templater/new-blog.md",
+    "hugo + stack + obsidian 搭建博客/cover.jpg",
+    "hugo + stack + obsidian 搭建博客/index.md",
+    "zsh 查看所有绑定的快捷键.md",
+    "windows 11 蓝牙无法搜索到设备的原因 .md",
+    "ox-hugo 结合 org-download 粘贴图片.md",
+    "ox-hugo 自动生成模板代码解析.md",
+    "ox-hugo org-template 理解.md",
+    "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",
+    "Ubuntu 22.04 更换镜像源.md",
+    "_templates/templater/new-blog.md",
+    "保护模式相关.md",
+    "hugo + stack + obsidian 搭建博客",
+    "Atomic Habits 读后感/cover.jpg",
+    "Windows 下 emacs 卡顿可能原因.md",
+    "obsidian publisher 文章模板.md",
+    "wsl2 安装 gnome 桌面环境.md",
+    "wsl 网络问题.md",
+    "信号量.md",
+    "Angular Git 提交规范.md",
+    "围城 读后感/index.md",
+    "Atomic Habits 读后感/index.md",
+    "《Atomic Habits》读后感.md",
+    "null/index.md",
+    "Atomic Habits 读后感",
+    "null",
+    "_templates/templater/convert-blog.md",
     "testsss/index.md",
     "testsss/cover.jpg",
     "testsss",
@@ -195,9 +220,7 @@
     "content/post/null/index.md",
     "content/post/null/cover.jpg",
     "content/post/null",
-    "_Templates/templater/convert-blog.md",
-    "_Templates/hugo.md",
-    "content/post/test4/index.md",
+    "_templates/hugo.md",
     "content/post/test444/cover.jpg",
     "content/post/test4/cover.jpg",
     "content/post/test444",
@@ -205,33 +228,9 @@
     "content/post",
     "content",
     "content/post/testsss/cover.jpg",
-    "content/post/testsss/index.md",
     "content/post/testsss",
     "content/post/test212/cover.jpg",
-    "content/post/test11111/index.md",
     "content/post/test11111/cover.jpg",
-    "content/post/test212/index.md",
-    "content/post/test222/cover.jpg",
-    "content/post/test212",
-    "content/post/test11111",
-    "content/post/test222/index.md",
-    "content/post/test222",
-    "content/post/test222222/index.md",
-    "content/post/test222222/cover.jpg",
-    "content/post/test111111/index.md",
-    "content/post/test222333/index.md",
-    "content/post/test789/cover.jpg",
-    "content/post/test789/index.md",
-    "content/post/test2223/index.md",
-    "content/post/test456/index.md",
-    "content/post/test33/index.md",
-    "content/post/test11/index.md",
-    "daily/2024-04-30_Tuesday.md",
-    "content/post/test5/index.md",
-    "test4/index.md",
-    "wsl 网络问题.md",
-    "daily/2024-06-18_Tuesday.md",
-    "markdown-syntax/index.md",
-    "daily/2024-06-17_Monday.md"
+    "content/post/test222/cover.jpg"
   ]
 }

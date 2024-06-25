@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Tue, 25 Jun 2024 11:26:23 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 25 Jun 2024 16:16:39 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>小说</title>
         <link>http://localhost:1313/tags/%E5%B0%8F%E8%AF%B4/</link>
-        <pubDate>Tue, 25 Jun 2024 11:26:23 +0800</pubDate>
+        <pubDate>Tue, 25 Jun 2024 16:16:39 +0800</pubDate>
         
         <guid>http://localhost:1313/tags/%E5%B0%8F%E8%AF%B4/</guid>
         <description></description>
@@ -18,9 +18,17 @@
         <item>
         <title>读后感</title>
         <link>http://localhost:1313/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
-        <pubDate>Tue, 25 Jun 2024 11:26:23 +0800</pubDate>
+        <pubDate>Tue, 25 Jun 2024 16:16:39 +0800</pubDate>
         
         <guid>http://localhost:1313/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>社会科学</title>
+        <link>http://localhost:1313/tags/%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6/</link>
+        <pubDate>Tue, 25 Jun 2024 08:10:16 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6/</guid>
         <description></description>
         </item>
         <item>
@@ -29,14 +37,6 @@
         <pubDate>Tue, 25 Jun 2024 11:01:45 +0800</pubDate>
         
         <guid>http://localhost:1313/tags/nvm/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Wsl</title>
-        <link>http://localhost:1313/tags/wsl/</link>
-        <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/tags/wsl/</guid>
         <description></description>
         </item>
         <item>
@@ -61,62 +61,6 @@
         <pubDate>Sun, 28 Apr 2024 13:26:05 +0800</pubDate>
         
         <guid>http://localhost:1313/tags/org-mode/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Css</title>
-        <link>http://localhost:1313/tags/css/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/tags/css/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Html</title>
-        <link>http://localhost:1313/tags/html/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/tags/html/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Markdown</title>
-        <link>http://localhost:1313/tags/markdown/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/tags/markdown/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Themes</title>
-        <link>http://localhost:1313/tags/themes/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/tags/themes/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Tag With Whitespaces</title>
-        <link>http://localhost:1313/tags/tag-with-whitespaces/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/tags/tag-with-whitespaces/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Text</title>
-        <link>http://localhost:1313/tags/text/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/tags/text/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Emoji</title>
-        <link>http://localhost:1313/tags/emoji/</link>
-        <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/tags/emoji/</guid>
         <description></description>
         </item>
         

@@ -1,5 +1,5 @@
 {
-  "folder": "/daily/",
+  "folder": "/_daily/",
   "format": "YYYY-MM-DD_dddd",
   "template": "_Templates/dairy"
 }

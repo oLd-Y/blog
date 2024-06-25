@@ -1,7 +1,7 @@
 ---
 title: ox-hugo 自动生成模板代码解析
-lastmod: 2024-04-28T13:26:10+08:00
-draft: false
+lastmod: 2024-06-25T16:38:55+08:00
+draft: true
 toc: true
 hideInList: false
 ---

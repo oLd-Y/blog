@@ -1,7 +1,7 @@
 ---
 title: ox-hugo org-template 理解
-lastmod: 2024-04-28T13:26:14+08:00
-draft: false
+lastmod: 2024-06-25T16:38:57+08:00
+draft: true
 toc: true
 hideInList: false
 ---

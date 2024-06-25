@@ -1,9 +1,9 @@
 ---
 title: ox-hugo 结合 org-download 粘贴图片
-lastmod: 2024-04-28T13:26:05+08:00
+lastmod: 2024-06-25T16:38:53+08:00
 tags:
   - org-mode
-draft: false
+draft: true
 toc: true
 hideInList: false
 ---

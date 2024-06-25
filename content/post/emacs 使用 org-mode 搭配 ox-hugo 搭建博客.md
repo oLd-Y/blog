@@ -1,7 +1,7 @@
 ---
 title: emacs 使用 org-mode 搭配 ox-hugo 搭建博客
-lastmod: 2024-04-28T13:28:46+08:00
-draft: false
+lastmod: 2024-06-25T16:39:17+08:00
+draft: true
 toc: true
 ---
 
