@@ -13,12 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Templates/templater/new-blog.md",
+                "file": "_Templates/templater/nblog.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "518f4621c1fec62c",
+        "type": "tabs",
+        "children": [
           {
             "id": "2e16088cab0c4d4b",
             "type": "leaf",
@@ -31,8 +37,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Templates/templater/new-blog.md",
+                "file": "_Templates/templater/nblog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Templates/templater/new-blog.md",
+                "file": "_Templates/templater/nblog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Templates/templater/new-blog.md"
+                "file": "_Templates/templater/nblog.md"
               }
             }
           },
@@ -198,12 +203,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2e16088cab0c4d4b",
+  "active": "090e2b20e07875f7",
   "lastOpenFiles": [
+    "content/post/test222333/index.md",
+    "content/post/test222333",
+    "content/post/test789/cover.jpg",
+    "content/post/test789/index.md",
+    "_Templates/templater/nblog.md",
+    "content/post/test789",
+    "content/post/test2223/index.md",
+    "content/post/test222/index.md",
+    "content/post/test222/cover.jpg",
+    "content/post/test222",
+    "content/post/test2223",
+    "content/post/test456/index.md",
+    "content/post/test456/cover.jpg",
+    "content/post/test456",
+    "content/post/test33/index.md",
+    "content/post/test33/cover.jpg",
+    "content/post/test33",
+    "content/post/test11/index.md",
+    "daily/2024-04-30_Tuesday.md",
+    "content/post/test11/cover.jpg",
+    "content/post/test11",
+    "_Templates/templater/new-blog.md",
+    "content/post/test5/index.md",
+    "content/post/test5/cover.jpg",
+    "content/post/test5",
+    "content/post",
+    "content",
     "test4/index.md",
     "test4/cover.jpg",
-    "test4",
-    "_Templates/templater/new-blog.md",
     "wsl 网络问题.md",
     "daily/2024-06-18_Tuesday.md",
     "markdown-syntax/index.md",
@@ -218,32 +248,8 @@
     "daily/2024-05-08_Wednesday.md",
     "daily/2024-05-06_Monday.md",
     "daily/2024-05-02_Thursday.md",
-    "daily/2024-05-01_Wednesday.md",
-    "daily/2024-04-30_Tuesday.md",
-    "daily/2024-04-29_Monday.md",
-    "daily/2024-04-28.md",
-    "daily/2024-04-22.md",
-    "《围城》读后感/index.md",
     "《围城》读后感/cover.jpg",
-    "保护模式相关.md",
-    "_index.md",
-    "《Atomic Habits》读后感.md",
     "nvm 安装和使用/cover.jpg",
-    "nvm 安装和使用",
-    "test3",
-    "test1/cover.jpg",
-    "test2/cover.jpg",
-    "test2",
-    "test1",
-    "test6/image.jpg",
-    "test6",
-    "test5",
-    "null",
-    "content/post/test2",
-    "content/post",
-    "chinese-test/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg",
-    "chinese-test/luca-bravo-alS7ewQ41M8-unsplash.jpg",
-    "chinese-test/helena-hertz-wWZzXlDpMog-unsplash.jpg",
-    "chinese-test/florian-klauer-nptLmg6jqDo-unsplash.jpg"
+    "test1/cover.jpg"
   ]
 }
