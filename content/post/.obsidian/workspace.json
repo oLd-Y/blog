@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Templates/templater/new-blog.md",
+                "file": "test6/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test/index.md",
+                "file": "_Templates/templater/new-blog.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test/index.md",
+                "file": "test6/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test/index.md",
+                "file": "test6/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test/index.md"
+                "file": "test6/index.md"
               }
             }
           },
@@ -196,27 +195,32 @@
       "obsidian-weread-plugin:同步微信读书笔记": false,
       "remotely-save:Remotely Save": false,
       "templater-obsidian:Templater": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "bafc3a8de1b0ea72",
+  "active": "090e2b20e07875f7",
   "lastOpenFiles": [
-    "test",
     "_Templates/templater/new-blog.md",
-    "test/index.md",
-    "Untitled.md",
-    "_Templates/Scripts/Untitled.md",
-    "_Templates/Scripts/download_image.js",
-    "_Templates/Scripts",
-    "_Templates/templater/index.md",
-    "null",
-    "《围城》读后感/index.md",
+    "test6/index.md",
+    "test3/index.md",
+    "test6/image.jpg",
+    "test6",
     "daily/2024-5-10_Friday.md",
-    "markdown-syntax/index.md",
-    "《围城》读后感",
-    "content/post/《围城》读后感",
+    "test5",
+    "test4",
+    "null",
+    "test3",
+    "test2",
+    "content/post/test2",
     "content/post",
     "content",
+    "test",
+    "Untitled.md",
+    "_Templates/Scripts/Untitled.md",
+    "_Templates/templater/index.md",
+    "《围城》读后感/index.md",
+    "markdown-syntax/index.md",
     "_index.md",
     "daily/2024-06-24_Monday.md",
     "daily/2024-06-24_Monday.md",
@@ -229,10 +233,7 @@
     "content/post/test4/index.md",
     "content/post/test/index.md",
     "_Templates/hugo.md",
-    "content/post/test4",
     "content/post/null/index.md",
-    "test3/index.md",
-    "test3",
     "org-roam 节点.md",
     "reading notes -《Atomatic Habits》.md",
     "Ubuntu 22.04 更换镜像源.md",

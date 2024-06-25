@@ -1,6 +1,15 @@
 ---
-lastmod: 2024-06-07T18:39:09+08:00
-draft: true
+lastmod: 2024-06-25T09:51:44+08:00
+draft: false
+title: test6
+description: ""
+slug: ""
+date: 2024-6-25
+image: /test6//image.jpg
+categories:
+  - ""
+tags: 
+weight: 1
 ---
 
 
