@@ -7,6 +7,10 @@ copyright = "Example Person"
 DefaultContentLanguage = "en"
 hasCJKLanguage = false
 
+# 需要放到配置文件较前的地方，否则可能不生效。相对于 content 文件夹的位置。
+ignoreFiles = ["post/_Templates"]
+
+
 [languages.en]
 languageName = "English"
 title = "Example Site"
@@ -199,3 +203,5 @@ lineNoStart = 1
 lineNos = true
 lineNumbersInTable = true
 tabWidth = 4
+
+

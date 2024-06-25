@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/p/test444/</loc>
+    <lastmod>2024-06-25T15:18:53+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/p/test4/</loc>
+    <lastmod>2024-06-25T15:28:14+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/p/%E5%9B%B4%E5%9F%8E%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
     <lastmod>2024-06-25T11:26:23+08:00</lastmod>
   </url><url>
@@ -9,7 +15,7 @@
     <lastmod>2024-06-25T11:01:45+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-06-25T11:26:23+08:00</lastmod>
+    <lastmod>2024-06-25T15:28:14+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -27,7 +33,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2024-06-25T11:26:23+08:00</lastmod>
+    <lastmod>2024-06-25T15:28:14+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/%E5%B0%8F%E8%AF%B4/</loc>
     <lastmod>2024-06-25T11:26:23+08:00</lastmod>
@@ -233,8 +239,6 @@
                 hreflang="en"
                 href="http://localhost:1313/about/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/p/</loc>
   </url><url>
     <loc>http://localhost:1313/links/</loc>
   </url><url>

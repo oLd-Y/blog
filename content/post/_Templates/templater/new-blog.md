@@ -1,7 +1,3 @@
----
-draft: true
----
-
 <%*
 const fs = require('fs');
 const path = require('path');
@@ -11,7 +7,7 @@ let qcFileName = await tp.system.prompt("Note Title");
 let titleName = qcFileName;
 
 // 定义 baseFolder 和 newFolder
-let baseFolder = "/content/post/";
+let baseFolder = "/";
 let newFolder = `${baseFolder}${titleName}/`;
 
 // 获取 Obsidian 根 vault 路径
@@ -34,7 +30,7 @@ title: ${titleName}
 description: ""
 slug: ""
 date: ${new Date().toISOString()}
-image: "cover"
+image: "cover.jpg"
 categories:
   - ""
 tags: 
@@ -44,6 +40,7 @@ weight: 1
 
 // 将 front matter 写入新的 markdown 文件
 fs.writeFileSync(mdFilePath, frontMatter);
+// tp.file.create_new(frontMatter, qcFileName, true, "")
 
 // 下载封面图片并更新 front matter
 async function downloadAndSetImage() {

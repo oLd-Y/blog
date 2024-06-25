@@ -1,6 +1,3 @@
----
-draft: true
----
 <%*
 let qcFileName = await tp.system.prompt("Note Title")
 let titleName = qcFileName

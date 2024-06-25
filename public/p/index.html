@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="&lt;%* const fs = require(&lsquo;fs&rsquo;); const path = require(&lsquo;path&rsquo;); // 获取用户输入的 Note Title let qcFileName = await tp.system.prompt(&ldquo;Note Title&rdquo;); let titleName = qcFileName; // 定义 baseFolder 和 newFolder let baseFolder = &ldquo;/content/post/&rdquo;; let newFolder = ${baseFolder}${titleName}/; // 获取 Obsidian 根 vault 路径 let vaultPath = app.vault.adapter.basePath; // 构建新的 markdown 文件路径 let mdFilePath = ${vaultPath}${newFolder}index.md; // 构建封面保存路径 let imagePath = ${vaultPath}${newFolder}cover.jpg; // 确保新文件夹存在 if (!fs.existsSync(${vaultPath}${newFolder})) { fs.mkdirSync(${vaultPath}${newFolder}, { recursive: true }); }">
 <title></title>
 
 <link rel='canonical' href='http://localhost:1313/p/'>
 
 <link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="">
-<meta property='og:description' content="">
+<meta property='og:description' content="&lt;%* const fs = require(&lsquo;fs&rsquo;); const path = require(&lsquo;path&rsquo;); // 获取用户输入的 Note Title let qcFileName = await tp.system.prompt(&ldquo;Note Title&rdquo;); let titleName = qcFileName; // 定义 baseFolder 和 newFolder let baseFolder = &ldquo;/content/post/&rdquo;; let newFolder = ${baseFolder}${titleName}/; // 获取 Obsidian 根 vault 路径 let vaultPath = app.vault.adapter.basePath; // 构建新的 markdown 文件路径 let mdFilePath = ${vaultPath}${newFolder}index.md; // 构建封面保存路径 let imagePath = ${vaultPath}${newFolder}cover.jpg; // 确保新文件夹存在 if (!fs.existsSync(${vaultPath}${newFolder})) { fs.mkdirSync(${vaultPath}${newFolder}, { recursive: true }); }">
 <meta property='og:url' content='http://localhost:1313/p/'>
 <meta property='og:site_name' content='Example Site'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' />
 <meta name="twitter:title" content="">
-<meta name="twitter:description" content="">
+<meta name="twitter:description" content="&lt;%* const fs = require(&lsquo;fs&rsquo;); const path = require(&lsquo;path&rsquo;); // 获取用户输入的 Note Title let qcFileName = await tp.system.prompt(&ldquo;Note Title&rdquo;); let titleName = qcFileName; // 定义 baseFolder 和 newFolder let baseFolder = &ldquo;/content/post/&rdquo;; let newFolder = ${baseFolder}${titleName}/; // 获取 Obsidian 根 vault 路径 let vaultPath = app.vault.adapter.basePath; // 构建新的 markdown 文件路径 let mdFilePath = ${vaultPath}${newFolder}index.md; // 构建封面保存路径 let imagePath = ${vaultPath}${newFolder}cover.jpg; // 确保新文件夹存在 if (!fs.existsSync(${vaultPath}${newFolder})) { fs.mkdirSync(${vaultPath}${newFolder}, { recursive: true }); }">
   
 
 
@@ -271,7 +271,41 @@
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#draft-true">// 将 front matter 写入新的 markdown 文件
+// fs.writeFileSync(mdFilePath, frontMatter);
+tp.file.create_new(frontMatter, qcFileName, true, &ldquo;&rdquo;&mdash;
+draft: true</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
     <article class="main-article">
@@ -306,7 +340,7 @@
 
 
                 <time class="article-time--reading">
-                    0 minute read
+                    1 minute read
                 </time>
             </div>
         
@@ -321,7 +355,62 @@
     <section class="article-content">
     
     
-    
+    <p>&lt;%*
+const fs = require(&lsquo;fs&rsquo;);
+const path = require(&lsquo;path&rsquo;);</p>
+<p>// 获取用户输入的 Note Title
+let qcFileName = await tp.system.prompt(&ldquo;Note Title&rdquo;);
+let titleName = qcFileName;</p>
+<p>// 定义 baseFolder 和 newFolder
+let baseFolder = &ldquo;/content/post/&rdquo;;
+let newFolder = <code>${baseFolder}${titleName}/</code>;</p>
+<p>// 获取 Obsidian 根 vault 路径
+let vaultPath = app.vault.adapter.basePath;</p>
+<p>// 构建新的 markdown 文件路径
+let mdFilePath = <code>${vaultPath}${newFolder}index.md</code>;</p>
+<p>// 构建封面保存路径
+let imagePath = <code>${vaultPath}${newFolder}cover.jpg</code>;</p>
+<p>// 确保新文件夹存在
+if (!fs.existsSync(<code>${vaultPath}${newFolder}</code>)) {
+fs.mkdirSync(<code>${vaultPath}${newFolder}</code>, { recursive: true });
+}</p>
+<p>// 创建新的 markdown 文件并添加 front matter
+let frontMatter = `&mdash;
+title: ${titleName}
+description: &quot;&quot;
+slug: &quot;&quot;
+date: ${new Date().toISOString()}
+image: &ldquo;cover.jpg&rdquo;
+categories:</p>
+<ul>
+<li>&quot;&quot;
+tags:
+weight: 1</li>
+</ul>
+<hr>
+<p>`;</p>
+<h2 id="draft-true">// 将 front matter 写入新的 markdown 文件
+// fs.writeFileSync(mdFilePath, frontMatter);
+tp.file.create_new(frontMatter, qcFileName, true, &ldquo;&rdquo;&mdash;
+draft: true
+</h2><p>)</p>
+<p>// 下载封面图片并更新 front matter
+async function downloadAndSetImage() {
+try {
+await tp.user.download_image(&ldquo;<a class="link" href="http://api.mtyqx.cn/api/random.php%22"  target="_blank" rel="noopener"
+    >http://api.mtyqx.cn/api/random.php"</a>, imagePath);
+setTimeout(() =&gt; {
+app.fileManager.processFrontMatter(mdFilePath, frontmatter =&gt; {
+frontmatter[&ldquo;image&rdquo;] = &ldquo;cover.jpg&rdquo;;
+})
+}, 200);
+} catch (error) {
+console.error(&ldquo;Failed to download the cover image:&rdquo;, error);
+}
+}</p>
+<p>downloadAndSetImage();</p>
+<p>-%&gt;</p>
+
 </section>
 
 

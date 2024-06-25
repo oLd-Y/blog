@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Templates/templater/new-blog.md",
+                "file": "testsss/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Templates/templater/new-blog.md",
+                "file": "testsss/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Templates/templater/new-blog.md",
+                "file": "testsss/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Templates/templater/new-blog.md"
+                "file": "testsss/index.md"
               }
             }
           },
@@ -187,13 +187,23 @@
   },
   "active": "090e2b20e07875f7",
   "lastOpenFiles": [
+    "_Templates/templater/new-blog.md",
+    "testsss/index.md",
+    "testsss/cover.jpg",
+    "testsss",
+    "test444.md",
+    "content/post/null/index.md",
+    "content/post/null/cover.jpg",
+    "content/post/null",
+    "_Templates/templater/convert-blog.md",
+    "_Templates/hugo.md",
     "content/post/test4/index.md",
+    "content/post/test444/cover.jpg",
     "content/post/test4/cover.jpg",
+    "content/post/test444",
     "content/post/test4",
     "content/post",
     "content",
-    "_Templates/templater/convert-blog.md",
-    "_Templates/templater/new-blog.md",
     "content/post/testsss/cover.jpg",
     "content/post/testsss/index.md",
     "content/post/testsss",
@@ -208,30 +218,20 @@
     "content/post/test222",
     "content/post/test222222/index.md",
     "content/post/test222222/cover.jpg",
-    "content/post/test222222",
     "content/post/test111111/index.md",
-    "content/post/test111111",
     "content/post/test222333/index.md",
-    "content/post/test222333",
     "content/post/test789/cover.jpg",
     "content/post/test789/index.md",
     "content/post/test2223/index.md",
     "content/post/test456/index.md",
-    "content/post/test456/cover.jpg",
     "content/post/test33/index.md",
-    "content/post/test33/cover.jpg",
     "content/post/test11/index.md",
     "daily/2024-04-30_Tuesday.md",
-    "content/post/test11/cover.jpg",
     "content/post/test5/index.md",
     "test4/index.md",
     "wsl 网络问题.md",
     "daily/2024-06-18_Tuesday.md",
     "markdown-syntax/index.md",
-    "daily/2024-06-17_Monday.md",
-    "daily/2024-06-16_Sunday.md",
-    "daily/2024-06-15_Saturday.md",
-    "daily/2024-06-11_Tuesday.md",
-    "daily/2024-06-07_Friday.md"
+    "daily/2024-06-17_Monday.md"
   ]
 }
