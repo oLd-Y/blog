@@ -1,8 +1,8 @@
 ---
 tags:
   - emacs
-draft: false
-lastmod: 2024-05-13T10:54:22+08:00
+draft: true
+lastmod: 2024-06-25T11:24:27+08:00
 title: emacs 入坑建议
 date: 2024-05-08
 ---

@@ -1,7 +1,7 @@
 ---
 tags: 
-draft: false
-lastmod: 2024-06-18T08:15:33+08:00
+draft: true
+lastmod: 2024-06-25T11:23:40+08:00
 title: linux-0.11 _set_gate 宏解释
 date: 2024-06-13
 ---

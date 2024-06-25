@@ -1,7 +1,7 @@
 ---
 tags: 
-draft: false
-lastmod: 2024-06-07T18:35:57+08:00
+draft: true
+lastmod: 2024-06-25T11:23:37+08:00
 title: nvm 设置代理
 date: 2024-06-07
 ---

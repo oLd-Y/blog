@@ -1,11 +1,18 @@
 ---
-tags: 
+categories:
+  - ""
+  - nodejs
+tags:
+  - nvm
 draft: false
-lastmod: 2024-06-07T10:57:05+08:00
+lastmod: 2024-06-25T11:01:45+08:00
 title: nvm 安装和使用
-date: 2024-06-07
+date: 2024-6-25
+description: ""
+slug: 
+image: cover.jpg
+weight: 1
 ---
-
 
 ### 安装 nvm 
 1. **下载并安装 nvm** ：

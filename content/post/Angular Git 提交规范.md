@@ -1,7 +1,7 @@
 ---
 title: Angular Git 提交规范
-lastmod: 2024-04-28T13:28:12+08:00
-draft: false
+lastmod: 2024-06-25T11:24:45+08:00
+draft: true
 toc: true
 ---
 

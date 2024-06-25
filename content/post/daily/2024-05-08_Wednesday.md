@@ -1,10 +1,10 @@
 ---
 title: 2024-05-08_Wednesday
 date: 2024-05-08
-draft: false
+draft: true
 tags:
   - dairy
-lastmod: 2024-05-08T18:06:22+08:00
+lastmod: 2024-06-25T10:58:25+08:00
 ---
 感觉自己老是喜欢做一些“长期主义”的事，不知道这算不算一种另类的自私。
 

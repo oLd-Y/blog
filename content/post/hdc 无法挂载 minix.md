@@ -1,7 +1,7 @@
 ---
 tags: 
-draft: false
-lastmod: 2024-06-09T10:15:26+08:00
+draft: true
+lastmod: 2024-06-25T11:24:07+08:00
 title: hdc 无法挂载 minix
 date: 2024-06-06
 ---

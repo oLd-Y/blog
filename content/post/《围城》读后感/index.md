@@ -1,13 +1,15 @@
 ---
-directory: 
-tags: 
+directory: 读书笔记
+tags:
+  - 读后感
+  - 小说
 draft: false
-lastmod: 2024-06-25T06:50:29+08:00
+lastmod: 2024-06-25T11:26:23+08:00
 title: 《围城》读后感
 date: ""
 description: ""
 slug: ""
-image: http://api.mtyqx.cn/api/random.php
+image: cover.jpg
 categories:
   - ""
 weight: 1

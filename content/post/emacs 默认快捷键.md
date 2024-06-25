@@ -1,7 +1,7 @@
 ---
 tags: 
-draft: false
-lastmod: 2024-05-09T13:53:27+08:00
+draft: true
+lastmod: 2024-06-25T11:24:32+08:00
 title: emacs 默认快捷键
 date: 2024-05-08
 ---

@@ -1,7 +1,7 @@
 ---
 title: org-roam 节点
-lastmod: 2024-04-28T13:26:02+08:00
-draft: false
+lastmod: 2024-06-25T11:22:52+08:00
+draft: true
 toc: true
 hideInList: false
 ---

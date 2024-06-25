@@ -1,10 +1,10 @@
 ---
 title: 2024-05-01_Wednesday
 date: 2024-05-01
-draft: false
+draft: true
 tags:
   - dairy
-lastmod: 2024-05-01T22:22:09+08:00
+lastmod: 2024-06-25T10:58:15+08:00
 ---
 如果没有网络，我们甚至连 5 米内的隔壁寝室发生了什么都不知道。
 

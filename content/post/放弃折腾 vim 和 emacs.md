@@ -1,7 +1,7 @@
 ---
 tags: 
-draft: false
-lastmod: 2024-05-02T19:17:48+08:00
+draft: true
+lastmod: 2024-06-25T11:25:09+08:00
 title: 放弃折腾 vim 和 emacs
 date: 2024-05-02
 ---

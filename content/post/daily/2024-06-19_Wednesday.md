@@ -2,9 +2,9 @@
 tags:
   - dairy
 date: 2024-06-19
-draft: false
+draft: true
 title: 2024-06-19_Wednesday
-lastmod: 2024-06-21T08:25:47+08:00
+lastmod: 2024-06-25T10:58:45+08:00
 ---
 14:30，查找记录时间的工具
 14:45，李治军操作系统实验4

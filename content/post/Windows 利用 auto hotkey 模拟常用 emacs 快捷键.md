@@ -1,6 +1,7 @@
 ---
-lastmod: 2024-04-28T13:26:46+08:00
+lastmod: 2024-06-25T11:20:58+08:00
 hideInList: false
+draft: true
 ---
 ```ahk
 #Requires AutoHotkey v2.0

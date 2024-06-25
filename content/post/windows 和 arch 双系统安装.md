@@ -1,7 +1,7 @@
 ---
 tags: 
-draft: false
-lastmod: 2024-05-13T13:38:13+08:00
+draft: true
+lastmod: 2024-06-25T11:21:08+08:00
 title: windows 和 arch 双系统安装
 date: 2024-05-13
 ---

@@ -1,7 +1,7 @@
 ---
 tags: 
-draft: false
-lastmod: 2024-05-13T10:25:28+08:00
+draft: true
+lastmod: 2024-06-25T11:20:47+08:00
 title: windows 无法进入 wsl
 date: 2024-05-13
 ---

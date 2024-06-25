@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/p/test3/</loc>
-    <lastmod>2024-06-25T10:08:08+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/p/%E5%9B%B4%E5%9F%8E%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
-    <lastmod>2024-06-25T06:50:29+08:00</lastmod>
+    <lastmod>2024-06-25T11:26:23+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</loc>
+    <lastmod>2024-06-25T11:01:45+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-06-25T10:08:08+08:00</lastmod>
+    <lastmod>2024-06-25T11:26:23+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -26,17 +26,14 @@
                 href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>http://localhost:1313/p/</loc>
-    <lastmod>2024-06-24T23:56:07+08:00</lastmod>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2024-06-25T11:26:23+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/2024-5-10_friday/</loc>
-    <lastmod>2024-06-24T23:43:30+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/dairy/</loc>
-    <lastmod>2024-06-24T23:43:30+08:00</lastmod>
+    <loc>http://localhost:1313/tags/%E5%B0%8F%E8%AF%B4/</loc>
+    <lastmod>2024-06-25T11:26:23+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-06-24T23:43:30+08:00</lastmod>
+    <lastmod>2024-06-25T11:26:23+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -53,161 +50,17 @@
                 href="http://localhost:1313/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/p/2024-04-30_tuesday/</loc>
-    <lastmod>2024-06-24T11:50:41+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/atomic-habits%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
-    <lastmod>2024-06-24T12:01:55+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/2024-06-24_monday/</loc>
-    <lastmod>2024-06-24T11:57:34+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
-    <lastmod>2024-06-24T12:01:55+08:00</lastmod>
+    <lastmod>2024-06-25T11:26:23+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/2024-06-23_sunday/</loc>
-    <lastmod>2024-06-24T11:51:35+08:00</lastmod>
+    <loc>http://localhost:1313/categories/nodejs/</loc>
+    <lastmod>2024-06-25T11:01:45+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/vim-command-mode/</loc>
-    <lastmod>2024-06-23T13:03:03+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/2024-06-22_saturday/</loc>
-    <lastmod>2024-06-22T20:39:02+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/2024-06-21_friday/</loc>
-    <lastmod>2024-06-21T10:14:09+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/2024-06-20_thursday/</loc>
-    <lastmod>2024-06-21T08:25:52+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/2024-06-19_wednesday/</loc>
-    <lastmod>2024-06-21T08:25:47+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/2024-06-18_tuesday/</loc>
-    <lastmod>2024-06-21T08:25:42+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/wsl/</loc>
-    <lastmod>2024-06-19T14:25:55+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/wsl-%E7%BD%91%E7%BB%9C%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2024-06-19T14:25:55+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/%E4%BF%A1%E5%8F%B7%E9%87%8F/</loc>
-    <lastmod>2024-06-20T13:54:18+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/2024-06-17_monday/</loc>
-    <lastmod>2024-06-21T08:25:38+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/%E7%BA%BF%E7%A8%8B/</loc>
-    <lastmod>2024-06-23T17:05:55+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/2024-06-16_sunday/</loc>
-    <lastmod>2024-06-21T08:25:31+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/2024-06-15_saturday/</loc>
-    <lastmod>2024-06-21T08:25:28+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/linux-0.11-_set_gate-%E5%AE%8F%E8%A7%A3%E9%87%8A/</loc>
-    <lastmod>2024-06-18T08:15:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/%E4%BF%9D%E6%8A%A4%E6%A8%A1%E5%BC%8F%E7%9B%B8%E5%85%B3/</loc>
-    <lastmod>2024-06-13T16:04:06+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/2024-06-11_tuesday/</loc>
-    <lastmod>2024-06-21T08:25:21+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/zsh/</loc>
-    <lastmod>2024-06-08T11:30:16+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/zsh-%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%BB%91%E5%AE%9A%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
-    <lastmod>2024-06-08T11:30:16+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/2024-06-07_friday/</loc>
-    <lastmod>2024-06-21T08:25:16+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</loc>
-    <lastmod>2024-06-07T10:57:05+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/nvm-%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86/</loc>
-    <lastmod>2024-06-07T18:35:57+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/2024-06-06_thursday/</loc>
-    <lastmod>2024-06-21T08:25:13+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/hdc-%E6%97%A0%E6%B3%95%E6%8C%82%E8%BD%BD-minix/</loc>
-    <lastmod>2024-06-09T10:15:26+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/2024-06-05_wednesday/</loc>
-    <lastmod>2024-06-21T08:25:09+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/arch-linux-wayland-chrome-%E6%B5%8F%E8%A7%88%E5%99%A8%E8%BE%93%E6%97%A0%E6%B3%95%E8%BE%93%E5%85%A5%E4%B8%AD%E6%96%87/</loc>
-    <lastmod>2024-05-16T22:02:27+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ubuntu/</loc>
-    <lastmod>2024-05-13T10:03:12+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/ubuntu-%E6%9B%B4%E6%8D%A2%E9%95%9C%E5%83%8F%E6%BA%90/</loc>
-    <lastmod>2024-05-13T10:03:12+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/windows-%E5%92%8C-arch-%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/</loc>
-    <lastmod>2024-05-13T13:38:13+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/windows-%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5-wsl/</loc>
-    <lastmod>2024-05-13T10:25:28+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/wsl2-%E5%AE%89%E8%A3%85-gnome-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83/</loc>
-    <lastmod>2024-05-13T10:26:54+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/windows-%E4%B8%8B-emacs-%E5%8D%A1%E9%A1%BF%E5%8F%AF%E8%83%BD%E5%8E%9F%E5%9B%A0/</loc>
-    <lastmod>2024-05-12T11:22:45+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/windows-11-%E8%93%9D%E7%89%99%E6%97%A0%E6%B3%95%E6%90%9C%E7%B4%A2%E5%88%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E5%8E%9F%E5%9B%A0/</loc>
-    <lastmod>2024-05-11T13:11:50+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/reading-notes-automatic-habits/</loc>
-    <lastmod>2024-05-10T12:33:49+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E8%8B%B1%E8%AF%AD/</loc>
-    <lastmod>2024-05-10T12:33:49+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/2024-05-08_wednesday/</loc>
-    <lastmod>2024-05-08T18:06:22+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/emacs/</loc>
-    <lastmod>2024-05-13T10:54:22+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/emacs-%E5%85%A5%E5%9D%91%E5%BB%BA%E8%AE%AE/</loc>
-    <lastmod>2024-05-13T10:54:22+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/emacs-%E9%BB%98%E8%AE%A4%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
-    <lastmod>2024-05-09T13:53:27+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/2024-05-07_tuesday/</loc>
-    <lastmod>2024-05-08T14:28:10+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/2024-05-06_monday/</loc>
-    <lastmod>2024-05-07T10:28:20+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/2024-05-02_thursday/</loc>
-    <lastmod>2024-05-02T21:26:37+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/%E6%94%BE%E5%BC%83%E6%8A%98%E8%85%BE-vim-%E5%92%8C-emacs/</loc>
-    <lastmod>2024-05-02T19:17:48+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/2024-05-01_wednesday/</loc>
-    <lastmod>2024-05-01T22:22:09+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/</loc>
-    <lastmod>2024-04-29T22:36:23+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/emacs-%E4%BD%BF%E7%94%A8-org-mode-%E6%90%AD%E9%85%8D-ox-hugo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2024-04-28T13:28:46+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/setting/</loc>
-    <lastmod>2024-04-28T13:28:19+08:00</lastmod>
+    <loc>http://localhost:1313/tags/nvm/</loc>
+    <lastmod>2024-06-25T11:01:45+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-04-28T13:28:19+08:00</lastmod>
+    <lastmod>2024-06-25T11:01:45+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -224,32 +77,38 @@
                 href="http://localhost:1313/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/p/%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%9A%84%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%87%BA%E8%AE%BE%E5%A4%87/</loc>
-    <lastmod>2024-04-28T13:28:19+08:00</lastmod>
+    <loc>http://localhost:1313/p/atomic-habits%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
+    <lastmod>2024-06-25T11:25:15+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/angular-git-%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83/</loc>
-    <lastmod>2024-04-28T13:28:12+08:00</lastmod>
+    <loc>http://localhost:1313/tags/wsl/</loc>
+    <lastmod>2024-06-19T14:25:55+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%8D%B8%E8%BD%BD-ubuntu/</loc>
-    <lastmod>2024-04-28T13:27:32+08:00</lastmod>
+    <loc>http://localhost:1313/p/wsl-%E7%BD%91%E7%BB%9C%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2024-06-19T14:25:55+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/</loc>
-    <lastmod>2024-04-28T13:26:59+08:00</lastmod>
+    <loc>http://localhost:1313/tags/zsh/</loc>
+    <lastmod>2024-06-08T11:30:16+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/</loc>
-    <lastmod>2024-04-28T13:26:55+08:00</lastmod>
+    <loc>http://localhost:1313/p/zsh-%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%BB%91%E5%AE%9A%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
+    <lastmod>2024-06-08T11:30:16+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/</loc>
-    <lastmod>2024-04-28T13:26:50+08:00</lastmod>
+    <loc>http://localhost:1313/tags/ubuntu/</loc>
+    <lastmod>2024-05-13T10:03:12+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/</loc>
-    <lastmod>2024-04-28T13:26:46+08:00</lastmod>
+    <loc>http://localhost:1313/p/ubuntu-%E6%9B%B4%E6%8D%A2%E9%95%9C%E5%83%8F%E6%BA%90/</loc>
+    <lastmod>2024-05-13T10:03:12+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/ubuntu-%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF%E8%AE%BE%E7%BD%AE/</loc>
-    <lastmod>2024-04-28T13:26:28+08:00</lastmod>
+    <loc>http://localhost:1313/p/wsl2-%E5%AE%89%E8%A3%85-gnome-%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83/</loc>
+    <lastmod>2024-05-13T10:26:54+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/</loc>
-    <lastmod>2024-04-28T13:26:23+08:00</lastmod>
+    <loc>http://localhost:1313/p/windows-%E4%B8%8B-emacs-%E5%8D%A1%E9%A1%BF%E5%8F%AF%E8%83%BD%E5%8E%9F%E5%9B%A0/</loc>
+    <lastmod>2024-05-12T11:22:45+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/p/windows-11-%E8%93%9D%E7%89%99%E6%97%A0%E6%B3%95%E6%90%9C%E7%B4%A2%E5%88%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E5%8E%9F%E5%9B%A0/</loc>
+    <lastmod>2024-06-25T11:21:31+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/p/emacs-%E4%BD%BF%E7%94%A8-org-mode-%E6%90%AD%E9%85%8D-ox-hugo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2024-04-28T13:28:46+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/p/ox-hugo-org-template-%E7%90%86%E8%A7%A3/</loc>
     <lastmod>2024-04-28T13:26:14+08:00</lastmod>
@@ -262,30 +121,6 @@
   </url><url>
     <loc>http://localhost:1313/p/ox-hugo-%E7%BB%93%E5%90%88-org-download-%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87/</loc>
     <lastmod>2024-04-28T13:26:05+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/org-roam-%E8%8A%82%E7%82%B9/</loc>
-    <lastmod>2024-04-28T13:26:02+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/obsidian-vim-%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%AD%E8%8B%B1%E7%8A%B6%E6%80%81/</loc>
-    <lastmod>2024-04-28T13:25:58+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/</loc>
-    <lastmod>2024-04-28T13:25:53+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2024-04-28T13:23:48+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/</loc>
-    <lastmod>2024-04-28T11:04:50+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/</loc>
-    <lastmod>2024-04-28T10:58:41+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/vim/</loc>
-    <lastmod>2024-04-28T13:26:35+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/vscode-vim-%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
-    <lastmod>2024-04-28T13:26:35+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>

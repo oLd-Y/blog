@@ -3,7 +3,7 @@ directory: 读书笔记
 tags:
   - 读后感
 draft: false
-lastmod: 2024-06-24T12:01:55+08:00
+lastmod: 2024-06-25T11:25:15+08:00
 title: 《Atomic Habits》读后感
 date: 2024-06-24
 ---

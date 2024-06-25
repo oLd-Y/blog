@@ -1,7 +1,7 @@
 ---
-title: "arch linux wayland chrome 浏览器输无法输入中文"
-lastmod: 2024-05-16T22:02:27+08:00
-draft: false
+title: arch linux wayland chrome 浏览器输无法输入中文
+lastmod: 2024-06-25T11:24:43+08:00
+draft: true
 toc: true
 ---
 

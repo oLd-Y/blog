@@ -1,8 +1,9 @@
 ---
 tags:
   - 读书笔记/英语
-lastmod: 2024-05-10T12:33:49+08:00
+lastmod: 2024-06-25T11:22:33+08:00
 title: reading notes -《Automatic Habits》
+draft: true
 ---
 # 生词/词组
 
