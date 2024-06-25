@@ -13,24 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Templates/templater/nblog.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "518f4621c1fec62c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2e16088cab0c4d4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "_Templates/templater/new-blog.md",
                 "mode": "source",
                 "source": false
@@ -103,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Templates/templater/nblog.md",
+                "file": "_Templates/templater/new-blog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Templates/templater/nblog.md",
+                "file": "_Templates/templater/new-blog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Templates/templater/nblog.md"
+                "file": "_Templates/templater/new-blog.md"
               }
             }
           },
@@ -205,35 +187,44 @@
   },
   "active": "090e2b20e07875f7",
   "lastOpenFiles": [
+    "content/post/test4/index.md",
+    "content/post/test4/cover.jpg",
+    "content/post/test4",
+    "content/post",
+    "content",
+    "_Templates/templater/convert-blog.md",
+    "_Templates/templater/new-blog.md",
+    "content/post/testsss/cover.jpg",
+    "content/post/testsss/index.md",
+    "content/post/testsss",
+    "content/post/test212/cover.jpg",
+    "content/post/test11111/index.md",
+    "content/post/test11111/cover.jpg",
+    "content/post/test212/index.md",
+    "content/post/test222/cover.jpg",
+    "content/post/test212",
+    "content/post/test11111",
+    "content/post/test222/index.md",
+    "content/post/test222",
+    "content/post/test222222/index.md",
+    "content/post/test222222/cover.jpg",
+    "content/post/test222222",
+    "content/post/test111111/index.md",
+    "content/post/test111111",
     "content/post/test222333/index.md",
     "content/post/test222333",
     "content/post/test789/cover.jpg",
     "content/post/test789/index.md",
-    "_Templates/templater/nblog.md",
-    "content/post/test789",
     "content/post/test2223/index.md",
-    "content/post/test222/index.md",
-    "content/post/test222/cover.jpg",
-    "content/post/test222",
-    "content/post/test2223",
     "content/post/test456/index.md",
     "content/post/test456/cover.jpg",
-    "content/post/test456",
     "content/post/test33/index.md",
     "content/post/test33/cover.jpg",
-    "content/post/test33",
     "content/post/test11/index.md",
     "daily/2024-04-30_Tuesday.md",
     "content/post/test11/cover.jpg",
-    "content/post/test11",
-    "_Templates/templater/new-blog.md",
     "content/post/test5/index.md",
-    "content/post/test5/cover.jpg",
-    "content/post/test5",
-    "content/post",
-    "content",
     "test4/index.md",
-    "test4/cover.jpg",
     "wsl 网络问题.md",
     "daily/2024-06-18_Tuesday.md",
     "markdown-syntax/index.md",
@@ -241,15 +232,6 @@
     "daily/2024-06-16_Sunday.md",
     "daily/2024-06-15_Saturday.md",
     "daily/2024-06-11_Tuesday.md",
-    "daily/2024-06-07_Friday.md",
-    "daily/2024-06-06_Thursday.md",
-    "daily/2024-06-05_Wednesday.md",
-    "daily/2024-5-10_Friday.md",
-    "daily/2024-05-08_Wednesday.md",
-    "daily/2024-05-06_Monday.md",
-    "daily/2024-05-02_Thursday.md",
-    "《围城》读后感/cover.jpg",
-    "nvm 安装和使用/cover.jpg",
-    "test1/cover.jpg"
+    "daily/2024-06-07_Friday.md"
   ]
 }
