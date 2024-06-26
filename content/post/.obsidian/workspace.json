@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nvm 安装和使用/index.md",
+                "file": "windows 11 蓝牙无法搜索到设备的原因/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nvm 安装和使用/index.md",
+                "file": "windows 11 蓝牙无法搜索到设备的原因/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "nvm 安装和使用/index.md",
+                "file": "windows 11 蓝牙无法搜索到设备的原因/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "nvm 安装和使用/index.md"
+                "file": "windows 11 蓝牙无法搜索到设备的原因/index.md"
               }
             }
           },
@@ -186,8 +185,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cb834a591c96ded8",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "nvm 安装和使用/index.md",
     "hugo + stack + obsidian 搭建博客/index.md",
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
     "放弃折腾 vim 和 emacs.md",
@@ -227,7 +227,6 @@
     "obsidian publisher 文章模板.md",
     "wsl2 安装 gnome 桌面环境.md",
     "wsl 网络问题.md",
-    "信号量.md",
     "Atomic Habits 读后感",
     "null",
     "testsss/cover.jpg",
