@@ -8,7 +8,7 @@ DefaultContentLanguage = "zh-cn"
 hasCJKLanguage = true
 
 # 需要放到配置文件较前的地方，否则可能不生效。相对于 content 文件夹的位置。
-ignoreFiles = ["post/_templates"]
+ignoreFiles = ["../content/post/_templates"]
 
 
 [languages.en]
