@@ -2,20 +2,20 @@
 <html lang="zh-cn" dir="ltr">
     <head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="">
-<title>搜索</title>
+<title>Search</title>
 
 <link rel='canonical' href='http://localhost:1313/blog/search/'>
 
-<link rel="stylesheet" href="/blog/scss/style.min.1ac180b7cace999567e72576a57b02dcac9a4bb3b0058496c791293aa97c651d.css"><meta property='og:title' content="Search">
+<link rel="stylesheet" href="/blog/scss/style.min.1ac180b7cace999567e72576a57b02dcac9a4bb3b0058496c791293aa97c651d.css"><meta property='og:title' content="搜索">
 <meta property='og:description' content="">
 <meta property='og:url' content='http://localhost:1313/blog/search/'>
 <meta property='og:site_name' content='演示站点'>
-<meta property='og:type' content='article'><meta property='article:section' content='' />
-<meta name="twitter:title" content="Search">
-<meta name="twitter:description" content="">
+<meta property='og:type' content='article'><meta property='article:section' content='Page' />
+<meta name="twitter:title" content="搜索">
+<meta name="twitter:description" content=""><link rel="alternate" type="application/json" href="http://localhost:1313/blog/search/index.json">
   
 
-
+<link rel="preload" href="/blog/search/index.json" as="fetch" crossorigin="anonymous">
     </head>
     <body class="template-search">
     <script>
@@ -178,7 +178,7 @@
         </li>
         
         
-        <li >
+        <li  class='current' >
             <a href='/blog/search/' >
                 
                 
@@ -269,7 +269,7 @@
     </ol>
 </aside>
             <main class="main full-width">
-<form action="/blog/search/" class="search-form">
+<form action="/blog/search/" class="search-form"data-json="/blog/search/index.json">
     <p>
         <label>搜索</label>
         <input name="keyword" placeholder="输入关键词..." />
@@ -300,7 +300,7 @@
     <section class="copyright">
         &copy; 
         
-        2024 lyao
+        2024 谷栗杳
     </section>
     
     <section class="powerby">
