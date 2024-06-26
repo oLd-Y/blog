@@ -2,8 +2,8 @@ baseurl = "https://old-y.github.io/blog/"
 languageCode = "zh-CN"
 theme = "hugo-theme-stack"
 paginate = 5
-title = "lyao's Blog"
-copyright = "lyao"
+title = "谷栗杳的博客"
+copyright = "谷栗杳"
 DefaultContentLanguage = "zh-cn"
 hasCJKLanguage = true
 
@@ -13,7 +13,7 @@ ignoreFiles = ["post/_templates"]
 
 [languages.en]
 languageName = "English"
-title = "Example Site"
+title = "lyao's Blog"
 weight = 1
 
   [languages.en.params]
