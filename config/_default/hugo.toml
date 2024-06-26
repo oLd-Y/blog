@@ -1,4 +1,4 @@
-baseurl = "https://old-y.github.io/blog/"
+baseurl = "https://www.example.com"
 languageCode = "zh-CN"
 theme = "hugo-theme-stack"
 paginate = 5

@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>标签 on 演示站点</title>
-        <link>http://localhost:1313/blog/tags/</link>
+        <link>http://localhost:1313/tags/</link>
         <description>Recent content in 标签 on 演示站点</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Wed, 26 Jun 2024 22:29:25 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 26 Jun 2024 22:29:25 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Nvm</title>
-        <link>http://localhost:1313/blog/tags/nvm/</link>
+        <link>http://localhost:1313/tags/nvm/</link>
         <pubDate>Wed, 26 Jun 2024 22:29:25 +0800</pubDate>
         
-        <guid>http://localhost:1313/blog/tags/nvm/</guid>
+        <guid>http://localhost:1313/tags/nvm/</guid>
         <description></description>
         </item>
         <item>
         <title>蓝牙</title>
-        <link>http://localhost:1313/blog/tags/%E8%93%9D%E7%89%99/</link>
+        <link>http://localhost:1313/tags/%E8%93%9D%E7%89%99/</link>
         <pubDate>Tue, 25 Jun 2024 12:43:19 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/tags/%E8%93%9D%E7%89%99/</guid>
+        <guid>http://localhost:1313/tags/%E8%93%9D%E7%89%99/</guid>
         <description></description>
         </item>
         <item>
         <title>Scss</title>
-        <link>http://localhost:1313/blog/tags/scss/</link>
+        <link>http://localhost:1313/tags/scss/</link>
         <pubDate>Tue, 25 Jun 2024 11:11:07 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/tags/scss/</guid>
+        <guid>http://localhost:1313/tags/scss/</guid>
         <description></description>
         </item>
         <item>
         <title>读后感</title>
-        <link>http://localhost:1313/blog/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
+        <link>http://localhost:1313/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
         <pubDate>Tue, 25 Jun 2024 16:16:39 +0800</pubDate>
         
-        <guid>http://localhost:1313/blog/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
+        <guid>http://localhost:1313/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
         <description></description>
         </item>
         <item>
         <title>小说</title>
-        <link>http://localhost:1313/blog/tags/%E5%B0%8F%E8%AF%B4/</link>
+        <link>http://localhost:1313/tags/%E5%B0%8F%E8%AF%B4/</link>
         <pubDate>Tue, 25 Jun 2024 16:16:39 +0800</pubDate>
         
-        <guid>http://localhost:1313/blog/tags/%E5%B0%8F%E8%AF%B4/</guid>
+        <guid>http://localhost:1313/tags/%E5%B0%8F%E8%AF%B4/</guid>
         <description></description>
         </item>
         <item>
         <title>社会科学</title>
-        <link>http://localhost:1313/blog/tags/%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6/</link>
+        <link>http://localhost:1313/tags/%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6/</link>
         <pubDate>Tue, 25 Jun 2024 08:10:16 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/tags/%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6/</guid>
+        <guid>http://localhost:1313/tags/%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6/</guid>
         <description></description>
         </item>
         
