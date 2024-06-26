@@ -5,7 +5,7 @@ categories:
 tags:
   - nvm
 draft: false
-lastmod: 2024-06-25T11:01:45+08:00
+lastmod: 2024-06-26T22:29:25+08:00
 title: nvm 安装和使用
 date: 2024-6-25
 description: ""
@@ -22,25 +22,17 @@ weight: 1
 ```sh
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 ```
-
-
-
 或者使用 wget：
-
 ```sh
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 ``` 
 2. **加载 nvm** ：
-
 运行安装脚本后，添加以下内容到你的 shell 配置文件（例如 `~/.bashrc`, `~/.zshrc`, 或 `~/.profile`）：
 
 ```sh
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 ```
-
-
-
 然后，重新加载 shell 配置文件：
 
 ```sh
@@ -111,10 +103,7 @@ npm install -g npm@latest
 通过以上步骤，你就可以在 Ubuntu 中安装并使用最新版本的 Node.js 和 npm 了。`nvm` 的使用可以让你方便地管理和切换不同版本的 Node.js，满足不同项目的需求。
 
 
-```
-
-
-#### 使用 `test` 进行文件检查
+```#### 使用 `test` 进行文件检查
 
 ```sh
 if test -s "$NVM_DIR/nvm.sh"; then
