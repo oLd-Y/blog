@@ -1,35 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>分类 on Example Site</title>
-        <link>http://localhost:1313/categories/</link>
-        <description>Recent content in 分类 on Example Site</description>
+        <title>分类 on 演示站点</title>
+        <link>http://localhost:1313/blog/categories/</link>
+        <description>Recent content in 分类 on 演示站点</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language>
-        <copyright>Example Person</copyright>
-        <lastBuildDate>Tue, 25 Jun 2024 16:16:39 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>zh-cn</language>
+        <copyright>lyao</copyright>
+        <lastBuildDate>Tue, 25 Jun 2024 12:43:19 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Windows</title>
+        <link>http://localhost:1313/blog/categories/windows/</link>
+        <pubDate>Tue, 25 Jun 2024 12:43:19 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/categories/windows/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>前端</title>
+        <link>http://localhost:1313/blog/categories/%E5%89%8D%E7%AB%AF/</link>
+        <pubDate>Tue, 25 Jun 2024 11:11:07 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/categories/%E5%89%8D%E7%AB%AF/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>读书笔记</title>
-        <link>http://localhost:1313/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+        <link>http://localhost:1313/blog/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
         <pubDate>Tue, 25 Jun 2024 16:16:39 +0800</pubDate>
         
-        <guid>http://localhost:1313/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+        <guid>http://localhost:1313/blog/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
         <description></description>
         </item>
         <item>
         <title>Nodejs</title>
-        <link>http://localhost:1313/categories/nodejs/</link>
+        <link>http://localhost:1313/blog/categories/nodejs/</link>
         <pubDate>Tue, 25 Jun 2024 11:01:45 +0800</pubDate>
         
-        <guid>http://localhost:1313/categories/nodejs/</guid>
+        <guid>http://localhost:1313/blog/categories/nodejs/</guid>
         <description></description>
         </item>
         <item>
         <title>Test</title>
-        <link>http://localhost:1313/categories/test/</link>
+        <link>http://localhost:1313/blog/categories/test/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/test/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
+        <guid>http://localhost:1313/blog/categories/test/</guid>
+        <description>&lt;img src="http://localhost:1313/blog/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
         </item>
         
     </channel>

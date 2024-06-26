@@ -2,79 +2,124 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/zh-cn/</loc>
+    <loc>http://localhost:1313/blog/p/windows-11-%E8%93%9D%E7%89%99%E6%97%A0%E6%B3%95%E6%90%9C%E7%B4%A2%E5%88%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E5%8E%9F%E5%9B%A0/</loc>
+    <lastmod>2024-06-25T20:48:18+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/</loc>
+    <lastmod>2024-06-26T08:18:51+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/p/%E5%9B%B4%E5%9F%8E-%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
+    <lastmod>2024-06-25T16:16:39+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/p/atomic-habits-%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
+    <lastmod>2024-06-25T16:13:37+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</loc>
+    <lastmod>2024-06-25T11:01:45+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2024-06-26T21:56:17+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="http://localhost:1313/blog/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/"
+                href="http://localhost:1313/blog/ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/zh-cn/"
+                href="http://localhost:1313/blog/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-cn/categories/</loc>
+    <loc>http://localhost:1313/blog/post/</loc>
+    <lastmod>2024-06-26T21:56:17+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/windows/</loc>
+    <lastmod>2024-06-25T20:48:18+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/</loc>
+    <lastmod>2024-06-26T08:18:51+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="http://localhost:1313/blog/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/categories/"
+                href="http://localhost:1313/blog/ar/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/zh-cn/categories/"
+                href="http://localhost:1313/blog/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-cn/page/</loc>
+    <loc>http://localhost:1313/blog/categories/</loc>
+    <lastmod>2024-06-26T08:18:51+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="http://localhost:1313/zh-cn/page/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="http://localhost:1313/blog/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/tags/"
+                href="http://localhost:1313/blog/ar/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/zh-cn/tags/"
+                href="http://localhost:1313/blog/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-cn/%E5%85%B3%E4%BA%8E/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="http://localhost:1313/zh-cn/%E5%85%B3%E4%BA%8E/"
-                />
+    <loc>http://localhost:1313/blog/tags/%E8%93%9D%E7%89%99/</loc>
+    <lastmod>2024-06-25T20:48:18+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/scss/</loc>
+    <lastmod>2024-06-26T08:18:51+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2024-06-26T08:18:51+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
+    <lastmod>2024-06-25T16:16:39+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2024-06-25T16:16:39+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/%E5%B0%8F%E8%AF%B4/</loc>
+    <lastmod>2024-06-25T16:16:39+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6/</loc>
+    <lastmod>2024-06-25T16:13:37+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/nodejs/</loc>
+    <lastmod>2024-06-25T11:01:45+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/nvm/</loc>
+    <lastmod>2024-06-25T11:01:45+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/page/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/links/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/search/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/test/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/%E5%85%B3%E4%BA%8E/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/archives/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/search/</loc>
   </url>
 </urlset>

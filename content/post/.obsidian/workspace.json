@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "23ec842d780636ed",
+        "id": "0ae270ee15f25700",
         "type": "tabs",
         "children": [
           {
-            "id": "090e2b20e07875f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53729d9e7e91e96e",
+            "id": "cb834a591c96ded8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "qcFileName ",
+                "query": "博客",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
+                "file": "hugo + stack + obsidian 搭建博客/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
+                "file": "hugo + stack + obsidian 搭建博客/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md"
+                "file": "hugo + stack + obsidian 搭建博客/index.md"
               }
             }
           },
@@ -197,19 +185,33 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "cb834a591c96ded8",
   "lastOpenFiles": [
-    "lsp-bridge 安装过程问题汇总.md",
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
-    "hugo + stack + obsidian 搭建博客/index.md",
+    "放弃折腾 vim 和 emacs.md",
+    "_daily/2024-04-22.md",
+    "Untitled.md",
     "_templates/templater/new-blog.md",
+    "test1/index.md",
+    "test1/cover.jpg",
+    "test1",
+    "windows 11 蓝牙无法搜索到设备的原因/index.md",
+    "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
+    "windows 11 蓝牙无法搜索到设备的原因/cover.jpg.crdownload",
+    "menu.scss/index.md",
+    "windows 11 蓝牙无法搜索到设备的原因",
+    "围城 读后感/index.md",
+    "hugo + stack + obsidian 搭建博客/index.md",
+    "windows 11 蓝牙无法搜索到设备的原因 /index.md",
+    "windows 11 蓝牙无法搜索到设备的原因 /cover.jpg",
+    "windows 11 蓝牙无法搜索到设备的原因 ",
+    "windows 11 蓝牙无法搜索到设备的原因.md",
+    "lsp-bridge 安装过程问题汇总.md",
     "menu.scss/cover.jpg",
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/cover.jpg",
-    "menu.scss/index.md",
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识",
     "_templates/templater/convert-blog.md",
     "menu.scss",
-    "windows 11 蓝牙无法搜索到设备的原因 .md",
     "hugo + stack + obsidian 搭建博客/cover.jpg",
     "zsh 查看所有绑定的快捷键.md",
     "ox-hugo 结合 org-download 粘贴图片.md",
@@ -225,25 +227,11 @@
     "wsl2 安装 gnome 桌面环境.md",
     "wsl 网络问题.md",
     "信号量.md",
-    "Angular Git 提交规范.md",
-    "围城 读后感/index.md",
-    "Atomic Habits 读后感/index.md",
-    "《Atomic Habits》读后感.md",
-    "null/index.md",
     "Atomic Habits 读后感",
     "null",
-    "testsss/index.md",
     "testsss/cover.jpg",
     "testsss",
-    "test444.md",
     "content/post/null/cover.jpg",
-    "content/post/null",
-    "content/post/test444/cover.jpg",
-    "content/post/test4/cover.jpg",
-    "content/post/test444",
-    "content/post/test4",
-    "content/post",
-    "content/post/testsss/cover.jpg",
-    "content/post/test212/cover.jpg"
+    "content/post/test444/cover.jpg"
   ]
 }

@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="在使用 hugo 的主题 stack 的时候，需要修改侧边栏的图标，其中涉及到修改 scss 文件，趁此机会稍微学习一下 scss 的语法。在我参考的博客中的代码是这样的： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 .">
+<html lang="zh-cn" dir="ltr">
+    <head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="在使用 hugo 的主题 stack 的时候，需要修改侧边栏的图标，其中涉及到修改 scss 文件，趁此机会稍微学习一下 scss 的语法。在我参考的博客中的代码是这样的： 1 2 3 4 5">
 <title>通过 hugo 主题 stack 中的 menu.scss 文件学习 css 知识</title>
 
-<link rel='canonical' href='http://localhost:1313/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/'>
+<link rel='canonical' href='http://localhost:1313/blog/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/'>
 
-<link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="通过 hugo 主题 stack 中的 menu.scss 文件学习 css 知识">
-<meta property='og:description' content="在使用 hugo 的主题 stack 的时候，需要修改侧边栏的图标，其中涉及到修改 scss 文件，趁此机会稍微学习一下 scss 的语法。在我参考的博客中的代码是这样的： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 .">
-<meta property='og:url' content='http://localhost:1313/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/'>
-<meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='scss' /><meta property='article:published_time' content='2024-06-25T11:11:07&#43;00:00'/><meta property='article:modified_time' content='2024-06-25T20:06:15&#43;08:00'/><meta property='og:image' content='http://localhost:1313/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/cover.jpg' />
+<link rel="stylesheet" href="/blog/scss/style.min.1ac180b7cace999567e72576a57b02dcac9a4bb3b0058496c791293aa97c651d.css"><meta property='og:title' content="通过 hugo 主题 stack 中的 menu.scss 文件学习 css 知识">
+<meta property='og:description' content="在使用 hugo 的主题 stack 的时候，需要修改侧边栏的图标，其中涉及到修改 scss 文件，趁此机会稍微学习一下 scss 的语法。在我参考的博客中的代码是这样的： 1 2 3 4 5">
+<meta property='og:url' content='http://localhost:1313/blog/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/'>
+<meta property='og:site_name' content='演示站点'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='scss' /><meta property='article:published_time' content='2024-06-25T11:11:07&#43;00:00'/><meta property='article:modified_time' content='2024-06-26T08:18:51&#43;08:00'/><meta property='og:image' content='http://localhost:1313/blog/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/cover.jpg' />
 <meta name="twitter:title" content="通过 hugo 主题 stack 中的 menu.scss 文件学习 css 知识">
-<meta name="twitter:description" content="在使用 hugo 的主题 stack 的时候，需要修改侧边栏的图标，其中涉及到修改 scss 文件，趁此机会稍微学习一下 scss 的语法。在我参考的博客中的代码是这样的： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 ."><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/cover.jpg' />
+<meta name="twitter:description" content="在使用 hugo 的主题 stack 的时候，需要修改侧边栏的图标，其中涉及到修改 scss 文件，趁此机会稍微学习一下 scss 的语法。在我参考的博客中的代码是这样的： 1 2 3 4 5"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/blog/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/cover.jpg' />
   
 
 
@@ -44,7 +44,7 @@
     })();
 </script>
 <div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
-    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
         <span class="hamburger-box">
             <span class="hamburger-inner"></span>
         </span>
@@ -54,13 +54,13 @@
         
             
             <figure class="site-avatar">
-                <a href="/">
+                <a href="/blog/">
                 
                     
                     
                     
                         
-                        <img src="/img/avatar_huda2458f72ce188392d75c5d51cd8e24e_373_300x0_resize_box_3.png" width="300"
+                        <img src="/blog/img/avatar_hu94e2356dc7c89f996982d096d3fcd26c_12520_300x0_resize_box_3.png" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -73,7 +73,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="/">Example Site</a></h1>
+            <h1 class="site-name"><a href="/blog">演示站点</a></h1>
             <h2 class="site-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
         </div>
     </header><ol class="menu-social">
@@ -123,7 +123,7 @@
         
         
         <li >
-            <a href='/' >
+            <a href='/blog/' >
                 
                 
                 
@@ -137,13 +137,13 @@
 
 
                 
-                <span>Home</span>
+                <span>主页</span>
             </a>
         </li>
         
         
         <li >
-            <a href='/about/' >
+            <a href='/blog/%E5%85%B3%E4%BA%8E/' >
                 
                 
                 
@@ -156,13 +156,13 @@
 
 
                 
-                <span>About</span>
+                <span>关于</span>
             </a>
         </li>
         
         
         <li >
-            <a href='/archives/' >
+            <a href='/blog/archives/' >
                 
                 
                 
@@ -176,13 +176,13 @@
 
 
                 
-                <span>Archives</span>
+                <span>归档</span>
             </a>
         </li>
         
         
         <li >
-            <a href='/search/' >
+            <a href='/blog/search/' >
                 
                 
                 
@@ -201,7 +201,7 @@
         
         
         <li >
-            <a href='/links/' >
+            <a href='/blog/links/' >
                 
                 
                 
@@ -235,11 +235,11 @@
 
                             <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
                                 
-                                    <option value="http://localhost:1313/" selected>English</option>
+                                    <option value="http://localhost:1313/blog/en/" >English</option>
                                 
-                                    <option value="http://localhost:1313/zh-cn/" >中文</option>
+                                    <option value="http://localhost:1313/blog/" selected>中文</option>
                                 
-                                    <option value="http://localhost:1313/ar/" >عربي</option>
+                                    <option value="http://localhost:1313/blog/ar/" >عربي</option>
                                 
                             </select>
                         </li>
@@ -264,23 +264,22 @@
 
 
 
-                        <span>Dark Mode</span>
+                        <span>暗色模式</span>
                     </li>
                 
             </ol>
         </li>
     </ol>
 </aside>
-
     
 
             <main class="main full-width">
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/">
-                <img src="/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/cover_hu7671b578a63f2cf0e60ecddcd17fd43d_790407_800x0_resize_q75_box.jpg"
-                        srcset="/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/cover_hu7671b578a63f2cf0e60ecddcd17fd43d_790407_800x0_resize_q75_box.jpg 800w, /p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/cover_hu7671b578a63f2cf0e60ecddcd17fd43d_790407_1600x0_resize_q75_box.jpg 1600w"
+            <a href="/blog/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/">
+                <img src="/blog/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/cover_hu7671b578a63f2cf0e60ecddcd17fd43d_790407_800x0_resize_q75_box.jpg"
+                        srcset="/blog/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/cover_hu7671b578a63f2cf0e60ecddcd17fd43d_790407_800x0_resize_q75_box.jpg 800w, /blog/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/cover_hu7671b578a63f2cf0e60ecddcd17fd43d_790407_1600x0_resize_q75_box.jpg 1600w"
                         width="800" 
                         height="450" 
                         loading="lazy"
@@ -294,7 +293,7 @@
     
     <header class="article-category">
         
-            <a href="/categories/%E5%89%8D%E7%AB%AF/" >
+            <a href="/blog/categories/%E5%89%8D%E7%AB%AF/" >
                 前端
             </a>
         
@@ -303,7 +302,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/">通过 hugo 主题 stack 中的 menu.scss 文件学习 css 知识</a>
+            <a href="/blog/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/">通过 hugo 主题 stack 中的 menu.scss 文件学习 css 知识</a>
         </h2>
     
         
@@ -340,7 +339,7 @@
 
 
                 <time class="article-time--reading">
-                    3 minute read
+                    阅读时长: 4 分钟
                 </time>
             </div>
         
@@ -713,6 +712,130 @@
 <li><strong>标签选择器</strong>（<code>element</code>）和伪元素选择器（<code>::before</code>、<code>::after</code>）。</li>
 <li><strong>通配符选择器</strong>（<code>*</code>）和组合选择器（后代选择器、子选择器等）。</li>
 </ul>
+<h1 id="a">a
+</h1><p>表示整个 a 标签都应用 <code>{}</code> 中的属性</p>
+<h1 id="display-moz-inline-stack">display:-moz-inline-stack
+</h1><p>以 <code>-</code> 开头的属性一般为各大浏览器的实验属性</p>
+<ul>
+<li><code>-moz-</code>：用于 Mozilla Firefox。</li>
+<li><code>-webkit-</code>：用于 Safari 和 Chrome。</li>
+<li><code>-ms-</code>：用于 Internet Explorer 和 Edge。</li>
+<li><code>-o-</code>：用于 Opera。</li>
+</ul>
+<h1 id="displayinline">*display:inline;
+</h1><p><code>*</code> 是一种 css hack，专门用于针对早期版本的 Internet Explorer。其它 css hack：</p>
+<ul>
+<li><strong>下划线前缀</strong>（<code>_</code>）：</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">_height</span><span class="o">:</span> <span class="nt">100px</span><span class="o">;</span> <span class="c">/* 仅对 IE6 生效 */</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><strong>IE条件注释</strong>：</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="o">&lt;!</span><span class="nt">--</span><span class="o">[</span><span class="nt">if</span> <span class="nt">IE</span> <span class="nt">6</span><span class="o">]&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nt">link</span> <span class="nt">rel</span><span class="o">=</span><span class="s2">&#34;stylesheet&#34;</span> <span class="nt">type</span><span class="o">=</span><span class="s2">&#34;text/css&#34;</span> <span class="nt">href</span><span class="o">=</span><span class="s2">&#34;ie6.css&#34;</span> <span class="o">/&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;![</span><span class="nt">endif</span><span class="o">]</span><span class="nt">--</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;!</span><span class="nt">--</span><span class="o">[</span><span class="nt">if</span> <span class="nt">IE</span> <span class="nt">7</span><span class="o">]&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nt">link</span> <span class="nt">rel</span><span class="o">=</span><span class="s2">&#34;stylesheet&#34;</span> <span class="nt">type</span><span class="o">=</span><span class="s2">&#34;text/css&#34;</span> <span class="nt">href</span><span class="o">=</span><span class="s2">&#34;ie7.css&#34;</span> <span class="o">/&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;![</span><span class="nt">endif</span><span class="o">]</span><span class="nt">--</span><span class="o">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>由于 CSS hacks 的不标准性和潜在的维护问题，建议尽量避免使用这些技巧。现代浏览器的兼容性已经大大改善，因此可以使用更标准的方法，例如：</p>
+<ul>
+<li><strong>Feature Queries</strong>：</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="p">@</span><span class="k">supports</span> <span class="o">(</span><span class="nt">display</span><span class="o">:</span> <span class="nt">grid</span><span class="o">)</span> <span class="p">{</span>   <span class="p">.</span><span class="nc">container</span> <span class="p">{</span>     <span class="k">display</span><span class="p">:</span> <span class="k">grid</span><span class="p">;</span>   <span class="p">}</span> <span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><strong>Conditional Comments</strong>：仅在 HTML 中使用，以确保针对特定版本的 IE 应用特定样式。</li>
+<li><strong>Polyfills 和 PostCSS</strong>：自动处理兼容性问题的工具。</li>
+</ul>
+<h1 id="hover">&amp;:hover
+</h1><p><code>&amp;</code> 用于在嵌套的 css 中表示父 css 对象。例如：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">a</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">color</span><span class="p">:</span> <span class="kc">blue</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="err">&amp;.show</span> <span class="err">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">font-weight</span><span class="p">:</span> <span class="kc">bold</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="err">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>会编译成</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">a</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">color</span><span class="p">:</span> <span class="kc">blue</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nt">a</span><span class="p">.</span><span class="nc">show</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">font-weight</span><span class="p">:</span> <span class="kc">bold</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><code>&amp;:hover {}</code> 中的 <code>:</code> 表示伪类选择器（上面提到过）。常用于选择元素的不同状态，例如悬停（<code>:hover</code>）、聚焦（<code>:focus</code>）、选中（<code>:checked</code>）等。常用的伪类选择器包括：</p>
+<ul>
+<li><code>:hover</code>：鼠标悬停在元素上时应用的样式。</li>
+<li><code>:focus</code>：元素获得焦点时应用的样式，例如点击输入框。</li>
+<li><code>:active</code>：元素被激活时应用的样式，例如鼠标点击时。</li>
+<li><code>:first-child</code>：选择父元素的第一个子元素。</li>
+<li><code>:nth-child(n)</code>：选择父元素的第 n 个子元素。</li>
+</ul>
+<h1 id="aweibo">a.weibo
+</h1><p>这是标签选择器 <code>a</code> 和类选择器 <code>.weibo</code> 的组合，表示选择所有包含 <code>weibo</code> 类的 <code>a</code> 标签。</p>
+<h1 id="border1px-solid-009a61">border:1px solid #009a61;
+</h1><p><code>solid</code> 表示一个单一的实线边框。常见的边框样式还有：</p>
+<ul>
+<li><code>dotted</code>：点状边框。</li>
+<li><code>dashed</code>：虚线边框。</li>
+<li><code>double</code>：双线边框。</li>
+<li><code>groove</code>：凹槽边框。</li>
+<li><code>ridge</code>：脊状边框。</li>
+<li><code>inset</code>：嵌入边框。</li>
+<li><code>outset</code>：凸起边框。</li>
+<li><code>none</code>：无边框。</li>
+<li><code>hidden</code>：隐藏的边框。</li>
+</ul>
 
 </section>
 
@@ -721,7 +844,7 @@
     
     <section class="article-tags">
         
-            <a href="/tags/scss/">Scss</a>
+            <a href="/blog/tags/scss/">Scss</a>
         
     </section>
 
@@ -748,11 +871,35 @@
 
 
         <span>
-            Last updated on Jun 25, 2024 20:06 CST
+            最后更新于 Jun 26, 2024 08:18 CST
         </span>
     </section></footer>
 
 
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.body, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
     
 </article>
 
@@ -761,17 +908,17 @@
     
 
 <aside class="related-content--wrapper">
-    <h2 class="section-title">Related content</h2>
+    <h2 class="section-title">相关文章</h2>
     <div class="related-content">
         <div class="flex article-list--tile">
             
                 
 <article class="has-image">
-    <a href="/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/">
+    <a href="/blog/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/">
         
         
             <div class="article-image">
-                <img src="/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/cover.bcf89a5a25040d0d118f95da0067a42f_huc517c4b22b4e1afe78d4c8e6e03cb962_189865_250x150_fill_q75_box_smart1.jpg" 
+                <img src="/blog/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/cover.bcf89a5a25040d0d118f95da0067a42f_huc517c4b22b4e1afe78d4c8e6e03cb962_189865_250x150_fill_q75_box_smart1.jpg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -844,14 +991,12 @@
     <section class="copyright">
         &copy; 
         
-            2020 - 
-        
-        2024 Example Person
+        2024 lyao
     </section>
     
     <section class="powerby">
-        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.26.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.26.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>
 </footer>
 
@@ -940,7 +1085,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+            </script><script type="text/javascript" src="/blog/ts/main.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

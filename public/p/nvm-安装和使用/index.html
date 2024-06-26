@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="安装 nvm 下载并安装 nvm ： 你可以使用以下命令下载并安装 nvm： 1 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash 或者使用 wget： 1 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash 加载 nvm ： 运行安装脚本后，添加以下内容到你的 shell 配置文件（例如 ~/.bashrc, ~/.zshrc, 或 ~/.profile）： 1 2 export NVM_DIR=&#34;$([ -z &#34;${XDG_CONFIG_HOME-}&#34; ] &amp;&amp; printf %s &#34;${HOME}/.nvm&#34; || printf %s &#34;${XDG_CONFIG_HOME}/nvm&#34;)&#34; [ -s &#34;$NVM_DIR/nvm.sh&#34; ] &amp;&amp; \\. &#34;$NVM_DIR/nvm.sh&#34; # This loads nvm 然后，重新加载 shell 配置文件： 1 source ~/.bashrc # 或者 ~/.zshrc, ~/.profile 验证 nvm 安装 ： 运行以下命令，确保 nvm 已正确安装：">
+<html lang="zh-cn" dir="ltr">
+    <head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="安装 nvm 下载并安装 nvm ： 你可以使用以下命令下载并安装 nvm： 1 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash 或者使用 wget： 1 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash 加载 nvm ： 运行安装脚本后，添加以下内容到你的">
 <title>nvm 安装和使用</title>
 
-<link rel='canonical' href='http://localhost:1313/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/'>
+<link rel='canonical' href='http://localhost:1313/blog/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/'>
 
-<link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="nvm 安装和使用">
-<meta property='og:description' content="安装 nvm 下载并安装 nvm ： 你可以使用以下命令下载并安装 nvm： 1 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash 或者使用 wget： 1 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash 加载 nvm ： 运行安装脚本后，添加以下内容到你的 shell 配置文件（例如 ~/.bashrc, ~/.zshrc, 或 ~/.profile）： 1 2 export NVM_DIR=&#34;$([ -z &#34;${XDG_CONFIG_HOME-}&#34; ] &amp;&amp; printf %s &#34;${HOME}/.nvm&#34; || printf %s &#34;${XDG_CONFIG_HOME}/nvm&#34;)&#34; [ -s &#34;$NVM_DIR/nvm.sh&#34; ] &amp;&amp; \\. &#34;$NVM_DIR/nvm.sh&#34; # This loads nvm 然后，重新加载 shell 配置文件： 1 source ~/.bashrc # 或者 ~/.zshrc, ~/.profile 验证 nvm 安装 ： 运行以下命令，确保 nvm 已正确安装：">
-<meta property='og:url' content='http://localhost:1313/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/'>
-<meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='nvm' /><meta property='article:published_time' content='2024-06-25T11:01:45&#43;08:00'/><meta property='article:modified_time' content='2024-06-25T11:01:45&#43;08:00'/><meta property='og:image' content='http://localhost:1313/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/cover.jpg' />
+<link rel="stylesheet" href="/blog/scss/style.min.1ac180b7cace999567e72576a57b02dcac9a4bb3b0058496c791293aa97c651d.css"><meta property='og:title' content="nvm 安装和使用">
+<meta property='og:description' content="安装 nvm 下载并安装 nvm ： 你可以使用以下命令下载并安装 nvm： 1 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash 或者使用 wget： 1 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash 加载 nvm ： 运行安装脚本后，添加以下内容到你的">
+<meta property='og:url' content='http://localhost:1313/blog/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/'>
+<meta property='og:site_name' content='演示站点'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='nvm' /><meta property='article:published_time' content='2024-06-25T11:01:45&#43;08:00'/><meta property='article:modified_time' content='2024-06-25T11:01:45&#43;08:00'/><meta property='og:image' content='http://localhost:1313/blog/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/cover.jpg' />
 <meta name="twitter:title" content="nvm 安装和使用">
-<meta name="twitter:description" content="安装 nvm 下载并安装 nvm ： 你可以使用以下命令下载并安装 nvm： 1 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash 或者使用 wget： 1 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash 加载 nvm ： 运行安装脚本后，添加以下内容到你的 shell 配置文件（例如 ~/.bashrc, ~/.zshrc, 或 ~/.profile）： 1 2 export NVM_DIR=&#34;$([ -z &#34;${XDG_CONFIG_HOME-}&#34; ] &amp;&amp; printf %s &#34;${HOME}/.nvm&#34; || printf %s &#34;${XDG_CONFIG_HOME}/nvm&#34;)&#34; [ -s &#34;$NVM_DIR/nvm.sh&#34; ] &amp;&amp; \\. &#34;$NVM_DIR/nvm.sh&#34; # This loads nvm 然后，重新加载 shell 配置文件： 1 source ~/.bashrc # 或者 ~/.zshrc, ~/.profile 验证 nvm 安装 ： 运行以下命令，确保 nvm 已正确安装："><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/cover.jpg' />
+<meta name="twitter:description" content="安装 nvm 下载并安装 nvm ： 你可以使用以下命令下载并安装 nvm： 1 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash 或者使用 wget： 1 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash 加载 nvm ： 运行安装脚本后，添加以下内容到你的"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/blog/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/cover.jpg' />
   
 
 
@@ -44,7 +44,7 @@
     })();
 </script>
 <div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
-    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
         <span class="hamburger-box">
             <span class="hamburger-inner"></span>
         </span>
@@ -54,13 +54,13 @@
         
             
             <figure class="site-avatar">
-                <a href="/">
+                <a href="/blog/">
                 
                     
                     
                     
                         
-                        <img src="/img/avatar_huda2458f72ce188392d75c5d51cd8e24e_373_300x0_resize_box_3.png" width="300"
+                        <img src="/blog/img/avatar_hu94e2356dc7c89f996982d096d3fcd26c_12520_300x0_resize_box_3.png" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -73,7 +73,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="/">Example Site</a></h1>
+            <h1 class="site-name"><a href="/blog">演示站点</a></h1>
             <h2 class="site-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
         </div>
     </header><ol class="menu-social">
@@ -123,7 +123,7 @@
         
         
         <li >
-            <a href='/' >
+            <a href='/blog/' >
                 
                 
                 
@@ -137,13 +137,13 @@
 
 
                 
-                <span>Home</span>
+                <span>主页</span>
             </a>
         </li>
         
         
         <li >
-            <a href='/about/' >
+            <a href='/blog/%E5%85%B3%E4%BA%8E/' >
                 
                 
                 
@@ -156,13 +156,13 @@
 
 
                 
-                <span>About</span>
+                <span>关于</span>
             </a>
         </li>
         
         
         <li >
-            <a href='/archives/' >
+            <a href='/blog/archives/' >
                 
                 
                 
@@ -176,13 +176,13 @@
 
 
                 
-                <span>Archives</span>
+                <span>归档</span>
             </a>
         </li>
         
         
         <li >
-            <a href='/search/' >
+            <a href='/blog/search/' >
                 
                 
                 
@@ -201,7 +201,7 @@
         
         
         <li >
-            <a href='/links/' >
+            <a href='/blog/links/' >
                 
                 
                 
@@ -235,11 +235,11 @@
 
                             <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
                                 
-                                    <option value="http://localhost:1313/" selected>English</option>
+                                    <option value="http://localhost:1313/blog/en/" >English</option>
                                 
-                                    <option value="http://localhost:1313/zh-cn/" >中文</option>
+                                    <option value="http://localhost:1313/blog/" selected>中文</option>
                                 
-                                    <option value="http://localhost:1313/ar/" >عربي</option>
+                                    <option value="http://localhost:1313/blog/ar/" >عربي</option>
                                 
                             </select>
                         </li>
@@ -264,14 +264,13 @@
 
 
 
-                        <span>Dark Mode</span>
+                        <span>暗色模式</span>
                     </li>
                 
             </ol>
         </li>
     </ol>
 </aside>
-
     <aside class="sidebar right-sidebar sticky">
         
             
@@ -289,7 +288,7 @@
 
 
         </div>
-        <h2 class="widget-title section-title">Table of contents</h2>
+        <h2 class="widget-title section-title">目录</h2>
         
         <div class="widget--toc">
             <nav id="TableOfContents">
@@ -331,9 +330,9 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/">
-                <img src="/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/cover_huc517c4b22b4e1afe78d4c8e6e03cb962_189865_800x0_resize_q75_box.jpg"
-                        srcset="/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/cover_huc517c4b22b4e1afe78d4c8e6e03cb962_189865_800x0_resize_q75_box.jpg 800w, /p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/cover_huc517c4b22b4e1afe78d4c8e6e03cb962_189865_1600x0_resize_q75_box.jpg 1600w"
+            <a href="/blog/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/">
+                <img src="/blog/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/cover_huc517c4b22b4e1afe78d4c8e6e03cb962_189865_800x0_resize_q75_box.jpg"
+                        srcset="/blog/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/cover_huc517c4b22b4e1afe78d4c8e6e03cb962_189865_800x0_resize_q75_box.jpg 800w, /blog/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/cover_huc517c4b22b4e1afe78d4c8e6e03cb962_189865_1600x0_resize_q75_box.jpg 1600w"
                         width="800" 
                         height="441" 
                         loading="lazy"
@@ -347,7 +346,7 @@
     
     <header class="article-category">
         
-            <a href="/categories/nodejs/" >
+            <a href="/blog/categories/nodejs/" >
                 Nodejs
             </a>
         
@@ -356,7 +355,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/">nvm 安装和使用</a>
+            <a href="/blog/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/">nvm 安装和使用</a>
         </h2>
     
         
@@ -393,7 +392,7 @@
 
 
                 <time class="article-time--reading">
-                    3 minute read
+                    阅读时长: 3 分钟
                 </time>
             </div>
         
@@ -748,7 +747,7 @@
     
     <section class="article-tags">
         
-            <a href="/tags/nvm/">Nvm</a>
+            <a href="/blog/tags/nvm/">Nvm</a>
         
     </section>
 
@@ -769,11 +768,68 @@
 
 
     
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.body, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
 </article>
 
     
 
     
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/blog/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/">
+        
+        
+            <div class="article-image">
+                <img src="/blog/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/cover.f84d413bd147b98926b0a50a2c80053f_hu7671b578a63f2cf0e60ecddcd17fd43d_790407_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 通过 hugo 主题 stack 中的 menu.scss 文件学习 css 知识"
+                        
+                        data-hash="md5-&#43;E1BO9FHuYkmsKUKLIAFPw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">通过 hugo 主题 stack 中的 menu.scss 文件学习 css 知识</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
 
      
     
@@ -826,14 +882,12 @@
     <section class="copyright">
         &copy; 
         
-            2020 - 
-        
-        2024 Example Person
+        2024 lyao
     </section>
     
     <section class="powerby">
-        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.26.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.26.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>
 </footer>
 
@@ -922,7 +976,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+            </script><script type="text/javascript" src="/blog/ts/main.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

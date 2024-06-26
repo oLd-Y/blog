@@ -9,7 +9,7 @@ slug: ""
 image: cover.jpg
 weight: 1
 draft: true
-lastmod: 2024-06-25T19:23:07+08:00
+lastmod: 2024-06-26T21:58:19+08:00
 ---
 # obsidian
 templater 插件，创建博客以及自动拉取图片
@@ -96,3 +96,7 @@ ignoreFiles = ["post/_templates"]
 
 
 [个人网站的建立过程（三）：Hugo主题stack的使用与优化](https://jinli.io/p/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84%E5%BB%BA%E7%AB%8B%E8%BF%87%E7%A8%8B%E4%B8%89hugo%E4%B8%BB%E9%A2%98stack%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E4%BC%98%E5%8C%96/)
+
+[Hugo Stack主题装修笔记](https://thirdshire.com/hugo-stack-renovation/)
+
+注意 hugo.toml 中的 baseurl 需要设置成自己的域名，否则搜索功能无法使用。

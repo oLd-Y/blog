@@ -1,6 +1,5 @@
 <%*
 const fs = require('fs');
-const path = require('path');
 
 // 获取用户输入的 Note Title
 let qcFileName = await tp.system.prompt("Note Title");
@@ -27,8 +26,8 @@ if (!fs.existsSync(`${vaultPath}${newFolder}`)) {
 // 创建新的 markdown 文件并添加 front matter
 let frontMatter = `---
 title: ${titleName}
-categories: ""
-tags: ""
+categories: 
+tags: 
 date: ${new Date().toISOString()}
 description: ""
 slug: ""

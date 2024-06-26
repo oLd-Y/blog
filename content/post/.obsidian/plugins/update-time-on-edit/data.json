@@ -36,7 +36,6 @@
     "放弃折腾 vim 和 emacs.md": "98b07cfe5aa8c0954c709099c1c6b3b779b54726a46c671e273264e0fda3ac27",
     "emacs 入坑建议.md": "f9f4bad1ce54cf78c3e9f8b711c2d55dd58f6ad81d4817bcf3ffa3b47789edd3",
     "emacs 默认快捷键.md": "6eb8eff8e78d1a9060570d5e4c8354f871ecbc2baab68e94f7859f39adf1e661",
-    "windows 11 蓝牙无法搜索到设备的原因 .md": "24fae9f14e18bc1c1b0fab021fe066f69c8440760e569999adb6409a1e48059d",
     "wsl2 安装 gnome 桌面环境.md": "0bfdf79b834c4e526421bec6376693c80d1596d759e3b1bd1ee116f13e3f1375",
     "Ubuntu 22.04 更换镜像源.md": "d71b8c02fb97c433c6e5b479556ad091aef2b99b36f0bb18b06e10bda162e242",
     "windows 无法进入 wsl.md": "31bbdfb50c1992e5e3c57087cd1278e1ad4b24e7b8d6bb38a0f9964d2c98bd17",
@@ -94,8 +93,10 @@
     "Atomic Habits 读后感/index.md": "bcfa5124743a66f498abbfa770b4570d53c3ac7ea387fab4a08843eeb02377f2",
     "_templates/templater/new-blog.md": "244942963c714ab76e70301dba8ca6c71ae1ccc6e507281623ee98270a931a8c",
     "围城 读后感/index.md": "a2b2eedd0613d19803d6750ad877d01e87eccfe5f9399c97704dd78b111a07bb",
-    "hugo + stack + obsidian 搭建博客/index.md": "2c788cc927c823e622cf0280c08b9e38b0c57e37ee8ab4cb810d84977a89d081",
+    "hugo + stack + obsidian 搭建博客/index.md": "5d6266ee6161e9d236fe54398174421406d5a129037701cee94ef8b963f8411c",
     "menu.scss/index.md": "e1859b60a8a6758d2c581f41f48a849ec99e4443b431b769a0c26ab68a4bf510",
-    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md": "a319b6b15da2e259bce52d234f28da7ec8ab1baa46b632182a9986e0b8b1e177"
+    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md": "3026ecfb593f70bad52ca83dbe1ee6f1842e40a2f9f7ae36c6731006b07c6990",
+    "windows 11 蓝牙无法搜索到设备的原因 /index.md": "ae63efb16bcf53e605dd76d3892e43bd813e89eaa0f53931fcfe61249796b223",
+    "windows 11 蓝牙无法搜索到设备的原因/index.md": "efe2c9ec4cce6281f2307423962e57fc8dc4823c5698b219ed59b1c21d03ea38"
   }
 }

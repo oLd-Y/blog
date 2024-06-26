@@ -11,7 +11,7 @@ slug: ""
 image: cover.jpg
 weight: 1
 draft: false
-lastmod: 2024-06-25T20:06:15+08:00
+lastmod: 2024-06-26T08:18:51+08:00
 ---
 在使用 hugo 的主题 [stack](https://github.com/CaiJimmy/hugo-theme-stack) 的时候，需要修改侧边栏的图标，其中涉及到修改 scss 文件，趁此机会稍微学习一下 scss 的语法。在我[参考的博客](https://jinli.io/p/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84%E5%BB%BA%E7%AB%8B%E8%BF%87%E7%A8%8B%E4%B8%89hugo%E4%B8%BB%E9%A2%98stack%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E4%BC%98%E5%8C%96/)中的代码是这样的：
 ```scss
@@ -187,7 +187,6 @@ a.weibo {}
 
 border:1px solid #009a61;
 
-
 ```
 
 # .social-menu {}
@@ -198,3 +197,82 @@ border:1px solid #009a61;
 - **类选择器**（`.class`）、属性选择器（`[attribute]`）和伪类选择器（`:hover`）。
 - **标签选择器**（`element`）和伪元素选择器（`::before`、`::after`）。
 - **通配符选择器**（`*`）和组合选择器（后代选择器、子选择器等）。
+
+# a {}
+表示整个 a 标签都应用 `{}` 中的属性
+
+# display:-moz-inline-stack
+以 `-` 开头的属性一般为各大浏览器的实验属性
+- `-moz-`：用于 Mozilla Firefox。
+- `-webkit-`：用于 Safari 和 Chrome。
+- `-ms-`：用于 Internet Explorer 和 Edge。
+- `-o-`：用于 Opera。
+
+# \*display:inline;
+`*` 是一种 css hack，专门用于针对早期版本的 Internet Explorer。其它 css hack：
+- **下划线前缀**（`_`）：
+```css
+_height: 100px; /* 仅对 IE6 生效 */
+```
+- **IE条件注释**：
+ ```css
+<!--[if IE 6]>
+<link rel="stylesheet" type="text/css" href="ie6.css" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="ie7.css" />
+<![endif]-->
+
+```
+
+由于 CSS hacks 的不标准性和潜在的维护问题，建议尽量避免使用这些技巧。现代浏览器的兼容性已经大大改善，因此可以使用更标准的方法，例如：
+- **Feature Queries**：
+```css
+@supports (display: grid) {   .container {     display: grid;   } }
+```
+- **Conditional Comments**：仅在 HTML 中使用，以确保针对特定版本的 IE 应用特定样式。
+- **Polyfills 和 PostCSS**：自动处理兼容性问题的工具。
+
+# &:hover {}
+`&` 用于在嵌套的 css 中表示父 css 对象。例如：
+```css
+a {
+    color: blue;
+    &.show {
+        font-weight: bold;
+    }
+}
+```
+会编译成
+```css
+a {
+    color: blue;
+}
+
+a.show {
+    font-weight: bold;
+}
+```
+
+`&:hover {}` 中的 `:` 表示伪类选择器（上面提到过）。常用于选择元素的不同状态，例如悬停（`:hover`）、聚焦（`:focus`）、选中（`:checked`）等。常用的伪类选择器包括：
+- `:hover`：鼠标悬停在元素上时应用的样式。
+- `:focus`：元素获得焦点时应用的样式，例如点击输入框。
+- `:active`：元素被激活时应用的样式，例如鼠标点击时。
+- `:first-child`：选择父元素的第一个子元素。
+- `:nth-child(n)`：选择父元素的第 n 个子元素。
+
+# a.weibo {}
+这是标签选择器 `a` 和类选择器 `.weibo` 的组合，表示选择所有包含 `weibo` 类的 `a` 标签。
+
+# border:1px solid \#009a61;
+`solid` 表示一个单一的实线边框。常见的边框样式还有：
+- `dotted`：点状边框。
+- `dashed`：虚线边框。
+- `double`：双线边框。
+- `groove`：凹槽边框。
+- `ridge`：脊状边框。
+- `inset`：嵌入边框。
+- `outset`：凸起边框。
+- `none`：无边框。
+- `hidden`：隐藏的边框。
+
