@@ -19,8 +19,12 @@
             "id": "d092bb2218af7158",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md"
+              }
             }
           },
           {
@@ -197,11 +205,14 @@
   },
   "active": "d092bb2218af7158",
   "lastOpenFiles": [
+    "Windows 实现划词翻译及生词本功能（DeepL 接口和桌面端）/index.md",
+    "menu.scss/cover.jpg",
+    "menu.scss/index.md",
+    "围城 读后感/index.md",
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
     "null/cover.jpg",
     "null/index.md",
     "Atomic Habits 读后感/index.md",
-    "围城 读后感/index.md",
     "hugo + stack + obsidian 搭建博客/index.md",
     "nvm 安装和使用/cover.jpg",
     "test1/cover.jpg",
@@ -217,14 +228,12 @@
     "test1",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg.crdownload",
-    "menu.scss/index.md",
     "windows 11 蓝牙无法搜索到设备的原因",
     "windows 11 蓝牙无法搜索到设备的原因 /index.md",
     "windows 11 蓝牙无法搜索到设备的原因 /cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因 ",
     "windows 11 蓝牙无法搜索到设备的原因.md",
     "lsp-bridge 安装过程问题汇总.md",
-    "menu.scss/cover.jpg",
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/cover.jpg",
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识",
     "_templates/templater/convert-blog.md",
