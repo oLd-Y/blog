@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_weread/围城.md",
+                "file": "围城 读后感/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_weread/围城.md",
+                "file": "围城 读后感/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_weread/围城.md",
+                "file": "围城 读后感/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_weread/围城.md"
+                "file": "围城 读后感/index.md"
               }
             }
           },
@@ -185,8 +185,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "cb834a591c96ded8",
   "lastOpenFiles": [
+    "_weread/围城.md",
     "围城 读后感/index.md",
     "null/cover.jpg",
     "null/index.md",
