@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>演示站点</title>
-        <link>http://localhost:1313/blog/</link>
-        <description>Recent content on 演示站点</description>
+        <title>谷栗杳的博客</title>
+        <link>http://localhost:1313/</link>
+        <description>Recent content on 谷栗杳的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Wed, 26 Jun 2024 22:29:25 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 26 Jun 2024 22:29:25 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>nvm 安装和使用</title>
-        <link>http://localhost:1313/blog/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</link>
+        <link>http://localhost:1313/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</link>
         <pubDate>Wed, 26 Jun 2024 22:29:25 +0800</pubDate>
         
-        <guid>http://localhost:1313/blog/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</guid>
-        <description>&lt;img src="http://localhost:1313/blog/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/cover.jpg" alt="Featured image of post nvm 安装和使用" /&gt;&lt;h3 id=&#34;安装-nvm&#34;&gt;安装 nvm
+        <guid>http://localhost:1313/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</guid>
+        <description>&lt;img src="http://localhost:1313/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/cover.jpg" alt="Featured image of post nvm 安装和使用" /&gt;&lt;h3 id=&#34;安装-nvm&#34;&gt;安装 nvm
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;下载并安装 nvm&lt;/strong&gt; ：&lt;/li&gt;
 &lt;/ol&gt;
@@ -340,11 +340,11 @@
         </item>
         <item>
         <title>windows 11 蓝牙无法搜索到设备的原因</title>
-        <link>http://localhost:1313/blog/p/windows-11-%E8%93%9D%E7%89%99%E6%97%A0%E6%B3%95%E6%90%9C%E7%B4%A2%E5%88%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E5%8E%9F%E5%9B%A0/</link>
+        <link>http://localhost:1313/p/windows-11-%E8%93%9D%E7%89%99%E6%97%A0%E6%B3%95%E6%90%9C%E7%B4%A2%E5%88%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E5%8E%9F%E5%9B%A0/</link>
         <pubDate>Tue, 25 Jun 2024 12:43:19 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/p/windows-11-%E8%93%9D%E7%89%99%E6%97%A0%E6%B3%95%E6%90%9C%E7%B4%A2%E5%88%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E5%8E%9F%E5%9B%A0/</guid>
-        <description>&lt;img src="http://localhost:1313/blog/p/windows-11-%E8%93%9D%E7%89%99%E6%97%A0%E6%B3%95%E6%90%9C%E7%B4%A2%E5%88%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E5%8E%9F%E5%9B%A0/cover.jpg" alt="Featured image of post windows 11 蓝牙无法搜索到设备的原因" /&gt;&lt;p&gt;刚买的主机，一直没有用过蓝牙设备。前几天尝试连接一个蓝牙设备，一直在蓝牙界面转圈圈，根本搜索不出来设备。这两天被这个问题搞疯了快，今天总算解决了。汇总一下我网上搜集到的评论区好评的比较有效的方法：&lt;/p&gt;
+        <guid>http://localhost:1313/p/windows-11-%E8%93%9D%E7%89%99%E6%97%A0%E6%B3%95%E6%90%9C%E7%B4%A2%E5%88%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E5%8E%9F%E5%9B%A0/</guid>
+        <description>&lt;img src="http://localhost:1313/p/windows-11-%E8%93%9D%E7%89%99%E6%97%A0%E6%B3%95%E6%90%9C%E7%B4%A2%E5%88%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E5%8E%9F%E5%9B%A0/cover.jpg" alt="Featured image of post windows 11 蓝牙无法搜索到设备的原因" /&gt;&lt;p&gt;刚买的主机，一直没有用过蓝牙设备。前几天尝试连接一个蓝牙设备，一直在蓝牙界面转圈圈，根本搜索不出来设备。这两天被这个问题搞疯了快，今天总算解决了。汇总一下我网上搜集到的评论区好评的比较有效的方法：&lt;/p&gt;
 &lt;h2 id=&#34;冷启动&#34;&gt;冷启动
 &lt;/h2&gt;&lt;p&gt;可能是主机中的静电干扰了蓝牙的信号接收，因此需要释放静电。&lt;/p&gt;
 &lt;p&gt;具体操作为，电脑关机之后，拔掉所有外接设备和电源，包括有线和usb接口等，然后长按开机键30s（或者静置10分钟）。之后重新接上设备进行尝试。&lt;/p&gt;
@@ -379,11 +379,11 @@
         </item>
         <item>
         <title>通过 hugo 主题 stack 中的 menu.scss 文件学习 css 知识</title>
-        <link>http://localhost:1313/blog/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/</link>
+        <link>http://localhost:1313/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/</link>
         <pubDate>Tue, 25 Jun 2024 11:11:07 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/</guid>
-        <description>&lt;img src="http://localhost:1313/blog/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/cover.jpg" alt="Featured image of post 通过 hugo 主题 stack 中的 menu.scss 文件学习 css 知识" /&gt;&lt;p&gt;在使用 hugo 的主题 &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>http://localhost:1313/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E9%80%9A%E8%BF%87-hugo-%E4%B8%BB%E9%A2%98-stack-%E4%B8%AD%E7%9A%84-menu.scss-%E6%96%87%E4%BB%B6%E5%AD%A6%E4%B9%A0-css-%E7%9F%A5%E8%AF%86/cover.jpg" alt="Featured image of post 通过 hugo 主题 stack 中的 menu.scss 文件学习 css 知识" /&gt;&lt;p&gt;在使用 hugo 的主题 &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;stack&lt;/a&gt; 的时候，需要修改侧边栏的图标，其中涉及到修改 scss 文件，趁此机会稍微学习一下 scss 的语法。在我&lt;a class=&#34;link&#34; href=&#34;https://jinli.io/p/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84%E5%BB%BA%E7%AB%8B%E8%BF%87%E7%A8%8B%E4%B8%89hugo%E4%B8%BB%E9%A2%98stack%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E4%BC%98%E5%8C%96/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;参考的博客&lt;/a&gt;中的代码是这样的：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -869,11 +869,11 @@
         </item>
         <item>
         <title>围城 读后感</title>
-        <link>http://localhost:1313/blog/p/%E5%9B%B4%E5%9F%8E-%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
+        <link>http://localhost:1313/p/%E5%9B%B4%E5%9F%8E-%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
         <pubDate>Tue, 25 Jun 2024 16:16:39 +0800</pubDate>
         
-        <guid>http://localhost:1313/blog/p/%E5%9B%B4%E5%9F%8E-%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
-        <description>&lt;img src="http://localhost:1313/blog/p/%E5%9B%B4%E5%9F%8E-%E8%AF%BB%E5%90%8E%E6%84%9F/cover.jpg" alt="Featured image of post 围城 读后感" /&gt;&lt;p&gt;围城主要讲述的是20世纪40年代左右，方鸿渐及其朋友、家人、同事之间交际、求职以及爱情相关的故事。按照我粗糙的印象，整个故事大致分为：&lt;/p&gt;
+        <guid>http://localhost:1313/p/%E5%9B%B4%E5%9F%8E-%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E5%9B%B4%E5%9F%8E-%E8%AF%BB%E5%90%8E%E6%84%9F/cover.jpg" alt="Featured image of post 围城 读后感" /&gt;&lt;p&gt;围城主要讲述的是20世纪40年代左右，方鸿渐及其朋友、家人、同事之间交际、求职以及爱情相关的故事。按照我粗糙的印象，整个故事大致分为：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;方鸿渐、苏文纨、唐晓芙、赵辛楣等的感情瓜葛；&lt;/li&gt;
 &lt;li&gt;方鸿渐、赵辛楣、李梅亭等五人前往三闾大学任职的跌宕路途；&lt;/li&gt;
@@ -889,11 +889,11 @@
         </item>
         <item>
         <title>Atomic Habits 读后感</title>
-        <link>http://localhost:1313/blog/p/atomic-habits-%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
+        <link>http://localhost:1313/p/atomic-habits-%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
         <pubDate>Tue, 25 Jun 2024 08:10:16 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/p/atomic-habits-%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
-        <description>&lt;img src="http://localhost:1313/blog/p/atomic-habits-%E8%AF%BB%E5%90%8E%E6%84%9F/cover.jpg" alt="Featured image of post Atomic Habits 读后感" /&gt;&lt;p&gt;原子习惯这本书，主要讲述了如何养成一个好习惯，以及如何改掉一个坏习惯。&lt;/p&gt;
+        <guid>http://localhost:1313/p/atomic-habits-%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
+        <description>&lt;img src="http://localhost:1313/p/atomic-habits-%E8%AF%BB%E5%90%8E%E6%84%9F/cover.jpg" alt="Featured image of post Atomic Habits 读后感" /&gt;&lt;p&gt;原子习惯这本书，主要讲述了如何养成一个好习惯，以及如何改掉一个坏习惯。&lt;/p&gt;
 &lt;p&gt;人们每天习惯性的动作占据了一个人的50%~60%的时间：起床后自动地去洗漱，出门时无意识地先穿左脚的鞋，学一会儿不由自主地打开手机，无需思考也能打出想要的字……&lt;/p&gt;
 &lt;p&gt;一个习惯的培养或者淡化，主要涉及四个方面：线索、渴望、反馈、奖励。说人话就是，你看到了某个人或者事物，他激发了你心中的某个兴趣，让你产生了做某件事的冲突，然后在做了之后产生反馈，进而产生正向或者反向的奖励，使你继续/不愿继续保持这个习惯。&lt;/p&gt;
 &lt;p&gt;这本书中有几个观点我比较印象深刻：&lt;/p&gt;
@@ -913,35 +913,35 @@
         </item>
         <item>
         <title>归档</title>
-        <link>http://localhost:1313/blog/archives/</link>
+        <link>http://localhost:1313/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/archives/</guid>
+        <guid>http://localhost:1313/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>http://localhost:1313/blog/%E5%85%B3%E4%BA%8E/</link>
+        <link>http://localhost:1313/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>http://localhost:1313/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>搜索</title>
-        <link>http://localhost:1313/blog/search/</link>
+        <link>http://localhost:1313/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/search/</guid>
+        <guid>http://localhost:1313/search/</guid>
         <description></description>
         </item>
         <item>
         <title>友链</title>
-        <link>http://localhost:1313/blog/%E5%8F%8B%E9%93%BE/</link>
+        <link>http://localhost:1313/%E5%8F%8B%E9%93%BE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/%E5%8F%8B%E9%93%BE/</guid>
+        <guid>http://localhost:1313/%E5%8F%8B%E9%93%BE/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;

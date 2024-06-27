@@ -1,4 +1,4 @@
-baseurl = "https://old-y.github.io/blog/"
+baseurl = "https://old-y.github.io/"
 # baseurl = "http://localhost:1313/"
 languageCode = "zh-CN"
 theme = "hugo-theme-stack"
@@ -22,7 +22,7 @@ weight = 1
 
 [languages.zh-cn]
 languageName = "中文"
-title = "演示站点"
+title = "谷栗杳的博客"
 weight = 2
 
   [languages.zh-cn.params]

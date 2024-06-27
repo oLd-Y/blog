@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Nodejs on 演示站点</title>
-        <link>http://localhost:1313/blog/categories/nodejs/</link>
-        <description>Recent content in Nodejs on 演示站点</description>
+        <title>Nodejs on 谷栗杳的博客</title>
+        <link>http://localhost:1313/categories/nodejs/</link>
+        <description>Recent content in Nodejs on 谷栗杳的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Wed, 26 Jun 2024 22:29:25 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/nodejs/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 26 Jun 2024 22:29:25 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/nodejs/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>nvm 安装和使用</title>
-        <link>http://localhost:1313/blog/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</link>
+        <link>http://localhost:1313/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</link>
         <pubDate>Wed, 26 Jun 2024 22:29:25 +0800</pubDate>
         
-        <guid>http://localhost:1313/blog/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</guid>
-        <description>&lt;img src="http://localhost:1313/blog/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/cover.jpg" alt="Featured image of post nvm 安装和使用" /&gt;&lt;h3 id=&#34;安装-nvm&#34;&gt;安装 nvm
+        <guid>http://localhost:1313/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</guid>
+        <description>&lt;img src="http://localhost:1313/p/nvm-%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/cover.jpg" alt="Featured image of post nvm 安装和使用" /&gt;&lt;h3 id=&#34;安装-nvm&#34;&gt;安装 nvm
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;下载并安装 nvm&lt;/strong&gt; ：&lt;/li&gt;
 &lt;/ol&gt;
