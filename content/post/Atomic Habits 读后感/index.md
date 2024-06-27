@@ -11,7 +11,7 @@ tags:
   - 社会科学
   - 书摘
 weight: 1
-lastmod: 2024-06-27T13:02:03+08:00
+lastmod: 2024-06-27T14:24:40+08:00
 ---
 ## 读后感
 原子习惯这本书，主要讲述了如何养成一个好习惯，以及如何改掉一个坏习惯。
@@ -126,87 +126,9 @@ lastmod: 2024-06-27T13:02:03+08:00
 
 - If you can manage to stick with this strategy, each context will become associated with a particular habit and mode of thought.  
 
-- **2024/05/23 发表想法**
-    
-    比如我把手机留在了工作室，回屋就是睡觉的，结果习惯了之后很快就睡着了。
-    
-      
-    
-    > 原文：Small changes in context can lead to large changes in behavior over time.
-    
-
-  
-
-###  **第一十四章 7: The Secret to Self-Control**
-
-  
-
-- congressmen  
-    
-- stunned  
-    
-- a flurry of  
-    
-- was one of the researchers in charge  
-    
-- upended  
-    
-- relapsed  
-    
-- engulfed  
-    
-- clinic  
-    
-- devoid  
-    
-- rehab  
-    
-- tremendous  
-    
 - Instead, “ disciplined” people are better at structuring their lives in a way that does not require heroic willpower and self-control. In other words, they spend less time in tempting situations.  
-    
-- perseverance  
-    
-- grit  
-    
-- autocatalytic  
-    
-- sluggish  
-    
-- Once you notice something, you begin to want it.  
-    
 
-  
-
-###  **第一十六章 8: How to Make a Habit Irresistible**
-
-  
-
-- herring gulls  
-    
-- beak  
-    
-- newly hatched chicks  
-    
-- peck this spot  
-    
-- greylag goose  
-    
-- ground-nesting bird  
-    
-- waddle over  
-    
-- billiard ball  
-    
-- lightbulb  
-    
-- **2024/06/01 发表想法**
-    
-    还比如人们所熟知的公牛会撞向红色的物品。动物包括人类的大脑天生就制定好了某些程序，会对某些特征或者场景作出特定的反应，比如人们看到点赞多的视频，也会顷向于点赞。
-    
-      
-    
-    > 原文：Like the baby gulls automatically pecking at red dots, the greylag goose was following an instinctive rule: When I see a round object nearby, I must roll it back into the nest. The bigger the round object, the harder I should try to get it.
+- Like the baby gulls automatically pecking at red dots, the greylag goose was following an instinctive rule: When I see a round object nearby, I must roll it back into the nest. The bigger the round object, the harder I should try to get it.
     
 - exaggerated  
     
