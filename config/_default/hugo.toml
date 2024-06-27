@@ -60,7 +60,7 @@ rssFullContent = true
 
   [params.sidebar]
   emoji = "🍥"
-  subtitle = "再微弱的荧光，也有它可以照这亮的地方."
+  subtitle = "再微弱的荧光，也有它可以照亮的地方."
 
     [params.sidebar.avatar]
     enabled = true
