@@ -11,8 +11,9 @@ tags:
   - 社会科学
   - 书摘
 weight: 1
-lastmod: 2024-06-27T14:24:40+08:00
+lastmod: 2024-06-28T07:22:04+08:00
 ---
+
 ## 读后感
 原子习惯这本书，主要讲述了如何养成一个好习惯，以及如何改掉一个坏习惯。
 
@@ -130,129 +131,7 @@ lastmod: 2024-06-27T14:24:40+08:00
 
 - Like the baby gulls automatically pecking at red dots, the greylag goose was following an instinctive rule: When I see a round object nearby, I must roll it back into the nest. The bigger the round object, the harder I should try to get it.
     
-- exaggerated  
-    
-- elicits  
-    
-- are also prone to fall for  
-    
-- frenzy  
-    
-- foraging  
-    
-- roaming the savannah  
-    
-- stretching our Paleolithic instincts  
-    
-- fizz  
-    
-- orosensation  
-    
-- crunchy  
-    
-- the gooeyness of melted cheese on top of a crispy pizza crust,  
-    
-- the crunch of an Oreo cookie  
-    
-- are high in dynamic contrast  
-    
-- “bliss point”  
-    
-- hyperpalatable  
-    
-- obesity  
-    
-- it has spawned  
-    
-- mannequin  
-    
-- splices together stimulating scenes at a rate  
-    
-- stimuli  
-    
-- excessive  
-    
-- enticing  
-    
-- board games  
-    
-- pleasure-packed experiences  
-    
-- the dopamine spike.  
-    
-- neurotransmitter  
-    
-- dopamine  
-    
-- electrodes  
-    
-- inhibited  
-    
-- they squirted little droplets of sugar  
-    
-- grins  
-    
-- tasty substance  
-    
-- **2024/06/02 发表想法**
-    
-    失去了多巴胺，并不会说就会讨厌之前所喜欢的事物。该喜欢还是会喜欢，只是说再也没有动力去喜欢了。
-    
-      
-    
-    > 原文：nd without desire, action stopped.
-    
-- poked  
-    
-- Habits are a dopamine-driven feedback loop  
-    
-- aversion  
-    
-- the key takeaway is this  
-    
-- anticipate  
-    
-- Gambling addicts  
-    
-- get a surge of dopamine  
-    
-- **2024/06/02 发表想法**
-    
-    并不是只有抽卡获得自己想要的角色之后才产生多巴胺，而是在抽卡之前就已经产生，并促使自己在未获得目标角色时继续抽卡，直至获得，也即所谓上头。
-    
-      
-    
-    > 原文：Whenever you predict that an opportunity will be rewarding, your levels of dopamine spike in anticipation.
-    
 - It is the anticipation of a reward—not the fulfillment of it—that gets us to take action.  
-    
-- nucleus accumbens  
-    
-- ventral tegmental area,  
-    
-- dorsal striatum  
-    
-- amygdala  
-    
-- portions of the prefrontal cortex  
-    
-- hedonic  
-    
-- precious  
-    
-- stationary bike  
-    
-- binge  
-    
-- celebrity gossip  
-    
-- but you need to get in shape  
-    
-- tabloids  
-    
-- pedicure  
-    
-- overdue work emails  
     
 - Named after the work of professor David Premack, the principle states that “ more probable behaviors will reinforce less probable behaviors.”  
     
@@ -277,9 +156,6 @@ lastmod: 2024-06-27T14:24:40+08:00
 
   
 
-- innate talent  
-    
-- mantra  
     
 - **2024/06/06 发表想法**
     
@@ -288,26 +164,6 @@ lastmod: 2024-06-27T14:24:40+08:00
       
     
     > 原文：needed a wife willing to jump on board
-    
-- needed a wife willing to jump on board  
-    
-- adamant  
-    
-- laid out a plan  
-    
-- prodigies  
-    
-- home-schooled  
-    
-- a rarity in Hungary at the time  
-    
-- tournaments  
-    
-- meticulous  
-    
-- successfully courted  
-    
-- atypical  
     
 - the sisters talk about their childhood as entertaining rather than grueling.  
     

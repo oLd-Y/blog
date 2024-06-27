@@ -8,27 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cb834a591c96ded8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "d092bb2218af7158",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
+                "file": "Atomic Habits 读后感/单词.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "3fa21f26099ee818",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb834a591c96ded8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atomic Habits 读后感/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
+                "file": "Atomic Habits 读后感/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
+                "file": "Atomic Habits 读后感/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md"
+                "file": "Atomic Habits 读后感/index.md"
               }
             }
           },
@@ -203,11 +212,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "d092bb2218af7158",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/cover.jpg",
-    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
+    "Atomic Habits 读后感/单词.md",
     "Atomic Habits 读后感/index.md",
+    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
+    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/cover.jpg",
     "Windows 实现划词翻译及生词本功能（DeepL 接口和桌面端）/index.md",
     "menu.scss/cover.jpg",
     "menu.scss/index.md",
