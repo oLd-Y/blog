@@ -108,6 +108,13 @@ rssFullContent = true
     siteName = ""
 
     [params.comments.giscus]
+    repo = ""
+    repoID = ""
+    category = ""
+    categoryID = ""
+    mapping = ""
+    lightTheme = ""
+    darkTheme = ""
     reactionsEnabled = 1
     emitMetadata = 0
 
