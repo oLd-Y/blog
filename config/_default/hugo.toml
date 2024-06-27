@@ -108,8 +108,8 @@ rssFullContent = true
     siteName = ""
 
     [params.comments.giscus]
-    repo = ""
-    repoID = ""
+    repo = "oLd-Y/blog"
+    repoID = "R_kgDOLzCoMA"
     category = ""
     categoryID = ""
     mapping = ""
