@@ -26,16 +26,16 @@ title = "谷栗杳的博客"
 weight = 2
 
   [languages.zh-cn.params]
-  description = "演示说明"
+  description = "成为最好的自己"
 
-[languages.ar]
-languageName = "عربي"
-languagedirection = "rtl"
-title = "موقع تجريبي"
-weight = 3
+# [languages.ar]
+# languageName = "عربي"
+# languagedirection = "rtl"
+# title = "موقع تجريبي"
+# weight = 3
 
-  [languages.ar.params]
-  description = "وصف تجريبي"
+#   [languages.ar.params]
+#   description = "وصف تجريبي"
 
 [services.disqus]
 shortname = "hugo-theme-stack"
