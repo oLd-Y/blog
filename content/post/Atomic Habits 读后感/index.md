@@ -11,7 +11,7 @@ tags:
   - 社会科学
   - 书摘
 weight: 1
-lastmod: 2024-06-27T12:26:59+08:00
+lastmod: 2024-06-27T13:02:03+08:00
 ---
 ## 读后感
 原子习惯这本书，主要讲述了如何养成一个好习惯，以及如何改掉一个坏习惯。
@@ -28,356 +28,104 @@ lastmod: 2024-06-27T12:26:59+08:00
 
 3. 让练习发生就好，不必刻意追求完美。某大学教授将他的两个摄影班分为了两个组，一个为完美组，期末只需交一张照片，根据这张照片的质量打分；另一个为数量组，根据最后提交的照片数量打分。出人意料的是，几乎所有的最优秀的作品，都来自数量组。我们常说，量变引起质变。虽然很多时候我们看起来自己做的是 bullsh\*t，但其实我们在不断练习的过程中，通过“重复”这个环节，不断地建立神经连接，将一些可以做出优质作品的动作变成自动的行为，为成为优秀提前铺好道路。
 
-我们养成习惯，再由习惯来培育我们。总而言之，原子习惯是一本不可多得的好书。以后有机会还会重温。
+我们养成习惯，再由习惯来培育我们。成功的路上需要耐心，当你持持续精进却无法获得自己理想的提升，不要灰心，因为改变总是由内而外的，总有一天，你的努力会使你大放异彩，就像那颗被凿了100下的石头，会在第 101 下的时候迸然裂开。总而言之，原子习惯是一本不可多得的好书。以后有机会还会重温。
 
 ## 书摘
 
 - The backbone of this book is my four-step model of habits—cue, craving, response, and reward—and the four laws of behavior change that evolve out of these steps.  
     
-
-  
-
-###  **第七章 1: The Surprising Power of Atomic Habits**
-
-  
-
-- It often feels difficult to keep good habits going for more than a few days, evenwith sincere effort and the occasional burst of motivation  
+- It often feels difficult to keep good habits going for more than a few days, even with sincere effort and the occasional burst of motivation  
     
-- **2024/04/24 发表想法**
+- he referred to as “the aggregation of marginal gains,”which was the philosophy of searching for a tiny margin of improvement in everything you do. Brailsford said, “ The whole principle came from the idea that if you broke down everything you could think of that goes intoriding a bike, and then improve it by 1 percent, you will get a significant increase when you put them all together.  
     
-    首先要开始做, 有成品之后从各个环节提升1%.
-    
-      
-    
-    > 原文：he referred to as “the aggregation of marginal gains,”which was the philosophy of searching for a tiny margin of improvement ineverything you do. Brailsford said, “ The whole principle came from theidea that if you broke down everything you could think of that goes intoriding a bike, and then improve it by 1 percent, you will get a significantincrease when you put them all together.
-    
-- he referred to as “the aggregation of marginal gains,”which was the philosophy of searching for a tiny margin of improvement ineverything you do. Brailsford said, “ The whole principle came from theidea that if you broke down everything you could think of that goes intoriding a bike, and then improve it by 1 percent, you will get a significantincrease when you put them all together.  
-    
-- It is so easy to overestimate the importance of one defining moment andunderestimate the value of making small improvements on a daily basis  
+- It is so easy to overestimate the importance of one defining moment and underestimate the value of making small improvements on a daily basis  
     
 - Habits are the compound interest of self-improvement.  
     
-- decisions, duplicating tiny mistakes, and rationalizing little excuses, oursmall choices compound into toxic results. It’s the accumulation of manymissteps—a 1 percent decline here and there—that eventually leads to aproblem.但是，当我们日复一日地重复1%的错误，通过复制糟糕的决定，复制微小的错误，并合理化微小的借口时，我们的小选择会累积成有害的结果。这是许多失误的积累——这里和那里1%的下降——最终导致一个问题。The impact created by a change in your habits is similar to the effect ofshifting the route of an airplane by just a few degrees. Imagine you areflying from Los Angeles to New York City. If a pilot leaving from LAX adjuststhe heading just 3.5 degrees south, you will land in Washington, D.C., instead of New York. Such a small change is barely noticeable at takeoff—the nose of the airplane moves just a few feet—but when magnified acrossthe entire United States, you end up hundreds of miles apart  
+- The impact created by a change in your habits is similar to the effect of shifting the route of an airplane by just a few degrees. Imagine you are flying from Los Angeles to New York City. If a pilot leaving from LAX adjusts the heading just 3.5 degrees south, you will land in Washington, D.C., instead of New York. Such a small change is barely noticeable at takeoff—the nose of the airplane moves just a few feet—but when magnified across the entire United States, you end up hundreds of miles apart  
     
-- a slight change in your daily habits can guide your life to a verydifferent destination. Making a choice that is 1 percent better or 1 percentworse seems insignificant in the moment, but over the span of momentsthat make up a lifetime these choices determine the difference betweenwho you are and who you could be. Success is the product of daily habits—not once-in-a-lifetime transformations.  
+- a slight change in your daily habits can guide your life to a very different destination. Making a choice that is 1 percent better or 1 percent worse seems insignificant in the moment, but over the span of moments that make up a lifetime these choices determine the difference between who you are and who you could be. Success is the product of daily habits—not once-in-a-lifetime transformations.  
     
-- Time magnifies the margin between success and failure. It will multiplywhatever you feed it. Good habits make time your ally. Bad habits maketime your enemy.  
+- Time magnifies the margin between success and failure. It will multiply whatever you feed it. Good habits make time your ally. Bad habits make time your enemy.  
     
-- Then, thirty-two degrees. The ice begins to melt. A one-degree shift,seemingly no different from the temperature increases before it, hasunlocked a huge change.  
-    
-- **2024/04/24 发表想法**
-    
-    炸弹在引线燃尽之前都是平静的。
-    
-      
-    
-    > 原文：If you find yourself struggling to build a good habit or break a bad one, it is not because you have lost your ability to improve. It is often because you have not yet crossed the Plateau of Latent Potential.
+- Then, thirty-two degrees. The ice begins to melt. A one-degree shift,seemingly no different from the temperature increases before it, has unlocked a huge change.  
     
 - If you find yourself struggling to build a good habit or break a bad one, it is not because you have lost your ability to improve. It is often because you have not yet crossed the Plateau of Latent Potential.  
     
-- fashion they have for ages, but this time the tension is too great. Anearthquake erupts. Change can take years—before it happens all at once.  
+- fashion they have for ages, but this time the tension is too great. An earthquake erupts. Change can take years—before it happens all at once.  
+ 
+- Mastery requires patience. The San Antonio Spurs, one of the most successful teams in NBA history, have a quote from social reformer JacobRiis hanging in their locker room: “When nothing seems to help, I go and look at a stonecutter hammering away at his rock, perhaps a hundredtimes without as much as a crack showing in it. Yet at the hundred and firstblow it will split in two, and I know it was not that last blow that did it—but all that had gone before.”  
     
-- **2024/04/26 发表想法**
-    
-    找了好久终于找到了这句话!
-    
-      
-    
-    > 原文：Mastery requires patience. The San Antonio Spurs, one of the mostsuccessful teams in NBA history, have a quote from social reformer JacobRiis hanging in their locker room: “When nothing seems to help, I go andlook at a stonecutter hammering away at his rock, perhaps a hundredtimes without as much as a crack showing in it. Yet at the hundred and firstblow it will split in two, and I know it was not that last blow that did it—butall that had gone before.”
-    
-- Mastery requires patience. The San Antonio Spurs, one of the mostsuccessful teams in NBA history, have a quote from social reformer JacobRiis hanging in their locker room: “When nothing seems to help, I go andlook at a stonecutter hammering away at his rock, perhaps a hundredtimes without as much as a crack showing in it. Yet at the hundred and firstblow it will split in two, and I know it was not that last blow that did it—butall that had gone before.”  
-    
-- This can result in a “valley of disappointment” where people feel discouraged after putting in weeks or months of hard work without experiencing any results. However, this work was not wasted  
-    
-- **2024/04/26 发表想法**
-    
-    如何区分花费大量经历是浪费时间还是有价值的? 这就看你是否有具体的目标. 如果你是有追求的, 那么你为之走出的每一步都不会浪费.
-    
-      
-    
-    > 原文：This can result in a “valley of disappointment” where people feel discouraged after putting in weeks or months of hard work without experiencing any results
-    
-- **2024/04/26 发表想法**
-    
-    如果目标设置不合理, 会发现自己即便做了很多事, 也效果甚微. 比如我希望成为一个全栈程序员, 目标不应该是把所有的底层代码都看个遍. 一是因为每个技能都看, 那么每个技能都需要经历一个突破"32℃"的漫长过程; 二是因为即便你一时掌握了这些知识, 如果不需要, 就不会去复习, 那么随着时间的流逝, 这些知识也会被你逐渐忘记. 但如果自己遵循的是一个系统, 知道自己此时所正在做的, 是自己必须经历的过程, 那么这些事情就不会有一丝一毫的浪费. 如何知道某项任务是否为必需品? 这需要在完成某项目标之前对其进行一个完整的评估, 而这比盲目地执行某项任务更加耗费精力和时间, 但千万不可因此就不去做这种高层级的事, 正如一句话所言: 不要用战术上的勤奋掩盖战术上的懒惰.
-    
-      
-    
-    > 原文： Eventually, Ibegan to realize that my results had very little to do with the goals I setand nearly everything to do with the systems I followed.
-    
-- **2024/04/26 发表想法**
-    
-    是的, 目标基本上很少完美达成, 但自己是否做了相对正确的事, 其实自己的心里是有所感知的. 比如做作业时, 突然想到要查某个资料, 于是打开了B站或者知乎进行搜索, 结果突然看到了一则感兴趣的内容, 在点进去查看的第一时间, 自己是知道已经偏离了正确的系统, 然而一旦沉浸之后, 会突然发现自己忘记当时的目的了.
-    
-      
-    
-    > 原文： Eventually, Ibegan to realize that my results had very little to do with the goals I setand nearly everything to do with the systems I followed.
-    
-- Eventually, Ibegan to realize that my results had very little to do with the goals I setand nearly everything to do with the systems I followed.  
-    
-- **2024/04/26 发表想法**
-    
-    目标是重要的，但一旦目标设立了之后，我们就只需要关注整个系统了。
-    
-      
-    
-    > 原文：” The same is true for other areas of life. If you want better results, then forget about setting goals. Focus on your system instead.
-    
-- ” The same is true for other areas of life. If you want better results, then forget about setting goals. Focus on your system instead.  
-    
--   
-    
-- **2024/04/29 发表想法**
-    
-    快乐与悲伤都是从比较中得来的. 如果没有比较, 其实能够满足温饱, 能够进行娱乐, 其实就已经让人感到快乐了.
-    
-      
-    
-    > 原文：Goals restrict your happiness.
-    
-- **2024/04/29 发表想法**
-    
-    人生不是一场单次的游戏, 它不会因为你达成某个目标就停止了进程.
-    
-      
-    
-    > 原文：It’s not about any single accomplishment. It is about the cycle ofendless refinement and continuous improvement.
-    
-- It’s not about any single accomplishment. It is about the cycle ofendless refinement and continuous improvement.  
-    
+- This can result in a “valley of disappointment” where people feel discouraged after putting in weeks or months of hard work without experiencing any results. However, this work was not wasted 
 
-  
+- The same is true for other areas of life. If you want better results, then forget about setting goals. Focus on your system instead.  
 
-###  **第八章 2: How Your Habits Shape Your Identity (and Vice Versa)**
+- It’s not about any single accomplishment. It is about the cycle of endless refinement and continuous improvement.  
+    
+- You might start a habit because of motivation, but the only reason you’ll stick with one is that it becomes part of your identity.  
 
-  
-
-- It often feels difficult to keep good habits going for more than a few days, evenwith sincere effort and the occasional burst of motivation.  
-    
-- You might start a habit because ofmotivation, but the only reason you’ll stick with one is that it becomes part ofyour identity.  
-    
-- **2024/04/30 发表想法**
-    
-    网络上不乏这种“因为身边人的一句恶语而坚持锻炼最后改变成功"的例子。不论一个人如何装作风轻云淡，一句评价自身的言语还是会影响人的心态. 人们本质还是非常在意在公众面前的形象的, 会因他人的赞美而欣喜, 因他人的诋毁而愤怒. 只不过高人将心态修炼得很好, 很快就可以调整过来罢了.
-    
-      
-    
-    > 原文：You might start a habit because ofmotivation, but the only reason you’ll stick with one is that it becomes part ofyour identity.
-    
 - Your behaviors are usually a reflection of your identity.  
     
 - Many people walk through life in a cognitive slumber, blindly following the norms attached to their identity.  
-    
-- **2024/05/01 发表想法**
-    
-    太对了，不想养成习惯其实是因为要做的事和自己认为自己当前的身份不符合。很多人感慨，如果没有上过大学，可能就放得下面子去当个服务员。如果我没学过技术，没有投入大量时间去学习一些小众的知识，可能就不会期望自己会继续做这些技术上的事。
-    
-      
-    
-    > 原文：Good habits can make rational sense, but if they conflict with your identity, you will fail to put them into action.
-    
+
 - Good habits can make rational sense, but if they conflict with your identity, you will fail to put them into action.  
-    
-- **2024/05/01 发表想法**
-    
-    你的行为是你身份的体现，并且你没重复一次这样的行为，你与该身份的关联便更深一分。
-    
-      
-    
-    > 原文：The more you repeat a behavior, the more you reinforce the identity associated with that behavior.
-    
+
 - The more you repeat a behavior, the more you reinforce the identity associated with that behavior.  
-    
-- **2024/05/01 发表想法**
-    
-    不是你的身份决定了你的行为，而是你的行为导致了你的身份。
-    
-      
-    
-    > 原文：As the evidence grew, so did my identity as a writer
-    
+ 
 - As the evidence grew, so did my identity as a writer  
     
 - In this way, the process of building habits is actually the process of becoming yourself.  
-    
-- **2024/05/01 发表想法**
-    
-    这与我的理念十分契合。要想持续精进，就需要对自己进行复盘，因此记录日记就显得十分重要了。日记把自己今天做了哪些事记录下来，可以方便复盘。
-    
-      
-    
-    > 原文：the proc
-    
-- **2024/05/01 发表想法**
-    
-    你先养成习惯，然后习惯再来塑造你。
-    
-      
-    
-    > 原文：Quite literally, you become your habits.
-    
-- Quite literally, you become your habits.  
-    
 
-  
-
-###  **第九章 3: How to Build Better Habits in 4 Simple Steps**
-
-  
-
-- N 1898 , A psychologist named Edward Thorndike conducted an experiment that would lay the foundation for our understanding of how habits form and the rules that guide our behavior. Thorndike was interested in studying the behavior of animals, and he started by working with cats.He would place each cat inside a device known as a puzzle box. The box was designed so that the cat could escape through a door “ by some simple act,such as pulling at a loop of cord, pressing a lever, or stepping on a platform.”For example, one box contained a lever that, when pressed, would open a door on the side of the box. Once the door had been opened, the cat could dart out and run over to a bowl of food.Most cats wanted to escape as soon as they were placed inside the box. They would poke their nose into the corners, stick their paws through openings, and claw at loose objects. After a few minutes of exploration, the cats would happen to press the magical lever, the door would open, and they would escape.Thorndike tracked the behavior of each cat across many trials. In the beginning, the animals moved around the box at random. But as soon as the lever had been pressed and the door opened, the process of learning began.Gradually, each cat learned to associate the action of pressing the lever with the reward of escaping the box and getting to the food.After twenty to thirty trials, this behavior became so automatic and habitual that the cat could escape within a few seconds. For example, Thorndike noted,“Cat 12 took the following times to perform the act. 160 seconds, 30 seconds,90 seconds, 60, 15, 28, 20, 30, 22, 11, 15, 20, 12, 10, 14, 10, 8, 8, 5, 10, 8, 6, 6,7.”During the first three trials, the cat escaped in an average of 1.5 minutes.During the last three trials, it escaped in an average of 6.3 seconds. With practice, each cat made fewer errors and their actions became quicker and more automatic. Rather than repeat the same mistakes, the cat began to cut straight to the solution.From his studies, Thorndike described the learning process by stating, “behaviors followed by satisfying consequences tend to be repeated and those that produce unpleasant consequences are less likely to be repeated.” His work provides the perfect starting point for discussing how habits form in our own lives. It also provides answers to some fundamental questions like: What are habits? And why does the brain bother building them at all?  
+- N 1898 , A psychologist named Edward Thorndike conducted an experiment that would lay the foundation for our understanding of how habits form and the rules that guide our behavior. Thorndike was interested in studying the behavior of animals, and he started by working with cats. He would place each cat inside a device known as a puzzle box. The box was designed so that the cat could escape through a door “ by some simple act,such as pulling at a loop of cord, pressing a lever, or stepping on a platform.” For example, one box contained a lever that, when pressed, would open a door on the side of the box. Once the door had been opened, the cat could dart out and run over to a bowl of food.Most cats wanted to escape as soon as they were placed inside the box. They would poke their nose into the corners, stick their paws through openings, and claw at loose objects. After a few minutes of exploration, the cats would happen to press the magical lever, the door would open, and they would escape.Thorndike tracked the behavior of each cat across many trials. In the beginning, the animals moved around the box at random. But as soon as the lever had been pressed and the door opened, the process of learning began. Gradually, each cat learned to associate the action of pressing the lever with the reward of escaping the box and getting to the food. After twenty to thirty trials, this behavior became so automatic and habitual that the cat could escape within a few seconds. For example, Thorndike noted,“Cat 12 took the following times to perform the act. 160 seconds, 30 seconds,90 seconds, 60, 15, 28, 20, 30, 22, 11, 15, 20, 12, 10, 14, 10, 8, 8, 5, 10, 8, 6, 6,7.” During the first three trials, the cat escaped in an average of 1.5 minutes.During the last three trials, it escaped in an average of 6.3 seconds. With practice, each cat made fewer errors and their actions became quicker and more automatic. Rather than repeat the same mistakes, the cat began to cut straight to the solution. From his studies, Thorndike described the learning process by stating, “behaviors followed by satisfying consequences tend to be repeated and those that produce unpleasant consequences are less likely to be repeated.” His work provides the perfect starting point for discussing how habits form in our own lives. It also provides answers to some fundamental questions like: What are habits? And why does the brain bother building them at all?  
     
 - A choice that once required effort is now automatic  
-    
-- **2024/05/02 发表想法**
-    
-    真是说到我的心坎了。
-    
-      
-    
-    > 原文：If you’re always being forced to make decisions about simple tasks—when should I work out, where do I go to write, when do I pay the bills—then you have less time for freedom. It’s only by making the fundamentals of life easier that you can create the mental space needed for free thinking and creativity.
-    
+
 - If you’re always being forced to make decisions about simple tasks—when should I work out, where do I go to write, when do I pay the bills—then you have less time for freedom. It’s only by making the fundamentals of life easier that you can create the mental space needed for free thinking and creativity.  
     
 - The process of building a habit can be divided into four simple steps: cue,craving, response, and reward  
     
 - You do not crave smoking a cigarette, you crave the feeling of relief it provides. You are not motivated by brushing your teeth but rather by the feeling of a clean mouth. You do not want to turn on the television, you want to be entertained. Every craving is linked to a desire to change your internal state.  
-    
-- **2024/05/06 发表想法**
-    
-    比如我偶然虎码非常好用，就专门花了3天的时间来学。
-    
-      
-    
-    > 原文：Sometimes the problem is that you notice something good and you want to obtain it.
-    
+
 - Sometimes the problem is that you notice something good and you want to obtain it.  
     
 - By the time we become adults, we rarely notice the habits that are running our lives. Most of us never give a second thought to the fact that we tie the same shoe first each morning,  
-    
-
-  
-
-###  **第一十一章 4: The Man Who Didn’t Look Right**
-
-  
 
 - We can’t always explain what it is we are learning, but learning is happening all along the way,  
-    
-- **2024/05/07 发表想法**
-    
-    你的潜意识指导了你的生活。而在你意识到你的潜意识之前，你将其称为命运。
-    
-      
-    
-    > 原文：As the psychologist Carl Jung said, “ Until you make the unconscious conscious, it will direct your life and you will call it fate.”
-    
+
 - As the psychologist Carl Jung said, “ Until you make the unconscious conscious, it will direct your life and you will call it fate.”  
-    
-- **2024/05/07 发表想法**
-    
-    即使你所认为的所谓”坏习惯“，也在服务于你。这也是坏习惯能够长存的原因。
-    
-      
-    
-    > 原文：All habits serve you in some way—even the bad ones—which is why you repeat them.
-    
+
 - All habits serve you in some way—even the bad ones—which is why you repeat them.  
-    
-- **2024/05/07 发表想法**
-    
-    还是那句话，先认准自己的身份，然后一切对此没有裨益的习惯都是可以舍弃的。
-    
-      
-    
-    > 原文：Does this behavior help me become the type of person I wish to be?
-    
+
 - Does this behavior help me become the type of person I wish to be?  
     
 - Observe your thoughts and actions without judgment or internal criticism. Don’t blame yourself for your faults. Don’t praise yourself for your successes.  
-    
 
-  
+- IN 2001 , RESEARCHERS in Great Britain began working with 248 people to build better exercise habits over the course of two weeks. The subjects were divided into three groups.The first group was the control group. They were simply asked to track how often they exercised.The second group was the “motivation” group. They were asked not only to track their workouts but also to read some material on the benefits of exercise.The researchers also explained to the group how exercise could reduce the risk of coronary heart disease and improve heart health.Finally, there was the third group. These subjects received the same presentation as the second group, which ensured that they had equal levels of motivation. However, they were also asked to formulate a plan for when and where they would exercise over the following week. Specifically, each member of the third group completed the following sentence: “During the next week, I will partake in at least 20 minutes of vigorous exercise on [DAY] at [TIME] in [PLACE].” In the first and second groups, 35 to 38 percent of people exercised at least once per week. (Interestingly, the motivational presentation given to the second group seemed to have no meaningful impact on behavior.) But 91 percent of the third group exercised at least once per week—more than double the normal rate.  
 
-###  **第一十二章 5: The Best Way to Start a New Habit**
+- Too many people try to change their habits without these basic details figured out. We tell ourselves, “I’m going to eat healthier” or “I’m going to write more,” but we never say when and where these habits are going to happen.  
 
-  
-
-- N 2001 , RESEARCHERS in Great Britain began working with 248 people to build better exercise habits over the course of two weeks. The subjects were divided into three groups.The first group was the control group. They were simply asked to track how often they exercised.The second group was the “motivation” group. They were asked not only to track their workouts but also to read some material on the benefits of exercise.The researchers also explained to the group how exercise could reduce the risk of coronary heart disease and improve heart health.Finally, there was the third group. These subjects received the same presentation as the second group, which ensured that they had equal levels of motivation. However, they were also asked to formulate a plan for when and where they would exercise over the following week. Specifically, each member of the third group completed the following sentence: “During the next week, I will partake in at least 20 minutes of vigorous exercise on [DAY] at [TIME] in [PLACE].”In the first and second groups, 35 to 38 percent of people exercised at least once per week. (Interestingly, the motivational presentation given to the second group seemed to have no meaningful impact on behavior.) But 91percent of the third group exercised at least once per week—more than double the normal rate.  
-    
-- **2024/05/08 发表想法**
-    
-    越具体的习惯越容易被执行。
-    
-      
-    
-    > 原文：Too many people try to change their habits without these basic details figured out. We tell ourselves, “I’m going to eat healthier” or “I’m going to write more,”but we never say when and where these habits are going to happen.
-    
-- Too many people try to change their habits without these basic details figured out. We tell ourselves, “I’m going to eat healthier” or “I’m going to write more,”but we never say when and where these habits are going to happen.  
-    
-- **2024/05/09 发表想法**
-    
-    when 替代 but
-    
-      
-    
-    > 原文：Many people think they lack motivation when what they really lack is clarity.
-    
 - Many people think they lack motivation when what they really lack is clarity.  
     
 - I will [BEHAVIOR] at [TIME] in [LOCATION].  
-    
-- **2024/05/10 发表想法**
-    
-    这么看来，GTD 还是很有必要的，可以防止自己偏离当前需要做事。在没有实施 GTD 的时候，经常陷入“深度优先搜索”，导致当前做事的效率极低。
-    
-      
-    
-    > 原文：Being specific about what you want and how you will achieve it helps you say no to things that derail progress, distract your attention, and pull you off course.
-    
+
 - Being specific about what you want and how you will achieve it helps you say no to things that derail progress, distract your attention, and pull you off course.  
     
 - When your dreams are vague, it’s easy to rationalize little exceptions all day long and never get around to the specific things you need to do to succeed.  
-    
-- **2024/05/10 发表想法**
-    
-    为了这瓶醋包的这份饺子。苹果也是这样的，只要入手了它的一个设备，就容易不由自主地想买其它设备。
-    
-      
-    
-    > 原文：Diderot soon felt the urge to upgrade his possessions. He replaced his rug with one from Damascus. He decorated his home with expensive sculptures. He bought a mirror to place above the mantel, and a better kitchen table. He tossed aside his old straw chair for a leather one. Like falling dominoes, one purchase led to the next.
-    
+
 - Diderot soon felt the urge to upgrade his possessions. He replaced his rug with one from Damascus. He decorated his home with expensive sculptures. He bought a mirror to place above the mantel, and a better kitchen table. He tossed aside his old straw chair for a leather one. Like falling dominoes, one purchase led to the next.  
     
 - Diderot’s behavior is not uncommon. In fact, the tendency for one purchase to lead to another one has a name: the Diderot Effect. The Diderot Effect states that obtaining a new possession often creates a spiral of consumption that leads to additional purchases.  
     
 - After [CURRENT HABIT], I will [NEW HABIT].”  
-    
-
-  
-
-###  **第一十三章 6: Motivation Is Overrated; Environment Often Matters More**
-
-  
 
 - items at eye level tend to be purchased more than those down near the floor.  
     
 - choose water over soda, we assume it is because we wanted to do so. The truth, however, is that many of the actions we take each day are shaped not by purposeful drive and choice but by the most obvious option.  
     
 - habits can be easier to change in a new environment.  
-    
-- rooftop patio  
-    
-- mantra  
-    
-- versatility  
-    
-- mishmash  
-    
+
 - If you can manage to stick with this strategy, each context will become associated with a particular habit and mode of thought.  
-    
-- thrive  
-    
+
 - **2024/05/23 发表想法**
     
     比如我把手机留在了工作室，回屋就是睡觉的，结果习惯了之后很快就睡着了。
