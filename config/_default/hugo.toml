@@ -110,11 +110,14 @@ rssFullContent = true
     [params.comments.giscus]
     repo = "oLd-Y/blog"
     repoID = "R_kgDOLzCoMA"
-    category = ""
-    categoryID = ""
-    mapping = ""
-    lightTheme = ""
-    darkTheme = ""
+    category = "Announcements"
+    categoryID = "DIC_kwDOLzCoMM4Ce8bK"
+    mapping = "pathname"
+    lightTheme = "light"
+    darkTheme = "dark"
+    theme = "preferred_color_scheme"
+    lang = "zh-CN"
+    loading = "lazy"
     reactionsEnabled = 1
     emitMetadata = 0
 
