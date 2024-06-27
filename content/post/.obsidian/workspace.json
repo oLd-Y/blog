@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hugo + stack + obsidian 搭建博客/index.md",
+                "file": "Atomic Habits 读后感/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hugo + stack + obsidian 搭建博客/index.md",
+                "file": "Atomic Habits 读后感/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hugo + stack + obsidian 搭建博客/index.md",
+                "file": "Atomic Habits 读后感/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hugo + stack + obsidian 搭建博客/index.md"
+                "file": "Atomic Habits 读后感/index.md"
               }
             }
           },
@@ -187,6 +187,7 @@
   },
   "active": "cb834a591c96ded8",
   "lastOpenFiles": [
+    "hugo + stack + obsidian 搭建博客/index.md",
     "nvm 安装和使用/cover.jpg",
     "test1/cover.jpg",
     "null/cover.jpg",
@@ -198,7 +199,6 @@
     "null/index.md",
     "null",
     "_daily/2024-04-22.md",
-    "hugo + stack + obsidian 搭建博客/index.md",
     "windows 11 蓝牙无法搜索到设备的原因/index.md",
     "放弃折腾 vim 和 emacs.md",
     "Untitled.md",
@@ -231,7 +231,6 @@
     "Windows 下 emacs 卡顿可能原因.md",
     "Atomic Habits 读后感",
     "testsss/cover.jpg",
-    "testsss",
-    "content/post/null/cover.jpg"
+    "testsss"
   ]
 }
