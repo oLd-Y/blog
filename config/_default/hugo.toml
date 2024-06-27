@@ -78,7 +78,7 @@ rssFullContent = true
 
   [params.comments]
   enabled = true
-  provider = "disqus"
+  provider = "giscus"
 
     [params.comments.disqusjs]
 
@@ -172,7 +172,7 @@ main = [ ]
   [[menu.social]]
   identifier = "github"
   name = "GitHub"
-  url = "https://github.com/CaiJimmy/hugo-theme-stack"
+  url = "https://github.com/oLd-Y"
 
     [menu.social.params]
     icon = "brand-github"

@@ -4,8 +4,8 @@ categories:
   - nodejs
 tags:
   - nvm
-draft: false
-lastmod: 2024-06-26T22:29:25+08:00
+draft: true
+lastmod: 2024-06-27T11:37:29+08:00
 title: nvm 安装和使用
 date: 2024-6-25
 description: ""
