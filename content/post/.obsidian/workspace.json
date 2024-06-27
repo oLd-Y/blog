@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "windows 11 蓝牙无法搜索到设备的原因/index.md",
+                "file": "hugo + stack + obsidian 搭建博客/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "windows 11 蓝牙无法搜索到设备的原因/index.md",
+                "file": "hugo + stack + obsidian 搭建博客/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "windows 11 蓝牙无法搜索到设备的原因/index.md",
+                "file": "hugo + stack + obsidian 搭建博客/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "windows 11 蓝牙无法搜索到设备的原因/index.md"
+                "file": "hugo + stack + obsidian 搭建博客/index.md"
               }
             }
           },
@@ -185,11 +185,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "cb834a591c96ded8",
   "lastOpenFiles": [
+    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
+    "windows 11 蓝牙无法搜索到设备的原因/index.md",
     "nvm 安装和使用/index.md",
     "hugo + stack + obsidian 搭建博客/index.md",
-    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
     "放弃折腾 vim 和 emacs.md",
     "_daily/2024-04-22.md",
     "Untitled.md",
@@ -197,7 +198,6 @@
     "test1/index.md",
     "test1/cover.jpg",
     "test1",
-    "windows 11 蓝牙无法搜索到设备的原因/index.md",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg.crdownload",
     "menu.scss/index.md",

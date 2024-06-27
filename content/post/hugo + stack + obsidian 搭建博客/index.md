@@ -9,7 +9,7 @@ slug: ""
 image: cover.jpg
 weight: 1
 draft: true
-lastmod: 2024-06-26T21:58:19+08:00
+lastmod: 2024-06-27T09:23:39+08:00
 ---
 # obsidian
 templater 插件，创建博客以及自动拉取图片
@@ -100,3 +100,5 @@ ignoreFiles = ["post/_templates"]
 [Hugo Stack主题装修笔记](https://thirdshire.com/hugo-stack-renovation/)
 
 注意 hugo.toml 中的 baseurl 需要设置成自己的域名，否则搜索功能无法使用。
+
+如果是从其它博客主题迁移过来的，注意把相关的文件清理干净。比如我
