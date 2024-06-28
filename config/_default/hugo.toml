@@ -50,7 +50,7 @@ page = "/:slug/"
 mainSections = [ "post" ]
 featuredImageField = "image"
 rssFullContent = true
-favicon = "/img/favicon.ico"
+favicon = "/favicon.ico"
 
   [params.footer]
   since = 2_024

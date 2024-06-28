@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Fri, 28 Jun 2024 10:52:51 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 27 Jun 2024 11:37:29 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>围城 读后感</title>
         <link>http://localhost:1313/p/%E5%9B%B4%E5%9F%8E-%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
         <pubDate>Thu, 27 Jun 2024 11:23:19 +0800</pubDate>
@@ -1184,31 +1184,6 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        </item>
-        <item>
-        <title>[[abc]]</title>
-        <link>http://localhost:1313/p/abc/</link>
-        <pubDate>Fri, 28 Jun 2024 10:52:51 +0800</pubDate>
-        
-        <guid>http://localhost:1313/p/abc/</guid>
-        <description>&lt;h2 id=&#34;3-sentences-to-describe-the-book&#34;&gt;3 sentences to describe the book
-&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&amp;lt;% tp.file.cursor() %&amp;gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;5-take-aways&#34;&gt;5 take aways
-&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;review&#34;&gt;Review
-&lt;/h2&gt;&lt;h2 id=&#34;related&#34;&gt;Related
-&lt;/h2&gt;&lt;h2 id=&#34;reference&#34;&gt;Reference
-&lt;/h2&gt;</description>
         </item>
         
     </channel>
