@@ -1,6 +1,5 @@
 [
   "obsidian-git",
-  "obsidian-advanced-uri",
   "obsidian-style-settings",
   "obsidian-tasks-plugin",
   "mermaid-tools",
@@ -12,16 +11,15 @@
   "obsidian-image-auto-upload-plugin",
   "quickadd",
   "update-time-on-edit",
-  "table-editor-obsidian",
   "obsidian-latex-suite",
   "obsidian-weread-plugin",
   "obsidian-custom-frames",
-  "deepl",
   "remotely-save",
   "remember-cursor-position",
   "obsidian-reveal-active-file",
   "calendar",
   "templater-obsidian",
   "obsidian-spaced-repetition",
-  "waypoint"
+  "waypoint",
+  "table-editor-obsidian"
 ]
