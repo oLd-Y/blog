@@ -1,6 +1,6 @@
 ---
 title: "Windows"
-description: "This is an example category"
+description: "Windows related articles"
 slug: "windows"
 image: "cover.jpg"
 # style:
