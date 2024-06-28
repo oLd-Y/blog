@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atomic Habits 读后感/index.md",
+                "file": "hugo + stack + obsidian 搭建博客/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atomic Habits 读后感/index.md",
+                "file": "hugo + stack + obsidian 搭建博客/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atomic Habits 读后感/index.md",
+                "file": "hugo + stack + obsidian 搭建博客/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atomic Habits 读后感/index.md"
+                "file": "hugo + stack + obsidian 搭建博客/index.md"
               }
             }
           },
@@ -188,14 +188,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-weread-plugin:同步微信读书笔记": false,
       "remotely-save:Remotely Save": false,
       "templater-obsidian:Templater": false,
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "74fb914d967fe4f4",
   "lastOpenFiles": [
+    "Atomic Habits 读后感/index.md",
     "hugo + stack + obsidian 搭建博客/index.md",
     "Ubuntu 22.04 更换镜像源.md",
     "SD 关键词记录.md",
@@ -221,7 +221,6 @@
     "Doom emacs 快速添加括号.md",
     "Angular Git 提交规范.md",
     "arch linux wayland chrome 浏览器输无法输入中文.md",
-    "archlinux graphics.md",
     "Untitled 1.canvas",
     "反爬/cover.jpg",
     "反爬",
