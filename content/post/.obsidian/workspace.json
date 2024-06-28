@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_templates/templater/create page bundle.md",
+                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_templates/templater/create page bundle.md",
+                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_templates/templater/create page bundle.md",
+                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_templates/templater/create page bundle.md"
+                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md"
               }
             }
           },
@@ -194,10 +194,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "74fb914d967fe4f4",
   "lastOpenFiles": [
-    "test2/cover.jpg",
+    "_templates/templater/new index template.md",
+    "_templates/templater/Insert Callouts.md",
     "_templates/templater/create page bundle.md",
+    "test2/cover.jpg",
     "test2/index.zh-cn.md",
     "test2",
     "李治军操作系统总结.md",
@@ -210,11 +212,9 @@
     "test333/index.md",
     "Untitled.canvas",
     "_weread/傲慢与偏见（上）英文版.md",
-    "_templates/templater/new index template.md",
     "hugo + stack + obsidian 搭建博客/index.md",
     "test333",
     "保护模式相关.md",
-    "_templates/templater/Insert Callouts.md",
     "reading notes -《Atomatic Habits》.md",
     "_templates/hugo.md",
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
