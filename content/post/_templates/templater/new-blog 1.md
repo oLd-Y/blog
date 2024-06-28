@@ -1,8 +1,9 @@
 ---
 <%*
+// rename an existing file to index.md and move it to a directory with a specified name
 let title = tp.file.title;
 if (title.startsWith("Untitled")) {
- title = await tp.system.prompt("Enter the title of the book");
+ title = await tp.system.prompt("Enter the title");
  if(!title) return;
 }
 if (title == "") {
@@ -10,7 +11,16 @@ title = "Untitled";
 } else {
 await tp.file.rename(title);
 }
-await tp.file.move("/books/" + title)
+
+const exists = app.vault.adapter.exists("/Folder") 
+if (exists) {
+	await  tp.file.move("")
+} else {
+	await app.vault.adapter.mkdir("/Folder")
+	await tp.file.move("")
+}
+
+await tp.file.move("/books/" + title + "/index.md")
 -%>
 type: books
 title: "[[<% title %>]]"

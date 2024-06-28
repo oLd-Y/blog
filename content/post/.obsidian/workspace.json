@@ -39,8 +39,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "828b8f1203088c50",
@@ -52,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_templates/templater/new-blog.md",
+                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -124,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/abc.md",
+                "file": "_templates/templater/new-blog 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/abc.md",
+                "file": "_templates/templater/new-blog 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/abc.md"
+                "file": "_templates/templater/new-blog 1.md"
               }
             }
           },
@@ -233,18 +232,18 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "122650d4bea863e5",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
+    "_templates/templater/new-blog.md",
     "_templates/templater/new-blog 1.md",
     "books/abc.md",
     "books",
-    "_templates/templater/new-blog.md",
     "_templates/templater/.md",
     "_templates/hugo.md",
     "hugo + stack + obsidian 搭建博客/index.md",
     "Atomic Habits 读后感/index.md",
     "Atomic Habits 读后感/单词.md",
-    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/cover.jpg",
     "Windows 实现划词翻译及生词本功能（DeepL 接口和桌面端）/index.md",
     "menu.scss/cover.jpg",
