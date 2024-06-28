@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_templates/templater/create page bundle.md",
+                "file": "围城 读后感/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_templates/templater/create page bundle.md",
+                "file": "围城 读后感/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_templates/templater/create page bundle.md",
+                "file": "围城 读后感/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_templates/templater/create page bundle.md"
+                "file": "围城 读后感/index.md"
               }
             }
           },
@@ -194,10 +194,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "cb834a591c96ded8",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "hugo + stack + obsidian 搭建博客/index.md",
     "_templates/templater/create page bundle.md",
+    "hugo + stack + obsidian 搭建博客/index.md",
     "围城 读后感/index.md",
     "Untitled.canvas",
     "围城 读后感/cover.jpg",
