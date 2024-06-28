@@ -194,8 +194,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "74fb914d967fe4f4",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "test2/cover.jpg",
+    "_templates/templater/create page bundle.md",
+    "test2/index.zh-cn.md",
+    "test2",
     "李治军操作系统总结.md",
     "围城 读后感/index.md",
     "围城 读后感/cover.jpg",
@@ -208,7 +212,6 @@
     "_weread/傲慢与偏见（上）英文版.md",
     "_templates/templater/new index template.md",
     "hugo + stack + obsidian 搭建博客/index.md",
-    "_templates/templater/create page bundle.md",
     "test333",
     "保护模式相关.md",
     "_templates/templater/Insert Callouts.md",
@@ -233,16 +236,12 @@
     "test10",
     "books/def.md",
     "Untitled 1.md",
-    "books/abcv.md",
-    "test9/index.md",
     "test9",
     "test8",
     "test7",
     "test5",
     "test5cover.jpg",
-    "adjslfjasdklf",
     "efg/cover.jpg",
-    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/cover.jpg",
-    "menu.scss/cover.jpg"
+    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/cover.jpg"
   ]
 }
