@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "0ae270ee15f25700",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d092bb2218af7158",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Atomic Habits 读后感/单词.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "3fa21f26099ee818",
         "type": "tabs",
         "children": [
@@ -212,7 +194,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "cb834a591c96ded8",
   "lastOpenFiles": [
     "Atomic Habits 读后感/单词.md",
     "Atomic Habits 读后感/index.md",
