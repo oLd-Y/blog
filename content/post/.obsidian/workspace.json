@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "archlinux graphics.md",
+                "file": "Atomic Habits 读后感/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "archlinux graphics.md",
+                "file": "Atomic Habits 读后感/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "archlinux graphics.md",
+                "file": "Atomic Habits 读后感/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "archlinux graphics.md"
+                "file": "Atomic Habits 读后感/index.md"
               }
             }
           },
@@ -196,33 +196,33 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "emacs 入坑建议.md",
-    "git clone 参数解析.md",
-    "Windows 利用 auto hotkey 模拟常用 emacs 快捷键.md",
-    "windows 使用 auto hotkey 模拟 emacs 快捷键.md",
-    "vscode vim 快捷键.md",
-    "vim.md",
-    "vim command mode.md",
-    "wsl2 安装 gnome 桌面环境.md",
-    "obsidian publisher 文章模板.md",
-    "org-roam 节点.md",
-    "wsl（ubuntu）安装李治军操作系统环境依赖.md",
-    "wsl 网络问题.md",
-    "WSL 安装.md",
-    "Ubuntu 默认终端设置.md",
-    "Untitled 1.canvas",
-    "Windows 全局新建笔记.md",
-    "windows 和 arch 双系统安装.md",
+    "hugo + stack + obsidian 搭建博客/index.md",
     "Ubuntu 22.04 更换镜像源.md",
     "SD 关键词记录.md",
-    "reading notes -《Atomatic Habits》.md",
-    "ox-hugo org-template 理解.md",
-    "ox-hugo 自动生成模板代码解析.md",
-    "ox-hugo 结合 org-download 粘贴图片.md",
+    "保护模式相关.md",
+    "哈工大操作系统实验4.md",
+    "放弃折腾 vim 和 emacs.md",
+    "_daily/2024-04-30_Tuesday.md",
+    "_daily/2024-04-29_Monday.md",
+    "_daily/2024-04-28.md",
+    "_daily/2024-04-22.md",
     "linux-0.11 _set_gate 宏解释.md",
-    "KDE arch linux 安装 fcitx5 和 rime 输入法.md",
-    "lsp-bridge 安装过程问题汇总.md",
-    "nvm 设置代理.md",
+    "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",
+    "nvm 安装和使用/index.md",
+    "Windows 显卡硬件加速.md",
+    "zsh 查看所有绑定的快捷键.md",
+    "李治军操作系统总结.md",
+    "git clone 参数解析.md",
+    "双系统卸载 Ubuntu.md",
+    "emacs 入坑建议.md",
+    "git 清空提交历史.md",
+    "emacs 配置备份.md",
+    "重装系统之后出现 git 出现 detected dubious ownership in repository.md",
+    "Doom emacs 快速添加括号.md",
+    "Angular Git 提交规范.md",
+    "arch linux wayland chrome 浏览器输无法输入中文.md",
+    "archlinux graphics.md",
+    "Untitled 1.canvas",
     "反爬/cover.jpg",
     "反爬",
     "test2/cover.jpg",

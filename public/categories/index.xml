@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>分类 on 谷栗杳</title>
-        <link>http://localhost:1313/categories/</link>
+        <link>http://localhost:1313/blog/categories/</link>
         <description>Recent content in 分类 on 谷栗杳</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Fri, 28 Jun 2024 17:51:18 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 28 Jun 2024 17:51:18 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>读书笔记</title>
-        <link>http://localhost:1313/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+        <link>http://localhost:1313/blog/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
         <pubDate>Fri, 28 Jun 2024 17:51:18 +0800</pubDate>
         
-        <guid>http://localhost:1313/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/cover.jpg" alt="Featured image of post 读书笔记" /&gt;</description>
+        <guid>http://localhost:1313/blog/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+        <description>&lt;img src="http://localhost:1313/blog/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/cover.jpg" alt="Featured image of post 读书笔记" /&gt;</description>
         </item>
         <item>
         <title>Windows</title>
-        <link>http://localhost:1313/categories/windows/</link>
+        <link>http://localhost:1313/blog/categories/windows/</link>
         <pubDate>Tue, 25 Jun 2024 12:43:19 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/windows/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/windows/cover.jpg" alt="Featured image of post Windows" /&gt;</description>
+        <guid>http://localhost:1313/blog/categories/windows/</guid>
+        <description>&lt;img src="http://localhost:1313/blog/categories/windows/cover.jpg" alt="Featured image of post Windows" /&gt;</description>
         </item>
         
     </channel>

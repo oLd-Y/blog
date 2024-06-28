@@ -1,4 +1,4 @@
-baseurl = "https://old-y.github.io/"
+baseurl = "https://old-y.github.io/blog/"
 # baseurl = "http://localhost:1313/"
 languageCode = "zh-CN"
 theme = "hugo-theme-stack"
@@ -174,17 +174,26 @@ main = [ ]
   identifier = "github"
   name = "GitHub"
   url = "https://github.com/oLd-Y"
+  weight = 1
 
     [menu.social.params]
     icon = "brand-github"
 
   [[menu.social]]
-  identifier = "twitter"
-  name = "Twitter"
-  url = "https://twitter.com"
+  identifier = "bilibili"
+  name = "bilibili"
+  url = "https://space.bilibili.com/180272185"
 
     [menu.social.params]
-    icon = "brand-twitter"
+    icon = "brand-bilibili"
+
+  [[menu.social]]
+  identifier = "rss"
+  name = "Rss"
+  url = "https://old-y.github.io/blog/index.xml"
+
+    [menu.social.params]
+    icon = "rss"
 
 [related]
 includeNewer = true
