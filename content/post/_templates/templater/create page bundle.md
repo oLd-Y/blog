@@ -2,6 +2,8 @@
 <%*
 let title = await tp.system.prompt("Enter the title");
 let folder = `/${title}/`
+const {addID} = app.plugins.plugins["IDPlugin"].api;
+
 
 // 获取 Obsidian 根 vault 路径
 let vaultPath = app.vault.adapter.basePath;

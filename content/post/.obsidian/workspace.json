@@ -11,14 +11,11 @@
             "id": "cb834a591c96ded8",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": -202.5,
-                  "y": 10,
-                  "zoom": 0
-                }
+                "file": "_templates/templater/create page bundle.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "_templates/templater/create page bundle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "_templates/templater/create page bundle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas"
+                "file": "_templates/templater/create page bundle.md"
               }
             }
           },
@@ -199,9 +196,12 @@
   },
   "active": "cb834a591c96ded8",
   "lastOpenFiles": [
-    "保护模式相关.md",
-    "Untitled.canvas",
+    "hugo + stack + obsidian 搭建博客/index.md",
     "_templates/templater/create page bundle.md",
+    "围城 读后感/index.md",
+    "Untitled.canvas",
+    "围城 读后感/cover.jpg",
+    "保护模式相关.md",
     "_templates/templater/Insert Callouts.md",
     "reading notes -《Atomatic Habits》.md",
     "_templates/templater/new index template.md",
@@ -239,12 +239,9 @@
     "adjslfjasdklf",
     "afadsf asfasd/index.md.md",
     "afadsf asfasd",
-    "123123123/index.md.md",
-    "12345/index.md.md",
     "efg/cover.jpg",
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/cover.jpg",
     "menu.scss/cover.jpg",
-    "null/cover.jpg",
-    "nvm 安装和使用/cover.jpg"
+    "null/cover.jpg"
   ]
 }
