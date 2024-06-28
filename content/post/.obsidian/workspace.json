@@ -13,69 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_templates/templater/new blog template.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "122650d4bea863e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/def.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a73ab86104be42b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/abcv.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d14d3864406b3584",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/abcv.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c52b5c310a67255",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "828b8f1203088c50",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "66b23dd9eab2b110",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_templates/templater/new-blog.md",
+                "file": "_templates/templater/Insert Callouts.md",
                 "mode": "source",
                 "source": false
               }
@@ -147,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_templates/templater/new blog template.md",
+                "file": "_templates/templater/Insert Callouts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_templates/templater/new blog template.md",
+                "file": "_templates/templater/Insert Callouts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_templates/templater/new blog template.md"
+                "file": "_templates/templater/Insert Callouts.md"
               }
             }
           },
@@ -258,51 +196,51 @@
   },
   "active": "cb834a591c96ded8",
   "lastOpenFiles": [
-    "_templates/templater/new-blog 1.md",
-    "_templates/templater/new blog template.md",
-    "asf/index.md.md",
-    "asf",
+    "reading notes -《Atomatic Habits》.md",
+    "_templates/templater/Insert Callouts.md",
+    "_templates/templater/new index template.md",
+    "_templates/hugo.md",
+    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
     "_templates/templater/new-blog.md",
-    "books/abcv.md",
+    "_templates/templater/convert-blog.md",
+    "_templates/templater/create page bundle.md",
+    "menu.scss/index.md",
+    "test111/index.md",
+    "test111/cover.jpg",
+    "test111",
+    "test11/index 1.md",
+    "test11/index.md",
+    "test12/index.md",
+    "test12/cover.jpg",
+    "test11/cover.jpg",
+    "test12",
+    "test11",
+    "test10/index.md",
+    "test10/cover.jpg",
+    "test10",
     "books/def.md",
     "Untitled 1.md",
+    "books/abcv.md",
+    "test9/index.md",
+    "test9",
+    "test8/index.md.md",
+    "test8",
+    "test7/index.md.md",
+    "test7",
+    "test5/index.md.md",
+    "test5",
+    "test5cover.jpg",
+    "adjslfjasdklf/index.md.md",
+    "adjslfjasdklf",
+    "afadsf asfasd/index.md.md",
+    "afadsf asfasd",
+    "123123123/index.md.md",
+    "12345/index.md.md",
+    "asf/index.md.md",
     "efg/cover.jpg",
-    ".md",
-    "books/index",
-    "efg",
-    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
-    "books",
-    "_templates/templater/.md",
-    "_templates/hugo.md",
-    "hugo + stack + obsidian 搭建博客/index.md",
-    "Atomic Habits 读后感/index.md",
-    "Atomic Habits 读后感/单词.md",
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/cover.jpg",
-    "Windows 实现划词翻译及生词本功能（DeepL 接口和桌面端）/index.md",
     "menu.scss/cover.jpg",
-    "menu.scss/index.md",
-    "围城 读后感/index.md",
     "null/cover.jpg",
-    "null/index.md",
-    "nvm 安装和使用/cover.jpg",
-    "test1/cover.jpg",
-    "nvm 安装和使用/index.md",
-    "test1/index.md",
-    "_weread/围城.md",
-    "null/index.md",
-    "null",
-    "_daily/2024-04-22.md",
-    "windows 11 蓝牙无法搜索到设备的原因/index.md",
-    "放弃折腾 vim 和 emacs.md",
-    "test1",
-    "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
-    "windows 11 蓝牙无法搜索到设备的原因/cover.jpg.crdownload",
-    "windows 11 蓝牙无法搜索到设备的原因",
-    "windows 11 蓝牙无法搜索到设备的原因 /index.md",
-    "windows 11 蓝牙无法搜索到设备的原因 /cover.jpg",
-    "windows 11 蓝牙无法搜索到设备的原因 ",
-    "windows 11 蓝牙无法搜索到设备的原因.md",
-    "hugo + stack + obsidian 搭建博客/cover.jpg",
-    "Atomic Habits 读后感/cover.jpg"
+    "nvm 安装和使用/cover.jpg"
   ]
 }
