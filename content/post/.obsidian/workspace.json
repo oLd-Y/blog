@@ -15,8 +15,8 @@
               "state": {
                 "file": "Untitled.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
+                  "x": -202.5,
+                  "y": 10,
                   "zoom": 0
                 }
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Doom emacs 快速添加括号.md",
+                "file": "Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Doom emacs 快速添加括号.md",
+                "file": "Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Doom emacs 快速添加括号.md"
+                "file": "Untitled.canvas"
               }
             }
           },
@@ -197,10 +197,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "cb834a591c96ded8",
   "lastOpenFiles": [
-    "_templates/templater/create page bundle.md",
+    "保护模式相关.md",
     "Untitled.canvas",
+    "_templates/templater/create page bundle.md",
     "_templates/templater/Insert Callouts.md",
     "reading notes -《Atomatic Habits》.md",
     "_templates/templater/new index template.md",
