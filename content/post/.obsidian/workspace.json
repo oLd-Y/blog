@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_templates/templater/Insert Callouts.md",
+                "file": "_templates/templater/create page bundle.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_templates/templater/Insert Callouts.md",
+                "file": "_templates/templater/create page bundle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_templates/templater/Insert Callouts.md",
+                "file": "_templates/templater/create page bundle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_templates/templater/Insert Callouts.md"
+                "file": "_templates/templater/create page bundle.md"
               }
             }
           },
@@ -196,8 +196,8 @@
   },
   "active": "cb834a591c96ded8",
   "lastOpenFiles": [
-    "reading notes -《Atomatic Habits》.md",
     "_templates/templater/Insert Callouts.md",
+    "reading notes -《Atomatic Habits》.md",
     "_templates/templater/new index template.md",
     "_templates/hugo.md",
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
