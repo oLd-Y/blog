@@ -1,5 +1,6 @@
 ---
 title: 关于
+slug: about-cn
 menu:
     main: 
         weight: -90
