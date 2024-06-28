@@ -11,11 +11,14 @@
             "id": "cb834a591c96ded8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "_templates/templater/create page bundle.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -85,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_templates/templater/create page bundle.md",
+                "file": "Doom emacs 快速添加括号.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_templates/templater/create page bundle.md",
+                "file": "Doom emacs 快速添加括号.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_templates/templater/create page bundle.md"
+                "file": "Doom emacs 快速添加括号.md"
               }
             }
           },
@@ -194,8 +197,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "cb834a591c96ded8",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "_templates/templater/create page bundle.md",
+    "Untitled.canvas",
     "_templates/templater/Insert Callouts.md",
     "reading notes -《Atomatic Habits》.md",
     "_templates/templater/new index template.md",
@@ -203,7 +208,6 @@
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
     "_templates/templater/new-blog.md",
     "_templates/templater/convert-blog.md",
-    "_templates/templater/create page bundle.md",
     "menu.scss/index.md",
     "test111/index.md",
     "test111/cover.jpg",
@@ -236,7 +240,6 @@
     "afadsf asfasd",
     "123123123/index.md.md",
     "12345/index.md.md",
-    "asf/index.md.md",
     "efg/cover.jpg",
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/cover.jpg",
     "menu.scss/cover.jpg",
