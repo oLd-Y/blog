@@ -9,7 +9,7 @@ slug: ""
 image: cover.jpg
 weight: 1
 draft: true
-lastmod: 2024-06-27T09:38:09+08:00
+lastmod: 2024-06-28T09:53:07+08:00
 ---
 # obsidian
 templater 插件，创建博客以及自动拉取图片
@@ -101,3 +101,5 @@ ignoreFiles = ["post/_templates"]
 
 
 如果是从其它博客主题迁移过来的，注意把相关的文件清理干净。比如我就是在 `content/` 目录下残留有上个主题 `paperMod` 的 search.md 文件，导致 `Stack` 主题的搜索功能（`content/search/index.md`）无法生效。
+
+v 
