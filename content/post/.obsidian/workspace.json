@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
+                "file": "_templates/templater/new index template.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
+                "file": "_templates/templater/new index template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
+                "file": "_templates/templater/new index template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md"
+                "file": "_templates/templater/new index template.md"
               }
             }
           },
@@ -196,9 +196,13 @@
   },
   "active": "74fb914d967fe4f4",
   "lastOpenFiles": [
+    "反爬/index.zh-cn.md",
     "_templates/templater/new index template.md",
-    "_templates/templater/Insert Callouts.md",
     "_templates/templater/create page bundle.md",
+    "反爬/cover.jpg",
+    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
+    "反爬",
+    "_templates/templater/Insert Callouts.md",
     "test2/cover.jpg",
     "test2/index.zh-cn.md",
     "test2",
@@ -217,7 +221,6 @@
     "保护模式相关.md",
     "reading notes -《Atomatic Habits》.md",
     "_templates/hugo.md",
-    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
     "_templates/templater/new-blog.md",
     "_templates/templater/convert-blog.md",
     "menu.scss/index.md",
@@ -235,13 +238,10 @@
     "test10/cover.jpg",
     "test10",
     "books/def.md",
-    "Untitled 1.md",
     "test9",
     "test8",
     "test7",
-    "test5",
     "test5cover.jpg",
-    "efg/cover.jpg",
-    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/cover.jpg"
+    "efg/cover.jpg"
   ]
 }
