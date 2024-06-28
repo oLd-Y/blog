@@ -9,7 +9,7 @@ slug: ""
 image: cover.jpg
 weight: 1
 draft: true
-lastmod: 2024-06-28T10:13:28+08:00
+lastmod: 2024-06-28T17:42:11+08:00
 ---
 # obsidian
 templater 插件，创建博客以及自动拉取图片
@@ -78,6 +78,7 @@ downloadAndSetImage();
 
 ```
 
+使用 page bundle 组织博客，所有的文件都显示的是 index.md，十分地不方便。因此我们需要下载 `Front Matter Title` 插件。
 # Hugo
 hugo.toml，忽略某个文件夹
 ```toml
@@ -102,11 +103,16 @@ ignoreFiles = ["post/_templates"]
 
 如果是从其它博客主题迁移过来的，注意把相关的文件清理干净。比如我就是在 `content/` 目录下残留有上个主题 `paperMod` 的 search.md 文件，导致 `Stack` 主题的搜索功能（`content/search/index.md`）无法生效。
 
-要设置 favicon.icon，需要将其放到 static 中的某个文件夹，例如 static/img/，并配置在 hugo.toml 中配置
+~~要设置 favicon.icon，需要将其放到 static 中的某个文件夹，例如 static/img/，并配置在 hugo.toml 中配置
 
 ```toml
 [params]
 favicon = "/img/favicon.ico"
 ```
 
-如果直接将 favicon 放在 static 中，则配置不生效
+如果直接将 favicon 放在 static 中，则配置不生效~~
+
+如果资源的最前方带了 `/`，则表示从域名主机的根目录开始；不带 `/` 则表示从博客的根目录开始（像 `static`、`assets` 这些文件夹都会被构建为根目录。
+[Publication on GitHub pages and BaseURL - support - HUGO](https://discourse.gohugo.io/t/publication-on-github-pages-and-baseurl/43631/4)
+
+

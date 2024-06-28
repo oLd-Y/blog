@@ -13,9 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "围城 读后感/index.md",
+                "file": "_templates/templater/new index template.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "74fb914d967fe4f4",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Untitled 1.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -85,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "围城 读后感/index.md",
+                "file": "_templates/templater/new index template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "围城 读后感/index.md",
+                "file": "_templates/templater/new index template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "围城 读后感/index.md"
+                "file": "_templates/templater/new index template.md"
               }
             }
           },
@@ -154,18 +169,18 @@
             }
           },
           {
-            "id": "5a9800ba14b90c7b",
-            "type": "leaf",
-            "state": {
-              "type": "side-panel-control-view",
-              "state": {}
-            }
-          },
-          {
             "id": "683f5200baa556ad",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "026bd931285632de",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
               "state": {}
             }
           }
@@ -194,11 +209,16 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "cb834a591c96ded8",
   "lastOpenFiles": [
-    "_templates/templater/create page bundle.md",
     "hugo + stack + obsidian 搭建博客/index.md",
     "围城 读后感/index.md",
+    "Untitled 1.canvas",
+    "Untitled.md",
+    "test333/index.md",
+    "test333/cover.jpg",
+    "_templates/templater/create page bundle.md",
+    "test333",
     "Untitled.canvas",
     "围城 读后感/cover.jpg",
     "保护模式相关.md",
@@ -232,16 +252,11 @@
     "test8",
     "test7/index.md.md",
     "test7",
-    "test5/index.md.md",
     "test5",
     "test5cover.jpg",
-    "adjslfjasdklf/index.md.md",
     "adjslfjasdklf",
-    "afadsf asfasd/index.md.md",
-    "afadsf asfasd",
     "efg/cover.jpg",
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/cover.jpg",
-    "menu.scss/cover.jpg",
-    "null/cover.jpg"
+    "menu.scss/cover.jpg"
   ]
 }
