@@ -9,71 +9,31 @@ slug: ""
 image: cover.jpg
 weight: 1
 draft: true
-lastmod: 2024-06-28T17:42:11+08:00
+lastmod: 2024-06-28T20:51:31+08:00
 ---
 # obsidian
 templater 插件，创建博客以及自动拉取图片
 ```markdown
 <%*
-const fs = require('fs');
-const path = require('path');
-
-// 获取用户输入的 Note Title
-let qcFileName = await tp.system.prompt("Note Title");
-let titleName = qcFileName;
-
-// 定义 baseFolder 和 newFolder
-let baseFolder = "/";
-let newFolder = `${baseFolder}${titleName}/`;
-
+let title = await tp.system.prompt("Enter the title");
+let folder = `/${title}/`
+/**
+const key = "id";
+if (!app.metadataCache.getFileCache(f)?.frontmatter?.[key]) {
+	await app.fileManager.processFrontMatter(f, (data) => {
+		data[key] = ulid();
+	});
+}
+*/
 // 获取 Obsidian 根 vault 路径
 let vaultPath = app.vault.adapter.basePath;
-
-// 构建新的 markdown 文件路径
-let mdFilePath = `${vaultPath}${newFolder}index.md`;
-
 // 构建封面保存路径
-let imagePath = `${vaultPath}${newFolder}cover.jpg`;
+let imagePath = `${vaultPath}${folder}cover.jpg`;
+// tp.system.suggester(["中文", "English"], ["index.zh-cn", "index.en"], true, "请选择博客的语言")
 
-// 确保新文件夹存在
-if (!fs.existsSync(`${vaultPath}${newFolder}`)) {
-    fs.mkdirSync(`${vaultPath}${newFolder}`, { recursive: true });
-}
+await tp.file.create_new(tp.file.find_tfile("new index template"), "index.zh-cn", true, folder)
 
-// 创建新的 markdown 文件并添加 front matter
-let frontMatter = `---
-title: ${titleName}
-categories: ""
-tags: ""
-date: ${new Date().toISOString()}
-description: ""
-slug: ""
-image: "cover.jpg"
-weight: 1
-draft: true
----
-`;
-
-// 将 front matter 写入新的 markdown 文件
-fs.writeFileSync(mdFilePath, frontMatter);
-// tp.file.create_new(frontMatter, qcFileName, true, "")
-
-// 下载封面图片并更新 front matter
-async function downloadAndSetImage() {
-    try {
-        await tp.user.download_image("http://api.mtyqx.cn/api/random.php", imagePath);
-        setTimeout(() => { 
-            app.fileManager.processFrontMatter(mdFilePath, frontmatter => {
-                frontmatter["image"] = "cover.jpg";
-            }) 
-        }, 200);
-    } catch (error) {
-        console.error("Failed to download the cover image:", error);
-    }
-}
-
-downloadAndSetImage();
-
+await tp.user.download_image("http://api.mtyqx.cn/api/random.php", imagePath);
 -%>
 
 ```

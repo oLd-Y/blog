@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_templates/templater/new index template.md",
+                "file": "archlinux graphics.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_templates/templater/new index template.md",
+                "file": "archlinux graphics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_templates/templater/new index template.md",
+                "file": "archlinux graphics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_templates/templater/new index template.md"
+                "file": "archlinux graphics.md"
               }
             }
           },
@@ -194,50 +194,51 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "74fb914d967fe4f4",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "反爬/index.zh-cn.md",
-    "_templates/templater/new index template.md",
-    "_templates/templater/create page bundle.md",
-    "反爬/cover.jpg",
-    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
-    "反爬",
-    "_templates/templater/Insert Callouts.md",
-    "test2/cover.jpg",
-    "test2/index.zh-cn.md",
-    "test2",
-    "李治军操作系统总结.md",
-    "围城 读后感/index.md",
-    "围城 读后感/cover.jpg",
+    "emacs 入坑建议.md",
+    "git clone 参数解析.md",
+    "Windows 利用 auto hotkey 模拟常用 emacs 快捷键.md",
+    "windows 使用 auto hotkey 模拟 emacs 快捷键.md",
+    "vscode vim 快捷键.md",
+    "vim.md",
+    "vim command mode.md",
+    "wsl2 安装 gnome 桌面环境.md",
+    "obsidian publisher 文章模板.md",
+    "org-roam 节点.md",
     "wsl（ubuntu）安装李治军操作系统环境依赖.md",
+    "wsl 网络问题.md",
+    "WSL 安装.md",
+    "Ubuntu 默认终端设置.md",
     "Untitled 1.canvas",
-    "Untitled.md",
-    "test333/cover.jpg",
-    "test333/index.md",
-    "Untitled.canvas",
-    "_weread/傲慢与偏见（上）英文版.md",
-    "hugo + stack + obsidian 搭建博客/index.md",
-    "test333",
-    "保护模式相关.md",
+    "Windows 全局新建笔记.md",
+    "windows 和 arch 双系统安装.md",
+    "Ubuntu 22.04 更换镜像源.md",
+    "SD 关键词记录.md",
     "reading notes -《Atomatic Habits》.md",
-    "_templates/hugo.md",
-    "_templates/templater/new-blog.md",
-    "_templates/templater/convert-blog.md",
-    "menu.scss/index.md",
-    "test111/index.md",
+    "ox-hugo org-template 理解.md",
+    "ox-hugo 自动生成模板代码解析.md",
+    "ox-hugo 结合 org-download 粘贴图片.md",
+    "linux-0.11 _set_gate 宏解释.md",
+    "KDE arch linux 安装 fcitx5 和 rime 输入法.md",
+    "lsp-bridge 安装过程问题汇总.md",
+    "nvm 设置代理.md",
+    "反爬/cover.jpg",
+    "反爬",
+    "test2/cover.jpg",
+    "test2",
+    "围城 读后感/cover.jpg",
+    "test333/cover.jpg",
+    "Untitled.canvas",
+    "test333",
     "test111/cover.jpg",
     "test111",
-    "test11/index 1.md",
-    "test11/index.md",
-    "test12/index.md",
     "test12/cover.jpg",
     "test11/cover.jpg",
     "test12",
     "test11",
-    "test10/index.md",
     "test10/cover.jpg",
     "test10",
-    "books/def.md",
     "test9",
     "test8",
     "test7",

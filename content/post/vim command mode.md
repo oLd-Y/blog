@@ -1,8 +1,9 @@
 ---
 directory: 
-tags: 
+tags:
+  - vim
 draft: true
-lastmod: 2024-06-25T10:59:17+08:00
+lastmod: 2024-06-28T21:44:54+08:00
 title: vim command mode
 date: 2024-06-23
 ---

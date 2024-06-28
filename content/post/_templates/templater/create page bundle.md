@@ -1,4 +1,3 @@
-
 <%*
 let title = await tp.system.prompt("Enter the title");
 let folder = `/${title}/`

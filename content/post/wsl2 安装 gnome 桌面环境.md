@@ -1,12 +1,12 @@
 ---
 tags: 
 draft: true
-lastmod: 2024-06-25T16:18:15+08:00
+lastmod: 2024-06-28T21:40:50+08:00
 title: wsl2 安装 gnome 桌面环境
 date: 2024-05-13
 ---
 
-
+以下为要使用的命令一览：
 ```
 sudo apt update && sudo apt upgrade -y
 sudo apt purge -y acpid acpi-support modemmanager
