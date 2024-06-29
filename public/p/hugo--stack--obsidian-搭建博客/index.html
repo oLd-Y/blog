@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="obsidian templater 插件，创建博客以及自动拉取图片 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 &lt;%* let title = await tp.system.prompt(&#34;Enter the title&#34;); let folder = `/${title}/` /** const key = &#34;id&#34;; if (!app.metadataCache.getFileCache(f)?.frontmatter?.[key]) { await app.fileManager.processFrontMatter(f, (data) =&gt; { data[key] = ulid(); }); } */ //">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Hugo hugo 是我们构建博客的主要工具，号称是世界上最快的网站构建工具。它通过对文件夹分层管理我们的资源；通过标记语言（主要为 markdown）编写内">
 <title>Hugo &#43; Stack &#43; Obsidian 搭建博客</title>
 
 <link rel='canonical' href='http://localhost:1313/blog/p/hugo--stack--obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/'>
 
 <link rel="stylesheet" href="/blog/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="Hugo + Stack + Obsidian 搭建博客">
-<meta property='og:description' content="obsidian templater 插件，创建博客以及自动拉取图片 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 &lt;%* let title = await tp.system.prompt(&#34;Enter the title&#34;); let folder = `/${title}/` /** const key = &#34;id&#34;; if (!app.metadataCache.getFileCache(f)?.frontmatter?.[key]) { await app.fileManager.processFrontMatter(f, (data) =&gt; { data[key] = ulid(); }); } */ //">
+<meta property='og:description' content="Hugo hugo 是我们构建博客的主要工具，号称是世界上最快的网站构建工具。它通过对文件夹分层管理我们的资源；通过标记语言（主要为 markdown）编写内">
 <meta property='og:url' content='http://localhost:1313/blog/p/hugo--stack--obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/'>
 <meta property='og:site_name' content='谷栗杳'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='hugo' /><meta property='article:tag' content='obsidian' /><meta property='article:tag' content='blog' /><meta property='article:published_time' content='2024-06-25T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-06-29T10:35:53&#43;08:00'/><meta property='og:image' content='http://localhost:1313/blog/p/hugo--stack--obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/cover.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='hugo' /><meta property='article:tag' content='obsidian' /><meta property='article:tag' content='blog' /><meta property='article:published_time' content='2024-06-25T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-06-29T11:40:33&#43;08:00'/><meta property='og:image' content='http://localhost:1313/blog/p/hugo--stack--obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/cover.jpg' />
 <meta name="twitter:title" content="Hugo + Stack + Obsidian 搭建博客">
-<meta name="twitter:description" content="obsidian templater 插件，创建博客以及自动拉取图片 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 &lt;%* let title = await tp.system.prompt(&#34;Enter the title&#34;); let folder = `/${title}/` /** const key = &#34;id&#34;; if (!app.metadataCache.getFileCache(f)?.frontmatter?.[key]) { await app.fileManager.processFrontMatter(f, (data) =&gt; { data[key] = ulid(); }); } */ //"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="Hugo hugo 是我们构建博客的主要工具，号称是世界上最快的网站构建工具。它通过对文件夹分层管理我们的资源；通过标记语言（主要为 markdown）编写内"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='http://localhost:1313/blog/p/hugo--stack--obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/cover.jpg' />
     <link rel="shortcut icon" href="/blog/favicon.ico" />
 
@@ -316,7 +316,6 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#obsidian">obsidian</a></li>
     <li><a href="#hugo">Hugo</a>
       <ol>
         <li><a href="#主要命令">主要命令</a></li>
@@ -326,7 +325,13 @@
       </ol>
     </li>
     <li><a href="#stack">Stack</a></li>
-    <li><a href="#stack-1">Stack</a></li>
+    <li><a href="#obsidian">Obsidian</a>
+      <ol>
+        <li><a href="#自动创建-page-bundle">自动创建 Page Bundle</a></li>
+      </ol>
+    </li>
+    <li><a href="#踩坑记录">踩坑记录</a></li>
+    <li><a href="#参考链接">参考链接</a></li>
   </ol>
 </nav>
         </div>
@@ -399,7 +404,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 6 分钟
+                    阅读时长: 5 分钟
                 </time>
             </div>
         
@@ -414,58 +419,7 @@
     <section class="article-content">
     
     
-    <h2 id="obsidian">obsidian
-</h2><p>templater 插件，创建博客以及自动拉取图片</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"><span class="err">&lt;</span>%*
-</span></span><span class="line"><span class="cl">let title = await tp.system.prompt(&#34;Enter the title&#34;);
-</span></span><span class="line"><span class="cl">let folder = <span class="sb">`/${title}/`</span>
-</span></span><span class="line"><span class="cl">/**
-</span></span><span class="line"><span class="cl">const key = &#34;id&#34;;
-</span></span><span class="line"><span class="cl">if (!app.metadataCache.getFileCache(f)?.frontmatter?.[key]) {
-</span></span><span class="line"><span class="cl">	await app.fileManager.processFrontMatter(f, (data) =&gt; {
-</span></span><span class="line"><span class="cl">		data[key] = ulid();
-</span></span><span class="line"><span class="cl">	});
-</span></span><span class="line"><span class="cl">}
-</span></span><span class="line"><span class="cl">*/
-</span></span><span class="line"><span class="cl">// 获取 Obsidian 根 vault 路径
-</span></span><span class="line"><span class="cl">let vaultPath = app.vault.adapter.basePath;
-</span></span><span class="line"><span class="cl">// 构建封面保存路径
-</span></span><span class="line"><span class="cl">let imagePath = <span class="sb">`${vaultPath}${folder}cover.jpg`</span>;
-</span></span><span class="line"><span class="cl">// tp.system.suggester([&#34;中文&#34;, &#34;English&#34;], [&#34;index.zh-cn&#34;, &#34;index.en&#34;], true, &#34;请选择博客的语言&#34;)
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">await tp.file.create_new(tp.file.find_tfile(&#34;new index template&#34;), &#34;index.zh-cn&#34;, true, folder)
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">await tp.user.download_image(&#34;http://api.mtyqx.cn/api/random.php&#34;, imagePath);
-</span></span><span class="line"><span class="cl">-%&gt;
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>使用 page bundle 组织博客，所有的文件都显示的是 index.md，十分地不方便。因此我们需要下载 <code>Front Matter Title</code> 插件。</p>
-<h2 id="hugo">Hugo
+    <h2 id="hugo">Hugo
 </h2><p>hugo 是我们构建博客的主要工具，号称是世界上最快的网站构建工具。它通过对文件夹分层管理我们的资源；通过标记语言（主要为 markdown）编写内容，然后在构建之后将内容渲染到 themes 或者 layouts 的 hugo 的模板文件中来展示博客。</p>
 <p>值得一提的是，hugo 只需要下载它的 exe 文件即可正常工作。首先我们安装 hugo。在 <a class="link" href="https://github.com/gohugoio/hugo/releases/tag/v0.127.0"  target="_blank" rel="noopener"
     >release</a> 页面下载带 extended 的版本，否则主题无法正常启动。下载完成之后，将 hugo.exe 所在文件夹加入环境变量。</p>
@@ -530,8 +484,7 @@
 </span></span><span class="line"><span class="cl">---
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>这里先提一下，在后面 Obsidian 那里会详细说明。</p>
-<h3 id="page-bundle">Page Bundle
+</div><h3 id="page-bundle">Page Bundle
 </h3><p>hugo 的所有文章都是放在 content/post 目录中的（根据主题的不同可能有些差异，不过大多数主题都遵循这个约定）。你可以直接使用单个 markdown 文件，将其放在该目录中就可以显示为博客，但 hugo  更推荐 Page Bundle 的内容组织形式。</p>
 <p>所谓 Page Bundle，就是以<strong>文件夹名</strong>作为标识，<code>index.md</code> / <code>_index.md</code> 文件作为组织的核心，通过文件夹将相关联的内容组织到一起，方便管理。比如一篇博客的中英文版本、图片之类的内容都可以放在同一文件夹中，或者用于显示目录的文件夹也将它的内容都放在一起，就不用到其它地方才能看到了。</p>
 <p>需要说明的是，Page Bundle 分为 Leaf Bundle 和 Branch Bundle。简单理解：</p>
@@ -551,298 +504,120 @@
 </h2><p>本博客使用 <a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack"  target="_blank" rel="noopener"
     >Stack</a> 作为主题，将项目克隆到 themes 文件夹下后，将其中的 exampleSite 中的所有内容复制到博客的根目录下即可开始使用。使用 <code>hugo serve</code> 命令可以看到项目被部署到了本地。访问 <code>http://localhost:1313</code> 即可查看博客项目。</p>
 <p>修改 hugo.toml 文件中的各种配置项即可看到网站实时修改。完整的配置文件就不放上来了，提几个比较关键的配置：</p>
-<p>参考的 hugo.toml 如下所示：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">  1
-</span><span class="lnt">  2
-</span><span class="lnt">  3
-</span><span class="lnt">  4
-</span><span class="lnt">  5
-</span><span class="lnt">  6
-</span><span class="lnt">  7
-</span><span class="lnt">  8
-</span><span class="lnt">  9
-</span><span class="lnt"> 10
-</span><span class="lnt"> 11
-</span><span class="lnt"> 12
-</span><span class="lnt"> 13
-</span><span class="lnt"> 14
-</span><span class="lnt"> 15
-</span><span class="lnt"> 16
-</span><span class="lnt"> 17
-</span><span class="lnt"> 18
-</span><span class="lnt"> 19
-</span><span class="lnt"> 20
-</span><span class="lnt"> 21
-</span><span class="lnt"> 22
-</span><span class="lnt"> 23
-</span><span class="lnt"> 24
-</span><span class="lnt"> 25
-</span><span class="lnt"> 26
-</span><span class="lnt"> 27
-</span><span class="lnt"> 28
-</span><span class="lnt"> 29
-</span><span class="lnt"> 30
-</span><span class="lnt"> 31
-</span><span class="lnt"> 32
-</span><span class="lnt"> 33
-</span><span class="lnt"> 34
-</span><span class="lnt"> 35
-</span><span class="lnt"> 36
-</span><span class="lnt"> 37
-</span><span class="lnt"> 38
-</span><span class="lnt"> 39
-</span><span class="lnt"> 40
-</span><span class="lnt"> 41
-</span><span class="lnt"> 42
-</span><span class="lnt"> 43
-</span><span class="lnt"> 44
-</span><span class="lnt"> 45
-</span><span class="lnt"> 46
-</span><span class="lnt"> 47
-</span><span class="lnt"> 48
-</span><span class="lnt"> 49
-</span><span class="lnt"> 50
-</span><span class="lnt"> 51
-</span><span class="lnt"> 52
-</span><span class="lnt"> 53
-</span><span class="lnt"> 54
-</span><span class="lnt"> 55
-</span><span class="lnt"> 56
-</span><span class="lnt"> 57
-</span><span class="lnt"> 58
-</span><span class="lnt"> 59
-</span><span class="lnt"> 60
-</span><span class="lnt"> 61
-</span><span class="lnt"> 62
-</span><span class="lnt"> 63
-</span><span class="lnt"> 64
-</span><span class="lnt"> 65
-</span><span class="lnt"> 66
-</span><span class="lnt"> 67
-</span><span class="lnt"> 68
-</span><span class="lnt"> 69
-</span><span class="lnt"> 70
-</span><span class="lnt"> 71
-</span><span class="lnt"> 72
-</span><span class="lnt"> 73
-</span><span class="lnt"> 74
-</span><span class="lnt"> 75
-</span><span class="lnt"> 76
-</span><span class="lnt"> 77
-</span><span class="lnt"> 78
-</span><span class="lnt"> 79
-</span><span class="lnt"> 80
-</span><span class="lnt"> 81
-</span><span class="lnt"> 82
-</span><span class="lnt"> 83
-</span><span class="lnt"> 84
-</span><span class="lnt"> 85
-</span><span class="lnt"> 86
-</span><span class="lnt"> 87
-</span><span class="lnt"> 88
-</span><span class="lnt"> 89
-</span><span class="lnt"> 90
-</span><span class="lnt"> 91
-</span><span class="lnt"> 92
-</span><span class="lnt"> 93
-</span><span class="lnt"> 94
-</span><span class="lnt"> 95
-</span><span class="lnt"> 96
-</span><span class="lnt"> 97
-</span><span class="lnt"> 98
-</span><span class="lnt"> 99
-</span><span class="lnt">100
-</span><span class="lnt">101
-</span><span class="lnt">102
-</span><span class="lnt">103
-</span><span class="lnt">104
-</span><span class="lnt">105
-</span><span class="lnt">106
-</span><span class="lnt">107
-</span><span class="lnt">108
-</span><span class="lnt">109
-</span><span class="lnt">110
-</span><span class="lnt">111
-</span><span class="lnt">112
-</span><span class="lnt">113
-</span><span class="lnt">114
-</span><span class="lnt">115
-</span><span class="lnt">116
-</span><span class="lnt">117
-</span><span class="lnt">118
-</span><span class="lnt">119
-</span><span class="lnt">120
-</span><span class="lnt">121
-</span><span class="lnt">122
-</span><span class="lnt">123
-</span><span class="lnt">124
-</span><span class="lnt">125
-</span><span class="lnt">126
-</span><span class="lnt">127
-</span><span class="lnt">128
-</span><span class="lnt">129
-</span><span class="lnt">130
-</span><span class="lnt">131
-</span><span class="lnt">132
-</span><span class="lnt">133
-</span><span class="lnt">134
-</span><span class="lnt">135
-</span><span class="lnt">136
-</span><span class="lnt">137
-</span><span class="lnt">138
-</span><span class="lnt">139
-</span><span class="lnt">140
-</span><span class="lnt">141
-</span><span class="lnt">142
-</span><span class="lnt">143
-</span><span class="lnt">144
-</span><span class="lnt">145
-</span><span class="lnt">146
-</span><span class="lnt">147
-</span><span class="lnt">148
-</span><span class="lnt">149
-</span><span class="lnt">150
-</span><span class="lnt">151
-</span><span class="lnt">152
-</span><span class="lnt">153
-</span><span class="lnt">154
-</span><span class="lnt">155
-</span><span class="lnt">156
-</span><span class="lnt">157
-</span><span class="lnt">158
-</span><span class="lnt">159
-</span><span class="lnt">160
-</span><span class="lnt">161
-</span><span class="lnt">162
-</span><span class="lnt">163
-</span><span class="lnt">164
-</span><span class="lnt">165
-</span><span class="lnt">166
-</span><span class="lnt">167
-</span><span class="lnt">168
-</span><span class="lnt">169
-</span><span class="lnt">170
-</span><span class="lnt">171
-</span><span class="lnt">172
-</span><span class="lnt">173
-</span><span class="lnt">174
-</span><span class="lnt">175
-</span><span class="lnt">176
-</span><span class="lnt">177
-</span><span class="lnt">178
-</span><span class="lnt">179
-</span><span class="lnt">180
-</span><span class="lnt">181
-</span><span class="lnt">182
-</span><span class="lnt">183
-</span><span class="lnt">184
-</span><span class="lnt">185
-</span><span class="lnt">186
-</span><span class="lnt">187
-</span><span class="lnt">188
-</span><span class="lnt">189
-</span><span class="lnt">190
-</span><span class="lnt">191
-</span><span class="lnt">192
-</span><span class="lnt">193
-</span><span class="lnt">194
-</span><span class="lnt">195
-</span><span class="lnt">196
-</span><span class="lnt">197
-</span><span class="lnt">198
-</span><span class="lnt">199
-</span><span class="lnt">200
-</span><span class="lnt">201
-</span><span class="lnt">202
-</span><span class="lnt">203
-</span><span class="lnt">204
-</span><span class="lnt">205
-</span><span class="lnt">206
-</span><span class="lnt">207
-</span><span class="lnt">208
-</span><span class="lnt">209
-</span><span class="lnt">210
-</span><span class="lnt">211
-</span><span class="lnt">212
-</span><span class="lnt">213
-</span><span class="lnt">214
-</span><span class="lnt">215
-</span><span class="lnt">216
-</span><span class="lnt">217
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span><span class="lnt">66
+</span><span class="lnt">67
+</span><span class="lnt">68
+</span><span class="lnt">69
+</span><span class="lnt">70
+</span><span class="lnt">71
+</span><span class="lnt">72
+</span><span class="lnt">73
+</span><span class="lnt">74
+</span><span class="lnt">75
+</span><span class="lnt">76
+</span><span class="lnt">77
+</span><span class="lnt">78
+</span><span class="lnt">79
+</span><span class="lnt">80
+</span><span class="lnt">81
+</span><span class="lnt">82
+</span><span class="lnt">83
+</span><span class="lnt">84
+</span><span class="lnt">85
+</span><span class="lnt">86
+</span><span class="lnt">87
+</span><span class="lnt">88
+</span><span class="lnt">89
+</span><span class="lnt">90
+</span><span class="lnt">91
+</span><span class="lnt">92
+</span><span class="lnt">93
+</span><span class="lnt">94
+</span><span class="lnt">95
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">baseurl</span> <span class="p">=</span> <span class="s2">&#34;https://old-y.github.io/blog/&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="c"># baseurl = &#34;http://localhost:1313/&#34;</span>
+<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="c"># 网站的根域名</span>
+</span></span><span class="line"><span class="cl"><span class="nx">baseurl</span> <span class="p">=</span> <span class="s2">&#34;https://old-y.github.io/blog/&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c"># 用于显示使用的是什么语言</span>
 </span></span><span class="line"><span class="cl"><span class="nx">languageCode</span> <span class="p">=</span> <span class="s2">&#34;zh-CN&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c"># 指定使用的主题</span>
 </span></span><span class="line"><span class="cl"><span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;hugo-theme-stack&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">paginate</span> <span class="p">=</span> <span class="mi">5</span>
-</span></span><span class="line"><span class="cl"><span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;谷栗杳&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">copyright</span> <span class="p">=</span> <span class="s2">&#34;谷栗杳&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c"># 设置文章的默认语言</span>
 </span></span><span class="line"><span class="cl"><span class="nx">DefaultContentLanguage</span> <span class="p">=</span> <span class="s2">&#34;zh-cn&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c"># 设置是否使用汉字编码，CJK 表示中、日、韩</span>
 </span></span><span class="line"><span class="cl"><span class="nx">hasCJKLanguage</span> <span class="p">=</span> <span class="kc">true</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c"># 需要放到配置文件较前的地方，否则可能不生效。相对于 content 文件夹的位置。</span>
-</span></span><span class="line"><span class="cl"><span class="nx">ignoreFiles</span> <span class="p">=</span> <span class="p">[</span><span class="s2">&#34;post/_templates&#34;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="p">...</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">en</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">languageName</span> <span class="p">=</span> <span class="s2">&#34;English&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;lyao&#39;s Blog&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">weight</span> <span class="p">=</span> <span class="mi">1</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">en</span><span class="p">.</span><span class="nx">params</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">description</span> <span class="p">=</span> <span class="s2">&#34;Example description&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">zh-cn</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">languageName</span> <span class="p">=</span> <span class="s2">&#34;中文&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;谷栗杳&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">weight</span> <span class="p">=</span> <span class="mi">2</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">zh-cn</span><span class="p">.</span><span class="nx">params</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">description</span> <span class="p">=</span> <span class="s2">&#34;成为最好的自己&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">services</span><span class="p">.</span><span class="nx">disqus</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">shortname</span> <span class="p">=</span> <span class="s2">&#34;hugo-theme-stack&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">services</span><span class="p">.</span><span class="nx">googleAnalytics</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">permalinks</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">post</span> <span class="p">=</span> <span class="s2">&#34;/p/:slug/&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">page</span> <span class="p">=</span> <span class="s2">&#34;/:slug/&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">mainSections</span> <span class="p">=</span> <span class="p">[</span> <span class="s2">&#34;post&#34;</span> <span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">featuredImageField</span> <span class="p">=</span> <span class="s2">&#34;image&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">rssFullContent</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">favicon</span> <span class="p">=</span> <span class="s2">&#34;favicon.ico&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">footer</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">since</span> <span class="p">=</span> <span class="mi">2_024</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">dateFormat</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">published</span> <span class="p">=</span> <span class="s2">&#34;Jan 02, 2006&#34;</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">lastUpdated</span> <span class="p">=</span> <span class="s2">&#34;Jan 02, 2006 15:04 MST&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">sidebar</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">emoji</span> <span class="p">=</span> <span class="s2">&#34;✨&#34;</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">subtitle</span> <span class="p">=</span> <span class="s2">&#34;再微弱的荧光，也有它可以照亮的地方。&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">sidebar</span><span class="p">.</span><span class="nx">avatar</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">enabled</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">local</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">src</span> <span class="p">=</span> <span class="s2">&#34;img/avatar.png&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">article</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">math</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">toc</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">readingTime</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">article</span><span class="p">.</span><span class="nx">license</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">enabled</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">default</span> <span class="p">=</span> <span class="s2">&#34;Licensed under CC BY-NC-SA 4.0&#34;</span>
-</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c"># 设置评论提供商，我的是 giscus，将在 giscus 中配置好的信息填入 giscus 那一栏即可</span>
+</span></span><span class="line"><span class="cl">  <span class="c"># [giscus 官网](https://giscus.app/zh-CN)</span>
 </span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">comments</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">enabled</span> <span class="p">=</span> <span class="kc">true</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">provider</span> <span class="p">=</span> <span class="s2">&#34;giscus&#34;</span>
@@ -875,10 +650,10 @@
 </span></span><span class="line"><span class="cl">    <span class="nx">siteName</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">comments</span><span class="p">.</span><span class="nx">giscus</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">repo</span> <span class="p">=</span> <span class="s2">&#34;oLd-Y/blog&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">repoID</span> <span class="p">=</span> <span class="s2">&#34;R_kgDOLzCoMA&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">category</span> <span class="p">=</span> <span class="s2">&#34;Announcements&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">categoryID</span> <span class="p">=</span> <span class="s2">&#34;DIC_kwDOLzCoMM4Ce8bK&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">repo</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">repoID</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">category</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">categoryID</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">mapping</span> <span class="p">=</span> <span class="s2">&#34;pathname&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">lightTheme</span> <span class="p">=</span> <span class="s2">&#34;light&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">darkTheme</span> <span class="p">=</span> <span class="s2">&#34;dark&#34;</span>
@@ -892,50 +667,11 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">comments</span><span class="p">.</span><span class="nx">cusdis</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">widgets</span><span class="p">.</span><span class="nx">homepage</span><span class="p">]]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">type</span> <span class="p">=</span> <span class="s2">&#34;search&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">widgets</span><span class="p">.</span><span class="nx">homepage</span><span class="p">]]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">type</span> <span class="p">=</span> <span class="s2">&#34;archives&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">widgets</span><span class="p">.</span><span class="nx">homepage</span><span class="p">.</span><span class="nx">params</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">limit</span> <span class="p">=</span> <span class="mi">5</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">widgets</span><span class="p">.</span><span class="nx">homepage</span><span class="p">]]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">type</span> <span class="p">=</span> <span class="s2">&#34;categories&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">widgets</span><span class="p">.</span><span class="nx">homepage</span><span class="p">.</span><span class="nx">params</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">limit</span> <span class="p">=</span> <span class="mi">10</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">widgets</span><span class="p">.</span><span class="nx">homepage</span><span class="p">]]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">type</span> <span class="p">=</span> <span class="s2">&#34;tag-cloud&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">widgets</span><span class="p">.</span><span class="nx">homepage</span><span class="p">.</span><span class="nx">params</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">limit</span> <span class="p">=</span> <span class="mi">10</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">params</span><span class="p">.</span><span class="nx">widgets</span><span class="p">.</span><span class="nx">page</span><span class="p">]]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">type</span> <span class="p">=</span> <span class="s2">&#34;toc&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">opengraph</span><span class="p">.</span><span class="nx">twitter</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">card</span> <span class="p">=</span> <span class="s2">&#34;summary_large_image&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">defaultImage</span><span class="p">.</span><span class="nx">opengraph</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">enabled</span> <span class="p">=</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl"><span class="nx">local</span> <span class="p">=</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">colorScheme</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">toggle</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">default</span> <span class="p">=</span> <span class="s2">&#34;auto&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">imageProcessing</span><span class="p">.</span><span class="nx">cover</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">enabled</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">imageProcessing</span><span class="p">.</span><span class="nx">content</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">enabled</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl"><span class="p">...</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">menu</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl"><span class="nx">main</span> <span class="p">=</span> <span class="p">[</span> <span class="p">]</span>
-</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c"># 设置侧边栏</span>
 </span></span><span class="line"><span class="cl">  <span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">social</span><span class="p">]]</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;github&#34;</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;GitHub&#34;</span>
@@ -961,80 +697,67 @@
 </span></span><span class="line"><span class="cl">    <span class="p">[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">social</span><span class="p">.</span><span class="nx">params</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">icon</span> <span class="p">=</span> <span class="s2">&#34;rss&#34;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">related</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">includeNewer</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">threshold</span> <span class="p">=</span> <span class="mi">60</span>
-</span></span><span class="line"><span class="cl"><span class="nx">toLower</span> <span class="p">=</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="p">[[</span><span class="nx">related</span><span class="p">.</span><span class="nx">indices</span><span class="p">]]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;tags&#34;</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">weight</span> <span class="p">=</span> <span class="mi">100</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="p">[[</span><span class="nx">related</span><span class="p">.</span><span class="nx">indices</span><span class="p">]]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;categories&#34;</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">weight</span> <span class="p">=</span> <span class="mi">200</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">goldmark</span><span class="p">.</span><span class="nx">renderer</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">unsafe</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">tableOfContents</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">endLevel</span> <span class="p">=</span> <span class="mi">4</span>
-</span></span><span class="line"><span class="cl"><span class="nx">ordered</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">startLevel</span> <span class="p">=</span> <span class="mi">2</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">highlight</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">noClasses</span> <span class="p">=</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl"><span class="nx">codeFences</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">guessSyntax</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">lineNoStart</span> <span class="p">=</span> <span class="mi">1</span>
-</span></span><span class="line"><span class="cl"><span class="nx">lineNos</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">lineNumbersInTable</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">tabWidth</span> <span class="p">=</span> <span class="mi">4</span>
+</span></span><span class="line"><span class="cl"><span class="p">...</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><div class="highlight"><div class="chroma">
+</div><h2 id="obsidian">Obsidian
+</h2><p>下面的说明默认你有一定的 Obsidian 使用经验。</p>
+<h3 id="自动创建-page-bundle">自动创建 Page Bundle
+</h3><p>之前提到，与常规单个 markdown 文件不同，hugo 更推荐采用 page bundle 的形式组织文件。那么自然是不能每个文件夹和文件都手动创建，那样也太低效了。因此我们需要使用到 templater 插件。</p>
+<p>在 Obsidain 插件社区中安装 templater 插件。指定好模板文件夹之后，在该模板文件夹中创建一个 <code>create page bundle</code> 文件，并填入如下模板：</p>
+<div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	
-</span></span><span class="line"><span class="cl">		
-</span></span><span class="line"><span class="cl">hugo.toml，忽略某个文件夹
-</span></span><span class="line"><span class="cl">```toml
-</span></span><span class="line"><span class="cl">ignoreFiles = [&#34;post/_templates&#34;]
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"><span class="err">&lt;</span>%*
+</span></span><span class="line"><span class="cl">let title = await tp.system.prompt(&#34;Enter the title&#34;);
+</span></span><span class="line"><span class="cl">let folder = <span class="sb">`/${title}/`</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">// 获取 Obsidian 根 vault 路径
+</span></span><span class="line"><span class="cl">let vaultPath = app.vault.adapter.basePath;
+</span></span><span class="line"><span class="cl">// 构建封面保存路径
+</span></span><span class="line"><span class="cl">let imagePath = <span class="sb">`${vaultPath}${folder}cover.jpg`</span>;
+</span></span><span class="line"><span class="cl">// tp.system.suggester([&#34;中文&#34;, &#34;English&#34;], [&#34;index.zh-cn&#34;, &#34;index.en&#34;], true, &#34;请选择博客的语言&#34;)
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">await tp.file.create_new(tp.file.find_tfile(&#34;new index template&#34;), &#34;index.zh-cn&#34;, true, folder)
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">await tp.user.download_image(&#34;http://api.mtyqx.cn/api/random.php&#34;, imagePath);
+</span></span><span class="line"><span class="cl">-%&gt;
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>解析 obsidian 的双链</p>
-<h2 id="stack-1">Stack
-</h2><p>开启评论、目录（toc）、中英双语</p>
-<p>设置自己的域名</p>
-<p>代码块折叠</p>
-<p><a class="link" href="https://jinli.io/p/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84%E5%BB%BA%E7%AB%8B%E8%BF%87%E7%A8%8B%E4%B8%89hugo%E4%B8%BB%E9%A2%98stack%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E4%BC%98%E5%8C%96/"  target="_blank" rel="noopener"
+</div><p>然后再创建一个模板文件命令为 <code>new index template</code>，填入如下内容</p>
+<p>使用 page bundle 组织博客，所有的文件都显示的是 index.md，十分地不方便。因此我们需要下载 <code>Front Matter Title</code> 插件。</p>
+<h2 id="踩坑记录">踩坑记录
+</h2><ol>
+<li>
+<p>如果是从其它博客主题迁移过来的，注意把相关的文件清理干净。比如我就是在 <code>content/</code> 目录下残留有上个主题 <code>PaperMod</code> 的 search.md 文件，导致 <code>Stack</code> 主题的搜索功能（<code>content/search/index.md</code>）无法生效。</p>
+</li>
+<li>
+<p>如果资源的最前方带了 <code>/</code>，则表示从域名主机的根目录开始；不带 <code>/</code> 则表示从博客的根目录开始（像 <code>static</code>、<code>assets</code> 这些文件夹都会被构建为根目录。<a class="link" href="https://discourse.gohugo.io/t/publication-on-github-pages-and-baseurl/43631/4"  target="_blank" rel="noopener"
+    >参考链接</a></p>
+</li>
+</ol>
+<h2 id="参考链接">参考链接
+</h2><p><a class="link" href="https://jinli.io/p/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84%E5%BB%BA%E7%AB%8B%E8%BF%87%E7%A8%8B%E4%B8%89hugo%E4%B8%BB%E9%A2%98stack%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E4%BC%98%E5%8C%96/"  target="_blank" rel="noopener"
     >个人网站的建立过程（三）：Hugo主题stack的使用与优化</a></p>
 <p><a class="link" href="https://thirdshire.com/hugo-stack-renovation/"  target="_blank" rel="noopener"
     >Hugo Stack主题装修笔记</a></p>
-<p>如果是从其它博客主题迁移过来的，注意把相关的文件清理干净。比如我就是在 <code>content/</code> 目录下残留有上个主题 <code>paperMod</code> 的 search.md 文件，导致 <code>Stack</code> 主题的搜索功能（<code>content/search/index.md</code>）无法生效。</p>
-<p>~~要设置 favicon.icon，需要将其放到 static 中的某个文件夹，例如 static/img/，并配置在 hugo.toml 中配置</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">favicon</span> <span class="p">=</span> <span class="s2">&#34;/img/favicon.ico&#34;</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>如果直接将 favicon 放在 static 中，则配置不生效~~</p>
-<p>如果资源的最前方带了 <code>/</code>，则表示从域名主机的根目录开始；不带 <code>/</code> 则表示从博客的根目录开始（像 <code>static</code>、<code>assets</code> 这些文件夹都会被构建为根目录。
-<a class="link" href="https://discourse.gohugo.io/t/publication-on-github-pages-and-baseurl/43631/4"  target="_blank" rel="noopener"
-    >Publication on GitHub pages and BaseURL - support - HUGO</a></p>
+<p><a class="link" href="https://zexwoo.blog/posts/tutorials/build-hugo-blog/#%E6%B7%BB%E5%8A%A0-hugo-%E4%B8%BB%E9%A2%98-stack"  target="_blank" rel="noopener"
+    >如何在 Windows 系统从零开始构建一个和我一样的 Hugo 博客</a></p>
 
 </section>
 
@@ -1074,7 +797,7 @@
 
 
         <span>
-            最后更新于 Jun 29, 2024 10:35 CST
+            最后更新于 Jun 29, 2024 11:40 CST
         </span>
     </section></footer>
 
