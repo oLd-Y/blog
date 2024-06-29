@@ -1,15 +1,18 @@
 ---
-title: hugo + stack + obsidian 搭建博客
+title: Hugo + Stack + Obsidian 搭建博客
 categories:
   - ""
-tags: 
-date: 2024-06-25T08:31:36.022Z
+tags:
+  - hugo
+  - obsidian
+  - blog
+date: 2024-06-25
 description: ""
 slug: ""
 image: cover.jpg
 weight: 1
 draft: false
-lastmod: 2024-06-29T08:07:47+08:00
+lastmod: 2024-06-29T09:39:59+08:00
 ---
 ## obsidian
 templater 插件，创建博客以及自动拉取图片
@@ -44,7 +47,7 @@ hugo 是我们构建博客的主要工具，号称是世界上最快的网站构
 
 值得一提的是，hugo 只需要下载它的 exe 文件即可正常工作。首先我们安装 hugo。在 [release](https://github.com/gohugoio/hugo/releases/tag/v0.127.0) 页面下载带 extended 的版本，否则主题无法正常启动。下载完成之后，将 hugo.exe 所在文件夹加入环境变量。
 
-整个网站的搭建网上资料已经很多了，例如你可参考[这篇文章](https://zexwoo.blog/posts/tutorials/build-hugo-blog/)，讲得比较详细，这里不再赘述，只提一些需要知道的知识。
+hugo 网站的搭建网上资料已经很多了，例如你可参考[这篇文章](https://zexwoo.blog/posts/tutorials/build-hugo-blog/)，讲得比较详细，这里不再赘述，只提一些需要知道的知识。
 
 ### 主要命令
 
@@ -63,19 +66,44 @@ hugo serve -D # 启动站点，并附带草稿
 
 对于每篇 markdown 文章，都可以在开头为其添加一些以两对 `---` 包裹的键值对，作为这篇文章的 front matter，用于控制这篇文章的一些属性，例如是否为草稿，设置封面及路径等。
 
-格式如下所示：
+例如本篇博客的 front matter 格式就如下所示：
 
 ```markdown
 ---
-draft: true
+title: Hugo + Stack + Obsidian 搭建博客
+categories:
+  - ""
+tags:
+  - hugo
+  - obsidian
+  - blog
+date: 2024-06-25
+description: ""
+slug: ""
+image: cover.jpg
+weight: 1
+draft: false
+lastmod: 2024-06-28T20:51:31+08:00
 ---
 ```
 
-这里先提一下，后面会详细说明。
+这里先提一下，在后面 Obsidian 那里会详细说明。
 
 ### Page Bundle
 
-hugo 比推荐 Page Bundle 的内容组织形式。所谓 Page Bundle，就是将文件夹名作为
+hugo 的所有文章都是放在 content/post 目录中的（根据主题的不同可能有些差异，不过大多数主题都遵循这个约定）。你可以直接使用单个 markdown 文件，将其放在该目录中就可以显示为博客，但 hugo  更推荐 Page Bundle 的内容组织形式。
+
+所谓 Page Bundle，就是以**文件夹名**作为标识，index.md / \_index.md 文件作为组织的核心，通过文件夹将相关联的内容组织到一起，方便管理。比如一篇博客的中英文版本、图片之类的内容都可以放在同一文件夹中，或者用于显示目录的文件夹也将内容都放在一起，就不用到其它地方才能看到了。
+
+需要说明的是，Page Bundle 分为 Leaf Bundle 和 Branch Bundle。简单理解，Leaf Bundle 就是叶子节点，以 index.md 标识，其后不可以再有其它 Leaf Bundle；而 Branch Bundle 则是肢干节点，以 \_index.md 标识（注意这个下横线），其后可以有其它的 Leaf Bundle 和 Branch Bundle。
+
+本博客的主题 Stack 的 content 目录，以及子目录 archives、categories、page、post、tags 等，都是以这样的方式组织文件的。
+
+详情可以查看[官网](https://gohugo.io/content-management/page-bundles/)。
+
+### 配置文件hugo.toml
+
+
 ```
 
 	

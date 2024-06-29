@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Fri, 28 Jun 2024 21:59:43 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 28 Jun 2024 17:51:18 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>围城 读后感</title>
         <link>http://localhost:1313/blog/p/%E5%9B%B4%E5%9F%8E-%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
         <pubDate>Fri, 28 Jun 2024 17:51:18 +0800</pubDate>
@@ -326,121 +326,6 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;（ps：我也不知道这几个服务有啥用，手动和自动有什么区别，反正看着和蓝牙有关就都开启了。）&lt;/p&gt;
 &lt;p&gt;以上。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>hugo &#43; stack &#43; obsidian 搭建博客</title>
-        <link>http://localhost:1313/blog/p/hugo--stack--obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
-        <pubDate>Tue, 25 Jun 2024 08:31:36 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/p/hugo--stack--obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
-        <description>&lt;img src="http://localhost:1313/blog/p/hugo--stack--obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/cover.jpg" alt="Featured image of post hugo &#43; stack &#43; obsidian 搭建博客" /&gt;&lt;h1 id=&#34;obsidian&#34;&gt;obsidian
-&lt;/h1&gt;&lt;p&gt;templater 插件，创建博客以及自动拉取图片&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&amp;lt;&lt;/span&gt;%*
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;let title = await tp.system.prompt(&amp;#34;Enter the title&amp;#34;);
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;let folder = &lt;span class=&#34;sb&#34;&gt;`/${title}/`&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/**
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;const key = &amp;#34;id&amp;#34;;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;if (!app.metadataCache.getFileCache(f)?.frontmatter?.[key]) {
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	await app.fileManager.processFrontMatter(f, (data) =&amp;gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		data[key] = ulid();
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	});
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;*/
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 获取 Obsidian 根 vault 路径
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;let vaultPath = app.vault.adapter.basePath;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 构建封面保存路径
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;let imagePath = &lt;span class=&#34;sb&#34;&gt;`${vaultPath}${folder}cover.jpg`&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// tp.system.suggester([&amp;#34;中文&amp;#34;, &amp;#34;English&amp;#34;], [&amp;#34;index.zh-cn&amp;#34;, &amp;#34;index.en&amp;#34;], true, &amp;#34;请选择博客的语言&amp;#34;)
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;await tp.file.create_new(tp.file.find_tfile(&amp;#34;new index template&amp;#34;), &amp;#34;index.zh-cn&amp;#34;, true, folder)
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;await tp.user.download_image(&amp;#34;http://api.mtyqx.cn/api/random.php&amp;#34;, imagePath);
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-%&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;使用 page bundle 组织博客，所有的文件都显示的是 index.md，十分地不方便。因此我们需要下载 &lt;code&gt;Front Matter Title&lt;/code&gt; 插件。&lt;/p&gt;
-&lt;h1 id=&#34;hugo&#34;&gt;Hugo
-&lt;/h1&gt;&lt;p&gt;hugo 是我们构建博客的主要工具，号称是世界上最快的网站构建工具。它通过对文件夹分层管理我们的资源；通过标记语言（主要为 markdown）编写内容，然后在构建之后将内容渲染到 themes 或者 layouts 的 hugo 的模板文件中来展示博客。&lt;/p&gt;
-&lt;p&gt;值得一提的是，hugo 只需要下载它的 exe 文件即可正常工作。首先我们安装 hugo。在 &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/releases/tag/v0.127.0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;release&lt;/a&gt; 页面下载带 extended 的版本，否则主题无法正常启动。下载完成之后，将 hugo.exe 所在文件夹加入环境变量。&lt;/p&gt;
-&lt;p&gt;整个网站的搭建网上资料已经很多了，例如你可参考&lt;a class=&#34;link&#34; href=&#34;https://zexwoo.blog/posts/tutorials/build-hugo-blog/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;这篇文章&lt;/a&gt;，讲得比较详细，这里不再赘述，只提一些需要知道的知识。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;主要命令。在构建网站的过程中主要使用到的 hugo 命令也就几个：
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo version &lt;span class=&#34;c1&#34;&gt;# 查看 hugo 的版本&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new site blog &lt;span class=&#34;c1&#34;&gt;# 在当前目录下创建一个名为 blog 的 hugo 站点&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo serve &lt;span class=&#34;c1&#34;&gt;# 启动站点&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;hugo.toml，忽略某个文件夹&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;ignoreFiles&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;post/_templates&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;解析 obsidian 的双链&lt;/p&gt;
-&lt;h1 id=&#34;stack&#34;&gt;Stack
-&lt;/h1&gt;&lt;p&gt;开启评论、目录（toc）、中英双语&lt;/p&gt;
-&lt;p&gt;设置自己的域名&lt;/p&gt;
-&lt;p&gt;代码块折叠&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://jinli.io/p/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84%E5%BB%BA%E7%AB%8B%E8%BF%87%E7%A8%8B%E4%B8%89hugo%E4%B8%BB%E9%A2%98stack%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E4%BC%98%E5%8C%96/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;个人网站的建立过程（三）：Hugo主题stack的使用与优化&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://thirdshire.com/hugo-stack-renovation/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Hugo Stack主题装修笔记&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;如果是从其它博客主题迁移过来的，注意把相关的文件清理干净。比如我就是在 &lt;code&gt;content/&lt;/code&gt; 目录下残留有上个主题 &lt;code&gt;paperMod&lt;/code&gt; 的 search.md 文件，导致 &lt;code&gt;Stack&lt;/code&gt; 主题的搜索功能（&lt;code&gt;content/search/index.md&lt;/code&gt;）无法生效。&lt;/p&gt;
-&lt;p&gt;~~要设置 favicon.icon，需要将其放到 static 中的某个文件夹，例如 static/img/，并配置在 hugo.toml 中配置&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;favicon&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;/img/favicon.ico&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;如果直接将 favicon 放在 static 中，则配置不生效~~&lt;/p&gt;
-&lt;p&gt;如果资源的最前方带了 &lt;code&gt;/&lt;/code&gt;，则表示从域名主机的根目录开始；不带 &lt;code&gt;/&lt;/code&gt; 则表示从博客的根目录开始（像 &lt;code&gt;static&lt;/code&gt;、&lt;code&gt;assets&lt;/code&gt; 这些文件夹都会被构建为根目录。
-&lt;a class=&#34;link&#34; href=&#34;https://discourse.gohugo.io/t/publication-on-github-pages-and-baseurl/43631/4&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Publication on GitHub pages and BaseURL - support - HUGO&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -808,6 +693,182 @@
 &lt;p&gt;Seneca’s famous quote, “ Being poor is not having too little, it is wanting more.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Hugo &#43; Stack &#43; Obsidian 搭建博客</title>
+        <link>http://localhost:1313/blog/p/hugo--stack--obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+        <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/hugo--stack--obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+        <description>&lt;img src="http://localhost:1313/blog/p/hugo--stack--obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/cover.jpg" alt="Featured image of post Hugo &#43; Stack &#43; Obsidian 搭建博客" /&gt;&lt;h2 id=&#34;obsidian&#34;&gt;obsidian
+&lt;/h2&gt;&lt;p&gt;templater 插件，创建博客以及自动拉取图片&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&amp;lt;&lt;/span&gt;%*
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;let title = await tp.system.prompt(&amp;#34;Enter the title&amp;#34;);
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;let folder = &lt;span class=&#34;sb&#34;&gt;`/${title}/`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/**
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;const key = &amp;#34;id&amp;#34;;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;if (!app.metadataCache.getFileCache(f)?.frontmatter?.[key]) {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	await app.fileManager.processFrontMatter(f, (data) =&amp;gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		data[key] = ulid();
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	});
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;*/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 获取 Obsidian 根 vault 路径
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;let vaultPath = app.vault.adapter.basePath;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 构建封面保存路径
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;let imagePath = &lt;span class=&#34;sb&#34;&gt;`${vaultPath}${folder}cover.jpg`&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// tp.system.suggester([&amp;#34;中文&amp;#34;, &amp;#34;English&amp;#34;], [&amp;#34;index.zh-cn&amp;#34;, &amp;#34;index.en&amp;#34;], true, &amp;#34;请选择博客的语言&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;await tp.file.create_new(tp.file.find_tfile(&amp;#34;new index template&amp;#34;), &amp;#34;index.zh-cn&amp;#34;, true, folder)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;await tp.user.download_image(&amp;#34;http://api.mtyqx.cn/api/random.php&amp;#34;, imagePath);
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-%&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;使用 page bundle 组织博客，所有的文件都显示的是 index.md，十分地不方便。因此我们需要下载 &lt;code&gt;Front Matter Title&lt;/code&gt; 插件。&lt;/p&gt;
+&lt;h2 id=&#34;hugo&#34;&gt;Hugo
+&lt;/h2&gt;&lt;p&gt;hugo 是我们构建博客的主要工具，号称是世界上最快的网站构建工具。它通过对文件夹分层管理我们的资源；通过标记语言（主要为 markdown）编写内容，然后在构建之后将内容渲染到 themes 或者 layouts 的 hugo 的模板文件中来展示博客。&lt;/p&gt;
+&lt;p&gt;值得一提的是，hugo 只需要下载它的 exe 文件即可正常工作。首先我们安装 hugo。在 &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/releases/tag/v0.127.0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;release&lt;/a&gt; 页面下载带 extended 的版本，否则主题无法正常启动。下载完成之后，将 hugo.exe 所在文件夹加入环境变量。&lt;/p&gt;
+&lt;p&gt;hugo 网站的搭建网上资料已经很多了，例如你可参考&lt;a class=&#34;link&#34; href=&#34;https://zexwoo.blog/posts/tutorials/build-hugo-blog/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这篇文章&lt;/a&gt;，讲得比较详细，这里不再赘述，只提一些需要知道的知识。&lt;/p&gt;
+&lt;h3 id=&#34;主要命令&#34;&gt;主要命令
+&lt;/h3&gt;&lt;p&gt;在构建网站的过程中主要使用到的 hugo 命令也就几个：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo version &lt;span class=&#34;c1&#34;&gt;# 查看 hugo 的版本&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new site blog &lt;span class=&#34;c1&#34;&gt;# 在当前目录下创建一个名为 blog 的 hugo 站点&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo serve &lt;span class=&#34;c1&#34;&gt;# 启动站点&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo serve -D &lt;span class=&#34;c1&#34;&gt;# 启动站点，并附带草稿&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;其中 &lt;code&gt;hugo new site blog&lt;/code&gt; 命令中的 blog 可以替换成其它字符串。它会创建一个 blog 目录作为网站的根结点，下方的一级目录就是它的各种资源文件夹，例如 assets 存放一些图标、layouts 存放你的网站的 hugo 模板文件等。我们主要关注 content 文件夹，你的网站所有&lt;strong&gt;内容&lt;/strong&gt;相关的东西，比如文章、侧边栏、功能栏的展示等，都放在这个目录中。更多请查看&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/directory-structure/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hugo 的目录结构&lt;/a&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;front-matter&#34;&gt;Front Matter
+&lt;/h3&gt;&lt;p&gt;对于每篇 markdown 文章，都可以在开头为其添加一些以两对 &lt;code&gt;---&lt;/code&gt; 包裹的键值对，作为这篇文章的 front matter，用于控制这篇文章的一些属性，例如是否为草稿，设置封面及路径等。&lt;/p&gt;
+&lt;p&gt;例如本篇博客的 front matter 格式就如下所示：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title: Hugo + Stack + Obsidian 搭建博客
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;categories:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; &amp;#34;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tags:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; hugo
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; obsidian
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; blog
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;date: 2024-06-25
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;description: &amp;#34;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;slug: &amp;#34;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;image: cover.jpg
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;weight: 1
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;draft: false
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;lastmod: 2024-06-28T20:51:31+08:00
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这里先提一下，在后面 Obsidian 那里会详细说明。&lt;/p&gt;
+&lt;h3 id=&#34;page-bundle&#34;&gt;Page Bundle
+&lt;/h3&gt;&lt;p&gt;hugo 的所有文章都是放在 content/post 目录中的（根据主题的不同可能有些差异，不过大多数主题都遵循这个约定）。你可以直接使用单个 markdown 文件，将其放在该目录中就可以显示为博客，但 hugo  更推荐 Page Bundle 的内容组织形式。&lt;/p&gt;
+&lt;p&gt;所谓 Page Bundle，就是以&lt;strong&gt;文件夹名&lt;/strong&gt;作为标识，index.md / _index.md 文件作为组织的核心，通过文件夹将相关联的内容组织到一起，方便管理。比如一篇博客的中英文版本、图片之类的内容都可以放在同一文件夹中，或者用于显示目录的文件夹也将内容都放在一起，就不用到其它地方才能看到了。&lt;/p&gt;
+&lt;p&gt;需要说明的是，Page Bundle 分为 Leaf Bundle 和 Branch Bundle。简单理解，Leaf Bundle 就是叶子节点，以 index.md 标识，其后不可以再有其它 Leaf Bundle；而 Branch Bundle 则是肢干节点，以 _index.md 标识（注意这个下横线），其后可以有其它的 Leaf Bundle 和 Branch Bundle。&lt;/p&gt;
+&lt;p&gt;本博客的主题 Stack 的 content 目录，以及子目录 archives、categories、page、post、tags 等，都是以这样的方式组织文件的。&lt;/p&gt;
+&lt;p&gt;详情可以查看&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/content-management/page-bundles/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官网&lt;/a&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;配置文件hugotoml&#34;&gt;配置文件hugo.toml
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo.toml，忽略某个文件夹
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;```toml
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ignoreFiles = [&amp;#34;post/_templates&amp;#34;]
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;解析 obsidian 的双链&lt;/p&gt;
+&lt;h2 id=&#34;stack&#34;&gt;Stack
+&lt;/h2&gt;&lt;p&gt;开启评论、目录（toc）、中英双语&lt;/p&gt;
+&lt;p&gt;设置自己的域名&lt;/p&gt;
+&lt;p&gt;代码块折叠&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://jinli.io/p/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84%E5%BB%BA%E7%AB%8B%E8%BF%87%E7%A8%8B%E4%B8%89hugo%E4%B8%BB%E9%A2%98stack%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E4%BC%98%E5%8C%96/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;个人网站的建立过程（三）：Hugo主题stack的使用与优化&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://thirdshire.com/hugo-stack-renovation/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Stack主题装修笔记&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;如果是从其它博客主题迁移过来的，注意把相关的文件清理干净。比如我就是在 &lt;code&gt;content/&lt;/code&gt; 目录下残留有上个主题 &lt;code&gt;paperMod&lt;/code&gt; 的 search.md 文件，导致 &lt;code&gt;Stack&lt;/code&gt; 主题的搜索功能（&lt;code&gt;content/search/index.md&lt;/code&gt;）无法生效。&lt;/p&gt;
+&lt;p&gt;~~要设置 favicon.icon，需要将其放到 static 中的某个文件夹，例如 static/img/，并配置在 hugo.toml 中配置&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;favicon&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;/img/favicon.ico&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;如果直接将 favicon 放在 static 中，则配置不生效~~&lt;/p&gt;
+&lt;p&gt;如果资源的最前方带了 &lt;code&gt;/&lt;/code&gt;，则表示从域名主机的根目录开始；不带 &lt;code&gt;/&lt;/code&gt; 则表示从博客的根目录开始（像 &lt;code&gt;static&lt;/code&gt;、&lt;code&gt;assets&lt;/code&gt; 这些文件夹都会被构建为根目录。
+&lt;a class=&#34;link&#34; href=&#34;https://discourse.gohugo.io/t/publication-on-github-pages-and-baseurl/43631/4&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Publication on GitHub pages and BaseURL - support - HUGO&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         
