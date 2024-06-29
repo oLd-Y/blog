@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
+                "file": "_templates/templater/create page bundle.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
+                "file": "_templates/templater/create page bundle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
+                "file": "_templates/templater/create page bundle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md"
+                "file": "_templates/templater/create page bundle.md"
               }
             }
           },
@@ -203,6 +203,7 @@
   },
   "active": "74fb914d967fe4f4",
   "lastOpenFiles": [
+    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
     "Atomic Habits 读后感/单词.md",
     "围城 读后感/cover.jpg",
     "hugo + stack + obsidian 搭建博客/cover.jpg",
