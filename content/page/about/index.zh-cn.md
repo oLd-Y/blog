@@ -1,5 +1,6 @@
 ---
 title: 关于
+layout: cv
 slug: about-cn
 menu:
     main: 
@@ -7,5 +8,3 @@ menu:
         params:
             icon: user
 ---
-
-This is a test page for i18n support.
