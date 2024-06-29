@@ -1,8 +1,8 @@
 baseurl = "https://old-y.github.io/blog"
 # baseurl = "http://localhost:1313/"
 languageCode = "zh-CN"
-theme = ["hugo-theme-stack", "almeida-cv"]
-# theme = "hugo-theme-stack"
+# theme = ["hugo-theme-stack", "almeida-cv"]
+theme = "hugo-theme-stack"
 paginate = 5
 title = "谷栗杳"
 copyright = "谷栗杳"
@@ -13,8 +13,8 @@ hasCJKLanguage = true
 ignoreFiles = ["post/_templates"]
 
 
-enableRobotsTXT = true
-enableEmoji = true
+# enableRobotsTXT = true
+# enableEmoji = true
 
 
 
@@ -59,21 +59,21 @@ rssFullContent = true
 favicon = "favicon.ico"
 
 
-enableMetaTags = true
-colorLight = "#fff"
-colorDark = "#666"
-colorPageBackground = "#ddd"
-colorPrimary = "#e3bfb8"
-colorSecondary = "#aaa"
-colorIconPrimary = "#fff"
-colorIconBackground = "#e3bfb8"
-colorRightColumnBackground = "#f5f5f5"
-colorRightColumnHeadingText = "#666"
-colorRightColumnBodyText = "#666"
-colorRightColumnIconPrimary = "#fff"
-colorRightColumnIconBackground = "#e3bfb8"
-pages = 1
-swapColumns = false
+# enableMetaTags = true
+# colorLight = "#fff"
+# colorDark = "#666"
+# colorPageBackground = "#ddd"
+# colorPrimary = "#e3bfb8"
+# colorSecondary = "#aaa"
+# colorIconPrimary = "#fff"
+# colorIconBackground = "#e3bfb8"
+# colorRightColumnBackground = "#f5f5f5"
+# colorRightColumnHeadingText = "#666"
+# colorRightColumnBodyText = "#666"
+# colorRightColumnIconPrimary = "#fff"
+# colorRightColumnIconBackground = "#e3bfb8"
+# pages = 1
+# swapColumns = false
 
   [params.footer]
   since = 2_024
