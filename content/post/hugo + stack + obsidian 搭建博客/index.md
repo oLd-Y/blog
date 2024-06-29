@@ -9,7 +9,7 @@ slug: ""
 image: cover.jpg
 weight: 1
 draft: false
-lastmod: 2024-06-29T07:40:36+08:00
+lastmod: 2024-06-29T08:07:47+08:00
 ---
 ## obsidian
 templater 插件，创建博客以及自动拉取图片
@@ -54,9 +54,30 @@ hugo 是我们构建博客的主要工具，号称是世界上最快的网站构
 hugo version # 查看 hugo 的版本
 hugo new site blog # 在当前目录下创建一个名为 blog 的 hugo 站点
 hugo serve # 启动站点
+hugo serve -D # 启动站点，并附带草稿
 ```
 
-其中 `hugo new site blog` 命令中的 blog 可以
+其中 `hugo new site blog` 命令中的 blog 可以替换成其它字符串。它会创建一个 blog 目录作为网站的根结点，下方的一级目录就是它的各种资源文件夹，例如 assets 存放一些图标、layouts 存放你的网站的 hugo 模板文件等。我们主要关注 content 文件夹，你的网站所有**内容**相关的东西，比如文章、侧边栏、功能栏的展示等，都放在这个目录中。更多请查看[hugo 的目录结构](https://gohugo.io/getting-started/directory-structure/)。
+
+### Front Matter
+
+对于每篇 markdown 文章，都可以在开头为其添加一些以两对 `---` 包裹的键值对，作为这篇文章的 front matter，用于控制这篇文章的一些属性，例如是否为草稿，设置封面及路径等。
+
+格式如下所示：
+
+```markdown
+---
+draft: true
+---
+```
+
+这里先提一下，后面会详细说明。
+
+### Page Bundle
+
+hugo 比推荐 Page Bundle 的内容组织形式。所谓 Page Bundle，就是将文件夹名作为
+```
+
 	
 		
 hugo.toml，忽略某个文件夹
