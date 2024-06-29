@@ -6,7 +6,7 @@ tags:
   - 小说
   - 书摘
 draft: false
-lastmod: 2024-06-28T17:51:18+08:00
+lastmod: 2024-06-29T22:04:32+08:00
 title: 围城 读后感
 date: ""
 description: ""
@@ -15,6 +15,9 @@ image: cover.jpg
 weight: 1
 "": 
 ---
+[[vim command mode|vim command mode]]
+[[KDE arch linux 安装 fcitx5 和 rime 输入法|KDE arch linux 安装 fcitx5 和 rime 输入法]]
+[[]]
 ## 读后感
 围城主要讲述的是20世纪40年代左右，方鸿渐及其朋友、家人、同事之间交际、求职以及爱情相关的故事。按照我粗糙的印象，整个故事大致分为：
 

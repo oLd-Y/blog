@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_templates/templater/create page bundle.md",
+                "file": "围城 读后感/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_templates/templater/create page bundle.md",
+                "file": "围城 读后感/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_templates/templater/create page bundle.md",
+                "file": "围城 读后感/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_templates/templater/create page bundle.md"
+                "file": "围城 读后感/index.md"
               }
             }
           },
@@ -201,8 +201,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "74fb914d967fe4f4",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "vim command mode.md",
+    "围城 读后感/index.md",
+    "_templates/templater/create page bundle.md",
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
     "Atomic Habits 读后感/单词.md",
     "围城 读后感/cover.jpg",
@@ -231,9 +234,6 @@
     "李治军操作系统总结.md",
     "git clone 参数解析.md",
     "双系统卸载 Ubuntu.md",
-    "emacs 入坑建议.md",
-    "git 清空提交历史.md",
-    "emacs 配置备份.md",
     "Untitled 1.canvas",
     "反爬/cover.jpg",
     "反爬",
