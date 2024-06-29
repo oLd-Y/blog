@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atomic Habits 读后感/单词.md",
+                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atomic Habits 读后感/单词.md",
+                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atomic Habits 读后感/单词.md",
+                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atomic Habits 读后感/单词.md"
+                "file": "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md"
               }
             }
           },
@@ -203,11 +203,11 @@
   },
   "active": "74fb914d967fe4f4",
   "lastOpenFiles": [
+    "Atomic Habits 读后感/单词.md",
     "围城 读后感/cover.jpg",
     "hugo + stack + obsidian 搭建博客/cover.jpg",
     "hugo + stack + obsidian 搭建博客/cove1r.jpg",
     "围城 读后感/cove1r.jpg",
-    "Atomic Habits 读后感/单词.md",
     "hugo + stack + obsidian 搭建博客/index.md",
     "nvm 安装和使用/index.md",
     "nvm 安装和使用/cover.jpg",
@@ -244,7 +244,6 @@
     "test111/cover.jpg",
     "test111",
     "test12/cover.jpg",
-    "test11/cover.jpg",
     "test12",
     "test11",
     "test10",
