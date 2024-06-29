@@ -12,7 +12,7 @@ slug: ""
 image: cover.jpg
 weight: 1
 draft: false
-lastmod: 2024-06-29T09:39:59+08:00
+lastmod: 2024-06-29T10:35:53+08:00
 ---
 ## obsidian
 templater 插件，创建博客以及自动拉取图片
@@ -93,16 +93,255 @@ lastmod: 2024-06-28T20:51:31+08:00
 
 hugo 的所有文章都是放在 content/post 目录中的（根据主题的不同可能有些差异，不过大多数主题都遵循这个约定）。你可以直接使用单个 markdown 文件，将其放在该目录中就可以显示为博客，但 hugo  更推荐 Page Bundle 的内容组织形式。
 
-所谓 Page Bundle，就是以**文件夹名**作为标识，index.md / \_index.md 文件作为组织的核心，通过文件夹将相关联的内容组织到一起，方便管理。比如一篇博客的中英文版本、图片之类的内容都可以放在同一文件夹中，或者用于显示目录的文件夹也将内容都放在一起，就不用到其它地方才能看到了。
+所谓 Page Bundle，就是以**文件夹名**作为标识，`index.md` / `_index.md` 文件作为组织的核心，通过文件夹将相关联的内容组织到一起，方便管理。比如一篇博客的中英文版本、图片之类的内容都可以放在同一文件夹中，或者用于显示目录的文件夹也将它的内容都放在一起，就不用到其它地方才能看到了。
 
-需要说明的是，Page Bundle 分为 Leaf Bundle 和 Branch Bundle。简单理解，Leaf Bundle 就是叶子节点，以 index.md 标识，其后不可以再有其它 Leaf Bundle；而 Branch Bundle 则是肢干节点，以 \_index.md 标识（注意这个下横线），其后可以有其它的 Leaf Bundle 和 Branch Bundle。
+需要说明的是，Page Bundle 分为 Leaf Bundle 和 Branch Bundle。简单理解：
+
+- Leaf Bundle 就是叶子节点，以 index.md 标识，其后不可以再有其它 Leaf Bundle；
+- 而 Branch Bundle 则是肢干节点，以 \_index.md 标识（注意这个下横线），其后可以有其它的 Leaf Bundle 和 Branch Bundle。
 
 本博客的主题 Stack 的 content 目录，以及子目录 archives、categories、page、post、tags 等，都是以这样的方式组织文件的。
 
 详情可以查看[官网](https://gohugo.io/content-management/page-bundles/)。
 
-### 配置文件hugo.toml
+### 配置文件 hugo.toml
 
+hugo 中所有与配置相关的内容，包括图标、外链的设置，语言、评论的添加等，都在配置文件中处理。这个文件可以是 hugo.toml, hugo.yaml, hugo.json 中的任意一种，官网推荐使用 hugo.toml，因此本博客亦使用 hugo.toml。
+
+hugo.toml 文件的位置默认位于站点的根目录下。不过为了组织方便，也可以将其放在根目录的 `config/_default` 目录下，然后将配置按照类型放到不同的文件中。详情请查看[官网](https://gohugo.io/getting-started/configuration/)。
+
+具体的 hugo.toml 文件请查看 Stack 一节。
+
+## Stack
+
+本博客使用 [Stack](https://github.com/CaiJimmy/hugo-theme-stack) 作为主题，将项目克隆到 themes 文件夹下后，将其中的 exampleSite 中的所有内容复制到博客的根目录下即可开始使用。使用 `hugo serve` 命令可以看到项目被部署到了本地。访问 `http://localhost:1313` 即可查看博客项目。
+
+修改 hugo.toml 文件中的各种配置项即可看到网站实时修改。完整的配置文件就不放上来了，提几个比较关键的配置：
+
+
+参考的 hugo.toml 如下所示：
+```toml
+baseurl = "https://old-y.github.io/blog/"
+# baseurl = "http://localhost:1313/"
+languageCode = "zh-CN"
+theme = "hugo-theme-stack"
+paginate = 5
+title = "谷栗杳"
+copyright = "谷栗杳"
+DefaultContentLanguage = "zh-cn"
+hasCJKLanguage = true
+
+# 需要放到配置文件较前的地方，否则可能不生效。相对于 content 文件夹的位置。
+ignoreFiles = ["post/_templates"]
+
+
+[languages.en]
+languageName = "English"
+title = "lyao's Blog"
+weight = 1
+
+  [languages.en.params]
+  description = "Example description"
+
+[languages.zh-cn]
+languageName = "中文"
+title = "谷栗杳"
+weight = 2
+
+  [languages.zh-cn.params]
+  description = "成为最好的自己"
+
+[services.disqus]
+shortname = "hugo-theme-stack"
+
+[services.googleAnalytics]
+
+[permalinks]
+post = "/p/:slug/"
+page = "/:slug/"
+
+[params]
+mainSections = [ "post" ]
+featuredImageField = "image"
+rssFullContent = true
+favicon = "favicon.ico"
+
+  [params.footer]
+  since = 2_024
+
+  [params.dateFormat]
+  published = "Jan 02, 2006"
+  lastUpdated = "Jan 02, 2006 15:04 MST"
+
+  [params.sidebar]
+  emoji = "✨"
+  subtitle = "再微弱的荧光，也有它可以照亮的地方。"
+
+    [params.sidebar.avatar]
+    enabled = true
+    local = true
+    src = "img/avatar.png"
+
+  [params.article]
+  math = true
+  toc = true
+  readingTime = true
+
+    [params.article.license]
+    enabled = true
+    default = "Licensed under CC BY-NC-SA 4.0"
+
+  [params.comments]
+  enabled = true
+  provider = "giscus"
+
+    [params.comments.disqusjs]
+
+    [params.comments.utterances]
+    issueTerm = "pathname"
+
+    [params.comments.beaudar]
+    issueTerm = "pathname"
+
+    [params.comments.remark42]
+
+    [params.comments.vssue]
+    autoCreateIssue = false
+
+    [params.comments.waline]
+    emoji = [ "https://unpkg.com/@waline/emojis@1.0.1/weibo" ]
+    requiredMeta = [ "name", "email", "url" ]
+
+      [params.comments.waline.locale]
+      admin = "Admin"
+
+    [params.comments.twikoo]
+
+    [params.comments.cactus]
+    defaultHomeserverUrl = "https://matrix.cactus.chat:8448"
+    serverName = "cactus.chat"
+    siteName = ""
+
+    [params.comments.giscus]
+    repo = "oLd-Y/blog"
+    repoID = "R_kgDOLzCoMA"
+    category = "Announcements"
+    categoryID = "DIC_kwDOLzCoMM4Ce8bK"
+    mapping = "pathname"
+    lightTheme = "light"
+    darkTheme = "dark"
+    theme = "preferred_color_scheme"
+    lang = "zh-CN"
+    loading = "lazy"
+    reactionsEnabled = 1
+    emitMetadata = 0
+
+    [params.comments.gitalk]
+
+    [params.comments.cusdis]
+
+[[params.widgets.homepage]]
+type = "search"
+
+[[params.widgets.homepage]]
+type = "archives"
+
+  [params.widgets.homepage.params]
+  limit = 5
+
+[[params.widgets.homepage]]
+type = "categories"
+
+  [params.widgets.homepage.params]
+  limit = 10
+
+[[params.widgets.homepage]]
+type = "tag-cloud"
+
+  [params.widgets.homepage.params]
+  limit = 10
+
+[[params.widgets.page]]
+type = "toc"
+
+[params.opengraph.twitter]
+card = "summary_large_image"
+
+[params.defaultImage.opengraph]
+enabled = false
+local = false
+
+  [params.colorScheme]
+  toggle = true
+  default = "auto"
+
+[params.imageProcessing.cover]
+enabled = true
+
+[params.imageProcessing.content]
+enabled = true
+
+[menu]
+main = [ ]
+
+  [[menu.social]]
+  identifier = "github"
+  name = "GitHub"
+  url = "https://github.com/oLd-Y"
+  weight = 1
+
+    [menu.social.params]
+    icon = "brand-github"
+
+  [[menu.social]]
+  identifier = "bilibili"
+  name = "bilibili"
+  url = "https://space.bilibili.com/180272185"
+
+    [menu.social.params]
+    icon = "brand-bilibili"
+
+  [[menu.social]]
+  identifier = "rss"
+  name = "Rss"
+  url = "https://old-y.github.io/blog/index.xml"
+
+    [menu.social.params]
+    icon = "rss"
+
+[related]
+includeNewer = true
+threshold = 60
+toLower = false
+
+  [[related.indices]]
+  name = "tags"
+  weight = 100
+
+  [[related.indices]]
+  name = "categories"
+  weight = 200
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.tableOfContents]
+endLevel = 4
+ordered = true
+startLevel = 2
+
+[markup.highlight]
+noClasses = false
+codeFences = true
+guessSyntax = true
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+tabWidth = 4
+
+
+
+```
 
 ```
 
