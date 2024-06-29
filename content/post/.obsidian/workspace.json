@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hugo + stack + obsidian 搭建博客/index.md",
+                "file": "Atomic Habits 读后感/单词.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hugo + stack + obsidian 搭建博客/index.md",
+                "file": "Atomic Habits 读后感/单词.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hugo + stack + obsidian 搭建博客/index.md",
+                "file": "Atomic Habits 读后感/单词.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hugo + stack + obsidian 搭建博客/index.md"
+                "file": "Atomic Habits 读后感/单词.md"
               }
             }
           },
@@ -203,9 +203,17 @@
   },
   "active": "74fb914d967fe4f4",
   "lastOpenFiles": [
+    "围城 读后感/cover.jpg",
+    "hugo + stack + obsidian 搭建博客/cover.jpg",
+    "hugo + stack + obsidian 搭建博客/cove1r.jpg",
+    "围城 读后感/cove1r.jpg",
+    "Atomic Habits 读后感/单词.md",
+    "hugo + stack + obsidian 搭建博客/index.md",
+    "nvm 安装和使用/index.md",
+    "nvm 安装和使用/cover.jpg",
+    "_templates/templater/new index template.md",
     "test1.md",
     "Atomic Habits 读后感/index.md",
-    "hugo + stack + obsidian 搭建博客/index.md",
     "Ubuntu 22.04 更换镜像源.md",
     "SD 关键词记录.md",
     "保护模式相关.md",
@@ -217,7 +225,6 @@
     "_daily/2024-04-22.md",
     "linux-0.11 _set_gate 宏解释.md",
     "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",
-    "nvm 安装和使用/index.md",
     "Windows 显卡硬件加速.md",
     "zsh 查看所有绑定的快捷键.md",
     "李治军操作系统总结.md",
@@ -226,15 +233,11 @@
     "emacs 入坑建议.md",
     "git 清空提交历史.md",
     "emacs 配置备份.md",
-    "重装系统之后出现 git 出现 detected dubious ownership in repository.md",
-    "Doom emacs 快速添加括号.md",
-    "Angular Git 提交规范.md",
     "Untitled 1.canvas",
     "反爬/cover.jpg",
     "反爬",
     "test2/cover.jpg",
     "test2",
-    "围城 读后感/cover.jpg",
     "test333/cover.jpg",
     "Untitled.canvas",
     "test333",
@@ -244,12 +247,9 @@
     "test11/cover.jpg",
     "test12",
     "test11",
-    "test10/cover.jpg",
     "test10",
     "test9",
     "test8",
-    "test7",
-    "test5cover.jpg",
-    "efg/cover.jpg"
+    "test7"
   ]
 }

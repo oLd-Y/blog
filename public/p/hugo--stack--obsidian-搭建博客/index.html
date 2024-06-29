@@ -10,7 +10,7 @@
 <meta property='og:description' content="Hugo hugo 是我们构建博客的主要工具，号称是世界上最快的网站构建工具。它通过对文件夹分层管理我们的资源；通过标记语言（主要为 markdown）编写内">
 <meta property='og:url' content='http://localhost:1313/blog/p/hugo--stack--obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/'>
 <meta property='og:site_name' content='谷栗杳'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='hugo' /><meta property='article:tag' content='obsidian' /><meta property='article:tag' content='blog' /><meta property='article:published_time' content='2024-06-25T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-06-29T11:40:33&#43;08:00'/><meta property='og:image' content='http://localhost:1313/blog/p/hugo--stack--obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/cover.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='hugo' /><meta property='article:tag' content='obsidian' /><meta property='article:tag' content='blog' /><meta property='article:published_time' content='2024-06-25T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-06-29T12:32:41&#43;08:00'/><meta property='og:image' content='http://localhost:1313/blog/p/hugo--stack--obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/cover.jpg' />
 <meta name="twitter:title" content="Hugo + Stack + Obsidian 搭建博客">
 <meta name="twitter:description" content="Hugo hugo 是我们构建博客的主要工具，号称是世界上最快的网站构建工具。它通过对文件夹分层管理我们的资源；通过标记语言（主要为 markdown）编写内"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='http://localhost:1313/blog/p/hugo--stack--obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/cover.jpg' />
@@ -328,6 +328,7 @@
     <li><a href="#obsidian">Obsidian</a>
       <ol>
         <li><a href="#自动创建-page-bundle">自动创建 Page Bundle</a></li>
+        <li><a href="#解决-index-显示问题">解决 index 显示问题</a></li>
       </ol>
     </li>
     <li><a href="#踩坑记录">踩坑记录</a></li>
@@ -347,8 +348,8 @@
     <header class="article-header">
         <div class="article-image">
             <a href="/blog/p/hugo--stack--obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">
-                <img src="/blog/p/hugo--stack--obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/cover_huf06ee7081a87fe7990b3536422401c9c_908591_800x0_resize_q75_box.jpg"
-                        srcset="/blog/p/hugo--stack--obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/cover_huf06ee7081a87fe7990b3536422401c9c_908591_800x0_resize_q75_box.jpg 800w, /blog/p/hugo--stack--obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/cover_huf06ee7081a87fe7990b3536422401c9c_908591_1600x0_resize_q75_box.jpg 1600w"
+                <img src="/blog/p/hugo--stack--obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/cover_hu30ca58bf37521c6f37c023e2c0b45035_117925_800x0_resize_q75_box.jpg"
+                        srcset="/blog/p/hugo--stack--obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/cover_hu30ca58bf37521c6f37c023e2c0b45035_117925_800x0_resize_q75_box.jpg 800w, /blog/p/hugo--stack--obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/cover_hu30ca58bf37521c6f37c023e2c0b45035_117925_1600x0_resize_q75_box.jpg 1600w"
                         width="800" 
                         height="450" 
                         loading="lazy"
@@ -404,7 +405,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 5 分钟
+                    阅读时长: 6 分钟
                 </time>
             </div>
         
@@ -735,12 +736,145 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">await tp.file.create_new(tp.file.find_tfile(&#34;new index template&#34;), &#34;index.zh-cn&#34;, true, folder)
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">await tp.user.download_image(&#34;http://api.mtyqx.cn/api/random.php&#34;, imagePath);
+</span></span><span class="line"><span class="cl">await tp.user.download_image(&#34;<span class="p">&lt;</span><span class="nt">imageSite</span><span class="p">&gt;</span>&#34;, imagePath);
 </span></span><span class="line"><span class="cl">-%&gt;
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>然后再创建一个模板文件命令为 <code>new index template</code>，填入如下内容</p>
-<p>使用 page bundle 组织博客，所有的文件都显示的是 index.md，十分地不方便。因此我们需要下载 <code>Front Matter Title</code> 插件。</p>
+</div><p><img src="https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240629114157.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<p>然后再创建一个模板文件命令为 <code>new index template</code>，填入如下内容：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">title: <span class="err">&lt;</span>% tp.file.folder() %&gt;
+</span></span><span class="line"><span class="cl">catogories: 
+</span></span><span class="line"><span class="cl">tags: 
+</span></span><span class="line"><span class="cl">date: <span class="err">&lt;</span>% tp.file.creation_date(&#34;YYYY-MM-DD&#34;) %&gt;
+</span></span><span class="line"><span class="cl">description: 
+</span></span><span class="line"><span class="cl">image: cover.jpg
+</span></span><span class="line"><span class="cl">weight: 1
+</span></span><span class="line"><span class="cl">draft: true
+</span></span><span class="line"><span class="cl">---
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>（注意第一个模板可以随意命名，第二个模板重新命名之后需要将 <code>tp.file.find_tfile(&quot;new index template&quot;)</code> 代码中的名字相应改掉。）</p>
+<p>接着我们设置一下 templater 的脚本地址</p>
+<p><img src="https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240629121606.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<p>在其中新建一个 js 脚本并命名为 <code>download_image.js</code>，用其它文本编辑器填入如下代码：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">https</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;https&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">http</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;http&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">fs</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;fs&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">path</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;path&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">downloadImage</span><span class="p">(</span><span class="nx">url</span><span class="p">,</span> <span class="nx">localPath</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="k">new</span> <span class="nb">Promise</span><span class="p">((</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">const</span> <span class="nx">protocol</span> <span class="o">=</span> <span class="nx">url</span><span class="p">.</span><span class="nx">startsWith</span><span class="p">(</span><span class="s1">&#39;https&#39;</span><span class="p">)</span> <span class="o">?</span> <span class="nx">https</span> <span class="o">:</span> <span class="nx">http</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">const</span> <span class="nx">file</span> <span class="o">=</span> <span class="nx">fs</span><span class="p">.</span><span class="nx">createWriteStream</span><span class="p">(</span><span class="nx">localPath</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="kr">const</span> <span class="nx">request</span> <span class="o">=</span> <span class="nx">protocol</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="nx">url</span><span class="p">,</span> <span class="p">(</span><span class="nx">response</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">statusCode</span> <span class="o">&gt;=</span> <span class="mi">300</span> <span class="o">&amp;&amp;</span> <span class="nx">response</span><span class="p">.</span><span class="nx">statusCode</span> <span class="o">&lt;</span> <span class="mi">400</span> <span class="o">&amp;&amp;</span> <span class="nx">response</span><span class="p">.</span><span class="nx">headers</span><span class="p">.</span><span class="nx">location</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="c1">// Handle redirect
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="k">return</span> <span class="nx">downloadImage</span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">headers</span><span class="p">.</span><span class="nx">location</span><span class="p">,</span> <span class="nx">localPath</span><span class="p">).</span><span class="nx">then</span><span class="p">(</span><span class="nx">resolve</span><span class="p">).</span><span class="k">catch</span><span class="p">(</span><span class="nx">reject</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">statusCode</span> <span class="o">!==</span> <span class="mi">200</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">reject</span><span class="p">(</span><span class="k">new</span> <span class="nb">Error</span><span class="p">(</span><span class="sb">`Failed to get &#39;</span><span class="si">${</span><span class="nx">url</span><span class="si">}</span><span class="sb">&#39; (</span><span class="si">${</span><span class="nx">response</span><span class="p">.</span><span class="nx">statusCode</span><span class="si">}</span><span class="sb">)`</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="nx">response</span><span class="p">.</span><span class="nx">pipe</span><span class="p">(</span><span class="nx">file</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="nx">file</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;finish&#39;</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="nx">file</span><span class="p">.</span><span class="nx">close</span><span class="p">(</span><span class="nx">resolve</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="p">});</span>
+</span></span><span class="line"><span class="cl">        <span class="p">});</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="nx">request</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;error&#39;</span><span class="p">,</span> <span class="p">(</span><span class="nx">err</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">fs</span><span class="p">.</span><span class="nx">unlink</span><span class="p">(</span><span class="nx">localPath</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="nx">reject</span><span class="p">(</span><span class="nx">err</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">        <span class="p">});</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="nx">file</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;error&#39;</span><span class="p">,</span> <span class="p">(</span><span class="nx">err</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">fs</span><span class="p">.</span><span class="nx">unlink</span><span class="p">(</span><span class="nx">localPath</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="nx">reject</span><span class="p">(</span><span class="nx">err</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">        <span class="p">});</span>
+</span></span><span class="line"><span class="cl">    <span class="p">});</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">downloadImage</span><span class="p">;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>如此设置了之后，就可以点击 obsidian 左侧的 templater 功能按钮（一个 <code>&lt;</code> 一个 <code>%</code>），选择 <code>create page bundle</code> 就可以看到左侧边栏创建了一个新的 page bundle 了，并且每篇文章都自动从网上下载一张图片作为封面。</p>
+<h3 id="解决-index-显示问题">解决 index 显示问题
+</h3><p>使用 page bundle 组织博客，obsidian 中的主要文件都显示的是 index.md，在 graph view 和 canvas 中都是如此显示，十分地难以区分，也不大好看。因此我们需要用到 <code>Front Matter Title</code> 插件。</p>
+<p>安装完成之后将每个按钮都打开即可，这样之后，只要你的文章中包含 <code>title</code> 的 front matter，它就会自动作为 obsidian 中的文件名。注意请自行将第 3 段 js 脚本中的代码 <code>await tp.user.download_image(&quot;&lt;imageSite&gt;&quot;, imagePath);</code> 中的 <code>&lt;imageSite&gt;</code> 修改为可以随机获取图片的网址。</p>
+<p>其它比较有用的 obsidian 插件如 git、Image auto upload plugin、update time on edit 等，请自行探索。</p>
 <h2 id="踩坑记录">踩坑记录
 </h2><ol>
 <li>
@@ -797,7 +931,7 @@
 
 
         <span>
-            最后更新于 Jun 29, 2024 11:40 CST
+            最后更新于 Jun 29, 2024 12:32 CST
         </span>
     </section></footer>
 

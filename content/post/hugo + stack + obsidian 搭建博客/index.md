@@ -12,7 +12,7 @@ slug: ""
 image: cover.jpg
 weight: 1
 draft: false
-lastmod: 2024-06-29T11:40:33+08:00
+lastmod: 2024-06-29T12:32:41+08:00
 ---
 ## Hugo
 hugo 是我们构建博客的主要工具，号称是世界上最快的网站构建工具。它通过对文件夹分层管理我们的资源；通过标记语言（主要为 markdown）编写内容，然后在构建之后将内容渲染到 themes 或者 layouts 的 hugo 的模板文件中来展示博客。
@@ -209,14 +209,84 @@ let imagePath = `${vaultPath}${folder}cover.jpg`;
 
 await tp.file.create_new(tp.file.find_tfile("new index template"), "index.zh-cn", true, folder)
 
-await tp.user.download_image("http://api.mtyqx.cn/api/random.php", imagePath);
+await tp.user.download_image("<imageSite>", imagePath);
 -%>
 
 ```
 
-然后再创建一个模板文件命令为 `new index template`，填入如下内容
+![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240629114157.png)
 
-使用 page bundle 组织博客，所有的文件都显示的是 index.md，十分地不方便。因此我们需要下载 `Front Matter Title` 插件。
+
+然后再创建一个模板文件命令为 `new index template`，填入如下内容：
+
+```markdown
+---
+title: <% tp.file.folder() %>
+catogories: 
+tags: 
+date: <% tp.file.creation_date("YYYY-MM-DD") %>
+description: 
+image: cover.jpg
+weight: 1
+draft: true
+---
+```
+（注意第一个模板可以随意命名，第二个模板重新命名之后需要将 `tp.file.find_tfile("new index template")` 代码中的名字相应改掉。）
+
+接着我们设置一下 templater 的脚本地址
+
+![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240629121606.png)
+
+在其中新建一个 js 脚本并命名为 `download_image.js`，用其它文本编辑器填入如下代码：
+
+```js
+const https = require('https');
+const http = require('http');
+const fs = require('fs');
+const path = require('path');
+
+function downloadImage(url, localPath) {
+    return new Promise((resolve, reject) => {
+        const protocol = url.startsWith('https') ? https : http;
+        const file = fs.createWriteStream(localPath);
+
+        const request = protocol.get(url, (response) => {
+            if (response.statusCode >= 300 && response.statusCode < 400 && response.headers.location) {
+                // Handle redirect
+                return downloadImage(response.headers.location, localPath).then(resolve).catch(reject);
+            } else if (response.statusCode !== 200) {
+                reject(new Error(`Failed to get '${url}' (${response.statusCode})`));
+                return;
+            }
+
+            response.pipe(file);
+
+            file.on('finish', () => {
+                file.close(resolve);
+            });
+        });
+
+        request.on('error', (err) => {
+            fs.unlink(localPath, () => reject(err));
+        });
+
+        file.on('error', (err) => {
+            fs.unlink(localPath, () => reject(err));
+        });
+    });
+}
+
+module.exports = downloadImage;
+```
+如此设置了之后，就可以点击 obsidian 左侧的 templater 功能按钮（一个 `<` 一个 `%`），选择 `create page bundle` 就可以看到左侧边栏创建了一个新的 page bundle 了，并且每篇文章都自动从网上下载一张图片作为封面。
+
+### 解决 index 显示问题
+
+使用 page bundle 组织博客，obsidian 中的主要文件都显示的是 index.md，在 graph view 和 canvas 中都是如此显示，十分地难以区分，也不大好看。因此我们需要用到 `Front Matter Title` 插件。
+
+安装完成之后将每个按钮都打开即可，这样之后，只要你的文章中包含 `title` 的 front matter，它就会自动作为 obsidian 中的文件名。注意请自行将第 3 段 js 脚本中的代码 `await tp.user.download_image("<imageSite>", imagePath);` 中的 `<imageSite>` 修改为可以随机获取图片的网址。
+
+其它比较有用的 obsidian 插件如 git、Image auto upload plugin、update time on edit 等，请自行探索。
 
 ## 踩坑记录
 
