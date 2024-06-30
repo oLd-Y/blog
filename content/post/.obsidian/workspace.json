@@ -35,8 +35,12 @@
             "id": "18e655affef39e3a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "LeetCode 21. 合并两个有序链表/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -116,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "围城 读后感/index.md",
+                "file": "LeetCode 21. 合并两个有序链表/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "围城 读后感/index.md",
+                "file": "LeetCode 21. 合并两个有序链表/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "围城 读后感/index.md"
+                "file": "LeetCode 21. 合并两个有序链表/index.zh-cn.md"
               }
             }
           },
@@ -231,10 +235,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "18e655affef39e3a",
   "lastOpenFiles": [
-    "LeetCode21. 合并两个有序链表/cover.jpg",
+    "LeetCode 21. 合并两个有序链表/cover.jpg",
+    "LeetCode 21. 合并两个有序链表/index.zh-cn.md",
     "围城 读后感/index.md",
+    "LeetCode21. 合并两个有序链表/cover.jpg",
     "LeetCode21. 合并两个有序链表/index.zh-cn.md",
     "LeetCode21. 合并两个有序链表",
     "Excalidraw/Drawing 2024-06-30 20.46.34.excalidraw.md",
@@ -265,7 +271,6 @@
     "_daily/2024-04-29_Monday.md",
     "_daily/2024-04-28.md",
     "_daily/2024-04-22.md",
-    "linux-0.11 _set_gate 宏解释.md",
     "Untitled 1.canvas",
     "反爬/cover.jpg",
     "反爬",
@@ -276,7 +281,6 @@
     "test333",
     "test111/cover.jpg",
     "test111",
-    "test12/cover.jpg",
     "test12",
     "test11",
     "test10",
