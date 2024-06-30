@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "71053c445b6b9b00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_TODO.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "围城 读后感/index.md",
+                "file": "_TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "围城 读后感/index.md",
+                "file": "_TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "围城 读后感/index.md"
+                "file": "_TODO.md"
               }
             }
           },
@@ -201,10 +214,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "71053c445b6b9b00",
   "lastOpenFiles": [
-    "vim command mode.md",
     "围城 读后感/index.md",
+    "_TODO.md",
+    "vim command mode.md",
     "_templates/templater/create page bundle.md",
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
     "Atomic Habits 读后感/单词.md",
@@ -233,7 +247,6 @@
     "zsh 查看所有绑定的快捷键.md",
     "李治军操作系统总结.md",
     "git clone 参数解析.md",
-    "双系统卸载 Ubuntu.md",
     "Untitled 1.canvas",
     "反爬/cover.jpg",
     "反爬",
