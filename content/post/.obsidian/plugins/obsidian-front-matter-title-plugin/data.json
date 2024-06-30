@@ -41,7 +41,7 @@
       }
     },
     "tab": {
-      "enabled": false,
+      "enabled": true,
       "templates": {
         "main": "",
         "fallback": ""
@@ -62,7 +62,7 @@
       }
     },
     "bookmarks": {
-      "enabled": false,
+      "enabled": true,
       "templates": {
         "main": "",
         "fallback": ""
@@ -76,7 +76,7 @@
       }
     },
     "suggest": {
-      "enabled": false,
+      "enabled": true,
       "templates": {
         "main": "",
         "fallback": ""
@@ -97,21 +97,21 @@
       }
     },
     "backlink": {
-      "enabled": false,
+      "enabled": true,
       "templates": {
         "main": "",
         "fallback": ""
       }
     },
     "windowFrame": {
-      "enabled": false,
+      "enabled": true,
       "templates": {
         "main": "",
         "fallback": ""
       }
     },
     "noteLink": {
-      "enabled": false,
+      "enabled": true,
       "strategy": "onlyEmpty",
       "approval": true,
       "templates": {
