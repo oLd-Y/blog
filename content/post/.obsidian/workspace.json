@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "反爬/index.zh-cn.md",
+                "file": "wsl（ubuntu）安装李治军操作系统环境依赖.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "反爬/index.zh-cn.md",
+                "file": "wsl（ubuntu）安装李治军操作系统环境依赖.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "反爬/index.zh-cn.md",
+                "file": "wsl（ubuntu）安装李治军操作系统环境依赖.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "反爬/index.zh-cn.md"
+                "file": "wsl（ubuntu）安装李治军操作系统环境依赖.md"
               }
             }
           },
@@ -200,15 +200,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "71053c445b6b9b00",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "_TODO.md",
+    "wsl 网络问题.md",
+    "Windows 自动推送 git 脚本.md",
+    "windows 无法进入 wsl.md",
+    "windows 和 arch 双系统安装.md",
+    "vscode vim 快捷键.md",
+    "vim command mode.md",
+    "vim.md",
+    "简单链表/index.zh-cn.md",
     "反爬/index.zh-cn.md",
+    "_TODO.md",
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
     "Windows 实现划词翻译及生词本功能（DeepL 接口和桌面端）/index.md",
     "Windows 实现划词翻译及生词本功能（DeepL 接口和桌面端）/cover.jpg",
     "SD 关键词记录.md",
-    "简单链表/index.zh-cn.md",
     "_templates/templater/leetcode.md",
     "原子习惯 读后感/index.md",
     "围城 读后感/index.md",
@@ -231,7 +238,6 @@
     "围城 读后感/cover.jpg",
     "LeetCode 21. 合并两个有序链表/cover.jpg",
     "LeetCode 21. 合并两个有序链表/index.zh-cn.md",
-    "Excalidraw/Drawing 2024-06-30 20.46.34.excalidraw.md",
     "Excalidraw 自定义中文字体/cover.jpg",
     "Excalidraw 自定义中文字体",
     "Excalidraw/algorithms-and-data-structures-arrays-matrices-trees.excalidrawlib",
@@ -242,12 +248,6 @@
     "YaoRuanBiShouXieTi/Muyao-Softbrush-2.ttf",
     "Excalidraw/Drawing 2024-06-30 20.43.48.excalidraw.png",
     "LeetCode21. 合并两个有序链表/cover.jpg",
-    "LeetCode21. 合并两个有序链表/index.zh-cn.md",
-    "保护模式相关.md",
-    "Excalidraw/Drawing 2024-06-30 20.38.41.excalidraw.md",
-    "vim command mode.md",
-    "Atomic Habits 读后感/单词.md",
-    "hugo + stack + obsidian 搭建博客/index.md",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
