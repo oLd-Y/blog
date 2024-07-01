@@ -7,7 +7,23 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Sat, 29 Jun 2024 22:13:46 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Obsidian</title>
+        <link>http://localhost:1313/blog/categories/obsidian/</link>
+        <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/categories/obsidian/</guid>
+        <description>&lt;img src="http://localhost:1313/blog/categories/obsidian/cover.jpg" alt="Featured image of post Obsidian" /&gt;</description>
+        </item>
+        <item>
+        <title>数据结构与算法</title>
+        <link>http://localhost:1313/blog/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</link>
+        <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</guid>
+        <description>&lt;img src="http://localhost:1313/blog/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/cover.jpg" alt="Featured image of post 数据结构与算法" /&gt;</description>
+        </item>
+        <item>
         <title>读书笔记</title>
         <link>http://localhost:1313/blog/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
         <pubDate>Sat, 29 Jun 2024 22:13:46 +0800</pubDate>

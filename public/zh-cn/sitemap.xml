@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/blog/p/obsidian-%E6%8F%92%E4%BB%B6%E8%AE%B0%E5%BD%95/</loc>
+    <lastmod>2024-07-01T10:38:47+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/p/%E7%AE%80%E5%8D%95%E9%93%BE%E8%A1%A8/</loc>
+    <lastmod>2024-07-01T11:17:35+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/p/%E5%9B%B4%E5%9F%8E-%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
     <lastmod>2024-06-29T22:13:46+08:00</lastmod>
   </url><url>
@@ -15,7 +21,7 @@
     <lastmod>2024-06-29T12:32:41+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2024-07-01T09:49:50+08:00</lastmod>
+    <lastmod>2024-07-01T11:17:35+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -27,11 +33,14 @@
                 href="http://localhost:1313/blog/"
                 />
   </url><url>
+    <loc>http://localhost:1313/blog/categories/obsidian/</loc>
+    <lastmod>2024-07-01T10:38:47+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/post/</loc>
-    <lastmod>2024-07-01T09:49:50+08:00</lastmod>
+    <lastmod>2024-07-01T11:17:35+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/</loc>
-    <lastmod>2024-06-29T22:13:46+08:00</lastmod>
+    <lastmod>2024-07-01T11:17:35+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -43,14 +52,11 @@
                 href="http://localhost:1313/blog/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/blog/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
-    <lastmod>2024-06-29T22:13:46+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2024-06-29T22:13:46+08:00</lastmod>
+    <loc>http://localhost:1313/blog/tags/%E6%8F%92%E4%BB%B6/</loc>
+    <lastmod>2024-07-01T10:38:47+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/</loc>
-    <lastmod>2024-06-29T22:13:46+08:00</lastmod>
+    <lastmod>2024-07-01T11:17:35+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -61,6 +67,21 @@
                 hreflang="zh-cn"
                 href="http://localhost:1313/blog/categories/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/%E9%93%BE%E8%A1%A8/</loc>
+    <lastmod>2024-07-01T11:17:35+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2024-07-01T11:17:35+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/%E5%8F%8C%E6%8C%87%E9%92%88/</loc>
+    <lastmod>2024-07-01T11:17:35+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
+    <lastmod>2024-06-29T22:13:46+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2024-06-29T22:13:46+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/%E4%B9%A6%E6%91%98/</loc>
     <lastmod>2024-06-29T22:13:46+08:00</lastmod>

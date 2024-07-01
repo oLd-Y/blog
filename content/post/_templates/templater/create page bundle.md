@@ -17,7 +17,7 @@ let imagePath = `${vaultPath}${folder}cover.jpg`;
 
 await tp.file.create_new(tp.file.find_tfile("new index template"), "index.zh-cn", true, folder)
 
-const strings = ["http://api.mtyqx.cn/api/random.php", "https://www.loliapi.com/acg/", "https://img.moehu.org/pic.php?id=img1"];
+const strings = ["http://api.mtyqx.cn/api/random.php", "https://www.loliapi.com/acg/", "https://img.moehu.org/pic.php?id=img1", "https://picsum.photos/1920/1440"];
 const randomIndex = Math.floor(Math.random() * strings.length);
 
 await tp.user.download_image(strings[randomIndex], imagePath);
