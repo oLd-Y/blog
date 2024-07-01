@@ -17,10 +17,10 @@ let imagePath = `${vaultPath}${folder}cover.jpg`;
 
 await tp.file.create_new(tp.file.find_tfile("new index template"), "index.zh-cn", true, folder)
 
-const strings = ["http://api.mtyqx.cn/api/random.php", "string2", "string3"];
+const strings = ["http://api.mtyqx.cn/api/random.php", "https://www.loliapi.com/acg/"];
 const randomIndex = Math.floor(Math.random() * strings.length);
-return strings[randomIndex];
-await tp.user.download_image("", imagePath);
+
+await tp.user.download_image(strings[randomIndex], imagePath);
 -%>
 
 
