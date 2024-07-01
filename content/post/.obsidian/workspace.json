@@ -23,9 +23,11 @@
             "id": "71053c445b6b9b00",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-30 20.46.34.excalidraw.md"
+                "file": "_templates/templater/create page bundle.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -106,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-30 20.46.34.excalidraw.md",
+                "file": "_templates/templater/create page bundle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-30 20.46.34.excalidraw.md",
+                "file": "_templates/templater/create page bundle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-30 20.46.34.excalidraw.md"
+                "file": "_templates/templater/create page bundle.md"
               }
             }
           },
@@ -223,10 +225,10 @@
   },
   "active": "71053c445b6b9b00",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-06-30 20.46.34.excalidraw.md",
     "LeetCode 21. 合并两个有序链表/index.zh-cn.md",
     "_templates/templater/new index template.md",
     "Excalidraw 自定义中文字体/index.zh-cn.md",
-    "Excalidraw/Drawing 2024-06-30 20.46.34.excalidraw.md",
     "Excalidraw 自定义中文字体/cover.jpg",
     "_TODO.md",
     "Excalidraw 自定义中文字体",
