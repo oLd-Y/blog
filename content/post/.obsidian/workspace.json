@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_TODO.md",
+                "file": "Excalidraw 自定义中文字体/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -35,26 +35,14 @@
             "id": "18e655affef39e3a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LeetCode 21. 合并两个有序链表/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "826f581576c72f72",
-            "type": "leaf",
-            "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-30 20.46.34.excalidraw.md"
+                "file": "Excalidraw/Drawing 2024-06-30 20.43.48.excalidraw.md"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LeetCode 21. 合并两个有序链表/index.zh-cn.md",
+                "file": "Excalidraw 自定义中文字体/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LeetCode 21. 合并两个有序链表/index.zh-cn.md",
+                "file": "Excalidraw 自定义中文字体/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LeetCode 21. 合并两个有序链表/index.zh-cn.md"
+                "file": "Excalidraw 自定义中文字体/index.zh-cn.md"
               }
             }
           },
@@ -222,33 +210,44 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-spaced-repetition:Review flashcards": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "remotely-save:Remotely Save": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "18e655affef39e3a",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "LeetCode 21. 合并两个有序链表/cover.jpg",
+    "Excalidraw 自定义中文字体/cover.jpg",
+    "_TODO.md",
+    "Excalidraw 自定义中文字体/index.zh-cn.md",
+    "Excalidraw 自定义中文字体",
+    "Excalidraw/Drawing 2024-06-30 20.43.48.excalidraw.md",
     "LeetCode 21. 合并两个有序链表/index.zh-cn.md",
+    "LeetCode 21. 合并两个有序链表/cover.jpg",
+    "Excalidraw/algorithms-and-data-structures-arrays-matrices-trees.excalidrawlib",
+    "Excalidraw/Muyao-Softbrush-2.ttf",
+    "Excalidraw/YaoRuanBiShouXieTi/Muyao-Softbrush-2.ttf",
+    "Excalidraw/YaoRuanBiShouXieTi",
+    "YaoRuanBiShouXieTi/字由客户端.url",
+    "YaoRuanBiShouXieTi/Muyao-Softbrush-2.ttf",
+    "YaoRuanBiShouXieTi/YaoRuanBiShouXieTi/字由客户端.url",
+    "YaoRuanBiShouXieTi/YaoRuanBiShouXieTi/Muyao-Softbrush-2.ttf",
+    "YaoRuanBiShouXieTi/YaoRuanBiShouXieTi",
+    "Excalidraw/Drawing 2024-06-30 20.43.48.excalidraw.png",
     "围城 读后感/index.md",
     "LeetCode21. 合并两个有序链表/cover.jpg",
     "LeetCode21. 合并两个有序链表/index.zh-cn.md",
-    "LeetCode21. 合并两个有序链表",
     "Excalidraw/Drawing 2024-06-30 20.46.34.excalidraw.md",
     "保护模式相关.md",
-    "_TODO.md",
-    "Excalidraw/Drawing 2024-06-30 20.43.48.excalidraw.md",
     "Excalidraw/Drawing 2024-06-30 20.38.41.excalidraw.md",
-    "Excalidraw",
     "vim command mode.md",
     "_templates/templater/create page bundle.md",
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
@@ -270,20 +269,9 @@
     "_daily/2024-04-30_Tuesday.md",
     "_daily/2024-04-29_Monday.md",
     "_daily/2024-04-28.md",
-    "_daily/2024-04-22.md",
     "Untitled 1.canvas",
     "反爬/cover.jpg",
-    "反爬",
     "test2/cover.jpg",
-    "test2",
-    "test333/cover.jpg",
-    "Untitled.canvas",
-    "test333",
-    "test111/cover.jpg",
-    "test111",
-    "test12",
-    "test11",
-    "test10",
-    "test9"
+    "Untitled.canvas"
   ]
 }

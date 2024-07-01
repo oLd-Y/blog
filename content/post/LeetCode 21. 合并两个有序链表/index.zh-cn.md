@@ -10,8 +10,14 @@ description:
 image: cover.jpg
 weight: 1
 draft: true
-lastmod: 2024-06-30T22:09:11+08:00
+lastmod: 2024-07-01T07:45:57+08:00
 ---
-## 方法
+## 方法1：链表
+
+### 思路
+
+1. 
+
+
 
 
