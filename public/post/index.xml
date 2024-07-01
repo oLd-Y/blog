@@ -78,8 +78,8 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;h4 id=&#34;复杂度&#34;&gt;复杂度
 &lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;时间复杂度：&lt;/li&gt;
-&lt;li&gt;空间复杂度：&lt;/li&gt;
+&lt;li&gt;时间复杂度：$O(m + n)$，遍历 2 个链表花费的时间。&lt;/li&gt;
+&lt;li&gt;空间复杂度：$O(1)$，只使用了 cur 和 dum 常数空间。&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>

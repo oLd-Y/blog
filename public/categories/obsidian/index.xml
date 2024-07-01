@@ -28,6 +28,8 @@
 &lt;/h2&gt;&lt;p&gt;自动记忆上次文件的打开位置。&lt;/p&gt;
 &lt;h2 id=&#34;front-matter-title&#34;&gt;Front Matter Title
 &lt;/h2&gt;&lt;p&gt;将文章中 front matter 的 &lt;code&gt;title&lt;/code&gt; 作为文件名，可以在 Obsidian 中的搜索或者 graph view 中以 title 而非原始文件名展现。对于 hugo 的 page bundle 用户使用 obsidan 来说，这个插件应该是刚需。&lt;/p&gt;
+&lt;h2 id=&#34;home-page&#34;&gt;Home Page
+&lt;/h2&gt;&lt;p&gt;为 Obsidian 增加一个主页&lt;/p&gt;
 </description>
         </item>
         
