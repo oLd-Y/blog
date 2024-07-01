@@ -13,11 +13,11 @@ if (!app.metadataCache.getFileCache(f)?.frontmatter?.[key]) {
 let vaultPath = app.vault.adapter.basePath;
 // 构建封面保存路径
 let imagePath = `${vaultPath}${folder}cover.jpg`;
-// tp.system.suggester(["中文", "English"], ["index.zh-cn", "index.en"], true, "请选择博客的语言")
+// fileName = tp.system.suggester(["中文", "English"], ["index.zh-cn", "index.en"], true, "请选择博客的语言")
 
 await tp.file.create_new(tp.file.find_tfile("new index template"), "index.zh-cn", true, folder)
 
-const strings = ["http://api.mtyqx.cn/api/random.php", "https://www.loliapi.com/acg/"];
+const strings = ["http://api.mtyqx.cn/api/random.php", "https://www.loliapi.com/acg/", "https://img.moehu.org/pic.php?id=img1"];
 const randomIndex = Math.floor(Math.random() * strings.length);
 
 await tp.user.download_image(strings[randomIndex], imagePath);

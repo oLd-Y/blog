@@ -8,41 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "74fb914d967fe4f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "围城 读后感/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "71053c445b6b9b00",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_templates/templater/create page bundle.md",
+                "file": "简单链表/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "18e655affef39e3a",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-06-30 20.43.48.excalidraw.md"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_templates/templater/create page bundle.md",
+                "file": "简单链表/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_templates/templater/create page bundle.md",
+                "file": "简单链表/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_templates/templater/create page bundle.md"
+                "file": "简单链表/index.zh-cn.md"
               }
             }
           },
@@ -225,15 +202,28 @@
   },
   "active": "71053c445b6b9b00",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-06-30 20.46.34.excalidraw.md",
-    "LeetCode 21. 合并两个有序链表/index.zh-cn.md",
+    "Hugo + Stack + Obsidian 搭建博客/index.md",
+    "Hugo + Stack + Obsidian 搭建博客/cover.jpg",
+    "_templates/templater/create page bundle.md",
+    "Obsidian 插件记录/cover.jpg",
+    "Obsidian 插件记录/index.zh-cn.md",
+    "简单链表/cover.jpg",
+    "Obsidian 插件记录/cover.jpg.crdownload",
+    "简单链表/index.zh-cn.md",
+    "Obsidian 插件记录",
+    "_templates/templater/leetcode.md",
+    "Excalidraw/Drawing 2024-06-30 20.43.48.excalidraw.md",
+    "围城 读后感/index.md",
     "_templates/templater/new index template.md",
+    "_templates/templater/Insert Callouts.md",
+    "围城 读后感/cover.jpg",
+    "LeetCode 21. 合并两个有序链表/cover.jpg",
+    "LeetCode 21. 合并两个有序链表/index.zh-cn.md",
+    "Excalidraw/Drawing 2024-06-30 20.46.34.excalidraw.md",
     "Excalidraw 自定义中文字体/index.zh-cn.md",
     "Excalidraw 自定义中文字体/cover.jpg",
     "_TODO.md",
     "Excalidraw 自定义中文字体",
-    "Excalidraw/Drawing 2024-06-30 20.43.48.excalidraw.md",
-    "LeetCode 21. 合并两个有序链表/cover.jpg",
     "Excalidraw/algorithms-and-data-structures-arrays-matrices-trees.excalidrawlib",
     "Excalidraw/Muyao-Softbrush-2.ttf",
     "Excalidraw/YaoRuanBiShouXieTi/Muyao-Softbrush-2.ttf",
@@ -241,36 +231,24 @@
     "YaoRuanBiShouXieTi/字由客户端.url",
     "YaoRuanBiShouXieTi/Muyao-Softbrush-2.ttf",
     "YaoRuanBiShouXieTi/YaoRuanBiShouXieTi/字由客户端.url",
-    "YaoRuanBiShouXieTi/YaoRuanBiShouXieTi/Muyao-Softbrush-2.ttf",
-    "YaoRuanBiShouXieTi/YaoRuanBiShouXieTi",
     "Excalidraw/Drawing 2024-06-30 20.43.48.excalidraw.png",
-    "围城 读后感/index.md",
     "LeetCode21. 合并两个有序链表/cover.jpg",
     "LeetCode21. 合并两个有序链表/index.zh-cn.md",
     "保护模式相关.md",
     "Excalidraw/Drawing 2024-06-30 20.38.41.excalidraw.md",
     "vim command mode.md",
-    "_templates/templater/create page bundle.md",
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
     "Atomic Habits 读后感/单词.md",
-    "围城 读后感/cover.jpg",
     "hugo + stack + obsidian 搭建博客/cover.jpg",
     "hugo + stack + obsidian 搭建博客/cove1r.jpg",
-    "围城 读后感/cove1r.jpg",
     "hugo + stack + obsidian 搭建博客/index.md",
     "nvm 安装和使用/index.md",
-    "nvm 安装和使用/cover.jpg",
     "test1.md",
     "Atomic Habits 读后感/index.md",
     "Ubuntu 22.04 更换镜像源.md",
     "SD 关键词记录.md",
     "哈工大操作系统实验4.md",
-    "放弃折腾 vim 和 emacs.md",
-    "_daily/2024-04-30_Tuesday.md",
-    "_daily/2024-04-29_Monday.md",
-    "_daily/2024-04-28.md",
     "Untitled 1.canvas",
-    "反爬/cover.jpg",
     "Untitled.canvas"
   ]
 }
