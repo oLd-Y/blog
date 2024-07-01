@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "简单链表/index.zh-cn.md",
+                "file": "反爬/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "简单链表/index.zh-cn.md",
+                "file": "反爬/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "简单链表/index.zh-cn.md",
+                "file": "反爬/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "简单链表/index.zh-cn.md"
+                "file": "反爬/index.zh-cn.md"
               }
             }
           },
@@ -200,10 +200,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "71053c445b6b9b00",
   "lastOpenFiles": [
-    "_templates/templater/leetcode.md",
+    "_TODO.md",
+    "反爬/index.zh-cn.md",
+    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
+    "Windows 实现划词翻译及生词本功能（DeepL 接口和桌面端）/index.md",
+    "Windows 实现划词翻译及生词本功能（DeepL 接口和桌面端）/cover.jpg",
+    "SD 关键词记录.md",
     "简单链表/index.zh-cn.md",
+    "_templates/templater/leetcode.md",
     "原子习惯 读后感/index.md",
     "围城 读后感/index.md",
     "Obsidian 插件记录/index.zh-cn.md",
@@ -227,7 +233,6 @@
     "LeetCode 21. 合并两个有序链表/index.zh-cn.md",
     "Excalidraw/Drawing 2024-06-30 20.46.34.excalidraw.md",
     "Excalidraw 自定义中文字体/cover.jpg",
-    "_TODO.md",
     "Excalidraw 自定义中文字体",
     "Excalidraw/algorithms-and-data-structures-arrays-matrices-trees.excalidrawlib",
     "Excalidraw/Muyao-Softbrush-2.ttf",
@@ -241,13 +246,8 @@
     "保护模式相关.md",
     "Excalidraw/Drawing 2024-06-30 20.38.41.excalidraw.md",
     "vim command mode.md",
-    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
     "Atomic Habits 读后感/单词.md",
-    "hugo + stack + obsidian 搭建博客/cover.jpg",
     "hugo + stack + obsidian 搭建博客/index.md",
-    "test1.md",
-    "Atomic Habits 读后感/index.md",
-    "Ubuntu 22.04 更换镜像源.md",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]

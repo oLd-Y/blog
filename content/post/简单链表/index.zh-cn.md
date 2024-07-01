@@ -10,7 +10,7 @@ description: 数据结构与算法-简单链表类型做过的题目汇总
 image: cover.jpg
 weight: 1
 draft: false
-lastmod: 2024-07-01T14:01:33+08:00
+lastmod: 2024-07-01T14:35:48+08:00
 ---
 
 ## 21. 合并两个有序链表
@@ -54,9 +54,18 @@ class Solution:
 #### 代码
 
 ```python
-
+class Solution:
+    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+        if not list1: return list2
+        if not list2: return list1
+        if list1.val <= list2.val:
+            list1.next = self.mergeTwoLists(list1.next, list2)
+            return list1
+        else: 
+            list2.next = self.mergeTwoLists(list1, list2.next)
+            return list2
 ```
 
 #### 复杂度
-- 时间复杂度：
-- 空间复杂度：
+- 时间复杂度：$O(m + n)$。每次递归只少了一个元素，把两个链表都遍历完需要 m + n 次，每层的时间花费只要 $O(1)$，因此总共 $O(m + n)$。
+- 空间复杂度：$O(m + n)$。到终止条件返回时，一共压了 m + n 个栈帧。
