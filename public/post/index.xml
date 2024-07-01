@@ -81,6 +81,24 @@
 &lt;li&gt;时间复杂度：$O(m + n)$，遍历 2 个链表花费的时间。&lt;/li&gt;
 &lt;li&gt;空间复杂度：$O(1)$，只使用了 cur 和 dum 常数空间。&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;方法-2递归&#34;&gt;方法 2：递归
+&lt;/h3&gt;&lt;h4 id=&#34;思路-1&#34;&gt;思路
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;每一层要做的事：重新为较小的节点挑选下家，例如 list1 比较小，则需要看 list1 是继续接list1.next 还是接剩下的 list2。&lt;/li&gt;
+&lt;li&gt;然后把修改完毕的链表返回。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;代码-1&#34;&gt;代码
+&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;复杂度-1&#34;&gt;复杂度
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;时间复杂度：&lt;/li&gt;
+&lt;li&gt;空间复杂度：&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         <item>
@@ -405,12 +423,12 @@
 </description>
         </item>
         <item>
-        <title>Atomic Habits 读后感</title>
-        <link>http://localhost:1313/blog/p/atomic-habits-%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
+        <title>原子习惯 读后感</title>
+        <link>http://localhost:1313/blog/p/%E5%8E%9F%E5%AD%90%E4%B9%A0%E6%83%AF-%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
         <pubDate>Tue, 25 Jun 2024 08:10:16 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/p/atomic-habits-%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
-        <description>&lt;img src="http://localhost:1313/blog/p/atomic-habits-%E8%AF%BB%E5%90%8E%E6%84%9F/cover.jpg" alt="Featured image of post Atomic Habits 读后感" /&gt;&lt;h2 id=&#34;读后感&#34;&gt;读后感
+        <guid>http://localhost:1313/blog/p/%E5%8E%9F%E5%AD%90%E4%B9%A0%E6%83%AF-%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
+        <description>&lt;img src="http://localhost:1313/blog/p/%E5%8E%9F%E5%AD%90%E4%B9%A0%E6%83%AF-%E8%AF%BB%E5%90%8E%E6%84%9F/cover.jpg" alt="Featured image of post 原子习惯 读后感" /&gt;&lt;h2 id=&#34;读后感&#34;&gt;读后感
 &lt;/h2&gt;&lt;p&gt;原子习惯这本书，主要讲述了如何养成一个好习惯，以及如何改掉一个坏习惯。&lt;/p&gt;
 &lt;p&gt;人们每天习惯性的动作占据了一个人的50%~60%的时间：起床后自动地去洗漱，出门时无意识地先穿左脚的鞋，学一会儿不由自主地打开手机，无需思考也能打出想要的字……&lt;/p&gt;
 &lt;p&gt;一个习惯的培养或者淡化，主要涉及四个方面：线索、渴望、反馈、奖励。说人话就是，你看到了某个人或者事物，他激发了你心中的某个兴趣，让你产生了做某件事的冲突，然后在做了之后产生反馈，进而产生正向或者反向的奖励，使你继续/不愿继续保持这个习惯。&lt;/p&gt;

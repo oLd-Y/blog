@@ -1,14 +1,15 @@
 ---
 title: Obsidian 插件记录
-categories: Obsidian
+categories: 工具
 tags:
   - 插件
+  - obsidian
 date: 2024-07-01
 description: 
 image: cover.jpg
 weight: 1
 draft: false
-lastmod: 2024-07-01T11:37:21+08:00
+lastmod: 2024-07-01T13:35:50+08:00
 ---
 Obsidian 中的插件数目众多，一不留神就会陷进折腾插件的陷阱。偶然找到的插件，当时未必立马有用，个人还是更倾向于用到了再装。但当时找得到的插件，以后就未必同样找得到；或者长时间不用某个插件之后忘记这个插件的用法。因此在这里记录一下用到的插件。持续更新。
 

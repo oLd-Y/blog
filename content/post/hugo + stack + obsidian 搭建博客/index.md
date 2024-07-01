@@ -1,18 +1,17 @@
 ---
 title: Hugo + Stack + Obsidian 搭建博客
-categories:
-  - ""
+categories: 工具
 tags:
   - hugo
-  - obsidian
   - blog
+  - obsidian
 date: 2024-06-25
 description: ""
 slug: ""
 image: cover.jpg
 weight: 1
 draft: false
-lastmod: 2024-06-29T12:32:41+08:00
+lastmod: 2024-07-01T13:33:53+08:00
 ---
 ## Hugo
 hugo 是我们构建博客的主要工具，号称是世界上最快的网站构建工具。它通过对文件夹分层管理我们的资源；通过标记语言（主要为 markdown）编写内容，然后在构建之后将内容渲染到 themes 或者 layouts 的 hugo 的模板文件中来展示博客。

@@ -56,6 +56,24 @@
 &lt;li&gt;时间复杂度：$O(m + n)$，遍历 2 个链表花费的时间。&lt;/li&gt;
 &lt;li&gt;空间复杂度：$O(1)$，只使用了 cur 和 dum 常数空间。&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;方法-2递归&#34;&gt;方法 2：递归
+&lt;/h3&gt;&lt;h4 id=&#34;思路-1&#34;&gt;思路
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;每一层要做的事：重新为较小的节点挑选下家，例如 list1 比较小，则需要看 list1 是继续接list1.next 还是接剩下的 list2。&lt;/li&gt;
+&lt;li&gt;然后把修改完毕的链表返回。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;代码-1&#34;&gt;代码
+&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;复杂度-1&#34;&gt;复杂度
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;时间复杂度：&lt;/li&gt;
+&lt;li&gt;空间复杂度：&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         
