@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 314.5
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -197,19 +197,23 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "remotely-save:Remotely Save": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false
     }
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "Hugo 解析 Obsidian 双链（Wiki links）的方法/index.zh-cn.md",
+    "Hugo + Stack + Obsidian 搭建博客/index.md",
+    "_templates/templater/create page bundle.md",
+    "Hugo 解析 Obsidian 双链（Wiki links）的方法/cover.jpg",
+    "Obsidian 插件记录/index.zh-cn.md",
+    "Hugo 解析 Obsidian 双链（Wiki links）的方法",
+    "简单链表/index.zh-cn.md",
     "nvm 安装和使用/index.md",
     "Excalidraw 自定义中文字体/index.zh-cn.md",
-    "简单链表/index.zh-cn.md",
-    "_templates/templater/create page bundle.md",
     "_templates/templater/new index template.md",
-    "Obsidian 插件记录/index.zh-cn.md",
     "围城 读后感/index.md",
-    "Hugo + Stack + Obsidian 搭建博客/index.md",
     "Hugo + Stack + Obsidian 搭建博客/cover.jpg",
     "Obsidian 插件记录/cover.jpg",
     "简单链表/cover.jpg",
@@ -231,7 +235,6 @@
     "Excalidraw/YaoRuanBiShouXieTi",
     "YaoRuanBiShouXieTi/字由客户端.url",
     "YaoRuanBiShouXieTi/Muyao-Softbrush-2.ttf",
-    "YaoRuanBiShouXieTi/YaoRuanBiShouXieTi/字由客户端.url",
     "Excalidraw/Drawing 2024-06-30 20.43.48.excalidraw.png",
     "LeetCode21. 合并两个有序链表/cover.jpg",
     "LeetCode21. 合并两个有序链表/index.zh-cn.md",
@@ -241,13 +244,10 @@
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
     "Atomic Habits 读后感/单词.md",
     "hugo + stack + obsidian 搭建博客/cover.jpg",
-    "hugo + stack + obsidian 搭建博客/cove1r.jpg",
     "hugo + stack + obsidian 搭建博客/index.md",
     "test1.md",
     "Atomic Habits 读后感/index.md",
     "Ubuntu 22.04 更换镜像源.md",
-    "SD 关键词记录.md",
-    "哈工大操作系统实验4.md",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
