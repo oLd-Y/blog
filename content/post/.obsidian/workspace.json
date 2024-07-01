@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "李治军操作系统总结.md",
+                "file": "Hugo + Stack + Obsidian 搭建博客/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "李治军操作系统总结.md",
+                "file": "Hugo + Stack + Obsidian 搭建博客/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "李治军操作系统总结.md",
+                "file": "Hugo + Stack + Obsidian 搭建博客/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "李治军操作系统总结.md"
+                "file": "Hugo + Stack + Obsidian 搭建博客/index.md"
               }
             }
           },
@@ -202,8 +202,9 @@
   },
   "active": "71053c445b6b9b00",
   "lastOpenFiles": [
-    "李治军操作系统-前置知识.md",
+    "Excalidraw 自定义中文字体/index.zh-cn.md",
     "李治军操作系统总结.md",
+    "李治军操作系统-前置知识.md",
     "简单链表/index.zh-cn.md",
     "wsl（ubuntu）安装李治军操作系统环境依赖.md",
     "wsl 网络问题.md",
@@ -229,7 +230,6 @@
     "Hugo 解析 Obsidian 双链（Wiki links）的方法/cover.jpg",
     "Hugo 解析 Obsidian 双链（Wiki links）的方法",
     "nvm 安装和使用/index.md",
-    "Excalidraw 自定义中文字体/index.zh-cn.md",
     "_templates/templater/new index template.md",
     "Hugo + Stack + Obsidian 搭建博客/cover.jpg",
     "Obsidian 插件记录/cover.jpg",
