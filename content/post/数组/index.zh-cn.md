@@ -8,7 +8,7 @@ description: 数据结构与算法-数组类型做过的题目汇总
 image: cover.jpg
 weight: 1
 draft: false
-lastmod: 2024-07-02T15:05:27+08:00
+lastmod: 2024-07-02T15:06:44+08:00
 ---
 ## 704. 二分查找
 
@@ -45,7 +45,8 @@ class Solution:
 ```
 
 #### 复杂度
-- 时间复杂度：
-- 空间复杂度：
+- 时间复杂度：$O(\log n)$
+- 空间复杂度：$O(1)$
+
 
 
