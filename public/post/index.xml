@@ -19,10 +19,28 @@
 &lt;h3 id=&#34;方法-二分&#34;&gt;方法 ：二分
 &lt;/h3&gt;&lt;h4 id=&#34;思路&#34;&gt;思路
 &lt;/h4&gt;&lt;ol&gt;
-&lt;li&gt;闭区间时，如果循环条件中的 &lt;code&gt;while left &amp;lt;= right&lt;/code&gt; 改为 &lt;code&gt;while left &amp;lt; right&lt;/code&gt;，&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;双闭区间时，&lt;code&gt;left&lt;/code&gt; 和 &lt;code&gt;right&lt;/code&gt; 修改过后，说明之前的区间之外没有答案；同样地，说明当前区间内可能存在答案。因此，即使 &lt;code&gt;left&lt;/code&gt; 和 &lt;code&gt;right&lt;/code&gt; 指向同一个位置，这个位置也是没有验证过的，需要进行验证。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;![[Excalidraw/Drawing 2024-06-30 20.43.48.excalidraw.md#^group=VHphhKvl40ZfNnzy-Dgff|111]]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240702174340.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240702174352.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
 &lt;h4 id=&#34;代码&#34;&gt;代码
 &lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -60,8 +78,8 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;h4 id=&#34;复杂度&#34;&gt;复杂度
 &lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;时间复杂度：&lt;/li&gt;
-&lt;li&gt;空间复杂度：&lt;/li&gt;
+&lt;li&gt;时间复杂度：$O(\log n)$&lt;/li&gt;
+&lt;li&gt;空间复杂度：$O(1)$&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>

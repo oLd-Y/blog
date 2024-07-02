@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数组/index.zh-cn.md",
+                "file": "炒粉丝/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数组/index.zh-cn.md",
+                "file": "炒粉丝/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数组/index.zh-cn.md",
+                "file": "炒粉丝/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数组/index.zh-cn.md"
+                "file": "炒粉丝/index.zh-cn.md"
               }
             }
           },
@@ -221,10 +221,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "bbe9574fc04b181a",
   "lastOpenFiles": [
-    "数组/704. 二分查找.excalidraw.md",
+    "炒粉丝/cover.jpg",
+    "炒粉丝/index.zh-cn.md",
     "数组/index.zh-cn.md",
+    "炒粉丝",
+    "数组/704. 二分查找.excalidraw.md",
     "Excalidraw/Drawing 2024-06-30 20.46.34.excalidraw.md",
     "数组/cover.jpg",
     "简单链表/index.zh-cn.md",
@@ -250,8 +253,6 @@
     "_templates/templater/leetcode.md",
     "原子习惯 读后感/index.md",
     "围城 读后感/index.md",
-    "Obsidian 插件记录/index.zh-cn.md",
-    "Hugo 解析 Obsidian 双链（Wiki links）的方法/index.zh-cn.md",
     "Hugo 解析 Obsidian 双链（Wiki links）的方法/cover.jpg",
     "Hugo 解析 Obsidian 双链（Wiki links）的方法",
     "Hugo + Stack + Obsidian 搭建博客/cover.jpg",
@@ -267,8 +268,6 @@
     "Excalidraw/Muyao-Softbrush-2.ttf",
     "Excalidraw/YaoRuanBiShouXieTi/Muyao-Softbrush-2.ttf",
     "Excalidraw/YaoRuanBiShouXieTi",
-    "YaoRuanBiShouXieTi/字由客户端.url",
-    "Excalidraw/Drawing 2024-06-30 20.43.48.excalidraw.png",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
