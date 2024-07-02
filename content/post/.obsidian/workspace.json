@@ -28,8 +28,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a03aab585415a040",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-06-30 20.43.48.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -213,10 +224,10 @@
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
     "数组/index.zh-cn.md",
+    "Excalidraw/Drawing 2024-06-30 20.43.48.excalidraw.md",
     "数组/cover.jpg",
     "简单链表/index.zh-cn.md",
     "数组",
-    "Excalidraw/Drawing 2024-06-30 20.43.48.excalidraw.md",
     "Hugo + Stack + Obsidian 搭建博客/index.md",
     "Excalidraw 自定义中文字体/index.zh-cn.md",
     "李治军操作系统总结.md",
