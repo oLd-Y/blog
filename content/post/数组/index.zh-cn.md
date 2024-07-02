@@ -8,7 +8,7 @@ description: 数据结构与算法-数组类型做过的题目汇总
 image: cover.jpg
 weight: 1
 draft: false
-lastmod: 2024-07-02T13:13:44+08:00
+lastmod: 2024-07-02T15:05:27+08:00
 ---
 ## 704. 二分查找
 
@@ -18,7 +18,7 @@ lastmod: 2024-07-02T13:13:44+08:00
 
 #### 思路
 
-1. 双闭区间时，`left` 和 `right` 都指向的是未访问的如果循环条件中的 `while left <= right` 改为 `while left < right`，
+1. 双闭区间时，`left` 和 `right` 修改过后，说明之前的区间之外没有答案；同样地，说明当前区间内可能存在答案。因此，即使 `left` 和 `right` 指向同一个位置，这个位置也是没有验证过的，需要进行验证。
 
 ![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240702131148.png)
 
