@@ -16,6 +16,18 @@
                 "file": "Excalidraw/Drawing 2024-06-30 20.43.48.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "bbe9574fc04b181a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数组/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -198,13 +210,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "71053c445b6b9b00",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "数组/index.zh-cn.md",
+    "数组/cover.jpg",
+    "简单链表/index.zh-cn.md",
+    "数组",
+    "Excalidraw/Drawing 2024-06-30 20.43.48.excalidraw.md",
     "Hugo + Stack + Obsidian 搭建博客/index.md",
     "Excalidraw 自定义中文字体/index.zh-cn.md",
     "李治军操作系统总结.md",
     "李治军操作系统-前置知识.md",
-    "简单链表/index.zh-cn.md",
     "wsl（ubuntu）安装李治军操作系统环境依赖.md",
     "wsl 网络问题.md",
     "Windows 自动推送 git 脚本.md",
@@ -224,11 +240,8 @@
     "围城 读后感/index.md",
     "Obsidian 插件记录/index.zh-cn.md",
     "Hugo 解析 Obsidian 双链（Wiki links）的方法/index.zh-cn.md",
-    "_templates/templater/create page bundle.md",
     "Hugo 解析 Obsidian 双链（Wiki links）的方法/cover.jpg",
     "Hugo 解析 Obsidian 双链（Wiki links）的方法",
-    "nvm 安装和使用/index.md",
-    "_templates/templater/new index template.md",
     "Hugo + Stack + Obsidian 搭建博客/cover.jpg",
     "Obsidian 插件记录/cover.jpg",
     "简单链表/cover.jpg",
@@ -243,9 +256,7 @@
     "Excalidraw/YaoRuanBiShouXieTi/Muyao-Softbrush-2.ttf",
     "Excalidraw/YaoRuanBiShouXieTi",
     "YaoRuanBiShouXieTi/字由客户端.url",
-    "YaoRuanBiShouXieTi/Muyao-Softbrush-2.ttf",
     "Excalidraw/Drawing 2024-06-30 20.43.48.excalidraw.png",
-    "LeetCode21. 合并两个有序链表/cover.jpg",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
