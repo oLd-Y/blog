@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5,
-    "collapsed": true
+    "width": 314.5
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -201,7 +200,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "71053c445b6b9b00",
   "lastOpenFiles": [
     "Excalidraw 自定义中文字体/index.zh-cn.md",
     "李治军操作系统总结.md",
