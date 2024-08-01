@@ -4,71 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "ab089298d0fa42ae",
+        "id": "af3c4963e6b5c9c8",
         "type": "tabs",
         "children": [
           {
-            "id": "97206a4e627801cc",
+            "id": "cb708144f1fe8b08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_TODO.md",
+                "file": "欧 · 享利短篇小说 读书笔记/欧 · 享利短篇小说 读书笔记.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d68ba604ce5961a1",
+            "id": "284dab125a9ee8c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "保护模式相关.md",
+                "file": "飞鸟集 读后感/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d48005cae3237d96",
+            "id": "93897bee17ec69dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "线程.md",
+                "file": "欧 · 享利短篇小说 读书笔记/index.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ab304b72dadda7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vim.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2a44c4622b945ed6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "useful prompt/index.zh-cn.md",
-                "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:\"Excalidraw 自定义中文字体\"  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_templates/dairy.md",
+                "file": "飞鸟集 读后感/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_templates/dairy.md",
+                "file": "飞鸟集 读后感/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_templates/dairy.md"
+                "file": "飞鸟集 读后感/index.zh-cn.md"
               }
             }
           },
@@ -248,36 +224,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "284dab125a9ee8c8",
   "lastOpenFiles": [
-    "炒粉丝/index.zh-cn.md",
-    "简单链表/index.zh-cn.md",
-    "鸡蛋清汤面/index.zh-cn.md",
-    "海蛎煎/index.zh-cn.md",
-    "宫保鸡丁/index.zh-cn.md",
+    "欧 · 享利短篇小说 读书笔记/index.md",
+    "欧 · 享利短篇小说 读书笔记/欧 · 享利短篇小说 读书笔记.md",
     "飞鸟集 读后感/index.zh-cn.md",
-    "豆腐知识总结/index.zh-cn.md",
-    "调料知识总结/index.zh-cn.md",
-    "淀粉知识总结/index.zh-cn.md",
-    "包菜粉丝/index.zh-cn.md",
-    "vim.md",
+    "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
+    "Untitled.md",
+    "Ubuntu 默认终端设置.md",
+    "Ubuntu 22.04 更换镜像源.md",
+    "SD 关键词记录.md",
+    "reading notes -《Atomatic Habits》.md",
+    "ox-hugo org-template 理解.md",
+    "ox-hugo 自动生成模板代码解析.md",
+    "ox-hugo 结合 org-download 粘贴图片.md",
+    "Obsidian Vim 自动切换搜狗输入法中英状态.md",
+    "linux-0.11 _set_gate 宏解释.md",
+    "KDE arch linux 安装 fcitx5 和 rime 输入法.md",
+    "hdc 无法挂载 minix.md",
+    "git clone 参数解析.md",
+    "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",
+    "emacs 入坑建议.md",
+    "emacs 默认快捷键.md",
+    "信号量.md",
     "线程.md",
-    "保护模式相关.md",
-    "_TODO.md",
-    "useful prompt/index.zh-cn.md",
-    "_week/2024-W30.md",
-    "_excalidraw/704. 二分查找.excalidraw.md",
-    "_templates/dairy.md",
-    "_templates/week.md",
-    "原子习惯 读后感/index.md",
-    "蚂蚁上树/index.zh-cn.md",
-    "辣椒知识/index.zh-cn.md",
-    "辣椒炒肉/index.zh-cn.md",
-    "O' Henrry's short story reading notes/index.md",
+    "设置默认的声音输出设备.md",
+    "弃用 emacs 转用 neovim 的原因.md",
+    "李治军操作系统总结.md",
+    "李治军操作系统-前置知识.md",
     "useful prompt",
-    "Hugo 解析 Obsidian 双链（Wiki links）的方法/index.zh-cn.md",
-    "香菇肉片汤/index.zh-cn.md",
-    "O' Henrry's short story reading notes",
+    "欧 · 享利短篇小说 读书笔记",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
