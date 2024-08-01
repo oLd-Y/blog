@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>蓝牙 on 谷栗杳</title>
+        <link>http://localhost:1313/blog/tags/%E8%93%9D%E7%89%99/</link>
+        <description>Recent content in 蓝牙 on 谷栗杳</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>谷栗杳</copyright>
+        <lastBuildDate>Tue, 25 Jun 2024 12:43:19 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/%E8%93%9D%E7%89%99/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>windows 11 蓝牙无法搜索到设备的原因</title>
+        <link>http://localhost:1313/blog/p/windows-11-%E8%93%9D%E7%89%99%E6%97%A0%E6%B3%95%E6%90%9C%E7%B4%A2%E5%88%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E5%8E%9F%E5%9B%A0/</link>
+        <pubDate>Tue, 25 Jun 2024 12:43:19 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/windows-11-%E8%93%9D%E7%89%99%E6%97%A0%E6%B3%95%E6%90%9C%E7%B4%A2%E5%88%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E5%8E%9F%E5%9B%A0/</guid>
+        <description>&lt;img src="http://localhost:1313/blog/p/windows-11-%E8%93%9D%E7%89%99%E6%97%A0%E6%B3%95%E6%90%9C%E7%B4%A2%E5%88%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E5%8E%9F%E5%9B%A0/cover.jpg" alt="Featured image of post windows 11 蓝牙无法搜索到设备的原因" /&gt;&lt;p&gt;刚买的主机，一直没有用过蓝牙设备。前几天尝试连接一个蓝牙设备，一直在蓝牙界面转圈圈，根本搜索不出来设备。这两天被这个问题搞疯了快，今天总算解决了。汇总一下我网上搜集到的评论区好评的比较有效的方法：&lt;/p&gt;
+&lt;h2 id=&#34;冷启动&#34;&gt;冷启动
+&lt;/h2&gt;&lt;p&gt;可能是主机中的静电干扰了蓝牙的信号接收，因此需要释放静电。&lt;/p&gt;
+&lt;p&gt;具体操作为，电脑关机之后，拔掉所有外接设备和电源，包括有线和usb接口等，然后长按开机键30s（或者静置10分钟）。之后重新接上设备进行尝试。&lt;/p&gt;
+&lt;h2 id=&#34;重装蓝牙驱动&#34;&gt;重装蓝牙驱动
+&lt;/h2&gt;&lt;p&gt;你可能右击开始菜单，检查了“设备管理器”中的蓝牙驱动，发现没有什么问题，也不报错。但是保险起见，还是重新装一下蓝牙驱动。你可以自行去蓝牙厂商装官方的驱动，但是我不会，所以还是找的一些第三方（某精灵）安装的。&lt;/p&gt;
+&lt;p&gt;下载完软件找到自己的蓝牙驱动（比如我的是 Realtek蓝牙驱动程序1.9.1051.3006），放到“已安装”上点“重装”就好。（这个经典限速给我看笑了，好在蓝牙驱动的体积并不大）&lt;/p&gt;
+&lt;h2 id=&#34;长长按蓝牙设备进行连接&#34;&gt;长长按蓝牙设备进行连接
+&lt;/h2&gt;&lt;p&gt;首先打开添加蓝牙设备的搜索界面如下图&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic2.zhimg.com/80/v2-ea42c8c8964896c2dcd7b21419cc5c76_720w.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;然后长按你的蓝牙设备至连接状态。此时，注意，不要设备狂闪的时候就松开按钮，继续按10s或者20s以上，可能就搜索出来了。&lt;/p&gt;
+&lt;h2 id=&#34;打开蓝牙服务&#34;&gt;打开蓝牙服务
+&lt;/h2&gt;&lt;p&gt;使用 win + r 并输入 services.msc 打开windows服务列表。&lt;/p&gt;
+&lt;p&gt;下滑找到这几项蓝牙服务是否开启，开启了就双击选择“属性”，把其中的“手动”改为“自动”。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic3.zhimg.com/80/v2-ace211ad6d68360ccbba771f26b13c09_720w.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;（ps：我也不知道这几个服务有啥用，手动和自动有什么区别，反正看着和蓝牙有关就都开启了。）&lt;/p&gt;
+&lt;p&gt;以上。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

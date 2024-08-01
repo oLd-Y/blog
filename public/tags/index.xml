@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>标签 on 谷栗杳</title>
+        <link>http://localhost:1313/blog/tags/</link>
+        <description>Recent content in 标签 on 谷栗杳</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>谷栗杳</copyright>
+        <lastBuildDate>Sat, 20 Jul 2024 17:18:43 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>读后感</title>
+        <link>http://localhost:1313/blog/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
+        <pubDate>Sat, 20 Jul 2024 17:18:43 +0800</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>书摘</title>
+        <link>http://localhost:1313/blog/tags/%E4%B9%A6%E6%91%98/</link>
+        <pubDate>Sat, 20 Jul 2024 17:18:43 +0800</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E4%B9%A6%E6%91%98/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>小说</title>
+        <link>http://localhost:1313/blog/tags/%E5%B0%8F%E8%AF%B4/</link>
+        <pubDate>Sat, 20 Jul 2024 17:18:43 +0800</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E5%B0%8F%E8%AF%B4/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Lazyvim</title>
+        <link>http://localhost:1313/blog/tags/lazyvim/</link>
+        <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/lazyvim/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Neovim</title>
+        <link>http://localhost:1313/blog/tags/neovim/</link>
+        <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/neovim/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Vue3</title>
+        <link>http://localhost:1313/blog/tags/vue3/</link>
+        <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/vue3/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>前端</title>
+        <link>http://localhost:1313/blog/tags/%E5%89%8D%E7%AB%AF/</link>
+        <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E5%89%8D%E7%AB%AF/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Springboot</title>
+        <link>http://localhost:1313/blog/tags/springboot/</link>
+        <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/springboot/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Windows</title>
+        <link>http://localhost:1313/blog/tags/windows/</link>
+        <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/windows/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Wsl</title>
+        <link>http://localhost:1313/blog/tags/wsl/</link>
+        <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/wsl/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>数组</title>
+        <link>http://localhost:1313/blog/tags/%E6%95%B0%E7%BB%84/</link>
+        <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E6%95%B0%E7%BB%84/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Obsidian</title>
+        <link>http://localhost:1313/blog/tags/obsidian/</link>
+        <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/obsidian/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>插件</title>
+        <link>http://localhost:1313/blog/tags/%E6%8F%92%E4%BB%B6/</link>
+        <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E6%8F%92%E4%BB%B6/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>工具</title>
+        <link>http://localhost:1313/blog/tags/%E5%B7%A5%E5%85%B7/</link>
+        <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E5%B7%A5%E5%85%B7/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>递归</title>
+        <link>http://localhost:1313/blog/tags/%E9%80%92%E5%BD%92/</link>
+        <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E9%80%92%E5%BD%92/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>链表</title>
+        <link>http://localhost:1313/blog/tags/%E9%93%BE%E8%A1%A8/</link>
+        <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E9%93%BE%E8%A1%A8/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>数据结构与算法</title>
+        <link>http://localhost:1313/blog/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</link>
+        <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>双指针</title>
+        <link>http://localhost:1313/blog/tags/%E5%8F%8C%E6%8C%87%E9%92%88/</link>
+        <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E5%8F%8C%E6%8C%87%E9%92%88/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>蓝牙</title>
+        <link>http://localhost:1313/blog/tags/%E8%93%9D%E7%89%99/</link>
+        <pubDate>Tue, 25 Jun 2024 12:43:19 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E8%93%9D%E7%89%99/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>社会科学</title>
+        <link>http://localhost:1313/blog/tags/%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6/</link>
+        <pubDate>Tue, 25 Jun 2024 08:10:16 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Blog</title>
+        <link>http://localhost:1313/blog/tags/blog/</link>
+        <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/blog/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Hugo</title>
+        <link>http://localhost:1313/blog/tags/hugo/</link>
+        <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/hugo/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

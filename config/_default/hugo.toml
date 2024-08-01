@@ -1,0 +1,251 @@
+baseurl = "https://old-y.github.io/blog"
+# baseurl = "http://localhost:1313/"
+languageCode = "zh-CN"
+# theme = ["hugo-theme-stack", "almeida-cv"]
+theme = "hugo-theme-stack"
+paginate = 5
+title = "谷栗杳"
+copyright = "谷栗杳"
+DefaultContentLanguage = "zh-cn"
+hasCJKLanguage = true
+
+# 需要放到配置文件较前的地方，否则可能不生效。相对于 content 文件夹的位置。
+ignoreFiles = ["content/post/_templates", "content/post/Excalidraw", "content/post/_daily"]
+
+
+# enableRobotsTXT = true
+# enableEmoji = true
+
+
+
+[languages.en]
+languageName = "English"
+title = "lyao's Blog"
+weight = 1
+
+  [languages.en.params]
+  description = "Example description"
+
+[languages.zh-cn]
+languageName = "中文"
+title = "谷栗杳"
+weight = 2
+
+  [languages.zh-cn.params]
+  description = "成为最好的自己"
+
+# [languages.ar]
+# languageName = "عربي"
+# languagedirection = "rtl"
+# title = "موقع تجريبي"
+# weight = 3
+
+#   [languages.ar.params]
+#   description = "وصف تجريبي"
+
+[services.disqus]
+shortname = "hugo-theme-stack"
+
+[services.googleAnalytics]
+
+[permalinks]
+post = "/p/:slug/"
+page = "/:slug/"
+
+[params]
+mainSections = [ "post" ]
+featuredImageField = "image"
+rssFullContent = true
+favicon = "favicon.ico"
+
+
+# enableMetaTags = true
+# colorLight = "#fff"
+# colorDark = "#666"
+# colorPageBackground = "#ddd"
+# colorPrimary = "#e3bfb8"
+# colorSecondary = "#aaa"
+# colorIconPrimary = "#fff"
+# colorIconBackground = "#e3bfb8"
+# colorRightColumnBackground = "#f5f5f5"
+# colorRightColumnHeadingText = "#666"
+# colorRightColumnBodyText = "#666"
+# colorRightColumnIconPrimary = "#fff"
+# colorRightColumnIconBackground = "#e3bfb8"
+# pages = 1
+# swapColumns = false
+
+  [params.footer]
+  since = 2_024
+
+  [params.dateFormat]
+  published = "Jan 02, 2006"
+  lastUpdated = "Jan 02, 2006 15:04 MST"
+
+  [params.sidebar]
+  emoji = "✨"
+  subtitle = "再微弱的荧光，也有它可以照亮的地方。"
+
+    [params.sidebar.avatar]
+    enabled = true
+    local = true
+    src = "img/avatar.png"
+
+  [params.article]
+  math = true
+  toc = true
+  readingTime = true
+
+    [params.article.license]
+    enabled = true
+    default = "Licensed under CC BY-NC-SA 4.0"
+
+  [params.comments]
+  enabled = true
+  provider = "giscus"
+
+    [params.comments.disqusjs]
+
+    [params.comments.utterances]
+    issueTerm = "pathname"
+
+    [params.comments.beaudar]
+    issueTerm = "pathname"
+
+    [params.comments.remark42]
+
+    [params.comments.vssue]
+    autoCreateIssue = false
+
+    [params.comments.waline]
+    emoji = [ "https://unpkg.com/@waline/emojis@1.0.1/weibo" ]
+    requiredMeta = [ "name", "email", "url" ]
+
+      [params.comments.waline.locale]
+      admin = "Admin"
+
+    [params.comments.twikoo]
+
+    [params.comments.cactus]
+    defaultHomeserverUrl = "https://matrix.cactus.chat:8448"
+    serverName = "cactus.chat"
+    siteName = ""
+
+    [params.comments.giscus]
+    repo = "oLd-Y/blog"
+    repoID = "R_kgDOLzCoMA"
+    category = "Announcements"
+    categoryID = "DIC_kwDOLzCoMM4Ce8bK"
+    mapping = "pathname"
+    lightTheme = "light"
+    darkTheme = "dark"
+    theme = "preferred_color_scheme"
+    lang = "zh-CN"
+    loading = "lazy"
+    reactionsEnabled = 1
+    emitMetadata = 0
+
+    [params.comments.gitalk]
+
+    [params.comments.cusdis]
+
+[[params.widgets.homepage]]
+type = "search"
+
+[[params.widgets.homepage]]
+type = "archives"
+
+  [params.widgets.homepage.params]
+  limit = 5
+
+[[params.widgets.homepage]]
+type = "categories"
+
+  [params.widgets.homepage.params]
+  limit = 10
+
+[[params.widgets.homepage]]
+type = "tag-cloud"
+
+  [params.widgets.homepage.params]
+  limit = 10
+
+[[params.widgets.page]]
+type = "toc"
+
+[params.opengraph.twitter]
+card = "summary_large_image"
+
+[params.defaultImage.opengraph]
+enabled = false
+local = false
+
+  [params.colorScheme]
+  toggle = true
+  default = "auto"
+
+[params.imageProcessing.cover]
+enabled = true
+
+[params.imageProcessing.content]
+enabled = true
+
+[menu]
+main = [ ]
+
+  [[menu.social]]
+  identifier = "github"
+  name = "GitHub"
+  url = "https://github.com/oLd-Y"
+  weight = 1
+
+    [menu.social.params]
+    icon = "brand-github"
+
+  [[menu.social]]
+  identifier = "bilibili"
+  name = "bilibili"
+  url = "https://space.bilibili.com/180272185"
+
+    [menu.social.params]
+    icon = "brand-bilibili"
+
+  [[menu.social]]
+  identifier = "rss"
+  name = "Rss"
+  url = "https://old-y.github.io/blog/index.xml"
+
+    [menu.social.params]
+    icon = "rss"
+
+[related]
+includeNewer = true
+threshold = 60
+toLower = false
+
+  [[related.indices]]
+  name = "tags"
+  weight = 100
+
+  [[related.indices]]
+  name = "categories"
+  weight = 200
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.tableOfContents]
+endLevel = 4
+ordered = true
+startLevel = 2
+
+[markup.highlight]
+noClasses = false
+codeFences = true
+guessSyntax = true
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+tabWidth = 4
+
+

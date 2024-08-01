@@ -1,0 +1,21 @@
+[submodule "themes/DoIt"]
+	path = themes/DoIt
+	url = https://github.com/HEIGE-PCloud/DoIt.git
+[submodule "themes/FixIt"]
+	path = themes/FixIt
+	url = https://github.com/hugo-fixit/FixIt.git
+[submodule "themes/hugo-PaperMode"]
+	path = themes/hugo-PaperMode
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "theme/hugo-PaperMod"]
+	path = theme/hugo-PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/hugo-PaperMod"]
+	path = themes/hugo-PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/hugo-theme-stack"]
+	path = themes/hugo-theme-stack
+	url = https://github.com/CaiJimmy/hugo-theme-stack/
+[submodule "themes/almeida-cv"]
+	path = themes/almeida-cv
+	url = https://github.com/ineesalmeida/almeida-cv.git

@@ -1,0 +1,17 @@
+{
+  "frames": [
+    {
+      "url": "https://weread.qq.com/web/shelf",
+      "displayName": "WeRead",
+      "icon": "book-open-check",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    }
+  ],
+  "padding": 5
+}

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Neovim on 谷栗杳</title>
+        <link>http://localhost:1313/blog/tags/neovim/</link>
+        <description>Recent content in Neovim on 谷栗杳</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>谷栗杳</copyright>
+        <lastBuildDate>Fri, 19 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/neovim/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>lazyvim 配置记录</title>
+        <link>http://localhost:1313/blog/p/lazyvim-%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/</link>
+        <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/lazyvim-%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/</guid>
+        <description>&lt;img src="http://localhost:1313/blog/p/lazyvim-%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/cover.jpg" alt="Featured image of post lazyvim 配置记录" /&gt;&lt;p&gt;正在上手 neovim，首先使用 lazyvim 进行过渡。可以预见的是，在较长的时间内我使用的应该都是 neovim 的发行版而非自已进行配置（也可能不配置了hh），所以在此帖记录一些折腾 lazyvim 的过程，也防止自己长时间不用之后忘记了。&lt;/p&gt;
+&lt;h2 id=&#34;配置-java-开发环境&#34;&gt;配置 java 开发环境
+&lt;/h2&gt;&lt;p&gt;插件：&lt;a class=&#34;link&#34; href=&#34;https://github.com/nvim-java/nvim-java/wiki/Lazyvim&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;nvim-java&lt;/a&gt;，&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=CXv0WUX_E_Q&amp;amp;list=PL-8OUPYQITXYBtr76njke25F452xJWcQT&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;视频链接&lt;/a&gt;，&lt;a class=&#34;link&#34; href=&#34;https://github.com/nvim-java/nvim-java/wiki/Q-&amp;amp;-A&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Q &amp;amp; A&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;初始化教程&#34;&gt;初始化教程
+&lt;/h3&gt;&lt;p&gt;在 lazyvim 中输入 &lt;code&gt;:LazyExtras&lt;/code&gt;，找到 &lt;code&gt;dap-core&lt;/code&gt; 插件，按 &lt;code&gt;x&lt;/code&gt; 进行下载。&lt;/p&gt;
+&lt;p&gt;然后在 &lt;code&gt;~/.config/nvim/lua/plugins/java/init.lua&lt;/code&gt; 目录下放入如下代码：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;s1&#34;&gt;&amp;#39;nvim-java/nvim-java&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;config&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;dependencies&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;s1&#34;&gt;&amp;#39;neovim/nvim-lspconfig&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;opts&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;servers&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;n&#34;&gt;jdtls&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;c1&#34;&gt;-- Your custom jdtls settings goes here&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;setup&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;n&#34;&gt;jdtls&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;require&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;java&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;setup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;              &lt;span class=&#34;c1&#34;&gt;-- Your custom nvim-java configuration goes here&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;p&#34;&gt;})&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;kr&#34;&gt;end&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;接着关闭 nvim，打开任意一个 java 项目等待插件安装完成即可。&lt;/p&gt;
+&lt;p&gt;这里需要注意的是，如果是一个 maven 项目，首次打开的时候 lsp 可能无法生效，因此需要在项目根目录中使用 &lt;code&gt;mvn -o eclipse:clean eclipse:eclipse&lt;/code&gt; 下载一些 eclipse 的依赖以供 nvim-jdtls 识别。网络不好有可能卡住， &lt;code&gt;-o&lt;/code&gt; 参数用于跳过本地已有依赖的下载。&lt;/p&gt;
+&lt;p&gt;一些快捷键：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;快捷键&lt;/th&gt;
+&lt;th&gt;作用&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;C-s&lt;/td&gt;
+&lt;td&gt;快速格式化&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SPC d b&lt;/td&gt;
+&lt;td&gt;打断点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SPC d c&lt;/td&gt;
+&lt;td&gt;跳到下个断点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:JavaTestDebugCurrentClass&lt;/td&gt;
+&lt;td&gt;对当前类进行断点调试&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:JavaTestViewLastReport&lt;/td&gt;
+&lt;td&gt;查看上一个测试结果&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;其它参考链接&#34;&gt;其它参考链接
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=C7juSZsM2Fg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Configure Neovim for Java Development - YouTube&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://andrewcourter.substack.com/p/configure-neovim-for-java-development&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Configure Neovim for Java Development - by Andrew Courter&lt;/a&gt;import org.springframework.aop.&lt;em&gt;;&lt;/em&gt;;&lt;em&gt;;&lt;/em&gt;;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.reddit.com/r/neovim/comments/11k3zuv/jdtls_and_lazyvim/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;reddit.com/r/neovim/comments/11k3zuv/jdtls_and_lazyvim/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;配置-cc-开发环境&#34;&gt;配置 C/C++ 开发环境
+&lt;/h2&gt;&lt;h3 id=&#34;lspclangd配置&#34;&gt;LSP（Clangd）配置
+&lt;/h3&gt;&lt;p&gt;在 &lt;code&gt;:LazyExtras&lt;/code&gt; 中打开 &lt;code&gt;langd.clangd&lt;/code&gt; 即可。此时关闭项目，任意打开一个项目，发现还是会有很多不应该的报错。这是因为缺少项目中缺少一个 &lt;code&gt;compile_commands.json&lt;/code&gt; 帮助 lsp server 理解代码。&lt;/p&gt;
+&lt;p&gt;lsp 的原理是将当前代码发给正在运行的 lsp server，lsp server 解析之后将分析结果返回，再展示到编辑器中。对于有包管理器的一些语言，可以借助其包管理器进行分析；而对于 C、C++这种比较古老的语言，没有包管理器，就需要用额外的文件来展示结构。这个文件就是 &lt;code&gt;compile_commands.json&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;理论上直接把你的项目结构按照一定的格式放在项目的根目录即可，但很显然，有工具可以帮助我们完成这件事，即 &lt;a class=&#34;link&#34; href=&#34;https://github.com/rizsotto/Bear&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;bear&lt;/a&gt; 或者 &lt;a class=&#34;link&#34; href=&#34;https://github.com/nickdiego/compiledb&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;compiledb&lt;/a&gt;。bear 是用 C++ 编写的，compiledb 是用 Python 编写的。&lt;/p&gt;
+&lt;p&gt;由于 bear 只能在 linux 平台上使用，这里我们选择跨平台的 compiledb。&lt;/p&gt;
+&lt;p&gt;首先确保系统中安装了 python。执行 &lt;code&gt;pip install compiledb&lt;/code&gt; 安装 compiledb。ubuntu 系统如果没有 pip 可以先用 &lt;code&gt;sudo apt install python3-pip&lt;/code&gt; 安装一下 pip（pip3）。&lt;/p&gt;
+&lt;p&gt;如果安装完 compiledb 之后无法直接使用 compiledb 命令，可能是因为其路径没有加入到环境变量中。&lt;/p&gt;
+&lt;p&gt;在 &lt;code&gt;~/.bashrc&lt;/code&gt; 或者 &lt;code&gt;~/.zshrc&lt;/code&gt; 中加入如下代码：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;PATH&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$PATH&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;:/home/&amp;lt;username&amp;gt;/.local/bin&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;eval&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;_COMPILEDB_COMPLETE&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;source&lt;/span&gt; compiledb&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;下面那行代码用于开启 compiledb 在命令行中的补全功能。&lt;/p&gt;
+&lt;p&gt;配置完成之后，我们只需要在项目的编译命令之前加上 &lt;code&gt;compiledb&lt;/code&gt;，就可以为这个项目加上 &lt;code&gt;compile_commands.json&lt;/code&gt; 文件。&lt;/p&gt;
+&lt;p&gt;例如我有一个 linux-0.11 的源码项目，在根目录下执行 &lt;code&gt;compiledb make all&lt;/code&gt;，只要编译成功，就可以为其添加 &lt;code&gt;compile_commands.json&lt;/code&gt; 文件了。&lt;/p&gt;
+&lt;h3 id=&#34;参考链接&#34;&gt;参考链接
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://ttys3.dev/blog/neovim-c-cpp-lsp-integration-tips&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Neovim C Cpp Lsp Integration Tips | /dev/ttyS3 Blog&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
