@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "5da58cb0f6b76f0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0ab85be43a7c667f",
             "type": "leaf",
             "state": {
@@ -66,21 +54,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "035d854be4ffb3c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "reading notes -《Atomatic Habits》.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -154,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reading notes -《Atomatic Habits》.md",
+                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "reading notes -《Atomatic Habits》.md",
+                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "reading notes -《Atomatic Habits》.md"
+                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -262,6 +238,8 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "欧 · 亨利短篇小说 读书笔记/index.en.md",
+    "reading notes -《Atomatic Habits》.md",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.md",
     "Obsidian 插件记录/index.zh-cn.md",
@@ -286,8 +264,6 @@
     "飞鸟集 读后感/index.zh-cn.md",
     "原子习惯 读后感/index.md",
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
-    "Untitled.md",
-    "Ubuntu 默认终端设置.md",
     "useful prompt",
     "欧 · 亨利短篇小说 读书笔记",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
