@@ -3,14 +3,14 @@ title: 原子习惯 读后感
 description: 
 slug: ""
 date: 2024-06-25T08:10:16.571Z
-image: cover.jpg
+image: 
 categories: 阅读
 tags:
   - 读后感
   - 社会科学
   - 书摘
 weight: 1
-lastmod: 2024-07-20T17:19:05+08:00
+lastmod: 2024-08-01T10:10:17+08:00
 ---
 ## 读后感
 原子习惯这本书，主要讲述了如何养成一个好习惯，以及如何改掉一个坏习惯。

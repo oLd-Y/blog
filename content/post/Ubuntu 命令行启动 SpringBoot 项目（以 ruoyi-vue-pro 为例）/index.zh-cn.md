@@ -7,10 +7,10 @@ tags:
   - springboot
 date: 2024-07-18
 description: 
-image: cover.jpg
+image: 
 weight: 1
 draft: false
-lastmod: 2024-07-19T20:39:33+08:00
+lastmod: 2024-08-01T10:10:17+08:00
 ---
 
 最近在上手 neovim，尝试使用 wsl 作为我的开发环境。本文就以 ruoyi-vue-pro 为例，整理一下在命令行中启动 SpringBoot 项目的完整过程，最终效果是可以在 windows 中的浏览器中访问 wsl 中启动的项目。

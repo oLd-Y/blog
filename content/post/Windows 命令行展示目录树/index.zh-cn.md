@@ -5,7 +5,7 @@ tags:
   - windows-terminal
 date: 2024-07-15
 description: 
-image: cover.jpg
+image: 
 weight: 1
 draft: true
 lastmod: 2024-07-15T07:54:35+08:00

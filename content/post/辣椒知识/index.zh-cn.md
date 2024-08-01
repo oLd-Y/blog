@@ -5,10 +5,10 @@ tags:
   - 知识
 date: 2024-07-07
 description: 
-image: cover.jpg
+image: 
 weight: 1
 draft: true
-lastmod: 2024-07-08T09:16:36+08:00
+lastmod: 2024-08-01T10:10:17+08:00
 ---
 
 ## 辣椒面和辣椒粉区别在哪？

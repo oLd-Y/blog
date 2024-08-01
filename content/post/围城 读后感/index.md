@@ -6,12 +6,12 @@ tags:
   - 小说
   - 书摘
 draft: false
-lastmod: 2024-07-20T17:18:43+08:00
+lastmod: 2024-08-01T10:10:17+08:00
 title: 围城 读后感
 date: ""
 description: ""
 slug: ""
-image: cover.jpg
+image: 
 weight: 1
 "": 
 ---

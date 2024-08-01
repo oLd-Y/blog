@@ -4,7 +4,7 @@ catogories:
 tags: 
 date: <% tp.file.creation_date("YYYY-MM-DD") %>
 description: 
-image: cover.jpg
+image: 
 weight: 1
 draft: true
 ---

@@ -6,7 +6,7 @@ tags:
   - lazyvim
 date: 2024-07-19
 description: 
-image: cover.jpg
+image: 
 weight: 1
 draft: false
 lastmod: 2024-07-20T17:54:44+08:00

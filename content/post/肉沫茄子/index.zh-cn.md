@@ -6,10 +6,10 @@ tags:
   - 烧菜
 date: 2024-07-22
 description: 
-image: cover.jpg
+image: 
 weight: 1
 draft: false
-lastmod: 2024-07-28T17:17:45+08:00
+lastmod: 2024-08-01T10:10:17+08:00
 ---
 ## 食材与调料
 

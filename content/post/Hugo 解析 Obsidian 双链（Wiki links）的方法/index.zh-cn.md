@@ -4,10 +4,10 @@ catogories:
 tags: 
 date: 2024-07-01
 description: 
-image: cover.jpg
+image: 
 weight: 1
 draft: true
-lastmod: 2024-07-01T11:47:47+08:00
+lastmod: 2024-08-01T10:10:17+08:00
 ---
 [一种使 Hugo 可以正确渲染类 wiki 链接、图片的方式 - 中文 - HUGO](https://discourse.gohugo.io/t/hugo-wiki/46305)
 

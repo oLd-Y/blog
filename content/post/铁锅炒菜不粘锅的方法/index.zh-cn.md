@@ -5,10 +5,10 @@ tags:
   - 知识
 date: 2024-07-24
 description: 
-image: cover.jpg
+image: 
 weight: 1
 draft: true
-lastmod: 2024-07-24T21:07:05+08:00
+lastmod: 2024-08-01T10:10:17+08:00
 ---
 以下是铁锅不粘的几种方法：
 1. 把铁锅烧热之后用油润锅，稍微热一下就可以直接下菜炒，适合炒一些不带淀粉的肉类。

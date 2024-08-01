@@ -5,10 +5,10 @@ tags:
   - wsl
 date: 2024-07-17
 description: 
-image: cover.jpg
+image: 
 weight: 1
 draft: false
-lastmod: 2024-07-17T16:20:27+08:00
+lastmod: 2024-08-01T10:10:17+08:00
 ---
 在使用 wsl ubuntu 22.04 时执行 sudo apt update 出现标题中的错误，经查询是 DNS 解析相关的问题。
 

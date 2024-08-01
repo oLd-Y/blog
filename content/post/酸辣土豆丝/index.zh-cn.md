@@ -6,10 +6,10 @@ tags:
   - 炒菜
 date: 2024-07-23
 description: 
-image: cover.jpg
+image: 
 weight: 1
 draft: true
-lastmod: 2024-07-24T17:24:16+08:00
+lastmod: 2024-08-01T10:10:17+08:00
 ---
 ## 食材与调料
 

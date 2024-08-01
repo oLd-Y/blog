@@ -10,7 +10,7 @@ title: nvm 安装和使用
 date: 2024-6-25
 description: ""
 slug: 
-image: cover.jpg
+image: 
 weight: 1
 ---
 

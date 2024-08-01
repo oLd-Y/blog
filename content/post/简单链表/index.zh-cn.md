@@ -8,10 +8,10 @@ tags:
   - 数据结构与算法
 date: 2024-06-30
 description: 数据结构与算法-简单链表类型做过的题目汇总
-image: cover.jpg
+image: 
 weight: 1
 draft: false
-lastmod: 2024-07-20T17:09:41+08:00
+lastmod: 2024-08-01T10:10:17+08:00
 ---
 
 ## 21. 合并两个有序链表

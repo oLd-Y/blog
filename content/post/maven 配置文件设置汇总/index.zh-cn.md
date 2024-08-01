@@ -5,10 +5,10 @@ tags:
   - maven
 date: 2024-07-17
 description: 
-image: cover.jpg
+image: 
 weight: 1
 draft: true
-lastmod: 2024-07-17T19:20:08+08:00
+lastmod: 2024-08-01T10:10:17+08:00
 ---
 
 ## maven 是什么？
