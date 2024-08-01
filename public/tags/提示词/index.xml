@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>提示词 on 谷栗杳</title>
+        <link>http://localhost:1313/blog/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D/</link>
+        <description>Recent content in 提示词 on 谷栗杳</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>谷栗杳</copyright>
+        <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>有用的提示词</title>
+        <link>http://localhost:1313/blog/p/%E6%9C%89%E7%94%A8%E7%9A%84%E6%8F%90%E7%A4%BA%E8%AF%8D/</link>
+        <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/%E6%9C%89%E7%94%A8%E7%9A%84%E6%8F%90%E7%A4%BA%E8%AF%8D/</guid>
+        <description>&lt;h2 id=&#34;提高英语&#34;&gt;提高英语
+&lt;/h2&gt;&lt;p&gt;I will give you text content which is wrapped by 3 double quotes, you need to rewrite it and output a better version of my text.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Fix grammar errors if it exists.&lt;/li&gt;
+&lt;li&gt;Keep the meaning the same and make it more native if possible.&lt;/li&gt;
+&lt;li&gt;Make sure the re-written content&amp;rsquo;s number of characters is the same as the original text&amp;rsquo;s number of characters.&lt;/li&gt;
+&lt;li&gt;Do not alter the original structure and formatting outlined in any way.&lt;/li&gt;
+&lt;li&gt;Only give me the output and nothing else.
+&amp;quot;&amp;quot;&amp;quot;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

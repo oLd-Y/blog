@@ -1,13 +1,14 @@
 ---
 title: 包菜粉丝
-catogories: 
-tags: 
+catogories: 美食
+tags:
+  - 菜谱
 date: 2024-07-26
 description: 
 image: 
 weight: 1
 draft: true
-lastmod: 2024-08-01T10:10:17+08:00
+lastmod: 2024-08-01T10:52:45+08:00
 ---
 ## 食材与调料
 

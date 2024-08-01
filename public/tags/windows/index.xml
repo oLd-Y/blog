@@ -13,7 +13,7 @@
         <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/p/ubuntu-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8-springboot-%E9%A1%B9%E7%9B%AE%E4%BB%A5-ruoyi-vue-pro-%E4%B8%BA%E4%BE%8B/</guid>
-        <description>&lt;img src="http://localhost:1313/blog/p/ubuntu-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8-springboot-%E9%A1%B9%E7%9B%AE%E4%BB%A5-ruoyi-vue-pro-%E4%B8%BA%E4%BE%8B/cover.jpg" alt="Featured image of post Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）" /&gt;&lt;p&gt;最近在上手 neovim，尝试使用 wsl 作为我的开发环境。本文就以 ruoyi-vue-pro 为例，整理一下在命令行中启动 SpringBoot 项目的完整过程，最终效果是可以在 windows 中的浏览器中访问 wsl 中启动的项目。&lt;/p&gt;
+        <description>&lt;p&gt;最近在上手 neovim，尝试使用 wsl 作为我的开发环境。本文就以 ruoyi-vue-pro 为例，整理一下在命令行中启动 SpringBoot 项目的完整过程，最终效果是可以在 windows 中的浏览器中访问 wsl 中启动的项目。&lt;/p&gt;
 &lt;p&gt;操作系统版本：Windows 11 专业版 23H2 22631.3880
 wsl 版本：Ubuntu 22.04 LTS
 java 版本：OpenJDK 17.0.1
@@ -571,7 +571,7 @@ maven 版本：3.9.1
         <pubDate>Tue, 25 Jun 2024 12:43:19 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/p/windows-11-%E8%93%9D%E7%89%99%E6%97%A0%E6%B3%95%E6%90%9C%E7%B4%A2%E5%88%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E5%8E%9F%E5%9B%A0/</guid>
-        <description>&lt;img src="http://localhost:1313/blog/p/windows-11-%E8%93%9D%E7%89%99%E6%97%A0%E6%B3%95%E6%90%9C%E7%B4%A2%E5%88%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E5%8E%9F%E5%9B%A0/cover.jpg" alt="Featured image of post windows 11 蓝牙无法搜索到设备的原因" /&gt;&lt;p&gt;刚买的主机，一直没有用过蓝牙设备。前几天尝试连接一个蓝牙设备，一直在蓝牙界面转圈圈，根本搜索不出来设备。这两天被这个问题搞疯了快，今天总算解决了。汇总一下我网上搜集到的评论区好评的比较有效的方法：&lt;/p&gt;
+        <description>&lt;p&gt;刚买的主机，一直没有用过蓝牙设备。前几天尝试连接一个蓝牙设备，一直在蓝牙界面转圈圈，根本搜索不出来设备。这两天被这个问题搞疯了快，今天总算解决了。汇总一下我网上搜集到的评论区好评的比较有效的方法：&lt;/p&gt;
 &lt;h2 id=&#34;冷启动&#34;&gt;冷启动
 &lt;/h2&gt;&lt;p&gt;可能是主机中的静电干扰了蓝牙的信号接收，因此需要释放静电。&lt;/p&gt;
 &lt;p&gt;具体操作为，电脑关机之后，拔掉所有外接设备和电源，包括有线和usb接口等，然后长按开机键30s（或者静置10分钟）。之后重新接上设备进行尝试。&lt;/p&gt;

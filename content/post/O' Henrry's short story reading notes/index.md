@@ -8,8 +8,8 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-08-01T10:10:17+08:00
+lastmod: 2024-08-01T10:22:54+08:00
 ---
 # The Gift of the Magi
 
-The story is 
+The story is about a couple who want to sacrifice the most valuable thing of himself/herself to buy gift for each other, but end up 

@@ -13,7 +13,7 @@
         <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/p/lazyvim-%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/</guid>
-        <description>&lt;img src="http://localhost:1313/blog/p/lazyvim-%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/cover.jpg" alt="Featured image of post lazyvim 配置记录" /&gt;&lt;p&gt;正在上手 neovim，首先使用 lazyvim 进行过渡。可以预见的是，在较长的时间内我使用的应该都是 neovim 的发行版而非自已进行配置（也可能不配置了hh），所以在此帖记录一些折腾 lazyvim 的过程，也防止自己长时间不用之后忘记了。&lt;/p&gt;
+        <description>&lt;p&gt;正在上手 neovim，首先使用 lazyvim 进行过渡。可以预见的是，在较长的时间内我使用的应该都是 neovim 的发行版而非自已进行配置（也可能不配置了hh），所以在此帖记录一些折腾 lazyvim 的过程，也防止自己长时间不用之后忘记了。&lt;/p&gt;
 &lt;h2 id=&#34;配置-java-开发环境&#34;&gt;配置 java 开发环境
 &lt;/h2&gt;&lt;p&gt;插件：&lt;a class=&#34;link&#34; href=&#34;https://github.com/nvim-java/nvim-java/wiki/Lazyvim&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;nvim-java&lt;/a&gt;，&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=CXv0WUX_E_Q&amp;amp;list=PL-8OUPYQITXYBtr76njke25F452xJWcQT&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -114,11 +114,35 @@
     &gt;Configure Neovim for Java Development - by Andrew Courter&lt;/a&gt;import org.springframework.aop.&lt;em&gt;;&lt;/em&gt;;&lt;em&gt;;&lt;/em&gt;;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.reddit.com/r/neovim/comments/11k3zuv/jdtls_and_lazyvim/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;reddit.com/r/neovim/comments/11k3zuv/jdtls_and_lazyvim/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;遗留问题&#34;&gt;遗留问题
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;在对 ruoyi-vue-pro 这个项目使用 &lt;code&gt;SPC d c&lt;/code&gt; 进行 debug 的时候，会出现以下问题：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240720173703.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;不知道是否是因为执行 &lt;code&gt;mvn clean install -DskipTests=true&lt;/code&gt; 跳过了测试模块的原因，还是 eclipse 之类的没下好，总之就是无法使用 dap 进行 debug。如果有谁知道原因的话可以在评论区告诉我。&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;maven 没配置好，网络太慢了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在打开任意一个文件加载 lsp 的配置的时候非常慢。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;综上，暂时不搞 用 nvim-java 的开发环境的配置了，以后有时间再看看。&lt;/p&gt;
 &lt;h2 id=&#34;配置-cc-开发环境&#34;&gt;配置 C/C++ 开发环境
 &lt;/h2&gt;&lt;h3 id=&#34;lspclangd配置&#34;&gt;LSP（Clangd）配置
 &lt;/h3&gt;&lt;p&gt;在 &lt;code&gt;:LazyExtras&lt;/code&gt; 中打开 &lt;code&gt;langd.clangd&lt;/code&gt; 即可。此时关闭项目，任意打开一个项目，发现还是会有很多不应该的报错。这是因为缺少项目中缺少一个 &lt;code&gt;compile_commands.json&lt;/code&gt; 帮助 lsp server 理解代码。&lt;/p&gt;
 &lt;p&gt;lsp 的原理是将当前代码发给正在运行的 lsp server，lsp server 解析之后将分析结果返回，再展示到编辑器中。对于有包管理器的一些语言，可以借助其包管理器进行分析；而对于 C、C++这种比较古老的语言，没有包管理器，就需要用额外的文件来展示结构。这个文件就是 &lt;code&gt;compile_commands.json&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;理论上直接把你的项目结构按照一定的格式放在项目的根目录即可，但很显然，有工具可以帮助我们完成这件事，即 &lt;a class=&#34;link&#34; href=&#34;https://github.com/rizsotto/Bear&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;p&gt;理论上直接把你的项目结构按照一定的格式写入该文件然后放在项目的根目录即可。但很显然，有工具可以帮助我们完成这件事，即 &lt;a class=&#34;link&#34; href=&#34;https://github.com/rizsotto/Bear&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;bear&lt;/a&gt; 或者 &lt;a class=&#34;link&#34; href=&#34;https://github.com/nickdiego/compiledb&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;compiledb&lt;/a&gt;。bear 是用 C++ 编写的，compiledb 是用 Python 编写的。&lt;/p&gt;
 &lt;p&gt;由于 bear 只能在 linux 平台上使用，这里我们选择跨平台的 compiledb。&lt;/p&gt;

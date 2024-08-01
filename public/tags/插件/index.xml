@@ -13,7 +13,11 @@
         <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/p/obsidian-%E6%8F%92%E4%BB%B6%E8%AE%B0%E5%BD%95/</guid>
-        <description>&lt;img src="http://localhost:1313/blog/p/obsidian-%E6%8F%92%E4%BB%B6%E8%AE%B0%E5%BD%95/cover.jpg" alt="Featured image of post Obsidian 插件记录" /&gt;&lt;p&gt;Obsidian 中的插件数目众多，一不留神就会陷进折腾插件的陷阱。偶然找到的插件，当时未必立马有用，个人还是更倾向于用到了再装。但当时找得到的插件，以后就未必同样找得到；或者长时间不用某个插件之后忘记这个插件的用法。因此在这里记录一下用到的插件。持续更新。&lt;/p&gt;
+        <description>&lt;p&gt;Obsidian 中的插件数目众多，一不留神就会陷进折腾插件的陷阱。偶然找到的插件，当时未必立马有用，个人还是更倾向于用到了再装。但当时找得到的插件，以后就未必同样找得到；或者长时间不用某个插件之后忘记这个插件的用法。因此在这里记录一下用到的插件。持续更新。&lt;/p&gt;
+&lt;h2 id=&#34;calendar&#34;&gt;Calendar
+&lt;/h2&gt;&lt;p&gt;用于快速生成日记和周记模板&lt;/p&gt;
+&lt;h2 id=&#34;colored-text&#34;&gt;Colored Text
+&lt;/h2&gt;&lt;p&gt;快速为文本设置颜色。&lt;/p&gt;
 &lt;h2 id=&#34;git&#34;&gt;Git
 &lt;/h2&gt;&lt;p&gt;自动备份当前 Vault 到远程 Git 仓库。&lt;/p&gt;
 &lt;h2 id=&#34;templater&#34;&gt;Templater
@@ -30,6 +34,10 @@
 &lt;/h2&gt;&lt;p&gt;将文章中 front matter 的 &lt;code&gt;title&lt;/code&gt; 作为文件名，可以在 Obsidian 中的搜索或者 graph view 中以 title 而非原始文件名展现。对于 hugo 的 page bundle 用户使用 obsidan 来说，这个插件应该是刚需。&lt;/p&gt;
 &lt;h2 id=&#34;home-page&#34;&gt;Home Page
 &lt;/h2&gt;&lt;p&gt;为 Obsidian 增加一个主页&lt;/p&gt;
+&lt;h2 id=&#34;open-in-new-tab&#34;&gt;Open In New Tab
+&lt;/h2&gt;&lt;p&gt;在新标签页打开一个新的文件或者激活原有的文件。obsidian 的原有方式是在当前标签页中打开，十分不方便。&lt;/p&gt;
+&lt;h2 id=&#34;editing-toolbar&#34;&gt;Editing Toolbar
+&lt;/h2&gt;&lt;p&gt;增加一个类似于 word 一样的编辑栏。&lt;/p&gt;
 </description>
         </item>
         

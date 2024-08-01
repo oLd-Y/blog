@@ -1,13 +1,14 @@
 ---
 title: 蚂蚁上树
 catogories: 美食
-tags: 
+tags:
+  - 炒菜
 date: 2024-07-27
 description: 
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-01T10:10:17+08:00
+lastmod: 2024-08-01T10:29:37+08:00
 ---
 
 ## 食材与调料
