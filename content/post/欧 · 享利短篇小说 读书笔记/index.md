@@ -8,8 +8,11 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-08-01T10:22:54+08:00
+lastmod: 2024-08-01T12:28:07+08:00
 ---
 # The Gift of the Magi
 
-The story is about a couple who want to sacrifice the most valuable thing of himself/herself to buy gift for each other, but end up 
+This story focuses on Jim and Della, a loving but impoverished couple in an apartment, who both sell their most valuable things in order to buy each other their most beloved gifts - Jim sells his prized pocket watch, and Della sells her long, proud hair. Yet the gifts they buy for each other require exactly these things as a foundation - Della buys a long chain for Jim's pocket watch for decoration, and Jim buys a comb for Della's hair. One is struck by the unexpectedness of the situation, but also by their true love.
+
+
+
