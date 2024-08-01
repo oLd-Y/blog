@@ -1,13 +1,15 @@
 ---
 title: 手撕包菜
-catogories: 
-tags: 
+categories: 美食
+tags:
+  - 菜谱
+  - 炒菜
 date: 2024-07-28
 description: 
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-01T10:10:17+08:00
+lastmod: 2024-08-01T13:03:33+08:00
 ---
 ## 食材与调料
 

@@ -1,6 +1,6 @@
 ---
 title: maven 配置文件设置汇总
-catogories: 
+categories: 计算机
 tags:
   - maven
 date: 2024-07-17
@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-08-01T10:10:17+08:00
+lastmod: 2024-08-01T13:01:35+08:00
 ---
 
 ## maven 是什么？

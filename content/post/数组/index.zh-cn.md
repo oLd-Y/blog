@@ -1,6 +1,6 @@
 ---
 title: 数组
-catogories: 数据结构与算法
+categories: 计算机
 tags:
   - 数组
 date: 2024-07-02
@@ -8,7 +8,7 @@ description: 数据结构与算法-数组类型做过的题目汇总
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-01T10:10:17+08:00
+lastmod: 2024-08-01T13:04:22+08:00
 ---
 ## 704. 二分查找
 

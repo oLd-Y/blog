@@ -1,6 +1,6 @@
 ---
 title: 淀粉知识总结
-catogories: 美食
+categories: 美食
 tags:
   - 知识
 date: 2024-07-21
@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-08-01T10:10:17+08:00
+lastmod: 2024-08-01T13:02:15+08:00
 ---
 
 ## 生粉、玉米淀粉、土豆淀粉、小麦淀粉、红薯淀粉、绿豆淀粉、豌豆淀粉有什么区别？

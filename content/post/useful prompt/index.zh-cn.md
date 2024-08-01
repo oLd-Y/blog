@@ -1,6 +1,6 @@
 ---
 title: 有用的提示词
-catogories: 计算机
+categories: 计算机
 tags:
   - 提示词
 date: 2024-08-01
@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-01T10:34:53+08:00
+lastmod: 2024-08-01T13:02:15+08:00
 ---
 ## 提高英语
 

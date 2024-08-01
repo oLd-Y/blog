@@ -1,14 +1,15 @@
 ---
 title: wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误
-catogories: Windows
+categories: 计算机
 tags:
   - wsl
+  - windows
 date: 2024-07-17
 description: 
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-01T10:10:17+08:00
+lastmod: 2024-08-01T13:06:30+08:00
 ---
 在使用 wsl ubuntu 22.04 时执行 sudo apt update 出现标题中的错误，经查询是 DNS 解析相关的问题。
 

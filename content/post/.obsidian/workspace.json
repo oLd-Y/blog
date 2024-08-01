@@ -8,36 +8,79 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cb708144f1fe8b08",
+            "id": "904d6d6f811906f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "欧 · 享利短篇小说 读书笔记/欧 · 享利短篇小说 读书笔记.md",
+                "file": "Obsidian 插件记录/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f94fd6e686259e45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows 命令行展示目录树/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5da58cb0f6b76f0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "欧 · 亨利短篇小说 读书笔记/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0ab85be43a7c667f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "蚂蚁上树/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d9efb32ac886eab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "035d854be4ffb3c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "reading notes -《Atomatic Habits》.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
-      },
-      {
-        "id": "80fb7c6ee1979912",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "93897bee17ec69dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "欧 · 享利短篇小说 读书笔记/index.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -66,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"Excalidraw 自定义中文字体\"  ",
+                "query": "windows",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "欧 · 享利短篇小说 读书笔记/index.md",
+                "file": "reading notes -《Atomatic Habits》.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "欧 · 享利短篇小说 读书笔记/index.md",
+                "file": "reading notes -《Atomatic Habits》.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "欧 · 享利短篇小说 读书笔记/index.md"
+                "file": "reading notes -《Atomatic Habits》.md"
               }
             }
           },
@@ -219,34 +262,34 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
+    "欧 · 亨利短篇小说 读书笔记/index.md",
+    "Obsidian 插件记录/index.zh-cn.md",
+    "蚂蚁上树/index.zh-cn.md",
+    "Windows 命令行展示目录树/index.zh-cn.md",
+    "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/index.zh-cn.md",
+    "欧 · 享利短篇小说 读书笔记/index.en-us.md",
     "欧 · 享利短篇小说 读书笔记/欧 · 享利短篇小说 读书笔记.md",
-    "欧 · 享利短篇小说 读书笔记/index.md",
+    "数组/index.zh-cn.md",
+    "简单链表/index.zh-cn.md",
+    "手撕包菜/index.zh-cn.md",
+    "_templates/templater/new index template.md",
+    "_templates/templater/new dairy template.md",
+    "_templates/templater/recipe.md",
+    "_templates/templater/create page bundle.md",
+    "maven 配置文件设置汇总/index.zh-cn.md",
+    "香菇肉片汤/index.zh-cn.md",
+    "包菜粉丝/index.zh-cn.md",
+    "宫保鸡丁/index.zh-cn.md",
+    "凉拌秋葵/index.zh-cn.md",
+    "鸡蛋清汤面/index.zh-cn.md",
     "飞鸟集 读后感/index.zh-cn.md",
     "原子习惯 读后感/index.md",
     "通过 hugo 主题 stack 中的 menu scss 文件学习 css 知识/index.md",
     "Untitled.md",
     "Ubuntu 默认终端设置.md",
-    "Ubuntu 22.04 更换镜像源.md",
-    "SD 关键词记录.md",
-    "reading notes -《Atomatic Habits》.md",
-    "ox-hugo org-template 理解.md",
-    "ox-hugo 自动生成模板代码解析.md",
-    "ox-hugo 结合 org-download 粘贴图片.md",
-    "Obsidian Vim 自动切换搜狗输入法中英状态.md",
-    "linux-0.11 _set_gate 宏解释.md",
-    "KDE arch linux 安装 fcitx5 和 rime 输入法.md",
-    "hdc 无法挂载 minix.md",
-    "git clone 参数解析.md",
-    "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",
-    "emacs 入坑建议.md",
-    "emacs 默认快捷键.md",
-    "信号量.md",
-    "线程.md",
-    "设置默认的声音输出设备.md",
-    "弃用 emacs 转用 neovim 的原因.md",
-    "李治军操作系统总结.md",
     "useful prompt",
-    "欧 · 享利短篇小说 读书笔记",
+    "欧 · 亨利短篇小说 读书笔记",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",

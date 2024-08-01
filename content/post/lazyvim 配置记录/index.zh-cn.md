@@ -1,6 +1,6 @@
 ---
 title: lazyvim 配置记录
-catogories: 计算机
+categories: 计算机
 tags:
   - neovim
   - lazyvim
@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-07-20T17:54:44+08:00
+lastmod: 2024-08-01T13:02:15+08:00
 ---
 
 正在上手 neovim，首先使用 lazyvim 进行过渡。可以预见的是，在较长的时间内我使用的应该都是 neovim 的发行版而非自已进行配置（也可能不配置了hh），所以在此帖记录一些折腾 lazyvim 的过程，也防止自己长时间不用之后忘记了。

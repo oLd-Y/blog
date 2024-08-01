@@ -1,6 +1,6 @@
 ---
 title: Excalidraw 自定义中文字体
-catogories: 计算机
+categories: 计算机
 tags:
   - obsidian
   - excalidraw
@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-01T10:10:17+08:00
+lastmod: 2024-08-01T13:02:15+08:00
 ---
 
 先在[这个网站](https://www.fonts.net.cn/commercial-free/fonts-zh-1.html)下载一个免费商用字体，下载到本地 Obsidian 的根 Vault 中的 Excalidraw 文件夹中，我是参考网上博客选择的[沐瑶软笔手写体](https://www.fonts.net.cn/font-35068393713.html)与原本的英文字体匹配。

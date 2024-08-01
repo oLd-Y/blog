@@ -1,6 +1,6 @@
 ---
 title: 辣椒知识
-catogories: 美食
+categories: 美食
 tags:
   - 知识
 date: 2024-07-07
@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-08-01T10:10:17+08:00
+lastmod: 2024-08-01T13:02:15+08:00
 ---
 
 ## 辣椒面和辣椒粉区别在哪？

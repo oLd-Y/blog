@@ -1,6 +1,6 @@
 ---
 title: 飞鸟集 读后感
-catogories: 阅读
+categories: 阅读
 tags:
   - 读后感
   - 书摘
@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-01T12:22:03+08:00
+lastmod: 2024-08-01T13:02:15+08:00
 ---
 ## 读后感
 
