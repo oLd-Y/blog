@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "904d6d6f811906f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian 插件记录/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f94fd6e686259e45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows 命令行展示目录树/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0ab85be43a7c667f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "蚝油生菜/index.zh-cn.md",
+                "file": "肉沫蒸蛋/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "蚝油生菜/index.zh-cn.md",
+                "file": "肉沫蒸蛋/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "蚝油生菜/index.zh-cn.md",
+                "file": "肉沫蒸蛋/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "蚝油生菜/index.zh-cn.md"
+                "file": "肉沫蒸蛋/index.zh-cn.md"
               }
             }
           },
@@ -226,11 +201,13 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "蚝油生菜/index.zh-cn.md",
+    "肉沫蒸蛋/index.zh-cn.md",
+    "肉沫蒸蛋",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "Obsidian 插件记录/index.zh-cn.md",
     "蚂蚁上树/index.zh-cn.md",
-    "蚝油生菜/index.zh-cn.md",
     "蚝油生菜",
     "reading notes -《Atomatic Habits》.md",
     "欧 · 亨利短篇小说 读书笔记/index.md",
@@ -252,7 +229,6 @@
     "凉拌秋葵/index.zh-cn.md",
     "鸡蛋清汤面/index.zh-cn.md",
     "飞鸟集 读后感/index.zh-cn.md",
-    "原子习惯 读后感/index.md",
     "useful prompt",
     "欧 · 亨利短篇小说 读书笔记",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
@@ -271,7 +247,6 @@
     "手撕包菜",
     "蚂蚁上树",
     "包菜粉丝",
-    "铁锅炒菜不粘锅的方法",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
