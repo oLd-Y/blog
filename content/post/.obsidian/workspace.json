@@ -54,7 +54,14 @@
                 "source": false
               }
             }
-          },
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "f70040946c3ba510",
+        "type": "tabs",
+        "children": [
           {
             "id": "2b843cbfb45965b6",
             "type": "leaf",
@@ -67,8 +74,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -251,11 +257,11 @@
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
+    "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "Obsidian 插件记录/index.zh-cn.md",
     "蚂蚁上树/index.zh-cn.md",
     "蚝油生菜/index.zh-cn.md",
     "蚝油生菜",
-    "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "reading notes -《Atomatic Habits》.md",
     "欧 · 亨利短篇小说 读书笔记/index.md",
     "Windows 命令行展示目录树/index.zh-cn.md",
