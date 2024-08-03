@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0ab85be43a7c667f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "肉沫蒸蛋/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a5bfeea5ed0f3fe5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "焖面/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb6a65a7cb490ed5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "三鲜豆腐汤/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "焖面/index.zh-cn.md",
+                "file": "三鲜豆腐汤/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "焖面/index.zh-cn.md",
+                "file": "三鲜豆腐汤/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "焖面/index.zh-cn.md"
+                "file": "三鲜豆腐汤/index.zh-cn.md"
               }
             }
           },
@@ -214,8 +214,10 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "炸酱面/index.zh-cn.md",
     "焖面/index.zh-cn.md",
+    "三鲜豆腐汤/index.zh-cn.md",
+    "三鲜豆腐汤",
+    "炸酱面/index.zh-cn.md",
     "焖面",
     "鱼香肉丝/index.zh-cn.md",
     "香煎豆腐/index.zh-cn.md",
@@ -244,7 +246,6 @@
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/index.zh-cn.md",
     "欧 · 享利短篇小说 读书笔记/index.en-us.md",
     "欧 · 享利短篇小说 读书笔记/欧 · 享利短篇小说 读书笔记.md",
-    "数组/index.zh-cn.md",
     "useful prompt",
     "欧 · 亨利短篇小说 读书笔记",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
@@ -259,7 +260,6 @@
     "Hugo 解析 Obsidian 双链（Wiki links）的方法/cover.jpg",
     "凉拌秋葵",
     "香菇肉片汤",
-    "null",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
