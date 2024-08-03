@@ -7,7 +7,23 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Thu, 01 Aug 2024 10:10:17 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 02 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>菜谱</title>
+        <link>http://localhost:1313/blog/tags/%E8%8F%9C%E8%B0%B1/</link>
+        <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E8%8F%9C%E8%B0%B1/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>蒸菜</title>
+        <link>http://localhost:1313/blog/tags/%E8%92%B8%E8%8F%9C/</link>
+        <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E8%92%B8%E8%8F%9C/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>读后感</title>
         <link>http://localhost:1313/blog/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
         <pubDate>Thu, 01 Aug 2024 10:10:17 +0800</pubDate>
@@ -37,14 +53,6 @@
         <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>菜谱</title>
-        <link>http://localhost:1313/blog/tags/%E8%8F%9C%E8%B0%B1/</link>
-        <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/tags/%E8%8F%9C%E8%B0%B1/</guid>
         <description></description>
         </item>
         <item>

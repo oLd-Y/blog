@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "c4a1393e1b35c464",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hugo 解析 Obsidian 双链（Wiki links）的方法/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2064b375e7398e40",
             "type": "leaf",
             "state": {
@@ -68,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hugo 解析 Obsidian 双链（Wiki links）的方法/index.zh-cn.md",
+                "file": "白萝卜虾米汤/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hugo 解析 Obsidian 双链（Wiki links）的方法/index.zh-cn.md",
+                "file": "白萝卜虾米汤/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hugo 解析 Obsidian 双链（Wiki links）的方法/index.zh-cn.md"
+                "file": "白萝卜虾米汤/index.zh-cn.md"
               }
             }
           },
@@ -248,11 +236,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "3943ca39f310c9a9",
   "lastOpenFiles": [
-    "肉沫蒸蛋/index.zh-cn.md",
-    "高筋面粉、中筋面粉、低筋面粉有什么区别？/index.zh-cn.md",
     "蚝油生菜/index.zh-cn.md",
+    "肉沫蒸蛋/index.zh-cn.md",
+    "Hugo 解析 Obsidian 双链（Wiki links）的方法/index.zh-cn.md",
+    "高筋面粉、中筋面粉、低筋面粉有什么区别？/index.zh-cn.md",
     "白萝卜虾米汤/index.zh-cn.md",
     "高筋面粉、中筋面粉、低筋面粉有什么区别？",
     "白萝卜虾米汤",
@@ -279,7 +268,6 @@
     "香菇肉片汤/index.zh-cn.md",
     "包菜粉丝/index.zh-cn.md",
     "宫保鸡丁/index.zh-cn.md",
-    "凉拌秋葵/index.zh-cn.md",
     "useful prompt",
     "欧 · 亨利短篇小说 读书笔记",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
