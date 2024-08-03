@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "炸酱面/index.zh-cn.md",
+                "file": "焖面/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "炸酱面/index.zh-cn.md",
+                "file": "焖面/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "炸酱面/index.zh-cn.md",
+                "file": "焖面/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "炸酱面/index.zh-cn.md"
+                "file": "焖面/index.zh-cn.md"
               }
             }
           },
@@ -214,6 +214,9 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "炸酱面/index.zh-cn.md",
+    "焖面/index.zh-cn.md",
+    "焖面",
     "鱼香肉丝/index.zh-cn.md",
     "香煎豆腐/index.zh-cn.md",
     "肉沫茄子/index.zh-cn.md",
@@ -242,8 +245,6 @@
     "欧 · 享利短篇小说 读书笔记/index.en-us.md",
     "欧 · 享利短篇小说 读书笔记/欧 · 享利短篇小说 读书笔记.md",
     "数组/index.zh-cn.md",
-    "简单链表/index.zh-cn.md",
-    "手撕包菜/index.zh-cn.md",
     "useful prompt",
     "欧 · 亨利短篇小说 读书笔记",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
@@ -259,7 +260,6 @@
     "凉拌秋葵",
     "香菇肉片汤",
     "null",
-    "手撕包菜",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
