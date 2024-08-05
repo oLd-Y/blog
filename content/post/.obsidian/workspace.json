@@ -4,34 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "af3c4963e6b5c9c8",
+        "id": "477a950c4669d1d5",
         "type": "tabs",
         "children": [
           {
-            "id": "a5bfeea5ed0f3fe5",
+            "id": "1b890a69d4db0dfb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "焖面/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "a6a10a6ab7cfca28",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "cb6a65a7cb490ed5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "三鲜豆腐汤/index.zh-cn.md",
+                "file": "上汤娃娃菜/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "焖面/index.zh-cn.md",
+                "file": "上汤娃娃菜/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "焖面/index.zh-cn.md",
+                "file": "上汤娃娃菜/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "焖面/index.zh-cn.md"
+                "file": "上汤娃娃菜/index.zh-cn.md"
               }
             }
           },
@@ -219,6 +201,9 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "蚂蚁上树/index.zh-cn.md",
+    "上汤娃娃菜/index.zh-cn.md",
+    "上汤娃娃菜",
     "三鲜豆腐汤/index.zh-cn.md",
     "焖面/index.zh-cn.md",
     "三鲜豆腐汤",
@@ -229,7 +214,6 @@
     "肉沫茄子/index.zh-cn.md",
     "肉沫蒸蛋/index.zh-cn.md",
     "麻婆豆腐/index.zh-cn.md",
-    "蚂蚁上树/index.zh-cn.md",
     "凉拌秋葵/index.zh-cn.md",
     "辣椒炒肉/index.zh-cn.md",
     "鸡蛋清汤面/index.zh-cn.md",
@@ -250,7 +234,6 @@
     "Windows 命令行展示目录树/index.zh-cn.md",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/index.zh-cn.md",
     "欧 · 享利短篇小说 读书笔记/index.en-us.md",
-    "欧 · 享利短篇小说 读书笔记/欧 · 享利短篇小说 读书笔记.md",
     "useful prompt",
     "欧 · 亨利短篇小说 读书笔记",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
@@ -264,7 +247,6 @@
     "lazyvim 配置记录/cover.jpg",
     "Hugo 解析 Obsidian 双链（Wiki links）的方法/cover.jpg",
     "凉拌秋葵",
-    "香菇肉片汤",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
