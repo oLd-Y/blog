@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "上汤娃娃菜/index.zh-cn.md",
+                "file": "蒜香鸡翅/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "上汤娃娃菜/index.zh-cn.md",
+                "file": "蒜香鸡翅/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "上汤娃娃菜/index.zh-cn.md",
+                "file": "蒜香鸡翅/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "上汤娃娃菜/index.zh-cn.md"
+                "file": "蒜香鸡翅/index.zh-cn.md"
               }
             }
           },
@@ -201,8 +201,10 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "蚂蚁上树/index.zh-cn.md",
     "上汤娃娃菜/index.zh-cn.md",
+    "蒜香鸡翅/index.zh-cn.md",
+    "蒜香鸡翅",
+    "蚂蚁上树/index.zh-cn.md",
     "上汤娃娃菜",
     "三鲜豆腐汤/index.zh-cn.md",
     "焖面/index.zh-cn.md",
@@ -233,7 +235,6 @@
     "欧 · 亨利短篇小说 读书笔记/index.md",
     "Windows 命令行展示目录树/index.zh-cn.md",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/index.zh-cn.md",
-    "欧 · 享利短篇小说 读书笔记/index.en-us.md",
     "useful prompt",
     "欧 · 亨利短篇小说 读书笔记",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
@@ -246,7 +247,6 @@
     "maven 配置文件设置汇总/cover.jpg",
     "lazyvim 配置记录/cover.jpg",
     "Hugo 解析 Obsidian 双链（Wiki links）的方法/cover.jpg",
-    "凉拌秋葵",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
