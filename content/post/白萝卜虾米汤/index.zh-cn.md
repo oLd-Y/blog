@@ -3,13 +3,13 @@ title: 白萝卜虾米汤
 categories: 美食
 tags:
   - 菜谱
-  - 汤
+  - 汤羹
 date: 2024-08-02
 description: 
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-03T16:03:23+08:00
+lastmod: 2024-08-09T22:16:40+08:00
 ---
 ## 食材与调料
 

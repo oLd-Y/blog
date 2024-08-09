@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-07-23T21:12:49+08:00
+lastmod: 2024-08-09T22:19:30+08:00
 draft: true
 ---
 # TODO
@@ -16,9 +16,10 @@ draft: true
 # 未完成
 
 [[水煮鱼/index.zh-cn|水煮鱼]]
-[[紫菜蛋花汤/index.zh-cn|紫菜蛋花汤]]
-[[酸辣土豆丝/index.zh-cn|酸辣土豆丝]]
-[[肉沫茄子/index.zh-cn|肉沫茄子]]
+[[红烧鲫鱼/index.zh-cn|红烧鲫鱼]]
+[[鲫鱼肉片羹/index.zh-cn|鲫鱼肉片羹]]
+
+
 [[鸡蛋清汤面/index.zh-cn|鸡蛋清汤面]]
 - [ ] ai 语音 做饭英文频道
 
