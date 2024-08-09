@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "糖醋排骨/index.zh-cn.md",
+                "file": "上汤娃娃菜/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "糖醋排骨/index.zh-cn.md",
+                "file": "上汤娃娃菜/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "糖醋排骨/index.zh-cn.md"
+                "file": "上汤娃娃菜/index.zh-cn.md"
               }
             }
           },
@@ -212,10 +211,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "1b890a69d4db0dfb",
   "lastOpenFiles": [
-    "蒜香鸡翅/index.zh-cn.md",
     "糖醋排骨/index.zh-cn.md",
+    "蒜香鸡翅/index.zh-cn.md",
     "糖醋排骨",
     "上汤娃娃菜/index.zh-cn.md",
     "蒜香鸡翅",
