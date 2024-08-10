@@ -54,19 +54,19 @@
             }
           },
           {
-            "id": "81c4c783049cefdb",
+            "id": "5d96706f6f138649",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "蒜香鸡翅/index.zh-cn.md",
+                "file": "麻婆豆腐/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "蒜香",
+                "query": "tag:#红烧",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "葱烧豆腐/index.zh-cn.md",
+                "file": "番茄炒鸡蛋/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "葱烧豆腐/index.zh-cn.md",
+                "file": "番茄炒鸡蛋/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "葱烧豆腐/index.zh-cn.md"
+                "file": "番茄炒鸡蛋/index.zh-cn.md"
               }
             }
           },
@@ -229,7 +229,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,9 +249,10 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "蒜香鸡翅/index.zh-cn.md",
-    "番茄炒鸡蛋/index.zh-cn.md",
     "葱烧豆腐/index.zh-cn.md",
+    "蒜香鸡翅/index.zh-cn.md",
+    "麻婆豆腐/index.zh-cn.md",
+    "番茄炒鸡蛋/index.zh-cn.md",
     "回锅肉/index.zh-cn.md",
     "番茄豆腐鸡蛋羹/index.zh-cn.md",
     "葱烧豆腐",
@@ -281,7 +283,6 @@
     "鱼香肉丝/index.zh-cn.md",
     "香煎豆腐/index.zh-cn.md",
     "肉沫蒸蛋/index.zh-cn.md",
-    "麻婆豆腐/index.zh-cn.md",
     "凉拌秋葵/index.zh-cn.md",
     "辣椒炒肉/index.zh-cn.md",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",

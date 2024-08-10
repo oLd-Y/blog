@@ -2,14 +2,14 @@
 title: 麻婆豆腐
 categories: 美食
 tags:
-  - 红烧
   - 菜谱
+  - 烧菜
 date: 2024-07-07
 description: 
 image: 
 weight: 1
 draft: true
-lastmod: 2024-08-01T13:02:15+08:00
+lastmod: 2024-08-10T20:39:30+08:00
 ---
 [【麻婆豆腐保姆级教程】包教包会！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV17y411z7uD/?spm_id_from=333.999.0.0&vd_source=75f81845b7419e2244a942c2be195d61)
 ## 食材
@@ -18,7 +18,7 @@ lastmod: 2024-08-01T13:02:15+08:00
 - 豆瓣酱
 - 豆豉
 - 猪肉/牛肉沫
-- 蒜苗
+- 蒜苗 
 - 玉米淀粉
 - 花椒
 
