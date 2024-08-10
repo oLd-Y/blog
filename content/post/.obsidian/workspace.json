@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "蒜香鸡翅/index.zh-cn.md",
+                "file": "番茄炒鸡蛋/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "蒜香鸡翅/index.zh-cn.md",
+                "file": "番茄炒鸡蛋/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "蒜香鸡翅/index.zh-cn.md",
+                "file": "番茄炒鸡蛋/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "蒜香鸡翅/index.zh-cn.md"
+                "file": "番茄炒鸡蛋/index.zh-cn.md"
               }
             }
           },
@@ -225,8 +225,11 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "_templates/templater/recipe.md",
+    "番茄炒鸡蛋/index.zh-cn.md",
     "番茄豆腐鸡蛋羹/index.zh-cn.md",
     "蒜香鸡翅/index.zh-cn.md",
+    "番茄炒鸡蛋",
     "回锅肉/index.zh-cn.md",
     "炸酱面/index.zh-cn.md",
     "鸡蛋清汤面/index.zh-cn.md",
@@ -241,7 +244,6 @@
     "三鲜豆腐汤/index.zh-cn.md",
     "番茄豆腐鸡蛋羹",
     "水煮鱼/index.zh-cn.md",
-    "_templates/templater/recipe.md",
     "回锅肉",
     "糖醋排骨/index.zh-cn.md",
     "上汤娃娃菜/index.zh-cn.md",
@@ -259,8 +261,6 @@
     "凉拌秋葵/index.zh-cn.md",
     "辣椒炒肉/index.zh-cn.md",
     "蚝油生菜/index.zh-cn.md",
-    "海蛎煎/index.zh-cn.md",
-    "高筋面粉、中筋面粉、低筋面粉有什么区别？",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
