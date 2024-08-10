@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "番茄炒鸡蛋/index.zh-cn.md",
+                "file": "回锅肉/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "番茄炒鸡蛋/index.zh-cn.md",
+                "file": "回锅肉/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "番茄炒鸡蛋/index.zh-cn.md"
+                "file": "回锅肉/index.zh-cn.md"
               }
             }
           },
@@ -225,9 +226,9 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "_templates/templater/recipe.md",
     "番茄炒鸡蛋/index.zh-cn.md",
     "番茄豆腐鸡蛋羹/index.zh-cn.md",
+    "_templates/templater/recipe.md",
     "蒜香鸡翅/index.zh-cn.md",
     "番茄炒鸡蛋",
     "回锅肉/index.zh-cn.md",
