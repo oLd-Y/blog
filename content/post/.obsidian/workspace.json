@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "海蛎煎/index.zh-cn.md",
+                "file": "红烧腐竹/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,8 +112,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -141,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "海蛎煎/index.zh-cn.md",
+                "file": "红烧腐竹/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "海蛎煎/index.zh-cn.md",
+                "file": "红烧腐竹/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "海蛎煎/index.zh-cn.md"
+                "file": "红烧腐竹/index.zh-cn.md"
               }
             }
           },
@@ -248,20 +247,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0db1722ba72d56d3",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "_templates/templater/recipe.md",
+    "红烧腐竹/index.zh-cn.md",
+    "海蛎煎/index.zh-cn.md",
+    "红烧腐竹",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "useful prompt/index.zh-cn.md",
     "番茄炒鸡蛋/index.zh-cn.md",
-    "海蛎煎/index.zh-cn.md",
     "回锅肉/index.zh-cn.md",
     "葱烧豆腐/index.zh-cn.md",
     "麻婆豆腐/index.zh-cn.md",
     "蒜香鸡翅/index.zh-cn.md",
     "番茄豆腐鸡蛋羹/index.zh-cn.md",
     "葱烧豆腐",
-    "_templates/templater/recipe.md",
     "番茄炒鸡蛋",
     "炸酱面/index.zh-cn.md",
     "鸡蛋清汤面/index.zh-cn.md",
@@ -284,8 +285,6 @@
     "蚂蚁上树/index.zh-cn.md",
     "上汤娃娃菜",
     "焖面/index.zh-cn.md",
-    "三鲜豆腐汤",
-    "鱼香肉丝/index.zh-cn.md",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
