@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-02T11:30:24+08:00
+lastmod: 2024-08-11T11:54:06+08:00
 ---
 ## The Gift of the Magi
 
@@ -17,3 +17,7 @@ This story focuses on Jim and Della, a loving but impoverished couple in an apar
 ## The Last Leaf
 
 This story is mainly about a girl with Pneumonia, Johnsy, because the leaves of the vines outside of window are about to fall off, touched the feelings, and lost the confidentce in life, but did not expect that even after a night of wind and rain, the last leaf is still not blown off, thus regained the courage to live, after getting well, and found that the original leaf is downstairs, the painter who is also suffering from Pneumonia, Mr. Behrman, in order to encourage Johnsy to paint.
+
+## After Twenty Years
+
+This story is mainly about two old friends who agree to meet after 20 years. One of them become police officer, but realizes that his old friend has become a wanted man in Mexico, and cannot bear to arrest him, so he asks his other plainclothes colleague to do it for him.
