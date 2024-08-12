@@ -102,7 +102,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "红烧腐竹/index.zh-cn.md",
+                "file": "葱烧豆腐/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "红烧腐竹/index.zh-cn.md",
+                "file": "葱烧豆腐/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "红烧腐竹/index.zh-cn.md"
+                "file": "葱烧豆腐/index.zh-cn.md"
               }
             }
           },
@@ -283,20 +283,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0db1722ba72d56d3",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "麻婆豆腐/index.zh-cn.md",
     "葱烧豆腐/index.zh-cn.md",
     "红烧腐竹/index.zh-cn.md",
+    "回锅肉/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
-    "回锅肉/index.zh-cn.md",
     "紫菜蛋花汤/index.zh-cn.md",
     "_templates/templater/recipe.md",
     "海蛎煎/index.zh-cn.md",
     "红烧腐竹",
     "useful prompt/index.zh-cn.md",
     "番茄炒鸡蛋/index.zh-cn.md",
-    "麻婆豆腐/index.zh-cn.md",
     "蒜香鸡翅/index.zh-cn.md",
     "番茄豆腐鸡蛋羹/index.zh-cn.md",
     "葱烧豆腐",
