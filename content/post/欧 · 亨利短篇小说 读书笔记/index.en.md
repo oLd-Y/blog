@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-11T11:54:06+08:00
+lastmod: 2024-08-13T10:31:50+08:00
 ---
 ## The Gift of the Magi
 
@@ -21,3 +21,7 @@ This story is mainly about a girl with Pneumonia, Johnsy, because the leaves of 
 ## After Twenty Years
 
 This story is mainly about two old friends who agree to meet after 20 years. One of them become police officer, but realizes that his old friend has become a wanted man in Mexico, and cannot bear to arrest him, so he asks his other plainclothes colleague to do it for him.
+
+## The Cop and the Anthem
+
+The story is mainly about Soapy, a social marginalized man, who tries a various ways to commit crime intending to be caught and imprisoned, hoping to get through the cold winter, all of which end in failure. Just as he was sitting on a park bench, disheartened, he heard a beautiful song coming from the church, envoking the goodness of his heart. However, as he was planning to get a proper job and change his life with his own hands, he was arrested for loitering and sentenced to three month in prison.

@@ -42,14 +42,6 @@
             }
           },
           {
-            "id": "208c154b62b887b2",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "ad56f7b23f0d60fe",
             "type": "leaf",
             "state": {
@@ -74,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "香煎鸡块/index.zh-cn.md",
+                "file": "肉沫蒸蛋/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "香煎鸡块/index.zh-cn.md",
+                "file": "肉沫蒸蛋/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "香煎鸡块/index.zh-cn.md"
+                "file": "肉沫蒸蛋/index.zh-cn.md"
               }
             }
           },
@@ -257,16 +249,16 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "肉沫蒸蛋/index.zh-cn.md",
     "香煎鸡块/index.zh-cn.md",
+    "欧 · 亨利短篇小说 读书笔记/index.en.md",
+    "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
+    "肉沫蒸蛋/index.zh-cn.md",
     "回锅肉/index.zh-cn.md",
     "香煎鸡块",
     "紫菜蛋花汤/index.zh-cn.md",
     "红烧腐竹/index.zh-cn.md",
     "葱烧豆腐/index.zh-cn.md",
     "麻婆豆腐/index.zh-cn.md",
-    "欧 · 亨利短篇小说 读书笔记/index.en.md",
-    "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
     "_templates/templater/recipe.md",
     "海蛎煎/index.zh-cn.md",
     "红烧腐竹",
