@@ -18,24 +18,12 @@
             }
           },
           {
-            "id": "6caab4b1955991ea",
+            "id": "64823e4d41e2bb31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "紫菜蛋花汤/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0db1722ba72d56d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "红烧腐竹/index.zh-cn.md",
+                "file": "肉沫蒸蛋/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,31 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "回锅肉/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "00d3296ccd94db48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "葱烧豆腐/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d96706f6f138649",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "麻婆豆腐/index.zh-cn.md",
+                "file": "香煎鸡块/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -176,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "回锅肉/index.zh-cn.md",
+                "file": "香煎鸡块/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "回锅肉/index.zh-cn.md",
+                "file": "香煎鸡块/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "回锅肉/index.zh-cn.md"
+                "file": "香煎鸡块/index.zh-cn.md"
               }
             }
           },
@@ -283,15 +247,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b99579b0b13e78ff",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "葱烧豆腐/index.zh-cn.md",
+    "肉沫蒸蛋/index.zh-cn.md",
+    "香煎鸡块/index.zh-cn.md",
     "回锅肉/index.zh-cn.md",
-    "麻婆豆腐/index.zh-cn.md",
+    "香煎鸡块",
+    "紫菜蛋花汤/index.zh-cn.md",
     "红烧腐竹/index.zh-cn.md",
+    "葱烧豆腐/index.zh-cn.md",
+    "麻婆豆腐/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
-    "紫菜蛋花汤/index.zh-cn.md",
     "_templates/templater/recipe.md",
     "海蛎煎/index.zh-cn.md",
     "红烧腐竹",
@@ -318,9 +285,6 @@
     "上汤娃娃菜/index.zh-cn.md",
     "糖醋排骨",
     "蒜香鸡翅",
-    "蚂蚁上树/index.zh-cn.md",
-    "上汤娃娃菜",
-    "焖面/index.zh-cn.md",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
