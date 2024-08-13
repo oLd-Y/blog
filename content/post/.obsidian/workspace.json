@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "肉沫蒸蛋/index.zh-cn.md",
+                "file": "香煎鸡块/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "肉沫蒸蛋/index.zh-cn.md",
+                "file": "香煎鸡块/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "肉沫蒸蛋/index.zh-cn.md"
+                "file": "香煎鸡块/index.zh-cn.md"
               }
             }
           },
@@ -247,12 +247,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "b99579b0b13e78ff",
   "lastOpenFiles": [
+    "肉沫蒸蛋/index.zh-cn.md",
     "香煎鸡块/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
-    "肉沫蒸蛋/index.zh-cn.md",
     "回锅肉/index.zh-cn.md",
     "香煎鸡块",
     "紫菜蛋花汤/index.zh-cn.md",
