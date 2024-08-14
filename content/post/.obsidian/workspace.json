@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "虾烧白菜/index.zh-cn.md",
+                "file": "椒盐五花肉/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "虾烧白菜/index.zh-cn.md",
+                "file": "椒盐五花肉/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "虾烧白菜/index.zh-cn.md",
+                "file": "椒盐五花肉/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "虾烧白菜/index.zh-cn.md"
+                "file": "椒盐五花肉/index.zh-cn.md"
               }
             }
           },
@@ -261,8 +261,10 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "肉沫蒸蛋/index.zh-cn.md",
     "虾烧白菜/index.zh-cn.md",
+    "椒盐五花肉/index.zh-cn.md",
+    "椒盐五花肉",
+    "肉沫蒸蛋/index.zh-cn.md",
     "_templates/templater/recipe.md",
     "虾烧白菜",
     "香煎鸡块/index.zh-cn.md",
@@ -295,8 +297,6 @@
     "番茄豆腐鸡蛋羹",
     "水煮鱼/index.zh-cn.md",
     "回锅肉",
-    "糖醋排骨/index.zh-cn.md",
-    "糖醋排骨",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
