@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "椒盐五花肉/index.zh-cn.md",
+                "file": "馒头/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "椒盐五花肉/index.zh-cn.md",
+                "file": "馒头/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "椒盐五花肉/index.zh-cn.md",
+                "file": "馒头/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "椒盐五花肉/index.zh-cn.md"
+                "file": "馒头/index.zh-cn.md"
               }
             }
           },
@@ -249,8 +249,10 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "番茄炒鸡蛋/index.zh-cn.md",
     "椒盐五花肉/index.zh-cn.md",
+    "馒头/index.zh-cn.md",
+    "馒头",
+    "番茄炒鸡蛋/index.zh-cn.md",
     "虾烧白菜/index.zh-cn.md",
     "椒盐五花肉",
     "肉沫蒸蛋/index.zh-cn.md",
@@ -283,8 +285,6 @@
     "鲫鱼肉片羹",
     "三鲜豆腐汤/index.zh-cn.md",
     "番茄豆腐鸡蛋羹",
-    "水煮鱼/index.zh-cn.md",
-    "回锅肉",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
