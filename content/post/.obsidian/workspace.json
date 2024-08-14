@@ -18,6 +18,18 @@
             }
           },
           {
+            "id": "40292ac8c76965f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "肉沫蒸蛋/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "64823e4d41e2bb31",
             "type": "leaf",
             "state": {
@@ -66,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -249,9 +261,9 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "_templates/templater/recipe.md",
-    "虾烧白菜/index.zh-cn.md",
     "肉沫蒸蛋/index.zh-cn.md",
+    "虾烧白菜/index.zh-cn.md",
+    "_templates/templater/recipe.md",
     "虾烧白菜",
     "香煎鸡块/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.en.md",
