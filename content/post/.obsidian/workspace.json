@@ -42,6 +42,18 @@
             }
           },
           {
+            "id": "70a9971d81d7e046",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "虾烧白菜/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3924bca8f56dfdff",
             "type": "leaf",
             "state": {
@@ -152,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "上汤娃娃菜/index.zh-cn.md",
+                "file": "虾烧白菜/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "上汤娃娃菜/index.zh-cn.md",
+                "file": "虾烧白菜/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "上汤娃娃菜/index.zh-cn.md"
+                "file": "虾烧白菜/index.zh-cn.md"
               }
             }
           },
@@ -262,15 +274,16 @@
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
     "糖醋排骨/index.zh-cn.md",
-    "椒盐五花肉/index.zh-cn.md",
+    "虾烧白菜/index.zh-cn.md",
     "上汤娃娃菜/index.zh-cn.md",
+    "香煎豆腐/index.zh-cn.md",
+    "椒盐五花肉/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
     "宫保鸡丁/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "番茄炒鸡蛋/index.zh-cn.md",
     "馒头/index.zh-cn.md",
     "馒头",
-    "虾烧白菜/index.zh-cn.md",
     "椒盐五花肉",
     "肉沫蒸蛋/index.zh-cn.md",
     "_templates/templater/recipe.md",
@@ -293,7 +306,6 @@
     "鸡蛋清汤面/index.zh-cn.md",
     "鲫鱼肉片羹/index.zh-cn.md",
     "红烧鲫鱼/index.zh-cn.md",
-    "_TODO.md",
     "红烧鲫鱼",
     "鲫鱼肉片羹",
     "番茄豆腐鸡蛋羹",
