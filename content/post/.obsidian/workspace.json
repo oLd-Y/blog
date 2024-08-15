@@ -18,36 +18,36 @@
             }
           },
           {
-            "id": "5000db7afeae6666",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "椒盐五花肉/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51662dcd7dae3336",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "番茄炒鸡蛋/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "64823e4d41e2bb31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "馒头/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b25cd6cad6696f22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "糖醋排骨/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3924bca8f56dfdff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "上汤娃娃菜/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,14 +64,7 @@
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "d1b1a9a770451048",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "efc3e8c9545c5320",
             "type": "leaf",
@@ -84,7 +77,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -158,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.en.md",
+                "file": "上汤娃娃菜/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.en.md",
+                "file": "上汤娃娃菜/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.en.md"
+                "file": "上汤娃娃菜/index.zh-cn.md"
               }
             }
           },
@@ -267,10 +261,13 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "糖醋排骨/index.zh-cn.md",
+    "椒盐五花肉/index.zh-cn.md",
+    "上汤娃娃菜/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
+    "宫保鸡丁/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "番茄炒鸡蛋/index.zh-cn.md",
-    "椒盐五花肉/index.zh-cn.md",
     "馒头/index.zh-cn.md",
     "馒头",
     "虾烧白菜/index.zh-cn.md",
@@ -297,11 +294,8 @@
     "鲫鱼肉片羹/index.zh-cn.md",
     "红烧鲫鱼/index.zh-cn.md",
     "_TODO.md",
-    "肉沫茄子/index.zh-cn.md",
-    "酸辣土豆丝/index.zh-cn.md",
     "红烧鲫鱼",
     "鲫鱼肉片羹",
-    "三鲜豆腐汤/index.zh-cn.md",
     "番茄豆腐鸡蛋羹",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
