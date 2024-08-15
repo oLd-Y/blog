@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "椒盐                                                         -path:_daily -path:_templates tag:#菜谱   ",
+  "search": "红烧                                                         -path:_daily -path:_templates tag:#菜谱   ",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -18,5 +18,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 1.401982897776123,
-  "close": true
+  "close": false
 }
