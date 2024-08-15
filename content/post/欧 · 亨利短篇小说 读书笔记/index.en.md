@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-13T10:31:50+08:00
+lastmod: 2024-08-14T21:21:36+08:00
 ---
 ## The Gift of the Magi
 
@@ -25,3 +25,7 @@ This story is mainly about two old friends who agree to meet after 20 years. One
 ## The Cop and the Anthem
 
 The story is mainly about Soapy, a social marginalized man, who tries a various ways to commit crime intending to be caught and imprisoned, hoping to get through the cold winter, all of which end in failure. Just as he was sitting on a park bench, disheartened, he heard a beautiful song coming from the church, envoking the goodness of his heart. However, as he was planning to get a proper job and change his life with his own hands, he was arrested for loitering and sentenced to three month in prison.
+
+## A Service of Love
+
+The story is about a poor couple, Joe and Delia, who came to New York City to pursue their dream of making art, but are unable to beat the reality of making a living through art. On the one hand, they don't want their other half to give up their dream easily, on the other hand, they have to keep to live, so they hide the truth from each other, pretending they are still doing art-related work on the one hand, and doing other jobs to make a living on the other, until Delia gets sick one time before revealing the truth to each other, which makes people sigh for their love.
