@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-14T21:21:36+08:00
+lastmod: 2024-08-15T10:06:36+08:00
 ---
 ## The Gift of the Magi
 
@@ -29,3 +29,7 @@ The story is mainly about Soapy, a social marginalized man, who tries a various 
 ## A Service of Love
 
 The story is about a poor couple, Joe and Delia, who came to New York City to pursue their dream of making art, but are unable to beat the reality of making a living through art. On the one hand, they don't want their other half to give up their dream easily, on the other hand, they have to keep to live, so they hide the truth from each other, pretending they are still doing art-related work on the one hand, and doing other jobs to make a living on the other, until Delia gets sick one time before revealing the truth to each other, which makes people sigh for their love.
+
+## While the Auto Waits
+
+This article is mainly about a man stumbles upon a women sitting on a bench while wandering in a park. The woman claims to be an aristocrat who wants to experience life as a commoner, and that luxury automobile parked around the corner of the park is hers. The man claimed to be a cashier at a restaurant. Their true identities are reversed: the woman is a restaurant cashier, the the man is an aristocrat, and the car is belong to him, which is very ironic. 
