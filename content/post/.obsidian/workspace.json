@@ -18,6 +18,18 @@
             }
           },
           {
+            "id": "411e22ef8b5a8867",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "红烧肉/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2516daa90c38afbf",
             "type": "leaf",
             "state": {
@@ -176,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "馒头/index.zh-cn.md",
+                "file": "红烧肉/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "馒头/index.zh-cn.md",
+                "file": "红烧肉/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "馒头/index.zh-cn.md"
+                "file": "红烧肉/index.zh-cn.md"
               }
             }
           },
@@ -285,8 +297,8 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "_templates/templater/recipe.md",
     "馒头/index.zh-cn.md",
+    "_templates/templater/recipe.md",
     "红烧肉/index.zh-cn.md",
     "虾烧白菜/index.zh-cn.md",
     "红烧肉",
