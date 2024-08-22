@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-15T10:06:36+08:00
+lastmod: 2024-08-22T09:32:11+08:00
 ---
 ## The Gift of the Magi
 
@@ -33,3 +33,8 @@ The story is about a poor couple, Joe and Delia, who came to New York City to pu
 ## While the Auto Waits
 
 This article is mainly about a man stumbles upon a women sitting on a bench while wandering in a park. The woman claims to be an aristocrat who wants to experience life as a commoner, and that luxury automobile parked around the corner of the park is hers. The man claimed to be a cashier at a restaurant. Their true identities are reversed: the woman is a restaurant cashier, the the man is an aristocrat, and the car is belong to him, which is very ironic. 
+
+## 07 The Romance of a Busy Broker
+
+The article focuses on Maxwell, a stockbroker who has a very busy schedule, but takes time out of his busy schedule to propose to his stenographer subordinate, Leslie, only to find out that they were married at 8:00 p.m. last night in a church. The article explores the possible consequences of being too obsessed with work - neglecting or forgetting important aspects of life such as family and relationships.
+
