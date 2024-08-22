@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "红烧肉/index.zh-cn.md",
+                "file": "粉蒸肉/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -36,66 +36,6 @@
               "type": "markdown",
               "state": {
                 "file": "馒头/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64823e4d41e2bb31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "红烧肉/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6cd9df7fee7987e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "回锅肉/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b25cd6cad6696f22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "糖醋排骨/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "70a9971d81d7e046",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "虾烧白菜/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3924bca8f56dfdff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "上汤娃娃菜/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "回锅肉/index.zh-cn.md",
+                "file": "粉蒸肉/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "回锅肉/index.zh-cn.md",
+                "file": "粉蒸肉/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "回锅肉/index.zh-cn.md"
+                "file": "粉蒸肉/index.zh-cn.md"
               }
             }
           },
@@ -310,14 +250,16 @@
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
     "红烧肉/index.zh-cn.md",
+    "粉蒸肉/index.zh-cn.md",
+    "粉蒸肉",
+    "馒头/index.zh-cn.md",
+    "糖醋排骨/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
-    "馒头/index.zh-cn.md",
     "_templates/templater/recipe.md",
     "虾烧白菜/index.zh-cn.md",
     "红烧肉",
     "上汤娃娃菜/index.zh-cn.md",
-    "糖醋排骨/index.zh-cn.md",
     "香煎豆腐/index.zh-cn.md",
     "椒盐五花肉/index.zh-cn.md",
     "宫保鸡丁/index.zh-cn.md",
@@ -342,9 +284,7 @@
     "番茄炒鸡蛋",
     "炸酱面/index.zh-cn.md",
     "鸡蛋清汤面/index.zh-cn.md",
-    "鲫鱼肉片羹/index.zh-cn.md",
     "红烧鲫鱼",
-    "鲫鱼肉片羹",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
