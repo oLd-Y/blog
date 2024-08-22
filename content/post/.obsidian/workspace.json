@@ -114,7 +114,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -188,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.en.md",
+                "file": "红烧肉/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.en.md",
+                "file": "红烧肉/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.en.md"
+                "file": "红烧肉/index.zh-cn.md"
               }
             }
           },
@@ -297,6 +297,7 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
     "馒头/index.zh-cn.md",
     "_templates/templater/recipe.md",
@@ -308,7 +309,6 @@
     "香煎豆腐/index.zh-cn.md",
     "椒盐五花肉/index.zh-cn.md",
     "宫保鸡丁/index.zh-cn.md",
-    "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "番茄炒鸡蛋/index.zh-cn.md",
     "馒头",
     "椒盐五花肉",
