@@ -18,12 +18,48 @@
             }
           },
           {
+            "id": "ff6b3bea7abf0c53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "回锅肉/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "411e22ef8b5a8867",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "粉蒸肉/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "26fe7f8e73b3ef7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "红烧鲫鱼/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "385772a389913e4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "鲫鱼豆腐汤/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,7 +102,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -140,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "粉蒸肉/index.zh-cn.md",
+                "file": "鲫鱼豆腐汤/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "粉蒸肉/index.zh-cn.md",
+                "file": "鲫鱼豆腐汤/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "粉蒸肉/index.zh-cn.md"
+                "file": "鲫鱼豆腐汤/index.zh-cn.md"
               }
             }
           },
@@ -249,8 +285,13 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "红烧肉/index.zh-cn.md",
+    "鲫鱼肉片羹/index.zh-cn.md",
+    "鲫鱼豆腐汤/index.zh-cn.md",
+    "鲫鱼豆腐汤",
+    "红烧鲫鱼/index.zh-cn.md",
+    "回锅肉/index.zh-cn.md",
     "粉蒸肉/index.zh-cn.md",
+    "红烧肉/index.zh-cn.md",
     "粉蒸肉",
     "馒头/index.zh-cn.md",
     "糖醋排骨/index.zh-cn.md",
@@ -269,7 +310,6 @@
     "肉沫蒸蛋/index.zh-cn.md",
     "虾烧白菜",
     "香煎鸡块/index.zh-cn.md",
-    "回锅肉/index.zh-cn.md",
     "香煎鸡块",
     "紫菜蛋花汤/index.zh-cn.md",
     "红烧腐竹/index.zh-cn.md",
@@ -279,12 +319,8 @@
     "红烧腐竹",
     "useful prompt/index.zh-cn.md",
     "蒜香鸡翅/index.zh-cn.md",
-    "番茄豆腐鸡蛋羹/index.zh-cn.md",
     "葱烧豆腐",
     "番茄炒鸡蛋",
-    "炸酱面/index.zh-cn.md",
-    "鸡蛋清汤面/index.zh-cn.md",
-    "红烧鲫鱼",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
