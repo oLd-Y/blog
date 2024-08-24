@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-22T09:32:11+08:00
+lastmod: 2024-08-24T09:46:07+08:00
 ---
 ## The Gift of the Magi
 
@@ -37,4 +37,8 @@ This article is mainly about a man stumbles upon a women sitting on a bench whil
 ## 07 The Romance of a Busy Broker
 
 The article focuses on Maxwell, a stockbroker who has a very busy schedule, but takes time out of his busy schedule to propose to his stenographer subordinate, Leslie, only to find out that they were married at 8:00 p.m. last night in a church. The article explores the possible consequences of being too obsessed with work - neglecting or forgetting important aspects of life such as family and relationships.
+
+## 08 Furnished Room for Rent
+
+This story is about a man who travels from city to city in search of his missing beloved. At a hotel, he realizes through some clues that his current room may have been occupied by his beloved, so he goes to ask the landlord about it, but to no avail. Feeling that hope is lost and that he has lost his motivation for life, he take his life in the room. The next day, the landlords got together to discuss that a girl in the man's room had also committed suicide a while ago. This essay discusses the main idea that people are prone to mental breakdown when they are lonely and helpless.
 
