@@ -90,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "鲫鱼豆腐汤/index.zh-cn.md",
+                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "鲫鱼豆腐汤/index.zh-cn.md",
+                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "鲫鱼豆腐汤/index.zh-cn.md"
+                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -271,11 +271,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "385772a389913e4c",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "鲫鱼豆腐汤/index.zh-cn.md",
+    "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
     "回锅肉/index.zh-cn.md",
     "红烧鲫鱼/index.zh-cn.md",
-    "鲫鱼豆腐汤/index.zh-cn.md",
     "鲫鱼肉片羹/index.zh-cn.md",
     "鲫鱼豆腐汤",
     "粉蒸肉/index.zh-cn.md",
@@ -284,7 +285,6 @@
     "馒头/index.zh-cn.md",
     "糖醋排骨/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.en.md",
-    "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
     "_templates/templater/recipe.md",
     "虾烧白菜/index.zh-cn.md",
     "红烧肉",
