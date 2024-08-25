@@ -283,10 +283,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "efc3e8c9545c5320",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
+    "_templates/templater/leetcode.md",
     "红楼梦 读书笔记/index.zh-cn.md",
+    "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
     "红楼梦 读书笔记",
     "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "回锅肉/index.zh-cn.md",
@@ -318,7 +319,6 @@
     "红烧腐竹/index.zh-cn.md",
     "葱烧豆腐/index.zh-cn.md",
     "麻婆豆腐/index.zh-cn.md",
-    "海蛎煎/index.zh-cn.md",
     "红烧腐竹",
     "葱烧豆腐",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
