@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-24T09:46:07+08:00
+lastmod: 2024-08-25T16:49:39+08:00
 ---
 ## The Gift of the Magi
 
@@ -42,3 +42,6 @@ The article focuses on Maxwell, a stockbroker who has a very busy schedule, but 
 
 This story is about a man who travels from city to city in search of his missing beloved. At a hotel, he realizes through some clues that his current room may have been occupied by his beloved, so he goes to ask the landlord about it, but to no avail. Feeling that hope is lost and that he has lost his motivation for life, he take his life in the room. The next day, the landlords got together to discuss that a girl in the man's room had also committed suicide a while ago. This essay discusses the main idea that people are prone to mental breakdown when they are lonely and helpless.
 
+## 09 Confessions of  a Humorist
+
+This article follows a man as a former humorist through his journey from discovering a talent for humor, to becoming a professional humorist, and then out of humorist status. After becoming a humorist, the man had to think of funny things every minute of every day, take material from other people, and stop doing it for the sake of making people laugh, which caused him to have poor relationships with those around him as well as those in his family. After a certain conversation with a man in a solemn profession, he came to his senses and went back to his old style of acting and writing and became naturally light-hearted again, and as a result, improved his relationship with his neighbors and family. This article reveals the price that can be paid for what the public sees as humor, and shows the pain that comes when a hobby becomes a profession.
