@@ -95,7 +95,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "红楼梦 读书笔记/index.zh-cn.md",
+                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "红楼梦 读书笔记/index.zh-cn.md",
+                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "红楼梦 读书笔记/index.zh-cn.md",
+                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "红楼梦 读书笔记/index.zh-cn.md"
+                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -285,11 +285,11 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "_templates/templater/leetcode.md",
     "红楼梦 读书笔记/index.zh-cn.md",
+    "欧 · 亨利短篇小说 读书笔记/index.en.md",
+    "_templates/templater/leetcode.md",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
     "红楼梦 读书笔记",
-    "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "回锅肉/index.zh-cn.md",
     "凉拌秋葵/index.zh-cn.md",
     "鲫鱼豆腐汤/index.zh-cn.md",
