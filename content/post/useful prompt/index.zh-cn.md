@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-01T13:02:15+08:00
+lastmod: 2024-08-26T20:12:25+08:00
 ---
 ## 提高英语
 
@@ -21,3 +21,7 @@ I will give you text content which is wrapped by 3 double quotes, you need to re
 """
 
 """
+
+## 知识性的书籍总结
+
+我正在学习王
