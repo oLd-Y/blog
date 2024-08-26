@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "葱烧豆腐/index.zh-cn.md",
+                "file": "豆腐煎鸡蛋/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,18 +60,6 @@
               "type": "markdown",
               "state": {
                 "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7133d1af942fa398",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "21. 合并两个有序链表/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -152,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "葱烧豆腐/index.zh-cn.md",
+                "file": "豆腐煎鸡蛋/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "葱烧豆腐/index.zh-cn.md",
+                "file": "豆腐煎鸡蛋/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "葱烧豆腐/index.zh-cn.md"
+                "file": "豆腐煎鸡蛋/index.zh-cn.md"
               }
             }
           },
@@ -261,6 +249,9 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "葱烧豆腐/index.zh-cn.md",
+    "豆腐煎鸡蛋/index.zh-cn.md",
+    "豆腐煎鸡蛋",
     "炒粉丝/index.zh-cn.md",
     "21. 合并两个有序链表/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
@@ -292,11 +283,8 @@
     "番茄炒鸡蛋/index.zh-cn.md",
     "馒头",
     "椒盐五花肉",
-    "肉沫蒸蛋/index.zh-cn.md",
     "虾烧白菜",
-    "香煎鸡块/index.zh-cn.md",
     "香煎鸡块",
-    "红烧腐竹",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
