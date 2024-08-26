@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-08-26T11:11:38+08:00
+lastmod: 2024-08-26T11:19:05+08:00
 ---
 [题目链接](https://leetcode.cn/problems/final-array-state-after-k-multiplication-operations-i/)
 
@@ -17,16 +17,20 @@ lastmod: 2024-08-26T11:11:38+08:00
 
 ### 思路
 
-1. 根据题意，直接执行 k 次
+1. 根据题意，直接执行 `k` 次，每次将当前数组中最小的元素 `x` 替换为 `x * multipler`。
 
 ### 代码
 
 ```python
-
+class Solution:
+    def getFinalState(self, nums: List[int], k: int, m: int) -> List[int]:
+        for _ in range(k):
+            nums[nums.index(min(nums))] *= m
+        return nums
 ```
 
 ### 复杂度
-- 时间复杂度：
-- 空间复杂度：
+- 时间复杂度：`O(k)`。
+- 空间复杂度：`O(1)`，没有用到额外的空间。
 
 
