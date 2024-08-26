@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "秋                                                        -path:_daily -path:_templates tag:#菜谱   ",
+  "search": "葱烧                                                        -path:_daily -path:_templates tag:#菜谱   ",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.401982897776123,
+  "scale": 1.401982897776124,
   "close": false
 }
