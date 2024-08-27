@@ -110,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.en.md",
+                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.en.md",
+                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +224,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.en.md"
+                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -293,6 +293,8 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "欧 · 亨利短篇小说 读书笔记/index.en.md",
+    "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
     "Hugo 主题 Stack 使用问题汇总/index.zh-cn.md",
     "3264. K 次乘运算后的最终数组 I/index.zh-cn.md",
     "Hugo 主题 Stack 使用问题汇总",
@@ -312,12 +314,10 @@
     "汇编语言 读书笔记",
     "葱烧豆腐/index.zh-cn.md",
     "豆腐煎鸡蛋",
-    "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
     "_templates/templater/leetcode.md",
     "_templates/dairy.md",
     "3264. K 次乘运算后的最终数组 I",
     "红楼梦 读书笔记/index.zh-cn.md",
-    "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "红楼梦 读书笔记",
     "回锅肉/index.zh-cn.md",
     "凉拌秋葵/index.zh-cn.md",
