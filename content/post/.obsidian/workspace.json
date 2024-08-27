@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "汇编语言 读书笔记/index.zh-cn.md",
+                "file": "黄焖鸡/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "汇编语言 读书笔记/index.zh-cn.md",
+                "file": "黄焖鸡/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "汇编语言 读书笔记/index.zh-cn.md",
+                "file": "黄焖鸡/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "汇编语言 读书笔记/index.zh-cn.md"
+                "file": "黄焖鸡/index.zh-cn.md"
               }
             }
           },
@@ -238,8 +238,10 @@
   },
   "active": "e7f0122621861f8d",
   "lastOpenFiles": [
-    "汇编语言 读书笔记/index.zh-cn.md",
     "玉米排骨汤/index.zh-cn.md",
+    "黄焖鸡/index.zh-cn.md",
+    "黄焖鸡",
+    "汇编语言 读书笔记/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "香菇肉片汤/index.zh-cn.md",
     "玉米排骨汤",
@@ -270,10 +272,8 @@
     "回锅肉/index.zh-cn.md",
     "凉拌秋葵/index.zh-cn.md",
     "鲫鱼豆腐汤/index.zh-cn.md",
-    "红烧鲫鱼/index.zh-cn.md",
     "鲫鱼豆腐汤",
     "粉蒸肉",
-    "红烧肉",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
