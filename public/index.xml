@@ -7,7 +7,492 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Mon, 12 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 27 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>3264. K 次乘运算后的最终数组 I</title>
+        <link>http://localhost:1313/blog/p/3264.-k-%E6%AC%A1%E4%B9%98%E8%BF%90%E7%AE%97%E5%90%8E%E7%9A%84%E6%9C%80%E7%BB%88%E6%95%B0%E7%BB%84-i/</link>
+        <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/3264.-k-%E6%AC%A1%E4%B9%98%E8%BF%90%E7%AE%97%E5%90%8E%E7%9A%84%E6%9C%80%E7%BB%88%E6%95%B0%E7%BB%84-i/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/final-array-state-after-k-multiplication-operations-i/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;题目链接&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;方法-1直接模拟&#34;&gt;方法 1：直接模拟
+&lt;/h2&gt;&lt;h3 id=&#34;思路&#34;&gt;思路
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;根据题意，直接执行 &lt;code&gt;k&lt;/code&gt; 次，每次将当前数组中最小的元素 &lt;code&gt;x&lt;/code&gt; 替换为 &lt;code&gt;x * multipler&lt;/code&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;代码&#34;&gt;代码
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;Solution&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;getFinalState&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nums&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;List&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;List&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;_&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;range&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;nums&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;nums&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;index&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;nums&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;m&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nums&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;复杂度&#34;&gt;复杂度
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;时间复杂度：&lt;code&gt;O(k)&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;空间复杂度：&lt;code&gt;O(1)&lt;/code&gt;，没有用到额外的空间。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>汇编语言 读书笔记</title>
+        <link>http://localhost:1313/blog/p/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+        <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+        <description>&lt;h2 id=&#34;第-1-章-基础知识&#34;&gt;第 1 章 基础知识
+&lt;/h2&gt;&lt;p&gt;在汇编层面，指令和数据别无二致，都是一堆二进制数据。&lt;/p&gt;
+&lt;p&gt;TODO 那么，CPU 是如何分辨此时的二进制代码应当识别为数据还是指令呢？&lt;/p&gt;
+&lt;p&gt;CPU 和内存共同组成了计算机的“大脑”，二者之间通过总线进行连接。总线根据用途，可以分为：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;用于 CPU 告诉内存要取的数据地址的&lt;strong&gt;地址线&lt;/strong&gt;；&lt;/li&gt;
+&lt;li&gt;用于内存向 CPU 传递数据的&lt;strong&gt;数据线&lt;/strong&gt;；&lt;/li&gt;
+&lt;li&gt;用于 CPU 向内存传递读写指令的&lt;strong&gt;控制线&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;CPU 的所有指令以及数据，都是通过总线在内存中进行访问的，但物理上各种数据的存储又是分开的，比如显卡的显存，主存储器的 RAM 等（这些都是运行时的内存）。因此，很容易联想到，这些物理上的内存一定通过某种方式联系了起来，供 CPU 使用。具体表现为，CPU 使用的是虚拟内存地址，将逻辑地址映射到物理地址上。TODO 通过什么方法做到映射的？&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>人是不可以不说话的</title>
+        <link>http://localhost:1313/blog/p/%E4%BA%BA%E6%98%AF%E4%B8%8D%E5%8F%AF%E4%BB%A5%E4%B8%8D%E8%AF%B4%E8%AF%9D%E7%9A%84/</link>
+        <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/%E4%BA%BA%E6%98%AF%E4%B8%8D%E5%8F%AF%E4%BB%A5%E4%B8%8D%E8%AF%B4%E8%AF%9D%E7%9A%84/</guid>
+        <description>&lt;p&gt;从很久以前开始，我就不爱说话了——一方面是早期的环境过于吵闹，我会刻意地远离，别一方面和本身性格有关，有点内向，也喜欢装深沉。总而言之，不管是在线下公众场合，还是在网络上，总是一言不发，乐于当一个透明人。&lt;/p&gt;
+&lt;p&gt;正因如此，我得以成为一个安逸的观众，每时每刻都可以成为优雅地、戏谑地当一个围观群众，吃着各种新鲜的瓜，又能将自己置身事外，免受各种舆论的风险。&lt;/p&gt;
+&lt;p&gt;可是这样的安逸也是有代价的，人的各种技能，久了不用，就会退化。就在近日，我想针对某件事发表自己的观点，忽然发现自己的大脑卡壳了，自己脑子里想的是一回事，写出来却完全词不达意。遥想之前我还对一些人的幼稚发言嗤之以鼻，结果发现自己的言语也不过尔尔，真是让人残愧。&lt;/p&gt;
+&lt;p&gt;用进废退，作为区别于其他动物的工具，人的优势就在于言语。此时此刻，即便我的想法不止于此，但长时间疏于表达，我也只能拼凑一些字数，草草地写一写我对于“人是不可以不说话的”这一观点的看法。&lt;/p&gt;
+&lt;p&gt;自今日起，即便与人交往不多，我也要注重自己用文字表达的能力。每天一篇观点输出，flag 已立，定当实现。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>鲫鱼豆腐汤</title>
+        <link>http://localhost:1313/blog/p/%E9%B2%AB%E9%B1%BC%E8%B1%86%E8%85%90%E6%B1%A4/</link>
+        <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/%E9%B2%AB%E9%B1%BC%E8%B1%86%E8%85%90%E6%B1%A4/</guid>
+        <description>&lt;h2 id=&#34;主料小料调料&#34;&gt;主料、小料、调料
+&lt;/h2&gt;&lt;h3 id=&#34;主料&#34;&gt;主料
+&lt;/h3&gt;&lt;p&gt;鲫鱼、豆腐。&lt;/p&gt;
+&lt;h3 id=&#34;小料&#34;&gt;小料
+&lt;/h3&gt;&lt;p&gt;大葱、生姜、香菜、枸杞。&lt;/p&gt;
+&lt;h3 id=&#34;调料&#34;&gt;调料
+&lt;/h3&gt;&lt;p&gt;盐、味精、白胡椒粉。&lt;/p&gt;
+&lt;h2 id=&#34;步骤&#34;&gt;步骤
+&lt;/h2&gt;&lt;h3 id=&#34;备菜&#34;&gt;备菜
+&lt;/h3&gt;&lt;p&gt;提前烧一壶开水。&lt;/p&gt;
+&lt;p&gt;葱切段，姜切片。&lt;/p&gt;
+&lt;p&gt;处理鱼。掏出内脏（鱼泡、鱼籽）以及喉牙，刮去内壁的黑膜，剪去背鳍；用开水烫一下之后刮去鳞片。冲洗干净之后背部打上花刀。&lt;/p&gt;
+&lt;p&gt;锅热放少许油，下入鲫鱼，大火煎至两面微焦。&lt;/p&gt;
+&lt;p&gt;另起一锅，加入少许葱姜、开水以及煎好的鲫鱼。&lt;/p&gt;
+&lt;h3 id=&#34;煮制&#34;&gt;煮制
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;火候&lt;/th&gt;
+&lt;th&gt;操作&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;大火&lt;/td&gt;
+&lt;td&gt;煮 5 分钟，煮至汤色浓白。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;大火&lt;/td&gt;
+&lt;td&gt;下入豆腐，加入点盐、味精、白胡椒粉，继续煮 3 分钟。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;大火&lt;/td&gt;
+&lt;td&gt;加入香菜、枸杞，搅拌均匀即可出锅。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;注意事项&#34;&gt;注意事项
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
+        <title>粉蒸肉</title>
+        <link>http://localhost:1313/blog/p/%E7%B2%89%E8%92%B8%E8%82%89/</link>
+        <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/%E7%B2%89%E8%92%B8%E8%82%89/</guid>
+        <description>&lt;h2 id=&#34;主料小料调料&#34;&gt;主料、小料、调料
+&lt;/h2&gt;&lt;h3 id=&#34;主料&#34;&gt;主料
+&lt;/h3&gt;&lt;p&gt;带皮五花肉、大米。&lt;/p&gt;
+&lt;h3 id=&#34;小料&#34;&gt;小料
+&lt;/h3&gt;&lt;p&gt;花椒、八角、香叶、干辣椒、小葱、糯米。&lt;/p&gt;
+&lt;h3 id=&#34;调料&#34;&gt;调料
+&lt;/h3&gt;&lt;h2 id=&#34;步骤&#34;&gt;步骤
+&lt;/h2&gt;&lt;h3 id=&#34;备菜&#34;&gt;备菜
+&lt;/h3&gt;&lt;p&gt;以下为制作米粉的过程：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;火候&lt;/th&gt;
+&lt;th&gt;操作&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;小火&lt;/td&gt;
+&lt;td&gt;锅中加入少许大米、几粒花椒、1 个八角、2 片香叶、1 个干辣椒（八角、干辣椒剪碎），炒至大米微黄。&lt;br&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;所有的调料倒入𮉬肉机或者破壁机中打碎（不必太碎）之后盛出备用。&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;制&#34;&gt;制
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;火候&lt;/th&gt;
+&lt;th&gt;操作&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;大火&lt;/td&gt;
+&lt;td&gt;将锅烧热。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&amp;gt; 小火&lt;/td&gt;
+&lt;td&gt;放入少许底油。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;注意事项&#34;&gt;注意事项
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
+        <title>红烧肉</title>
+        <link>http://localhost:1313/blog/p/%E7%BA%A2%E7%83%A7%E8%82%89/</link>
+        <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/%E7%BA%A2%E7%83%A7%E8%82%89/</guid>
+        <description>&lt;h2 id=&#34;主料小料调料&#34;&gt;主料、小料、调料
+&lt;/h2&gt;&lt;h3 id=&#34;主料&#34;&gt;主料
+&lt;/h3&gt;&lt;p&gt;五花肉。&lt;/p&gt;
+&lt;h3 id=&#34;小料&#34;&gt;小料
+&lt;/h3&gt;&lt;p&gt;小葱、生姜、八角、桂皮、香叶。&lt;/p&gt;
+&lt;h3 id=&#34;调料&#34;&gt;调料
+&lt;/h3&gt;&lt;p&gt;冰糖/白糖、黄酒、生抽。&lt;/p&gt;
+&lt;h2 id=&#34;步骤&#34;&gt;步骤
+&lt;/h2&gt;&lt;h3 id=&#34;备菜&#34;&gt;备菜
+&lt;/h3&gt;&lt;p&gt;小葱打成结，生姜切片。&lt;/p&gt;
+&lt;p&gt;以下为炒糖色所需的步骤。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;火候&lt;/th&gt;
+&lt;th&gt;操作&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;提前烧一壶开水。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;中火&lt;/td&gt;
+&lt;td&gt;放入少许底油。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;中火&lt;/td&gt;
+&lt;td&gt;下入冰糖，炒至完全融化。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&amp;gt; 小火&lt;/td&gt;
+&lt;td&gt;一边搅动，一边观察。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;小火&lt;/td&gt;
+&lt;td&gt;当冰糖搅至琥珀色时需注意，出现第一颗汽泡时就加入等量的开水。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&amp;gt; 中火&lt;/td&gt;
+&lt;td&gt;熬煮 2 ~ 3 分钟即可乘出备用。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;烧制&#34;&gt;烧制
+&lt;/h3&gt;&lt;p&gt;如果是冷冻肉，可以用葱、姜、料酒，冷水下锅焯一下水，撇去浮沫即可捞出备用。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;火候&lt;/th&gt;
+&lt;th&gt;操作&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;大火&lt;/td&gt;
+&lt;td&gt;将锅烧热。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&amp;gt; 小火&lt;/td&gt;
+&lt;td&gt;放入少许底油，下入五花肉摊开。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;小火&lt;/td&gt;
+&lt;td&gt;不动，煎五花肉至一面微焦，开始翻炒，炒至基本变色。可以乘出多余的油脂。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;小火&lt;/td&gt;
+&lt;td&gt;放入葱结、姜片，1 ~ 2 个八角，1 小片桂皮，1 ~ 2 片香叶，翻炒半分钟。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;小火&lt;/td&gt;
+&lt;td&gt;加入半勺黄酒，1 勺生抽，再炒 1 分钟。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&amp;gt; 大火&lt;/td&gt;
+&lt;td&gt;加入多一点的开水没过食材。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;大火&lt;/td&gt;
+&lt;td&gt;加入炒好的糖色，1 勺白醋，煮至沸腾。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&amp;gt; 小火&lt;/td&gt;
+&lt;td&gt;盖盖烧 50 分钟。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&amp;gt; 大火&lt;/td&gt;
+&lt;td&gt;收汁，并捡出小料。汤汁收浓之后即可出锅。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;注意事项&#34;&gt;注意事项
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;炒糖色的时候全程搅动。&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
+        <title>椒盐五花肉</title>
+        <link>http://localhost:1313/blog/p/%E6%A4%92%E7%9B%90%E4%BA%94%E8%8A%B1%E8%82%89/</link>
+        <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/%E6%A4%92%E7%9B%90%E4%BA%94%E8%8A%B1%E8%82%89/</guid>
+        <description>&lt;h2 id=&#34;食材与调料&#34;&gt;食材与调料
+&lt;/h2&gt;&lt;h3 id=&#34;食材&#34;&gt;食材
+&lt;/h3&gt;&lt;p&gt;五花肉、小葱、大蒜、花椒、洋葱、小茴香、芝麻。&lt;/p&gt;
+&lt;h3 id=&#34;调料&#34;&gt;调料
+&lt;/h3&gt;&lt;p&gt;玉米淀粉、盐、白胡椒粉、白糖、生抽、料酒。&lt;/p&gt;
+&lt;h2 id=&#34;步骤&#34;&gt;步骤
+&lt;/h2&gt;&lt;h3 id=&#34;备菜&#34;&gt;备菜
+&lt;/h3&gt;&lt;p&gt;五花肉洗净切成厚片，放入碗中备用。&lt;/p&gt;
+&lt;p&gt;五花肉中加入白胡椒粉、盐、白糖、生抽、料酒，抓拌均匀。然后加入一点玉米淀粉，使其充分包裹肉片。&lt;/p&gt;
+&lt;p&gt;以下为制作椒盐的步骤：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;火候&lt;/th&gt;
+&lt;th&gt;操作&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;大火&lt;/td&gt;
+&lt;td&gt;将锅烧热。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&amp;gt; 中火&lt;/td&gt;
+&lt;td&gt;花椒清洗之后下入锅中炒至变色。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;中火&lt;/td&gt;
+&lt;td&gt;下入白芝麻、小茴香至花椒可以用手搌碎。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;中火&lt;/td&gt;
+&lt;td&gt;下入盐，炒至盐微微变黄，就可以一起倒出。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;无火&lt;/td&gt;
+&lt;td&gt;用擀面杖碾碎，用密漏过滤。反复操作几次，直至掉不下细粉。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;大蒜切成片、洋葱切成条，小葱切成段（葱白和葱绿分开放）。&lt;/p&gt;
+&lt;h3 id=&#34;制&#34;&gt;制
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;火候&lt;/th&gt;
+&lt;th&gt;操作&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;大火&lt;/td&gt;
+&lt;td&gt;将锅烧热。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&amp;gt; 小火&lt;/td&gt;
+&lt;td&gt;放入稍多一点底油，下入五花肉煎制。一面煎至金黄微焦之后颠锅让另一面也进行同样的操作。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;小火&lt;/td&gt;
+&lt;td&gt;下入大蒜炒香，然后倒入多余的油脂。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;小火&lt;/td&gt;
+&lt;td&gt;下入葱白、洋葱，翻炒均匀，炒香。然后加入适量口味的椒盐。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;小火&lt;/td&gt;
+&lt;td&gt;下入葱绿，翻炒均匀即可出锅。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;注意事项&#34;&gt;注意事项
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;煎猪肉的时候的油可以多放一点，之后都要倒入炒菜。&lt;/li&gt;
+&lt;li&gt;煎猪肉的时候可以转动锅身，尽量使每一块猪肉都可以煎到。&lt;/li&gt;
+&lt;li&gt;蒜头可以多一点，蒜香浓郁。&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
+        <title>馒头</title>
+        <link>http://localhost:1313/blog/p/%E9%A6%92%E5%A4%B4/</link>
+        <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/%E9%A6%92%E5%A4%B4/</guid>
+        <description>&lt;h2 id=&#34;食材&#34;&gt;食材
+&lt;/h2&gt;&lt;h3 id=&#34;主料&#34;&gt;主料
+&lt;/h3&gt;&lt;p&gt;面粉 500 g。&lt;/p&gt;
+&lt;h3 id=&#34;调料&#34;&gt;调料
+&lt;/h3&gt;&lt;p&gt;酵母粉 5 g、白糖 3 g、水 240 g、泡打粉 3 g、猪油 15 g。&lt;/p&gt;
+&lt;h2 id=&#34;步骤&#34;&gt;步骤
+&lt;/h2&gt;&lt;p&gt;酵母粉、白糖加入水中（注意是温水）。&lt;/p&gt;
+&lt;p&gt;泡打粉和猪油加入面粉中。&lt;/p&gt;
+&lt;p&gt;先拌絮，至盆中没有干面粉的状态，然后再将其挤压成面团，揉实，至盆光、面光、手光的状态，然后封好把它放到温暧的地方等待其醒发旺盛。&lt;/p&gt;
+&lt;p&gt;发好的面拿出，重新揉至面光。&lt;/p&gt;
+&lt;p&gt;揪出馒头剂子，揉圆，揉光。&lt;/p&gt;
+&lt;p&gt;再次盖盖，二次醒发。&lt;/p&gt;
+&lt;p&gt;如果醒发到位了就开水上锅蒸，如果没到位（比如室温太低），就冷水上锅蒸。&lt;/p&gt;
+&lt;p&gt;保证火气充足，拳头大的馒头蒸 12 分钟左右。&lt;/p&gt;
+&lt;h2 id=&#34;注意事项&#34;&gt;注意事项
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;泡打粉为了增加蓬松度，猪油为了使馒头更光亮，这二者可以不加。&lt;/li&gt;
+&lt;li&gt;第二次揉实的作用：
+&lt;ul&gt;
+&lt;li&gt;将醒发过程中产生的二氧化碳排出；&lt;/li&gt;
+&lt;li&gt;重新将面揉光。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;二次醒发的作用：第二次揉实之后，面团中的空气己经被排干净，通过二次醒发让酵母再次产生充足的二氧化碳，使馒头蓬松。&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
+        <title>虾烧白菜</title>
+        <link>http://localhost:1313/blog/p/%E8%99%BE%E7%83%A7%E7%99%BD%E8%8F%9C/</link>
+        <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/%E8%99%BE%E7%83%A7%E7%99%BD%E8%8F%9C/</guid>
+        <description>&lt;h2 id=&#34;食材与调料&#34;&gt;食材与调料
+&lt;/h2&gt;&lt;h3 id=&#34;食材&#34;&gt;食材
+&lt;/h3&gt;&lt;p&gt;娃娃菜、大虾、大葱、生姜。&lt;/p&gt;
+&lt;h3 id=&#34;调料&#34;&gt;调料
+&lt;/h3&gt;&lt;p&gt;盐、味精、玉米淀粉。&lt;/p&gt;
+&lt;h2 id=&#34;步骤&#34;&gt;步骤
+&lt;/h2&gt;&lt;h3 id=&#34;备菜&#34;&gt;备菜
+&lt;/h3&gt;&lt;p&gt;提前烧一壶开水。&lt;/p&gt;
+&lt;p&gt;白菜洗净切片。&lt;/p&gt;
+&lt;p&gt;煎掉虾须、虾脚，掰掉虾头和虾线，虾头剪掉虾腔，虾背去掉，虾身划一刀，所有虾处理好之后洗净备用。&lt;/p&gt;
+&lt;p&gt;大葱、生姜切片。&lt;/p&gt;
+&lt;p&gt;2 勺玉米淀粉加入 1.5 倍清水制成水淀粉。&lt;/p&gt;
+&lt;h3 id=&#34;烧制&#34;&gt;烧制
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;火候&lt;/th&gt;
+&lt;th&gt;操作&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;大火&lt;/td&gt;
+&lt;td&gt;将锅烧热。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&amp;gt; 中火&lt;/td&gt;
+&lt;td&gt;放入少许底油，下入虾头，煎出香味。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;中火&lt;/td&gt;
+&lt;td&gt;下入葱姜，煸出香味。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;中火&lt;/td&gt;
+&lt;td&gt;往锅中倒入热水，熬至汤色浓稠，捞出虾壳，虾汤倒出备用。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&amp;gt; 大火&lt;/td&gt;
+&lt;td&gt;锅洗净烧干，再次放油润锅，留点底油。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;大火&lt;/td&gt;
+&lt;td&gt;下入白菜，淋入一点水防干，炒至断生后倒出备用。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&amp;gt; 中火&lt;/td&gt;
+&lt;td&gt;下入少许油，下入大虾，煎至变色。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;中火&lt;/td&gt;
+&lt;td&gt;下入葱姜，煸出香味。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;中火&lt;/td&gt;
+&lt;td&gt;倒入虾汤和白菜，烧至白菜软趴。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;中火&lt;/td&gt;
+&lt;td&gt;根据口味加入少许盐、味精、白糖进行调味。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&amp;gt; 大火&lt;/td&gt;
+&lt;td&gt;淋入水淀粉，收汁至汤汁黏稠即可出锅。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;注意事项&#34;&gt;注意事项
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;煎虾头的时候可以用勺子摁一下，挤出虾油。&lt;/li&gt;
+&lt;li&gt;煮虾汤的时候只能用温水或者热水。&lt;/li&gt;
+&lt;li&gt;处理虾时候的虾身的壳可去可不去。&lt;/li&gt;
+&lt;li&gt;白菜不需要焯水。炒白菜时如果白菜太干，可以适当加点水。&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
         <title>香煎鸡翅</title>
         <link>http://localhost:1313/blog/p/%E9%A6%99%E7%85%8E%E9%B8%A1%E7%BF%85/</link>
         <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
@@ -217,8 +702,7 @@
 &lt;/h3&gt;&lt;p&gt;番茄酱、盐、白糖、玉米淀粉。&lt;/p&gt;
 &lt;h2 id=&#34;步骤&#34;&gt;步骤
 &lt;/h2&gt;&lt;h3 id=&#34;备菜&#34;&gt;备菜
-&lt;/h3&gt;&lt;p&gt;几颗大蒜切片。&lt;/p&gt;
-&lt;p&gt;小葱切成葱花。&lt;/p&gt;
+&lt;/h3&gt;&lt;p&gt;大蒜切片，小葱切成葱花。&lt;/p&gt;
 &lt;p&gt;玉米淀粉加入 1.5 倍清水制成淀粉水。&lt;/p&gt;
 &lt;p&gt;1 个番茄打上十字花刀，用火烧一下或者用开水烫一下，剥去外皮（不介意口感的话也可以不剥）。&lt;/p&gt;
 &lt;p&gt;3 ~ 4 个鸡蛋打入碗中，加入半茶匙盐、半茶匙胡椒粉，搅散备用。&lt;/p&gt;
@@ -233,7 +717,7 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;大火&lt;/td&gt;
-&lt;td&gt;冷锅放入用许油，润锅之后将锅和油一起烧热至油轻微冒烟（240 ℃ 以上）。&lt;/td&gt;
+&lt;td&gt;冷锅放入少许油，润锅之后将锅和油一起烧热至油轻微冒烟（240 ℃ 以上）。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;大火&lt;/td&gt;
@@ -350,7 +834,7 @@
 &lt;/h3&gt;&lt;p&gt;大葱、蒜苗、红尖椒切段。&lt;/p&gt;
 &lt;p&gt;五花肉最好是整块的。&lt;/p&gt;
 &lt;p&gt;猪皮上的毛用火或者在锅中烫一下，然后用刀刮干、洗净。&lt;/p&gt;
-&lt;p&gt;锅中放水，下入葱段、八角、花椒，下入整块的五花肉，大火将五花肉煮至微熟，判断标准为可以将筷子插入肉中。&lt;/p&gt;
+&lt;p&gt;锅中放水，下入葱段、八角、花椒，下入整块的五花肉，大火将五花肉煮至微熟，判断标准为可以将筷子轻松插入肉中。&lt;/p&gt;
 &lt;p&gt;等五花肉凉了之后，将五花肉切成片（尽量薄一点）。&lt;/p&gt;
 &lt;h3 id=&#34;炒制&#34;&gt;炒制
 &lt;/h3&gt;&lt;table&gt;
@@ -366,34 +850,34 @@
 &lt;td&gt;将锅烧热。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;-&amp;gt; 小火&lt;/td&gt;
+&lt;td&gt;-&amp;gt; 中火&lt;/td&gt;
 &lt;td&gt;放油润锅，然后倒掉多余的油。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;小火&lt;/td&gt;
-&lt;td&gt;锅中不再倒油，下入切好的五花肉，小火煸出油脂（可以倒入多余的油匀之后炒菜用）。&lt;/td&gt;
+&lt;td&gt;中火&lt;/td&gt;
+&lt;td&gt;锅中不再倒油，下入切好的五花肉，小火煸出油脂（可以倒出多余的油匀之后炒菜用）。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;小火&lt;/td&gt;
+&lt;td&gt;大火&lt;/td&gt;
 &lt;td&gt;中间留一个位置出来，下入 1 勺豆瓣酱，炒出红油，然后和肉翻拌均匀。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;小火&lt;/td&gt;
+&lt;td&gt;大火&lt;/td&gt;
 &lt;td&gt;下入甜面酱，炒匀。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;小火&lt;/td&gt;
+&lt;td&gt;大火&lt;/td&gt;
 &lt;td&gt;加入少许味精、白糖调味。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;小火&lt;/td&gt;
+&lt;td&gt;大火&lt;/td&gt;
 &lt;td&gt;下入蒜苗和红尖椒，翻炒均匀即可出锅。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;注意事项&#34;&gt;注意事项
 &lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;猪肉放锅中煮的时候不是单纯焯水，因此需要盖盖。&lt;/li&gt;
 &lt;/ol&gt;
 </description>
         </item>
@@ -640,29 +1124,86 @@
         <guid>http://localhost:1313/blog/p/%E8%82%89%E6%B2%AB%E8%92%B8%E8%9B%8B/</guid>
         <description>&lt;h2 id=&#34;食材与调料&#34;&gt;食材与调料
 &lt;/h2&gt;&lt;h3 id=&#34;食材&#34;&gt;食材
-&lt;/h3&gt;&lt;p&gt;鸡蛋、瘦肉、生姜、大蒜、小葱。&lt;/p&gt;
+&lt;/h3&gt;&lt;p&gt;鸡蛋、瘦肉/五花肉、生姜、大蒜、小葱。&lt;/p&gt;
 &lt;h3 id=&#34;调料&#34;&gt;调料
 &lt;/h3&gt;&lt;p&gt;盐、白醋、生抽、老抽、味精。&lt;/p&gt;
 &lt;h2 id=&#34;步骤&#34;&gt;步骤
-&lt;/h2&gt;&lt;h3 id=&#34;蒸鸡蛋&#34;&gt;蒸鸡蛋
+&lt;/h2&gt;&lt;h3 id=&#34;备菜&#34;&gt;备菜
 &lt;/h3&gt;&lt;p&gt;碗中打入 4 个鸡蛋，加入少许盐、白醋搅拌均匀。&lt;/p&gt;
 &lt;p&gt;加入蛋液 1.5 倍体积的清水，再次搅匀备用。&lt;/p&gt;
-&lt;p&gt;放入蒸锅中用大火蒸 8 ~ 10 min。&lt;/p&gt;
-&lt;h3 id=&#34;备肉沫&#34;&gt;备肉沫
-&lt;/h3&gt;&lt;p&gt;瘦肉清洗之后切片、切丝、切沫。&lt;/p&gt;
-&lt;p&gt;生姜、大蒜切沫。&lt;/p&gt;
+&lt;p&gt;瘦肉清洗之后剁成肉沫。&lt;/p&gt;
+&lt;p&gt;生姜、大蒜切末，小葱切成葱花（注意葱白和葱绿分开切，葱绿在出锅时才放）。&lt;/p&gt;
 &lt;p&gt;一勺淀粉、1/3 碗清水调成水淀粉。&lt;/p&gt;
-&lt;p&gt;小葱切成葱花（注意葱白和葱绿分开切，葱绿在出锅时才放）。&lt;/p&gt;
-&lt;p&gt;此时取出蒸好的鸡蛋，划上几刀方便入味。&lt;/p&gt;
-&lt;p&gt;锅热放油，下入姜末、蒜末，小火炒香。&lt;/p&gt;
-&lt;p&gt;下入肉沫，小火将肉沫炒散、炒至变色。&lt;/p&gt;
-&lt;p&gt;加入少许的料酒，搅拌均匀，再加入少许的生抽、一点老抽炒出酱香味。&lt;/p&gt;
-&lt;p&gt;下入半碗清水、少许的盐和味精调味后转大火。&lt;/p&gt;
-&lt;p&gt;将水开后加入少许水淀粉进行勾芡。&lt;/p&gt;
-&lt;p&gt;煮至汤汁浓稠，下入葱绿，搅拌均匀，浇在蒸好的鸡蛋上，即可装盘。&lt;/p&gt;
+&lt;h3 id=&#34;蒸蛋&#34;&gt;蒸蛋
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;火候&lt;/th&gt;
+&lt;th&gt;操作&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;大火&lt;/td&gt;
+&lt;td&gt;将搅好的鸡蛋放入蒸锅中用大火蒸 8 ~ 10 min。（也可以直接在电饭煲中跟米饭一起蒸）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;炒肉沫&#34;&gt;炒肉沫
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;大火&lt;/th&gt;
+&lt;th&gt;将铁锅烧热。&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;大火&lt;/td&gt;
+&lt;td&gt;将锅烧热。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&amp;gt; 小火&lt;/td&gt;
+&lt;td&gt;下入少许底油。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;小火&lt;/td&gt;
+&lt;td&gt;下入姜末、蒜末，炒香。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;小火&lt;/td&gt;
+&lt;td&gt;下入肉沫，将肉沫炒散、炒至变色。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;小火&lt;/td&gt;
+&lt;td&gt;加入少许的料酒、生抽，一点老抽炒出酱香味。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;小火&lt;/td&gt;
+&lt;td&gt;下入半碗清水、少许的盐和味精调味。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&amp;gt; 大火&lt;/td&gt;
+&lt;td&gt;将水烧开。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;大火&lt;/td&gt;
+&lt;td&gt;加入少许水淀粉进行勾芡。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;大火&lt;/td&gt;
+&lt;td&gt;煮至汤汁浓稠，下入葱绿，搅拌均匀。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;关火&lt;/td&gt;
+&lt;td&gt;取出蒸好的鸡蛋羹，划上几刀，然后将肉沫浇在蛋羹上即可。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;h2 id=&#34;注意事项&#34;&gt;注意事项
 &lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;在蒸蛋之前己经加入了一些盐，所以在备肉沫的时候可以少下一点盐。&lt;/li&gt;
+&lt;li&gt;瘦肉中夹一点五花肉，肥瘦相间更好吃。&lt;/li&gt;
 &lt;/ol&gt;
 </description>
         </item>
@@ -983,15 +1524,26 @@
         <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/p/%E6%AC%A7-%E4%BA%A8%E5%88%A9%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
-        <description>&lt;h2 id=&#34;麦吉的礼物&#34;&gt;麦吉的礼物
+        <description>&lt;h2 id=&#34;01-麦吉的礼物&#34;&gt;01 麦吉的礼物
 &lt;/h2&gt;&lt;p&gt;这篇故事主要讲述了一对公寓里相爱却贫困的夫妇吉姆和黛拉，为了给对方买最心爱的礼物，都卖掉了自己最有价值的东西——吉姆卖掉了自己珍视的怀表，黛拉卖掉了自己引以为傲的长发。然而他们给互相买的礼物，却恰恰需要这些东西作为基础——黛拉为吉姆的怀表买了一个用于装饰的长链，而吉姆为黛拉的秀发买了一支昴贵的梳子。让人感慨意外的同时，也为他们的真爱而感动。&lt;/p&gt;
-&lt;h2 id=&#34;最后一片叶子&#34;&gt;最后一片叶子
+&lt;h2 id=&#34;02-最后一片叶子&#34;&gt;02 最后一片叶子
 &lt;/h2&gt;&lt;p&gt;这篇故事主要讲述了一位罹患肺炎的女孩约翰斯因窗外藤蔓的叶子即将掉光，触景生情，对生活也失去了信心，却不曾想即便经历了一晚上的风吹雨打，最后一片叶子仍然未被吹掉，于是又重拾活下去的勇气，在病好了之后，发现原来这片叶子是楼下同样患上肺炎的画家贝埃曼先生为了鼓励约翰斯而画的。&lt;/p&gt;
-&lt;h2 id=&#34;二十年之后&#34;&gt;二十年之后
+&lt;h2 id=&#34;03-二十年之后&#34;&gt;03 二十年之后
 &lt;/h2&gt;&lt;p&gt;这篇故事主要讲述了两个老朋友约定 20 年后相聚，其中一人成为了警察，却发现老友成为了墨西哥的通缉犯，不忍抓捕，于是让自己的另一个便衣同事代为抓捕的故事。&lt;/p&gt;
-&lt;h2 id=&#34;警察与国歌&#34;&gt;警察与国歌
+&lt;h2 id=&#34;04-警察与国歌&#34;&gt;04 警察与国歌
 &lt;/h2&gt;&lt;p&gt;这篇故事主要讲述了一个社会边缘人索比，尝试了各种方式犯罪打算被抓捕入狱，希望以此度过寒冷的冬天，结果都以失败告终。就在他心灰意冷坐在公园的长凳上时，却听到了教堂传来的美妙歌声，唤起了他内心的美好。然而正当他打算第二天去找一份正经的工作通过自己的双手来改变自己的人生，他却以游荡的名义被抓了起来，判以监禁 3 个月。&lt;/p&gt;
-</description>
+&lt;h2 id=&#34;05-爱的牺牲&#34;&gt;05 爱的牺牲
+&lt;/h2&gt;&lt;p&gt;这篇故事主要讲述了一对穷困潦倒的夫妇乔和迪莉雅为了追求艺术梦想来到纽约，却又不敌现实，无法通过艺术进行谋生。一方面不想让另一半轻易放弃自己的梦想，另一方面又要继续生活，于是他们互相隐瞒实情，各自一边假装自己仍在做着艺术相关的工作，另一方面做其它的工作以营生，直到某次迪莉雅生病了才互相坦露实情，让人为他们的爱情唏嘘不已。&lt;/p&gt;
+&lt;h2 id=&#34;06-汽车等待的时候&#34;&gt;06 汽车等待的时候
+&lt;/h2&gt;&lt;p&gt;这篇文章主要讲述了一名男子在公园中闲逛时偶遇了一名坐在长凳上的女子。女子声称自己是贵族，想要体验平民的生活，并且停在公园的拐角处的那辆豪华汽车也是她的。而男子声称自己是餐馆的一名出纳。他们真实的身份却刚好相反：女子是餐馆的出纳，而男子是贵族，并且那辆汽车也是男子的。这一结局非常具有讽刺意味。&lt;/p&gt;
+&lt;h2 id=&#34;07-证券经纪人的浪漫故事&#34;&gt;07 证券经纪人的浪漫故事
+&lt;/h2&gt;&lt;p&gt;这篇文章主要讲述了一名证劵经纪人麦克斯韦工作十分繁忙，却在百忙之中抽空向他的速记员下属莱斯莉求婚，结果发现原来昨天晚上八点他们就己经在教堂中举办了婚礼结了婚。文章探讨了过于痴迷工作可能存在的后果——容易忽视或者遗忘家庭、人际交往等生活中的重要方面。&lt;/p&gt;
+&lt;h2 id=&#34;08-带家具出租的房间&#34;&gt;08 带家具出租的房间
+&lt;/h2&gt;&lt;p&gt;本篇主要讲述了一名男子为了寻找失踪的至爱，在各个城市之中奔走。在某一家旅馆中，通过一些线索，意识到自己当前的这间屋子可能爱人也居住过，于是前去询问房东，却无果而终，顿感希望渺茫，生活也失去了动力，于是在屋子中自杀了。次日，房东们聚在一起讨论，前一阵子那个男子的房间有个女孩也自杀了。本文主要讨论了人们在孤独和无助的时候容易精神崩溃这个主旨。&lt;/p&gt;
+&lt;h2 id=&#34;09-幽默家的独白&#34;&gt;09 幽默家的独白
+&lt;/h2&gt;&lt;p&gt;本文通过一名男子以一名曾经的幽默家的身份，讲述了他从发现幽默天赋，到成为职业幽默作家，再到脱离幽默家身份的过程。在成为幽默作家之后，男子每时每刻都要想着好笑的东西，从别人身上取材，不再为了使人发笑而为之，这使他与周围的人以及家里的人关系变得很差。在某次与一名严肃行业的男子交谈过后，他幡然醒悟，回到了以前的行事写作风格，重新变得自然地轻松愉快，也因此改善了与邻里家人的关系。本文揭示了大众所看到的幽默背后可能付出的代价，也表明了当兴趣爱好变成职业之后所带来的痛苦。&lt;/p&gt;
+&lt;h2 id=&#34;10-菜单上的春天&#34;&gt;10 菜单上的春天
+&lt;/h2&gt;</description>
         </item>
         <item>
         <title>有用的提示词</title>
@@ -1009,6 +1561,10 @@
 &lt;li&gt;Only give me the output and nothing else.
 &amp;quot;&amp;quot;&amp;quot;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
+&lt;h2 id=&#34;知识性的书籍总结&#34;&gt;知识性的书籍总结
+&lt;/h2&gt;&lt;p&gt;我正在学习王爽的《汇编语言》。以下是我阅读完第一章之后对所学到的知识进行的陈述。请你暂时忽略 TODO 中所提出的问题，检查我总结的内容是否有错误。如果出现错误，请你指出；如果有更多需要补充的知识点，也请你告诉我。&lt;/p&gt;
+&lt;p&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
 &lt;p&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
 </description>
         </item>
@@ -2836,22 +3392,21 @@ maven 版本：3.9.1
 </description>
         </item>
         <item>
-        <title>简单链表</title>
-        <link>http://localhost:1313/blog/p/%E7%AE%80%E5%8D%95%E9%93%BE%E8%A1%A8/</link>
+        <title>21. 合并两个有序链表</title>
+        <link>http://localhost:1313/blog/p/21.-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8/</link>
         <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/p/%E7%AE%80%E5%8D%95%E9%93%BE%E8%A1%A8/</guid>
-        <description>&lt;h2 id=&#34;21-合并两个有序链表&#34;&gt;21. 合并两个有序链表
-&lt;/h2&gt;&lt;p&gt;题目链接：&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/merge-two-sorted-lists/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>http://localhost:1313/blog/p/21.-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8/</guid>
+        <description>&lt;p&gt;题目链接：&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/merge-two-sorted-lists/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;LeetCode 21. 合并两个有序链表&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;方法1链表--双指针&#34;&gt;方法1：链表 + 双指针
-&lt;/h3&gt;&lt;h4 id=&#34;思路&#34;&gt;思路
-&lt;/h4&gt;&lt;ol&gt;
+&lt;h2 id=&#34;方法1链表--双指针&#34;&gt;方法1：链表 + 双指针
+&lt;/h2&gt;&lt;h3 id=&#34;思路&#34;&gt;思路
+&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;创建一个 cur 作为新链表，list1 和 list2 不断比较，cur根据比较的大小随之更新。&lt;/li&gt;
 &lt;li&gt;最后还需要把剩余的链表接上。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&#34;代码&#34;&gt;代码
-&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;h3 id=&#34;代码&#34;&gt;代码
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -2879,19 +3434,19 @@ maven 版本：3.9.1
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;dum&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;next&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h4 id=&#34;复杂度&#34;&gt;复杂度
-&lt;/h4&gt;&lt;ul&gt;
+&lt;/div&gt;&lt;h3 id=&#34;复杂度&#34;&gt;复杂度
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;时间复杂度：$O(m + n)$，遍历 2 个链表花费的时间。&lt;/li&gt;
 &lt;li&gt;空间复杂度：$O(1)$，只使用了 cur 和 dum 常数空间。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;方法-2递归&#34;&gt;方法 2：递归
-&lt;/h3&gt;&lt;h4 id=&#34;思路-1&#34;&gt;思路
-&lt;/h4&gt;&lt;ol&gt;
+&lt;h2 id=&#34;方法-2递归&#34;&gt;方法 2：递归
+&lt;/h2&gt;&lt;h3 id=&#34;思路-1&#34;&gt;思路
+&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;每一层要做的事：重新为较小的节点挑选下家，例如 list1 比较小，则需要看 list1 是继续接list1.next 还是接剩下的 list2。&lt;/li&gt;
 &lt;li&gt;然后把修改完毕的链表返回。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&#34;代码-1&#34;&gt;代码
-&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;h3 id=&#34;代码-1&#34;&gt;代码
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -2917,8 +3472,8 @@ maven 版本：3.9.1
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;list2&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h4 id=&#34;复杂度-1&#34;&gt;复杂度
-&lt;/h4&gt;&lt;ul&gt;
+&lt;/div&gt;&lt;h3 id=&#34;复杂度-1&#34;&gt;复杂度
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;时间复杂度：$O(m + n)$。每次递归只少了一个元素，把两个链表都遍历完需要 m + n 次，每层的时间花费只要 $O(1)$，因此总共 $O(m + n)$。&lt;/li&gt;
 &lt;li&gt;空间复杂度：$O(m + n)$。到终止条件返回时，一共压了 m + n 个栈帧。&lt;/li&gt;
 &lt;/ul&gt;

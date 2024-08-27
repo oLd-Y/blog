@@ -7,7 +7,62 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 26 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>3264. K 次乘运算后的最终数组 I</title>
+        <link>http://localhost:1313/blog/p/3264.-k-%E6%AC%A1%E4%B9%98%E8%BF%90%E7%AE%97%E5%90%8E%E7%9A%84%E6%9C%80%E7%BB%88%E6%95%B0%E7%BB%84-i/</link>
+        <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/3264.-k-%E6%AC%A1%E4%B9%98%E8%BF%90%E7%AE%97%E5%90%8E%E7%9A%84%E6%9C%80%E7%BB%88%E6%95%B0%E7%BB%84-i/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/final-array-state-after-k-multiplication-operations-i/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;题目链接&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;方法-1直接模拟&#34;&gt;方法 1：直接模拟
+&lt;/h2&gt;&lt;h3 id=&#34;思路&#34;&gt;思路
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;根据题意，直接执行 &lt;code&gt;k&lt;/code&gt; 次，每次将当前数组中最小的元素 &lt;code&gt;x&lt;/code&gt; 替换为 &lt;code&gt;x * multipler&lt;/code&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;代码&#34;&gt;代码
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;Solution&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;getFinalState&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nums&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;List&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;List&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;_&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;range&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;nums&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;nums&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;index&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;nums&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;m&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nums&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;复杂度&#34;&gt;复杂度
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;时间复杂度：&lt;code&gt;O(k)&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;空间复杂度：&lt;code&gt;O(1)&lt;/code&gt;，没有用到额外的空间。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>汇编语言 读书笔记</title>
+        <link>http://localhost:1313/blog/p/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+        <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+        <description>&lt;h2 id=&#34;第-1-章-基础知识&#34;&gt;第 1 章 基础知识
+&lt;/h2&gt;&lt;p&gt;在汇编层面，指令和数据别无二致，都是一堆二进制数据。&lt;/p&gt;
+&lt;p&gt;TODO 那么，CPU 是如何分辨此时的二进制代码应当识别为数据还是指令呢？&lt;/p&gt;
+&lt;p&gt;CPU 和内存共同组成了计算机的“大脑”，二者之间通过总线进行连接。总线根据用途，可以分为：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;用于 CPU 告诉内存要取的数据地址的&lt;strong&gt;地址线&lt;/strong&gt;；&lt;/li&gt;
+&lt;li&gt;用于内存向 CPU 传递数据的&lt;strong&gt;数据线&lt;/strong&gt;；&lt;/li&gt;
+&lt;li&gt;用于 CPU 向内存传递读写指令的&lt;strong&gt;控制线&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;CPU 的所有指令以及数据，都是通过总线在内存中进行访问的，但物理上各种数据的存储又是分开的，比如显卡的显存，主存储器的 RAM 等（这些都是运行时的内存）。因此，很容易联想到，这些物理上的内存一定通过某种方式联系了起来，供 CPU 使用。具体表现为，CPU 使用的是虚拟内存地址，将逻辑地址映射到物理地址上。TODO 通过什么方法做到映射的？&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>有用的提示词</title>
         <link>http://localhost:1313/blog/p/%E6%9C%89%E7%94%A8%E7%9A%84%E6%8F%90%E7%A4%BA%E8%AF%8D/</link>
         <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
@@ -23,6 +78,10 @@
 &lt;li&gt;Only give me the output and nothing else.
 &amp;quot;&amp;quot;&amp;quot;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
+&lt;h2 id=&#34;知识性的书籍总结&#34;&gt;知识性的书籍总结
+&lt;/h2&gt;&lt;p&gt;我正在学习王爽的《汇编语言》。以下是我阅读完第一章之后对所学到的知识进行的陈述。请你暂时忽略 TODO 中所提出的问题，检查我总结的内容是否有错误。如果出现错误，请你指出；如果有更多需要补充的知识点，也请你告诉我。&lt;/p&gt;
+&lt;p&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
 &lt;p&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
 </description>
         </item>
@@ -1216,22 +1275,21 @@ maven 版本：3.9.1
 </description>
         </item>
         <item>
-        <title>简单链表</title>
-        <link>http://localhost:1313/blog/p/%E7%AE%80%E5%8D%95%E9%93%BE%E8%A1%A8/</link>
+        <title>21. 合并两个有序链表</title>
+        <link>http://localhost:1313/blog/p/21.-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8/</link>
         <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/p/%E7%AE%80%E5%8D%95%E9%93%BE%E8%A1%A8/</guid>
-        <description>&lt;h2 id=&#34;21-合并两个有序链表&#34;&gt;21. 合并两个有序链表
-&lt;/h2&gt;&lt;p&gt;题目链接：&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/merge-two-sorted-lists/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>http://localhost:1313/blog/p/21.-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8/</guid>
+        <description>&lt;p&gt;题目链接：&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/merge-two-sorted-lists/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;LeetCode 21. 合并两个有序链表&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;方法1链表--双指针&#34;&gt;方法1：链表 + 双指针
-&lt;/h3&gt;&lt;h4 id=&#34;思路&#34;&gt;思路
-&lt;/h4&gt;&lt;ol&gt;
+&lt;h2 id=&#34;方法1链表--双指针&#34;&gt;方法1：链表 + 双指针
+&lt;/h2&gt;&lt;h3 id=&#34;思路&#34;&gt;思路
+&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;创建一个 cur 作为新链表，list1 和 list2 不断比较，cur根据比较的大小随之更新。&lt;/li&gt;
 &lt;li&gt;最后还需要把剩余的链表接上。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&#34;代码&#34;&gt;代码
-&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;h3 id=&#34;代码&#34;&gt;代码
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -1259,19 +1317,19 @@ maven 版本：3.9.1
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;dum&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;next&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h4 id=&#34;复杂度&#34;&gt;复杂度
-&lt;/h4&gt;&lt;ul&gt;
+&lt;/div&gt;&lt;h3 id=&#34;复杂度&#34;&gt;复杂度
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;时间复杂度：$O(m + n)$，遍历 2 个链表花费的时间。&lt;/li&gt;
 &lt;li&gt;空间复杂度：$O(1)$，只使用了 cur 和 dum 常数空间。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;方法-2递归&#34;&gt;方法 2：递归
-&lt;/h3&gt;&lt;h4 id=&#34;思路-1&#34;&gt;思路
-&lt;/h4&gt;&lt;ol&gt;
+&lt;h2 id=&#34;方法-2递归&#34;&gt;方法 2：递归
+&lt;/h2&gt;&lt;h3 id=&#34;思路-1&#34;&gt;思路
+&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;每一层要做的事：重新为较小的节点挑选下家，例如 list1 比较小，则需要看 list1 是继续接list1.next 还是接剩下的 list2。&lt;/li&gt;
 &lt;li&gt;然后把修改完毕的链表返回。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&#34;代码-1&#34;&gt;代码
-&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;h3 id=&#34;代码-1&#34;&gt;代码
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -1297,8 +1355,8 @@ maven 版本：3.9.1
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;list2&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h4 id=&#34;复杂度-1&#34;&gt;复杂度
-&lt;/h4&gt;&lt;ul&gt;
+&lt;/div&gt;&lt;h3 id=&#34;复杂度-1&#34;&gt;复杂度
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;时间复杂度：$O(m + n)$。每次递归只少了一个元素，把两个链表都遍历完需要 m + n 次，每层的时间花费只要 $O(1)$，因此总共 $O(m + n)$。&lt;/li&gt;
 &lt;li&gt;空间复杂度：$O(m + n)$。到终止条件返回时，一共压了 m + n 个栈帧。&lt;/li&gt;
 &lt;/ul&gt;

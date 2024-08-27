@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3264. K 次乘运算后的最终数组 I/index.zh-cn.md",
+                "file": "Hugo 主题 Stack 使用问题汇总/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3264. K 次乘运算后的最终数组 I/index.zh-cn.md",
+                "file": "欧 · 亨利短篇小说 读书笔记/index.en.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3264. K 次乘运算后的最终数组 I/index.zh-cn.md",
+                "file": "欧 · 亨利短篇小说 读书笔记/index.en.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +224,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3264. K 次乘运算后的最终数组 I/index.zh-cn.md"
+                "file": "欧 · 亨利短篇小说 读书笔记/index.en.md"
               }
             }
           },
@@ -293,11 +293,13 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "Hugo 主题 Stack 使用问题汇总/index.zh-cn.md",
+    "3264. K 次乘运算后的最终数组 I/index.zh-cn.md",
+    "Hugo 主题 Stack 使用问题汇总",
     "人是不可以不说话的/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
     "fd（fd-find）用法汇总/index.zh-cn.md",
     "人是不可以不说话的",
-    "3264. K 次乘运算后的最终数组 I/index.zh-cn.md",
     "21. 合并两个有序链表/index.zh-cn.md",
     "汇编语言 读书笔记/index.zh-cn.md",
     "汇编语言 读书笔记/Drawing 2024-08-26 19.46.42.excalidraw.md",
@@ -324,11 +326,9 @@
     "鲫鱼肉片羹/index.zh-cn.md",
     "鲫鱼豆腐汤",
     "粉蒸肉/index.zh-cn.md",
-    "红烧肉/index.zh-cn.md",
     "粉蒸肉",
     "红烧肉",
     "馒头",
-    "椒盐五花肉",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
