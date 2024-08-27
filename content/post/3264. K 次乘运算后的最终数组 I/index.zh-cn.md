@@ -8,8 +8,8 @@ date: 2024-08-26
 description: 
 image: 
 weight: 1
-draft: true
-lastmod: 2024-08-26T11:19:05+08:00
+draft: false
+lastmod: 2024-08-26T20:23:53+08:00
 ---
 [题目链接](https://leetcode.cn/problems/final-array-state-after-k-multiplication-operations-i/)
 

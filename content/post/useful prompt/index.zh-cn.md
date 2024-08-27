@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-26T20:12:25+08:00
+lastmod: 2024-08-26T20:15:56+08:00
 ---
 ## 提高英语
 
@@ -24,4 +24,8 @@ I will give you text content which is wrapped by 3 double quotes, you need to re
 
 ## 知识性的书籍总结
 
-我正在学习王
+我正在学习王爽的《汇编语言》。以下是我阅读完第一章之后对所学到的知识进行的陈述。请你暂时忽略 TODO 中所提出的问题，检查我总结的内容是否有错误。如果出现错误，请你指出；如果有更多需要补充的知识点，也请你告诉我。
+
+"""
+
+"""

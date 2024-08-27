@@ -30,6 +30,30 @@
             }
           },
           {
+            "id": "54c8ed91b7efbade",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "21. 合并两个有序链表/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f88ffa25b719803f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3264. K 次乘运算后的最终数组 I/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d032c6399bdd0156",
             "type": "leaf",
             "state": {
@@ -86,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -132,8 +156,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -161,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "3264. K 次乘运算后的最终数组 I/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "3264. K 次乘运算后的最终数组 I/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +224,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "useful prompt/index.zh-cn.md"
+                "file": "3264. K 次乘运算后的最终数组 I/index.zh-cn.md"
               }
             }
           },
@@ -268,8 +291,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d032c6399bdd0156",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "人是不可以不说话的/index.zh-cn.md",
+    "useful prompt/index.zh-cn.md",
+    "fd（fd-find）用法汇总/index.zh-cn.md",
+    "人是不可以不说话的",
+    "3264. K 次乘运算后的最终数组 I/index.zh-cn.md",
+    "21. 合并两个有序链表/index.zh-cn.md",
     "汇编语言 读书笔记/index.zh-cn.md",
     "汇编语言 读书笔记/Drawing 2024-08-26 19.46.42.excalidraw.md",
     "汇编语言 读书笔记/test.excalidraw.md",
@@ -281,9 +310,7 @@
     "汇编语言 读书笔记",
     "葱烧豆腐/index.zh-cn.md",
     "豆腐煎鸡蛋",
-    "21. 合并两个有序链表/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
-    "3264. K 次乘运算后的最终数组 I/index.zh-cn.md",
     "_templates/templater/leetcode.md",
     "_templates/dairy.md",
     "3264. K 次乘运算后的最终数组 I",
@@ -299,13 +326,9 @@
     "粉蒸肉/index.zh-cn.md",
     "红烧肉/index.zh-cn.md",
     "粉蒸肉",
-    "馒头/index.zh-cn.md",
-    "糖醋排骨/index.zh-cn.md",
-    "_templates/templater/recipe.md",
     "红烧肉",
     "馒头",
     "椒盐五花肉",
-    "虾烧白菜",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
