@@ -35,26 +35,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.en.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "efc3e8c9545c5320",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "成长是分阶段的/index.zh-cn.md",
+                "file": "useful prompt/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -83,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "虾烧",
+                "query": "提示词",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -128,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "成长是分阶段的/index.zh-cn.md",
+                "file": "useful prompt/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "成长是分阶段的/index.zh-cn.md",
+                "file": "useful prompt/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "成长是分阶段的/index.zh-cn.md"
+                "file": "useful prompt/index.zh-cn.md"
               }
             }
           },
@@ -235,11 +224,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "ad56f7b23f0d60fe",
   "lastOpenFiles": [
-    "黄焖鸡/index.zh-cn.md",
+    "我可以不用，但不能没有/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.en.md",
+    "我可以不用，但不能没有",
     "成长是分阶段的/index.zh-cn.md",
+    "黄焖鸡/index.zh-cn.md",
     "虾烧白菜/index.zh-cn.md",
     "成长是分阶段的",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
@@ -271,8 +262,6 @@
     "3264. K 次乘运算后的最终数组 I",
     "红楼梦 读书笔记/index.zh-cn.md",
     "红楼梦 读书笔记",
-    "回锅肉/index.zh-cn.md",
-    "鲫鱼豆腐汤",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
