@@ -23,19 +23,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "黄焖鸡/index.zh-cn.md",
+                "file": "欧 · 亨利短篇小说 读书笔记/index.en.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ad56f7b23f0d60fe",
+            "id": "33104e8cde8d4513",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我可以不用，但不能没有/index.zh-cn.md",
+                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "提示词",
+                "query": "O Henrry",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,8 +88,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -117,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "我可以不用，但不能没有/index.zh-cn.md",
+                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "我可以不用，但不能没有/index.zh-cn.md",
+                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我可以不用，但不能没有/index.zh-cn.md"
+                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -224,12 +223,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ad56f7b23f0d60fe",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "useful prompt/index.zh-cn.md",
+    "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "黄焖鸡/index.zh-cn.md",
     "我可以不用，但不能没有/index.zh-cn.md",
-    "欧 · 亨利短篇小说 读书笔记/index.en.md",
+    "useful prompt/index.zh-cn.md",
     "我可以不用，但不能没有",
     "成长是分阶段的/index.zh-cn.md",
     "虾烧白菜/index.zh-cn.md",

@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-27T10:48:30+08:00
+lastmod: 2024-08-29T07:07:51+08:00
 ---
 ## 01 The Gift of the Magi
 
@@ -49,3 +49,6 @@ This article follows a man as a former humorist through his journey from discove
 ## 10 Springtime à La Carte
 
 This story is about a girl, Sarah, who is a menu typist at a restaurant, who pines for her beloved farmer, a man who has expressed his true feelings for her, but is terrified of their future because of the lack of contact they have had in recent days. One day at work, Sarah is distracted by her thoughts and types the wrong name for a menu item, “Dandelion Eggs”, but it is this mistake that Sarah's date, who happens to be in town looking for Sarah and eating at the restaurant, sees and recognizes.He asks the owner of the restaurant for Sarah's address, and the two lovers are reunited after a long time.
+
+## 11 The Mammon and the Archer
+
