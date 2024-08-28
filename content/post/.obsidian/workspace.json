@@ -54,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "黄焖鸡/index.zh-cn.md",
+                "file": "成长是分阶段的/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "黄焖鸡/index.zh-cn.md",
+                "file": "成长是分阶段的/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "黄焖鸡/index.zh-cn.md"
+                "file": "成长是分阶段的/index.zh-cn.md"
               }
             }
           },
@@ -237,13 +237,13 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "黄焖鸡/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "成长是分阶段的/index.zh-cn.md",
     "虾烧白菜/index.zh-cn.md",
     "成长是分阶段的",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
     "葱烧豆腐/index.zh-cn.md",
-    "黄焖鸡/index.zh-cn.md",
     "玉米排骨汤/index.zh-cn.md",
     "黄焖鸡",
     "汇编语言 读书笔记/index.zh-cn.md",
