@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "我可以不用，但不能没有/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "我可以不用，但不能没有/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "我可以不用，但不能没有/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "useful prompt/index.zh-cn.md"
+                "file": "我可以不用，但不能没有/index.zh-cn.md"
               }
             }
           },
@@ -226,11 +226,12 @@
   },
   "active": "ad56f7b23f0d60fe",
   "lastOpenFiles": [
+    "useful prompt/index.zh-cn.md",
+    "黄焖鸡/index.zh-cn.md",
     "我可以不用，但不能没有/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "我可以不用，但不能没有",
     "成长是分阶段的/index.zh-cn.md",
-    "黄焖鸡/index.zh-cn.md",
     "虾烧白菜/index.zh-cn.md",
     "成长是分阶段的",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
@@ -241,7 +242,6 @@
     "香菇肉片汤/index.zh-cn.md",
     "玉米排骨汤",
     "21. 合并两个有序链表/index.zh-cn.md",
-    "useful prompt/index.zh-cn.md",
     "汇编语言 读书笔记/Drawing 2024-08-26 19.46.42.excalidraw.md",
     "_excalidraw/704. 二分查找.excalidraw.md",
     "Hugo 主题 Stack 使用问题汇总/index.zh-cn.md",
