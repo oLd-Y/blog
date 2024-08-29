@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-29T07:07:51+08:00
+lastmod: 2024-08-29T16:01:38+08:00
 ---
 ## 01 The Gift of the Magi
 
@@ -51,4 +51,8 @@ This article follows a man as a former humorist through his journey from discove
 This story is about a girl, Sarah, who is a menu typist at a restaurant, who pines for her beloved farmer, a man who has expressed his true feelings for her, but is terrified of their future because of the lack of contact they have had in recent days. One day at work, Sarah is distracted by her thoughts and types the wrong name for a menu item, “Dandelion Eggs”, but it is this mistake that Sarah's date, who happens to be in town looking for Sarah and eating at the restaurant, sees and recognizes.He asks the owner of the restaurant for Sarah's address, and the two lovers are reunited after a long time.
 
 ## 11 The Mammon and the Archer
+
+This article is mainly about a retired rich businessman Anthony's son Richard fell in love with a girl Landry, but the girl is going to study in Europe tomorrow, and although he can have 6 ~ 8 minutes to spend with Landry before she meets her mother, he can not make his feelings clear in this short time, which makes him feel very helpless. So he confided this to his father. His father, Anthony, thought that money could solve everything, while Richard thought that money could not buy love. However, the next day, as they are traveling together to their starting point, a miracle occurs: there is an unprecedented traffic jam in the city, which gives Richard the opportunity to express his feelings, and the girl responds, and the lovers are united. But it turns out that the instigator of this event turns out to be Anthony's father. He used money to get the head of the street to arrange the big traffic jam. The archer in the title refers to Cupid, the god of love. This ending can't help but make people reflect deeply on the relationship between love and money.
+
+## 12 By Courier
 
