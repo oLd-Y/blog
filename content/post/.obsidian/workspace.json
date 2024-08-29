@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "33104e8cde8d4513",
+            "id": "252df86152a2791a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
+                "file": "鸡蛋清汤面/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "O Henrry",
+                "query": "紫菜",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -116,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
+                "file": "鸡蛋清汤面/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
+                "file": "鸡蛋清汤面/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md"
+                "file": "鸡蛋清汤面/index.zh-cn.md"
               }
             }
           },
@@ -223,10 +224,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "252df86152a2791a",
   "lastOpenFiles": [
-    "欧 · 亨利短篇小说 读书笔记/index.en.md",
+    "紫菜蛋花汤/index.zh-cn.md",
+    "花生酱拌面/index.zh-cn.md",
+    "凉拌秋葵/index.zh-cn.md",
+    "蚝油生菜/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
+    "花生酱拌面",
+    "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "黄焖鸡/index.zh-cn.md",
     "我可以不用，但不能没有/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
@@ -253,14 +259,9 @@
     "炒粉丝/index.zh-cn.md",
     "Untitled.md",
     "汇编语言 读书笔记/Drawing 2024-08-26 19.44.10.excalidraw.md",
-    "豆腐煎鸡蛋/index.zh-cn.md",
     "汇编语言 读书笔记",
     "豆腐煎鸡蛋",
-    "_templates/templater/leetcode.md",
-    "_templates/dairy.md",
     "3264. K 次乘运算后的最终数组 I",
-    "红楼梦 读书笔记/index.zh-cn.md",
-    "红楼梦 读书笔记",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",

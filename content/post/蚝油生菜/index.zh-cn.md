@@ -3,13 +3,13 @@ title: 蚝油生菜
 categories: 美食
 tags:
   - 菜谱
-  - 凉拌
+  - 拌菜
 date: 2024-08-01
 description: 
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-03T16:03:20+08:00
+lastmod: 2024-08-29T19:09:26+08:00
 ---
 ## 食材与调料
 

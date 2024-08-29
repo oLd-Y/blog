@@ -3,13 +3,13 @@ title: 凉拌秋葵
 categories: 美食
 tags:
   - 菜谱
-  - 凉拌
+  - 拌菜
 date: 2024-07-29
 description: 
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-01T13:02:15+08:00
+lastmod: 2024-08-29T19:09:34+08:00
 ---
 
 
