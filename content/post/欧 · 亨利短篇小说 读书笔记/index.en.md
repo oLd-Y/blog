@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-29T16:01:38+08:00
+lastmod: 2024-08-30T07:45:02+08:00
 ---
 ## 01 The Gift of the Magi
 
@@ -56,3 +56,4 @@ This article is mainly about a retired rich businessman Anthony's son Richard fe
 
 ## 12 By Courier
 
+The story of this article unfolds in a dilapidated park and focuses on a couple who are estranged due to a misunderstanding, resulting in the woman being distant and unwilling to communicate with the man, but ultimately resolving the misunderstanding through a young boy who acts as a messenger(courier), relaying messages to each other.
