@@ -54,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.en.md",
+                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.en.md",
+                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.en.md"
+                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -235,11 +235,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "1cabcf00328ecc39",
   "lastOpenFiles": [
+    "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
     "鸡蛋清汤面/index.zh-cn.md",
-    "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "紫菜蛋花汤/index.zh-cn.md",
     "花生酱拌面/index.zh-cn.md",
     "凉拌秋葵/index.zh-cn.md",
