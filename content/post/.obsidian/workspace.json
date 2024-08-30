@@ -28,33 +28,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1cabcf00328ecc39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fe4198e517f4de88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.en.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
+                "file": "鸡蛋清汤面/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
+                "file": "鸡蛋清汤面/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md"
+                "file": "鸡蛋清汤面/index.zh-cn.md"
               }
             }
           },
@@ -235,11 +211,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1cabcf00328ecc39",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "欧 · 亨利短篇小说 读书笔记/index.en.md",
-    "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
+    "荒谬，但不是多数/index.zh-cn.md",
     "鸡蛋清汤面/index.zh-cn.md",
+    "荒谬，但不是多数",
+    "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
+    "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "紫菜蛋花汤/index.zh-cn.md",
     "花生酱拌面/index.zh-cn.md",
     "凉拌秋葵/index.zh-cn.md",
@@ -269,10 +247,8 @@
     "人是不可以不说话的",
     "汇编语言 读书笔记/test.excalidraw.md",
     "炒粉丝/index.zh-cn.md",
-    "Untitled.md",
     "汇编语言 读书笔记",
     "豆腐煎鸡蛋",
-    "3264. K 次乘运算后的最终数组 I",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
