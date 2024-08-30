@@ -42,7 +42,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reading notes -《Atomatic Habits》.md",
+                "file": "鸡蛋清汤面/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "reading notes -《Atomatic Habits》.md",
+                "file": "鸡蛋清汤面/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "reading notes -《Atomatic Habits》.md"
+                "file": "鸡蛋清汤面/index.zh-cn.md"
               }
             }
           },
@@ -225,6 +225,7 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "reading notes -《Atomatic Habits》.md",
     "鸡蛋清汤面/index.zh-cn.md",
     "荒谬，但不是多数/index.zh-cn.md",
     "荒谬，但不是多数",
@@ -258,7 +259,6 @@
     "fd（fd-find）用法汇总/index.zh-cn.md",
     "人是不可以不说话的",
     "汇编语言 读书笔记/test.excalidraw.md",
-    "炒粉丝/index.zh-cn.md",
     "汇编语言 读书笔记",
     "豆腐煎鸡蛋",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
