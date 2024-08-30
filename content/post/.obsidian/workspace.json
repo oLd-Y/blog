@@ -28,9 +28,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0f710e6cdacbfe03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "reading notes -《Atomatic Habits》.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -104,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "鸡蛋清汤面/index.zh-cn.md",
+                "file": "reading notes -《Atomatic Habits》.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "鸡蛋清汤面/index.zh-cn.md",
+                "file": "reading notes -《Atomatic Habits》.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "鸡蛋清汤面/index.zh-cn.md"
+                "file": "reading notes -《Atomatic Habits》.md"
               }
             }
           },
@@ -213,8 +225,8 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "荒谬，但不是多数/index.zh-cn.md",
     "鸡蛋清汤面/index.zh-cn.md",
+    "荒谬，但不是多数/index.zh-cn.md",
     "荒谬，但不是多数",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.en.md",
