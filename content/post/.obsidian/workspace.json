@@ -18,6 +18,18 @@
             }
           },
           {
+            "id": "90fd2dd840c4a4b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "宫保鸡丁/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "252df86152a2791a",
             "type": "leaf",
             "state": {
@@ -116,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "鸡蛋清汤面/index.zh-cn.md",
+                "file": "宫保鸡丁/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "鸡蛋清汤面/index.zh-cn.md",
+                "file": "宫保鸡丁/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "鸡蛋清汤面/index.zh-cn.md"
+                "file": "宫保鸡丁/index.zh-cn.md"
               }
             }
           },
@@ -225,8 +237,9 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "reading notes -《Atomatic Habits》.md",
+    "肉沫蒸蛋/index.zh-cn.md",
     "鸡蛋清汤面/index.zh-cn.md",
+    "reading notes -《Atomatic Habits》.md",
     "荒谬，但不是多数/index.zh-cn.md",
     "荒谬，但不是多数",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
@@ -258,7 +271,6 @@
     "人是不可以不说话的/index.zh-cn.md",
     "fd（fd-find）用法汇总/index.zh-cn.md",
     "人是不可以不说话的",
-    "汇编语言 读书笔记/test.excalidraw.md",
     "汇编语言 读书笔记",
     "豆腐煎鸡蛋",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
