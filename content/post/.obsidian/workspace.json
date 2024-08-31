@@ -18,30 +18,19 @@
             }
           },
           {
-            "id": "252df86152a2791a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "鸡蛋清汤面/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0f710e6cdacbfe03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reading notes -《Atomatic Habits》.md",
+                "file": "粉蒸肉/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "紫菜",
+                "query": "粉蒸肉",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +76,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -115,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "粉蒸肉/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,6 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "粉蒸肉/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +144,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "粉蒸肉/index.zh-cn.md"
+              }
             }
           },
           {
@@ -218,14 +212,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a1d860be41836d9e",
+  "active": "0f710e6cdacbfe03",
   "lastOpenFiles": [
+    "《刀锋》读书笔记/index.zh-cn.md",
+    "reading notes -《Atomatic Habits》.md",
+    "《刀锋》读书笔记",
     "日更太难了/index.zh-cn.md",
     "宫保鸡丁/index.zh-cn.md",
     "日更太难了",
     "肉沫蒸蛋/index.zh-cn.md",
     "鸡蛋清汤面/index.zh-cn.md",
-    "reading notes -《Atomatic Habits》.md",
     "荒谬，但不是多数/index.zh-cn.md",
     "荒谬，但不是多数",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
@@ -252,10 +248,8 @@
     "汇编语言 读书笔记/Drawing 2024-08-26 19.46.42.excalidraw.md",
     "_excalidraw/704. 二分查找.excalidraw.md",
     "Hugo 主题 Stack 使用问题汇总/index.zh-cn.md",
-    "3264. K 次乘运算后的最终数组 I/index.zh-cn.md",
     "Hugo 主题 Stack 使用问题汇总",
     "人是不可以不说话的",
-    "汇编语言 读书笔记",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
