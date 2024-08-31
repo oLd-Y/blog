@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 两数之和/index.zh-cn.md",
+                "file": "荒谬，但不是多数/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -59,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "粉蒸肉",
+                "query": "荒",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 两数之和/index.zh-cn.md",
+                "file": "荒谬，但不是多数/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 两数之和/index.zh-cn.md",
+                "file": "荒谬，但不是多数/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 两数之和/index.zh-cn.md"
+                "file": "荒谬，但不是多数/index.zh-cn.md"
               }
             }
           },
@@ -214,13 +214,15 @@
   },
   "active": "0f710e6cdacbfe03",
   "lastOpenFiles": [
+    "日更太难了/index.zh-cn.md",
+    "reading notes -《Atomatic Habits》.md",
+    "《刀锋》读书笔记/index.zh-cn.md",
+    "遗忘令人崩溃/index.zh-cn.md",
+    "遗忘令人崩溃",
     "粉蒸肉/index.zh-cn.md",
     "1. 两数之和/index.zh-cn.md",
     "1. 两数之和",
-    "《刀锋》读书笔记/index.zh-cn.md",
-    "reading notes -《Atomatic Habits》.md",
     "《刀锋》读书笔记",
-    "日更太难了/index.zh-cn.md",
     "宫保鸡丁/index.zh-cn.md",
     "日更太难了",
     "肉沫蒸蛋/index.zh-cn.md",
@@ -248,8 +250,6 @@
     "香菇肉片汤/index.zh-cn.md",
     "玉米排骨汤",
     "21. 合并两个有序链表/index.zh-cn.md",
-    "汇编语言 读书笔记/Drawing 2024-08-26 19.46.42.excalidraw.md",
-    "Hugo 主题 Stack 使用问题汇总",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",

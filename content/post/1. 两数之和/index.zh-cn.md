@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-31T16:17:00+08:00
+lastmod: 2024-08-31T16:30:19+08:00
 ---
 [题目链接](https://leetcode.cn/problems/two-sum/description/?envType=study-plan-v2&envId=top-100-liked)
 
@@ -49,14 +49,14 @@ class Solution:
 ```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        n = len(nums)
-        for i in range(n):
-            for j in range(i + 1, n):
-                if nums[i] + nums[j] == target:
-                    return [i, j]
+        h = dict()
+        for i, num in enumerate(nums):
+            if target - num in h:
+                return [h[target - num], i]
+            h[num] = i
         return []
 ```
 
 ### 复杂度
-- 时间复杂度：
-- 空间复杂度：
+- 时间复杂度：`O(N)`，一次遍历。
+- 空间复杂度：`O(N)`，哈希表产生的开销。
