@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "理想和现实总有差距/index.zh-cn.md",
+                "file": "红烧肉/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -59,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "红楼",
+                "query": "红烧",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "理想和现实总有差距/index.zh-cn.md",
+                "file": "红烧肉/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "理想和现实总有差距/index.zh-cn.md",
+                "file": "红烧肉/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "理想和现实总有差距/index.zh-cn.md"
+                "file": "红烧肉/index.zh-cn.md"
               }
             }
           },
@@ -214,8 +214,8 @@
   },
   "active": "0f710e6cdacbfe03",
   "lastOpenFiles": [
-    "红楼梦 读书笔记/index.zh-cn.md",
     "理想和现实总有差距/index.zh-cn.md",
+    "红楼梦 读书笔记/index.zh-cn.md",
     "理想和现实总有差距",
     "荒谬，但不是多数/index.zh-cn.md",
     "日更太难了/index.zh-cn.md",
