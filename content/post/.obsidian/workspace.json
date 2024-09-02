@@ -88,8 +88,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -224,7 +223,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0f710e6cdacbfe03",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
     "没有目标，人就会趋于颓唐/index.zh-cn.md",
     "红烧肉/index.zh-cn.md",
