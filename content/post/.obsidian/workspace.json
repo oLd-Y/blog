@@ -28,9 +28,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6b54873ac4f3b32e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -76,8 +88,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -105,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "红烧肉/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "红烧肉/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "红烧肉/index.zh-cn.md"
+                "file": "《刀锋》读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -212,8 +223,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0f710e6cdacbfe03",
+  "active": "6b54873ac4f3b32e",
   "lastOpenFiles": [
+    "红烧肉/index.zh-cn.md",
     "理想和现实总有差距/index.zh-cn.md",
     "红楼梦 读书笔记/index.zh-cn.md",
     "理想和现实总有差距",
@@ -249,7 +261,6 @@
     "葱烧豆腐/index.zh-cn.md",
     "玉米排骨汤/index.zh-cn.md",
     "黄焖鸡",
-    "汇编语言 读书笔记/index.zh-cn.md",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
