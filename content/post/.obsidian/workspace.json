@@ -42,7 +42,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "红烧肉/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "红烧肉/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md"
+                "file": "红烧肉/index.zh-cn.md"
               }
             }
           },
@@ -223,8 +223,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6b54873ac4f3b32e",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "《刀锋》读书笔记/index.zh-cn.md",
     "红烧肉/index.zh-cn.md",
     "理想和现实总有差距/index.zh-cn.md",
     "红楼梦 读书笔记/index.zh-cn.md",
@@ -232,7 +233,6 @@
     "荒谬，但不是多数/index.zh-cn.md",
     "日更太难了/index.zh-cn.md",
     "reading notes -《Atomatic Habits》.md",
-    "《刀锋》读书笔记/index.zh-cn.md",
     "遗忘令人崩溃/index.zh-cn.md",
     "遗忘令人崩溃",
     "粉蒸肉/index.zh-cn.md",
