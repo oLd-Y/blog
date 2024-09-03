@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "49. 字母异位词分组/index.zh-cn.md",
+                "file": "宫保鸡丁/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "a",
+                "query": "宫保",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "49. 字母异位词分组/index.zh-cn.md",
+                "file": "宫保鸡丁/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "49. 字母异位词分组/index.zh-cn.md",
+                "file": "宫保鸡丁/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "49. 字母异位词分组/index.zh-cn.md"
+                "file": "宫保鸡丁/index.zh-cn.md"
               }
             }
           },
@@ -224,12 +224,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "75ab60c5b57d6774",
+  "active": "0f710e6cdacbfe03",
   "lastOpenFiles": [
+    "疙瘩汤/index.zh-cn.md",
+    "49. 字母异位词分组/index.zh-cn.md",
     "_templates/templater/leetcode.md",
     "_templates/dairy.md",
-    "49. 字母异位词分组/index.zh-cn.md",
-    "疙瘩汤/index.zh-cn.md",
     "49. 字母异位词分组",
     "宫保鸡丁/index.zh-cn.md",
     "疙瘩汤",
