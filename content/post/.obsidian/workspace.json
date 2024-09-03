@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "炝锅面/index.zh-cn.md",
+                "file": "红烧肉/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "宫保",
+                "query": "白菜豆腐",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "炝锅面/index.zh-cn.md",
+                "file": "红烧肉/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "炝锅面/index.zh-cn.md",
+                "file": "红烧肉/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "炝锅面/index.zh-cn.md"
+                "file": "红烧肉/index.zh-cn.md"
               }
             }
           },
@@ -224,10 +224,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0f710e6cdacbfe03",
+  "active": "75ab60c5b57d6774",
   "lastOpenFiles": [
-    "宫保鸡丁/index.zh-cn.md",
     "炝锅面/index.zh-cn.md",
+    "宫保鸡丁/index.zh-cn.md",
     "炝锅面",
     "疙瘩汤/index.zh-cn.md",
     "49. 字母异位词分组/index.zh-cn.md",
