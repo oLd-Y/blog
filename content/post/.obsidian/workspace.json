@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "红烧肉/index.zh-cn.md",
+                "file": "影响是潜移默化的/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,8 +88,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -117,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "红烧肉/index.zh-cn.md",
+                "file": "影响是潜移默化的/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "红烧肉/index.zh-cn.md",
+                "file": "影响是潜移默化的/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "红烧肉/index.zh-cn.md"
+                "file": "影响是潜移默化的/index.zh-cn.md"
               }
             }
           },
@@ -224,8 +223,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "75ab60c5b57d6774",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "红烧肉/index.zh-cn.md",
+    "影响是潜移默化的/index.zh-cn.md",
+    "影响是潜移默化的",
     "炝锅面/index.zh-cn.md",
     "宫保鸡丁/index.zh-cn.md",
     "炝锅面",
@@ -236,7 +238,6 @@
     "49. 字母异位词分组",
     "疙瘩汤",
     "没有目标，人就会趋于颓唐/index.zh-cn.md",
-    "红烧肉/index.zh-cn.md",
     "没有目标，人就会趋于颓唐",
     "《刀锋》读书笔记/index.zh-cn.md",
     "理想和现实总有差距/index.zh-cn.md",
@@ -254,14 +255,12 @@
     "日更太难了",
     "肉沫蒸蛋/index.zh-cn.md",
     "鸡蛋清汤面/index.zh-cn.md",
-    "荒谬，但不是多数",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.en.md",
     "紫菜蛋花汤/index.zh-cn.md",
     "花生酱拌面/index.zh-cn.md",
     "凉拌秋葵/index.zh-cn.md",
     "蚝油生菜/index.zh-cn.md",
-    "黄焖鸡/index.zh-cn.md",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
