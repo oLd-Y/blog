@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "疙瘩汤/index.zh-cn.md",
+                "file": "49. 字母异位词分组/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "宫保鸡",
+                "query": "a",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -116,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "疙瘩汤/index.zh-cn.md",
+                "file": "49. 字母异位词分组/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "疙瘩汤/index.zh-cn.md",
+                "file": "49. 字母异位词分组/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "疙瘩汤/index.zh-cn.md"
+                "file": "49. 字母异位词分组/index.zh-cn.md"
               }
             }
           },
@@ -223,10 +224,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "75ab60c5b57d6774",
   "lastOpenFiles": [
-    "宫保鸡丁/index.zh-cn.md",
+    "_templates/templater/leetcode.md",
+    "_templates/dairy.md",
+    "49. 字母异位词分组/index.zh-cn.md",
     "疙瘩汤/index.zh-cn.md",
+    "49. 字母异位词分组",
+    "宫保鸡丁/index.zh-cn.md",
     "疙瘩汤",
     "没有目标，人就会趋于颓唐/index.zh-cn.md",
     "红烧肉/index.zh-cn.md",
@@ -257,10 +262,6 @@
     "花生酱拌面",
     "黄焖鸡/index.zh-cn.md",
     "我可以不用，但不能没有/index.zh-cn.md",
-    "useful prompt/index.zh-cn.md",
-    "我可以不用，但不能没有",
-    "成长是分阶段的/index.zh-cn.md",
-    "虾烧白菜/index.zh-cn.md",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
