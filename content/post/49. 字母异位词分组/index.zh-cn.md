@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-03T08:59:59+08:00
+lastmod: 2024-09-04T08:58:28+08:00
 ---
 [题目链接](https://leetcode.cn/problems/group-anagrams/description/?envType=study-plan-v2&envId=top-100-liked)
 
@@ -23,13 +23,13 @@ lastmod: 2024-09-03T08:59:59+08:00
 ```python
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        map = collections.defaultdict(list)
+        mp = collections.defaultdict(list)
 
         for str in strs:
             key = "".join(sorted(str))
-            map[key].append(str)
+            mp[key].append(str)
         
-        return list(map.values())
+        return list(mp.values())
 ```
 
 ### 复杂度
@@ -40,12 +40,22 @@ class Solution:
 
 ### 思路
 
-1. 
+1. 字母同分异构词的所有字母个数都是相等的，将这个“个数”作为 key，相同的都放到同一个 values 中。
 
 ### 代码
 
 ```python
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        mp = collections.defaultdict(list)
 
+        for str in strs:
+            counts = [0] * 26
+            for c in str:
+                counts[ord(c) - ord('a')] += 1
+            mp[tuple(counts)].append(str)
+        
+        return list(mp.values())
 ```
 
 ### 复杂度
