@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-04T08:58:28+08:00
+lastmod: 2024-09-04T10:01:00+08:00
 ---
 [题目链接](https://leetcode.cn/problems/group-anagrams/description/?envType=study-plan-v2&envId=top-100-liked)
 
@@ -59,7 +59,7 @@ class Solution:
 ```
 
 ### 复杂度
-- 时间复杂度：
-- 空间复杂度：
+- 时间复杂度：$O(n k)$，$O(1)$ 的时间转化元组。
+- 空间复杂度：$O(n k)$，字符串数组所有字符个数为 `nk`，
 
 
