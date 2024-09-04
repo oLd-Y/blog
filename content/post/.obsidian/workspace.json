@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "回锅肉/index.zh-cn.md",
+                "file": "汇编语言 读书笔记/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "回锅",
+                "query": "汇编",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "回锅肉/index.zh-cn.md",
+                "file": "汇编语言 读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "回锅肉/index.zh-cn.md",
+                "file": "汇编语言 读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "回锅肉/index.zh-cn.md"
+                "file": "汇编语言 读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -238,6 +238,10 @@
   },
   "active": "e5f5d19bd8ba4648",
   "lastOpenFiles": [
+    "useful prompt/index.zh-cn.md",
+    "汇编语言 读书笔记/index.zh-cn.md",
+    "_TODO.md",
+    "回锅肉/index.zh-cn.md",
     "番茄炒鸡蛋/index.zh-cn.md",
     "49. 字母异位词分组/index.zh-cn.md",
     "红烧肉/index.zh-cn.md",
@@ -270,10 +274,6 @@
     "肉沫蒸蛋/index.zh-cn.md",
     "鸡蛋清汤面/index.zh-cn.md",
     "欧 · 亨利短篇小说 读书笔记/index.zh-cn.md",
-    "欧 · 亨利短篇小说 读书笔记/index.en.md",
-    "紫菜蛋花汤/index.zh-cn.md",
-    "花生酱拌面/index.zh-cn.md",
-    "凉拌秋葵/index.zh-cn.md",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
