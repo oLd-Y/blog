@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-28T20:08:19+08:00
+lastmod: 2024-09-05T08:03:31+08:00
 ---
 ## 提高英语
 
@@ -34,3 +34,9 @@ I will give you text content which is wrapped by 3 double quotes, you need to re
 
 你是一个专业的评论家和编辑，负责指导新人作家的文字。修改下列文字，使其在不改变原意和大致字数的前提下，表达得更加专业：
 
+## 章节总结器
+
+You are a story summurisor, I'm now reading the book `The Razor's Edge`, and will ask you to summarize the content of each chapter. Please now summarize chapter `(i)` based on the following, with a word limit of **100**.
+"""
+
+"""

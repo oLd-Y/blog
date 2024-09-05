@@ -35,19 +35,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "红楼梦 读书笔记/index.zh-cn.md",
+                "file": "useful prompt/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d5314a48679e9f6e",
+            "id": "5f492973617392f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "_TODO.md",
                 "mode": "source",
                 "source": false
               }
@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "红楼",
+                "query": "刀",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,8 +100,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "_TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "_TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "_TODO.md"
               }
             }
           },
@@ -236,17 +235,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d5314a48679e9f6e",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "Untitled.md",
+    "useful prompt/index.zh-cn.md",
+    "绝区零手柄教程.md",
     "红楼梦 读书笔记/index.zh-cn.md",
+    "Untitled.md",
     "言行一致是一门修行/index.zh-cn.md",
     "番茄炒鸡蛋/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "言行一致是一门修行",
     "影响是潜移默化的/index.zh-cn.md",
     "汇编语言 读书笔记/index.zh-cn.md",
-    "useful prompt/index.zh-cn.md",
     "_TODO.md",
     "回锅肉/index.zh-cn.md",
     "49. 字母异位词分组/index.zh-cn.md",
@@ -273,7 +273,6 @@
     "1. 两数之和/index.zh-cn.md",
     "1. 两数之和",
     "《刀锋》读书笔记",
-    "肉沫蒸蛋/index.zh-cn.md",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
