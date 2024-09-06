@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-06T10:35:11+08:00
+lastmod: 2024-09-06T10:50:59+08:00
 ---
 [题目链接](https://leetcode.cn/problems/move-zeroes/description/?envType=study-plan-v2&envId=top-100-liked)
 
@@ -17,8 +17,8 @@ lastmod: 2024-09-06T10:35:11+08:00
 
 ### 思路
 
-1. 只寻找非零的数，把它放到前面即可。
-2. 具体的作法是，`left` 指向己处理好的序列的尾部，`right` 则寻找非零的数。
+1. 如果没有 0，则 left 和 right 同步向后搜索；如果出现 0，则 right 需要继续走到没有 0 的位置，而 left 则留下保存 0 的位置，然后二者的值交换一下，继续往后搜索。
+
 
 ### 代码
 
@@ -41,7 +41,7 @@ class Solution:
 ```
 
 ### 复杂度
-- 时间复杂度：
-- 空间复杂度：
+- 时间复杂度：$O(n)$，每个元素最多被 left 和 right 访问两次。
+- 空间复杂度：$O(1)$。
 
 

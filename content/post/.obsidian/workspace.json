@@ -18,18 +18,6 @@
             }
           },
           {
-            "id": "e5f5d19bd8ba4648",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "有动力才愿意前进/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ab8d6b2eb24819ca",
             "type": "leaf",
             "state": {
@@ -54,7 +42,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "283. 移动零/index.zh-cn.md",
+                "file": "useful prompt/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "283. 移动零/index.zh-cn.md",
+                "file": "useful prompt/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "283. 移动零/index.zh-cn.md"
+                "file": "useful prompt/index.zh-cn.md"
               }
             }
           },
@@ -236,12 +224,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9c2a31f714e58b56",
+  "active": "ab8d6b2eb24819ca",
   "lastOpenFiles": [
-    "《刀锋》读书笔记/index.zh-cn.md",
-    "283. 移动零/index.zh-cn.md",
-    "283. 移动零",
     "有动力才愿意前进/index.zh-cn.md",
+    "283. 移动零/index.zh-cn.md",
+    "《刀锋》读书笔记/index.zh-cn.md",
+    "283. 移动零",
     "useful prompt/index.zh-cn.md",
     "汇编语言 读书笔记/index.zh-cn.md",
     "有动力才愿意前进",
