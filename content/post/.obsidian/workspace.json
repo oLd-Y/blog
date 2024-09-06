@@ -47,14 +47,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "283. 移动零/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "有动力才愿意前进/index.zh-cn.md",
+                "file": "283. 移动零/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "有动力才愿意前进/index.zh-cn.md",
+                "file": "283. 移动零/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "有动力才愿意前进/index.zh-cn.md"
+                "file": "283. 移动零/index.zh-cn.md"
               }
             }
           },
@@ -236,11 +236,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e5f5d19bd8ba4648",
+  "active": "9c2a31f714e58b56",
   "lastOpenFiles": [
     "《刀锋》读书笔记/index.zh-cn.md",
-    "useful prompt/index.zh-cn.md",
+    "283. 移动零/index.zh-cn.md",
+    "283. 移动零",
     "有动力才愿意前进/index.zh-cn.md",
+    "useful prompt/index.zh-cn.md",
     "汇编语言 读书笔记/index.zh-cn.md",
     "有动力才愿意前进",
     "128. 最长连续序列/index.zh-cn.md",
@@ -272,8 +274,6 @@
     "荒谬，但不是多数/index.zh-cn.md",
     "日更太难了/index.zh-cn.md",
     "reading notes -《Atomatic Habits》.md",
-    "遗忘令人崩溃/index.zh-cn.md",
-    "遗忘令人崩溃",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
