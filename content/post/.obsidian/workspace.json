@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "汇编语言 读书笔记/index.zh-cn.md",
+                "file": "有动力才愿意前进/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -54,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "有动力才愿意前进/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "有动力才愿意前进/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md"
+                "file": "有动力才愿意前进/index.zh-cn.md"
               }
             }
           },
@@ -236,9 +236,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9c2a31f714e58b56",
+  "active": "e5f5d19bd8ba4648",
   "lastOpenFiles": [
+    "《刀锋》读书笔记/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
+    "有动力才愿意前进/index.zh-cn.md",
+    "汇编语言 读书笔记/index.zh-cn.md",
+    "有动力才愿意前进",
     "128. 最长连续序列/index.zh-cn.md",
     "_TODO.md",
     "128. 最长连续序列",
@@ -247,10 +251,8 @@
     "Untitled.md",
     "言行一致是一门修行/index.zh-cn.md",
     "番茄炒鸡蛋/index.zh-cn.md",
-    "《刀锋》读书笔记/index.zh-cn.md",
     "言行一致是一门修行",
     "影响是潜移默化的/index.zh-cn.md",
-    "汇编语言 读书笔记/index.zh-cn.md",
     "回锅肉/index.zh-cn.md",
     "49. 字母异位词分组/index.zh-cn.md",
     "红烧肉/index.zh-cn.md",
@@ -272,8 +274,6 @@
     "reading notes -《Atomatic Habits》.md",
     "遗忘令人崩溃/index.zh-cn.md",
     "遗忘令人崩溃",
-    "粉蒸肉/index.zh-cn.md",
-    "1. 两数之和",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
