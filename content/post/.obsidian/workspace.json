@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "不要过分追求细节/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "不要过分追求细节/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "不要过分追求细节/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "useful prompt/index.zh-cn.md"
+                "file": "不要过分追求细节/index.zh-cn.md"
               }
             }
           },
@@ -225,11 +225,13 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "useful prompt/index.zh-cn.md",
+    "不要过分追求细节/index.zh-cn.md",
+    "不要过分追求细节",
     "有动力才愿意前进/index.zh-cn.md",
     "283. 移动零/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "283. 移动零",
-    "useful prompt/index.zh-cn.md",
     "汇编语言 读书笔记/index.zh-cn.md",
     "有动力才愿意前进",
     "128. 最长连续序列/index.zh-cn.md",
@@ -257,10 +259,8 @@
     "没有目标，人就会趋于颓唐/index.zh-cn.md",
     "没有目标，人就会趋于颓唐",
     "理想和现实总有差距/index.zh-cn.md",
-    "理想和现实总有差距",
     "荒谬，但不是多数/index.zh-cn.md",
     "日更太难了/index.zh-cn.md",
-    "reading notes -《Atomatic Habits》.md",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
