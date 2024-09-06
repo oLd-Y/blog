@@ -88,8 +88,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -224,7 +223,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ab8d6b2eb24819ca",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
     "有动力才愿意前进/index.zh-cn.md",
     "283. 移动零/index.zh-cn.md",
