@@ -23,9 +23,45 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "283. 移动零/index.zh-cn.md",
+                "file": "清汤米粉/index.zh-cn.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "6012a3e3b05a4e19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_templates/templater/recipe.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "07386f66a9a4b0a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_templates/templater/create page bundle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5b6c67926ce22b2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_templates/templater/new index template.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
@@ -104,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "283. 移动零/index.zh-cn.md",
+                "file": "清汤米粉/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "283. 移动零/index.zh-cn.md",
+                "file": "清汤米粉/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "283. 移动零/index.zh-cn.md"
+                "file": "清汤米粉/index.zh-cn.md"
               }
             }
           },
@@ -213,11 +249,19 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "_templates/templater/recipe.md",
+    "_templates/templater/create page bundle.md",
+    "_templates/templater/new index template.md",
+    "test/index.zh-cn 1.md",
+    "test/index.zh-cn.md",
+    "test",
+    "清汤米粉/index.zh-cn.md",
+    "283. 移动零/index.zh-cn.md",
+    "清汤米粉",
     "不要过分追求细节/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
     "不要过分追求细节",
     "有动力才愿意前进/index.zh-cn.md",
-    "283. 移动零/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "283. 移动零",
     "汇编语言 读书笔记/index.zh-cn.md",
@@ -240,15 +284,7 @@
     "宫保鸡丁/index.zh-cn.md",
     "炝锅面",
     "疙瘩汤/index.zh-cn.md",
-    "_templates/templater/leetcode.md",
-    "_templates/dairy.md",
     "49. 字母异位词分组",
-    "疙瘩汤",
-    "没有目标，人就会趋于颓唐/index.zh-cn.md",
-    "没有目标，人就会趋于颓唐",
-    "理想和现实总有差距/index.zh-cn.md",
-    "荒谬，但不是多数/index.zh-cn.md",
-    "日更太难了/index.zh-cn.md",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
