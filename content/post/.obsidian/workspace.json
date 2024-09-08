@@ -30,43 +30,19 @@
             }
           },
           {
-            "id": "6012a3e3b05a4e19",
+            "id": "32f159250a2b8a66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_templates/templater/recipe.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "07386f66a9a4b0a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_templates/templater/create page bundle.md",
+                "file": "红楼梦 读书笔记/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "5b6c67926ce22b2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_templates/templater/new index template.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -140,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "人的心思只有一个/index.zh-cn.md",
+                "file": "红楼梦 读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "人的心思只有一个/index.zh-cn.md",
+                "file": "红楼梦 读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "人的心思只有一个/index.zh-cn.md"
+                "file": "红楼梦 读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -249,13 +225,13 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "煎饼/index.zh-cn.md",
     "人的心思只有一个/index.zh-cn.md",
+    "_templates/templater/create page bundle.md",
+    "煎饼/index.zh-cn.md",
     "人的心思只有一个",
     "清汤米粉/index.zh-cn.md",
     "煎饼",
     "_templates/templater/recipe.md",
-    "_templates/templater/create page bundle.md",
     "_templates/templater/new index template.md",
     "test/index.zh-cn 1.md",
     "test/index.zh-cn.md",
