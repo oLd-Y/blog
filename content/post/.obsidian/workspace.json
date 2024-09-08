@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "煎饼/index.zh-cn.md",
+                "file": "人的心思只有一个/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "煎饼/index.zh-cn.md",
+                "file": "人的心思只有一个/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "煎饼/index.zh-cn.md",
+                "file": "人的心思只有一个/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "煎饼/index.zh-cn.md"
+                "file": "人的心思只有一个/index.zh-cn.md"
               }
             }
           },
@@ -249,8 +249,10 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "清汤米粉/index.zh-cn.md",
     "煎饼/index.zh-cn.md",
+    "人的心思只有一个/index.zh-cn.md",
+    "人的心思只有一个",
+    "清汤米粉/index.zh-cn.md",
     "煎饼",
     "_templates/templater/recipe.md",
     "_templates/templater/create page bundle.md",
@@ -283,8 +285,6 @@
     "红烧肉/index.zh-cn.md",
     "影响是潜移默化的",
     "炝锅面/index.zh-cn.md",
-    "宫保鸡丁/index.zh-cn.md",
-    "炝锅面",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
