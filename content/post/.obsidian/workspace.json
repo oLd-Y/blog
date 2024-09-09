@@ -28,9 +28,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cd418dae38cfe065",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "useful prompt/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f538708dc8ef1ccf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "《红楼梦》 读书笔记/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -59,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "刀锋",
+                "query": "有用的",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +100,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -104,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "身后有馀忘缩手，眼前无路想回头/index.zh-cn.md",
+                "file": "useful prompt/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "身后有馀忘缩手，眼前无路想回头/index.zh-cn.md",
+                "file": "useful prompt/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "身后有馀忘缩手，眼前无路想回头/index.zh-cn.md"
+                "file": "useful prompt/index.zh-cn.md"
               }
             }
           },
@@ -211,10 +236,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "cd418dae38cfe065",
   "lastOpenFiles": [
+    "《刀锋》读书笔记/index.zh-cn.md",
+    "《红楼梦》 读书笔记/index.zh-cn.md",
     "身后有馀忘缩手，眼前无路想回头/index.zh-cn.md",
-    "红楼梦 读书笔记/index.zh-cn.md",
     "身后有馀忘缩手，眼前无路想回头",
     "人的心思只有一个/index.zh-cn.md",
     "_templates/templater/create page bundle.md",
@@ -233,7 +259,6 @@
     "useful prompt/index.zh-cn.md",
     "不要过分追求细节",
     "有动力才愿意前进/index.zh-cn.md",
-    "《刀锋》读书笔记/index.zh-cn.md",
     "283. 移动零",
     "汇编语言 读书笔记/index.zh-cn.md",
     "有动力才愿意前进",
