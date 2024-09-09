@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-09T13:43:07+08:00
+lastmod: 2024-09-09T20:13:58+08:00
 ---
 ## 第 1 章 基础知识
 
@@ -27,3 +27,18 @@ CPU 的所有指令以及数据，都是通过总线在内存中进行访问的�
 
 其中，虚拟内存地址的映射是通过内存管理单元（MMU, Memory Management Unit）来实现的。MMU 负责将 CPU 的逻辑地址（虚拟地址）映射到物理地址，并管理虚拟内存的分页、段等操作。这一过程涉及到页表（Page Table）的使用，CPU 通过查找页表，将虚拟地址转换为物理地址，最终访问到具体的物理内存。
 
+## 第 2 章 寄存器
+
+8086 cpu 有 14 个寄存器，其中通用寄存器有 4 个：ax、bx、cx、dx，这四个都可以分为上下进行使用，例如 ax 可以分为 al、ah。
+
+![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240909192019.png)
+8086 cpu （16 位）可以处理两种类型的数据：
+- 字节，1 字节 = 8 bit
+- 字，1 字 = 2 字节 = 16 bit
+
+cs 和 ip 是最重要的寄存器。CPU 通过 cs:ip 访问所有的指令，指令的位置为`基址 + 偏移`，即 `cs * 16 + ip`。
+
+常用指令：
+- jmp 2AE3:3，令 cs = 2AE3，ip = 3。
+- mov ax, bx，将 bx 的值赋给 ax。
+- jmp 4，令 ip = 4，cs 不变。

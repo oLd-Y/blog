@@ -53,7 +53,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -127,6 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,6 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +167,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md"
+              }
             }
           },
           {
@@ -230,7 +235,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a1d860be41836d9e",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
     "先敬罗衣后敬人/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
