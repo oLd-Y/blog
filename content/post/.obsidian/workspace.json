@@ -54,26 +54,6 @@
             }
           },
           {
-            "id": "443b0fc6758fd379",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "《汇编语言》 读书笔记/Drawing 2024-08-26 19.46.42.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "828d57af61c77494",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "11. 盛最多水的容器/Drawing 2024-09-09 10.47.52.excalidraw.md"
-              }
-            }
-          },
-          {
             "id": "f538708dc8ef1ccf",
             "type": "leaf",
             "state": {
@@ -86,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -160,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "《红楼梦》 读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "《红楼梦》 读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "useful prompt/index.zh-cn.md"
+                "file": "《红楼梦》 读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -269,12 +249,12 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "《红楼梦》 读书笔记/index.zh-cn.md",
-    "useful prompt/index.zh-cn.md",
-    "《汇编语言》 读书笔记/index.zh-cn.md",
-    "《汇编语言》 读书笔记/Drawing 2024-08-26 19.46.42.excalidraw.md",
-    "11. 盛最多水的容器/index.zh-cn.md",
     "11. 盛最多水的容器/Drawing 2024-09-09 10.47.52.excalidraw.md",
+    "《汇编语言》 读书笔记/Drawing 2024-08-26 19.46.42.excalidraw.md",
+    "useful prompt/index.zh-cn.md",
+    "《红楼梦》 读书笔记/index.zh-cn.md",
+    "《汇编语言》 读书笔记/index.zh-cn.md",
+    "11. 盛最多水的容器/index.zh-cn.md",
     "Pasted Image 20240909104807_474.png",
     "《刀锋》读书笔记/index.zh-cn.md",
     "11. 盛最多水的容器",
