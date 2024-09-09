@@ -18,18 +18,6 @@
             }
           },
           {
-            "id": "32f159250a2b8a66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "身后有馀忘缩手，眼前无路想回头/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "cd418dae38cfe065",
             "type": "leaf",
             "state": {
@@ -65,8 +53,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -140,7 +127,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《红楼梦》 读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +143,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《红楼梦》 读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,9 +164,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "《红楼梦》 读书笔记/index.zh-cn.md"
-              }
+              "state": {}
             }
           },
           {
@@ -247,18 +230,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "a1d860be41836d9e",
   "lastOpenFiles": [
+    "先敬罗衣后敬人/index.zh-cn.md",
+    "useful prompt/index.zh-cn.md",
+    "身后有馀忘缩手，眼前无路想回头/index.zh-cn.md",
+    "先敬罗衣后敬人",
+    "《红楼梦》 读书笔记/index.zh-cn.md",
     "11. 盛最多水的容器/Drawing 2024-09-09 10.47.52.excalidraw.md",
     "《汇编语言》 读书笔记/Drawing 2024-08-26 19.46.42.excalidraw.md",
-    "useful prompt/index.zh-cn.md",
-    "《红楼梦》 读书笔记/index.zh-cn.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "11. 盛最多水的容器/index.zh-cn.md",
     "Pasted Image 20240909104807_474.png",
     "《刀锋》读书笔记/index.zh-cn.md",
     "11. 盛最多水的容器",
-    "身后有馀忘缩手，眼前无路想回头/index.zh-cn.md",
     "身后有馀忘缩手，眼前无路想回头",
     "人的心思只有一个/index.zh-cn.md",
     "_templates/templater/create page bundle.md",
@@ -280,12 +265,10 @@
     "有动力才愿意前进",
     "128. 最长连续序列/index.zh-cn.md",
     "_TODO.md",
-    "128. 最长连续序列",
     "绝区零手柄教程.md",
     "Untitled.md",
     "言行一致是一门修行/index.zh-cn.md",
     "番茄炒鸡蛋/index.zh-cn.md",
-    "影响是潜移默化的/index.zh-cn.md",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
