@@ -47,9 +47,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11. 盛最多水的容器/index.zh-cn.md",
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "443b0fc6758fd379",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "《汇编语言》 读书笔记/Drawing 2024-08-26 19.46.42.excalidraw.md"
               }
             }
           },
@@ -105,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "有用的",
+                "query": "汇编",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11. 盛最多水的容器/index.zh-cn.md",
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11. 盛最多水的容器/index.zh-cn.md",
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11. 盛最多水的容器/index.zh-cn.md"
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -259,8 +269,10 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "useful prompt/index.zh-cn.md",
+    "《汇编语言》 读书笔记/Drawing 2024-08-26 19.46.42.excalidraw.md",
+    "《汇编语言》 读书笔记/index.zh-cn.md",
     "11. 盛最多水的容器/index.zh-cn.md",
+    "useful prompt/index.zh-cn.md",
     "11. 盛最多水的容器/Drawing 2024-09-09 10.47.52.excalidraw.md",
     "Pasted Image 20240909104807_474.png",
     "《刀锋》读书笔记/index.zh-cn.md",
@@ -285,7 +297,6 @@
     "不要过分追求细节",
     "有动力才愿意前进/index.zh-cn.md",
     "283. 移动零",
-    "汇编语言 读书笔记/index.zh-cn.md",
     "有动力才愿意前进",
     "128. 最长连续序列/index.zh-cn.md",
     "_TODO.md",
