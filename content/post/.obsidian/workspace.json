@@ -42,6 +42,18 @@
             }
           },
           {
+            "id": "513df29a8b858878",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f538708dc8ef1ccf",
             "type": "leaf",
             "state": {
@@ -54,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -100,8 +112,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -129,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "useful prompt/index.zh-cn.md"
+                "file": "《刀锋》读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -236,8 +247,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cd418dae38cfe065",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "useful prompt/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "《红楼梦》 读书笔记/index.zh-cn.md",
     "身后有馀忘缩手，眼前无路想回头/index.zh-cn.md",
@@ -256,7 +268,6 @@
     "283. 移动零/index.zh-cn.md",
     "清汤米粉",
     "不要过分追求细节/index.zh-cn.md",
-    "useful prompt/index.zh-cn.md",
     "不要过分追求细节",
     "有动力才愿意前进/index.zh-cn.md",
     "283. 移动零",

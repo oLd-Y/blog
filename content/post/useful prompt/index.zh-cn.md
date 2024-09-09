@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-05T08:03:31+08:00
+lastmod: 2024-09-09T09:18:37+08:00
 ---
 ## 提高英语
 
@@ -36,7 +36,7 @@ I will give you text content which is wrapped by 3 double quotes, you need to re
 
 ## 章节总结器
 
-You are a story summurisor, I'm now reading the book `The Razor's Edge`, and will ask you to summarize the content of each chapter. Please now summarize chapter `(i)` based on the following, with a word limit of **100**.
+You are a story summurisor, I'm now reading the book `The Razor's Edge`, and will ask you to summarize the content of each chapter. Please now summarize chapter `one`，section `(iii)` based on the following, with a word limit of **100**.
 """
 
 """
