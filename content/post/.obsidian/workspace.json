@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "白菜烧豆腐/index.zh-cn.md",
+                "file": "useful prompt/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "白菜烧豆腐/index.zh-cn.md",
+                "file": "useful prompt/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "白菜烧豆腐/index.zh-cn.md"
+                "file": "useful prompt/index.zh-cn.md"
               }
             }
           },
@@ -248,10 +248,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "773a3d61992fe9b5",
+  "active": "cd418dae38cfe065",
   "lastOpenFiles": [
-    "《刀锋》读书笔记/index.zh-cn.md",
     "白菜烧豆腐/index.zh-cn.md",
+    "《刀锋》读书笔记/index.zh-cn.md",
     "白菜烧豆腐",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "先敬罗衣后敬人/index.zh-cn.md",
