@@ -52,9 +52,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "773a3d61992fe9b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -83,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "汇编",
+                "query": "刀锋",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +112,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -128,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《汇编语言》 读书笔记/index.zh-cn.md"
+                "file": "《刀锋》读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -235,8 +248,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "773a3d61992fe9b5",
   "lastOpenFiles": [
+    "《汇编语言》 读书笔记/index.zh-cn.md",
     "先敬罗衣后敬人/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
     "身后有馀忘缩手，眼前无路想回头/index.zh-cn.md",
@@ -244,7 +258,6 @@
     "《红楼梦》 读书笔记/index.zh-cn.md",
     "11. 盛最多水的容器/Drawing 2024-09-09 10.47.52.excalidraw.md",
     "《汇编语言》 读书笔记/Drawing 2024-08-26 19.46.42.excalidraw.md",
-    "《汇编语言》 读书笔记/index.zh-cn.md",
     "11. 盛最多水的容器/index.zh-cn.md",
     "Pasted Image 20240909104807_474.png",
     "《刀锋》读书笔记/index.zh-cn.md",
