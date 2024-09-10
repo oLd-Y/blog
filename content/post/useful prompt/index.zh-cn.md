@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-10T14:57:55+08:00
+lastmod: 2024-09-10T15:32:58+08:00
 ---
 ## 提高英语
 
@@ -36,11 +36,11 @@ I will give you text content which is wrapped by 3 double quotes, you need to re
 
 ## 章节总结器
 
-You are a story summurisor, I'm now reading the book `The Razor's Edge`, and will ask you to summarize the content of each chapter. Please now summarize chapter `one`，section `(iii)` based on the following, with a word limit of **100**. Before you summarize the content, please list all the characters that mentioned in the text, and if their relationship or identity have been point out, list them as well, for example:
+You are a story summurisor, I'm now reading the book `The Razor's Edge`, and will ask you to summarize the content of each chapter. Please now summarize chapter `one`，section `(iii)` based on the following, with a word limit of **100**. Before you summarize the content, please list all the characters that mentioned in the text, and if their **relationship**, **age** and **identity** have been point out, list them as well, for example:
 ```
-- Steve.
-- Isbel, Steve's mother.
-- Jenison, Steve's father, editor of Linney Publishing.
+- Steve - 18 year's old.
+- Isbel - Steve's mother.
+- Jenison - Steve's father, editor of Linney Publishing.
 ```
 """
 
