@@ -64,9 +64,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "73d91dc796162181",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -141,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "useful prompt/index.zh-cn.md"
+                "file": "《刀锋》读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -248,17 +260,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cd418dae38cfe065",
+  "active": "73d91dc796162181",
   "lastOpenFiles": [
     "白菜烧豆腐/index.zh-cn.md",
+    "《红楼梦》 读书笔记/index.zh-cn.md",
+    "useful prompt/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "白菜烧豆腐",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "先敬罗衣后敬人/index.zh-cn.md",
-    "useful prompt/index.zh-cn.md",
     "身后有馀忘缩手，眼前无路想回头/index.zh-cn.md",
     "先敬罗衣后敬人",
-    "《红楼梦》 读书笔记/index.zh-cn.md",
     "11. 盛最多水的容器/Drawing 2024-09-09 10.47.52.excalidraw.md",
     "《汇编语言》 读书笔记/Drawing 2024-08-26 19.46.42.excalidraw.md",
     "11. 盛最多水的容器/index.zh-cn.md",
