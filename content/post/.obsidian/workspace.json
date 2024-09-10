@@ -59,7 +59,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "白菜烧豆腐/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "白菜烧豆腐/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "白菜烧豆腐/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md"
+                "file": "白菜烧豆腐/index.zh-cn.md"
               }
             }
           },
@@ -250,6 +250,9 @@
   },
   "active": "773a3d61992fe9b5",
   "lastOpenFiles": [
+    "《刀锋》读书笔记/index.zh-cn.md",
+    "白菜烧豆腐/index.zh-cn.md",
+    "白菜烧豆腐",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "先敬罗衣后敬人/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
@@ -260,7 +263,6 @@
     "《汇编语言》 读书笔记/Drawing 2024-08-26 19.46.42.excalidraw.md",
     "11. 盛最多水的容器/index.zh-cn.md",
     "Pasted Image 20240909104807_474.png",
-    "《刀锋》读书笔记/index.zh-cn.md",
     "11. 盛最多水的容器",
     "身后有馀忘缩手，眼前无路想回头",
     "人的心思只有一个/index.zh-cn.md",
@@ -280,13 +282,11 @@
     "不要过分追求细节",
     "有动力才愿意前进/index.zh-cn.md",
     "283. 移动零",
-    "有动力才愿意前进",
     "128. 最长连续序列/index.zh-cn.md",
     "_TODO.md",
     "绝区零手柄教程.md",
     "Untitled.md",
     "言行一致是一门修行/index.zh-cn.md",
-    "番茄炒鸡蛋/index.zh-cn.md",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
