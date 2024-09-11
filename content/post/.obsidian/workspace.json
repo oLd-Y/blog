@@ -78,12 +78,12 @@
             }
           },
           {
-            "id": "2ec521faebc74f58",
+            "id": "0d0cdf4b2c308fa3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "炝锅面/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -275,10 +275,12 @@
   "lastOpenFiles": [
     "《刀锋》读书笔记/index.zh-cn.md",
     "糖醋里脊/index.zh-cn.md",
+    "人对于不同的位置会有不同的期待/index.zh-cn.md",
+    "炝锅面/index.zh-cn.md",
+    "人对于不同的位置会有不同的期待",
     "糖醋里脊",
     "useful prompt/index.zh-cn.md",
     "《红楼梦》 读书笔记/index.zh-cn.md",
-    "炝锅面/index.zh-cn.md",
     "白菜烧豆腐/index.zh-cn.md",
     "人容易高估自己的精力/index.zh-cn.md",
     "人容易高估自己的精力",
@@ -305,11 +307,9 @@
     "test/index.zh-cn.md",
     "test",
     "283. 移动零/index.zh-cn.md",
-    "清汤米粉",
     "不要过分追求细节/index.zh-cn.md",
     "有动力才愿意前进/index.zh-cn.md",
     "128. 最长连续序列/index.zh-cn.md",
-    "_TODO.md",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
