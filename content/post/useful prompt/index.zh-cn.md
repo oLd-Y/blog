@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-11T16:19:28+08:00
+lastmod: 2024-09-11T16:21:17+08:00
 ---
 ## 提高英语
 
@@ -39,9 +39,9 @@ I will give you text content which is wrapped by 3 double quotes, you need to re
 ### 中文版
 
 BOOKNAME： 《红楼梦》
-CHAPTER： 
+CHAPTER：
 
-你是一名故事总结员，我现在正在阅读《书名》一书，读到了 “章”，“节”，请你总结一下这一节的内容。
+你是一名故事总结员，我现在正在阅读 `BOOKNAME` 一书，读到了 `CHAPTER`，请你总结一下这一 `CHAPTER` 的内容。
 
 你应该做以下几件事：
 1.  列出文中提到的所有人物，如果他们的**关系**、**年龄**和**身份**已被指出，也要列出，例如：
@@ -57,9 +57,9 @@ CHAPTER：
 ```
 
 为了确保内容的准确性，我将向你提供我正在阅读的当前章节的文本，请概括**每个**关键事件。给出的内容如下：
-“"”
+"""
 
-“"”
+"""
 
 ### 英文版
 
