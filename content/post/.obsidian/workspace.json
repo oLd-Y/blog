@@ -90,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "useful prompt/index.zh-cn.md"
+                "file": "《刀锋》读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -273,13 +273,13 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "useful prompt/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "糖醋里脊/index.zh-cn.md",
     "人对于不同的位置会有不同的期待/index.zh-cn.md",
     "炝锅面/index.zh-cn.md",
     "人对于不同的位置会有不同的期待",
     "糖醋里脊",
-    "useful prompt/index.zh-cn.md",
     "《红楼梦》 读书笔记/index.zh-cn.md",
     "白菜烧豆腐/index.zh-cn.md",
     "人容易高估自己的精力/index.zh-cn.md",
