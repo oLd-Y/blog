@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-09-11T16:24:19+08:00
+lastmod: 2024-09-12T10:24:46+08:00
 ---
 作者：毛姆
 
@@ -39,4 +39,16 @@ lastmod: 2024-09-11T16:24:19+08:00
 我与 Elliott 闲逛博物馆之后分别。
 
 ### (vi)
+
+我到达了 Mrs. Bradley 的房子参加派对，遇见了 Larry 的保镖 Dr. Nelson。
+
+我与邻座一个年轻的小姑娘 Sophie 聊天。
+
+晚餐后，包括我在内留下的一些人对 Larry 不愿意参加工作的情况进行了讨论。
+
+Elliott 认为 Isabel 其实更适合与 Gray （富豪的儿子，也爱慕 Isabel）在一起。
+
+我被邀请见一见 Maturin 父子（Gray 和他的父亲）。
+
+### (vii)
 
