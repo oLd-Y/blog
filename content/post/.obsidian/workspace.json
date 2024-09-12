@@ -100,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -174,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "15. 三数之和/15.三数之和.excalidraw.md",
+                "file": "15. 三数之和/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "15. 三数之和/15.三数之和.excalidraw.md",
+                "file": "15. 三数之和/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "15. 三数之和/15.三数之和.excalidraw.md"
+                "file": "15. 三数之和/index.zh-cn.md"
               }
             }
           },
@@ -281,10 +281,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8933b94a0e375423",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "15. 三数之和/index.zh-cn.md",
     "15. 三数之和/15.三数之和.excalidraw.md",
+    "15. 三数之和/index.zh-cn.md",
+    "《汇编语言》 读书笔记/《汇编语言》 读书笔记.excalidraw.md",
+    "《汇编语言》 读书笔记/index.zh-cn.md",
+    "11. 盛最多水的容器/index.zh-cn.md",
+    "11. 盛最多水的容器/11. 盛最多水的容器.excalidraw.md",
     "白菜烧豆腐/index.zh-cn.md",
     "15. 三数之和",
     "《刀锋》读书笔记/index.zh-cn.md",
@@ -298,13 +302,9 @@
     "人容易高估自己的精力/index.zh-cn.md",
     "人容易高估自己的精力",
     "白菜烧豆腐",
-    "《汇编语言》 读书笔记/index.zh-cn.md",
     "先敬罗衣后敬人/index.zh-cn.md",
     "身后有馀忘缩手，眼前无路想回头/index.zh-cn.md",
     "先敬罗衣后敬人",
-    "11. 盛最多水的容器/Drawing 2024-09-09 10.47.52.excalidraw.md",
-    "《汇编语言》 读书笔记/Drawing 2024-08-26 19.46.42.excalidraw.md",
-    "11. 盛最多水的容器/index.zh-cn.md",
     "Pasted Image 20240909104807_474.png",
     "11. 盛最多水的容器",
     "身后有馀忘缩手，眼前无路想回头",
