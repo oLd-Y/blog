@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-12T16:58:34+08:00
+lastmod: 2024-09-12T17:24:05+08:00
 ---
 题目链接
 
@@ -62,12 +62,47 @@ class Solution:
 ### 代码
 
 ```python
-
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        nums.sort()  # 先对数组排序
+        ans = []
+        n = len(nums)
+        
+        for i in range(n - 2):
+            x = nums[i]
+            if i > 0 and x == nums[i - 1]:
+                continue
+            if x + nums[i+1] + nums[i+2] > 0:
+                break
+            if x + nums[-1] + nums[-2] < 0:
+                continue
+            
+            j = i + 1
+            k = n - 1
+            
+            while j < k:
+                s = x + nums[j] + nums[k]
+                if s > 0:
+                    k -= 1
+                elif s < 0:
+                    j += 1
+                else:
+                    ans.append([x, nums[j], nums[k]])
+                    # 从下一个数开始去重
+                    j += 1
+                    # 最终需停在不重复的下一个数
+                    while j < k and nums[j] == nums[j-1]:
+                        j += 1
+                    k -= 1
+                    while k > j and nums[k] == nums[k+1]:
+                        k -= 1
+            
+        return ans
 ```
 
 
 ### 复杂度
-- 时间复杂度：
-- 空间复杂度：
+- 时间复杂度：$O(n ^ 2)$
+- 空间复杂度：$O(1)$，不记入排序的栈使用。
 
 
