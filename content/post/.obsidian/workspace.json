@@ -54,28 +54,6 @@
             }
           },
           {
-            "id": "773a3d61992fe9b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "15. 三数之和/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8933b94a0e375423",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "15. 三数之和/15.三数之和.excalidraw.md"
-              }
-            }
-          },
-          {
             "id": "73d91dc796162181",
             "type": "leaf",
             "state": {
@@ -100,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -281,7 +259,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "73d91dc796162181",
   "lastOpenFiles": [
     "15. 三数之和/index.zh-cn.md",
     "15. 三数之和/15.三数之和.excalidraw.md",
