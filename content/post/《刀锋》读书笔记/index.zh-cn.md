@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-09-12T10:32:27+08:00
+lastmod: 2024-09-13T09:17:55+08:00
 ---
 作者：毛姆
 
@@ -58,3 +58,6 @@ Elliott 认为 Isabel 其实更适合与 Gray （富豪的儿子，也爱慕 Isa
 
 我离开图书馆，又两次返回，发现 Larry 都在那里读书，认为他确实十分专注。
 
+### (viii)
+
+Elliott 邀请我参加 Maturin 父子的聚会，
