@@ -76,9 +76,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1c18b07fd4d799d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "15. 三数之和/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "508339035b1a11a5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "42. 接雨水/42. 接雨水.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -107,7 +129,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "红楼梦",
+                "query": "三数之和",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -124,7 +146,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -259,21 +282,26 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "1c18b07fd4d799d8",
   "lastOpenFiles": [
+    "42. 接雨水/index.zh-cn.md",
+    "_templates/templater/leetcode.md",
+    "42. 接雨水/42. 接雨水.excalidraw.md",
+    "Pasted Image 20240913125132_196.png",
+    "白菜烧豆腐/index.zh-cn.md",
+    "42. 接雨水",
     "《红楼梦》 读书笔记/index.zh-cn.md",
+    "15. 三数之和/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "糖醋里脊/index.zh-cn.md",
     "睡眠质量和睡眠时长并不完全等价/index.zh-cn.md",
     "睡眠质量和睡眠时长并不完全等价",
-    "15. 三数之和/index.zh-cn.md",
     "15. 三数之和/15.三数之和.excalidraw.md",
     "《汇编语言》 读书笔记/《汇编语言》 读书笔记.excalidraw.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "11. 盛最多水的容器/index.zh-cn.md",
     "11. 盛最多水的容器/11. 盛最多水的容器.excalidraw.md",
-    "白菜烧豆腐/index.zh-cn.md",
     "15. 三数之和",
     "人对于不同的位置会有不同的期待/index.zh-cn.md",
     "炝锅面/index.zh-cn.md",
@@ -291,13 +319,9 @@
     "人的心思只有一个/index.zh-cn.md",
     "_templates/templater/create page bundle.md",
     "煎饼/index.zh-cn.md",
-    "人的心思只有一个",
     "清汤米粉/index.zh-cn.md",
     "_templates/templater/recipe.md",
     "_templates/templater/new index template.md",
-    "test/index.zh-cn 1.md",
-    "test/index.zh-cn.md",
-    "283. 移动零/index.zh-cn.md",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
@@ -306,7 +330,6 @@
     "Obsidian 插件记录/cover.jpg",
     "nvm 安装和使用/cover.jpg",
     "maven 配置文件设置汇总/cover.jpg",
-    "lazyvim 配置记录/cover.jpg",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
