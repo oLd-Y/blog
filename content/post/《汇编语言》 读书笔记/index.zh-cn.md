@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-13T19:47:24+08:00
+lastmod: 2024-09-13T20:26:33+08:00
 ---
 ## 第 1 章 基础知识
 
@@ -52,4 +52,14 @@ cs 和 ip 是最重要的寄存器。CPU 通过 cs:ip 访问所有的指令，�
 
 `mov ds, 1000H` 是不合法的命令，`mov ds, ax` 则合法。
 
-栈由 `ss` 寄存器 和 `sp` 指针决定， `ss:sp` 指向当前栈的栈顶。如果此时是
+栈由 `ss` 寄存器 和 `sp` 指针决定， `ss:sp` 指向当前栈的栈顶。如果此时栈为空，则 `sp` 为栈顶本来应该在的内存单元地址 + 2。
+
+`push ax` 和 `pop ax` 的作用分别为先变化 `sp` 指针，然后将内容从栈中弹出以及压入栈中。`sp` 指针从高地址向低地址变化。
+
+![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240913201938.png)
+
+8086 CPU 根据不同的寄存器/指针判断当前内存区域是代码、栈还是数据：
+- cs:ip 指向的内容为代码段的首位。
+- ds 中存放的内容就作为数据段的首位**地址**。
+- ss:sp 指向的内容为栈段的栈顶。
+
