@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-13T15:40:02+08:00
+lastmod: 2024-09-13T15:46:09+08:00
 ---
 ## 第 1 章 基础知识
 
@@ -48,6 +48,6 @@ cs 和 ip 是最重要的寄存器。CPU 通过 cs:ip 访问所有的指令，�
 ![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240913152935.png)
 对于这张图，1 地址处的**字**型数据为 `124EH`，**字节**型数据为 `4EH`。
 
-`mov al, [0]`，将 0 偏移地址处的数据送入 al 寄存器，`[]该数据的默认段地址为 ds 寄存器中的内容。
+`mov al, [0]`：将 [0] 单元中的数据送入 al 寄存器，该数据的默认段地址为 ds 寄存器中的内容。`[0]` 表示一个偏移地址为 0 的内存单元。
 
 `mov ds, 1000H` 是不合法的命令，`mov ds, ax` 则合法。
