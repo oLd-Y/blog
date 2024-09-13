@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-09T20:13:58+08:00
+lastmod: 2024-09-13T15:40:02+08:00
 ---
 ## 第 1 章 基础知识
 
@@ -39,6 +39,15 @@ CPU 的所有指令以及数据，都是通过总线在内存中进行访问的�
 cs 和 ip 是最重要的寄存器。CPU 通过 cs:ip 访问所有的指令，指令的位置为`基址 + 偏移`，即 `cs * 16 + ip`。
 
 常用指令：
-- jmp 2AE3:3，令 cs = 2AE3，ip = 3。
-- mov ax, bx，将 bx 的值赋给 ax。
-- jmp 4，令 ip = 4，cs 不变。
+- `jmp 2AE3:3`，令 cs = 2AE3，ip = 3。
+- `mov ax, bx`，将 bx 的值赋给 ax。
+- `jmp 4`，令 ip = 4，cs 不变。
+
+## 第 3 章 寄存器（内存访问）
+
+![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240913152935.png)
+对于这张图，1 地址处的**字**型数据为 `124EH`，**字节**型数据为 `4EH`。
+
+`mov al, [0]`，将 0 偏移地址处的数据送入 al 寄存器，`[]该数据的默认段地址为 ds 寄存器中的内容。
+
+`mov ds, 1000H` 是不合法的命令，`mov ds, ax` 则合法。

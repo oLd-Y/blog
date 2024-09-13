@@ -78,30 +78,6 @@
             }
           },
           {
-            "id": "1c18b07fd4d799d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "15. 三数之和/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f49f8dea7689fa95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "看似琐碎的事情可能才是时间杀手/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "508339035b1a11a5",
             "type": "leaf",
             "state": {
@@ -112,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -186,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "看似琐碎的事情可能才是时间杀手/index.zh-cn.md",
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "看似琐碎的事情可能才是时间杀手/index.zh-cn.md",
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "看似琐碎的事情可能才是时间杀手/index.zh-cn.md"
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -295,6 +271,8 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "糖醋里脊/index.zh-cn.md",
+    "《刀锋》读书笔记/index.zh-cn.md",
     "15. 三数之和/index.zh-cn.md",
     "看似琐碎的事情可能才是时间杀手/index.zh-cn.md",
     "白菜烧豆腐/index.zh-cn.md",
@@ -306,8 +284,6 @@
     "42. 接雨水",
     "《红楼梦》 读书笔记/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
-    "《刀锋》读书笔记/index.zh-cn.md",
-    "糖醋里脊/index.zh-cn.md",
     "睡眠质量和睡眠时长并不完全等价/index.zh-cn.md",
     "睡眠质量和睡眠时长并不完全等价",
     "15. 三数之和/15.三数之和.excalidraw.md",
