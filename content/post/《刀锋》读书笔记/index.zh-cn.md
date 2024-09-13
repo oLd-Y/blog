@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-09-13T09:17:55+08:00
+lastmod: 2024-09-13T09:52:17+08:00
 ---
 作者：毛姆
 
@@ -60,4 +60,12 @@ Elliott 认为 Isabel 其实更适合与 Gray （富豪的儿子，也爱慕 Isa
 
 ### (viii)
 
-Elliott 邀请我参加 Maturin 父子的聚会，
+Elliott 邀请我参加 Maturin 父子（Henry 和 Gray）的聚会，提到 Larry 拒绝了 Henry 提供的工作机会。
+
+Henry 对他儿子 Gray 的高尔夫球技感到自豪。
+
+饭后 Elliott 评价 Henry 关心他人，但也是个冷酷的商人。
+
+后来 Isabel 和 Gradrey 都知道了 Larry 不想参加工作，于是想通过野餐了解 Larry 的想法，却得知他要去巴黎“游荡”两年。
+
+这使得 Isabel 伤心却支持他的决定，使 Gradrey 感到不解，但 Elliott 却觉得这可能是一件好事，最后可能既成全了 Isabel 和 Gray，又成就了 Larry。

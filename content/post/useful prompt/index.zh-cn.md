@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-13T09:37:41+08:00
+lastmod: 2024-09-13T09:43:13+08:00
 ---
 ## 提高英语
 
@@ -48,16 +48,17 @@ CHAPTER：
 ```
 - 贾宝玉 - 荣国府贾政与王夫人所生的次子，7 岁。
 - 林黛玉 - 林如海的女儿，贾宝玉的表妺，6 岁。
-- 
+- 贾政 - 荣国公之孙，贾府当家。
 ```
 注意如果一个人与多个其它人都有关系，你需要在一条介绍中指出。
 2. 以 “人物 + 事件 + 时间（如有） + 地点（如有）”的格式列出所有主要事件，并按其在文中出现的顺序排列，例如：
 ```
-- 史蒂夫昨晚去了农场。
-- 伊斯贝尔在儿子失踪后立即去找他。
+- 贾雨村复了职，被林如海引荐到贾府，当了应天府的官。  
+- 林黛玉到贾府大堂中，见了贾府众人，包括贾母，王熙凤等人。  
+- 贾府一家人在后房门吃饭，饭毕林黛玉见到了贾宝玉，贾宝玉摔玉泄愤。 
 ```
 
-为了确保内容的准确性，我将向你提供我正在阅读的当前章节的文本，请概括**每个**关键事件。给出的内容如下：
+为了确保内容的准确性，我将向你提供我正在阅读的当前章节的文本，注意请概括**每个**关键事件，不遗漏、不重复。当前章节的内容文本如下所示：
 """
 
 """
@@ -84,7 +85,7 @@ Note that if one is related to multiple person, you should point out in one intr
 - Isbel went looking for her son right after he disappeared.
 ```
 
-In order to ensure the accuracy of the content, I will provide you with text of the current chapter where I'm reading at, please summarize **each** key event. The content given is as follows:
+In order to ensure the accuracy of the content, I will provide you with text of the current chapter where I'm reading at, note please summarize **each** key event without omission or repetition. The content of current chapter is as follows:
 """
 
 """
