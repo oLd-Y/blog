@@ -3,12 +3,13 @@ title: 《刀锋》读书笔记
 categories: 阅读
 tags:
   - 读书笔记
+  - 小说
 date: 2024-08-31
 description: 
 image: 
 weight: 1
-draft: true
-lastmod: 2024-09-13T09:52:17+08:00
+draft: false
+lastmod: 2024-09-14T09:04:57+08:00
 ---
 作者：毛姆
 
@@ -69,3 +70,10 @@ Henry 对他儿子 Gray 的高尔夫球技感到自豪。
 后来 Isabel 和 Gradrey 都知道了 Larry 不想参加工作，于是想通过野餐了解 Larry 的想法，却得知他要去巴黎“游荡”两年。
 
 这使得 Isabel 伤心却支持他的决定，使 Gradrey 感到不解，但 Elliott 却觉得这可能是一件好事，最后可能既成全了 Isabel 和 Gray，又成就了 Larry。
+
+### (ix)
+
+我前往 Henry Maturin 的大房子参加晚宴，见到了他的妻子 Mrs. Maturin 和 Mrs. Bradley 以及 Isabel。
+
+我告诉 Isabel 之前在俱乐部遇见了 Larry 以及他读书非常专注的事，然后就被叫去打桥牌。完事之后发现 Mrs. Bradley 母女已经离开。
+

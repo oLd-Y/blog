@@ -8,25 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a1d860be41836d9e",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
             "id": "cd418dae38cfe065",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "useful prompt/index.zh-cn.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
@@ -88,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《红楼梦》 读书笔记/index.zh-cn.md",
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《红楼梦》 读书笔记/index.zh-cn.md",
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《红楼梦》 读书笔记/index.zh-cn.md"
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -269,11 +261,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "513df29a8b858878",
   "lastOpenFiles": [
+    "《刀锋》读书笔记/index.zh-cn.md",
+    "《汇编语言》 读书笔记/index.zh-cn.md",
+    "《红楼梦》 读书笔记/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
     "糖醋里脊/index.zh-cn.md",
-    "《刀锋》读书笔记/index.zh-cn.md",
     "15. 三数之和/index.zh-cn.md",
     "看似琐碎的事情可能才是时间杀手/index.zh-cn.md",
     "白菜烧豆腐/index.zh-cn.md",
@@ -283,12 +277,10 @@
     "42. 接雨水/42. 接雨水.excalidraw.md",
     "Pasted Image 20240913125132_196.png",
     "42. 接雨水",
-    "《红楼梦》 读书笔记/index.zh-cn.md",
     "睡眠质量和睡眠时长并不完全等价/index.zh-cn.md",
     "睡眠质量和睡眠时长并不完全等价",
     "15. 三数之和/15.三数之和.excalidraw.md",
     "《汇编语言》 读书笔记/《汇编语言》 读书笔记.excalidraw.md",
-    "《汇编语言》 读书笔记/index.zh-cn.md",
     "11. 盛最多水的容器/index.zh-cn.md",
     "11. 盛最多水的容器/11. 盛最多水的容器.excalidraw.md",
     "15. 三数之和",
