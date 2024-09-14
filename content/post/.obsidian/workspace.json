@@ -34,18 +34,6 @@
             }
           },
           {
-            "id": "f538708dc8ef1ccf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "挂糊/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0d0cdf4b2c308fa3",
             "type": "leaf",
             "state": {
@@ -92,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "三数之和",
+                "query": "虾仁滑蛋",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,7 +126,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -166,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "挂糊/index.zh-cn.md",
+                "file": "useful prompt/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "挂糊/index.zh-cn.md",
+                "file": "useful prompt/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "挂糊/index.zh-cn.md"
+                "file": "useful prompt/index.zh-cn.md"
               }
             }
           },
@@ -273,9 +262,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "75ab60c5b57d6774",
   "lastOpenFiles": [
+    "目的性不强，做事就没什么动力/index.zh-cn.md",
     "糖醋里脊/index.zh-cn.md",
+    "目的性不强，做事就没什么动力",
     "挂糊/index.zh-cn.md",
     "挂糊",
     "《红楼梦》 读书笔记/index.zh-cn.md",
@@ -307,12 +298,10 @@
     "白菜烧豆腐",
     "先敬罗衣后敬人/index.zh-cn.md",
     "身后有馀忘缩手，眼前无路想回头/index.zh-cn.md",
-    "先敬罗衣后敬人",
     "Pasted Image 20240909104807_474.png",
     "人的心思只有一个/index.zh-cn.md",
     "_templates/templater/create page bundle.md",
     "煎饼/index.zh-cn.md",
-    "清汤米粉/index.zh-cn.md",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",
