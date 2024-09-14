@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-13T13:05:35+08:00
+lastmod: 2024-09-14T09:36:09+08:00
 ---
 [题目链接](https://leetcode.cn/problems/trapping-rain-water/description/?envType=study-plan-v2&envId=top-100-liked)
 
@@ -55,9 +55,41 @@ class Solution:
 
 ### 思路
 
-1. 我们可以在找当前单位的左右最大值的时候就计算答案，等找完了，答案也就出来了。
+1. 方法 1 中找两边最大高度，是为了找出两个高度中的较小值，然后以较小值为接水的高度计算答案。
+2. 既然如此，我们可以直接使用两个指针记录两边高度的最大值，哪边小了，就把哪边单位宽度可以接的雨水加上。
+![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240914093520.png)
 
+### 代码
 
+```python
+class Solution:
+    def trap(self, height: List[int]) -> int:
+        n = len(height)
+        pre_max = suf_max = 0
+        ans = 0
+        left, right = 0, n - 1
+        
+        while left < right:
+            pre_max = max(pre_max, height[left])
+            suf_max = max(suf_max, height[right])
+            if pre_max < suf_max:
+                ans += pre_max - height[left]
+                left += 1
+            else: 
+                ans += suf_max - height[right]
+                right -= 1
+        return ans
+```
+
+### 复杂度
+- 时间复杂度：$O(n)$
+- 空间复杂度：$O(1)$
+
+## 方法 3：单调栈
+
+### 思路
+
+1. 
 ### 代码
 
 ```python
