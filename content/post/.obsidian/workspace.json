@@ -88,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -162,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
+                "file": "《红楼梦》 读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
+                "file": "《红楼梦》 读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《汇编语言》 读书笔记/index.zh-cn.md"
+                "file": "《红楼梦》 读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -271,6 +271,7 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "useful prompt/index.zh-cn.md",
     "糖醋里脊/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "15. 三数之和/index.zh-cn.md",
@@ -283,7 +284,6 @@
     "Pasted Image 20240913125132_196.png",
     "42. 接雨水",
     "《红楼梦》 读书笔记/index.zh-cn.md",
-    "useful prompt/index.zh-cn.md",
     "睡眠质量和睡眠时长并不完全等价/index.zh-cn.md",
     "睡眠质量和睡眠时长并不完全等价",
     "15. 三数之和/15.三数之和.excalidraw.md",
