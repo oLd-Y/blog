@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "糖醋里脊/index.zh-cn.md",
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "糖醋里脊/index.zh-cn.md",
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "糖醋里脊/index.zh-cn.md"
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -273,15 +273,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f538708dc8ef1ccf",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "糖醋里脊/index.zh-cn.md",
     "42. 接雨水/index.zh-cn.md",
     "42. 接雨水/42. 接雨水.excalidraw.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "《红楼梦》 读书笔记/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
-    "糖醋里脊/index.zh-cn.md",
     "15. 三数之和/index.zh-cn.md",
     "看似琐碎的事情可能才是时间杀手/index.zh-cn.md",
     "白菜烧豆腐/index.zh-cn.md",
