@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-14T09:36:09+08:00
+lastmod: 2024-09-15T19:11:15+08:00
 ---
 [题目链接](https://leetcode.cn/problems/trapping-rain-water/description/?envType=study-plan-v2&envId=top-100-liked)
 
@@ -93,7 +93,22 @@ class Solution:
 ### 代码
 
 ```python
+class Solution:
+    def trap(self, height: List[int]) -> int:
+        ans = 0
+        st = []
 
+        for i, h in enumerate(height):
+            while st and h >= height[st[-1]]:
+                bottom_h = height[st.pop()]
+                if not st:
+                    break
+                left = st[-1]
+                dh = min(height[left], h) - bottom_h
+                ans += dh * (i - left - 1)
+            st.append(i)
+            
+        return ans
 ```
 
 ### 复杂度
