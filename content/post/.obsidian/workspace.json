@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "写作技巧/index.zh-cn.md",
+                "file": "如果你辞职了，是选择先躺平一段时间，还是说继续找工作？/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,9 +78,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "56ef9cbcc2ed0009",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "如果你辞职了，是选择先躺平一段时间，还是说继续找工作？/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "如果你辞职了，是选择先躺平一段时间，还是说继续找工作？/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md"
+                "file": "如果你辞职了，是选择先躺平一段时间，还是说继续找工作？/index.zh-cn.md"
               }
             }
           },
@@ -262,11 +270,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0d0cdf4b2c308fa3",
+  "active": "513df29a8b858878",
   "lastOpenFiles": [
-    "useful prompt/index.zh-cn.md",
-    "《刀锋》读书笔记/index.zh-cn.md",
     "写作技巧/index.zh-cn.md",
+    "如果你辞职了，是选择先躺平一段时间，还是说继续找工作？/index.zh-cn.md",
+    "如果你辞职了，是选择先躺平一段时间，还是说继续找工作？",
+    "《刀锋》读书笔记/index.zh-cn.md",
+    "useful prompt/index.zh-cn.md",
     "_daily/2024-06-16_Sunday.md",
     "写作技巧",
     "Obsidian 插件记录/index.zh-cn.md",
@@ -298,9 +308,7 @@
     "人对于不同的位置会有不同的期待",
     "糖醋里脊",
     "人容易高估自己的精力/index.zh-cn.md",
-    "人容易高估自己的精力",
     "先敬罗衣后敬人/index.zh-cn.md",
-    "身后有馀忘缩手，眼前无路想回头/index.zh-cn.md",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
