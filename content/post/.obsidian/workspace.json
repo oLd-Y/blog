@@ -88,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -163,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "如果你辞职了，是选择先躺平一段时间，还是说继续找工作？/index.zh-cn.md",
+                "file": "42. 接雨水/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "如果你辞职了，是选择先躺平一段时间，还是说继续找工作？/index.zh-cn.md",
+                "file": "42. 接雨水/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "如果你辞职了，是选择先躺平一段时间，还是说继续找工作？/index.zh-cn.md"
+                "file": "42. 接雨水/index.zh-cn.md"
               }
             }
           },
@@ -270,10 +270,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "513df29a8b858878",
+  "active": "7d65f5823bdd67c8",
   "lastOpenFiles": [
-    "写作技巧/index.zh-cn.md",
+    "《红楼梦》 读书笔记/index.zh-cn.md",
     "如果你辞职了，是选择先躺平一段时间，还是说继续找工作？/index.zh-cn.md",
+    "写作技巧/index.zh-cn.md",
     "如果你辞职了，是选择先躺平一段时间，还是说继续找工作？",
     "《刀锋》读书笔记/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
@@ -285,7 +286,6 @@
     "目的性不强，做事就没什么动力",
     "挂糊/index.zh-cn.md",
     "挂糊",
-    "《红楼梦》 读书笔记/index.zh-cn.md",
     "42. 接雨水/index.zh-cn.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "42. 接雨水/42. 接雨水.excalidraw.md",
