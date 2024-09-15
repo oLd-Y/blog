@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-14T09:04:57+08:00
+lastmod: 2024-09-15T12:32:07+08:00
 ---
 作者：毛姆
 
@@ -76,4 +76,12 @@ Henry 对他儿子 Gray 的高尔夫球技感到自豪。
 我前往 Henry Maturin 的大房子参加晚宴，见到了他的妻子 Mrs. Maturin 和 Mrs. Bradley 以及 Isabel。
 
 我告诉 Isabel 之前在俱乐部遇见了 Larry 以及他读书非常专注的事，然后就被叫去打桥牌。完事之后发现 Mrs. Bradley 母女已经离开。
+
+### (x)
+
+我即将离开这里前往远东，向 Mrs. Bradley 等一众人告别。出发前，Isabel 借口出门，到商店与我聊起了 Larry，我也了解了 Larry 与 Isabel 野餐时的情形，并认为他只是一时地迷茫，会找到自己的路。
+
+此外，多年之后，Larry 告诉了一个名叫 Suzanne 的女人战争时发生在他身上的故事，然后 Suzanne 将这个故事告诉了我，我再转述给读者。
+
+原来在一次任务时 Larry 被敌方的战机追击，命悬一线的时候被他的好战友 Patsy 拯救，但 Patsy 却因此牺牲，令 Larry 久久不能走出。
 

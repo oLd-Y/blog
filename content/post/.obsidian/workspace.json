@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -155,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "写作技巧/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "写作技巧/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "写作技巧/index.zh-cn.md"
+                "file": "《刀锋》读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -262,13 +262,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "513df29a8b858878",
+  "active": "0d0cdf4b2c308fa3",
   "lastOpenFiles": [
-    "_daily/2024-06-16_Sunday.md",
+    "useful prompt/index.zh-cn.md",
+    "《刀锋》读书笔记/index.zh-cn.md",
     "写作技巧/index.zh-cn.md",
+    "_daily/2024-06-16_Sunday.md",
     "写作技巧",
     "Obsidian 插件记录/index.zh-cn.md",
-    "useful prompt/index.zh-cn.md",
     "目的性不强，做事就没什么动力/index.zh-cn.md",
     "糖醋里脊/index.zh-cn.md",
     "目的性不强，做事就没什么动力",
@@ -278,7 +279,6 @@
     "42. 接雨水/index.zh-cn.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "42. 接雨水/42. 接雨水.excalidraw.md",
-    "《刀锋》读书笔记/index.zh-cn.md",
     "15. 三数之和/index.zh-cn.md",
     "看似琐碎的事情可能才是时间杀手/index.zh-cn.md",
     "白菜烧豆腐/index.zh-cn.md",
