@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-15T19:11:15+08:00
+lastmod: 2024-09-15T20:19:50+08:00
 ---
 [题目链接](https://leetcode.cn/problems/trapping-rain-water/description/?envType=study-plan-v2&envId=top-100-liked)
 
@@ -89,7 +89,18 @@ class Solution:
 
 ### 思路
 
-1. 
+![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240915195917.png)
+![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240915201747.png)
+![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240915201811.png)
+
+
+
+因此我们的策略为：
+1. 如果高度持续走低，我们就先入栈等待后续更高的柱子出现。
+2. 只要出现 `i` 比 `i-1` 更高，我们就可以开始依次往回计算这根更高的柱子与之前的高柱可以接住的雨水的矩形区域面积了。把答案依次累加即可。
+
+注意：“夹住”是需要区域的，因此 `i` 最近也只能和 `i-2` 才能计算面积。
+
 ### 代码
 
 ```python

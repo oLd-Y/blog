@@ -22,43 +22,7 @@
             }
           },
           {
-            "id": "513df29a8b858878",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "如果你辞职了，是选择先躺平一段时间，还是说继续找工作？/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0d0cdf4b2c308fa3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c94f697ceaef64a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "《红楼梦》 读书笔记/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "508339035b1a11a5",
+            "id": "b71394c9062dda05",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -68,7 +32,7 @@
             }
           },
           {
-            "id": "7d65f5823bdd67c8",
+            "id": "998fbf690b59744a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,17 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "56ef9cbcc2ed0009",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -117,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "写作",
+                "query": "obsidian",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -133,9 +89,16 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "3f13f68c86a88b50",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -163,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "42. 接雨水/42. 接雨水.excalidraw.md",
+                "file": "42. 接雨水/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "42. 接雨水/42. 接雨水.excalidraw.md",
+                "file": "42. 接雨水/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "42. 接雨水/42. 接雨水.excalidraw.md"
+                "file": "42. 接雨水/index.zh-cn.md"
               }
             }
           },
@@ -267,28 +230,31 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "remotely-save:Remotely Save": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "508339035b1a11a5",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "42. 接雨水/42. 接雨水.excalidraw.md",
     "42. 接雨水/index.zh-cn.md",
+    "useful prompt/index.zh-cn.md",
+    "Obsidian 插件记录/index.zh-cn.md",
+    "49. 字母异位词分组/index.zh-cn.md",
+    "128. 最长连续序列/index.zh-cn.md",
     "《红楼梦》 读书笔记/index.zh-cn.md",
     "如果你辞职了，是选择先躺平一段时间，还是说继续找工作？/index.zh-cn.md",
     "写作技巧/index.zh-cn.md",
     "如果你辞职了，是选择先躺平一段时间，还是说继续找工作？",
     "《刀锋》读书笔记/index.zh-cn.md",
-    "useful prompt/index.zh-cn.md",
     "_daily/2024-06-16_Sunday.md",
     "写作技巧",
-    "Obsidian 插件记录/index.zh-cn.md",
     "目的性不强，做事就没什么动力/index.zh-cn.md",
     "糖醋里脊/index.zh-cn.md",
     "目的性不强，做事就没什么动力",
     "挂糊/index.zh-cn.md",
     "挂糊",
     "《汇编语言》 读书笔记/index.zh-cn.md",
-    "42. 接雨水/42. 接雨水.excalidraw.md",
     "15. 三数之和/index.zh-cn.md",
     "看似琐碎的事情可能才是时间杀手/index.zh-cn.md",
     "白菜烧豆腐/index.zh-cn.md",
@@ -307,8 +273,6 @@
     "炝锅面/index.zh-cn.md",
     "人对于不同的位置会有不同的期待",
     "糖醋里脊",
-    "人容易高估自己的精力/index.zh-cn.md",
-    "先敬罗衣后敬人/index.zh-cn.md",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
