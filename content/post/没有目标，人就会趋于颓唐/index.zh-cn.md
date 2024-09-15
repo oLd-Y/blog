@@ -1,6 +1,6 @@
 ---
 title: 没有目标，人就会趋于颓唐
-categories: 日记
+categories: 写作
 tags:
   - 随想
 date: 2024-09-02
@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-02T16:51:50+08:00
+lastmod: 2024-09-15T08:42:53+08:00
 ---
 人的生活如果没有目标，失去了热爱的事物，做事也没有激情，几乎转瞬之间就会陷入浑浑噩噩的泥塘。
 

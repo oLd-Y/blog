@@ -1,6 +1,6 @@
 ---
 title: 日更太难了
-categories: 日记
+categories: 写作
 tags:
   - 随想
 date: 2024-08-30
@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-31T17:19:19+08:00
+lastmod: 2024-09-15T08:42:53+08:00
 ---
 要想保持日更真是十分困难，一旦被某些东西分了神（比如游戏、番剧），那么今日的内容只能草草了结，用一些无用的废话来凑字数。
 

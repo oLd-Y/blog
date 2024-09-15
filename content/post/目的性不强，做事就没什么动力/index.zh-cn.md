@@ -1,6 +1,6 @@
 ---
 title: 目的性不强，做事就没什么动力
-categories: 日记
+categories: 写作
 tags:
   - 随想
 date: 2024-09-14
@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-14T22:09:01+08:00
+lastmod: 2024-09-15T08:42:53+08:00
 ---
 关于近日的写件，目的性不强 + 事情太多 + 没有专门为日总结留出时间 + 其它琐事分神 + 缺乏选题 = 完全不知道如何动笔。
 

@@ -1,6 +1,6 @@
 ---
 title: 有动力才愿意前进
-categories: 日记
+categories: 写作
 tags:
   - 随想
 date: 2024-09-05
@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-06T09:46:15+08:00
+lastmod: 2024-09-15T08:42:53+08:00
 ---
 自己会，且有成长的可能，才有前进的动力。
 

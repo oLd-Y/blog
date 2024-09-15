@@ -1,6 +1,6 @@
 ---
 title: 言行一致是一门修行
-categories: 日记
+categories: 写作
 tags:
   - 随想
 date: 2024-09-04
@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-04T20:05:24+08:00
+lastmod: 2024-09-15T08:42:53+08:00
 ---
 在网上看到一则评论，为了吹牛怼别人，说自己玩腾讯的两个手游，一个充了 16 亿，另一个充了 12 个亿。咱也不知道他的单位是什么。
 

@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
+                "file": "写作技巧/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "虾仁滑蛋",
+                "query": "写作",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "写作技巧/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "写作技巧/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "useful prompt/index.zh-cn.md"
+                "file": "写作技巧/index.zh-cn.md"
               }
             }
           },
@@ -262,8 +262,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "75ab60c5b57d6774",
+  "active": "513df29a8b858878",
   "lastOpenFiles": [
+    "_daily/2024-06-16_Sunday.md",
+    "写作技巧/index.zh-cn.md",
+    "写作技巧",
+    "Obsidian 插件记录/index.zh-cn.md",
+    "useful prompt/index.zh-cn.md",
     "目的性不强，做事就没什么动力/index.zh-cn.md",
     "糖醋里脊/index.zh-cn.md",
     "目的性不强，做事就没什么动力",
@@ -274,7 +279,6 @@
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "42. 接雨水/42. 接雨水.excalidraw.md",
     "《刀锋》读书笔记/index.zh-cn.md",
-    "useful prompt/index.zh-cn.md",
     "15. 三数之和/index.zh-cn.md",
     "看似琐碎的事情可能才是时间杀手/index.zh-cn.md",
     "白菜烧豆腐/index.zh-cn.md",
@@ -295,13 +299,9 @@
     "糖醋里脊",
     "人容易高估自己的精力/index.zh-cn.md",
     "人容易高估自己的精力",
-    "白菜烧豆腐",
     "先敬罗衣后敬人/index.zh-cn.md",
     "身后有馀忘缩手，眼前无路想回头/index.zh-cn.md",
     "Pasted Image 20240909104807_474.png",
-    "人的心思只有一个/index.zh-cn.md",
-    "_templates/templater/create page bundle.md",
-    "煎饼/index.zh-cn.md",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",

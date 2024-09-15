@@ -1,6 +1,6 @@
 ---
 title: 先敬罗衣后敬人
-categories: 日记
+categories: 写作
 tags:
   - 随想
 date: 2024-09-09
@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-09T18:08:34+08:00
+lastmod: 2024-09-15T08:42:53+08:00
 ---
 > 言语压君子，衣冠镇小人。身上无衣被人欺，肚里无识无人知。先敬罗衣后敬人，先敬皮囊后敬魂。
 

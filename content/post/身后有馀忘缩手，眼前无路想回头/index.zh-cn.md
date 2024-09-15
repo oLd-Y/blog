@@ -1,6 +1,6 @@
 ---
 title: 身后有馀忘缩手，眼前无路想回头
-categories: 日记
+categories: 写作
 tags:
   - 随想
 date: 2024-09-08
@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-08T18:33:11+08:00
+lastmod: 2024-09-15T08:42:53+08:00
 ---
 今天读红楼梦，读到贾雨村到智村寺，看到一幅对联写到：
 
