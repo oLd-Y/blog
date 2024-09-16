@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -138,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "《红楼梦》 读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "《红楼梦》 读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "useful prompt/index.zh-cn.md"
+                "file": "《红楼梦》 读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -246,10 +247,10 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "5d80a38c97dd2719",
+  "active": "739a74708c3c83e8",
   "lastOpenFiles": [
-    "《刀锋》读书笔记/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
+    "《刀锋》读书笔记/index.zh-cn.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "不要过分追求细节/index.zh-cn.md",
     "《红楼梦》 读书笔记/index.zh-cn.md",
