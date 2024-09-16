@@ -82,5 +82,14 @@
   ],
   "file-explorer:new-file-in-new-pane": [],
   "obsidian-auto-link-title:enhance-url-with-title": [],
-  "obsidian-excalidraw-plugin:insert-link-to-element": []
+  "obsidian-excalidraw-plugin:insert-link-to-element": [],
+  "workspaces:save": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ]
 }

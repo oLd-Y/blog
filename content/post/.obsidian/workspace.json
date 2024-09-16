@@ -8,43 +8,42 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cd418dae38cfe065",
+            "id": "983e03b6c6e085bc",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "b71394c9062dda05",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "42. 接雨水/42. 接雨水.excalidraw.md"
               }
             }
           },
           {
-            "id": "998fbf690b59744a",
+            "id": "739a74708c3c83e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "42. 接雨水/index.zh-cn.md",
+                "file": "《红楼梦》 读书笔记/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "565cc0167b069de2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "obsidian",
+                "query": "写作",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,14 +86,6 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "3f13f68c86a88b50",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
               "state": {}
             }
           }
@@ -126,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "useful prompt/index.zh-cn.md"
+                "file": "《刀锋》读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -236,17 +227,19 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "42. 接雨水/42. 接雨水.excalidraw.md",
-    "42. 接雨水/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
+    "《汇编语言》 读书笔记/index.zh-cn.md",
+    "《红楼梦》 读书笔记/index.zh-cn.md",
+    "《刀锋》读书笔记/index.zh-cn.md",
+    "42. 接雨水/42. 接雨水.excalidraw.md",
+    "白菜烧豆腐/index.zh-cn.md",
+    "42. 接雨水/index.zh-cn.md",
     "Obsidian 插件记录/index.zh-cn.md",
     "49. 字母异位词分组/index.zh-cn.md",
     "128. 最长连续序列/index.zh-cn.md",
-    "《红楼梦》 读书笔记/index.zh-cn.md",
     "如果你辞职了，是选择先躺平一段时间，还是说继续找工作？/index.zh-cn.md",
     "写作技巧/index.zh-cn.md",
     "如果你辞职了，是选择先躺平一段时间，还是说继续找工作？",
-    "《刀锋》读书笔记/index.zh-cn.md",
     "_daily/2024-06-16_Sunday.md",
     "写作技巧",
     "目的性不强，做事就没什么动力/index.zh-cn.md",
@@ -254,10 +247,8 @@
     "目的性不强，做事就没什么动力",
     "挂糊/index.zh-cn.md",
     "挂糊",
-    "《汇编语言》 读书笔记/index.zh-cn.md",
     "15. 三数之和/index.zh-cn.md",
     "看似琐碎的事情可能才是时间杀手/index.zh-cn.md",
-    "白菜烧豆腐/index.zh-cn.md",
     "看似琐碎的事情可能才是时间杀手",
     "_templates/templater/leetcode.md",
     "Pasted Image 20240913125132_196.png",
