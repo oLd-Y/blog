@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "477a950c4669d1d5",
+        "id": "3013159ad44061d6",
         "type": "tabs",
         "children": [
           {
-            "id": "5d80a38c97dd2719",
+            "id": "f893429ed657ddb4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "983e03b6c6e085bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "739a74708c3c83e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "《红楼梦》 读书笔记/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "565cc0167b069de2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
+                "file": "3. 无重复字符的最长子串/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -139,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《红楼梦》 读书笔记/index.zh-cn.md",
+                "file": "3. 无重复字符的最长子串/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《红楼梦》 读书笔记/index.zh-cn.md",
+                "file": "3. 无重复字符的最长子串/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《红楼梦》 读书笔记/index.zh-cn.md"
+                "file": "3. 无重复字符的最长子串/index.zh-cn.md"
               }
             }
           },
@@ -247,13 +209,16 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "739a74708c3c83e8",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "15. 三数之和/index.zh-cn.md",
+    "3. 无重复字符的最长子串/index.zh-cn.md",
+    "3. 无重复字符的最长子串",
+    "《汇编语言》 读书笔记/index.zh-cn.md",
+    "《红楼梦》 读书笔记/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
-    "《汇编语言》 读书笔记/index.zh-cn.md",
     "不要过分追求细节/index.zh-cn.md",
-    "《红楼梦》 读书笔记/index.zh-cn.md",
     "42. 接雨水/42. 接雨水.excalidraw.md",
     "白菜烧豆腐/index.zh-cn.md",
     "42. 接雨水/index.zh-cn.md",
@@ -270,7 +235,6 @@
     "目的性不强，做事就没什么动力",
     "挂糊/index.zh-cn.md",
     "挂糊",
-    "15. 三数之和/index.zh-cn.md",
     "看似琐碎的事情可能才是时间杀手/index.zh-cn.md",
     "看似琐碎的事情可能才是时间杀手",
     "_templates/templater/leetcode.md",
@@ -283,9 +247,7 @@
     "11. 盛最多水的容器/index.zh-cn.md",
     "11. 盛最多水的容器/11. 盛最多水的容器.excalidraw.md",
     "15. 三数之和",
-    "人对于不同的位置会有不同的期待/index.zh-cn.md",
     "人对于不同的位置会有不同的期待",
-    "糖醋里脊",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
