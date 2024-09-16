@@ -10,6 +10,18 @@
             "type": "tabs",
             "children": [
               {
+                "id": "5d80a38c97dd2719",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "useful prompt/index.zh-cn.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "983e03b6c6e085bc",
                 "type": "leaf",
                 "state": {
@@ -74,7 +86,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "写作",
+                    "query": "有用的",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -90,8 +102,17 @@
                   "type": "bookmarks",
                   "state": {}
                 }
+              },
+              {
+                "id": "70751372ee90f822",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
@@ -227,8 +248,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "3c82df03627e692a",
-      "mtime": "2024-09-16T07:19:43+08:00"
+      "active": "5d80a38c97dd2719",
+      "mtime": "2024-09-16T09:00:24+08:00"
     }
   },
   "active": "reading"

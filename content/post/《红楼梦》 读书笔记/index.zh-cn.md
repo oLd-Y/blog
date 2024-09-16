@@ -1,5 +1,5 @@
 ---
-title: 《红楼梦》 读书笔记
+title: 《红楼梦》读书笔记
 categories: 阅读
 tags:
   - 读书笔记
@@ -10,7 +10,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-14T09:05:02+08:00
+lastmod: 2024-09-16T08:22:06+08:00
 ---
 
 ## 第一回 甄士隐幻识通灵 贾雨村风尘怀闺秀

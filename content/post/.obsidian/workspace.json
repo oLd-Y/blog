@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "5d80a38c97dd2719",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "useful prompt/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "983e03b6c6e085bc",
             "type": "leaf",
             "state": {
@@ -72,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "写作",
+                "query": "有用的",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,8 +100,17 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "70751372ee90f822",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -117,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "useful prompt/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "useful prompt/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md"
+                "file": "useful prompt/index.zh-cn.md"
               }
             }
           },
@@ -225,12 +246,13 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "5d80a38c97dd2719",
   "lastOpenFiles": [
+    "《刀锋》读书笔记/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
+    "不要过分追求细节/index.zh-cn.md",
     "《红楼梦》 读书笔记/index.zh-cn.md",
-    "《刀锋》读书笔记/index.zh-cn.md",
     "42. 接雨水/42. 接雨水.excalidraw.md",
     "白菜烧豆腐/index.zh-cn.md",
     "42. 接雨水/index.zh-cn.md",
@@ -261,7 +283,6 @@
     "11. 盛最多水的容器/11. 盛最多水的容器.excalidraw.md",
     "15. 三数之和",
     "人对于不同的位置会有不同的期待/index.zh-cn.md",
-    "炝锅面/index.zh-cn.md",
     "人对于不同的位置会有不同的期待",
     "糖醋里脊",
     "Pasted Image 20240909104807_474.png",
