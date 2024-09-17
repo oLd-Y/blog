@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-16T08:47:38+08:00
+lastmod: 2024-09-17T10:21:56+08:00
 ---
 作者：毛姆
 
@@ -96,3 +96,8 @@ Henry 对他儿子 Gray 的高尔夫球技感到自豪。
 ### (ii)
 
 我去了卢森堡，看到了来来往往的人群，有些触景生情。然后赴约拉里，发现他只是为了与我吃个午餐而吃午餐，令我有些不解。
+
+### (iii)
+
+Mrs. Bredley 和 Isabel 在巴黎与 Elliott 碰面，Elliott 为 她们雇了一个女仆 Antoinette、联系了香奈儿要为她们订制衣服，并对他的朋友们宣称 Mrs. Bredley 己故的丈夫是个大使。以上种种只为 Mrs. Bredley 母女更加得体，不
+

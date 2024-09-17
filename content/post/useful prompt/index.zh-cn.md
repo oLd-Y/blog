@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-13T09:43:13+08:00
+lastmod: 2024-09-17T10:03:27+08:00
 ---
 ## 提高英语
 
@@ -66,8 +66,8 @@ CHAPTER：
 ### 英文版
 
 BOOKNAME: The Razor's Edge
-CHAPTER: 1
-SECTION: ()
+CHAPTER: 2
+SECTION: (iii)
 
 You are a story summurisor, I'm now reading the book `BOOKNAME` and am up to chapter `CHAPTER`，section `SECTION`, please summarize the content of the section. 
 
