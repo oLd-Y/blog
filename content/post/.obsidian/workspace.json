@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -160,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "438. 找到字符串中所有字母异位词/438. 找到字符串中所有字母异位词 .excalidraw.md",
+                "file": "438. 找到字符串中所有字母异位词/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "438. 找到字符串中所有字母异位词/438. 找到字符串中所有字母异位词 .excalidraw.md",
+                "file": "438. 找到字符串中所有字母异位词/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "438. 找到字符串中所有字母异位词/438. 找到字符串中所有字母异位词 .excalidraw.md"
+                "file": "438. 找到字符串中所有字母异位词/index.zh-cn.md"
               }
             }
           },
@@ -267,10 +267,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c3093d108b54fe54",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "438. 找到字符串中所有字母异位词/index.zh-cn.md",
     "438. 找到字符串中所有字母异位词/438. 找到字符串中所有字母异位词 .excalidraw.md",
+    "438. 找到字符串中所有字母异位词/index.zh-cn.md",
     "3. 无重复字符的最长子串/index.zh-cn.md",
     "438. 找到字符串中所有字母异位词",
     "《汇编语言》 读书笔记/index.zh-cn.md",
