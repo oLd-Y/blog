@@ -1,257 +1,468 @@
 {
-  "workspaces": {
-    "reading": {
-      "main": {
-        "id": "723784ecd9d99c53",
-        "type": "split",
-        "children": [
-          {
-            "id": "477a950c4669d1d5",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5d80a38c97dd2719",
-                "type": "leaf",
+  "reading": {
+    "main": {
+      "id": "723784ecd9d99c53",
+      "type": "split",
+      "children": [
+        {
+          "id": "477a950c4669d1d5",
+          "type": "tabs",
+          "children": [
+            {
+              "id": "5d80a38c97dd2719",
+              "type": "leaf",
+              "state": {
+                "type": "markdown",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "useful prompt/index.zh-cn.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "983e03b6c6e085bc",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "《刀锋》读书笔记/index.zh-cn.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "739a74708c3c83e8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "《红楼梦》 读书笔记/index.zh-cn.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "565cc0167b069de2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "《汇编语言》 读书笔记/index.zh-cn.md",
-                    "mode": "source",
-                    "source": false
-                  }
+                  "file": "useful prompt/index.zh-cn.md",
+                  "mode": "source",
+                  "source": false
                 }
               }
-            ],
-            "currentTab": 2
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "091a4d77250ccb56",
-        "type": "split",
-        "children": [
-          {
-            "id": "782667c5180e71f1",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "3c82df03627e692a",
-                "type": "leaf",
+            },
+            {
+              "id": "983e03b6c6e085bc",
+              "type": "leaf",
+              "state": {
+                "type": "markdown",
                 "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "byCreatedTime"
-                  }
-                }
-              },
-              {
-                "id": "75ab60c5b57d6774",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "有用的",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "5ca10ab574120a31",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {}
-                }
-              },
-              {
-                "id": "70751372ee90f822",
-                "type": "leaf",
-                "state": {
-                  "type": "recent-files",
-                  "state": {}
+                  "file": "《刀锋》读书笔记/index.zh-cn.md",
+                  "mode": "source",
+                  "source": false
                 }
               }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "horizontal",
-        "width": 314.5
-      },
-      "right": {
-        "id": "3dd1f0e1b777ab09",
-        "type": "split",
-        "children": [
-          {
-            "id": "1c9e5f75cf8faf1a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0bb0f97fd84791df",
-                "type": "leaf",
+            },
+            {
+              "id": "739a74708c3c83e8",
+              "type": "leaf",
+              "state": {
+                "type": "markdown",
                 "state": {
-                  "type": "calendar",
-                  "state": {}
-                }
-              },
-              {
-                "id": "efbabfc5ae4ea0ea",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "《红楼梦》 读书笔记/index.zh-cn.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "aff158dfc15ba055",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "《红楼梦》 读书笔记/index.zh-cn.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "e356070b0a7927c7",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "7648983be24237ba",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "《红楼梦》 读书笔记/index.zh-cn.md"
-                  }
-                }
-              },
-              {
-                "id": "b2d04053317a6ff7",
-                "type": "leaf",
-                "state": {
-                  "type": "dictionary-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "683f5200baa556ad",
-                "type": "leaf",
-                "state": {
-                  "type": "review-queue-list-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "e0151af0e7ced0c7",
-                "type": "leaf",
-                "state": {
-                  "type": "advanced-tables-toolbar",
-                  "state": {}
-                }
-              },
-              {
-                "id": "026bd931285632de",
-                "type": "leaf",
-                "state": {
-                  "type": "side-panel-control-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "a92044cadf739144",
-                "type": "leaf",
-                "state": {
-                  "type": "git-view",
-                  "state": {}
+                  "file": "《红楼梦》 读书笔记/index.zh-cn.md",
+                  "mode": "source",
+                  "source": false
                 }
               }
-            ],
-            "currentTab": 4
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "obsidian-spaced-repetition:Review flashcards": false,
-          "switcher:Open quick switcher": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "graph:Open graph view": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false,
-          "mermaid-tools:Open Mermaid Toolbar": false,
-          "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
-          "table-editor-obsidian:Advanced Tables Toolbar": false,
-          "remotely-save:Remotely Save": false,
-          "templater-obsidian:Templater": false,
-          "workspaces:Manage workspace layouts": false
+            },
+            {
+              "id": "565cc0167b069de2",
+              "type": "leaf",
+              "state": {
+                "type": "markdown",
+                "state": {
+                  "file": "《汇编语言》 读书笔记/index.zh-cn.md",
+                  "mode": "source",
+                  "source": false
+                }
+              }
+            }
+          ],
+          "currentTab": 2
         }
-      },
-      "active": "739a74708c3c83e8",
-      "mtime": "2024-09-16T16:44:45+08:00"
-    }
+      ],
+      "direction": "vertical"
+    },
+    "left": {
+      "id": "091a4d77250ccb56",
+      "type": "split",
+      "children": [
+        {
+          "id": "782667c5180e71f1",
+          "type": "tabs",
+          "children": [
+            {
+              "id": "3c82df03627e692a",
+              "type": "leaf",
+              "state": {
+                "type": "file-explorer",
+                "state": {
+                  "sortOrder": "byCreatedTime"
+                }
+              }
+            },
+            {
+              "id": "75ab60c5b57d6774",
+              "type": "leaf",
+              "state": {
+                "type": "search",
+                "state": {
+                  "query": "有用的",
+                  "matchingCase": false,
+                  "explainSearch": false,
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical"
+                }
+              }
+            },
+            {
+              "id": "5ca10ab574120a31",
+              "type": "leaf",
+              "state": {
+                "type": "bookmarks",
+                "state": {}
+              }
+            },
+            {
+              "id": "70751372ee90f822",
+              "type": "leaf",
+              "state": {
+                "type": "recent-files",
+                "state": {}
+              }
+            }
+          ],
+          "currentTab": 1
+        }
+      ],
+      "direction": "horizontal",
+      "width": 314.5
+    },
+    "right": {
+      "id": "3dd1f0e1b777ab09",
+      "type": "split",
+      "children": [
+        {
+          "id": "1c9e5f75cf8faf1a",
+          "type": "tabs",
+          "children": [
+            {
+              "id": "0bb0f97fd84791df",
+              "type": "leaf",
+              "state": {
+                "type": "calendar",
+                "state": {}
+              }
+            },
+            {
+              "id": "efbabfc5ae4ea0ea",
+              "type": "leaf",
+              "state": {
+                "type": "backlink",
+                "state": {
+                  "file": "《红楼梦》 读书笔记/index.zh-cn.md",
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              }
+            },
+            {
+              "id": "aff158dfc15ba055",
+              "type": "leaf",
+              "state": {
+                "type": "outgoing-link",
+                "state": {
+                  "file": "《红楼梦》 读书笔记/index.zh-cn.md",
+                  "linksCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              }
+            },
+            {
+              "id": "e356070b0a7927c7",
+              "type": "leaf",
+              "state": {
+                "type": "tag",
+                "state": {
+                  "sortOrder": "frequency",
+                  "useHierarchy": true
+                }
+              }
+            },
+            {
+              "id": "7648983be24237ba",
+              "type": "leaf",
+              "state": {
+                "type": "outline",
+                "state": {
+                  "file": "《红楼梦》 读书笔记/index.zh-cn.md"
+                }
+              }
+            },
+            {
+              "id": "b2d04053317a6ff7",
+              "type": "leaf",
+              "state": {
+                "type": "dictionary-view",
+                "state": {}
+              }
+            },
+            {
+              "id": "683f5200baa556ad",
+              "type": "leaf",
+              "state": {
+                "type": "review-queue-list-view",
+                "state": {}
+              }
+            },
+            {
+              "id": "e0151af0e7ced0c7",
+              "type": "leaf",
+              "state": {
+                "type": "advanced-tables-toolbar",
+                "state": {}
+              }
+            },
+            {
+              "id": "026bd931285632de",
+              "type": "leaf",
+              "state": {
+                "type": "side-panel-control-view",
+                "state": {}
+              }
+            },
+            {
+              "id": "a92044cadf739144",
+              "type": "leaf",
+              "state": {
+                "type": "git-view",
+                "state": {}
+              }
+            }
+          ],
+          "currentTab": 4
+        }
+      ],
+      "direction": "horizontal",
+      "width": 300,
+      "collapsed": true
+    },
+    "left-ribbon": {
+      "hiddenItems": {
+        "obsidian-spaced-repetition:Review flashcards": false,
+        "switcher:Open quick switcher": false,
+        "daily-notes:Open today's daily note": false,
+        "templates:Insert template": false,
+        "graph:Open graph view": false,
+        "obsidian-excalidraw-plugin:Create new drawing": false,
+        "mermaid-tools:Open Mermaid Toolbar": false,
+        "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+        "table-editor-obsidian:Advanced Tables Toolbar": false,
+        "remotely-save:Remotely Save": false,
+        "templater-obsidian:Templater": false,
+        "workspaces:Manage workspace layouts": false
+      }
+    },
+    "active": "739a74708c3c83e8",
+    "mtime": "2024-09-16T16:44:45+08:00"
   },
-  "active": "reading"
+  "leetcode": {
+    "main": {
+      "id": "723784ecd9d99c53",
+      "type": "split",
+      "children": [
+        {
+          "id": "3013159ad44061d6",
+          "type": "tabs",
+          "children": [
+            {
+              "id": "f893429ed657ddb4",
+              "type": "leaf",
+              "state": {
+                "type": "markdown",
+                "state": {
+                  "file": "3. 无重复字符的最长子串/index.zh-cn.md",
+                  "mode": "source",
+                  "source": false
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "direction": "vertical"
+    },
+    "left": {
+      "id": "091a4d77250ccb56",
+      "type": "split",
+      "children": [
+        {
+          "id": "782667c5180e71f1",
+          "type": "tabs",
+          "children": [
+            {
+              "id": "3c82df03627e692a",
+              "type": "leaf",
+              "state": {
+                "type": "file-explorer",
+                "state": {
+                  "sortOrder": "byCreatedTime"
+                }
+              }
+            },
+            {
+              "id": "75ab60c5b57d6774",
+              "type": "leaf",
+              "state": {
+                "type": "search",
+                "state": {
+                  "query": "有用的",
+                  "matchingCase": false,
+                  "explainSearch": false,
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical"
+                }
+              }
+            },
+            {
+              "id": "5ca10ab574120a31",
+              "type": "leaf",
+              "state": {
+                "type": "bookmarks",
+                "state": {}
+              }
+            },
+            {
+              "id": "70751372ee90f822",
+              "type": "leaf",
+              "state": {
+                "type": "recent-files",
+                "state": {}
+              }
+            }
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "width": 314.5
+    },
+    "right": {
+      "id": "3dd1f0e1b777ab09",
+      "type": "split",
+      "children": [
+        {
+          "id": "1c9e5f75cf8faf1a",
+          "type": "tabs",
+          "children": [
+            {
+              "id": "0bb0f97fd84791df",
+              "type": "leaf",
+              "state": {
+                "type": "calendar",
+                "state": {}
+              }
+            },
+            {
+              "id": "efbabfc5ae4ea0ea",
+              "type": "leaf",
+              "state": {
+                "type": "backlink",
+                "state": {
+                  "file": "3. 无重复字符的最长子串/index.zh-cn.md",
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              }
+            },
+            {
+              "id": "aff158dfc15ba055",
+              "type": "leaf",
+              "state": {
+                "type": "outgoing-link",
+                "state": {
+                  "file": "3. 无重复字符的最长子串/index.zh-cn.md",
+                  "linksCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              }
+            },
+            {
+              "id": "e356070b0a7927c7",
+              "type": "leaf",
+              "state": {
+                "type": "tag",
+                "state": {
+                  "sortOrder": "frequency",
+                  "useHierarchy": true
+                }
+              }
+            },
+            {
+              "id": "7648983be24237ba",
+              "type": "leaf",
+              "state": {
+                "type": "outline",
+                "state": {
+                  "file": "3. 无重复字符的最长子串/index.zh-cn.md"
+                }
+              }
+            },
+            {
+              "id": "b2d04053317a6ff7",
+              "type": "leaf",
+              "state": {
+                "type": "dictionary-view",
+                "state": {}
+              }
+            },
+            {
+              "id": "683f5200baa556ad",
+              "type": "leaf",
+              "state": {
+                "type": "review-queue-list-view",
+                "state": {}
+              }
+            },
+            {
+              "id": "e0151af0e7ced0c7",
+              "type": "leaf",
+              "state": {
+                "type": "advanced-tables-toolbar",
+                "state": {}
+              }
+            },
+            {
+              "id": "026bd931285632de",
+              "type": "leaf",
+              "state": {
+                "type": "side-panel-control-view",
+                "state": {}
+              }
+            },
+            {
+              "id": "a92044cadf739144",
+              "type": "leaf",
+              "state": {
+                "type": "git-view",
+                "state": {}
+              }
+            }
+          ],
+          "currentTab": 4
+        }
+      ],
+      "direction": "horizontal",
+      "width": 300,
+      "collapsed": true
+    },
+    "left-ribbon": {
+      "hiddenItems": {
+        "obsidian-spaced-repetition:Review flashcards": false,
+        "switcher:Open quick switcher": false,
+        "daily-notes:Open today's daily note": false,
+        "templates:Insert template": false,
+        "graph:Open graph view": false,
+        "obsidian-excalidraw-plugin:Create new drawing": false,
+        "mermaid-tools:Open Mermaid Toolbar": false,
+        "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+        "table-editor-obsidian:Advanced Tables Toolbar": false,
+        "remotely-save:Remotely Save": false,
+        "templater-obsidian:Templater": false,
+        "workspaces:Manage workspace layouts": false
+      }
+    },
+    "active": "f893429ed657ddb4",
+    "mtime": "2024-09-17T07:22:37+08:00"
+  }
 }
