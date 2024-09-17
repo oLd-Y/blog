@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-17T10:21:56+08:00
+lastmod: 2024-09-17T11:07:12+08:00
 ---
 作者：毛姆
 
@@ -99,5 +99,15 @@ Henry 对他儿子 Gray 的高尔夫球技感到自豪。
 
 ### (iii)
 
-Mrs. Bredley 和 Isabel 在巴黎与 Elliott 碰面，Elliott 为 她们雇了一个女仆 Antoinette、联系了香奈儿要为她们订制衣服，并对他的朋友们宣称 Mrs. Bredley 己故的丈夫是个大使。以上种种只为 Mrs. Bredley 母女更加得体，不
+Mrs. Bredley 和 Isabel 在巴黎与 Elliott 碰面，Elliott 为 她们雇了一个女仆 Antoinette、联系了香奈儿要为她们订制衣服，并对他的朋友们宣称 Mrs. Bredley 己故的丈夫是个大使。以上种种只为 Mrs. Bredley 母女更加得体，不失他的颜面。
+
+他们一行人与 Larry 在车站重逢。然后 Elliott 邀请 Larry 明天的午餐。
+
+次日，Elliott 和 Mrs. Bredley 聊天，聊起了 Isabel 和 Gray 以及 Larry。Elliott 对 Larry 神神秘秘、不服从自己的安排感到不满。接着 Mrs. Bredley 说起了自己和 Isabel 提前来欧洲的原因，原来是 Mrs. Bredley 得了糖尿病，希望早点安顿好 Isabel，于是来欧洲看看 Larry 是否变得“合适”了。
+
+Elliott 又谈到他对 Mrs. Bredley 母女的行程安排：今天中午的午宴以及周末的晚宴，并依 Mrs. Bredley 的意思邀请了 Larry。
+
+Elliott 试图撮合 Larry 和一个法国贵妇 Marie Louise de Florimond，但失败了，并被 Louise 夫人回怼。晚宴上的其他人都很喜欢 Larry 和 Isabel。
+
+
 
