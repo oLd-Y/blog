@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "obsidian",
+                "query": "争",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,7 +135,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -270,7 +270,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e9eb3d3ebd2ba5f3",
+  "active": "75ab60c5b57d6774",
   "lastOpenFiles": [
     "《红楼梦》 读书笔记/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
