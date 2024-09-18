@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-18T09:35:37+08:00
+lastmod: 2024-09-18T09:43:15+08:00
 ---
 作者：毛姆
 
@@ -113,5 +113,5 @@ Elliott 试图撮合 Larry 和一个法国贵妇 Marie Louise de Florimond，但
 
 早上吃早餐的时候，Mrs. Bredley 和 Isabel 提起马上就到和拉里约定的两年了。
 
-
+Isabel 和 Larry 共进午餐，并提出想要去 Larry 的住所看一下，发现是个十分简朴的出租屋。他们谈论了各自的追求，Isabel 希望 Larry 能跟他芝加哥，上进工作，过上更好的物质生活；而 Larry 追求的是精神上的富足，更愿与 Isabel 留在巴黎接触那些有趣的人和事，虽然不富裕但很充实快乐。最终二人因理念不合和平分手。
 
