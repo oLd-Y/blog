@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "质疑微信提现手续费过高 5个大学生联合将微信告上法庭/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "质疑微信提现手续费过高 5个大学生联合将微信告上法庭/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "质疑微信提现手续费过高 5个大学生联合将微信告上法庭/index.zh-cn.md"
+                "file": "《刀锋》读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -270,10 +270,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e9eb3d3ebd2ba5f3",
+  "active": "983e03b6c6e085bc",
   "lastOpenFiles": [
-    "560. 和为 K 的子数组/index.zh-cn.md",
     "质疑微信提现手续费过高 5个大学生联合将微信告上法庭/index.zh-cn.md",
+    "560. 和为 K 的子数组/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "质疑微信提现手续费过高 5个大学生联合将微信告上法庭",
     "438. 找到字符串中所有字母异位词/index.zh-cn.md",
