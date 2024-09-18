@@ -78,9 +78,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dd6b4a63c565d154",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,8 +142,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -163,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "防患于未然，才能最小化台风造成的损失/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "防患于未然，才能最小化台风造成的损失/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md"
+                "file": "防患于未然，才能最小化台风造成的损失/index.zh-cn.md"
               }
             }
           },
@@ -270,14 +277,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "983e03b6c6e085bc",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "防患于未然，才能最小化台风造成的损失/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
+    "防患于未然，才能最小化台风造成的损失/index.zh-cn.md",
+    "560. 和为 K 的子数组/index.zh-cn.md",
     "质疑微信提现手续费过高 5个大学生联合将微信告上法庭/index.zh-cn.md",
     "防患于未然，才能最小化台风造成的损失",
     "《红楼梦》 读书笔记/index.zh-cn.md",
-    "560. 和为 K 的子数组/index.zh-cn.md",
     "质疑微信提现手续费过高 5个大学生联合将微信告上法庭",
     "438. 找到字符串中所有字母异位词/index.zh-cn.md",
     "560. 和为 K 的子数组",
