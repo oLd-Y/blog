@@ -73,14 +73,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "质疑微信提现手续费过高 5个大学生联合将微信告上法庭/index.zh-cn.md",
+                "file": "防患于未然，才能最小化台风造成的损失/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "争",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "质疑微信提现手续费过高 5个大学生联合将微信告上法庭/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "质疑微信提现手续费过高 5个大学生联合将微信告上法庭/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "质疑微信提现手续费过高 5个大学生联合将微信告上法庭/index.zh-cn.md"
+                "file": "《刀锋》读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -270,11 +270,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "75ab60c5b57d6774",
+  "active": "983e03b6c6e085bc",
   "lastOpenFiles": [
-    "《红楼梦》 读书笔记/index.zh-cn.md",
+    "防患于未然，才能最小化台风造成的损失/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "质疑微信提现手续费过高 5个大学生联合将微信告上法庭/index.zh-cn.md",
+    "防患于未然，才能最小化台风造成的损失",
+    "《红楼梦》 读书笔记/index.zh-cn.md",
     "560. 和为 K 的子数组/index.zh-cn.md",
     "质疑微信提现手续费过高 5个大学生联合将微信告上法庭",
     "438. 找到字符串中所有字母异位词/index.zh-cn.md",
@@ -307,8 +309,6 @@
     "看似琐碎的事情可能才是时间杀手",
     "_templates/templater/leetcode.md",
     "Pasted Image 20240913125132_196.png",
-    "42. 接雨水",
-    "睡眠质量和睡眠时长并不完全等价/index.zh-cn.md",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
