@@ -68,18 +68,6 @@
             }
           },
           {
-            "id": "e9eb3d3ebd2ba5f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "防患于未然，才能最小化台风造成的损失/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "dd6b4a63c565d154",
             "type": "leaf",
             "state": {
@@ -170,7 +158,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "防患于未然，才能最小化台风造成的损失/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +174,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "防患于未然，才能最小化台风造成的损失/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,9 +195,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "防患于未然，才能最小化台风造成的损失/index.zh-cn.md"
-              }
+              "state": {}
             }
           },
           {
@@ -277,11 +261,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "dd6b4a63c565d154",
   "lastOpenFiles": [
-    "《刀锋》读书笔记/index.zh-cn.md",
-    "防患于未然，才能最小化台风造成的损失/index.zh-cn.md",
     "560. 和为 K 的子数组/index.zh-cn.md",
+    "防患于未然，才能最小化台风造成的损失/index.zh-cn.md",
+    "《刀锋》读书笔记/index.zh-cn.md",
     "质疑微信提现手续费过高 5个大学生联合将微信告上法庭/index.zh-cn.md",
     "防患于未然，才能最小化台风造成的损失",
     "《红楼梦》 读书笔记/index.zh-cn.md",
