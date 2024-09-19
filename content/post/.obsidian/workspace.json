@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "数组",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,8 +134,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -270,12 +269,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a0f2d7082e7b78c0",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "逆向思维之扩大矛盾/index.zh-cn.md",
-    "幸生得安世/index.zh-cn.md",
-    "幸生得安世",
     "560. 和为 K 的子数组/index.zh-cn.md",
+    "幸生得安世/index.zh-cn.md",
+    "704. 二分查找/index.zh-cn.md",
+    "逆向思维之扩大矛盾/index.zh-cn.md",
+    "幸生得安世",
     "《刀锋》读书笔记/index.zh-cn.md",
     "303. 区域和检索 - 数组不可变/index.zh-cn.md",
     "逆向思维之扩大矛盾",
@@ -306,7 +306,6 @@
     "如果你辞职了，是选择先躺平一段时间，还是说继续找工作？/index.zh-cn.md",
     "写作技巧/index.zh-cn.md",
     "如果你辞职了，是选择先躺平一段时间，还是说继续找工作？",
-    "_daily/2024-06-16_Sunday.md",
     "写作技巧",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
