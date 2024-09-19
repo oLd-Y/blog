@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "逆向思维之转移矛盾/index.zh-cn.md",
+                "file": "逆向思维之扩大矛盾/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "逆向思维之转移矛盾/index.zh-cn.md",
+                "file": "逆向思维之扩大矛盾/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "逆向思维之转移矛盾/index.zh-cn.md",
+                "file": "逆向思维之扩大矛盾/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "逆向思维之转移矛盾/index.zh-cn.md"
+                "file": "逆向思维之扩大矛盾/index.zh-cn.md"
               }
             }
           },
@@ -269,12 +269,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "dd6b4a63c565d154",
   "lastOpenFiles": [
     "560. 和为 K 的子数组/index.zh-cn.md",
-    "逆向思维之转移矛盾/index.zh-cn.md",
+    "逆向思维之扩大矛盾/index.zh-cn.md",
     "303. 区域和检索 - 数组不可变/index.zh-cn.md",
-    "逆向思维之转移矛盾",
+    "逆向思维之扩大矛盾",
     "303. 区域和检索 - 数组不可变/303. 区域和检索 - 数组不可变.excalidraw.md",
     "_templates/templater/leetcode.md",
     "《刀锋》读书笔记/index.zh-cn.md",
