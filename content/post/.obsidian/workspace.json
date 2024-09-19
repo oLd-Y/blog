@@ -73,14 +73,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "303. 区域和检索 - 数组不可变/index.zh-cn.md",
+                "file": "逆向思维之转移矛盾/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -162,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "560. 和为 K 的子数组/index.zh-cn.md",
+                "file": "逆向思维之转移矛盾/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "560. 和为 K 的子数组/index.zh-cn.md",
+                "file": "逆向思维之转移矛盾/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "560. 和为 K 的子数组/index.zh-cn.md"
+                "file": "逆向思维之转移矛盾/index.zh-cn.md"
               }
             }
           },
@@ -271,10 +271,12 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "560. 和为 K 的子数组/index.zh-cn.md",
+    "逆向思维之转移矛盾/index.zh-cn.md",
     "303. 区域和检索 - 数组不可变/index.zh-cn.md",
+    "逆向思维之转移矛盾",
     "303. 区域和检索 - 数组不可变/303. 区域和检索 - 数组不可变.excalidraw.md",
     "_templates/templater/leetcode.md",
-    "560. 和为 K 的子数组/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "303. 区域和检索 - 数组不可变",
     "《红楼梦》 读书笔记/index.zh-cn.md",
@@ -304,9 +306,7 @@
     "_daily/2024-06-16_Sunday.md",
     "写作技巧",
     "目的性不强，做事就没什么动力/index.zh-cn.md",
-    "糖醋里脊/index.zh-cn.md",
     "目的性不强，做事就没什么动力",
-    "挂糊",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
