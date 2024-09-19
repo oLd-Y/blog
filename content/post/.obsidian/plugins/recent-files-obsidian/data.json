@@ -2,6 +2,10 @@
   "recentFiles": [
     {
       "basename": "index.zh-cn",
+      "path": "560. 和为 K 的子数组/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
       "path": "303. 区域和检索 - 数组不可变/index.zh-cn.md"
     },
     {
@@ -11,10 +15,6 @@
     {
       "basename": "leetcode",
       "path": "_templates/templater/leetcode.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "560. 和为 K 的子数组/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
