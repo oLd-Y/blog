@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-19T07:02:24+08:00
+lastmod: 2024-09-19T08:23:17+08:00
 ---
 作者：毛姆
 
@@ -122,5 +122,6 @@ Isabel 和 Larry 共进午餐，并提出想要去 Larry 的住所看一下，�
 | --------------------------------------- | -------- |
 | you could not but be conscious that<br> | 你不可能不意识到 |
 | fall to pieces                          | 碎掉       |
+| not up to your mark                     | 比不上你     |
 
 

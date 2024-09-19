@@ -75,7 +75,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "useful prompt/index.zh-cn.md"
+                "file": "《刀锋》读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -266,6 +267,7 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "useful prompt/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "560. 和为 K 的子数组/index.zh-cn.md",
     "防患于未然，才能最小化台风造成的损失/index.zh-cn.md",
@@ -280,7 +282,6 @@
     "438. 找到字符串中所有字母异位词/438. 找到字符串中所有字母异位词 .excalidraw.md",
     "3. 无重复字符的最长子串/index.zh-cn.md",
     "438. 找到字符串中所有字母异位词",
-    "useful prompt/index.zh-cn.md",
     "Obsidian 插件记录/index.zh-cn.md",
     "15. 三数之和/index.zh-cn.md",
     "3. 无重复字符的最长子串",
