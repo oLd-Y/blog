@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a0f2d7082e7b78c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "幸生得安世/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -150,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "560. 和为 K 的子数组/index.zh-cn.md",
+                "file": "幸生得安世/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "560. 和为 K 的子数组/index.zh-cn.md",
+                "file": "幸生得安世/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "560. 和为 K 的子数组/index.zh-cn.md"
+                "file": "幸生得安世/index.zh-cn.md"
               }
             }
           },
@@ -257,11 +270,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "a0f2d7082e7b78c0",
   "lastOpenFiles": [
     "逆向思维之扩大矛盾/index.zh-cn.md",
-    "《刀锋》读书笔记/index.zh-cn.md",
+    "幸生得安世/index.zh-cn.md",
+    "幸生得安世",
     "560. 和为 K 的子数组/index.zh-cn.md",
+    "《刀锋》读书笔记/index.zh-cn.md",
     "303. 区域和检索 - 数组不可变/index.zh-cn.md",
     "逆向思维之扩大矛盾",
     "303. 区域和检索 - 数组不可变/303. 区域和检索 - 数组不可变.excalidraw.md",
@@ -293,8 +308,6 @@
     "如果你辞职了，是选择先躺平一段时间，还是说继续找工作？",
     "_daily/2024-06-16_Sunday.md",
     "写作技巧",
-    "目的性不强，做事就没什么动力/index.zh-cn.md",
-    "目的性不强，做事就没什么动力",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
