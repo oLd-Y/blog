@@ -78,19 +78,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "43c8cb679614dc57",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "303. 区域和检索 - 数组不可变/303. 区域和检索 - 数组不可变.excalidraw.md"
-              }
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -172,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "303. 区域和检索 - 数组不可变/303. 区域和检索 - 数组不可变.excalidraw.md",
+                "file": "303. 区域和检索 - 数组不可变/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "303. 区域和检索 - 数组不可变/303. 区域和检索 - 数组不可变.excalidraw.md",
+                "file": "303. 区域和检索 - 数组不可变/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "303. 区域和检索 - 数组不可变/303. 区域和检索 - 数组不可变.excalidraw.md"
+                "file": "303. 区域和检索 - 数组不可变/index.zh-cn.md"
               }
             }
           },
@@ -281,8 +271,8 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "303. 区域和检索 - 数组不可变/index.zh-cn.md",
     "303. 区域和检索 - 数组不可变/303. 区域和检索 - 数组不可变.excalidraw.md",
+    "303. 区域和检索 - 数组不可变/index.zh-cn.md",
     "_templates/templater/leetcode.md",
     "560. 和为 K 的子数组/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
