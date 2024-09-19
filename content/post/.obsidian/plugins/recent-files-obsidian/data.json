@@ -2,7 +2,19 @@
   "recentFiles": [
     {
       "basename": "index.zh-cn",
+      "path": "《红楼梦》 读书笔记/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "《汇编语言》 读书笔记/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
       "path": "幸生得安世/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "《刀锋》读书笔记/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
@@ -18,10 +30,6 @@
     },
     {
       "basename": "index.zh-cn",
-      "path": "《刀锋》读书笔记/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
       "path": "303. 区域和检索 - 数组不可变/index.zh-cn.md"
     },
     {
@@ -31,10 +39,6 @@
     {
       "basename": "leetcode",
       "path": "_templates/templater/leetcode.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "《红楼梦》 读书笔记/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
@@ -51,10 +55,6 @@
     {
       "basename": "index.zh-cn",
       "path": "438. 找到字符串中所有字母异位词/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "《汇编语言》 读书笔记/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
