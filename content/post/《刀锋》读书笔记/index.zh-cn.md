@@ -5,11 +5,11 @@ tags:
   - 读书笔记
   - 小说
 date: 2024-08-31
-description: 
+description: 本篇笔记为个人对于《刀锋》每一章每一小节的内容总结以及部分关注的单词记录。
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-19T09:16:58+08:00
+lastmod: 2024-09-19T17:53:19+08:00
 ---
 作者：毛姆
 
