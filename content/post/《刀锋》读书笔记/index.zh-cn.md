@@ -9,7 +9,7 @@ description: 本篇笔记为个人对于《刀锋》每一章每一小节的内�
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-20T09:09:24+08:00
+lastmod: 2024-09-20T10:14:27+08:00
 ---
 作者：毛姆
 
@@ -129,15 +129,27 @@ Isabel 进到客厅时，发现聚集了许多客人，其中有两名贵妇令�
 
 ### (vi)
 
+我从中东回到伦敦，被 Elliott 邀请去参加晚餐，久违地见到了 Mrs. Bredley 和 Isabel，得知了 Isabel 和 Larry 解除婚约的事情。
+
+Elliott 对 Isabel 和 Larry 仍然频繁地往来感到不满，计划安排 Isabel 一家去参加英国的各种游宴，让 Isabel 分心，并顺便预约了一名糖尿病专家让 Mrs. Bredley 看一下病。
+
+后来我想尽一下地主之宜，回请 Mrs. Bredley 等人共进午餐。Elliott 对我有些傲慢，于是互相之前用言语讥讽了一下。
+
+| 单词/短语                  | 意思         | 例句                                                                   |
+| ---------------------- | ---------- | -------------------------------------------------------------------- |
+| be urshered in<br>     | 被带进（某地）    | I am ushered in the drawing-room.                                    |
+| is taken with          | 喜欢某人       | He is taken with her.                                                |
+| fell in with the plan  | 同意这个计划     | Now that you fell in with this plan, I have no word to say.          |
+| reasonably account for | 对某事做出合理的解释 | His extreme sadness would reasonly account for his sudden departure. |
+| did not turn a hair    | 毫不动容       | The knife almost touched his face, but he didn't turn a hair.        |
+
+### (vii)
 
 
-| 单词/短语                  | 意思         | 例句                                |
-| ---------------------- | ---------- | --------------------------------- |
-| be urshered in<br>     | 被带进（某地）    | I am ushered in the drawing-room. |
-| is taken with          | 喜欢某人       |                                   |
-| fell in with the plan  | 同意这个计划     |                                   |
-| reasonably account for | 对某事做出合理的解释 |                                   |
-| did not turn a hair    | 毫不动容       |                                   |
-| hauteur                | 傲慢         |                                   |
-
-
+| 单词/短语                  | 意思         | 例句                                                                   |
+| ---------------------- | ---------- | -------------------------------------------------------------------- |
+| be urshered in<br>     | 被带进（某地）    | I am ushered in the drawing-room.                                    |
+| is taken with          | 喜欢某人       | He is taken with her.                                                |
+| fell in with the plan  | 同意这个计划     | Now that you fell in with this plan, I have no word to say.          |
+| reasonably account for | 对某事做出合理的解释 | His extreme sadness would reasonly account for his sudden departure. |
+| did not turn a hair    | 毫不动容       | The knife almost touched his face, but he didn't turn a hair.        |
