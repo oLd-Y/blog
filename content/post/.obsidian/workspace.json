@@ -67,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "useful prompt/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "useful prompt/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md"
+                "file": "useful prompt/index.zh-cn.md"
               }
             }
           },
@@ -259,12 +258,12 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "《刀锋》读书笔记/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
     "560. 和为 K 的子数组/index.zh-cn.md",
     "幸生得安世/index.zh-cn.md",
     "《红楼梦》 读书笔记/index.zh-cn.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
-    "《刀锋》读书笔记/index.zh-cn.md",
     "704. 二分查找/index.zh-cn.md",
     "逆向思维之扩大矛盾/index.zh-cn.md",
     "幸生得安世",
