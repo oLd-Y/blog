@@ -9,7 +9,7 @@ description: 本篇笔记为个人对于《刀锋》每一章每一小节的内�
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-20T11:12:57+08:00
+lastmod: 2024-09-20T11:23:01+08:00
 ---
 作者：毛姆
 
@@ -157,3 +157,4 @@ Elliott 带着他的亲人到处参加贵族的聚会，看似无私地想帮助
 
 名言：
 
+There are criminals who'll work like beavers to contrive schemes that land them in prison and they no sooner get out than they start all over again and again land in prison.
