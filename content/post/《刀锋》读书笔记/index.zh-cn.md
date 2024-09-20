@@ -9,7 +9,7 @@ description: 本篇笔记为个人对于《刀锋》每一章每一小节的内�
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-20T10:14:27+08:00
+lastmod: 2024-09-20T11:12:57+08:00
 ---
 作者：毛姆
 
@@ -146,10 +146,14 @@ Elliott 对 Isabel 和 Larry 仍然频繁地往来感到不满，计划安排 Is
 ### (vii)
 
 
-| 单词/短语                  | 意思         | 例句                                                                   |
-| ---------------------- | ---------- | -------------------------------------------------------------------- |
-| be urshered in<br>     | 被带进（某地）    | I am ushered in the drawing-room.                                    |
-| is taken with          | 喜欢某人       | He is taken with her.                                                |
-| fell in with the plan  | 同意这个计划     | Now that you fell in with this plan, I have no word to say.          |
-| reasonably account for | 对某事做出合理的解释 | His extreme sadness would reasonly account for his sudden departure. |
-| did not turn a hair    | 毫不动容       | The knife almost touched his face, but he didn't turn a hair.        |
+Elliott 带着他的亲人到处参加贵族的聚会，看似无私地想帮助 Isabel 走出不幸，但更像是为了跟他姐姐炫耀自己与上流社会多么熟悉。
+
+
+
+| 单词/短语/句子                | 意思               | 例句  |
+| ----------------------- | ---------------- | --- |
+| I don't suppose<br>     | 我应该（don't 表示不确定） |     |
+| throw her off the scent | 让她不再追问           |     |
+
+名言：
+
