@@ -10,6 +10,10 @@
     },
     {
       "basename": "index.zh-cn",
+      "path": "useful prompt/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
       "path": "283. 移动零/index.zh-cn.md"
     },
     {
@@ -23,10 +27,6 @@
     {
       "basename": "index.zh-cn",
       "path": "560. 和为 K 的子数组/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "useful prompt/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
