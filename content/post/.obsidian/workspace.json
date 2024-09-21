@@ -66,21 +66,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6a59dd7189de2218",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面对恐惧可能确是消除恐惧的良方/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -162,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面对恐惧可能确是消除恐惧的良方/index.zh-cn.md",
+                "file": "useful prompt/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面对恐惧可能确是消除恐惧的良方/index.zh-cn.md",
+                "file": "useful prompt/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面对恐惧可能确是消除恐惧的良方/index.zh-cn.md"
+                "file": "useful prompt/index.zh-cn.md"
               }
             }
           },
@@ -269,20 +256,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "c88e20a567a8208e",
   "lastOpenFiles": [
+    "《刀锋》读书笔记/index.zh-cn.md",
+    "《红楼梦》 读书笔记/index.zh-cn.md",
     "239. 滑动窗口最大值/index.zh-cn.md",
     "面对恐惧可能确是消除恐惧的良方/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
     "283. 移动零/index.zh-cn.md",
     "面对恐惧可能确是消除恐惧的良方",
     "我家有两条狗/index.zh-cn.md",
-    "《刀锋》读书笔记/index.zh-cn.md",
     "560. 和为 K 的子数组/index.zh-cn.md",
     "239. 滑动窗口最大值",
     "我家有两条狗",
     "幸生得安世/index.zh-cn.md",
-    "《红楼梦》 读书笔记/index.zh-cn.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "704. 二分查找/index.zh-cn.md",
     "逆向思维之扩大矛盾/index.zh-cn.md",
