@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "283. 移动零/index.zh-cn.md",
+                "file": "面对恐惧可能确是消除恐惧的良方/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "283. 移动零/index.zh-cn.md",
+                "file": "面对恐惧可能确是消除恐惧的良方/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "283. 移动零/index.zh-cn.md",
+                "file": "面对恐惧可能确是消除恐惧的良方/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "283. 移动零/index.zh-cn.md"
+                "file": "面对恐惧可能确是消除恐惧的良方/index.zh-cn.md"
               }
             }
           },
@@ -269,8 +269,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6a59dd7189de2218",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "283. 移动零/index.zh-cn.md",
+    "面对恐惧可能确是消除恐惧的良方/index.zh-cn.md",
+    "面对恐惧可能确是消除恐惧的良方",
     "239. 滑动窗口最大值/index.zh-cn.md",
     "我家有两条狗/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
@@ -301,12 +304,9 @@
     "438. 找到字符串中所有字母异位词",
     "Obsidian 插件记录/index.zh-cn.md",
     "15. 三数之和/index.zh-cn.md",
-    "3. 无重复字符的最长子串",
     "不要过分追求细节/index.zh-cn.md",
     "42. 接雨水/42. 接雨水.excalidraw.md",
     "白菜烧豆腐/index.zh-cn.md",
-    "49. 字母异位词分组/index.zh-cn.md",
-    "128. 最长连续序列/index.zh-cn.md",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
