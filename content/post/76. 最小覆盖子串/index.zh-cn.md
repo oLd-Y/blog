@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-22T09:05:35+08:00
+lastmod: 2024-09-22T10:04:35+08:00
 ---
 [题目链接](https://leetcode.cn/problems/minimum-window-substring/description/?envType=study-plan-v2&envId=top-100-liked)
 
@@ -19,10 +19,9 @@ lastmod: 2024-09-22T09:05:35+08:00
 
 ### 思路
 
-1. 思路是通过滑动窗口限定 `s` 中的子串，然后比较该子串是否满足题意。
-2. 
+1. 思路是通过滑动窗口限定 `s` 中的子串，然后比较该子串是否满足题意，不断更新该子串即可。
 
-3. 类似题目：
+2. 类似题目：
 [438. 找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string/description/) 
 
 ### 代码
@@ -46,7 +45,7 @@ class Solution:
 ```
 
 ### 复杂度
-- 时间复杂度：$O(n)$。
-- 空间复杂度：$O(n)$。
+- 时间复杂度：$O(|\Sigma| m + n)$。判断一次 `cnt_s` 是否覆盖 `cnt_t` 需要 $O(|\Sigma|)$ 时间，找到答案前最多判断 `m` 次，`m` 为 `s` 的长度。生成 `t` 的计数需要 $O(n)$，`n` 为 `t` 的长度。$|\Sigma|$ 为字符集的长度 26 + 26 = 52。
+- 空间复杂度：$O(|\Sigma|)$。
 
 
