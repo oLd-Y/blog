@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-22T16:59:46+08:00
+lastmod: 2024-09-22T17:19:16+08:00
 ---
 ## 第 1 章 基础知识
 
@@ -80,4 +80,10 @@ cs 和 ip 是最重要的寄存器。CPU 通过 cs:ip 访问所有的指令，�
 
 设 bx 中的数据为 EA，ds 中的数据为 SA，则：
 
-`mov ax, [bx]` 表示
+- `mov ax, [bx]` 表示将 EA:SA 的数据赋给 ax。
+- `mov [bx], ax` 表示将 ax 的数据送入内存 EA:SA 处。
+
+`loop s` 表示循环标号 s 所在的代码，循环次数由 cx 寄存器决定。
+
+指令中不只可以使用默认 ds 表示段地址，也可以使用段前缀，例如：`mov ds:[0] al`，`mov ax, es:[bx]` 等。
+
