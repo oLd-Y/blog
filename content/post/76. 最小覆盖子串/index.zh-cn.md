@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-22T08:01:31+08:00
+lastmod: 2024-09-22T09:05:35+08:00
 ---
 [题目链接](https://leetcode.cn/problems/minimum-window-substring/description/?envType=study-plan-v2&envId=top-100-liked)
 
@@ -19,8 +19,11 @@ lastmod: 2024-09-22T08:01:31+08:00
 
 ### 思路
 
-1. 本道题和 [438. 找到字符串中所有字母异位词(https://leetcode.cn/problems/find-all-anagrams-in-a-string/)](https://leetcode.cn/problems/find-all-anagrams-in-a-string/description/) 类似。
+1. 思路是通过滑动窗口限定 `s` 中的子串，然后比较该子串是否满足题意。
 2. 
+
+3. 类似题目：
+[438. 找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string/description/) 
 
 ### 代码
 
