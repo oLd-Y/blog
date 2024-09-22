@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wsl 网络问题.md",
+                "file": "关于睡眠的一些猜想/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wsl 网络问题.md",
+                "file": "关于睡眠的一些猜想/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wsl 网络问题.md",
+                "file": "关于睡眠的一些猜想/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wsl 网络问题.md"
+                "file": "关于睡眠的一些猜想/index.zh-cn.md"
               }
             }
           },
@@ -277,8 +277,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2b98d7abb31e8e0c",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "wsl 网络问题.md",
+    "关于睡眠的一些猜想/index.zh-cn.md",
+    "关于睡眠的一些猜想",
     "704. 二分查找/index.zh-cn.md",
     "704. 二分查找/704. 二分查找.excalidraw.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
@@ -308,13 +311,10 @@
     "防患于未然，才能最小化台风造成的损失",
     "质疑微信提现手续费过高 5个大学生联合将微信告上法庭",
     "438. 找到字符串中所有字母异位词/index.zh-cn.md",
-    "560. 和为 K 的子数组",
     "42. 接雨水/index.zh-cn.md",
     "438. 找到字符串中所有字母异位词/438. 找到字符串中所有字母异位词 .excalidraw.md",
     "3. 无重复字符的最长子串/index.zh-cn.md",
     "Obsidian 插件记录/index.zh-cn.md",
-    "15. 三数之和/index.zh-cn.md",
-    "不要过分追求细节/index.zh-cn.md",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",

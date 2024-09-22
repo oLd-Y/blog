@@ -38,7 +38,7 @@
     "李治军操作系统-前置知识.md": "c87b9b38f155bc7227e57362303130c6ed9f554b7def347d954bc37db303d9e2",
     "哈工大操作系统实验3.md": "0e06f8e7295fb64952d61876cce1d4b0a3c8d259814b265b10e24337ea8debf7",
     "哈工大操作系统实验4.md": "aa61070ee51d32a69a248037ad53933518b3e41547609f25cc0542803a59fd76",
-    "wsl 网络问题.md": "e443dac1d47a184f4fcaf3004bab5b4bdc0643f293c1569d790f16ea13707129",
+    "wsl 网络问题.md": "e99b98b36f09a8f31a2740cdd8c48d1c507397921641252c5e029032669b84bd",
     "信号量.md": "8fc3b699be0e0c979cdb2a8ec16af7b1c5de74d3fee457b7014530d87ca5b8ce",
     "弃用 emacs 转用 neovim 的原因.md": "83df063909a27ca969382ac3bc3ed2df5cb7bbd295abbd20636181cbf8cf7606",
     "vim.md": "523be80b34121a7552cee67a03b76a739dc2b2f764c6b000f7866335d5674ada",
@@ -218,6 +218,7 @@
     "我家有两条狗/index.zh-cn.md": "117f921f76d0168646be8fa1a8eefa450b4668526de2e5f42bde80b5a63ead0c",
     "239. 滑动窗口最大值/index.zh-cn.md": "1a8b76aa9642a5a03a8ab536f69936fbf9697155cdcdddacb66486e8ae5e61d7",
     "面对恐惧可能确是消除恐惧的良方/index.zh-cn.md": "b929357545dafea2fdcd9cd7ce26de9baa62633e53b0a49c571104fd2101d7eb",
-    "76. 最小覆盖子串/index.zh-cn.md": "a7253ef11b0dcd4b2a0687177cbbdf7a25df29960c130c8524cc2ebce78f7e8a"
+    "76. 最小覆盖子串/index.zh-cn.md": "a7253ef11b0dcd4b2a0687177cbbdf7a25df29960c130c8524cc2ebce78f7e8a",
+    "关于睡眠的一些猜想/index.zh-cn.md": "29167459bb1cdca4fb11a38eaf4e57a0c2f57aaa2a70713c64e0686319beb462"
   }
 }

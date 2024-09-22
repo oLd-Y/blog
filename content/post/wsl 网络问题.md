@@ -2,7 +2,7 @@
 tags:
   - wsl
 draft: true
-lastmod: 2024-06-25T16:17:54+08:00
+lastmod: 2024-09-22T18:29:33+08:00
 title: wsl 网络问题
 date: 2024-06-18
 ---
@@ -36,22 +36,22 @@ autoProxy=true
 
 1. **重启WSL和主机网络服务** 在PowerShell或CMD中运行以下命令：
     
-    ```sh
-    wsl --shutdown
-    netsh winsock reset
-    netsh int ip reset all
-    ipconfig /release
-    ipconfig /renew
-    ipconfig /flushdns
-    ```
+```sh
+wsl --shutdown
+netsh winsock reset
+netsh int ip reset all
+ipconfig /release
+ipconfig /renew
+ipconfig /flushdns
+```
     
     然后重新启动计算机。
     
 2. **更新WSL** 确保你使用的是最新版本的WSL：
-    
-    ```sh
-    wsl --update
-    ```
+
+```sh
+wsl --update
+```
     
 
 ### 配置WSL网络代理
@@ -62,13 +62,13 @@ autoProxy=true
     
 2. **在WSL中配置代理** 在你的WSL终端中，运行以下命令：
     
-    ```sh
-    export http_proxy="http://127.0.0.1:7890"
-    export https_proxy="http://127.0.0.1:7890"
-    export no_proxy="localhost,127.0.0.1,::1"
-    ```
-    
-    你可以将这些命令添加到你的`~/.bashrc`或`~/.zshrc`文件中，使其在每次启动WSL时自动执行。
+```sh
+export http_proxy="http://127.0.0.1:7890"
+export https_proxy="http://127.0.0.1:7890"
+export no_proxy="localhost,127.0.0.1,::1"
+```
+
+	你可以将这些命令添加到你的`~/.bashrc`或`~/.zshrc`文件中，使其在每次启动WSL时自动执行。
     
 
 ### 检查WSL网络配置
