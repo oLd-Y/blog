@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "  tag:#菜谱",
+  "search": "tag:#哈希表 tag:#滑动窗口  ",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.0000000000000173,
+  "scale": 1.7404978230765913,
   "close": false
 }
