@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-19T22:25:04+08:00
+lastmod: 2024-09-23T17:16:33+08:00
 ---
 ## 提高英语
 
@@ -98,6 +98,8 @@ In order to ensure the accuracy of the content, I will provide you with text of 
 
 我被要求写一篇文章，需要至少 800 字。现写至结尾，没有灵感了，凑不出字数。请你帮我续写，以满足字数规定。要求保持文风一致，且口水话不能太多。
 
-```
+注意，直接补全文章即可，而不是重新写一篇文章。
 
-```
+"""
+
+"""
