@@ -9,7 +9,7 @@ description: 本篇笔记为个人对于《刀锋》每一章每一小节的内�
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-23T12:32:53+08:00
+lastmod: 2024-09-23T13:21:50+08:00
 ---
 作者：毛姆
 
@@ -165,5 +165,12 @@ There are criminals who'll work like beavers to contrive schemes that land them 
 
 ### (i) 
 
-后来我有将近十年没有见到 Larry 和 Isabel 了。偶而可以通过 Elliott 了解 Isabel 的近况，但确实很久没有与 Larry 碰过面了。直到多年以后他才告诉我他的经历。
+后来我有将近十年没有见到 Larry 和 Isabel 了。偶而可以通过 Elliott 了解 Isabel 的近况，但确实很久没有与 Larry 碰过面了。直到多年以后我才从他的口中得知他的经历。
 
+Larry 在和 Isabel 分开后，一开始打算去希腊，但放弃了，于是一直待在巴黎，工作到深秋。然后觉得自己应该参加一些体力劳动，于是经介绍去了一家矿场到地下挖煤矿，并因此结识了 Kosti，一个曾经的骑兵军官，自己说是逃亡出来，不过他们老对头说他是被赶出来的。Larry 一开始做 Kosti 的助手，但后来因为自己懂一点机械知识，修理一些机器，当上了工头的机械顾问。
+
+Larry 和 Kosti 经常在工作结束之后去小酒馆喝一杯酒，并玩一些赌搏游戏。他经常出老千，但 Larry 不知道他是如何做到的。Larry 非常欣赏 Kosti，觉得他非常有文化，又很健谈。
+
+### (ii)
+
+后来 Kosti 提议去德国游荡，并邀请 Larry 一起，Larry 同意了。于是他们一同辞职步行前往德国。
