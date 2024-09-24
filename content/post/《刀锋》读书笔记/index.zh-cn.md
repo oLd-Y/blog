@@ -9,7 +9,7 @@ description: 本篇笔记为个人对于《刀锋》每一章每一小节的内�
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-25T06:34:55+08:00
+lastmod: 2024-09-25T07:13:42+08:00
 ---
 作者：毛姆
 
@@ -188,4 +188,14 @@ Larry 时常跟 Ellie 学习德语。
 一次天很热，Larry 干活之后直接裸睡，迷迷糊糊起来，发现自己被用强了。他起初以为是 Frau Becker，结果没想到是 Ellie。他觉得不能在这个农场待了，于是立马动身，趁着夜色到了镇上，准备前往波恩住上一段日子。
 
 ### (iii)
+
+Isabel 和 Gray 在芝加哥举办了隆重的婚礼结了婚，Elliott 很认可这个婚礼，不远万里、不惜花费重金购置结婚相关物品，并为此感到自满。
+
+Isabel 和 Gray 后来搬进了 Herry Maturin 送的豪华房子，并有了两个女儿，Joan 和 Priscilla。
+
+后来 Elliott 通过Henrry Maturin 的股票赚了很多钱。然而随着与他深交的旧贵族圈层的逐渐老去，他不再被新的贵族圈层待见。其中由他提拨但却变得对他十分傲慢的年轻人 Paul Barton 感到十分不快。
+
+整个巴黎享乐之风盛行，但这不是 Elliott 想要的。
+
+### (iv)
 
