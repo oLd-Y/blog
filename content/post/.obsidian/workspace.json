@@ -66,9 +66,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c022fa2669cded66",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -150,7 +158,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +174,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,9 +195,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "useful prompt/index.zh-cn.md"
-              }
+              "state": {}
             }
           },
           {
@@ -257,21 +261,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "c022fa2669cded66",
   "lastOpenFiles": [
-    "不想被所有人讨厌是一个弱点/index.zh-cn.md",
+    "《刀锋》读书笔记/index.zh-cn.md",
     "53. 最大子数组和/index.zh-cn.md",
+    "303. 区域和检索 - 数组不可变/index.zh-cn.md",
+    "560. 和为 K 的子数组/index.zh-cn.md",
+    "useful prompt/index.zh-cn.md",
+    "不想被所有人讨厌是一个弱点/index.zh-cn.md",
     "3. 无重复字符的最长子串/index.zh-cn.md",
     "不想被所有人讨厌是一个弱点",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
     "LazyVim for Ambitious Developers 阅读笔记",
     "《红楼梦》 读书笔记/index.zh-cn.md",
-    "《刀锋》读书笔记/index.zh-cn.md",
     "76. 最小覆盖子串/index.zh-cn.md",
     "53. 最大子数组和",
     "影响睡眠质量的因素/index.zh-cn.md",
-    "useful prompt/index.zh-cn.md",
     "关于睡眠的一些结论/index.zh-cn.md",
     "影响睡眠质量的因素",
     "wsl 网络问题.md",
@@ -284,13 +290,11 @@
     "283. 移动零/index.zh-cn.md",
     "面对恐惧可能确是消除恐惧的良方",
     "我家有两条狗/index.zh-cn.md",
-    "560. 和为 K 的子数组/index.zh-cn.md",
     "239. 滑动窗口最大值",
     "我家有两条狗",
     "幸生得安世/index.zh-cn.md",
     "逆向思维之扩大矛盾/index.zh-cn.md",
     "幸生得安世",
-    "303. 区域和检索 - 数组不可变/index.zh-cn.md",
     "303. 区域和检索 - 数组不可变/303. 区域和检索 - 数组不可变.excalidraw.md",
     "_templates/templater/leetcode.md",
     "防患于未然，才能最小化台风造成的损失/index.zh-cn.md",

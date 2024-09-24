@@ -4,12 +4,13 @@ categories: 计算机
 tags:
   - 数据结构与算法
   - 前缀和
+  - 基础例题
 date: 2024-09-19
 description: 
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-19T13:50:13+08:00
+lastmod: 2024-09-25T05:01:37+08:00
 ---
 [题目链接](https://leetcode.cn/problems/range-sum-query-immutable/description/)
 
