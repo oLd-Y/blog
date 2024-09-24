@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-24T10:33:18+08:00
+lastmod: 2024-09-24T14:57:42+08:00
 ---
 ## 第 1 章 基础知识
 
@@ -93,3 +93,4 @@ cs 和 ip 是最重要的寄存器。CPU 通过 cs:ip 访问所有的指令，�
 
 如果先定义数据，再编写程序，则 CPU 指执行时最先接触的就是数据而非程序。因此，我们通过 `end` 指明程序的入口，例如 `end start` 指明入口程序的标号为 `start`，程序执行的时候，CPU 就会自动将标号 start 程序所在的地址作为程序的起始地址。
 
+`mov ds data`，data 为段标号。这句
