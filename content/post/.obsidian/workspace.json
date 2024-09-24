@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "53. 最大子数组和/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "53. 最大子数组和/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "53. 最大子数组和/index.zh-cn.md"
+                "file": "《刀锋》读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -265,24 +265,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "679b9eead08b7eab",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "76. 最小覆盖子串/index.zh-cn.md",
+    "《红楼梦》 读书笔记/index.zh-cn.md",
+    "《刀锋》读书笔记/index.zh-cn.md",
     "53. 最大子数组和/index.zh-cn.md",
+    "76. 最小覆盖子串/index.zh-cn.md",
     "53. 最大子数组和",
     "影响睡眠质量的因素/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "关于睡眠的一些结论/index.zh-cn.md",
     "影响睡眠质量的因素",
-    "《刀锋》读书笔记/index.zh-cn.md",
     "wsl 网络问题.md",
     "关于睡眠的一些结论",
     "704. 二分查找/index.zh-cn.md",
     "704. 二分查找/704. 二分查找.excalidraw.md",
     "239. 滑动窗口最大值/index.zh-cn.md",
     "76. 最小覆盖子串",
-    "《红楼梦》 读书笔记/index.zh-cn.md",
     "面对恐惧可能确是消除恐惧的良方/index.zh-cn.md",
     "283. 移动零/index.zh-cn.md",
     "面对恐惧可能确是消除恐惧的良方",
