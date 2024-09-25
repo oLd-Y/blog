@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2d26548f8b98e795",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -151,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
+                "file": "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
+                "file": "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《汇编语言》 读书笔记/index.zh-cn.md"
+                "file": "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md"
               }
             }
           },
@@ -258,8 +270,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "565cc0167b069de2",
+  "active": "2d26548f8b98e795",
   "lastOpenFiles": [
+    "《汇编语言》 读书笔记/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "就算只与自己的美好相遇/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
@@ -271,7 +284,6 @@
     "不想被所有人讨厌是一个弱点/index.zh-cn.md",
     "3. 无重复字符的最长子串/index.zh-cn.md",
     "不想被所有人讨厌是一个弱点",
-    "《汇编语言》 读书笔记/index.zh-cn.md",
     "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
     "LazyVim for Ambitious Developers 阅读笔记",
     "76. 最小覆盖子串/index.zh-cn.md",
