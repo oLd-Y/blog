@@ -122,7 +122,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -257,13 +258,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "983e03b6c6e085bc",
   "lastOpenFiles": [
-    "53. 最大子数组和/index.zh-cn.md",
     "就算只与自己的美好相遇/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
-    "《红楼梦》 读书笔记/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
+    "53. 最大子数组和/index.zh-cn.md",
+    "《红楼梦》 读书笔记/index.zh-cn.md",
     "就算只与自己的美好相遇",
     "303. 区域和检索 - 数组不可变/index.zh-cn.md",
     "560. 和为 K 的子数组/index.zh-cn.md",
