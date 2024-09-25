@@ -134,8 +134,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -163,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
+                "file": "useful prompt/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
+                "file": "useful prompt/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md"
+                "file": "useful prompt/index.zh-cn.md"
               }
             }
           },
@@ -270,7 +269,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2d26548f8b98e795",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
