@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-25T05:35:04+08:00
+lastmod: 2024-09-26T08:05:17+08:00
 ---
 [题目链接](https://leetcode.cn/problems/maximum-subarray/description/?envType=study-plan-v2&envId=top-100-liked)
 
@@ -89,6 +89,45 @@ class Solution:
             if sum < 0: 
                 sum = 0
         return max_sum
+```
+
+### 复杂度
+- 时间复杂度：$O(n)$。
+- 空间复杂度：$O(1)$。
+
+## 方法 4：分治法
+
+### 思路
+
+1. 对于一个区间 `[left, ritht]`，从中间（ mid ）分成两个区间 l、r。我们只需要知道 l 和 r 的 3 个子区间相关的和以及 1 个区间和，就可以**通过 l 和 r 求出当前区间的相应的值**。这三个 l、r 的子区相关的和分别为：最大前缀和, 最大后缀和, 最大子区间和。
+2. 对于当前区间：
+	- 其最大前缀和，要么是左子区间 l 的最大前缀和，要么是从左子区间 l 一直连续到右子区间 r 的最大前缀这个区间的和（其值即为 l 的区间和 + r 的最大前缀和）
+	- 其最大后缀和，要么是右子区间 r 的最大后缀和，要么是从左子区间 l 的最大后缀一直连续到右子区间 r 的这个区间的和（其值即 l 的区间和 + r 的最大前缀和）
+
+### 代码
+
+```python
+class Solution:
+    def maxSubArray(self, nums: List[int]) -> int:
+        def dfs(left, right):
+            if left == right:
+	            # (前缀和, 后缀和, 最大子区间和, 区间和)
+                return (nums[left], nums[left], nums[left], nums[left])
+            
+            mid = left + (right - left) // 2
+            l = dfs(left, mid)
+            r = dfs(mid + 1, right)
+            
+            # 区间 [left, right] 的最大前缀和, 最大后缀和, 最大子区间和, 区间和
+            max_prefix_sum = max(l[0], l[3] + r[0])
+            max_suffix_sum = max(r[1], r[3] + l[1])
+            max_subarray_sum = max(l[2], r[2], l[1] + r[0])
+            total_sum = l[3] + r[3]
+            
+            return (max_prefix_sum, max_suffix_sum, max_subarray_sum, total_sum)
+        
+        return dfs(0, len(nums) - 1)[2]
+
 ```
 
 ### 复杂度
