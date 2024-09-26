@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-26T09:05:26+08:00
+lastmod: 2024-09-26T09:07:13+08:00
 ---
 [题目链接](https://leetcode.cn/problems/maximum-subarray/description/?envType=study-plan-v2&envId=top-100-liked)
 
@@ -134,5 +134,5 @@ class Solution:
 ```
 
 ### 复杂度
-- 时间复杂度：$O(n)$。需要把
+- 时间复杂度：$O(n)$。就算分成了一棵二叉树，也需要把所有的节点都遍历完才能得到最终答案，因此时间复杂度为 $O(n)$。
 - 空间复杂度：$O(\log n)$。每次递归都会将当前的规模减半，在最后一层返回释放之前会一直占用栈空间，因此总体的复杂度为 $O(\log n)$。
