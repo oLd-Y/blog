@@ -6,6 +6,10 @@
     },
     {
       "basename": "index.zh-cn",
+      "path": "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
       "path": "《红楼梦》 读书笔记/index.zh-cn.md"
     },
     {
@@ -27,10 +31,6 @@
     {
       "basename": "index.zh-cn",
       "path": "53. 最大子数组和/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
