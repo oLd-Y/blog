@@ -9,7 +9,7 @@ description: 本篇笔记为个人对于《刀锋》每一章每一小节的内�
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-27T06:43:51+08:00
+lastmod: 2024-09-28T06:44:24+08:00
 ---
 作者：毛姆
 
@@ -225,3 +225,26 @@ Gray 无处上班，一家生活非常困难，Elliott 又让他们一家住到�
 
 我也同样见到了她的两个女儿 Joan 和 Priscilla 以及刚打完高尔夫回来的 Gray。Gray 变胖了，并且很憔悴。
 
+### (ii)
+
+后来我常去拜访 Isabel。我们相谈甚欢，并且我惊诧于 Isabel 的美貌。
+
+### (iii)
+
+我十分喜欢巴黎，其中以蒙帕纳斯最盛。看着现在年轻的学生，使我回忆起以前的种种，令我感慨万千。
+
+我在巴黎吃饭的时候，偶然遇见一个像乞丐一样的人跟我打招呼，居然是 Larry。我与他聊天，得知了他的近况。先是表示他的一身行头十分破烂，我愿意资助他换一身衣服，但被拒绝。
+
+然后我告诉了他 Isabel 和 Gray 的境遇，Larry 表示过几天会去探望他，接着就结束对话离开了。
+
+
+| 单词/短语/句子      | 意思   | 例句                                                                                           |
+| ------------- | ---- | -------------------------------------------------------------------------------------------- |
+| odds and ends | 零碎物品 | I should get myself a few odds and ends.                                                     |
+| anew          | 再一次  | I never came into her presence without feeling anew a little thrill of pleasure in her look. |
+| scarcely      | 几乎不  | His manner scarcely correspond to his inner feeling.                                         |
+
+好句
+
+> If I was going to do it all, I'd better do the thing in style.
+> 我既然打算做，就最好把它做好。

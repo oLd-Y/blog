@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "be3772a75f160b45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "189. 轮转数组/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -150,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "useful prompt/index.zh-cn.md"
+                "file": "《刀锋》读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -257,18 +270,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "983e03b6c6e085bc",
   "lastOpenFiles": [
+    "189. 轮转数组/index.zh-cn.md",
+    "花生酱拌面/index.zh-cn.md",
+    "189. 轮转数组",
     "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
+    "useful prompt/index.zh-cn.md",
     "Untitled.md",
     "断更总结/index.zh-cn.md",
-    "花生酱拌面/index.zh-cn.md",
     "断更总结",
     "《红楼梦》 读书笔记/index.zh-cn.md",
     "Snipaste 实用技巧/index.zh-cn.md",
     "Snipaste 实用技巧",
     "《刀锋》读书笔记/index.zh-cn.md",
-    "useful prompt/index.zh-cn.md",
     "56. 合并区间/index.zh-cn.md",
     "53. 最大子数组和/index.zh-cn.md",
     "56. 合并区间",
@@ -291,10 +306,8 @@
     "关于睡眠的一些结论",
     "704. 二分查找/704. 二分查找.excalidraw.md",
     "239. 滑动窗口最大值/index.zh-cn.md",
-    "76. 最小覆盖子串",
     "面对恐惧可能确是消除恐惧的良方/index.zh-cn.md",
     "283. 移动零/index.zh-cn.md",
-    "我家有两条狗/index.zh-cn.md",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
