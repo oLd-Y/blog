@@ -134,8 +134,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -270,25 +269,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "983e03b6c6e085bc",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "useful prompt/index.zh-cn.md",
+    "《刀锋》读书笔记/index.zh-cn.md",
+    "《汇编语言》 读书笔记/index.zh-cn.md",
     "189. 轮转数组/index.zh-cn.md",
     "花生酱拌面/index.zh-cn.md",
     "189. 轮转数组",
     "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
-    "useful prompt/index.zh-cn.md",
     "Untitled.md",
     "断更总结/index.zh-cn.md",
     "断更总结",
     "《红楼梦》 读书笔记/index.zh-cn.md",
     "Snipaste 实用技巧/index.zh-cn.md",
     "Snipaste 实用技巧",
-    "《刀锋》读书笔记/index.zh-cn.md",
     "56. 合并区间/index.zh-cn.md",
     "53. 最大子数组和/index.zh-cn.md",
     "56. 合并区间",
     "704. 二分查找/index.zh-cn.md",
-    "《汇编语言》 读书笔记/index.zh-cn.md",
     "就算只与自己的美好相遇/index.zh-cn.md",
     "就算只与自己的美好相遇",
     "303. 区域和检索 - 数组不可变/index.zh-cn.md",
