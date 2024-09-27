@@ -78,9 +78,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "59cfd2b17355bfee",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -162,7 +170,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +186,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,9 +207,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md"
-              }
+              "state": {}
             }
           },
           {
@@ -269,10 +273,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "59cfd2b17355bfee",
   "lastOpenFiles": [
-    "useful prompt/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
+    "useful prompt/index.zh-cn.md",
     "56. 合并区间/index.zh-cn.md",
     "53. 最大子数组和/index.zh-cn.md",
     "56. 合并区间",
