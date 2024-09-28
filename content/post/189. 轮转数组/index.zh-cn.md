@@ -4,12 +4,13 @@ categories: 计算机
 tags:
   - 数据结构与算法
   - 数学
+  - 智力
 date: 2024-09-28
 description: 
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-28T06:12:01+08:00
+lastmod: 2024-09-29T06:33:45+08:00
 ---
 [题目链接](https://leetcode.cn/problems/rotate-array/description/?envType=study-plan-v2&envId=top-100-liked)
 

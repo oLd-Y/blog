@@ -61,14 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "189. 轮转数组/index.zh-cn.md",
+                "file": "238. 除自身以外数组的乘积/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "obsidian",
+                "query": "tag:#前后缀分解",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "花生酱拌面/index.zh-cn.md",
+                "file": "238. 除自身以外数组的乘积/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "花生酱拌面/index.zh-cn.md",
+                "file": "238. 除自身以外数组的乘积/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "花生酱拌面/index.zh-cn.md"
+                "file": "238. 除自身以外数组的乘积/index.zh-cn.md"
               }
             }
           },
@@ -258,14 +258,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "679b9eead08b7eab",
+  "active": "be3772a75f160b45",
   "lastOpenFiles": [
+    "42. 接雨水/index.zh-cn.md",
+    "238. 除自身以外数组的乘积/index.zh-cn.md",
+    "189. 轮转数组/index.zh-cn.md",
+    "238. 除自身以外数组的乘积",
+    "花生酱拌面/index.zh-cn.md",
     "断更通知/index.zh-cn.md",
     "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
     "断更通知",
-    "189. 轮转数组/index.zh-cn.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
-    "花生酱拌面/index.zh-cn.md",
     "Obsidian 插件记录/index.zh-cn.md",
     "花生酱拌面/index.zh-cn.html",
     "56. 合并区间/index.zh-cn.md",
@@ -290,12 +293,9 @@
     "不想被所有人讨厌是一个弱点",
     "LazyVim for Ambitious Developers 阅读笔记",
     "76. 最小覆盖子串/index.zh-cn.md",
-    "53. 最大子数组和",
     "影响睡眠质量的因素/index.zh-cn.md",
     "关于睡眠的一些结论/index.zh-cn.md",
     "wsl 网络问题.md",
-    "704. 二分查找/704. 二分查找.excalidraw.md",
-    "239. 滑动窗口最大值/index.zh-cn.md",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
