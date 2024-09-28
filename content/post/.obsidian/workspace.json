@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "花生酱拌面",
+                "query": "obsidian",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,7 +135,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -272,12 +272,14 @@
   },
   "active": "679b9eead08b7eab",
   "lastOpenFiles": [
-    "56. 合并区间/index.zh-cn.md",
+    "Obsidian 插件记录/index.zh-cn.md",
+    "花生酱拌面/index.zh-cn.md",
+    "花生酱拌面/index.zh-cn.html",
     "《汇编语言》 读书笔记/index.zh-cn.md",
+    "56. 合并区间/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
     "189. 轮转数组/index.zh-cn.md",
-    "花生酱拌面/index.zh-cn.md",
     "189. 轮转数组",
     "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
     "Untitled.md",
@@ -303,11 +305,9 @@
     "关于睡眠的一些结论/index.zh-cn.md",
     "影响睡眠质量的因素",
     "wsl 网络问题.md",
-    "关于睡眠的一些结论",
     "704. 二分查找/704. 二分查找.excalidraw.md",
     "239. 滑动窗口最大值/index.zh-cn.md",
     "面对恐惧可能确是消除恐惧的良方/index.zh-cn.md",
-    "283. 移动零/index.zh-cn.md",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
