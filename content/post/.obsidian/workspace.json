@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -162,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md"
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -271,8 +271,8 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "useful prompt/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
+    "useful prompt/index.zh-cn.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "189. 轮转数组/index.zh-cn.md",
     "花生酱拌面/index.zh-cn.md",
