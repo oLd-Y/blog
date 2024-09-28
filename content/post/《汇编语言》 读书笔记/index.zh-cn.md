@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-28T09:39:38+08:00
+lastmod: 2024-09-28T09:51:19+08:00
 ---
 ## 第 1 章 基础知识
 
@@ -177,6 +177,10 @@ jmp 命令并不是通过目的地址进行跳转，而是通过相对量进行�
 `jmp far ptr s`，far ptr 表明此次 jmp 进行的是段间转移（远转移），用 s 的段地址和偏移地址修改 cs 和 ip。
 
 `jmp word ptr ds:[0]`，word 表明在 ds:[0] 处存放了一个字的内容，用这个内容修改 ip 的值。
+
+`jcxz s`，jcxz 是一个条件转移，只有当 cx == 0 的时候才跳转到标号 s 所在位置。
+
+`loop s`，所有循环都是短转移，只有当 cx == 0 的时候才跳转到标号 s 所在位置。
 
 
 
