@@ -6,6 +6,10 @@
     },
     {
       "basename": "index.zh-cn",
+      "path": "《汇编语言》 读书笔记/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
       "path": "《刀锋》读书笔记/index.zh-cn.md"
     },
     {
@@ -31,10 +35,6 @@
     {
       "basename": "index.zh-cn",
       "path": "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "《汇编语言》 读书笔记/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
