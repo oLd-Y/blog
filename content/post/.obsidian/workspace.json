@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "a29f5a4a1e638867",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_templates/templater/recipe.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "be3772a75f160b45",
             "type": "leaf",
             "state": {
@@ -80,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -162,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "花生酱拌面/index.zh-cn.md",
+                "file": "_templates/templater/recipe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "花生酱拌面/index.zh-cn.md",
+                "file": "_templates/templater/recipe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "花生酱拌面/index.zh-cn.md"
+                "file": "_templates/templater/recipe.md"
               }
             }
           },
@@ -269,10 +281,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "679b9eead08b7eab",
+  "active": "a29f5a4a1e638867",
   "lastOpenFiles": [
-    "《汇编语言》 读书笔记/index.zh-cn.md",
     "花生酱拌面/index.zh-cn.md",
+    "《汇编语言》 读书笔记/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "189. 轮转数组/index.zh-cn.md",
     "238. 除自身以外数组的乘积/index.zh-cn.md",

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "recipe",
+      "path": "_templates/templater/recipe.md"
+    },
+    {
       "basename": "index.zh-cn",
       "path": "花生酱拌面/index.zh-cn.md"
     },
