@@ -9,7 +9,7 @@ description: 本篇笔记为个人对于《刀锋》每一章每一小节的内�
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-28T06:44:24+08:00
+lastmod: 2024-09-29T07:35:26+08:00
 ---
 作者：毛姆
 
@@ -248,3 +248,4 @@ Gray 无处上班，一家生活非常困难，Elliott 又让他们一家住到�
 
 > If I was going to do it all, I'd better do the thing in style.
 > 我既然打算做，就最好把它做好。
+
