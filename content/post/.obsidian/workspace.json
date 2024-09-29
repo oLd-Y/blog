@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "238. 除自身以外数组的乘积/index.zh-cn.md",
+                "file": "189. 轮转数组/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,8 +134,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -270,21 +269,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "983e03b6c6e085bc",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "花生酱拌面/index.zh-cn.md",
+    "189. 轮转数组/index.zh-cn.md",
     "238. 除自身以外数组的乘积/index.zh-cn.md",
+    "《刀锋》读书笔记/index.zh-cn.md",
     "Obsidian 插件记录/index.zh-cn.md",
     "42. 接雨水/index.zh-cn.md",
-    "189. 轮转数组/index.zh-cn.md",
     "238. 除自身以外数组的乘积",
-    "花生酱拌面/index.zh-cn.md",
     "断更通知/index.zh-cn.md",
     "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
     "断更通知",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "花生酱拌面/index.zh-cn.html",
     "56. 合并区间/index.zh-cn.md",
-    "《刀锋》读书笔记/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
     "189. 轮转数组",
     "Untitled.md",

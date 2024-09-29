@@ -6,6 +6,14 @@
     },
     {
       "basename": "index.zh-cn",
+      "path": "花生酱拌面/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "189. 轮转数组/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
       "path": "238. 除自身以外数组的乘积/index.zh-cn.md"
     },
     {
@@ -15,14 +23,6 @@
     {
       "basename": "index.zh-cn",
       "path": "42. 接雨水/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "189. 轮转数组/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "花生酱拌面/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
