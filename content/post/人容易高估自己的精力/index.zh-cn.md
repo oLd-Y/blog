@@ -1,13 +1,14 @@
 ---
 title: 人容易高估自己的精力
-categories: 美食
-tags: 
+categories: 写作
+tags:
+  - 随想
 date: 2024-09-10
 description: 
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-10T20:27:13+08:00
+lastmod: 2024-09-29T18:27:20+08:00
 ---
 高中的时候学到能量的转化，说能量的利用率达不到 100 %，只能尽可能提高利用率。后来发现，不只自然界的能量如此，人的精力同样无法达到 100 % 的利用率。
 
