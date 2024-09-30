@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "酸辣土豆丝/index.zh-cn.md",
+                "file": "回锅肉/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "酸辣土豆丝/index.zh-cn.md",
+                "file": "回锅肉/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "酸辣土豆丝/index.zh-cn.md"
+                "file": "回锅肉/index.zh-cn.md"
               }
             }
           },
@@ -258,11 +258,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "565cc0167b069de2",
+  "active": "fae012fec4dfd8b2",
   "lastOpenFiles": [
+    "酸辣土豆丝/index.zh-cn.md",
     "回锅肉/index.zh-cn.md",
     "Obsidian 插件记录/index.zh-cn.md",
-    "酸辣土豆丝/index.zh-cn.md",
     "_templates/templater/recipe.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "人容易高估自己的精力/index.zh-cn.md",
