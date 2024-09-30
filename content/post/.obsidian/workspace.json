@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "41. 缺失的第一个正数/index.zh-cn.md",
+                "file": "73. 矩阵置零/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "41. 缺失的第一个正数/index.zh-cn.md",
+                "file": "73. 矩阵置零/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "41. 缺失的第一个正数/index.zh-cn.md",
+                "file": "73. 矩阵置零/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "41. 缺失的第一个正数/index.zh-cn.md"
+                "file": "73. 矩阵置零/index.zh-cn.md"
               }
             }
           },
@@ -260,8 +260,10 @@
   },
   "active": "be3772a75f160b45",
   "lastOpenFiles": [
-    "189. 轮转数组/index.zh-cn.md",
     "41. 缺失的第一个正数/index.zh-cn.md",
+    "73. 矩阵置零/index.zh-cn.md",
+    "73. 矩阵置零",
+    "189. 轮转数组/index.zh-cn.md",
     "41. 缺失的第一个正数",
     "回锅肉/index.zh-cn.md",
     "酸辣土豆丝/index.zh-cn.md",
@@ -294,8 +296,6 @@
     "就算只与自己的美好相遇",
     "303. 区域和检索 - 数组不可变/index.zh-cn.md",
     "560. 和为 K 的子数组/index.zh-cn.md",
-    "不想被所有人讨厌是一个弱点/index.zh-cn.md",
-    "不想被所有人讨厌是一个弱点",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
