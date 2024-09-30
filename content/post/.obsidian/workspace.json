@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "189. 轮转数组/index.zh-cn.md",
+                "file": "41. 缺失的第一个正数/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "回锅肉/index.zh-cn.md",
+                "file": "41. 缺失的第一个正数/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "回锅肉/index.zh-cn.md",
+                "file": "41. 缺失的第一个正数/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "回锅肉/index.zh-cn.md"
+                "file": "41. 缺失的第一个正数/index.zh-cn.md"
               }
             }
           },
@@ -258,17 +258,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fae012fec4dfd8b2",
+  "active": "be3772a75f160b45",
   "lastOpenFiles": [
-    "酸辣土豆丝/index.zh-cn.md",
+    "189. 轮转数组/index.zh-cn.md",
+    "41. 缺失的第一个正数/index.zh-cn.md",
+    "41. 缺失的第一个正数",
     "回锅肉/index.zh-cn.md",
+    "酸辣土豆丝/index.zh-cn.md",
     "Obsidian 插件记录/index.zh-cn.md",
     "_templates/templater/recipe.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "人容易高估自己的精力/index.zh-cn.md",
     "花生酱拌面/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
-    "189. 轮转数组/index.zh-cn.md",
     "238. 除自身以外数组的乘积/index.zh-cn.md",
     "42. 接雨水/index.zh-cn.md",
     "238. 除自身以外数组的乘积",
@@ -293,9 +295,7 @@
     "303. 区域和检索 - 数组不可变/index.zh-cn.md",
     "560. 和为 K 的子数组/index.zh-cn.md",
     "不想被所有人讨厌是一个弱点/index.zh-cn.md",
-    "3. 无重复字符的最长子串/index.zh-cn.md",
     "不想被所有人讨厌是一个弱点",
-    "LazyVim for Ambitious Developers 阅读笔记",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
