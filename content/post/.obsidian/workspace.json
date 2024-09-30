@@ -61,14 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian 插件记录/index.zh-cn.md",
+                "file": "回锅肉/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "酸辣",
+                "query": "回锅肉",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +122,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -150,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "酸辣土豆丝/index.zh-cn.md",
+                "file": "回锅肉/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "酸辣土豆丝/index.zh-cn.md",
+                "file": "回锅肉/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "酸辣土豆丝/index.zh-cn.md"
+                "file": "回锅肉/index.zh-cn.md"
               }
             }
           },
@@ -257,17 +258,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "fae012fec4dfd8b2",
   "lastOpenFiles": [
-    "_templates/templater/recipe.md",
+    "Obsidian 插件记录/index.zh-cn.md",
     "酸辣土豆丝/index.zh-cn.md",
+    "_templates/templater/recipe.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "人容易高估自己的精力/index.zh-cn.md",
     "花生酱拌面/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "189. 轮转数组/index.zh-cn.md",
     "238. 除自身以外数组的乘积/index.zh-cn.md",
-    "Obsidian 插件记录/index.zh-cn.md",
     "42. 接雨水/index.zh-cn.md",
     "238. 除自身以外数组的乘积",
     "断更通知/index.zh-cn.md",
