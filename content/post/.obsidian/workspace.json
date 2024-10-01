@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "73. 矩阵置零/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "73. 矩阵置零/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "73. 矩阵置零/index.zh-cn.md"
+                "file": "《刀锋》读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -258,10 +258,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "be3772a75f160b45",
+  "active": "983e03b6c6e085bc",
   "lastOpenFiles": [
-    "41. 缺失的第一个正数/index.zh-cn.md",
     "73. 矩阵置零/index.zh-cn.md",
+    "41. 缺失的第一个正数/index.zh-cn.md",
     "73. 矩阵置零",
     "189. 轮转数组/index.zh-cn.md",
     "41. 缺失的第一个正数",
