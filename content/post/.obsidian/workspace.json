@@ -183,6 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "useful prompt/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,6 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "useful prompt/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +222,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "useful prompt/index.zh-cn.md"
+              }
             }
           },
           {
