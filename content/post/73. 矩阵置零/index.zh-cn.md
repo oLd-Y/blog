@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-01T07:52:47+08:00
+lastmod: 2024-10-01T09:32:17+08:00
 ---
 [题目链接](https://leetcode.cn/problems/set-matrix-zeroes/description/?envType=study-plan-v2&envId=top-100-liked)
 
@@ -46,5 +46,7 @@ class Solution:
 ### 复杂度
 - 时间复杂度：$O(m n)$。
 - 空间复杂度：$O(m + n)$。
+
+## 方法 2：方法 1 空间优化 TODO
 
 
