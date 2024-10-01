@@ -9,7 +9,7 @@ description: 本篇笔记为个人对于《刀锋》每一章每一小节的内�
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-01T09:49:03+08:00
+lastmod: 2024-10-01T10:18:52+08:00
 ---
 作者：毛姆
 
@@ -289,6 +289,21 @@ Suzanne 住到了巴黎蒙帕纳斯，负责照顾 Monsieur Achille Gauvain，�
 
 Monsieur Achille 对 Suzanne 的体贴感到高兴。Suzanne 对他也感到满意。Suzanne 既不能说忠诚——因为 Suzanne 有时也会搞外遇，但也不能说不忠——她不会让他的情人在 Monsieur Achille 给的公寓中过夜。
 
-我是通过一个艺术家
+我是通过一个艺术家熟人认识 Suzanne 的，也因此认识了 Monsieur Achille，被其夸赞自己的文学。
 
 后来 Suzanne 太闲了，突然想像她的前情人一样，于是她开始画画，得到了 Monsieur Achille 的支持。
+
+Monsieur Achille 把 Suzanne 的女儿送到了修道院，使其接受良好的教育，长大后也送去当打字员，能够糊口。Suzanne 认为这个提议不赖。
+
+### (ix)
+
+两周后我和 Suzanne 在餐馆吃饭的时候偶然遇见了 Larry，并意外得知 Suzanne 和 Larry 是老相识，并稍显亲密。我迫不及待地想知道这是怎么回事。
+
+原来 Suzanne 在伤寒之后出院，走投无路之下遇到了 Larry。Larry 把 Suzanne 连同她的女儿 Odette 一起带到了乡下静养，也是让自己休息。
+
+经过休养，Suzanne 恢复了状态。这使得 Suzanne 几乎爱上了 Larry，并用自己的身体回报。
+
+## 第五章
+
+
+
