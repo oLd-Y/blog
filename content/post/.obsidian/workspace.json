@@ -100,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -183,7 +183,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "白菜烧豆腐/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +199,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "白菜烧豆腐/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,9 +220,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "白菜烧豆腐/index.zh-cn.md"
-              }
+              "state": {}
             }
           },
           {
@@ -290,11 +286,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "45576d2aa643002d",
+  "active": "3213610261db13cf",
   "lastOpenFiles": [
-    "椒盐五花肉/index.zh-cn.md",
     "酸辣土豆丝/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
+    "白菜烧豆腐/index.zh-cn.md",
+    "椒盐五花肉/index.zh-cn.md",
     "73. 矩阵置零/index.zh-cn.md",
     "41. 缺失的第一个正数/index.zh-cn.md",
     "73. 矩阵置零",
@@ -327,7 +324,6 @@
     "704. 二分查找/index.zh-cn.md",
     "就算只与自己的美好相遇/index.zh-cn.md",
     "就算只与自己的美好相遇",
-    "303. 区域和检索 - 数组不可变/index.zh-cn.md",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
