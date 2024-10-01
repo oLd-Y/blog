@@ -44,18 +44,6 @@
             }
           },
           {
-            "id": "be3772a75f160b45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "73. 矩阵置零/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fae012fec4dfd8b2",
             "type": "leaf",
             "state": {
@@ -93,14 +81,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "椒盐五花肉/index.zh-cn.md",
+                "file": "54. 螺旋矩阵/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "useful prompt/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "useful prompt/index.zh-cn.md"
+                "file": "《刀锋》读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -290,12 +278,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3213610261db13cf",
+  "active": "983e03b6c6e085bc",
   "lastOpenFiles": [
-    "酸辣土豆丝/index.zh-cn.md",
+    "useful prompt/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
-    "白菜烧豆腐/index.zh-cn.md",
+    "54. 螺旋矩阵/index.zh-cn.md",
     "椒盐五花肉/index.zh-cn.md",
+    "54. 螺旋矩阵",
+    "白菜烧豆腐/index.zh-cn.md",
+    "酸辣土豆丝/index.zh-cn.md",
     "73. 矩阵置零/index.zh-cn.md",
     "41. 缺失的第一个正数/index.zh-cn.md",
     "73. 矩阵置零",
@@ -315,7 +306,6 @@
     "断更通知",
     "花生酱拌面/index.zh-cn.html",
     "56. 合并区间/index.zh-cn.md",
-    "useful prompt/index.zh-cn.md",
     "189. 轮转数组",
     "Untitled.md",
     "断更总结/index.zh-cn.md",
@@ -326,8 +316,6 @@
     "53. 最大子数组和/index.zh-cn.md",
     "56. 合并区间",
     "704. 二分查找/index.zh-cn.md",
-    "就算只与自己的美好相遇/index.zh-cn.md",
-    "就算只与自己的美好相遇",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",

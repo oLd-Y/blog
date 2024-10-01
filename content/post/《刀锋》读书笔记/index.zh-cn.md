@@ -9,7 +9,7 @@ description: 本篇笔记为个人对于《刀锋》每一章每一小节的内�
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-01T10:18:52+08:00
+lastmod: 2024-10-02T07:34:16+08:00
 ---
 作者：毛姆
 
@@ -301,9 +301,21 @@ Monsieur Achille 把 Suzanne 的女儿送到了修道院，使其接受良好的
 
 原来 Suzanne 在伤寒之后出院，走投无路之下遇到了 Larry。Larry 把 Suzanne 连同她的女儿 Odette 一起带到了乡下静养，也是让自己休息。
 
-经过休养，Suzanne 恢复了状态。这使得 Suzanne 几乎爱上了 Larry，并用自己的身体回报。
+经过休养，Suzanne 恢复了状态。这使得 Suzanne 几乎爱上了 Larry，并用自己的身体回报。又过了一段时间，他们分开了。
 
 ## 第五章
+
+### (i)
+
+我很享受在巴黎的时光，经常与 Isabel、Gray、Larry 一同乘车出游。Gray 也不再头痛了。
+
+但有一次回家途中的车上，我发现 Isabel 对着 Larry 进行了手淫，这使我感到非常震惊。
+
+我即将离开巴黎回到里维埃拉，而 Larry 准备继续在巴黎工作一段时间。
+
+我离开的前一个晚上，打算和他们三个人再吃一次晚饭。就是在这个晚上，我意外碰到了 Sophie。
+
+### (ii)
 
 
 
