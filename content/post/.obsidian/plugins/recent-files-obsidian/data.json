@@ -2,7 +2,23 @@
   "recentFiles": [
     {
       "basename": "index.zh-cn",
+      "path": "粉蒸肉/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "回锅肉/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "白菜烧豆腐/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
       "path": "《刀锋》读书笔记/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "酸辣土豆丝/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
@@ -18,14 +34,6 @@
     },
     {
       "basename": "index.zh-cn",
-      "path": "白菜烧豆腐/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "酸辣土豆丝/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
       "path": "73. 矩阵置零/index.zh-cn.md"
     },
     {
@@ -35,10 +43,6 @@
     {
       "basename": "index.zh-cn",
       "path": "189. 轮转数组/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "回锅肉/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
@@ -195,10 +199,6 @@
     {
       "basename": "42. 接雨水.excalidraw",
       "path": "42. 接雨水/42. 接雨水.excalidraw.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "49. 字母异位词分组/index.zh-cn.md"
     }
   ],
   "omittedPaths": []
