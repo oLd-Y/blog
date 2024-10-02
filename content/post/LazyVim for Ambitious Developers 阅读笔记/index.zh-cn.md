@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-25T15:37:13+08:00
+lastmod: 2024-10-02T17:55:02+08:00
 ---
 教程链接：[LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
 
@@ -20,4 +20,13 @@ lastmod: 2024-09-25T15:37:13+08:00
 使用 GUI 加速的 terminal 来进行 Lazyvim 的安装，例如：[Kitty Terminal](https://sw.kovidgoyal.net/kitty/)、[Alacritty](https://alacritty.org/)、[Windows Terminal](https://github.com/microsoft/terminal?tab=readme-ov-file) 等。
 
 安装教程请查看[官网](https://www.lazyvim.org/installation)
+
+## [Chapter 2. What is Modal Editing, Anyway?](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-2/#_what_is_modal_editing_anyway)
+
+在 normal mode 下 `"` 可以打开可用的寄存器。
+
+`:x` 几乎等于 `:wq`，但 `:x` 在文件未第修改的时候不会执行保存操作。
+
+## [Chapter 3. Getting Around](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-3/#_getting_around)
+
 

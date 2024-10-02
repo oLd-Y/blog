@@ -5,6 +5,10 @@
       "path": "肉沫蒸蛋/index.zh-cn.md"
     },
     {
+      "basename": "index.zh-cn",
+      "path": "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md"
+    },
+    {
       "basename": "recipe",
       "path": "_templates/templater/recipe.md"
     },
@@ -83,10 +87,6 @@
     {
       "basename": "index.zh-cn",
       "path": "断更通知/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",

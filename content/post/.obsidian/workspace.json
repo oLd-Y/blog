@@ -47,8 +47,12 @@
             "id": "3213610261db13cf",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -105,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "肉沫蒸蛋",
+                "query": "lazyvim",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -130,7 +134,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -267,9 +272,10 @@
   },
   "active": "45576d2aa643002d",
   "lastOpenFiles": [
+    "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
+    "肉沫蒸蛋/index.zh-cn.md",
     "_templates/templater/recipe.md",
     "辣椒炒肉/index.zh-cn.md",
-    "肉沫蒸蛋/index.zh-cn.md",
     "白菜烧豆腐/index.zh-cn.md",
     "粉蒸肉/index.zh-cn.md",
     "回锅肉/index.zh-cn.md",
@@ -292,7 +298,6 @@
     "42. 接雨水/index.zh-cn.md",
     "238. 除自身以外数组的乘积",
     "断更通知/index.zh-cn.md",
-    "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
     "断更通知",
     "花生酱拌面/index.zh-cn.html",
     "56. 合并区间/index.zh-cn.md",
