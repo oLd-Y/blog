@@ -2,6 +2,10 @@
   "recentFiles": [
     {
       "basename": "index.zh-cn",
+      "path": "肉沫蒸蛋/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
       "path": "粉蒸肉/index.zh-cn.md"
     },
     {
@@ -195,10 +199,6 @@
     {
       "basename": "index.zh-cn",
       "path": "15. 三数之和/index.zh-cn.md"
-    },
-    {
-      "basename": "42. 接雨水.excalidraw",
-      "path": "42. 接雨水/42. 接雨水.excalidraw.md"
     }
   ],
   "omittedPaths": []
