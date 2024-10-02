@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "白菜烧豆腐/index.zh-cn.md",
+                "file": "肉沫蒸蛋/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -105,7 +105,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "辣椒炒肉",
+                "query": "肉沫蒸蛋",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -130,8 +130,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -159,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "辣椒炒肉/index.zh-cn.md",
+                "file": "肉沫蒸蛋/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "辣椒炒肉/index.zh-cn.md",
+                "file": "肉沫蒸蛋/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "辣椒炒肉/index.zh-cn.md"
+                "file": "肉沫蒸蛋/index.zh-cn.md"
               }
             }
           },
@@ -266,12 +265,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fae012fec4dfd8b2",
+  "active": "45576d2aa643002d",
   "lastOpenFiles": [
+    "_templates/templater/recipe.md",
+    "辣椒炒肉/index.zh-cn.md",
     "肉沫蒸蛋/index.zh-cn.md",
+    "白菜烧豆腐/index.zh-cn.md",
     "粉蒸肉/index.zh-cn.md",
     "回锅肉/index.zh-cn.md",
-    "白菜烧豆腐/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "酸辣土豆丝/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
@@ -284,7 +285,6 @@
     "189. 轮转数组/index.zh-cn.md",
     "41. 缺失的第一个正数",
     "Obsidian 插件记录/index.zh-cn.md",
-    "_templates/templater/recipe.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "人容易高估自己的精力/index.zh-cn.md",
     "花生酱拌面/index.zh-cn.md",
@@ -301,7 +301,6 @@
     "断更总结/index.zh-cn.md",
     "断更总结",
     "《红楼梦》 读书笔记/index.zh-cn.md",
-    "Snipaste 实用技巧/index.zh-cn.md",
     "Snipaste 实用技巧",
     "56. 合并区间",
     "Pasted Image 20240913125132_196.png",
