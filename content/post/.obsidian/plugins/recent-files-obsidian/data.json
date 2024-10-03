@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "矩阵旋转坐标公式.excalidraw",
+      "path": "矩阵旋转坐标公式/矩阵旋转坐标公式.excalidraw.md"
+    },
+    {
       "basename": "48. 旋转图像.excalidraw",
       "path": "48. 旋转图像/48. 旋转图像.excalidraw.md"
     },
     {
       "basename": "index.zh-cn",
-      "path": "48. 旋转图像/index.zh-cn.md"
+      "path": "矩阵旋转坐标公式/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "就算只与自己的美好相遇/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "肉沫蒸蛋/index.zh-cn.md"
     },
     {
       "basename": "42. 接雨水.excalidraw",
       "path": "42. 接雨水/42. 接雨水.excalidraw.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "48. 旋转图像/index.zh-cn.md"
     },
     {
       "basename": "303. 区域和检索 - 数组不可变.excalidraw",
@@ -19,10 +35,6 @@
     {
       "basename": "index.zh-cn",
       "path": "辣椒炒肉/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "肉沫蒸蛋/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
@@ -134,10 +146,6 @@
     },
     {
       "basename": "index.zh-cn",
-      "path": "就算只与自己的美好相遇/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
       "path": "303. 区域和检索 - 数组不可变/index.zh-cn.md"
     },
     {
@@ -191,14 +199,6 @@
     {
       "basename": "index.zh-cn",
       "path": "幸生得安世/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "逆向思维之扩大矛盾/index.zh-cn.md"
-    },
-    {
-      "basename": "leetcode",
-      "path": "_templates/templater/leetcode.md"
     }
   ],
   "omittedPaths": []
