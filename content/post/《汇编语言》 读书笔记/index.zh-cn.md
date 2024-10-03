@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-09-28T09:51:19+08:00
+lastmod: 2024-10-03T14:53:41+08:00
 ---
 ## 第 1 章 基础知识
 
@@ -55,7 +55,7 @@ cs 和 ip 是最重要的寄存器。CPU 通过 cs:ip 访问所有的指令，�
 
 栈由 `ss` 寄存器 和 `sp` 指针决定， `ss:sp` 指向当前栈的栈顶。如果此时栈为空，则 `sp` 为栈顶本来应该在的内存单元地址 + 2。
 
-`push ax` 和 `pop ax` 的作用分别为先变化 `sp` 指针，然后将内容从栈中弹出以及压入栈中。`sp` 指针从高地址向低地址变化。
+`push ax` / `pop ax` 的作用为先变化 `sp` 指针，然后将 ax 中的内容压入栈中/从栈中内容弹出到 ax 中。`sp` 指针从高地址向低地址变化。
 
 ![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240913201938.png)
 

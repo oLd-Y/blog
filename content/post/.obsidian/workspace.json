@@ -59,12 +59,16 @@
             "id": "6029e4319dccfa8d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -93,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:矩阵",
+                "query": "汇编",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md"
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -254,10 +258,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "983e03b6c6e085bc",
+  "active": "6029e4319dccfa8d",
   "lastOpenFiles": [
-    "useful prompt/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
+    "useful prompt/index.zh-cn.md",
     "肉沫蒸蛋/index.zh-cn.md",
     "矩阵旋转坐标公式/矩阵旋转坐标公式.excalidraw.md",
     "辣椒炒肉/index.zh-cn.md",

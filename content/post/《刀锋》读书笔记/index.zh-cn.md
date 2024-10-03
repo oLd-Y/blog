@@ -9,7 +9,7 @@ description: 本篇笔记为个人对于《刀锋》每一章每一小节的内�
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-03T13:55:41+08:00
+lastmod: 2024-10-03T14:35:05+08:00
 ---
 作者：毛姆
 
@@ -335,6 +335,8 @@ Elliott 身体看上去不太好，已经开始策划自己的葬礼。他费力
 
 Elliott 准备前往巴黎看看 Isabel、Gray 和他们的孩子们，并邀请我一同前去，我同意了。
 
-到了巴黎，我被 Isabel 的一封留语叫了过去，得知 Larry 和 Sophie 即将结婚。这个事实令 Isabel 非常震惊和不悦
+到了巴黎，我被 Isabel 的一封留语叫了过去，得知 Larry 和 Sophie 即将结婚。这个事实令 Isabel 非常震惊和不悦，认为 Sophie 是个荡妇，会毁了 Larry。
+
+而我建议 Isabel 接受这个事实，甚至可以帮助他们的婚礼事宜。Isabel 非常愤怒，与我展开了一番激烈的争执，最终还是接受了这个提议。
 
 
