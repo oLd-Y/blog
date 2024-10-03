@@ -98,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -180,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "矩阵旋转坐标公式/矩阵旋转坐标公式.excalidraw.md",
+                "file": "48. 旋转图像/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "矩阵旋转坐标公式/矩阵旋转坐标公式.excalidraw.md",
+                "file": "48. 旋转图像/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "矩阵旋转坐标公式/矩阵旋转坐标公式.excalidraw.md"
+                "file": "48. 旋转图像/index.zh-cn.md"
               }
             }
           },
