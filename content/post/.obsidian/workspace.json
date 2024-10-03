@@ -108,7 +108,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -190,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "矩阵旋转坐标公式/矩阵旋转坐标公式.excalidraw.md",
+                "file": "矩阵旋转坐标公式/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "矩阵旋转坐标公式/矩阵旋转坐标公式.excalidraw.md",
+                "file": "矩阵旋转坐标公式/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "矩阵旋转坐标公式/矩阵旋转坐标公式.excalidraw.md"
+                "file": "矩阵旋转坐标公式/index.zh-cn.md"
               }
             }
           },
@@ -297,11 +297,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "44b778f6d6631780",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "48. 旋转图像/48. 旋转图像.excalidraw.md",
-    "矩阵旋转坐标公式/矩阵旋转坐标公式.excalidraw.md",
+    "().md",
     "矩阵旋转坐标公式/index.zh-cn.md",
+    "矩阵旋转坐标公式/矩阵旋转坐标公式.excalidraw.md",
+    "48. 旋转图像/48. 旋转图像.excalidraw.md",
     "就算只与自己的美好相遇/index.zh-cn.md",
     "矩阵旋转坐标公式",
     "肉沫蒸蛋/index.zh-cn.md",
@@ -329,7 +330,6 @@
     "41. 缺失的第一个正数",
     "Obsidian 插件记录/index.zh-cn.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
-    "人容易高估自己的精力/index.zh-cn.md",
     "238. 除自身以外数组的乘积",
     "断更通知",
     "花生酱拌面/index.zh-cn.html",

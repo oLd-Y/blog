@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "index.zh-cn",
+      "path": "矩阵旋转坐标公式/index.zh-cn.md"
+    },
+    {
+      "basename": "()",
+      "path": "().md"
+    },
+    {
       "basename": "矩阵旋转坐标公式.excalidraw",
       "path": "矩阵旋转坐标公式/矩阵旋转坐标公式.excalidraw.md"
     },
     {
       "basename": "48. 旋转图像.excalidraw",
       "path": "48. 旋转图像/48. 旋转图像.excalidraw.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "矩阵旋转坐标公式/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
@@ -195,10 +199,6 @@
     {
       "basename": "index.zh-cn",
       "path": "我家有两条狗/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "幸生得安世/index.zh-cn.md"
     }
   ],
   "omittedPaths": []
