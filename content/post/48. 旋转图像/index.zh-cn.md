@@ -10,7 +10,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-03T13:18:47+08:00
+lastmod: 2024-10-03T13:19:08+08:00
 ---
 [题目链接](https://leetcode.cn/problems/rotate-image/?envType=study-plan-v2&envId=top-100-liked)
 
@@ -38,7 +38,7 @@ class Solution:
 ```
 
 ### 复杂度
-- 时间复杂度：$O(n)$。
-- 空间复杂度：$O(n)$。
+- 时间复杂度：$O(n^2)$。
+- 空间复杂度：$O(1)$。
 
 

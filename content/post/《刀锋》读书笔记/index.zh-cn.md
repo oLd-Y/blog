@@ -9,7 +9,7 @@ description: 本篇笔记为个人对于《刀锋》每一章每一小节的内�
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-02T08:35:07+08:00
+lastmod: 2024-10-03T13:55:41+08:00
 ---
 作者：毛姆
 
@@ -325,5 +325,16 @@ Monsieur Achille 把 Suzanne 的女儿送到了修道院，使其接受良好的
 
 Isabel 觉得 Sophie 现在的行径是她本性如此，不值得可怜。而 Larry 回忆起从前的 Sophie，觉得是这场悲剧的车祸使她绝望，导致了她现在的境地。我也和 Larry 保持一样的观点。Larry 对待 Sophie 的态度使 Isabel 感到非常烦躁。
 
+### (iii)
+
+Elliott 身体看上去不太好，已经开始策划自己的葬礼。他费力为自己准备了一个洗礼盆、三联画以及一个墓志铭以炫耀自己的社会地位，并且吐槽了美国的社交礼仪崩坏。
+
+不过 Elliott 尽管年龄大，身体也不佳，却仍热衷于参加各种上流聚会。
+
+### (iv)
+
+Elliott 准备前往巴黎看看 Isabel、Gray 和他们的孩子们，并邀请我一同前去，我同意了。
+
+到了巴黎，我被 Isabel 的一封留语叫了过去，得知 Larry 和 Sophie 即将结婚。这个事实令 Isabel 非常震惊和不悦
 
 
