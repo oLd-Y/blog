@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-03T14:53:41+08:00
+lastmod: 2024-10-03T18:02:11+08:00
 ---
 ## 第 1 章 基础知识
 
@@ -182,7 +182,20 @@ jmp 命令并不是通过目的地址进行跳转，而是通过相对量进行�
 
 `loop s`，所有循环都是短转移，只有当 cx == 0 的时候才跳转到标号 s 所在位置。
 
+## 第 10 章 call 和 ret 指令
 
+`ret` 相当于 `pop IP`，即把栈中的数据弹到 IP 指针中。
 
+`retf` 相当于 `pop IP` 再 `pop CS`，即把栈中的数据弹到 IP 指针之后再弹一次数据到 CS 中。
 
+`call 标号` 的就是调用函数， 作用是先将当前的 IP 或者 CS & IP 压栈，然后再跳到标号所在的位置执行程序。根据是否跨段决定是否从栈中弹出 CS 的值，例如：
+1. `call 标号`，相当于 `push IP`，`jmp near ptr 标号`。
+2. `call far ptr 标号`，相当于 `push CS`，`push IP`，`jmp far ptr 标号`。
+3. `call al`，相当于 `push IP`，`jmp al`。
+4. `call word ptr [4]`，相当于 `push IP`，`jmp word ptr [4]`。
 
+`call` 和 `ret` 一般配合使用，call 调用函数，在这之前将当前执行位置压栈，等执行完毕之后使用 ret 把栈中的内容返回。
+
+`mul bl` 或者 `mul bx`，mul 表示乘法，两个乘数要么都是 16 位，要么都是 8 位。除了 mul 后的操作数，另一个乘数默认在 ax 中或者 al 中（跟位数有关）。8 位乘法的结果默认放在 ax 中，16 位默认高位在 dx 中，低位在 ax 中。
+
+父子程序可能使用同一个寄存器，因此**子程序**的最开头需要将这些信息入栈保存起来，结尾时候出栈返回。
