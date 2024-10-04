@@ -5,12 +5,12 @@
       "path": "肉沫蒸蛋/index.zh-cn.md"
     },
     {
-      "basename": "recipe",
-      "path": "_templates/templater/recipe.md"
-    },
-    {
       "basename": "index.zh-cn",
       "path": "《汇编语言》 读书笔记/index.zh-cn.md"
+    },
+    {
+      "basename": "recipe",
+      "path": "_templates/templater/recipe.md"
     },
     {
       "basename": "index.zh-cn",
