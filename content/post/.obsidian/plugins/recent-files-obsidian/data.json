@@ -2,7 +2,7 @@
   "recentFiles": [
     {
       "basename": "index.zh-cn",
-      "path": "葱烧豆腐/index.zh-cn.md"
+      "path": "红烧腐竹/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
@@ -10,19 +10,27 @@
     },
     {
       "basename": "index.zh-cn",
-      "path": "辣椒炒肉/index.zh-cn.md"
+      "path": "葱烧豆腐/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "口蘑汤/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "240. 搜索二维矩阵 II/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
       "path": "《汇编语言》 读书笔记/index.zh-cn.md"
     },
     {
-      "basename": "recipe",
-      "path": "_templates/templater/recipe.md"
+      "basename": "index.zh-cn",
+      "path": "辣椒炒肉/index.zh-cn.md"
     },
     {
-      "basename": "index.zh-cn",
-      "path": "240. 搜索二维矩阵 II/index.zh-cn.md"
+      "basename": "recipe",
+      "path": "_templates/templater/recipe.md"
     },
     {
       "basename": "index.zh-cn",
@@ -191,10 +199,6 @@
     {
       "basename": "index.zh-cn",
       "path": "239. 滑动窗口最大值/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "面对恐惧可能确是消除恐惧的良方/index.zh-cn.md"
     }
   ],
   "omittedPaths": []
