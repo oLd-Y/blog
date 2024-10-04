@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -162,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "肉沫蒸蛋/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "肉沫蒸蛋/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md"
+                "file": "肉沫蒸蛋/index.zh-cn.md"
               }
             }
           },
@@ -269,16 +269,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "45576d2aa643002d",
   "lastOpenFiles": [
-    "useful prompt/index.en.md",
-    "《刀锋》读书笔记/index.zh-cn.md",
-    "useful prompt/index.zh-cn.md",
-    "useful prompt/index.md.md",
+    "_templates/templater/recipe.md",
     "肉沫蒸蛋/index.zh-cn.md",
-    "辣椒炒肉/index.zh-cn.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "240. 搜索二维矩阵 II/index.zh-cn.md",
+    "《刀锋》读书笔记/index.zh-cn.md",
+    "useful prompt/index.en.md",
+    "useful prompt/index.zh-cn.md",
+    "useful prompt/index.md.md",
+    "辣椒炒肉/index.zh-cn.md",
     "240. 搜索二维矩阵 II",
     "矩阵旋转坐标公式/矩阵旋转坐标公式.excalidraw.md",
     "矩阵旋转坐标公式/index.zh-cn.md",
@@ -293,7 +294,6 @@
     "遗忘令人崩溃/index.zh-cn.md",
     "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
     "48. 旋转图像",
-    "_templates/templater/recipe.md",
     "白菜烧豆腐/index.zh-cn.md",
     "粉蒸肉/index.zh-cn.md",
     "回锅肉/index.zh-cn.md",
