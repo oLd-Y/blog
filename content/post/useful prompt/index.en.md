@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-04T08:18:22+08:00
+lastmod: 2024-10-04T08:39:51+08:00
 ---
 ## Rewrite Text
 
@@ -21,8 +21,6 @@ I will give you text content which is wrapped by 3 double quotes, you need to re
 """
 
 """
-
-
 
 ### Fiction Chapter Summarizer
 
