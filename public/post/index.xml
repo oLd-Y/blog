@@ -3974,18 +3974,20 @@
         <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/p/%E8%91%B1%E7%83%A7%E8%B1%86%E8%85%90/</guid>
-        <description>&lt;h2 id=&#34;食材与调料&#34;&gt;食材与调料
-&lt;/h2&gt;&lt;h3 id=&#34;食材&#34;&gt;食材
-&lt;/h3&gt;&lt;p&gt;老豆腐、大葱、八角。&lt;/p&gt;
-&lt;h3 id=&#34;调料&#34;&gt;调料
-&lt;/h3&gt;&lt;p&gt;玉米淀粉、葱油、生抽、盐、味精。&lt;/p&gt;
+        <description>&lt;h2 id=&#34;食材与用具&#34;&gt;食材与用具
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;主料：老豆腐。&lt;/li&gt;
+&lt;li&gt;小料：大葱、八角。&lt;/li&gt;
+&lt;li&gt;调料：玉米淀粉、生抽、盐、味精。&lt;/li&gt;
+&lt;li&gt;其它：菜籽油、清水。&lt;/li&gt;
+&lt;li&gt;用具：铁锅。&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2 id=&#34;步骤&#34;&gt;步骤
-&lt;/h2&gt;&lt;h3 id=&#34;备菜&#34;&gt;备菜
-&lt;/h3&gt;&lt;p&gt;豆腐切成三角块。&lt;/p&gt;
-&lt;p&gt;大葱取葱白，竖着从中间劈成两半，然后斜切成段备用。&lt;/p&gt;
-&lt;p&gt;2 勺淀粉加入 1.5 倍清水制成水淀粉。&lt;/p&gt;
-&lt;h3 id=&#34;烧制&#34;&gt;烧制
-&lt;/h3&gt;&lt;table&gt;
+&lt;/h2&gt;&lt;p&gt;我们首先进行备菜。&lt;/p&gt;
+&lt;p&gt;豆腐切成三角块。&lt;/p&gt;
+&lt;p&gt;大葱取葱白，竖着从中间劈成两半，然后斜切成葱段备用。&lt;/p&gt;
+&lt;p&gt;接下来我们进行烧制。&lt;/p&gt;
+&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;火候&lt;/th&gt;
@@ -3995,11 +3997,7 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;大火&lt;/td&gt;
-&lt;td&gt;将锅烧热。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;大火&lt;/td&gt;
-&lt;td&gt;放入少许底油润一下锅，下入一半的葱白和几个八角，把葱煸黄，煸出葱香。&lt;/td&gt;
+&lt;td&gt;将锅烧热，放入少许底油润一下锅，下入一半的葱白和几个八角，把葱煸黄，煸出葱香。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;-&amp;gt; 小火&lt;/td&gt;
@@ -4019,7 +4017,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;小火&lt;/td&gt;
-&lt;td&gt;加入剩余的葱白，淋入少许水淀粉勾一下芡。&lt;/td&gt;
+&lt;td&gt;加入剩余的葱白，淋入少许水淀粉（玉米淀粉:水 = 1:0.8）勾一下芡。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "辣椒炒肉/index.zh-cn.md",
+                "file": "葱烧豆腐/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "index.en",
+                "query": "葱烧豆腐",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +134,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -162,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "肉末蒸蛋/index.zh-cn.md",
+                "file": "葱烧豆腐/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "肉末蒸蛋/index.zh-cn.md",
+                "file": "葱烧豆腐/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "肉末蒸蛋/index.zh-cn.md"
+                "file": "葱烧豆腐/index.zh-cn.md"
               }
             }
           },
@@ -269,10 +270,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "fae012fec4dfd8b2",
   "lastOpenFiles": [
-    "辣椒炒肉/index.zh-cn.md",
     "肉末蒸蛋/index.zh-cn.md",
+    "葱烧豆腐/index.zh-cn.md",
+    "辣椒炒肉/index.zh-cn.md",
     "().md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "_templates/templater/recipe.md",
@@ -300,7 +302,6 @@
     "酸辣土豆丝/index.zh-cn.md",
     "椒盐五花肉/index.zh-cn.md",
     "54. 螺旋矩阵",
-    "73. 矩阵置零/index.zh-cn.md",
     "73. 矩阵置零",
     "41. 缺失的第一个正数",
     "238. 除自身以外数组的乘积",
