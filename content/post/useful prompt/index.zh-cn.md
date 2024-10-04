@@ -8,20 +8,8 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-03T13:23:52+08:00
+lastmod: 2024-10-04T08:18:45+08:00
 ---
-## 提高英语
-
-I will give you text content which is wrapped by 3 double quotes, you need to rewrite it and output a better version of my text.
-1. Fix grammar errors if it exists.
-2. Keep the meaning the same and make it more native if possible.
-3. Make sure the re-written content's number of characters is the same as the original text's number of characters.
-4. Do not alter the original structure and formatting outlined in any way.
-5. Only give me the output and nothing else.
-"""
-
-"""
-
 ## 知识性的书籍总结
 
 我正在学习王爽的《汇编语言》。以下是我阅读完第一章之后对所学到的知识进行的陈述。请你暂时忽略 TODO 中所提出的问题，检查我总结的内容是否有错误。如果出现错误，请你指出；如果有更多需要补充的知识点，也请你告诉我。
@@ -59,33 +47,6 @@ CHAPTER：
 ```
 
 为了确保内容的准确性，我将向你提供我正在阅读的当前章节的文本，注意请概括**每个**关键事件，不遗漏、不重复。当前章节的内容文本如下所示：
-"""
-
-"""
-
-### 英文版
-
-BOOKNAME: The Razor's Edge
-CHAPTER: 5
-SECTION: (ii)
-
-You are a story summurisor, I'm now reading the book `BOOKNAME` and am up to chapter `CHAPTER`，section `SECTION`, please summarize the content of the section. 
-
-There are several things you should do:
-1.  List all the characters that mentioned in the text, and if their **relationship to others**, **age** or **identity** is presented or can be inferred in the current section; don't have to list if it's not mentioned, list them as well。 for example:
-```
-- Steve - 18 year's old.
-- Isbel - Steve's mother.
-- Jenison - Steve's father, editor of Linney Publishing.
-```
-Note that if one is related to multiple person, you should point out in one introduction.
-2. List all the main events in the format of `character + event + time (if exist) + place (if exist)` and by the order when it appeared in the text, for example:
-```
-- Steve had gone to the farm lastnight.
-- Isbel went looking for her son right after he disappeared.
-```
-
-In order to ensure the accuracy of the content, I will provide you with text of the current chapter where I'm reading at, note please summarize **each** key event without omission or repetition. The content of current chapter is as follows:
 """
 
 """

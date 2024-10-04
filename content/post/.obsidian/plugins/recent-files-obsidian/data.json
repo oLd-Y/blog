@@ -2,10 +2,6 @@
   "recentFiles": [
     {
       "basename": "index.zh-cn",
-      "path": "《汇编语言》 读书笔记/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
       "path": "《刀锋》读书笔记/index.zh-cn.md"
     },
     {
@@ -13,16 +9,28 @@
       "path": "useful prompt/index.zh-cn.md"
     },
     {
+      "basename": "index.en",
+      "path": "useful prompt/index.en.md"
+    },
+    {
       "basename": "index.zh-cn",
       "path": "肉沫蒸蛋/index.zh-cn.md"
     },
     {
-      "basename": "矩阵旋转坐标公式.excalidraw",
-      "path": "矩阵旋转坐标公式/矩阵旋转坐标公式.excalidraw.md"
+      "basename": "index.zh-cn",
+      "path": "辣椒炒肉/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
-      "path": "辣椒炒肉/index.zh-cn.md"
+      "path": "《汇编语言》 读书笔记/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "240. 搜索二维矩阵 II/index.zh-cn.md"
+    },
+    {
+      "basename": "矩阵旋转坐标公式.excalidraw",
+      "path": "矩阵旋转坐标公式/矩阵旋转坐标公式.excalidraw.md"
     },
     {
       "basename": "index.zh-cn",
@@ -187,14 +195,6 @@
     {
       "basename": "index.zh-cn",
       "path": "面对恐惧可能确是消除恐惧的良方/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "283. 移动零/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "我家有两条狗/index.zh-cn.md"
     }
   ],
   "omittedPaths": []

@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "b2c85f262f86a55a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "useful prompt/index.en.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "983e03b6c6e085bc",
             "type": "leaf",
             "state": {
@@ -66,9 +78,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fba3d8557cd0df39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "240. 搜索二维矩阵 II/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "汇编",
+                "query": "index.en",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,8 +146,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -151,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《汇编语言》 读书笔记/index.zh-cn.md"
+                "file": "《刀锋》读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -258,13 +281,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6029e4319dccfa8d",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "《刀锋》读书笔记/index.zh-cn.md",
     "useful prompt/index.zh-cn.md",
+    "useful prompt/index.en.md",
+    "useful prompt/index.md.md",
+    "《刀锋》读书笔记/index.zh-cn.md",
     "肉沫蒸蛋/index.zh-cn.md",
-    "矩阵旋转坐标公式/矩阵旋转坐标公式.excalidraw.md",
     "辣椒炒肉/index.zh-cn.md",
+    "《汇编语言》 读书笔记/index.zh-cn.md",
+    "240. 搜索二维矩阵 II/index.zh-cn.md",
+    "240. 搜索二维矩阵 II",
+    "矩阵旋转坐标公式/矩阵旋转坐标公式.excalidraw.md",
     "矩阵旋转坐标公式/index.zh-cn.md",
     "48. 旋转图像/index.zh-cn.md",
     "48. 旋转图像/48. 旋转图像.excalidraw.md",
@@ -285,17 +313,12 @@
     "椒盐五花肉/index.zh-cn.md",
     "54. 螺旋矩阵",
     "73. 矩阵置零/index.zh-cn.md",
-    "41. 缺失的第一个正数/index.zh-cn.md",
     "73. 矩阵置零",
-    "189. 轮转数组/index.zh-cn.md",
     "41. 缺失的第一个正数",
-    "Obsidian 插件记录/index.zh-cn.md",
-    "《汇编语言》 读书笔记/index.zh-cn.md",
     "238. 除自身以外数组的乘积",
     "断更通知",
     "花生酱拌面/index.zh-cn.html",
     "189. 轮转数组",
-    "断更总结",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
