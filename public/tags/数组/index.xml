@@ -45,14 +45,13 @@
 </description>
         </item>
         <item>
-        <title>数组</title>
-        <link>http://localhost:1313/blog/p/%E6%95%B0%E7%BB%84/</link>
+        <title>704. 二分查找</title>
+        <link>http://localhost:1313/blog/p/704.-%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/</link>
         <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/p/%E6%95%B0%E7%BB%84/</guid>
-        <description>&lt;h2 id=&#34;704-二分查找&#34;&gt;704. 二分查找
-&lt;/h2&gt;&lt;p&gt;题目链接：&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/binary-search/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;704. 二分查找&lt;/a&gt;&lt;/p&gt;
+        <guid>http://localhost:1313/blog/p/704.-%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/binary-search/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;方法-二分&#34;&gt;方法 ：二分
 &lt;/h3&gt;&lt;h4 id=&#34;思路&#34;&gt;思路
 &lt;/h4&gt;&lt;ol&gt;

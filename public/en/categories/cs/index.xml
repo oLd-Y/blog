@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>CS on lyao&#39;s Blog</title>
+        <link>http://localhost:1313/blog/en/categories/cs/</link>
+        <description>Recent content in CS on lyao&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>谷栗杳</copyright>
+        <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/en/categories/cs/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>useful prompt</title>
+        <link>http://localhost:1313/blog/en/p/useful-prompt/</link>
+        <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/useful-prompt/</guid>
+        <description>&lt;h2 id=&#34;rewrite-text&#34;&gt;Rewrite Text
+&lt;/h2&gt;&lt;p&gt;I will give you text content which is wrapped by 3 double quotes, you need to rewrite it and output a better version of my text.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Fix grammar errors if it exists.&lt;/li&gt;
+&lt;li&gt;Keep the meaning the same and make it more native if possible.&lt;/li&gt;
+&lt;li&gt;Make sure the re-written content&amp;rsquo;s number of characters is the same as the original text&amp;rsquo;s number of characters.&lt;/li&gt;
+&lt;li&gt;Do not alter the original structure and formatting outlined in any way.&lt;/li&gt;
+&lt;li&gt;Only give me the output and nothing else.
+&amp;quot;&amp;quot;&amp;quot;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
+&lt;h3 id=&#34;fiction-chapter-summarizer&#34;&gt;Fiction Chapter Summarizer
+&lt;/h3&gt;&lt;p&gt;BOOKNAME: The Razor&amp;rsquo;s Edge
+CHAPTER: 5
+SECTION: (ii)&lt;/p&gt;
+&lt;p&gt;You are a story summurisor, I&amp;rsquo;m now reading the book &lt;code&gt;BOOKNAME&lt;/code&gt; and am up to chapter &lt;code&gt;CHAPTER&lt;/code&gt;，section &lt;code&gt;SECTION&lt;/code&gt;, please summarize the content of the section.&lt;/p&gt;
+&lt;p&gt;There are several things you should do:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;List all the characters that mentioned in the text, and if their &lt;strong&gt;relationship to others&lt;/strong&gt;, &lt;strong&gt;age&lt;/strong&gt; or &lt;strong&gt;identity&lt;/strong&gt; is presented or can be inferred in the current section; don&amp;rsquo;t have to list if it&amp;rsquo;s not mentioned, list them as well。 for example:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Steve - 18 year&amp;#39;s old.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Isbel - Steve&amp;#39;s mother.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Jenison - Steve&amp;#39;s father, editor of Linney Publishing.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Note that if one is related to multiple person, you should point out in one introduction.
+2. List all the main events in the format of &lt;code&gt;character + event + time (if exist) + place (if exist)&lt;/code&gt; and by the order when it appeared in the text, for example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Steve had gone to the farm lastnight.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Isbel went looking for her son right after he disappeared.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;In order to ensure the accuracy of the content, I will provide you with text of the current chapter where I&amp;rsquo;m reading at, note please summarize &lt;strong&gt;each&lt;/strong&gt; key event without omission or repetition. The content of current chapter is as follows:
+&amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
+&lt;p&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
+&lt;h3 id=&#34;other&#34;&gt;other
+&lt;/h3&gt;&lt;p&gt;summarize this chapter within 5 to 6 sentences.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

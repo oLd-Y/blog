@@ -6,6 +6,10 @@
     },
     {
       "basename": "index.zh-cn",
+      "path": "辣椒炒肉/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
       "path": "《汇编语言》 读书笔记/index.zh-cn.md"
     },
     {
@@ -29,10 +33,6 @@
       "path": "useful prompt/index.zh-cn.md"
     },
     {
-      "basename": "index.zh-cn",
-      "path": "辣椒炒肉/index.zh-cn.md"
-    },
-    {
       "basename": "矩阵旋转坐标公式.excalidraw",
       "path": "矩阵旋转坐标公式/矩阵旋转坐标公式.excalidraw.md"
     },
@@ -43,10 +43,6 @@
     {
       "basename": "index.zh-cn",
       "path": "48. 旋转图像/index.zh-cn.md"
-    },
-    {
-      "basename": "()",
-      "path": "().md"
     },
     {
       "basename": "index.zh-cn",

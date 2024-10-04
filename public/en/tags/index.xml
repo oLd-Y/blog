@@ -15,6 +15,14 @@
         <guid>http://localhost:1313/blog/en/tags/fiction/</guid>
         <description></description>
         </item>
+        <item>
+        <title>Prompt</title>
+        <link>http://localhost:1313/blog/en/tags/prompt/</link>
+        <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/tags/prompt/</guid>
+        <description></description>
+        </item>
         
     </channel>
 </rss>

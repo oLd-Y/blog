@@ -7,20 +7,308 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Mon, 26 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>汇编</title>
-        <link>http://localhost:1313/blog/tags/%E6%B1%87%E7%BC%96/</link>
-        <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+        <lastBuildDate>Fri, 04 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>矩阵</title>
+        <link>http://localhost:1313/blog/tags/%E7%9F%A9%E9%98%B5/</link>
+        <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/tags/%E6%B1%87%E7%BC%96/</guid>
+        <guid>http://localhost:1313/blog/tags/%E7%9F%A9%E9%98%B5/</guid>
         <description></description>
         </item>
         <item>
         <title>数据结构与算法</title>
         <link>http://localhost:1313/blog/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</link>
-        <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>公式</title>
+        <link>http://localhost:1313/blog/tags/%E5%85%AC%E5%BC%8F/</link>
+        <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E5%85%AC%E5%BC%8F/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>旋转</title>
+        <link>http://localhost:1313/blog/tags/%E6%97%8B%E8%BD%AC/</link>
+        <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E6%97%8B%E8%BD%AC/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>原地哈希</title>
+        <link>http://localhost:1313/blog/tags/%E5%8E%9F%E5%9C%B0%E5%93%88%E5%B8%8C/</link>
+        <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E5%8E%9F%E5%9C%B0%E5%93%88%E5%B8%8C/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>前后缀分解</title>
+        <link>http://localhost:1313/blog/tags/%E5%89%8D%E5%90%8E%E7%BC%80%E5%88%86%E8%A7%A3/</link>
+        <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E5%89%8D%E5%90%8E%E7%BC%80%E5%88%86%E8%A7%A3/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>数学</title>
+        <link>http://localhost:1313/blog/tags/%E6%95%B0%E5%AD%A6/</link>
+        <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E6%95%B0%E5%AD%A6/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>闲聊</title>
+        <link>http://localhost:1313/blog/tags/%E9%97%B2%E8%81%8A/</link>
+        <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E9%97%B2%E8%81%8A/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>智力</title>
+        <link>http://localhost:1313/blog/tags/%E6%99%BA%E5%8A%9B/</link>
+        <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E6%99%BA%E5%8A%9B/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Snipaste</title>
+        <link>http://localhost:1313/blog/tags/snipaste/</link>
+        <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/snipaste/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>排序</title>
+        <link>http://localhost:1313/blog/tags/%E6%8E%92%E5%BA%8F/</link>
+        <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E6%8E%92%E5%BA%8F/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>随想</title>
+        <link>http://localhost:1313/blog/tags/%E9%9A%8F%E6%83%B3/</link>
+        <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E9%9A%8F%E6%83%B3/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Lazyvim</title>
+        <link>http://localhost:1313/blog/tags/lazyvim/</link>
+        <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/lazyvim/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Neovim</title>
+        <link>http://localhost:1313/blog/tags/neovim/</link>
+        <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/neovim/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>动态规划</title>
+        <link>http://localhost:1313/blog/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/</link>
+        <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>读书笔记</title>
+        <link>http://localhost:1313/blog/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+        <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>分治法</title>
+        <link>http://localhost:1313/blog/tags/%E5%88%86%E6%B2%BB%E6%B3%95/</link>
+        <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E5%88%86%E6%B2%BB%E6%B3%95/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>贪心</title>
+        <link>http://localhost:1313/blog/tags/%E8%B4%AA%E5%BF%83/</link>
+        <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E8%B4%AA%E5%BF%83/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>在线教程</title>
+        <link>http://localhost:1313/blog/tags/%E5%9C%A8%E7%BA%BF%E6%95%99%E7%A8%8B/</link>
+        <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E5%9C%A8%E7%BA%BF%E6%95%99%E7%A8%8B/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>哈希表</title>
+        <link>http://localhost:1313/blog/tags/%E5%93%88%E5%B8%8C%E8%A1%A8/</link>
+        <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E5%93%88%E5%B8%8C%E8%A1%A8/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>滑动窗口</title>
+        <link>http://localhost:1313/blog/tags/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/</link>
+        <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>双指针</title>
+        <link>http://localhost:1313/blog/tags/%E5%8F%8C%E6%8C%87%E9%92%88/</link>
+        <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E5%8F%8C%E6%8C%87%E9%92%88/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>单调队列</title>
+        <link>http://localhost:1313/blog/tags/%E5%8D%95%E8%B0%83%E9%98%9F%E5%88%97/</link>
+        <pubDate>Sat, 21 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E5%8D%95%E8%B0%83%E9%98%9F%E5%88%97/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>随笔</title>
+        <link>http://localhost:1313/blog/tags/%E9%9A%8F%E7%AC%94/</link>
+        <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E9%9A%8F%E7%AC%94/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>基础例题</title>
+        <link>http://localhost:1313/blog/tags/%E5%9F%BA%E7%A1%80%E4%BE%8B%E9%A2%98/</link>
+        <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E5%9F%BA%E7%A1%80%E4%BE%8B%E9%A2%98/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>前缀和</title>
+        <link>http://localhost:1313/blog/tags/%E5%89%8D%E7%BC%80%E5%92%8C/</link>
+        <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E5%89%8D%E7%BC%80%E5%92%8C/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>小故事</title>
+        <link>http://localhost:1313/blog/tags/%E5%B0%8F%E6%95%85%E4%BA%8B/</link>
+        <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E5%B0%8F%E6%95%85%E4%BA%8B/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>话题</title>
+        <link>http://localhost:1313/blog/tags/%E8%AF%9D%E9%A2%98/</link>
+        <pubDate>Wed, 18 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E8%AF%9D%E9%A2%98/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>单调栈</title>
+        <link>http://localhost:1313/blog/tags/%E5%8D%95%E8%B0%83%E6%A0%88/</link>
+        <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E5%8D%95%E8%B0%83%E6%A0%88/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>菜谱</title>
+        <link>http://localhost:1313/blog/tags/%E8%8F%9C%E8%B0%B1/</link>
+        <pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E8%8F%9C%E8%B0%B1/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>炸菜</title>
+        <link>http://localhost:1313/blog/tags/%E7%82%B8%E8%8F%9C/</link>
+        <pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E7%82%B8%E8%8F%9C/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>烧菜</title>
+        <link>http://localhost:1313/blog/tags/%E7%83%A7%E8%8F%9C/</link>
+        <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E7%83%A7%E8%8F%9C/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>面</title>
+        <link>http://localhost:1313/blog/tags/%E9%9D%A2/</link>
+        <pubDate>Tue, 03 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E9%9D%A2/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>汤羹</title>
+        <link>http://localhost:1313/blog/tags/%E6%B1%A4%E7%BE%B9/</link>
+        <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E6%B1%A4%E7%BE%B9/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>小说</title>
+        <link>http://localhost:1313/blog/tags/%E5%B0%8F%E8%AF%B4/</link>
+        <pubDate>Sat, 31 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E5%B0%8F%E8%AF%B4/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>拌菜</title>
+        <link>http://localhost:1313/blog/tags/%E6%8B%8C%E8%8F%9C/</link>
+        <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E6%8B%8C%E8%8F%9C/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>焖菜</title>
+        <link>http://localhost:1313/blog/tags/%E7%84%96%E8%8F%9C/</link>
+        <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E7%84%96%E8%8F%9C/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>汇编</title>
+        <link>http://localhost:1313/blog/tags/%E6%B1%87%E7%BC%96/</link>
+        <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E6%B1%87%E7%BC%96/</guid>
         <description></description>
         </item>
         <item>
@@ -32,27 +320,11 @@
         <description></description>
         </item>
         <item>
-        <title>随想</title>
-        <link>http://localhost:1313/blog/tags/%E9%9A%8F%E6%83%B3/</link>
-        <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+        <title>文言文</title>
+        <link>http://localhost:1313/blog/tags/%E6%96%87%E8%A8%80%E6%96%87/</link>
+        <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/tags/%E9%9A%8F%E6%83%B3/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>菜谱</title>
-        <link>http://localhost:1313/blog/tags/%E8%8F%9C%E8%B0%B1/</link>
-        <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/tags/%E8%8F%9C%E8%B0%B1/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>汤羹</title>
-        <link>http://localhost:1313/blog/tags/%E6%B1%A4%E7%BE%B9/</link>
-        <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/tags/%E6%B1%A4%E7%BE%B9/</guid>
+        <guid>http://localhost:1313/blog/tags/%E6%96%87%E8%A8%80%E6%96%87/</guid>
         <description></description>
         </item>
         <item>
@@ -64,27 +336,11 @@
         <description></description>
         </item>
         <item>
-        <title>烧菜</title>
-        <link>http://localhost:1313/blog/tags/%E7%83%A7%E8%8F%9C/</link>
-        <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/tags/%E7%83%A7%E8%8F%9C/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>白案</title>
         <link>http://localhost:1313/blog/tags/%E7%99%BD%E6%A1%88/</link>
         <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/tags/%E7%99%BD%E6%A1%88/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>炒菜</title>
-        <link>http://localhost:1313/blog/tags/%E7%82%92%E8%8F%9C/</link>
-        <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/tags/%E7%82%92%E8%8F%9C/</guid>
         <description></description>
         </item>
         <item>
@@ -96,6 +352,14 @@
         <description></description>
         </item>
         <item>
+        <title>炒菜</title>
+        <link>http://localhost:1313/blog/tags/%E7%82%92%E8%8F%9C/</link>
+        <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E7%82%92%E8%8F%9C/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>炖菜</title>
         <link>http://localhost:1313/blog/tags/%E7%82%96%E8%8F%9C/</link>
         <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
@@ -104,11 +368,11 @@
         <description></description>
         </item>
         <item>
-        <title>焖菜</title>
-        <link>http://localhost:1313/blog/tags/%E7%84%96%E8%8F%9C/</link>
-        <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
+        <title>荤菜</title>
+        <link>http://localhost:1313/blog/tags/%E8%8D%A4%E8%8F%9C/</link>
+        <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/tags/%E7%84%96%E8%8F%9C/</guid>
+        <guid>http://localhost:1313/blog/tags/%E8%8D%A4%E8%8F%9C/</guid>
         <description></description>
         </item>
         <item>
@@ -128,43 +392,11 @@
         <description></description>
         </item>
         <item>
-        <title>小说</title>
-        <link>http://localhost:1313/blog/tags/%E5%B0%8F%E8%AF%B4/</link>
-        <pubDate>Thu, 01 Aug 2024 10:10:17 +0800</pubDate>
-        
-        <guid>http://localhost:1313/blog/tags/%E5%B0%8F%E8%AF%B4/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>凉拌</title>
-        <link>http://localhost:1313/blog/tags/%E5%87%89%E6%8B%8C/</link>
-        <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/tags/%E5%87%89%E6%8B%8C/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>提示词</title>
         <link>http://localhost:1313/blog/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D/</link>
         <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Lazyvim</title>
-        <link>http://localhost:1313/blog/tags/lazyvim/</link>
-        <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/tags/lazyvim/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Neovim</title>
-        <link>http://localhost:1313/blog/tags/neovim/</link>
-        <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/tags/neovim/</guid>
         <description></description>
         </item>
         <item>
@@ -208,11 +440,11 @@
         <description></description>
         </item>
         <item>
-        <title>面</title>
-        <link>http://localhost:1313/blog/tags/%E9%9D%A2/</link>
-        <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
+        <title>二分</title>
+        <link>http://localhost:1313/blog/tags/%E4%BA%8C%E5%88%86/</link>
+        <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/tags/%E9%9D%A2/</guid>
+        <guid>http://localhost:1313/blog/tags/%E4%BA%8C%E5%88%86/</guid>
         <description></description>
         </item>
         <item>
@@ -261,14 +493,6 @@
         <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/tags/%E9%93%BE%E8%A1%A8/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>双指针</title>
-        <link>http://localhost:1313/blog/tags/%E5%8F%8C%E6%8C%87%E9%92%88/</link>
-        <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/tags/%E5%8F%8C%E6%8C%87%E9%92%88/</guid>
         <description></description>
         </item>
         <item>
