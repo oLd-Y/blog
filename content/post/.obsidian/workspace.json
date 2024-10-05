@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -174,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "红烧腐竹/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "红烧腐竹/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md"
+                "file": "红烧腐竹/index.zh-cn.md"
               }
             }
           },
@@ -283,8 +283,8 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "红烧腐竹/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
+    "红烧腐竹/index.zh-cn.md",
     "useful prompt/index.en.md",
     "160. 相交链表/index.zh-cn.md",
     "240. 搜索二维矩阵 II/index.zh-cn.md",
