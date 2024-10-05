@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -194,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "鸡蛋清汤面/index.zh-cn.md",
+                "file": "葱烧豆腐/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "鸡蛋清汤面/index.zh-cn.md",
+                "file": "葱烧豆腐/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "鸡蛋清汤面/index.zh-cn.md"
+                "file": "葱烧豆腐/index.zh-cn.md"
               }
             }
           },
@@ -303,19 +303,19 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "160. 相交链表/index.zh-cn.md",
-    "腐竹烧肉/index.zh-cn.md",
-    "葱烧豆腐/index.zh-cn.md",
-    "鸡蛋清汤面/index.zh-cn.md",
-    "椒盐五花肉/index.zh-cn.md",
     "口蘑汤/index.zh-cn.md",
+    "160. 相交链表/index.zh-cn.md",
+    "《汇编语言》 读书笔记/index.zh-cn.md",
+    "腐竹烧肉/index.zh-cn.md",
+    "鸡蛋清汤面/index.zh-cn.md",
+    "葱烧豆腐/index.zh-cn.md",
+    "椒盐五花肉/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "useful prompt/index.en.md",
     "240. 搜索二维矩阵 II/index.zh-cn.md",
     "160. 相交链表",
     "肉末蒸蛋/index.zh-cn.md",
     "口蘑汤",
-    "《汇编语言》 读书笔记/index.zh-cn.md",
     "辣椒炒肉/index.zh-cn.md",
     "().md",
     "_templates/templater/recipe.md",
