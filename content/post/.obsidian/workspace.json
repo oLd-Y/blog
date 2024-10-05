@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "240. 搜索二维矩阵 II/index.zh-cn.md",
+                "file": "160. 相交链表/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,8 +146,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "葱烧豆腐/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "葱烧豆腐/index.zh-cn.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "葱烧豆腐/index.zh-cn.md"
+                "file": "《刀锋》读书笔记/index.zh-cn.md"
               }
             }
           },
@@ -282,20 +281,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fae012fec4dfd8b2",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "useful prompt/index.en.md",
+    "《刀锋》读书笔记/index.zh-cn.md",
     "红烧腐竹/index.zh-cn.md",
-    "肉末蒸蛋/index.zh-cn.md",
-    "葱烧豆腐/index.zh-cn.md",
-    "口蘑汤/index.zh-cn.md",
+    "160. 相交链表/index.zh-cn.md",
     "240. 搜索二维矩阵 II/index.zh-cn.md",
+    "160. 相交链表",
+    "葱烧豆腐/index.zh-cn.md",
+    "肉末蒸蛋/index.zh-cn.md",
+    "口蘑汤/index.zh-cn.md",
     "口蘑汤",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "辣椒炒肉/index.zh-cn.md",
     "().md",
     "_templates/templater/recipe.md",
-    "《刀锋》读书笔记/index.zh-cn.md",
-    "useful prompt/index.en.md",
     "useful prompt/index.zh-cn.md",
     "useful prompt/index.md.md",
     "240. 搜索二维矩阵 II",
@@ -313,13 +314,11 @@
     "48. 旋转图像",
     "白菜烧豆腐/index.zh-cn.md",
     "粉蒸肉/index.zh-cn.md",
-    "回锅肉/index.zh-cn.md",
     "54. 螺旋矩阵",
     "73. 矩阵置零",
     "41. 缺失的第一个正数",
     "238. 除自身以外数组的乘积",
     "断更通知",
-    "花生酱拌面/index.zh-cn.html",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
