@@ -2,7 +2,27 @@
   "recentFiles": [
     {
       "basename": "index.zh-cn",
-      "path": "红烧腐竹/index.zh-cn.md"
+      "path": "鸡蛋清汤面/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "160. 相交链表/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "腐竹烧肉/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "葱烧豆腐/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "椒盐五花肉/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "口蘑汤/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
@@ -14,23 +34,11 @@
     },
     {
       "basename": "index.zh-cn",
-      "path": "160. 相交链表/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
       "path": "240. 搜索二维矩阵 II/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
-      "path": "葱烧豆腐/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
       "path": "肉末蒸蛋/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "口蘑汤/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
@@ -99,10 +107,6 @@
     {
       "basename": "index.zh-cn",
       "path": "酸辣土豆丝/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "椒盐五花肉/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
@@ -195,10 +199,6 @@
     {
       "basename": "wsl 网络问题",
       "path": "wsl 网络问题.md"
-    },
-    {
-      "basename": "704. 二分查找.excalidraw",
-      "path": "704. 二分查找/704. 二分查找.excalidraw.md"
     }
   ],
   "omittedPaths": []
