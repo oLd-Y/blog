@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -175,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "红烧腐竹/index.zh-cn.md",
+                "file": "葱烧豆腐/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "红烧腐竹/index.zh-cn.md",
+                "file": "葱烧豆腐/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "红烧腐竹/index.zh-cn.md"
+                "file": "葱烧豆腐/index.zh-cn.md"
               }
             }
           },
@@ -282,8 +282,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "45576d2aa643002d",
+  "active": "fae012fec4dfd8b2",
   "lastOpenFiles": [
+    "红烧腐竹/index.zh-cn.md",
     "肉末蒸蛋/index.zh-cn.md",
     "葱烧豆腐/index.zh-cn.md",
     "口蘑汤/index.zh-cn.md",
@@ -313,7 +314,6 @@
     "白菜烧豆腐/index.zh-cn.md",
     "粉蒸肉/index.zh-cn.md",
     "回锅肉/index.zh-cn.md",
-    "酸辣土豆丝/index.zh-cn.md",
     "54. 螺旋矩阵",
     "73. 矩阵置零",
     "41. 缺失的第一个正数",
