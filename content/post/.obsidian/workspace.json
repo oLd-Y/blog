@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -194,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useful prompt/index.en.md",
+                "file": "腐竹烧肉/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "useful prompt/index.en.md",
+                "file": "腐竹烧肉/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "useful prompt/index.en.md"
+                "file": "腐竹烧肉/index.zh-cn.md"
               }
             }
           },
@@ -301,8 +301,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "45576d2aa643002d",
   "lastOpenFiles": [
+    "useful prompt/index.en.md",
     "腐竹烧肉/index.zh-cn.md",
     "葱烧豆腐/index.zh-cn.md",
     "口蘑汤/index.zh-cn.md",
@@ -311,7 +312,6 @@
     "鸡蛋清汤面/index.zh-cn.md",
     "椒盐五花肉/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
-    "useful prompt/index.en.md",
     "240. 搜索二维矩阵 II/index.zh-cn.md",
     "160. 相交链表",
     "肉末蒸蛋/index.zh-cn.md",
