@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-04T08:39:51+08:00
+lastmod: 2024-10-06T13:43:53+08:00
 ---
 ## Rewrite Text
 
@@ -25,7 +25,7 @@ I will give you text content which is wrapped by 3 double quotes, you need to re
 ### Fiction Chapter Summarizer
 
 BOOKNAME: The Razor's Edge
-CHAPTER: 5
+CHAPTER: 6
 SECTION: (ii)
 
 You are a story summurisor, I'm now reading the book `BOOKNAME` and am up to chapter `CHAPTER`，section `SECTION`, please summarize the content of the section. 

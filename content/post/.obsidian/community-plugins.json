@@ -12,7 +12,6 @@
   "obsidian-latex-suite",
   "obsidian-custom-frames",
   "remotely-save",
-  "remember-cursor-position",
   "obsidian-reveal-active-file",
   "calendar",
   "templater-obsidian",
@@ -27,5 +26,6 @@
   "open-in-new-tab",
   "colored-text",
   "obsidian-git",
-  "recent-files-obsidian"
+  "recent-files-obsidian",
+  "remember-cursor-position"
 ]

@@ -121,8 +121,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "206. 反转链表/206. 反转链表.excalidraw.md",
+                "file": "useful prompt/index.en.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "206. 反转链表/206. 反转链表.excalidraw.md",
+                "file": "useful prompt/index.en.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "206. 反转链表/206. 反转链表.excalidraw.md"
+                "file": "useful prompt/index.en.md"
               }
             }
           },
@@ -311,10 +310,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0aba8ac4038f86ce",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "206. 反转链表/206. 反转链表.excalidraw.md",
+    "《刀锋》读书笔记/index.zh-cn.md",
     "206. 反转链表/index.zh-cn.md",
+    "206. 反转链表/206. 反转链表.excalidraw.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "160. 相交链表/index.zh-cn.md",
     "206. 反转链表",
@@ -325,7 +325,6 @@
     "口蘑汤/index.zh-cn.md",
     "鸡蛋清汤面/index.zh-cn.md",
     "椒盐五花肉/index.zh-cn.md",
-    "《刀锋》读书笔记/index.zh-cn.md",
     "240. 搜索二维矩阵 II/index.zh-cn.md",
     "160. 相交链表",
     "肉末蒸蛋/index.zh-cn.md",
