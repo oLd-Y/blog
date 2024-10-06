@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "葱烧豆腐/index.zh-cn.md",
+                "file": "酸辣土豆丝/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "腐竹",
+                "query": "土豆丝",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,7 +166,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -303,9 +304,10 @@
   },
   "active": "45576d2aa643002d",
   "lastOpenFiles": [
-    "useful prompt/index.en.md",
+    "酸辣土豆丝/index.zh-cn.md",
     "腐竹烧肉/index.zh-cn.md",
     "葱烧豆腐/index.zh-cn.md",
+    "useful prompt/index.en.md",
     "口蘑汤/index.zh-cn.md",
     "160. 相交链表/index.zh-cn.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
@@ -332,7 +334,6 @@
     "303. 区域和检索 - 数组不可变/303. 区域和检索 - 数组不可变.excalidraw.md",
     "54. 螺旋矩阵/index.zh-cn.md",
     "遗忘令人崩溃/index.zh-cn.md",
-    "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
     "48. 旋转图像",
     "54. 螺旋矩阵",
     "73. 矩阵置零",
