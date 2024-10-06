@@ -73,19 +73,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "206. 反转链表/index.zh-cn.md",
+                "file": "234. 回文链表/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0aba8ac4038f86ce",
+            "id": "9ef332a29726eea8",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "206. 反转链表/206. 反转链表.excalidraw.md"
+                "file": "234. 回文链表/D234. 回文链表.excalidraw.md"
               }
             }
           },
@@ -110,6 +110,18 @@
             }
           },
           {
+            "id": "d8a8fdca309bec72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "腐竹烧肉/index.zh-cn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9a9d77f033ccd98c",
             "type": "leaf",
             "state": {
@@ -122,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -204,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useful prompt/index.en.md",
+                "file": "234. 回文链表/D234. 回文链表.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +233,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "useful prompt/index.en.md",
+                "file": "234. 回文链表/D234. 回文链表.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +256,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "useful prompt/index.en.md"
+                "file": "234. 回文链表/D234. 回文链表.excalidraw.md"
               }
             }
           },
@@ -311,20 +323,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "9ef332a29726eea8",
   "lastOpenFiles": [
+    "234. 回文链表/index.zh-cn.md",
+    "234. 回文链表/D234. 回文链表.excalidraw.md",
+    "206. 反转链表/index.zh-cn.md",
+    "234. 回文链表",
+    "腐竹烧肉/index.zh-cn.md",
+    "口蘑汤/index.zh-cn.md",
+    "鸡蛋清汤面/index.zh-cn.md",
+    "206. 反转链表/206. 反转链表.excalidraw.md",
     "useful prompt/index.en.md",
     "《刀锋》读书笔记/index.zh-cn.md",
-    "206. 反转链表/index.zh-cn.md",
-    "206. 反转链表/206. 反转链表.excalidraw.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "160. 相交链表/index.zh-cn.md",
     "206. 反转链表",
-    "腐竹烧肉/index.zh-cn.md",
     "酸辣土豆丝/index.zh-cn.md",
     "葱烧豆腐/index.zh-cn.md",
-    "口蘑汤/index.zh-cn.md",
-    "鸡蛋清汤面/index.zh-cn.md",
     "椒盐五花肉/index.zh-cn.md",
     "240. 搜索二维矩阵 II/index.zh-cn.md",
     "160. 相交链表",
@@ -342,13 +357,10 @@
     "48. 旋转图像/48. 旋转图像.excalidraw.md",
     "就算只与自己的美好相遇/index.zh-cn.md",
     "矩阵旋转坐标公式",
-    "42. 接雨水/42. 接雨水.excalidraw.md",
-    "303. 区域和检索 - 数组不可变/303. 区域和检索 - 数组不可变.excalidraw.md",
     "48. 旋转图像",
     "54. 螺旋矩阵",
     "73. 矩阵置零",
     "41. 缺失的第一个正数",
-    "238. 除自身以外数组的乘积",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",

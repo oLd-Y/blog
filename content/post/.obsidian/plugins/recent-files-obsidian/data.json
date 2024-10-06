@@ -1,20 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "index.en",
-      "path": "useful prompt/index.en.md"
+      "basename": "D234. 回文链表.excalidraw",
+      "path": "234. 回文链表/D234. 回文链表.excalidraw.md"
     },
     {
       "basename": "index.zh-cn",
-      "path": "《刀锋》读书笔记/index.zh-cn.md"
+      "path": "234. 回文链表/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
       "path": "206. 反转链表/index.zh-cn.md"
     },
     {
+      "basename": "index.zh-cn",
+      "path": "腐竹烧肉/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "口蘑汤/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "鸡蛋清汤面/index.zh-cn.md"
+    },
+    {
       "basename": "206. 反转链表.excalidraw",
       "path": "206. 反转链表/206. 反转链表.excalidraw.md"
+    },
+    {
+      "basename": "index.en",
+      "path": "useful prompt/index.en.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "《刀锋》读书笔记/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
@@ -26,23 +46,11 @@
     },
     {
       "basename": "index.zh-cn",
-      "path": "腐竹烧肉/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
       "path": "酸辣土豆丝/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
       "path": "葱烧豆腐/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "口蘑汤/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "鸡蛋清汤面/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
@@ -191,14 +199,6 @@
     {
       "basename": "index.zh-cn",
       "path": "3. 无重复字符的最长子串/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "76. 最小覆盖子串/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "影响睡眠质量的因素/index.zh-cn.md"
     }
   ],
   "omittedPaths": []
