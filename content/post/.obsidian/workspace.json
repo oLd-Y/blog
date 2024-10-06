@@ -73,9 +73,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "160. 相交链表/index.zh-cn.md",
+                "file": "206. 反转链表/index.zh-cn.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "0aba8ac4038f86ce",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "206. 反转链表/206. 反转链表.excalidraw.md"
               }
             }
           },
@@ -112,7 +122,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -166,8 +176,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -195,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "腐竹烧肉/index.zh-cn.md",
+                "file": "206. 反转链表/206. 反转链表.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "腐竹烧肉/index.zh-cn.md",
+                "file": "206. 反转链表/206. 反转链表.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "腐竹烧肉/index.zh-cn.md"
+                "file": "206. 反转链表/206. 反转链表.excalidraw.md"
               }
             }
           },
@@ -302,15 +311,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "45576d2aa643002d",
+  "active": "0aba8ac4038f86ce",
   "lastOpenFiles": [
-    "酸辣土豆丝/index.zh-cn.md",
+    "206. 反转链表/206. 反转链表.excalidraw.md",
+    "206. 反转链表/index.zh-cn.md",
+    "《汇编语言》 读书笔记/index.zh-cn.md",
+    "160. 相交链表/index.zh-cn.md",
+    "206. 反转链表",
     "腐竹烧肉/index.zh-cn.md",
+    "酸辣土豆丝/index.zh-cn.md",
     "葱烧豆腐/index.zh-cn.md",
     "useful prompt/index.en.md",
     "口蘑汤/index.zh-cn.md",
-    "160. 相交链表/index.zh-cn.md",
-    "《汇编语言》 读书笔记/index.zh-cn.md",
     "鸡蛋清汤面/index.zh-cn.md",
     "椒盐五花肉/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
@@ -332,14 +344,11 @@
     "矩阵旋转坐标公式",
     "42. 接雨水/42. 接雨水.excalidraw.md",
     "303. 区域和检索 - 数组不可变/303. 区域和检索 - 数组不可变.excalidraw.md",
-    "54. 螺旋矩阵/index.zh-cn.md",
-    "遗忘令人崩溃/index.zh-cn.md",
     "48. 旋转图像",
     "54. 螺旋矩阵",
     "73. 矩阵置零",
     "41. 缺失的第一个正数",
     "238. 除自身以外数组的乘积",
-    "断更通知",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
