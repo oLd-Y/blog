@@ -68,28 +68,6 @@
             }
           },
           {
-            "id": "fba3d8557cd0df39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "234. 回文链表/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ef332a29726eea8",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "234. 回文链表/D234. 回文链表.excalidraw.md"
-              }
-            }
-          },
-          {
             "id": "58938c99c27c5a41",
             "type": "leaf",
             "state": {
@@ -133,8 +111,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -216,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "234. 回文链表/D234. 回文链表.excalidraw.md",
+                "file": "useful prompt/index.en.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "234. 回文链表/D234. 回文链表.excalidraw.md",
+                "file": "useful prompt/index.en.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -256,7 +233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "234. 回文链表/D234. 回文链表.excalidraw.md"
+                "file": "useful prompt/index.en.md"
               }
             }
           },
@@ -323,8 +300,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9ef332a29726eea8",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "《刀锋》读书笔记/index.zh-cn.md",
     "234. 回文链表/index.zh-cn.md",
     "234. 回文链表/D234. 回文链表.excalidraw.md",
     "206. 反转链表/index.zh-cn.md",
@@ -334,7 +312,6 @@
     "鸡蛋清汤面/index.zh-cn.md",
     "206. 反转链表/206. 反转链表.excalidraw.md",
     "useful prompt/index.en.md",
-    "《刀锋》读书笔记/index.zh-cn.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "160. 相交链表/index.zh-cn.md",
     "206. 反转链表",
