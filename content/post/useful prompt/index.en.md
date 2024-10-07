@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-07T08:50:44+08:00
+lastmod: 2024-10-07T09:31:52+08:00
 ---
 ## Rewrite Text
 
@@ -44,7 +44,7 @@ In order to ensure the accuracy of the content, I will provide you with text of 
 - Isbel went looking for her son right after he disappeared.
 ```
 
-3. Summarize this chapter with a paragraph within **5 to 6** sentences. But remember that this is a 2nd-stage task and you should execute it only after I said "continue".
+3. Summarize this chapter with a paragraph within **3 to 4** sentences. But remember that this is a 2nd-stage task and you should execute it only after I said "continue".
 
 Note:
 1. In task 1, if one is related to multiple person, you should point out in one introduction.
