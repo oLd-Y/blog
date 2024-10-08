@@ -194,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useful prompt/index.en.md",
+                "file": "自媒体工作流程（自用）/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "useful prompt/index.en.md",
+                "file": "自媒体工作流程（自用）/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "useful prompt/index.en.md"
+                "file": "自媒体工作流程（自用）/index.zh-cn.md"
               }
             }
           },
@@ -303,11 +303,11 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "《刀锋》读书笔记/index.zh-cn.md",
+    "useful prompt/index.en.md",
     "腐竹烧肉/index.zh-cn.md",
     "自媒体工作流程（自用）/index.zh-cn.md",
     "自媒体工作流程（自用）",
-    "《刀锋》读书笔记/index.zh-cn.md",
-    "useful prompt/index.en.md",
     "234. 回文链表/index.zh-cn.md",
     "234. 回文链表/D234. 回文链表.excalidraw.md",
     "206. 反转链表/index.zh-cn.md",
