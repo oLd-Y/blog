@@ -2,6 +2,10 @@
   "recentFiles": [
     {
       "basename": "index.zh-cn",
+      "path": "自媒体工作流程（自用）/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
       "path": "腐竹烧肉/index.zh-cn.md"
     },
     {
@@ -195,10 +199,6 @@
     {
       "basename": "index.zh-cn",
       "path": "不想被所有人讨厌是一个弱点/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "3. 无重复字符的最长子串/index.zh-cn.md"
     }
   ],
   "omittedPaths": []

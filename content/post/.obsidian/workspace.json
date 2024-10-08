@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "腐竹烧肉/index.zh-cn.md",
+                "file": "自媒体工作流程（自用）/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "腐竹烧肉/index.zh-cn.md",
+                "file": "自媒体工作流程（自用）/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "腐竹烧肉/index.zh-cn.md",
+                "file": "自媒体工作流程（自用）/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "腐竹烧肉/index.zh-cn.md"
+                "file": "自媒体工作流程（自用）/index.zh-cn.md"
               }
             }
           },
@@ -303,13 +303,15 @@
   },
   "active": "45576d2aa643002d",
   "lastOpenFiles": [
+    "腐竹烧肉/index.zh-cn.md",
+    "自媒体工作流程（自用）/index.zh-cn.md",
+    "自媒体工作流程（自用）",
     "《刀锋》读书笔记/index.zh-cn.md",
     "useful prompt/index.en.md",
     "234. 回文链表/index.zh-cn.md",
     "234. 回文链表/D234. 回文链表.excalidraw.md",
     "206. 反转链表/index.zh-cn.md",
     "234. 回文链表",
-    "腐竹烧肉/index.zh-cn.md",
     "口蘑汤/index.zh-cn.md",
     "鸡蛋清汤面/index.zh-cn.md",
     "206. 反转链表/206. 反转链表.excalidraw.md",
@@ -333,12 +335,10 @@
     "矩阵旋转坐标公式/index.zh-cn.md",
     "48. 旋转图像/index.zh-cn.md",
     "48. 旋转图像/48. 旋转图像.excalidraw.md",
-    "就算只与自己的美好相遇/index.zh-cn.md",
     "矩阵旋转坐标公式",
     "48. 旋转图像",
     "54. 螺旋矩阵",
     "73. 矩阵置零",
-    "41. 缺失的第一个正数",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
