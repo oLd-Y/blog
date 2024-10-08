@@ -194,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自媒体工作流程（自用）/index.zh-cn.md",
+                "file": "useful prompt/index.en.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "自媒体工作流程（自用）/index.zh-cn.md",
+                "file": "useful prompt/index.en.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "自媒体工作流程（自用）/index.zh-cn.md"
+                "file": "useful prompt/index.en.md"
               }
             }
           },
@@ -301,7 +301,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "45576d2aa643002d",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
     "腐竹烧肉/index.zh-cn.md",
     "自媒体工作流程（自用）/index.zh-cn.md",
