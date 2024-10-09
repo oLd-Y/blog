@@ -2,6 +2,14 @@
   "recentFiles": [
     {
       "basename": "index.zh-cn",
+      "path": "鱼香肉丝/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "酸辣土豆丝/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
       "path": "自媒体工作流程（自用）/index.zh-cn.md"
     },
     {
@@ -51,10 +59,6 @@
     {
       "basename": "index.zh-cn",
       "path": "160. 相交链表/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "酸辣土豆丝/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
@@ -195,10 +199,6 @@
     {
       "basename": "index.zh-cn",
       "path": "560. 和为 K 的子数组/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "不想被所有人讨厌是一个弱点/index.zh-cn.md"
     }
   ],
   "omittedPaths": []

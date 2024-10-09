@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "酸辣土豆丝/index.zh-cn.md",
+                "file": "鱼香肉丝/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -141,7 +141,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "花生酱",
+                "query": "鱼香肉丝",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -195,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自媒体工作流程（自用）/index.zh-cn.md",
+                "file": "鱼香肉丝/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "自媒体工作流程（自用）/index.zh-cn.md",
+                "file": "鱼香肉丝/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "自媒体工作流程（自用）/index.zh-cn.md"
+                "file": "鱼香肉丝/index.zh-cn.md"
               }
             }
           },
@@ -302,10 +302,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "45576d2aa643002d",
+  "active": "fae012fec4dfd8b2",
   "lastOpenFiles": [
-    "花生酱拌面/index.zh-cn.md",
+    "酸辣土豆丝/index.zh-cn.md",
     "自媒体工作流程（自用）/index.zh-cn.md",
+    "花生酱拌面/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "useful prompt/index.en.md",
     "腐竹烧肉/index.zh-cn.md",
@@ -320,7 +321,6 @@
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "160. 相交链表/index.zh-cn.md",
     "206. 反转链表",
-    "酸辣土豆丝/index.zh-cn.md",
     "葱烧豆腐/index.zh-cn.md",
     "椒盐五花肉/index.zh-cn.md",
     "240. 搜索二维矩阵 II/index.zh-cn.md",
