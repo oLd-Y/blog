@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "花生酱拌面/index.zh-cn.md",
+                "file": "自媒体工作流程（自用）/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -195,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "花生酱拌面/index.zh-cn.md",
+                "file": "自媒体工作流程（自用）/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "花生酱拌面/index.zh-cn.md",
+                "file": "自媒体工作流程（自用）/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "花生酱拌面/index.zh-cn.md"
+                "file": "自媒体工作流程（自用）/index.zh-cn.md"
               }
             }
           },
@@ -304,6 +304,7 @@
   },
   "active": "45576d2aa643002d",
   "lastOpenFiles": [
+    "花生酱拌面/index.zh-cn.md",
     "自媒体工作流程（自用）/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "useful prompt/index.en.md",
@@ -335,7 +336,6 @@
     "矩阵旋转坐标公式/矩阵旋转坐标公式.excalidraw.md",
     "矩阵旋转坐标公式/index.zh-cn.md",
     "48. 旋转图像/index.zh-cn.md",
-    "48. 旋转图像/48. 旋转图像.excalidraw.md",
     "矩阵旋转坐标公式",
     "48. 旋转图像",
     "54. 螺旋矩阵",
