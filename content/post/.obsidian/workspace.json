@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "自媒体工作流程（自用）/index.zh-cn.md",
+                "file": "花生酱拌面/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "土豆丝",
+                "query": "花生酱",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,7 +166,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -194,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自媒体工作流程（自用）/index.zh-cn.md",
+                "file": "花生酱拌面/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "自媒体工作流程（自用）/index.zh-cn.md",
+                "file": "花生酱拌面/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "自媒体工作流程（自用）/index.zh-cn.md"
+                "file": "花生酱拌面/index.zh-cn.md"
               }
             }
           },
@@ -301,12 +302,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "45576d2aa643002d",
   "lastOpenFiles": [
+    "自媒体工作流程（自用）/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "useful prompt/index.en.md",
     "腐竹烧肉/index.zh-cn.md",
-    "自媒体工作流程（自用）/index.zh-cn.md",
     "自媒体工作流程（自用）",
     "234. 回文链表/index.zh-cn.md",
     "234. 回文链表/D234. 回文链表.excalidraw.md",
