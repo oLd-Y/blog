@@ -6,6 +6,18 @@
     },
     {
       "basename": "index.zh-cn",
+      "path": "炒面/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "腐竹烧肉/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "口蘑汤/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
       "path": "酸辣土豆丝/index.zh-cn.md"
     },
     {
@@ -26,10 +38,6 @@
     },
     {
       "basename": "index.zh-cn",
-      "path": "腐竹烧肉/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
       "path": "234. 回文链表/index.zh-cn.md"
     },
     {
@@ -39,10 +47,6 @@
     {
       "basename": "index.zh-cn",
       "path": "206. 反转链表/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "口蘑汤/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
@@ -195,10 +199,6 @@
     {
       "basename": "index.zh-cn",
       "path": "303. 区域和检索 - 数组不可变/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "560. 和为 K 的子数组/index.zh-cn.md"
     }
   ],
   "omittedPaths": []
