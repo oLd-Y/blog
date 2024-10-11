@@ -6,6 +6,14 @@
     },
     {
       "basename": "index.zh-cn",
+      "path": "口蘑汤/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "《汇编语言》 读书笔记/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
       "path": "自媒体工作流程（自用）/index.zh-cn.md"
     },
     {
@@ -15,10 +23,6 @@
     {
       "basename": "index.zh-cn",
       "path": "腐竹烧肉/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "口蘑汤/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
@@ -55,10 +59,6 @@
     {
       "basename": "206. 反转链表.excalidraw",
       "path": "206. 反转链表/206. 反转链表.excalidraw.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "《汇编语言》 读书笔记/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
