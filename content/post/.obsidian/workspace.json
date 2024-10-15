@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "上汤娃娃菜/index.zh-cn.md",
+                "file": "把子肉/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_templates/templater/recipe.md",
+                "file": "把子肉/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_templates/templater/recipe.md",
+                "file": "把子肉/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_templates/templater/recipe.md"
+                "file": "把子肉/index.zh-cn.md"
               }
             }
           },
@@ -292,9 +292,11 @@
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
     "上汤娃娃菜/index.zh-cn.md",
-    "口蘑汤/index.zh-cn.md",
-    "三鲜菌菇汤/index.zh-cn.md",
+    "把子肉/index.zh-cn.md",
+    "把子肉",
     "_templates/templater/recipe.md",
+    "三鲜菌菇汤/index.zh-cn.md",
+    "口蘑汤/index.zh-cn.md",
     "三鲜菌菇汤",
     "《刀锋》读书笔记/index.zh-cn.md",
     "自媒体工作流程（自用）/index.zh-cn.md",
@@ -323,10 +325,8 @@
     "口蘑汤",
     "辣椒炒肉/index.zh-cn.md",
     "().md",
-    "useful prompt/index.zh-cn.md",
     "240. 搜索二维矩阵 II",
     "矩阵旋转坐标公式",
-    "48. 旋转图像",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
