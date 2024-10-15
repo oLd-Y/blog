@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "上汤娃娃菜/index.zh-cn.md",
+                "file": "三鲜菌菇汤/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -141,7 +141,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "参数",
+                "query": "三鲜",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,8 +166,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -195,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "三鲜菌菇汤/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "三鲜菌菇汤/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md"
+                "file": "三鲜菌菇汤/index.zh-cn.md"
               }
             }
           },
@@ -302,9 +301,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "983e03b6c6e085bc",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "_templates/templater/recipe.md",
+    "三鲜菌菇汤/index.zh-cn.md",
     "上汤娃娃菜/index.zh-cn.md",
+    "三鲜菌菇汤",
+    "《刀锋》读书笔记/index.zh-cn.md",
     "自媒体工作流程（自用）/index.zh-cn.md",
     "鱼香肉丝/index.zh-cn.md",
     "口蘑汤/index.zh-cn.md",
@@ -314,7 +317,6 @@
     "炒面",
     "酸辣土豆丝/index.zh-cn.md",
     "花生酱拌面/index.zh-cn.md",
-    "《刀锋》读书笔记/index.zh-cn.md",
     "useful prompt/index.en.md",
     "自媒体工作流程（自用）",
     "234. 回文链表/index.zh-cn.md",
@@ -333,13 +335,10 @@
     "口蘑汤",
     "辣椒炒肉/index.zh-cn.md",
     "().md",
-    "_templates/templater/recipe.md",
     "useful prompt/index.zh-cn.md",
-    "useful prompt/index.md.md",
     "240. 搜索二维矩阵 II",
     "矩阵旋转坐标公式",
     "48. 旋转图像",
-    "54. 螺旋矩阵",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
