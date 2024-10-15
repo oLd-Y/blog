@@ -80,6 +80,18 @@
             }
           },
           {
+            "id": "064b9f61bb6110ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_templates/templater/recipe.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3816fb6bb7e51539",
             "type": "leaf",
             "state": {
@@ -88,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -142,8 +154,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -171,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "上汤娃娃菜/index.zh-cn.md",
+                "file": "_templates/templater/recipe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "上汤娃娃菜/index.zh-cn.md",
+                "file": "_templates/templater/recipe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "上汤娃娃菜/index.zh-cn.md"
+                "file": "_templates/templater/recipe.md"
               }
             }
           },
@@ -278,12 +289,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "58938c99c27c5a41",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "上汤娃娃菜/index.zh-cn.md",
     "口蘑汤/index.zh-cn.md",
     "三鲜菌菇汤/index.zh-cn.md",
     "_templates/templater/recipe.md",
-    "上汤娃娃菜/index.zh-cn.md",
     "三鲜菌菇汤",
     "《刀锋》读书笔记/index.zh-cn.md",
     "自媒体工作流程（自用）/index.zh-cn.md",
