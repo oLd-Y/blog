@@ -1,18 +1,20 @@
 ---
 title: 把子肉
-categories: 
-tags: 
+categories: 美食
+tags:
+  - 菜谱
+  - 炖菜
 date: 2024-10-15
 description: 
 image: 
 weight: 1
-draft: true
-lastmod: 2024-10-15T19:15:28+08:00
+draft: false
+lastmod: 2024-10-15T20:47:37+08:00
 ---
 ## 食材与用具
 
 1. 主料：五花肉。
-2. 小料：
+2. 小料：青椒、八角、小茴香、香叶、桂皮、花椒、大葱
 3. 调料：
 4. 其它：
 5. 用具：铁锅
