@@ -2,15 +2,19 @@
   "recentFiles": [
     {
       "basename": "index.zh-cn",
+      "path": "上汤娃娃菜/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
+      "path": "口蘑汤/index.zh-cn.md"
+    },
+    {
+      "basename": "index.zh-cn",
       "path": "三鲜菌菇汤/index.zh-cn.md"
     },
     {
       "basename": "recipe",
       "path": "_templates/templater/recipe.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "上汤娃娃菜/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
@@ -23,10 +27,6 @@
     {
       "basename": "index.zh-cn",
       "path": "鱼香肉丝/index.zh-cn.md"
-    },
-    {
-      "basename": "index.zh-cn",
-      "path": "口蘑汤/index.zh-cn.md"
     },
     {
       "basename": "index.zh-cn",
