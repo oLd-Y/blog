@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useful prompt/index.en.md",
+                "file": "把子肉/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "useful prompt/index.en.md",
+                "file": "把子肉/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "useful prompt/index.en.md"
+                "file": "把子肉/index.zh-cn.md"
               }
             }
           },
@@ -291,6 +291,7 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "useful prompt/index.en.md",
     "上汤娃娃菜/index.zh-cn.md",
     "把子肉/index.zh-cn.md",
     "把子肉",
@@ -307,7 +308,6 @@
     "炒面",
     "酸辣土豆丝/index.zh-cn.md",
     "花生酱拌面/index.zh-cn.md",
-    "useful prompt/index.en.md",
     "自媒体工作流程（自用）",
     "234. 回文链表/index.zh-cn.md",
     "234. 回文链表/D234. 回文链表.excalidraw.md",
