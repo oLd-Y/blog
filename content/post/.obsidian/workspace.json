@@ -16,7 +16,9 @@
                 "file": "useful prompt/index.en.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "index.en"
             }
           },
           {
@@ -28,7 +30,9 @@
                 "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "index.zh-cn"
             }
           },
           {
@@ -40,7 +44,21 @@
                 "file": "三鲜菌菇汤/index.zh-cn.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "index.zh-cn"
+            }
+          },
+          {
+            "id": "d98e11ae25a1ae10",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.4"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.4"
             }
           },
           {
@@ -52,7 +70,9 @@
                 "file": "把子肉/index.zh-cn.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "index.zh-cn"
             }
           },
           {
@@ -64,7 +84,9 @@
                 "file": "_templates/templater/recipe.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "recipe"
             }
           },
           {
@@ -72,11 +94,13 @@
             "type": "leaf",
             "state": {
               "type": "graph",
-              "state": {}
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -96,7 +120,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTime"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -111,7 +137,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -119,7 +147,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -127,7 +157,9 @@
             "type": "leaf",
             "state": {
               "type": "recent-files",
-              "state": {}
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
@@ -149,7 +181,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -158,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "三鲜菌菇汤/index.zh-cn.md",
+                "file": "useful prompt/index.en.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +200,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for index.en"
             }
           },
           {
@@ -175,10 +211,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "三鲜菌菇汤/index.zh-cn.md",
+                "file": "useful prompt/index.en.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from index.en"
             }
           },
           {
@@ -189,7 +227,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -198,8 +238,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "三鲜菌菇汤/index.zh-cn.md"
-              }
+                "file": "useful prompt/index.en.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of index.en"
             }
           },
           {
@@ -207,7 +249,9 @@
             "type": "leaf",
             "state": {
               "type": "dictionary-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -215,7 +259,9 @@
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -223,7 +269,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -231,7 +279,9 @@
             "type": "leaf",
             "state": {
               "type": "side-panel-control-view",
-              "state": {}
+              "state": {},
+              "icon": "viewIcon",
+              "title": "Markdown-Autocomplete"
             }
           },
           {
@@ -239,11 +289,23 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "144850bc938cb2ef",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
@@ -265,7 +327,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fae012fec4dfd8b2",
+  "active": "144850bc938cb2ef",
   "lastOpenFiles": [
     "自媒体工作流程（自用）/index.zh-cn.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
