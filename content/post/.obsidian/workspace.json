@@ -44,30 +44,6 @@
             }
           },
           {
-            "id": "45576d2aa643002d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "自媒体工作流程（自用）/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6029e4319dccfa8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "58938c99c27c5a41",
             "type": "leaf",
             "state": {
@@ -289,20 +265,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "fae012fec4dfd8b2",
   "lastOpenFiles": [
-    "把子肉/index.zh-cn.md",
     "自媒体工作流程（自用）/index.zh-cn.md",
+    "《汇编语言》 读书笔记/index.zh-cn.md",
+    "三鲜菌菇汤/index.zh-cn.md",
+    "把子肉/index.zh-cn.md",
     "useful prompt/index.en.md",
     "上汤娃娃菜/index.zh-cn.md",
     "把子肉",
     "_templates/templater/recipe.md",
-    "三鲜菌菇汤/index.zh-cn.md",
     "口蘑汤/index.zh-cn.md",
     "三鲜菌菇汤",
     "《刀锋》读书笔记/index.zh-cn.md",
     "鱼香肉丝/index.zh-cn.md",
-    "《汇编语言》 读书笔记/index.zh-cn.md",
     "炒面/index.zh-cn.md",
     "腐竹烧肉/index.zh-cn.md",
     "炒面",
