@@ -100,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useful prompt/index.en.md",
+                "file": "三鲜菌菇汤/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "useful prompt/index.en.md",
+                "file": "三鲜菌菇汤/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "useful prompt/index.en.md"
+                "file": "三鲜菌菇汤/index.zh-cn.md"
               }
             }
           },
@@ -291,16 +291,16 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "把子肉/index.zh-cn.md",
+    "自媒体工作流程（自用）/index.zh-cn.md",
     "useful prompt/index.en.md",
     "上汤娃娃菜/index.zh-cn.md",
-    "把子肉/index.zh-cn.md",
     "把子肉",
     "_templates/templater/recipe.md",
     "三鲜菌菇汤/index.zh-cn.md",
     "口蘑汤/index.zh-cn.md",
     "三鲜菌菇汤",
     "《刀锋》读书笔记/index.zh-cn.md",
-    "自媒体工作流程（自用）/index.zh-cn.md",
     "鱼香肉丝/index.zh-cn.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "炒面/index.zh-cn.md",
