@@ -50,18 +50,6 @@
             }
           },
           {
-            "id": "d98e11ae25a1ae10",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
-            }
-          },
-          {
             "id": "58938c99c27c5a41",
             "type": "leaf",
             "state": {
@@ -100,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -192,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "useful prompt/index.en.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +190,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index.en"
+              "title": "Backlinks for index.zh-cn"
             }
           },
           {
@@ -211,12 +199,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "useful prompt/index.en.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index.en"
+              "title": "Outgoing links from index.zh-cn"
             }
           },
           {
@@ -238,10 +226,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "useful prompt/index.en.md"
+                "file": "《刀锋》读书笔记/index.zh-cn.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of index.en"
+              "title": "Outline of index.zh-cn"
             }
           },
           {
@@ -327,11 +315,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "144850bc938cb2ef",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "三鲜菌菇汤/index.zh-cn.md",
+    "《刀锋》读书笔记/index.zh-cn.md",
     "自媒体工作流程（自用）/index.zh-cn.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
-    "三鲜菌菇汤/index.zh-cn.md",
     "把子肉/index.zh-cn.md",
     "useful prompt/index.en.md",
     "上汤娃娃菜/index.zh-cn.md",
@@ -339,7 +328,6 @@
     "_templates/templater/recipe.md",
     "口蘑汤/index.zh-cn.md",
     "三鲜菌菇汤",
-    "《刀锋》读书笔记/index.zh-cn.md",
     "鱼香肉丝/index.zh-cn.md",
     "炒面/index.zh-cn.md",
     "腐竹烧肉/index.zh-cn.md",
