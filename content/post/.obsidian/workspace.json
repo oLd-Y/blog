@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "把子肉/index.zh-cn.md",
+                "file": "Obsidian 插件记录/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               },
@@ -88,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -119,7 +119,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "上汤",
+                "query": "obsidian",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,7 +150,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -298,12 +299,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "280b59fa59de1968",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
@@ -325,13 +336,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "70768eee49269bcf",
+  "active": "58938c99c27c5a41",
   "lastOpenFiles": [
-    "三鲜菌菇汤/index.zh-cn.md",
+    "把子肉/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
+    "三鲜菌菇汤/index.zh-cn.md",
     "自媒体工作流程（自用）/index.zh-cn.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
-    "把子肉/index.zh-cn.md",
     "useful prompt/index.en.md",
     "上汤娃娃菜/index.zh-cn.md",
     "把子肉",
