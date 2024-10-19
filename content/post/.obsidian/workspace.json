@@ -87,8 +87,7 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,19 +138,8 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "70751372ee90f822",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -309,12 +297,42 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "1a55519d0aaadccc",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "c9c87c3e39db6018",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "c1f99768163ca55a",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 15
       }
     ],
     "direction": "horizontal",
@@ -336,11 +354,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "58938c99c27c5a41",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "Obsidian 插件记录/index.zh-cn.md",
+    "三鲜菌菇汤/index.zh-cn.md",
     "把子肉/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
-    "三鲜菌菇汤/index.zh-cn.md",
     "自媒体工作流程（自用）/index.zh-cn.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "useful prompt/index.en.md",
@@ -371,7 +390,6 @@
     "肉末蒸蛋/index.zh-cn.md",
     "口蘑汤",
     "辣椒炒肉/index.zh-cn.md",
-    "().md",
     "240. 搜索二维矩阵 II",
     "矩阵旋转坐标公式",
     "Pasted Image 20240913125132_196.png",
