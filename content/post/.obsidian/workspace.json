@@ -329,12 +329,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "eb94d1210f297220",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "horizontal",
@@ -356,7 +366,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fae012fec4dfd8b2",
+  "active": "eb94d1210f297220",
   "lastOpenFiles": [
     "三鲜菌菇汤/index.zh-cn.md",
     "_daily/2024-10-19_Saturday.md",
