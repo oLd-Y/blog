@@ -87,7 +87,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -356,13 +357,13 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "useful prompt/index.en.md",
     "Obsidian 插件记录/index.zh-cn.md",
     "三鲜菌菇汤/index.zh-cn.md",
     "把子肉/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "自媒体工作流程（自用）/index.zh-cn.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
-    "useful prompt/index.en.md",
     "上汤娃娃菜/index.zh-cn.md",
     "把子肉",
     "_templates/templater/recipe.md",
