@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_daily/2024-10-19_Saturday.md",
+                "file": "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-10-19_Saturday"
+              "title": "index.zh-cn"
             }
           },
           {
@@ -119,7 +119,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "lazyvim",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -366,11 +366,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "75ab60c5b57d6774",
+  "active": "983e03b6c6e085bc",
   "lastOpenFiles": [
+    "_daily/2024-10-19_Saturday.md",
     "辣椒炒肉/index.zh-cn.md",
     "三鲜菌菇汤/index.zh-cn.md",
-    "_daily/2024-10-19_Saturday.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "肉末蒸蛋/index.zh-cn.md",
     "Obsidian 插件记录/index.zh-cn.md",

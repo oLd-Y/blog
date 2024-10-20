@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-02T17:55:02+08:00
+lastmod: 2024-10-20T09:43:58+08:00
 ---
 教程链接：[LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
 
@@ -29,4 +29,8 @@ lastmod: 2024-10-02T17:55:02+08:00
 
 ## [Chapter 3. Getting Around](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-3/#_getting_around)
 
+无
 
+## [Chapter 4. Opening Files](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-4/#_opening_files)
+
+Space q q 关
