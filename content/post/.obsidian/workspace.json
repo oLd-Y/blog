@@ -88,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +119,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "辣椒炒肉",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -366,8 +366,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "eb94d1210f297220",
+  "active": "75ab60c5b57d6774",
   "lastOpenFiles": [
+    "辣椒炒肉/index.zh-cn.md",
     "三鲜菌菇汤/index.zh-cn.md",
     "_daily/2024-10-19_Saturday.md",
     "《刀锋》读书笔记/index.zh-cn.md",
@@ -399,7 +400,6 @@
     "206. 反转链表",
     "葱烧豆腐/index.zh-cn.md",
     "椒盐五花肉/index.zh-cn.md",
-    "240. 搜索二维矩阵 II/index.zh-cn.md",
     "160. 相交链表",
     "口蘑汤",
     "240. 搜索二维矩阵 II",
