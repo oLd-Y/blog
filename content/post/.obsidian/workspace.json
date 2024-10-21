@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "《刀锋》读后感/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               },
@@ -73,8 +73,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -329,8 +328,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "064b9f61bb6110ce",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "《刀锋》读书笔记/index.zh-cn.md",
+    "《刀锋》读后感/index.zh-cn.md",
+    "《刀锋》读后感",
+    "断更通知/index.zh-cn.md",
     "_templates/templater/recipe.md",
     "Untitled.md",
     "3. 无重复字符的最长子串/index.zh-cn.md",
@@ -340,7 +343,6 @@
     "_daily/2024-10-19_Saturday.md",
     "辣椒炒肉/index.zh-cn.md",
     "三鲜菌菇汤/index.zh-cn.md",
-    "《刀锋》读书笔记/index.zh-cn.md",
     "肉末蒸蛋/index.zh-cn.md",
     "把子肉/index.zh-cn.md",
     "自媒体工作流程（自用）/index.zh-cn.md",
@@ -360,13 +362,10 @@
     "234. 回文链表/D234. 回文链表.excalidraw.md",
     "206. 反转链表/index.zh-cn.md",
     "234. 回文链表",
-    "鸡蛋清汤面/index.zh-cn.md",
-    "206. 反转链表/206. 反转链表.excalidraw.md",
     "206. 反转链表",
     "160. 相交链表",
     "口蘑汤",
     "240. 搜索二维矩阵 II",
-    "矩阵旋转坐标公式",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",

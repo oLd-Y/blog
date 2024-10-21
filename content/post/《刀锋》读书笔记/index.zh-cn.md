@@ -9,7 +9,7 @@ description: 本篇笔记为个人对于《刀锋》每一章每一小节的内�
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-21T09:41:03+08:00
+lastmod: 2024-10-21T09:49:57+08:00
 ---
 作者：毛姆
 
@@ -437,5 +437,11 @@ Larry 即将回到美国过一个自由的生活。
 
 我验证了自己的想法，Isabel 确实是故意放的那瓶酒，间接导致了 Sophie 的堕落。
 
-(iii)
+### (iv) ~ (vi)
+
+Maturin 一家离开了巴黎回到了美国，并在那边过得很好。
+
+Monsieur Achille 的妻子过世了，他要续弦 Suzanne，并打算让 Suzanne 参加一个画展，以此提高名望。
+
+我最后发现，我写了一个 happy ending，基本上每个人都过上了自己想要的生活。
 
