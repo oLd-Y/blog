@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_templates/templater/recipe.md",
+                "file": "《刀锋》读书笔记/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "recipe"
+              "title": "index.zh-cn"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lazyvim",
+                "query": "刀锋",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5,
-    "collapsed": true
+    "width": 314.5
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -293,12 +292,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "b1745480d38e7654",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 19
       }
     ],
     "direction": "horizontal",
@@ -322,11 +331,11 @@
   },
   "active": "064b9f61bb6110ce",
   "lastOpenFiles": [
+    "_templates/templater/recipe.md",
     "Untitled.md",
     "3. 无重复字符的最长子串/index.zh-cn.md",
     "Obsidian 插件记录/index.zh-cn.md",
     "useful prompt/index.en.md",
-    "_templates/templater/recipe.md",
     "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
     "_daily/2024-10-19_Saturday.md",
     "辣椒炒肉/index.zh-cn.md",
