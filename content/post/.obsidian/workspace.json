@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "《刀锋》读后感/index.zh-cn.md",
+                "file": "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               },
@@ -338,10 +338,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2356a0833f3eb326",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "《刀锋》读书笔记/index.zh-cn.md",
     "《刀锋》读后感/index.zh-cn.md",
+    "《刀锋》读书笔记/index.zh-cn.md",
     "《刀锋》读后感",
     "断更通知/index.zh-cn.md",
     "_templates/templater/recipe.md",
