@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-20T09:43:58+08:00
+lastmod: 2024-10-22T14:13:16+08:00
 ---
 教程链接：[LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
 
@@ -33,4 +33,10 @@ lastmod: 2024-10-20T09:43:58+08:00
 
 ## [Chapter 4. Opening Files](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-4/#_opening_files)
 
-Space q q 关
+Space q q 关闭整个 nvim 窗口
+
+`:LazyExtras` 打开 mini.files 插件。mini.files 兼容许多 lazyvim 的文本编辑操作。使用 `=` 进行修改的保存。
+
+
+
+
