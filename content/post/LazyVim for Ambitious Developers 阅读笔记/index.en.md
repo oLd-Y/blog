@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-23T16:15:52+08:00
+lastmod: 2024-10-23T19:15:03+08:00
 ---
 Tutorial link: [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
 
@@ -157,3 +157,12 @@ return {
 ## [Chapter 6. Basic Editing](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-6/#_basic_editing)
 
 `80i*<Escape>` will insert 80 `*` which is nifty.
+
+`gU<range>` will convert a character of a sequence of characters into uppercase, while the `gu<range>` is the inverse.
+
+`~` inverts the case of character under the cursor.
+
+`q<reg_name>` will start recording a sequence of operation which called `macro`, and press `q` again will stop the recording. The fastest way to play back the latest macro is press `Q`, or you can use `@<reg_name>` instead.
+
+## [Chapter 7. Objects and Operator-Pending Mode](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-7/#_objects_and_operator_pending_mode)
+
