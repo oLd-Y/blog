@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-22T14:13:16+08:00
+lastmod: 2024-10-23T10:18:47+08:00
 ---
 教程链接：[LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
 
@@ -37,6 +37,10 @@ Space q q 关闭整个 nvim 窗口
 
 `:LazyExtras` 打开 mini.files 插件。mini.files 兼容许多 lazyvim 的文本编辑操作。使用 `=` 进行修改的保存。
 
+再次找到同一个插件按 x 就可以禁用这个插件。
 
+## [Chapter 5. Configuration and Plugin Basics](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-5/#_configuration_and_plugin_basics)
+
+`.config/nvim/lua/config/keymaps.lua` 中一般用于设置 neovim 或者 
 
 
