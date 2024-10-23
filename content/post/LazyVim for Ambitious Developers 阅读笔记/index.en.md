@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-23T14:22:08+08:00
+lastmod: 2024-10-23T14:31:09+08:00
 ---
 Tutorial link: [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
 
@@ -47,4 +47,4 @@ In plugin configuration parameters, keys set key bindings, and opts sets plugin-
 
 Reference examples for various configurations:
 
-1. Disable a certain feature:
+1. Disable a certain feature: 
