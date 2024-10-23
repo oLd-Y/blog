@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-23T10:18:47+08:00
+lastmod: 2024-10-23T14:13:37+08:00
 ---
 教程链接：[LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
 
@@ -41,6 +41,13 @@ Space q q 关闭整个 nvim 窗口
 
 ## [Chapter 5. Configuration and Plugin Basics](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-5/#_configuration_and_plugin_basics)
 
-`.config/nvim/lua/config/keymaps.lua` 中一般用于设置 neovim 或者 
+`.config/nvim/lua/config/keymaps.lua` 中一般用于设置 neovim 或者 lazyvim 中自带的按键设置。
+
+插件配置参数中的 keys 设置按键，opts 设置与这个插件相关的选项配置。
+
+各项配置参考示例：
+1. 禁用某项功能：
+2. 
+
 
 
