@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-23T14:31:09+08:00
+lastmod: 2024-10-23T16:15:52+08:00
 ---
 Tutorial link: [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
 
@@ -48,3 +48,112 @@ In plugin configuration parameters, keys set key bindings, and opts sets plugin-
 Reference examples for various configurations:
 
 1. Disable a certain feature: 
+```lua
+return {
+  { "nvim-neo-tree/neo-tree.nvim", enabled = false },
+}
+```
+2. Modiry a certain built-in plugin `mini.files`:
+```lua
+return {
+  "echasnovski/mini.files",
+  keys = {
+    {
+      "<leader>e",
+      function()
+        require("mini.files").open(vim.api.nvim_buf_get_name(0), true)
+      end,
+      desc = "Open mini.files (directory of current file)",
+    },
+    {
+      "<leader>E",
+      function()
+        require("mini.files").open(vim.uv.cwd(), true)
+      end,
+      desc = "Open mini.files (cwd)",
+    },
+    {
+      "<leader>fm",
+      function()
+        require("mini.files").open(LazyVim.root(), true)
+      end,
+      desc = "Open mini.files (root)",
+    },
+  },
+  opts = {
+    -- mappings = {
+    --   go_in = "<Right>",
+    --   go_out = "<Left>",
+    -- },
+    windows = {
+      width_nofocus = 20,
+      width_focus = 40,
+      width_preview = 80,
+    },
+
+    options = {
+      use_as_default_explorer = true,
+    },
+  },
+}
+```
+3. Modify `nvim-cmp`:
+```lua
+return {
+  {
+    "hrsh7th/nvim-cmp",
+    opts = function(_, opts)
+      local cmp = require("cmp")
+      opts.mapping = vim.tbl_extend(
+        "force",
+        opts.mapping,
+        {
+          ["<Right>"] = cmp.mapping.confirm({ select = true }),
+          ["<CR>"] = function(fallback) cmp.abort() fallback() end,
+        }
+      )
+    end,
+  },
+}
+```
+4. Configure `guess-indent`:
+```lua
+return {
+  "nmac427/guess-indent.nvim",
+  opts = {
+    auto_cmd = true,
+    override_editorconfig = true
+  },
+}
+```
+5. Configure `nvim-spider`:
+```lua
+return {
+  "chrisgrieser/nvim-spider",
+  opts = {},
+  keys = {
+    {
+      "w",
+      "<cmd>lua require('spider').motion('w')<CR>",
+      mode = { "n", "o", "x" },
+      desc = "Move to start of next of word",
+    },
+    {
+      "e",
+      "<cmd>lua require('spider').motion('e')<CR>",
+      mode = { "n", "o", "x" },
+      desc = "Move to end of word",
+    },
+    {
+      "b",
+      "<cmd>lua require('spider').motion('b')<CR>",
+      mode = { "n", "o", "x" },
+      desc = "Move to start of previous word",
+    },
+  },
+}
+```
+
+## [Chapter 6. Basic Editing](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-6/#_basic_editing)
+
+`80i*<Escape>` will insert 80 `*` which is nifty.
