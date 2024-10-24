@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
+                "file": "《红楼梦》 读书笔记/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               },
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "刀锋",
+                "query": "红楼梦",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +102,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -387,14 +388,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "26597285c081c48d",
   "lastOpenFiles": [
-    "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
     "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
+    "《刀锋》读后感/index.zh-cn.md",
+    "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
     "LazyVim for Ambitious Developers 阅读笔记/Untitled.md",
     "_templates/templater/create page bundle - en.md",
     "_templates/templater/create page bundle - cn.md",
-    "《刀锋》读后感/index.zh-cn.md",
     "《刀锋》读书笔记/index.zh-cn.md",
     "《刀锋》读后感",
     "断更通知/index.zh-cn.md",

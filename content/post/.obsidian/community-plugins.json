@@ -1,5 +1,4 @@
 [
-  "obsidian-style-settings",
   "obsidian-tasks-plugin",
   "mermaid-tools",
   "obsidian-linter",
@@ -23,5 +22,6 @@
   "open-in-new-tab",
   "colored-text",
   "obsidian-git",
-  "remember-cursor-position"
+  "remember-cursor-position",
+  "obsidian-minimal-settings"
 ]
