@@ -102,8 +102,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -388,11 +387,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "26597285c081c48d",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
+    "《红楼梦》 读书笔记/index.zh-cn.md",
     "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
     "《刀锋》读后感/index.zh-cn.md",
-    "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
     "LazyVim for Ambitious Developers 阅读笔记/Untitled.md",
     "_templates/templater/create page bundle - en.md",
     "_templates/templater/create page bundle - cn.md",
@@ -419,7 +419,6 @@
     "炒面/index.zh-cn.md",
     "腐竹烧肉/index.zh-cn.md",
     "炒面",
-    "酸辣土豆丝/index.zh-cn.md",
     "自媒体工作流程（自用）",
     "234. 回文链表",
     "206. 反转链表",
