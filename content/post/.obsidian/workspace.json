@@ -49,7 +49,8 @@
               "title": "create page bundle - en"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -386,10 +387,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95d55207685df947",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
     "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
+    "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
     "LazyVim for Ambitious Developers 阅读笔记/Untitled.md",
     "_templates/templater/create page bundle - en.md",
     "_templates/templater/create page bundle - cn.md",
