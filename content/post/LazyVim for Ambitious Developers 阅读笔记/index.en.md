@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-23T19:15:03+08:00
+lastmod: 2024-10-24T14:17:04+08:00
 ---
 Tutorial link: [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
 
@@ -162,7 +162,9 @@ return {
 
 `~` inverts the case of character under the cursor.
 
-`q<reg_name>` will start recording a sequence of operation which called `macro`, and press `q` again will stop the recording. The fastest way to play back the latest macro is press `Q`, or you can use `@<reg_name>` instead.
+`q<reg_name>` will start recording a sequence of operations which called `macro`, and press `q` again will stop the recording. The fastest way to play back the latest macro is press `Q`, or you can use `@<reg_name>` instead.
 
 ## [Chapter 7. Objects and Operator-Pending Mode](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-7/#_objects_and_operator_pending_mode)
+
+`(`, `{` move the cursor to the start of a sentence and paragraph, while `)`, `}` to the end.
 
