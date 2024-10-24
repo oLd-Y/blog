@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-24T14:17:04+08:00
+lastmod: 2024-10-24T14:23:30+08:00
 ---
 Tutorial link: [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
 
@@ -166,5 +166,5 @@ return {
 
 ## [Chapter 7. Objects and Operator-Pending Mode](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-7/#_objects_and_operator_pending_mode)
 
-`(`, `{` move the cursor to the start of a sentence and paragraph, while `)`, `}` to the end.
+`(`, `{` move the cursor to the beginning of a sentence and paragraph, while `)`, `}` to the end.
 
