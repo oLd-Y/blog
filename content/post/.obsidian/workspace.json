@@ -35,7 +35,8 @@
               "title": "index.zh-cn"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -345,12 +346,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "545974fb00eed00f",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 22
+        "currentTab": 23
       }
     ],
     "direction": "horizontal",
@@ -372,10 +383,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "064b9f61bb6110ce",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "《红楼梦》 读书笔记/index.zh-cn.md",
     "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
+    "《红楼梦》 读书笔记/index.zh-cn.md",
     "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
     "《刀锋》读后感/index.zh-cn.md",
     "LazyVim for Ambitious Developers 阅读笔记/Untitled.md",
