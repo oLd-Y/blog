@@ -359,9 +359,19 @@
               "icon": "lucide-file",
               "title": "Plugin no longer active"
             }
+          },
+          {
+            "id": "4e3839f8c2aecadb",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 23
+        "currentTab": 24
       }
     ],
     "direction": "horizontal",
@@ -383,7 +393,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "4e3839f8c2aecadb",
   "lastOpenFiles": [
     "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
     "《红楼梦》 读书笔记/index.zh-cn.md",
