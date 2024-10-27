@@ -41,12 +41,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. 无重复字符的最长子串/index.zh-cn.md",
+                "file": "1. 两数之和/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "index.zh-cn"
+            }
+          },
+          {
+            "id": "4cc2510e043e058b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows 自动推送 git 脚本.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Windows 自动推送 git 脚本"
             }
           }
         ],
@@ -81,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "红楼梦",
+                "query": "两数之",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -380,12 +394,32 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "d6c8ffb2f9835bd6",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "3e8ad08b947d612c",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 26
       }
     ],
     "direction": "horizontal",
@@ -409,6 +443,13 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "炸酱面/index.zh-cn.md",
+    "1. 两数之和/index.zh-cn.md",
+    "1. 两数之和/1730021120-TTHQ.md",
+    "Windows 自动推送 git 脚本.md",
+    "1. 两数之和/index.zh-cn.md~",
+    "3. 无重复字符的最长子串/index.zh-cn.md",
+    "1. 两数之和/4913",
     "《红楼梦》 读书笔记/index.zh-cn.md",
     "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
     "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
@@ -421,7 +462,6 @@
     "断更通知/index.zh-cn.md",
     "_templates/templater/recipe.md",
     "Untitled.md",
-    "3. 无重复字符的最长子串/index.zh-cn.md",
     "Obsidian 插件记录/index.zh-cn.md",
     "useful prompt/index.en.md",
     "_daily/2024-10-19_Saturday.md",
@@ -433,18 +473,12 @@
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "上汤娃娃菜/index.zh-cn.md",
     "把子肉",
-    "口蘑汤/index.zh-cn.md",
     "三鲜菌菇汤",
-    "鱼香肉丝/index.zh-cn.md",
-    "炒面/index.zh-cn.md",
-    "腐竹烧肉/index.zh-cn.md",
     "炒面",
     "自媒体工作流程（自用）",
     "234. 回文链表",
     "206. 反转链表",
     "160. 相交链表",
-    "口蘑汤",
-    "240. 搜索二维矩阵 II",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",

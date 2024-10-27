@@ -1,15 +1,15 @@
 ---
-title: 1. 两数之和
-categories: 计算机
+id: index.zh-cn
+aliases: []
 tags:
   - 数据结构与算法
   - 哈希表
-date: 2024-08-31
-description: 
-image: 
-weight: 1
+categories: 计算机
+date: "2024-08-31"
 draft: false
-lastmod: 2024-08-31T16:30:19+08:00
+lastmod: 2024-10-27T17:25:26+08:00
+title: 1. 两数之和
+weight: 1
 ---
 [题目链接](https://leetcode.cn/problems/two-sum/description/?envType=study-plan-v2&envId=top-100-liked)
 
@@ -20,7 +20,7 @@ lastmod: 2024-08-31T16:30:19+08:00
 1. 遍历数组，访问某个元素时，查看其后是否存在某个元素与其组成 target。
 
 ### 代码
-
+[[../炸酱面/index.zh-cn.md]]
 ```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
