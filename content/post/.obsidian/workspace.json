@@ -423,12 +423,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "28752349aac53b79",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 27
+        "currentTab": 28
       }
     ],
     "direction": "horizontal",
@@ -450,7 +460,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "28752349aac53b79",
   "lastOpenFiles": [
     "《红楼梦》 读书笔记/index.zh-cn.md",
     "1. 两数之和/index.zh-cn.md",
