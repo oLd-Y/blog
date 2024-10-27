@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-24T14:23:30+08:00
+lastmod: 2024-10-27T21:18:45+08:00
 ---
 Tutorial link: [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
 
@@ -167,4 +167,22 @@ return {
 ## [Chapter 7. Objects and Operator-Pending Mode](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-7/#_objects_and_operator_pending_mode)
 
 `(`, `{` move the cursor to the beginning of a sentence and paragraph, while `)`, `}` to the end.
+
+
+debugger, python, time out error: 
+
+possible solutions:
+1. venv-selector nvim plugin should be installed.
+2. enable a venv for a project before starting debugging for python. 
+3. make sure your python3.exe could be properly recognized. user/global.
+4. `:DapShowLog`
+5. related plugin: nvim-dap
+6. related keywords: nvim-dap-python
+
+possible references:
+[Debugpy - Windows · Issue #118 · mfussenegger/nvim-dap-python · GitHub](https://github.com/mfussenegger/nvim-dap-python/issues/118)
+
+[Attach to debugpy · mfussenegger/nvim-dap · Discussion #846 · GitHub](https://github.com/mfussenegger/nvim-dap/discussions/846)
+
+[reddit.com/r/neovim/comments/199jt2c/nvimdap\_debugpy\_cant\_work\_in\_windows/](https://www.reddit.com/r/neovim/comments/199jt2c/nvimdap_debugpy_cant_work_in_windows/)
 

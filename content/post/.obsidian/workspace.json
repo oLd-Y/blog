@@ -63,8 +63,7 @@
               "title": "Windows 自动推送 git 脚本"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -414,12 +413,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "b2b1ab523ef34b03",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 26
+        "currentTab": 27
       }
     ],
     "direction": "horizontal",
@@ -441,16 +450,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c37a85fa5ea70f6e",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "《红楼梦》 读书笔记/index.zh-cn.md",
+    "1. 两数之和/index.zh-cn.md",
     "1. 两数之和/index.zh-cn.md~",
     "1. 两数之和/4913",
     "炸酱面/index.zh-cn.md",
-    "1. 两数之和/index.zh-cn.md",
     "1. 两数之和/1730021120-TTHQ.md",
     "Windows 自动推送 git 脚本.md",
     "3. 无重复字符的最长子串/index.zh-cn.md",
-    "《红楼梦》 读书笔记/index.zh-cn.md",
     "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
     "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
     "《刀锋》读后感/index.zh-cn.md",
