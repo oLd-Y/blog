@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-28T17:34:17+08:00
+lastmod: 2024-10-28T17:59:35+08:00
 ---
 ## 第 1 章 基础知识
 
@@ -220,5 +220,15 @@ cmp 只做减法，仅影响标志位，不保存结果。
 
 ![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241028173246.png)
 
+
+`movsb` 等价于将 ds:si 地址上的值赋给 es:di 地址。
+
+`cld` 将 df 置 0，std 将 df 置 1 。
+
+pushf 将 flag 的值压栈，popf 则出栈到 flag 中。
+
+debug 中的 标志位表示：
+
+![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241028175919.png)
 
 由于时间不太够用且继续深挖对当前帮助不大，此笔记太监。

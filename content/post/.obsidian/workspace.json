@@ -434,12 +434,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "690b9b19f7ac0b75",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 28
+        "currentTab": 29
       }
     ],
     "direction": "horizontal",
@@ -461,7 +471,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "064b9f61bb6110ce",
+  "active": "690b9b19f7ac0b75",
   "lastOpenFiles": [
     "lazyvim 配置记录/index.zh-cn.md",
     "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
