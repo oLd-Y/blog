@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
+                "file": "lazyvim 配置记录/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index.en"
+              "title": "index.zh-cn"
             }
           },
           {
@@ -94,7 +94,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "两数之",
+                "query": "java",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,7 +115,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -460,8 +461,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "28752349aac53b79",
+  "active": "064b9f61bb6110ce",
   "lastOpenFiles": [
+    "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
     "《红楼梦》 读书笔记/index.zh-cn.md",
     "1. 两数之和/index.zh-cn.md",
     "1. 两数之和/index.zh-cn.md~",
@@ -470,7 +472,6 @@
     "1. 两数之和/1730021120-TTHQ.md",
     "Windows 自动推送 git 脚本.md",
     "3. 无重复字符的最长子串/index.zh-cn.md",
-    "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
     "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
     "《刀锋》读后感/index.zh-cn.md",
     "LazyVim for Ambitious Developers 阅读笔记/Untitled.md",
