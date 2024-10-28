@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lazyvim 配置记录/index.zh-cn.md",
+                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "java",
+                "query": "汇编",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -463,6 +463,7 @@
   },
   "active": "064b9f61bb6110ce",
   "lastOpenFiles": [
+    "lazyvim 配置记录/index.zh-cn.md",
     "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
     "《红楼梦》 读书笔记/index.zh-cn.md",
     "1. 两数之和/index.zh-cn.md",
