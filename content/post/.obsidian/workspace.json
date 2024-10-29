@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -483,10 +483,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e2cfdf79ad16dbff",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "红楼梦第一回/index.zh-cn.md",
     "红楼梦第一回/Drawing 2024-10-29 14.07.32.excalidraw.md",
+    "红楼梦第一回/index.zh-cn.md",
     "Windows 自动推送 git 脚本.md",
     "红楼梦第一回",
     "《汇编语言》 读书笔记/index.zh-cn.md",
