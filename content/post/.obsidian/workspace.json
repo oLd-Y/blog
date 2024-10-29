@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 两数之和/index.zh-cn.md",
+                "file": "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index.zh-cn"
+              "title": "index.en"
             }
           },
           {
@@ -63,7 +63,8 @@
               "title": "Windows 自动推送 git 脚本"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "汇编",
+                "query": "lazyvim",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -471,12 +472,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "690b9b19f7ac0b75",
+  "active": "c37a85fa5ea70f6e",
   "lastOpenFiles": [
+    "1. 两数之和/index.zh-cn.md",
+    "《红楼梦》 读书笔记/index.zh-cn.md",
+    "《汇编语言》 读书笔记/index.zh-cn.md",
     "lazyvim 配置记录/index.zh-cn.md",
     "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
-    "《红楼梦》 读书笔记/index.zh-cn.md",
-    "1. 两数之和/index.zh-cn.md",
     "1. 两数之和/index.zh-cn.md~",
     "1. 两数之和/4913",
     "炸酱面/index.zh-cn.md",
@@ -501,7 +503,6 @@
     "肉末蒸蛋/index.zh-cn.md",
     "把子肉/index.zh-cn.md",
     "自媒体工作流程（自用）/index.zh-cn.md",
-    "《汇编语言》 读书笔记/index.zh-cn.md",
     "把子肉",
     "三鲜菌菇汤",
     "炒面",

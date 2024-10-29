@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-27T21:18:45+08:00
+lastmod: 2024-10-29T08:16:07+08:00
 ---
 Tutorial link: [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
 
@@ -20,6 +20,11 @@ Tutorial link: [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs
 Use a GPU-accelerated terminal for installing LazyVim, such as: [Kitty Terminal](https://sw.kovidgoyal.net/kitty/), [Alacritty](https://alacritty.org/), [Windows Terminal](https://github.com/microsoft/terminal?tab=readme-ov-file), etc.
 
 For installation instructions, please refer to the [official website](https://www.lazyvim.org/installation)
+
+keys:
+1. `<Space>l`, open the lazy.nvim plugin manager. Press `S` to sync the update.
+2. 
+
 
 ## [Chapter 2. What is Modal Editing, Anyway?](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-2/#_what_is_modal_editing_anyway)
 
