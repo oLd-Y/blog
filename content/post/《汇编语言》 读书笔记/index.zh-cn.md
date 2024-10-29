@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-29T10:35:40+08:00
+lastmod: 2024-10-29T11:40:23+08:00
 ---
 ## 第 1 章 基础知识
 
@@ -143,7 +143,7 @@ si，di 为功能和 bx 相近的寄存器。
 常用寻址方式小结：
 ![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240925115228.png)
 如何确定当前 CPU 要操作的是字型数据还是字节型数据？有如下 3 种方式：
-- 通过寄存品名指明，例如 ax 是字的，al 是字节的。
+- 通过寄存器名指明，例如 ax 是字的，al 是字节的。
 - 通过关键字指明，例如 `mov word ptr [bx]` 指明是字型数据，`mov byte ptr [bx]` 则指明是字节型数据。
 
 设被除数为 x，除数为 y，则要表达 x / y，其汇编指令为 `div y`，除数存储在内存单元或者一个寄存器中，而被除数则存储在 `ax` 或者 `ax` 和 `dx` 中。
@@ -228,10 +228,15 @@ cmp 只做减法，仅影响标志位，不保存结果。
 
 pushf 将 flag 的值压栈，popf 则出栈到 flag 中。
 
-debug 中的 标志位表示：
+debug 中的标志位表示（标志 - 值为 1 时- 值为 0 时）：
+1. of-OV-NV
+2. sf-NG-PL
+3. zf-ZR-NZ
+4. pf-PE-PO
+5. cf-CY-NC
+6. df-DN-UP
 
-![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241028175919.png)
-
+## 第 12 章 内中断的产生
 
 ## 第 13 章 int 指令
 
@@ -242,4 +247,9 @@ debug 中的 标志位表示：
 2. 外部、内部中断;
 3. 对硬件进行 I/O;
 4. 其它与硬件相关的。
+
+B8000H ~ BFFFFH 共 32 kb 的空间为显示缓冲区。一屏的内容占用 4000 个字节。
+
+
+要在显示器上显示字符，其实就是把屏幕显示相关的寄存器设置好，然后调用屏幕显示相关的中断让操作系统将其显示在屏幕上。
 
