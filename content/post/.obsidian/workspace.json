@@ -55,15 +55,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows 自动推送 git 脚本.md",
+                "file": "红楼梦第一回/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Windows 自动推送 git 脚本"
+              "title": "index.zh-cn"
+            }
+          },
+          {
+            "id": "e2cfdf79ad16dbff",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "红楼梦第一回/Drawing 2024-10-29 14.07.32.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-10-29 14.07.32.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -115,8 +128,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -471,18 +483,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "064b9f61bb6110ce",
+  "active": "e2cfdf79ad16dbff",
   "lastOpenFiles": [
+    "红楼梦第一回/index.zh-cn.md",
+    "红楼梦第一回/Drawing 2024-10-29 14.07.32.excalidraw.md",
+    "Windows 自动推送 git 脚本.md",
+    "红楼梦第一回",
+    "《汇编语言》 读书笔记/index.zh-cn.md",
     "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
     "1. 两数之和/index.zh-cn.md",
     "《红楼梦》 读书笔记/index.zh-cn.md",
-    "《汇编语言》 读书笔记/index.zh-cn.md",
     "lazyvim 配置记录/index.zh-cn.md",
     "1. 两数之和/index.zh-cn.md~",
     "1. 两数之和/4913",
     "炸酱面/index.zh-cn.md",
     "1. 两数之和/1730021120-TTHQ.md",
-    "Windows 自动推送 git 脚本.md",
     "3. 无重复字符的最长子串/index.zh-cn.md",
     "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
     "《刀锋》读后感/index.zh-cn.md",
@@ -500,15 +515,12 @@
     "辣椒炒肉/index.zh-cn.md",
     "三鲜菌菇汤/index.zh-cn.md",
     "肉末蒸蛋/index.zh-cn.md",
-    "把子肉/index.zh-cn.md",
-    "自媒体工作流程（自用）/index.zh-cn.md",
     "把子肉",
     "三鲜菌菇汤",
     "炒面",
     "自媒体工作流程（自用）",
     "234. 回文链表",
     "206. 反转链表",
-    "160. 相交链表",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
