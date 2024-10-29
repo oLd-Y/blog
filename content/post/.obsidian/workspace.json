@@ -63,8 +63,7 @@
               "title": "Windows 自动推送 git 脚本"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -472,13 +471,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c37a85fa5ea70f6e",
+  "active": "064b9f61bb6110ce",
   "lastOpenFiles": [
+    "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
     "1. 两数之和/index.zh-cn.md",
     "《红楼梦》 读书笔记/index.zh-cn.md",
     "《汇编语言》 读书笔记/index.zh-cn.md",
     "lazyvim 配置记录/index.zh-cn.md",
-    "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
     "1. 两数之和/index.zh-cn.md~",
     "1. 两数之和/4913",
     "炸酱面/index.zh-cn.md",

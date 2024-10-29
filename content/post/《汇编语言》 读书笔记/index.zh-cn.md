@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-28T17:59:35+08:00
+lastmod: 2024-10-29T09:51:04+08:00
 ---
 ## 第 1 章 基础知识
 
@@ -231,4 +231,4 @@ debug 中的 标志位表示：
 
 ![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241028175919.png)
 
-由于时间不太够用且继续深挖对当前帮助不大，此笔记太监。
+`int` 和 `iret` 是中断中的 `call` 和 `ret`。
