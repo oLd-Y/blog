@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-29T09:51:04+08:00
+lastmod: 2024-10-29T10:35:40+08:00
 ---
 ## 第 1 章 基础知识
 
@@ -216,10 +216,11 @@ adc 比 add 多加了一个 cf，sbb 比 sub 多减了一个 cf。
 
 cmp 只做减法，仅影响标志位，不保存结果。
 
-常用条件转移：
-
-![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241028173246.png)
-
+常用条件转移及相关标志位：
+- je/jne, zf = 1 / zf = 0。
+- jb/jnb, cf = 1 / cf = 0。
+- ja/jna, (cf = 0 && zf = 0) / (cf = 1 || zf = 1)。
+（equal, below, above)
 
 `movsb` 等价于将 ds:si 地址上的值赋给 es:di 地址。
 
@@ -231,4 +232,14 @@ debug 中的 标志位表示：
 
 ![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241028175919.png)
 
+
+## 第 13 章 int 指令
+
 `int` 和 `iret` 是中断中的 `call` 和 `ret`。
+
+系统板 ROM 中存放了一些程序，叫 BIOS，其存放了这些程序（中断例程）：
+1. 检测硬件、初始化程序;
+2. 外部、内部中断;
+3. 对硬件进行 I/O;
+4. 其它与硬件相关的。
+
