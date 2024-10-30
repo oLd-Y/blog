@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-30T08:33:18+08:00
+lastmod: 2024-10-30T09:24:11+08:00
 ---
 Tutorial link: [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
 
@@ -37,7 +37,9 @@ keys:
 1. `C-R`, i, pop up the register menu.
 2. `"`, n, pop up the register menu.
 3. `C-c`, can also exit the insert mode and enter the normal mode.
-4. 
+4. `:q!`, force to quit neovim without saving.
+5. `:x` nearly equals to `:wq`, except that `:x` won't execute the "save" operation if there is no modifications.
+6. `:e <path>` to edit a new file, `<Tab>` to cicyle through the available directories, `C-y` to accept the current directory, `<Down>` to enter the selected directory.
 
 ## [Chapter 3. Getting Around](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-3/#_getting_around)
 
