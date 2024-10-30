@@ -11,9 +11,11 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-29T08:16:07+08:00
+lastmod: 2024-10-30T08:33:18+08:00
 ---
 Tutorial link: [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
+
+In keybindings, `C` means `Ctrl`.
 
 ## [Chapter 1. Introduction and Installation](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-1/#_introduction_and_installation)
 
@@ -22,8 +24,7 @@ Use a GPU-accelerated terminal for installing LazyVim, such as: [Kitty Terminal]
 For installation instructions, please refer to the [official website](https://www.lazyvim.org/installation)
 
 keys:
-1. `<Space>l`, open the lazy.nvim plugin manager. Press `S` to sync the update.
-2. 
+1. `<Space>l`, n, open the lazy.nvim plugin manager. Press `S` to sync the update.
 
 
 ## [Chapter 2. What is Modal Editing, Anyway?](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-2/#_what_is_modal_editing_anyway)
@@ -31,6 +32,12 @@ keys:
 In normal mode, `"` can open available registers.
 
 `:x` is almost equivalent to `:wq`, but `:x` does not perform save operations when the file has not been modified.
+
+keys:
+1. `C-R`, i, pop up the register menu.
+2. `"`, n, pop up the register menu.
+3. `C-c`, can also exit the insert mode and enter the normal mode.
+4. 
 
 ## [Chapter 3. Getting Around](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-3/#_getting_around)
 
