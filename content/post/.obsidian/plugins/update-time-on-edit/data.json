@@ -17,7 +17,7 @@
     "ox-hugo 结合 org-download 粘贴图片.md": "5f899188b26ff6190466b431d66309c0a2bc919a332ae70a804c7745570fd288",
     "ox-hugo 自动生成模板代码解析.md": "29fd9c7720f91b067c4e7d209dca68011c39e971c377d80d1ae0bb6cc263fafa",
     "ox-hugo org-template 理解.md": "27711063fa7798fcdf88a553936b7158dfb55cb097570fae81d0484149ecaf3a",
-    "Ubuntu 默认终端设置.md": "14b213d5be173f70634f895e12b1a0171460f7ecd54cfc16824d1b7ea70b0f1e",
+    "Ubuntu 默认终端设置.md": "68a05ebb7edd9beefd2623ed505551a47523410a735bb4ebcee14c70a9f45a2f",
     "SD 关键词记录.md": "9765ada31604ce6c569be26d0698d49fcc900d4b8ca9bdc9cf8d60860efd271b",
     "Windows 自动推送 git 脚本.md": "b66394c869ad7de47fa80f3641ba0c0bf7fda3162a58954030b5f3d353546e91",
     "vscode vim 快捷键.md": "769b669fda162693572e6ab2c77af776b1d167cc91d9bc2209d41e6e2f44edf7",
@@ -190,7 +190,7 @@
     "身后有馀忘缩手，眼前无路想回头/index.zh-cn.md": "7a5b313d0744fb20f206b63eda693525ee9d734b0e98af3d86552980408debf9",
     "《红楼梦》 读书笔记/index.zh-cn.md": "87aad0c9bc7d295b2d14e86e933bd6d51c79a2be0f759e17aac17352c1f3a008",
     "11. 盛最多水的容器/index.zh-cn.md": "b107dc2fe7d87f0db04dea9cc154fa0671467b0344acca8dff7bb5ea3c5d61ae",
-    "《汇编语言》 读书笔记/index.zh-cn.md": "57d5d828162bca68e9a2e3e725783aeccb3d9cd169e856efdd7110e598ae07a4",
+    "《汇编语言》 读书笔记/index.zh-cn.md": "2c3aacd75fc3cc51e149c10364eca2822936f5b8f8f9fdecd6e08dea2290b3a1",
     "先敬罗衣后敬人/index.zh-cn.md": "29e8a5fc55b6e2c72e7f4f23ffef6d7f77e6d03c891e2b7d09dea5cbb443bdf0",
     "白菜烧豆腐/index.zh-cn.md": "3cd49fe65bad75dac07790db8aeca5bb4f4ee5bf08577ddcce78eef28c3b669d",
     "人容易高估自己的精力/index.zh-cn.md": "9e8226780f32c99ab928b31faee090dbb6204a9ee4bd09de6d1114deb172458d",
@@ -249,6 +249,7 @@
     "_daily/2024-10-19_Saturday.md": "cf7a89bd943f232dc1860ee4fc4bd855ee2214ddcd99ae92e3dabdb9b5e90079",
     "《刀锋》读后感/index.zh-cn.md": "40f6425a4329a4698830875e428b88949fd5d9989b6f4bae5708d6e768e40e95",
     "LazyVim for Ambitious Developers 阅读笔记/index.en.md": "5cc357135b1c43e397654ae4778cdc973f131daf48791a4f61518c6888521c4f",
-    "红楼梦第一回/index.zh-cn.md": "5e0906a1b89305abb0e0028fd3956e4f5eb55a73ec20ca9ed121a96d1daa0a4b"
+    "红楼梦第一回/index.zh-cn.md": "5e0906a1b89305abb0e0028fd3956e4f5eb55a73ec20ca9ed121a96d1daa0a4b",
+    "index.zh-cn 1.md": "c763cfe259622137ffcab502d95914c1dd483c2d01e6d05fd5c43f2a7d40b3fb"
   }
 }
