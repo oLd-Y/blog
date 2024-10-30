@@ -1,0 +1,16 @@
+{
+  "blue-topaz-theme@@background-settings-workplace-background-image": false,
+  "blue-topaz-theme@@background-image-settings-switch": true,
+  "blue-topaz-theme@@toggle-nonoverlapping-bg": true,
+  "blue-topaz-theme@@background-image-settings-markdown-page-options": "background-image-settings-markdown-page-custom",
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-topaz-nord",
+  "blue-topaz-theme@@background-image-settings-command-palette-switch": false,
+  "blue-topaz-theme@@bg-markdown-page-opacity-cp": 0.15,
+  "blue-topaz-theme@@disable-auto-hide-header": false,
+  "blue-topaz-theme@@bt-background-split-container@@light": "#44C2A2",
+  "blue-topaz-theme@@background-settings-workplace-theme-light": "background-settings-workplace-theme-light-in-the-note",
+  "blue-topaz-theme@@blur-depth": 14,
+  "blue-topaz-theme@@all-dark-pdf": false,
+  "blue-topaz-theme@@interactive-accent@@light": "#84BE9A",
+  "blue-topaz-theme@@highlight-style": "all-rounded-corners-highlight"
+}

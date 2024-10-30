@@ -1,0 +1,66 @@
+{
+  "items": [
+    {
+      "name": "Markdown"
+    },
+    {
+      "name": "Markdown (Hugo)"
+    },
+    {
+      "name": "Html"
+    },
+    {
+      "name": "TextBundle"
+    },
+    {
+      "name": "Typst"
+    },
+    {
+      "name": "PDF"
+    },
+    {
+      "name": "Word (.docx)"
+    },
+    {
+      "name": "OpenOffice"
+    },
+    {
+      "name": "RTF"
+    },
+    {
+      "name": "Epub"
+    },
+    {
+      "name": "Latex"
+    },
+    {
+      "name": "Media Wiki"
+    },
+    {
+      "name": "reStructuredText"
+    },
+    {
+      "name": "Textile"
+    },
+    {
+      "name": "OPML"
+    },
+    {
+      "name": "Bibliography"
+    }
+  ],
+  "pandocPath": {
+    "win32": "D:\\home\\lyao\\pandoc-3.4\\pandoc.exe"
+  },
+  "defaultExportDirectoryMode": "Same",
+  "openExportedFile": false,
+  "env": {},
+  "showExportProgressBar": true,
+  "lastEditName": "Markdown",
+  "showOverwriteConfirmation": true,
+  "lastExportDirectory": {
+    "win32": "D:\\home\\lyao\\blog\\content\\post/花生酱拌面"
+  },
+  "lastExportType": "Html",
+  "openExportedFileLocation": false
+}

@@ -1,0 +1,86 @@
+{
+  "emacs-text-editor:backward-kill-word": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Backspace"
+    }
+  ],
+  "emacs-text-editor:backward-char": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "B"
+    }
+  ],
+  "emacs-text-editor:forward-char": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
+  "emacs-text-editor:backward-word": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "B"
+    }
+  ],
+  "emacs-text-editor:forward-word": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ],
+  "emacs-text-editor:next-line": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "emacs-text-editor:previous-line": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "P"
+    }
+  ],
+  "obsidian-pangu:pangu-format": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ],
+  "deepl:deepl-translate-selection": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
+    }
+  ],
+  "deepl:deepl-translate-selection-to": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "O"
+    }
+  ],
+  "file-explorer:new-file-in-new-pane": [],
+  "obsidian-auto-link-title:enhance-url-with-title": [],
+  "obsidian-excalidraw-plugin:insert-link-to-element": []
+}

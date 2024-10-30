@@ -62,45 +62,9 @@
               "icon": "lucide-file",
               "title": "index.en"
             }
-          },
-          {
-            "id": "4cc2510e043e058b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "红楼梦第一回/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index.zh-cn"
-            }
-          },
-          {
-            "id": "e2cfdf79ad16dbff",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "红楼梦第一回/Drawing 2024-10-29 14.07.32.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-10-29 14.07.32.excalidraw"
-            }
-          },
-          {
-            "id": "84f789f116861bca",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -131,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "美食",
+                "query": "tag:#蒸菜",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -152,8 +116,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -501,12 +464,32 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "1f9e1ad1d4ab6825",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "ab4b4d3f4fc4ce3d",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 31
+        "currentTab": 33
       }
     ],
     "direction": "horizontal",
@@ -528,44 +511,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "75ab60c5b57d6774",
+  "active": "ab4b4d3f4fc4ce3d",
   "lastOpenFiles": [
+    "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
+    "《汇编语言》 读书笔记/index.zh-cn.md",
+    "reading notes -《Atomatic Habits》.md",
+    "《红楼梦》 读书笔记/index.zh-cn.md",
+    "美食",
+    "菜谱",
+    "新建文件夹",
+    "疙瘩汤/index.zh-cn.md",
+    "糖醋排骨/index.zh-cn.md",
+    "白萝卜虾米汤/index.zh-cn.md",
+    "玉米排骨汤/index.zh-cn.md",
+    "我家有两条狗/index.zh-cn.md",
+    "紫菜蛋花汤/index.zh-cn.md",
+    "红楼梦第一回/index.zh-cn.md",
     "红楼梦第一回/Drawing 2024-10-29 14.07.32.excalidraw.md",
+    "挂糊/index.zh-cn.md",
+    "蚝油生菜/index.zh-cn.md",
     "花生酱拌面/index.zh-cn.md",
     "凉拌秋葵/index.zh-cn.md",
     "蒜香鸡翅/index.zh-cn.md",
     "鲫鱼豆腐汤/index.zh-cn.md",
-    "紫菜蛋花汤/index.zh-cn.md",
     "香菇肉片汤/index.zh-cn.md",
     "馒头/index.zh-cn.md",
-    "红楼梦第一回/index.zh-cn.md",
-    "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
-    "《红楼梦》 读书笔记/index.zh-cn.md",
-    "reading notes -《Atomatic Habits》.md",
-    "《汇编语言》 读书笔记/index.zh-cn.md",
     "Ubuntu 默认终端设置.md",
     "index.zh-cn 1.md",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/index.zh-cn.md",
     "Obsidian 插件记录/index.zh-cn.md",
     "1. 两数之和/1730021120-TTHQ.md",
-    "Windows 自动推送 git 脚本.md",
     "红楼梦第一回",
-    "1. 两数之和/index.zh-cn.md",
-    "lazyvim 配置记录/index.zh-cn.md",
     "1. 两数之和/index.zh-cn.md~",
     "1. 两数之和/4913",
-    "炸酱面/index.zh-cn.md",
-    "3. 无重复字符的最长子串/index.zh-cn.md",
-    "LazyVim for Ambitious Developers 阅读笔记/index.zh-cn.md",
-    "《刀锋》读后感/index.zh-cn.md",
-    "LazyVim for Ambitious Developers 阅读笔记/Untitled.md",
     "《刀锋》读后感",
     "把子肉",
     "三鲜菌菇汤",
     "炒面",
-    "自媒体工作流程（自用）",
-    "234. 回文链表",
-    "206. 反转链表",
     "Pasted Image 20240913125132_196.png",
     "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
