@@ -10,7 +10,7 @@
 <meta property='og:description' content="Rewrite Text I will give you text content which is wrapped by 3 double quotes, you need to rewrite it and output a better version of my text. Fix grammar errors if it exists. Keep the meaning the same and make it more native if possible. Make sure the re-written content&rsquo;s number of characters is the same as the original text&rsquo;s number of characters. Do not alter the original structure and formatting outlined in any way.">
 <meta property='og:url' content='http://localhost:1313/blog/en/p/useful-prompt/'>
 <meta property='og:site_name' content='lyao&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='prompt' /><meta property='article:published_time' content='2024-08-01T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-10-04T08:39:51&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='prompt' /><meta property='article:published_time' content='2024-08-01T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-10-07T09:31:52&#43;08:00'/>
 <meta name="twitter:title" content="useful prompt">
 <meta name="twitter:description" content="Rewrite Text I will give you text content which is wrapped by 3 double quotes, you need to rewrite it and output a better version of my text. Fix grammar errors if it exists. Keep the meaning the same and make it more native if possible. Make sure the re-written content&rsquo;s number of characters is the same as the original text&rsquo;s number of characters. Do not alter the original structure and formatting outlined in any way.">
     <link rel="shortcut icon" href="/blog/favicon.ico" />
@@ -221,7 +221,6 @@
     <li><a href="#rewrite-text">Rewrite Text</a>
       <ol>
         <li><a href="#fiction-chapter-summarizer">Fiction Chapter Summarizer</a></li>
-        <li><a href="#other">other</a></li>
       </ol>
     </li>
   </ol>
@@ -335,12 +334,11 @@
 <p>&quot;&quot;&quot;</p>
 <h3 id="fiction-chapter-summarizer">Fiction Chapter Summarizer
 </h3><p>BOOKNAME: The Razor&rsquo;s Edge
-CHAPTER: 5
-SECTION: (ii)</p>
-<p>You are a story summurisor, I&rsquo;m now reading the book <code>BOOKNAME</code> and am up to chapter <code>CHAPTER</code>，section <code>SECTION</code>, please summarize the content of the section.</p>
-<p>There are several things you should do:</p>
+PART: 6</p>
+<p>You are a story summurisor, I&rsquo;m now reading the book <code>BOOKNAME</code> and am up to part <code>PART</code> and a certain  chapter.</p>
+<p>In order to ensure the accuracy of the content, I will provide you with text of the current chapter where I&rsquo;m reading at, and there are several things you need to do:</p>
 <ol>
-<li>List all the characters that mentioned in the text, and if their <strong>relationship to others</strong>, <strong>age</strong> or <strong>identity</strong> is presented or can be inferred in the current section; don&rsquo;t have to list if it&rsquo;s not mentioned, list them as well。 for example:</li>
+<li>List all the characters that mentioned in the text, and if their <strong>relationship to others</strong>, <strong>age</strong> or <strong>identity</strong> is presented or can be inferred in the current chapter, list them as well(don&rsquo;t list if can&rsquo;t or not mentioned). Here is an example:</li>
 </ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -354,8 +352,9 @@ SECTION: (ii)</p>
 </span></span><span class="line"><span class="cl">- Jenison - Steve&#39;s father, editor of Linney Publishing.
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>Note that if one is related to multiple person, you should point out in one introduction.
-2. List all the main events in the format of <code>character + event + time (if exist) + place (if exist)</code> and by the order when it appeared in the text, for example:</p>
+</div><ol start="2">
+<li>List all the main events in the format of <code>character + event + time (if exist) + place (if exist)</code> and by the order when it appeared in the text, for example:</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -366,11 +365,19 @@ SECTION: (ii)</p>
 </span></span><span class="line"><span class="cl">- Isbel went looking for her son right after he disappeared.
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>In order to ensure the accuracy of the content, I will provide you with text of the current chapter where I&rsquo;m reading at, note please summarize <strong>each</strong> key event without omission or repetition. The content of current chapter is as follows:
+</div><ol start="3">
+<li>Summarize this chapter with a paragraph within <strong>3 to 4</strong> sentences. But remember that this is a 2nd-stage task and you should execute it only after I said &ldquo;continue&rdquo;.</li>
+</ol>
+<p>Note:</p>
+<ol>
+<li>In task 1, if one is related to multiple person, you should point out in one introduction.</li>
+<li>In task 2, summarize <strong>each</strong> key event without omission or repetition.</li>
+<li>Task 1 and 2 should be placed in the same reply, and task 3 another.</li>
+<li>After this request, I will directly paste my text which need to be summarized without writing such a prompt again. You may assume that it is the same part as last.</li>
+</ol>
+<p>The content of current chapter is as follows:
 &quot;&quot;&quot;</p>
 <p>&quot;&quot;&quot;</p>
-<h3 id="other">other
-</h3><p>summarize this chapter within 5 to 6 sentences.</p>
 
 </section>
 
@@ -406,7 +413,7 @@ SECTION: (ii)</p>
 
 
         <span>
-            Last updated on Oct 04, 2024 08:39 CST
+            Last updated on Oct 07, 2024 09:31 CST
         </span>
     </section></footer>
 
@@ -441,6 +448,54 @@ SECTION: (ii)</p>
     
 
     
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/blog/en/post---test/useful-prompt/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">useful prompt</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/en/post---test/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">LazyVim for Ambitious Developers reading notes</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/en/p/lazyvim-for-ambitious-developers-reading-notes/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">LazyVim for Ambitious Developers reading notes</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
 
      
     

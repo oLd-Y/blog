@@ -4,137 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "477a950c4669d1d5",
+        "id": "50e1cb039875ad37",
         "type": "tabs",
         "children": [
           {
-            "id": "064b9f61bb6110ce",
+            "id": "d61fb237b0df0c52",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "《汇编语言》 读书笔记/index.zh-cn.md",
+                "file": "hugo page bundle 问题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index.zh-cn"
+              "title": "hugo page bundle 问题"
             }
           },
           {
-            "id": "f8434946c19eeedc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "reading notes -《Atomatic Habits》.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "reading notes -《Atomatic Habits》"
-            }
-          },
-          {
-            "id": "26597285c081c48d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "《红楼梦》 读书笔记/index.zh-cn.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index.zh-cn"
-            }
-          },
-          {
-            "id": "c37a85fa5ea70f6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index.en"
-            }
-          },
-          {
-            "id": "29cab2ab3a206a8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "go installation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "go installation"
-            }
-          },
-          {
-            "id": "75f16bf637ec9feb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cargo installation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cargo installation"
-            }
-          },
-          {
-            "id": "a4ed9d9fa6f553cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_templates/templater/create page bundle - en.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "create page bundle - en"
-            }
-          },
-          {
-            "id": "1d130e6f3a643438",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_templates/templater/new dairy template.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "new dairy template"
-            }
-          },
-          {
-            "id": "e646b037059eb9dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "test"
-            }
-          },
-          {
-            "id": "c010fdb76ab4ca32",
+            "id": "d95414d74550c6d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -148,21 +36,21 @@
             }
           },
           {
-            "id": "d331d23c35893e40",
+            "id": "5c8d290f76f9b900",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_templates/templater/frontmatters.md",
+                "file": "303. 区域和检索 - 数组不可变/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "frontmatters"
+              "title": "index"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -193,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "new",
+                "query": "s ^TbbNunHf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -327,44 +215,44 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "_templates/templater/new index template.md",
-    "test.md",
-    "_templates/templater/frontmatters.md",
     "_templates/templater/new note.md",
-    "_templates/templater/new dairy template.md",
-    "_templates/templater/recipe.md",
-    "_templates/templater/create page bundle - en.md",
-    "index.en.md",
+    "hugo page bundle 问题.md",
+    "303. 区域和检索 - 数组不可变/index.md",
+    "_excalidraw/Drawing 2024-10-31 13.10.39.excalidraw.md",
+    "_excalidraw/303. 区域和检索 - 数组不可变.excalidraw.md",
+    "_excalidraw",
+    "303. 区域和检索 - 数组不可变/303. 区域和检索 - 数组不可变.excalidraw.md",
+    "《汇编语言》 读书笔记/《汇编语言》 读书笔记.excalidraw.md",
+    "vim command mode.md",
+    "_week/2024-W30.md",
+    "vim.md",
+    "弃用 emacs 转用 neovim 的原因.md",
+    "Pasted Image 20240909104807_474.png",
+    "Pasted Image 20240913125132_196.png",
     "go installation.md",
     "cargo installation.md",
+    "index.zh-cn 1.md",
+    "_TODO.md",
+    "_templates/templater/create page bundle - en.md",
+    "_templates/templater/recipe.md",
+    "_templates/archive/templater",
+    "_templates/archive",
+    "_templates/templater/new index template.md",
+    "_templates/templater/Insert Callouts.md",
+    "test.md",
+    "_templates/templater/frontmatters.md",
+    "_templates/templater/new dairy template.md",
+    "index.en.md",
     "useful prompt/index.en.md",
     "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
-    "303. 区域和检索 - 数组不可变/303. 区域和检索 - 数组不可变.md",
-    "303. 区域和检索 - 数组不可变/303. 区域和检索 - 数组不可变.excalidraw.md",
     "《刀锋》读后感/index.zh-cn.md",
-    "《红楼梦》 读书笔记/index.zh-cn.md",
-    "vscode vim 快捷键.md",
-    "《汇编语言》 读书笔记/index.zh-cn.md",
-    "reading notes -《Atomatic Habits》.md",
     "美食",
     "菜谱",
     "新建文件夹",
-    "疙瘩汤/index.zh-cn.md",
-    "糖醋排骨/index.zh-cn.md",
-    "白萝卜虾米汤/index.zh-cn.md",
-    "玉米排骨汤/index.zh-cn.md",
-    "我家有两条狗/index.zh-cn.md",
-    "紫菜蛋花汤/index.zh-cn.md",
-    "红楼梦第一回/index.zh-cn.md",
     "红楼梦第一回",
     "1. 两数之和/index.zh-cn.md~",
     "1. 两数之和/4913",
     "《刀锋》读后感",
-    "把子肉",
-    "三鲜菌菇汤",
-    "炒面",
-    "Pasted Image 20240913125132_196.png",
-    "Pasted Image 20240909104807_474.png",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",

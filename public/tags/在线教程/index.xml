@@ -9,6 +9,45 @@
         <copyright>谷栗杳</copyright>
         <lastBuildDate>Tue, 24 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/%E5%9C%A8%E7%BA%BF%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>LazyVim for Ambitious Developers 阅读笔记</title>
+        <link>http://localhost:1313/blog/post---test/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</link>
+        <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/post---test/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</guid>
+        <description>&lt;p&gt;教程链接：&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LazyVim for Ambitious Developers&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;chapter-1-introduction-and-installationhttpslazyvim-ambitious-devsphillipscodescoursechapter-1_introduction_and_installation&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-1/#_introduction_and_installation&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chapter 1. Introduction and Installation&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;使用 GUI 加速的 terminal 来进行 Lazyvim 的安装，例如：&lt;a class=&#34;link&#34; href=&#34;https://sw.kovidgoyal.net/kitty/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kitty Terminal&lt;/a&gt;、&lt;a class=&#34;link&#34; href=&#34;https://alacritty.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Alacritty&lt;/a&gt;、&lt;a class=&#34;link&#34; href=&#34;https://github.com/microsoft/terminal?tab=readme-ov-file&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Windows Terminal&lt;/a&gt; 等。&lt;/p&gt;
+&lt;p&gt;安装教程请查看&lt;a class=&#34;link&#34; href=&#34;https://www.lazyvim.org/installation&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官网&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;chapter-2-what-is-modal-editing-anywayhttpslazyvim-ambitious-devsphillipscodescoursechapter-2_what_is_modal_editing_anyway&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-2/#_what_is_modal_editing_anyway&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chapter 2. What is Modal Editing, Anyway?&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;在 normal mode 下 &lt;code&gt;&amp;quot;&lt;/code&gt; 可以打开可用的寄存器。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;:x&lt;/code&gt; 几乎等于 &lt;code&gt;:wq&lt;/code&gt;，但 &lt;code&gt;:x&lt;/code&gt; 在文件未第修改的时候不会执行保存操作。&lt;/p&gt;
+&lt;h2 id=&#34;chapter-3-getting-aroundhttpslazyvim-ambitious-devsphillipscodescoursechapter-3_getting_around&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-3/#_getting_around&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chapter 3. Getting Around&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;无&lt;/p&gt;
+&lt;h2 id=&#34;chapter-4-opening-fileshttpslazyvim-ambitious-devsphillipscodescoursechapter-4_opening_files&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-4/#_opening_files&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chapter 4. Opening Files&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Space q q 关闭整个 nvim 窗口&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;:LazyExtras&lt;/code&gt; 打开 mini.files 插件。mini.files 兼容许多 lazyvim 的文本编辑操作。使用 &lt;code&gt;=&lt;/code&gt; 进行修改的保存。&lt;/p&gt;
+&lt;p&gt;再次找到同一个插件按 x 就可以禁用这个插件。&lt;/p&gt;
+&lt;h2 id=&#34;chapter-5-configuration-and-plugin-basicshttpslazyvim-ambitious-devsphillipscodescoursechapter-5_configuration_and_plugin_basics&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-5/#_configuration_and_plugin_basics&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chapter 5. Configuration and Plugin Basics&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;.config/nvim/lua/config/keymaps.lua&lt;/code&gt; 中一般用于设置 neovim 或者 lazyvim 中自带的按键设置。&lt;/p&gt;
+&lt;p&gt;插件配置参数中的 keys 设置按键，opts 设置与这个插件相关的选项配置。&lt;/p&gt;
+&lt;p&gt;各项配置参考示例：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;禁用某项功能：&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
+        <title>LazyVim for Ambitious Developers 阅读笔记</title>
         <link>http://localhost:1313/blog/p/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</link>
         <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
         
@@ -29,7 +68,22 @@
 &lt;p&gt;&lt;code&gt;:x&lt;/code&gt; 几乎等于 &lt;code&gt;:wq&lt;/code&gt;，但 &lt;code&gt;:x&lt;/code&gt; 在文件未第修改的时候不会执行保存操作。&lt;/p&gt;
 &lt;h2 id=&#34;chapter-3-getting-aroundhttpslazyvim-ambitious-devsphillipscodescoursechapter-3_getting_around&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-3/#_getting_around&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Chapter 3. Getting Around&lt;/a&gt;
-&lt;/h2&gt;</description>
+&lt;/h2&gt;&lt;p&gt;无&lt;/p&gt;
+&lt;h2 id=&#34;chapter-4-opening-fileshttpslazyvim-ambitious-devsphillipscodescoursechapter-4_opening_files&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-4/#_opening_files&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chapter 4. Opening Files&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Space q q 关闭整个 nvim 窗口&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;:LazyExtras&lt;/code&gt; 打开 mini.files 插件。mini.files 兼容许多 lazyvim 的文本编辑操作。使用 &lt;code&gt;=&lt;/code&gt; 进行修改的保存。&lt;/p&gt;
+&lt;p&gt;再次找到同一个插件按 x 就可以禁用这个插件。&lt;/p&gt;
+&lt;h2 id=&#34;chapter-5-configuration-and-plugin-basicshttpslazyvim-ambitious-devsphillipscodescoursechapter-5_configuration_and_plugin_basics&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-5/#_configuration_and_plugin_basics&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chapter 5. Configuration and Plugin Basics&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;.config/nvim/lua/config/keymaps.lua&lt;/code&gt; 中一般用于设置 neovim 或者 lazyvim 中自带的按键设置。&lt;/p&gt;
+&lt;p&gt;插件配置参数中的 keys 设置按键，opts 设置与这个插件相关的选项配置。&lt;/p&gt;
+&lt;p&gt;各项配置参考示例：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;禁用某项功能：&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
         </item>
         
     </channel>

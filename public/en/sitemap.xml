@@ -2,6 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/blog/en/post---test/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2024-10-30T09:24:11+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/blog/post---test/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog/en/post---test/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/blog/en/p/lazyvim-for-ambitious-developers-reading-notes/</loc>
+    <lastmod>2024-10-31T09:36:43+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/blog/p/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog/en/p/lazyvim-for-ambitious-developers-reading-notes/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/blog/en/p/303.-%E5%8C%BA%E5%9F%9F%E5%92%8C%E6%A3%80%E7%B4%A2-%E6%95%B0%E7%BB%84%E4%B8%8D%E5%8F%AF%E5%8F%98/</loc>
+    <lastmod>2024-09-25T05:01:37+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/en/post---test/%E6%AC%A7--%E4%BA%A8%E5%88%A9%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2024-08-30T07:45:02+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/blog/post---test/%E6%AC%A7--%E4%BA%A8%E5%88%A9%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog/en/post---test/%E6%AC%A7--%E4%BA%A8%E5%88%A9%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"
+                />
+  </url><url>
     <loc>http://localhost:1313/blog/en/p/o-henrrys-short-story-reading-notes/</loc>
     <lastmod>2024-08-30T07:45:02+08:00</lastmod>
     <xhtml:link
@@ -15,8 +57,21 @@
                 href="http://localhost:1313/blog/en/p/o-henrrys-short-story-reading-notes/"
                 />
   </url><url>
+    <loc>http://localhost:1313/blog/en/post---test/useful-prompt/</loc>
+    <lastmod>2024-10-07T09:31:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/blog/post---test/useful-prompt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog/en/post---test/useful-prompt/"
+                />
+  </url><url>
     <loc>http://localhost:1313/blog/en/p/useful-prompt/</loc>
-    <lastmod>2024-10-04T08:39:51+08:00</lastmod>
+    <lastmod>2024-10-07T09:31:52+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -29,7 +84,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/blog/en/categories/</loc>
-    <lastmod>2024-10-04T08:39:51+08:00</lastmod>
+    <lastmod>2024-10-31T09:36:43+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -42,13 +97,33 @@
                 />
   </url><url>
     <loc>http://localhost:1313/blog/en/categories/cs/</loc>
-    <lastmod>2024-10-04T08:39:51+08:00</lastmod>
+    <lastmod>2024-10-31T09:36:43+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/blog/categories/cs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog/en/categories/cs/"
+                />
   </url><url>
-    <loc>http://localhost:1313/blog/en/tags/fiction/</loc>
-    <lastmod>2024-08-30T07:45:02+08:00</lastmod>
+    <loc>http://localhost:1313/blog/en/tags/lazyvim/</loc>
+    <lastmod>2024-10-31T09:36:43+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/blog/tags/lazyvim/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog/en/tags/lazyvim/"
+                />
   </url><url>
     <loc>http://localhost:1313/blog/en/</loc>
-    <lastmod>2024-10-04T08:39:51+08:00</lastmod>
+    <lastmod>2024-10-31T09:36:43+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -60,8 +135,37 @@
                 href="http://localhost:1313/blog/en/"
                 />
   </url><url>
+    <loc>http://localhost:1313/blog/en/tags/neovim/</loc>
+    <lastmod>2024-10-31T09:36:43+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/blog/tags/neovim/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog/en/tags/neovim/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/blog/en/tags/online-tutorial/</loc>
+    <lastmod>2024-10-31T09:36:43+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/en/post---test/</loc>
+    <lastmod>2024-10-30T09:24:11+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/blog/post---test/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog/en/post---test/"
+                />
+  </url><url>
     <loc>http://localhost:1313/blog/en/post/</loc>
-    <lastmod>2024-10-04T08:39:51+08:00</lastmod>
+    <lastmod>2024-10-31T09:36:43+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -73,14 +177,11 @@
                 href="http://localhost:1313/blog/en/post/"
                 />
   </url><url>
-    <loc>http://localhost:1313/blog/en/tags/prompt/</loc>
-    <lastmod>2024-10-04T08:39:51+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/en/categories/reading/</loc>
-    <lastmod>2024-08-30T07:45:02+08:00</lastmod>
+    <loc>http://localhost:1313/blog/en/tags/reading-notes/</loc>
+    <lastmod>2024-10-31T09:36:43+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/en/tags/</loc>
-    <lastmod>2024-10-04T08:39:51+08:00</lastmod>
+    <lastmod>2024-10-31T09:36:43+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -93,6 +194,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/blog/en/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
+    <lastmod>2024-09-25T05:01:37+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -103,5 +205,53 @@
                 hreflang="en"
                 href="http://localhost:1313/blog/en/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/blog/en/tags/%E5%89%8D%E7%BC%80%E5%92%8C/</loc>
+    <lastmod>2024-09-25T05:01:37+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/blog/tags/%E5%89%8D%E7%BC%80%E5%92%8C/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog/en/tags/%E5%89%8D%E7%BC%80%E5%92%8C/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/blog/en/tags/%E5%9F%BA%E7%A1%80%E4%BE%8B%E9%A2%98/</loc>
+    <lastmod>2024-09-25T05:01:37+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/blog/tags/%E5%9F%BA%E7%A1%80%E4%BE%8B%E9%A2%98/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog/en/tags/%E5%9F%BA%E7%A1%80%E4%BE%8B%E9%A2%98/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/blog/en/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2024-09-25T05:01:37+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/blog/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog/en/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/blog/en/tags/fiction/</loc>
+    <lastmod>2024-08-30T07:45:02+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/en/tags/prompt/</loc>
+    <lastmod>2024-10-07T09:31:52+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/en/categories/reading/</loc>
+    <lastmod>2024-08-30T07:45:02+08:00</lastmod>
   </url>
 </urlset>

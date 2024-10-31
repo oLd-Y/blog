@@ -1,7 +1,7 @@
 {
   "vimMode": false,
   "promptDelete": false,
-  "showInlineTitle": true,
+  "showInlineTitle": false,
   "alwaysUpdateLinks": true,
   "mobilePullAction": "obsidian-better-command-palette:open-better-commmand-palette"
 }

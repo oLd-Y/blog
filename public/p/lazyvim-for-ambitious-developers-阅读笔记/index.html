@@ -10,7 +10,7 @@
 <meta property='og:description' content="教程链接：LazyVim for Ambitious Developers Chapter 1. Introduction and Installation 使用 GUI 加速的 terminal 来进行 Lazyvim 的安装，例如：Kitty Terminal、Alacritty、Windows Terminal">
 <meta property='og:url' content='http://localhost:1313/blog/p/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/'>
 <meta property='og:site_name' content='谷栗杳'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='读书笔记' /><meta property='article:tag' content='在线教程' /><meta property='article:tag' content='neovim' /><meta property='article:tag' content='lazyvim' /><meta property='article:published_time' content='2024-09-24T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-10-02T17:55:02&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='读书笔记' /><meta property='article:tag' content='在线教程' /><meta property='article:tag' content='neovim' /><meta property='article:tag' content='lazyvim' /><meta property='article:published_time' content='2024-09-24T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-10-24T11:01:47&#43;08:00'/>
 <meta name="twitter:title" content="LazyVim for Ambitious Developers 阅读笔记">
 <meta name="twitter:description" content="教程链接：LazyVim for Ambitious Developers Chapter 1. Introduction and Installation 使用 GUI 加速的 terminal 来进行 Lazyvim 的安装，例如：Kitty Terminal、Alacritty、Windows Terminal">
     <link rel="shortcut icon" href="/blog/favicon.ico" />
@@ -319,6 +319,8 @@
     <li><a href="#chapter-1-introduction-and-installationhttpslazyvim-ambitious-devsphillipscodescoursechapter-1_introduction_and_installation"><a href="https://lazyvim-ambitious-devs.phillips.codes/course/chapter-1/#_introduction_and_installation">Chapter 1. Introduction and Installation</a></a></li>
     <li><a href="#chapter-2-what-is-modal-editing-anywayhttpslazyvim-ambitious-devsphillipscodescoursechapter-2_what_is_modal_editing_anyway"><a href="https://lazyvim-ambitious-devs.phillips.codes/course/chapter-2/#_what_is_modal_editing_anyway">Chapter 2. What is Modal Editing, Anyway?</a></a></li>
     <li><a href="#chapter-3-getting-aroundhttpslazyvim-ambitious-devsphillipscodescoursechapter-3_getting_around"><a href="https://lazyvim-ambitious-devs.phillips.codes/course/chapter-3/#_getting_around">Chapter 3. Getting Around</a></a></li>
+    <li><a href="#chapter-4-opening-fileshttpslazyvim-ambitious-devsphillipscodescoursechapter-4_opening_files"><a href="https://lazyvim-ambitious-devs.phillips.codes/course/chapter-4/#_opening_files">Chapter 4. Opening Files</a></a></li>
+    <li><a href="#chapter-5-configuration-and-plugin-basicshttpslazyvim-ambitious-devsphillipscodescoursechapter-5_configuration_and_plugin_basics"><a href="https://lazyvim-ambitious-devs.phillips.codes/course/chapter-5/#_configuration_and_plugin_basics">Chapter 5. Configuration and Plugin Basics</a></a></li>
   </ol>
 </nav>
         </div>
@@ -391,6 +393,25 @@
     
 
     
+        <footer class="article-translations">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+            <div>
+                
+                    <a href="http://localhost:1313/blog/en/p/lazyvim-for-ambitious-developers-reading-notes/" class="link">English</a>
+                
+            </div>
+        </footer>
+    
 </div>
 
 </header>
@@ -414,7 +435,22 @@
 <p><code>:x</code> 几乎等于 <code>:wq</code>，但 <code>:x</code> 在文件未第修改的时候不会执行保存操作。</p>
 <h2 id="chapter-3-getting-aroundhttpslazyvim-ambitious-devsphillipscodescoursechapter-3_getting_around"><a class="link" href="https://lazyvim-ambitious-devs.phillips.codes/course/chapter-3/#_getting_around"  target="_blank" rel="noopener"
     >Chapter 3. Getting Around</a>
-</h2>
+</h2><p>无</p>
+<h2 id="chapter-4-opening-fileshttpslazyvim-ambitious-devsphillipscodescoursechapter-4_opening_files"><a class="link" href="https://lazyvim-ambitious-devs.phillips.codes/course/chapter-4/#_opening_files"  target="_blank" rel="noopener"
+    >Chapter 4. Opening Files</a>
+</h2><p>Space q q 关闭整个 nvim 窗口</p>
+<p><code>:LazyExtras</code> 打开 mini.files 插件。mini.files 兼容许多 lazyvim 的文本编辑操作。使用 <code>=</code> 进行修改的保存。</p>
+<p>再次找到同一个插件按 x 就可以禁用这个插件。</p>
+<h2 id="chapter-5-configuration-and-plugin-basicshttpslazyvim-ambitious-devsphillipscodescoursechapter-5_configuration_and_plugin_basics"><a class="link" href="https://lazyvim-ambitious-devs.phillips.codes/course/chapter-5/#_configuration_and_plugin_basics"  target="_blank" rel="noopener"
+    >Chapter 5. Configuration and Plugin Basics</a>
+</h2><p><code>.config/nvim/lua/config/keymaps.lua</code> 中一般用于设置 neovim 或者 lazyvim 中自带的按键设置。</p>
+<p>插件配置参数中的 keys 设置按键，opts 设置与这个插件相关的选项配置。</p>
+<p>各项配置参考示例：</p>
+<ol>
+<li>禁用某项功能：</li>
+<li></li>
+</ol>
+
 </section>
 
 
@@ -455,7 +491,7 @@
 
 
         <span>
-            最后更新于 Oct 02, 2024 17:55 CST
+            最后更新于 Oct 24, 2024 11:01 CST
         </span>
     </section></footer>
 
@@ -498,6 +534,32 @@
             
                 
 <article class="">
+    <a href="/blog/post---test/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">LazyVim for Ambitious Developers 阅读笔记</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/post---test/lazyvim-%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">lazyvim 配置记录</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
     <a href="/blog/p/lazyvim-%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/">
         
         
@@ -511,7 +573,7 @@
             
                 
 <article class="">
-    <a href="/blog/p/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">
+    <a href="/blog/post---test/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">
         
         
 
@@ -524,38 +586,12 @@
             
                 
 <article class="">
-    <a href="/blog/p/240.-%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5-ii/">
+    <a href="/blog/p/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">240. 搜索二维矩阵 II</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/blog/p/48.-%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">48. 旋转图像</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/blog/p/%E7%9F%A9%E9%98%B5%E6%97%8B%E8%BD%AC%E5%9D%90%E6%A0%87%E5%85%AC%E5%BC%8F/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">矩阵旋转坐标公式</h2>
+            <h2 class="article-title">《汇编语言》 读书笔记</h2>
         </div>
     </a>
 </article>
