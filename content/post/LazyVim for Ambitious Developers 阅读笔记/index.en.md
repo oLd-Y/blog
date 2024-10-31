@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-31T08:28:37+08:00
+lastmod: 2024-10-31T09:36:43+08:00
 ---
 Tutorial link: [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
 
@@ -52,7 +52,14 @@ keys:
 vim.opt.number = false
 vim.opt.relativenumber = false
 ```
-5. 
+5. `f`/`F` to find next/previous character, press again to continously forward/backward. `;` is set to repeat the operation by default. Or you can use `f` to jump to the third character after the current cursor. 
+6. `t`/`T` is same like `f`/`F` , but `t`/`T` arrive right before the target character.
+7. `w`,`e`,`b` to go to "beginning of the next word", "end of the next word", "beginning of the previous word". `W`, `E`, `B` move a little bigger, which omit punctuation.
+8. `be`/`ge` to go to the end of previous word.
+9. `A`/`I` to move to the end/beginning of a line and enter insert mode.
+10. `^`/`$`/`0` to move to the beginning/end/beginning of the line in normal mode.
+11. `gg`/`G` to move to the beginning/end of the file. `100G`/`100gg`/`:100` to move to line 100.
+12. `C-o`/`C-i` to jump backward/farward in jump history.
 
 ## [Chapter 4. Opening Files](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-4/#_opening_files)
 
