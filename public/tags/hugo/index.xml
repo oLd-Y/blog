@@ -7,7 +7,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Tue, 25 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 31 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>hugo page bundle 问题</title>
+        <link>http://localhost:1313/blog/p/hugo-page-bundle-%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/hugo-page-bundle-%E9%97%AE%E9%A2%98/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Hugo &#43; Stack &#43; Obsidian 搭建博客</title>
         <link>http://localhost:1313/blog/post---test/hugo-&#43;-stack-&#43;-obsidian-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
         <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>

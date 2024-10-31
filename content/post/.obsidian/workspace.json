@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "50e1cb039875ad37",
+        "id": "eff7399b40a86e06",
         "type": "tabs",
         "children": [
           {
-            "id": "d61fb237b0df0c52",
+            "id": "eff28a2b24af03b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hugo page bundle 问题.md",
+                "file": "《汇编语言》 读书笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hugo page bundle 问题"
-            }
-          },
-          {
-            "id": "d95414d74550c6d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_templates/templater/new note.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "new note"
-            }
-          },
-          {
-            "id": "5c8d290f76f9b900",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "303. 区域和检索 - 数组不可变/index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
+              "title": "《汇编语言》 读书笔记"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 331.5
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -195,7 +166,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -213,46 +184,46 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "eff28a2b24af03b6",
   "lastOpenFiles": [
-    "_templates/templater/new note.md",
-    "hugo page bundle 问题.md",
-    "303. 区域和检索 - 数组不可变/index.md",
-    "_excalidraw/Drawing 2024-10-31 13.10.39.excalidraw.md",
-    "_excalidraw/303. 区域和检索 - 数组不可变.excalidraw.md",
-    "_excalidraw",
-    "303. 区域和检索 - 数组不可变/303. 区域和检索 - 数组不可变.excalidraw.md",
-    "《汇编语言》 读书笔记/《汇编语言》 读书笔记.excalidraw.md",
-    "vim command mode.md",
-    "_week/2024-W30.md",
-    "vim.md",
-    "弃用 emacs 转用 neovim 的原因.md",
-    "Pasted Image 20240909104807_474.png",
-    "Pasted Image 20240913125132_196.png",
-    "go installation.md",
-    "cargo installation.md",
-    "index.zh-cn 1.md",
-    "_TODO.md",
-    "_templates/templater/create page bundle - en.md",
-    "_templates/templater/recipe.md",
+    "李治军操作系统总结.md",
+    "42. 接雨水/index.zh-cn.md",
+    "15. 三数之和/index.zh-cn.md",
+    "11. 盛最多水的容器/index.zh-cn.md",
+    "Ubuntu 默认终端设置.md",
+    "Ubuntu 22.04 更换镜像源.md",
+    "Windows 自动推送 git 脚本.md",
+    "emacs 入坑建议.md",
+    "《红楼梦》读书笔记.md",
+    "1. 两数之和.zh-cn.md",
+    "_templates/archive/week.md",
+    "_templates/archive/dairy.md",
+    "原子习惯 读后感/index.md",
     "_templates/archive/templater",
     "_templates/archive",
-    "_templates/templater/new index template.md",
-    "_templates/templater/Insert Callouts.md",
-    "test.md",
-    "_templates/templater/frontmatters.md",
-    "_templates/templater/new dairy template.md",
-    "index.en.md",
-    "useful prompt/index.en.md",
-    "LazyVim for Ambitious Developers 阅读笔记/index.en.md",
-    "《刀锋》读后感/index.zh-cn.md",
+    "fd（fd-find）用法汇总.zh-cn.md",
+    "围城 读后感/index.md",
+    "哈工大操作系统实验4.md",
+    "哈工大操作系统实验3.md",
+    "信号量.md",
+    "弃用 emacs 转用 neovim 的原因.md",
+    "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误.zh-cn.md",
+    "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误wsl 执行 sudo apt update 时出现 Fail.md",
+    "go installation.en.md",
+    "hugo page bundle 问题.md",
+    "原子习惯 读后感/单词.md",
+    "欧 · 亨利短篇小说 读书笔记.en.md",
+    "欧 · 亨利短篇小说 读书笔记.zh-cn.md",
+    "1. 两数之和",
+    "_excalidraw",
+    "Pasted Image 20240909104807_474.png",
+    "Pasted Image 20240913125132_196.png",
+    "_templates/archive/templater",
+    "_templates/archive",
     "美食",
     "菜谱",
     "新建文件夹",
     "红楼梦第一回",
-    "1. 两数之和/index.zh-cn.md~",
-    "1. 两数之和/4913",
-    "《刀锋》读后感",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",

@@ -7,36 +7,44 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Thu, 31 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Go</title>
-        <link>http://localhost:1313/blog/tags/go/</link>
-        <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/tags/go/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Installation</title>
-        <link>http://localhost:1313/blog/tags/installation/</link>
-        <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/tags/installation/</guid>
-        <description></description>
-        </item>
-        <item>
+        <lastBuildDate>Thu, 31 Oct 2024 17:14:25 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>读后感</title>
         <link>http://localhost:1313/blog/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
-        <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 31 Oct 2024 17:14:25 +0800</pubDate>
         
         <guid>http://localhost:1313/blog/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
         <description></description>
         </item>
         <item>
+        <title>书摘</title>
+        <link>http://localhost:1313/blog/tags/%E4%B9%A6%E6%91%98/</link>
+        <pubDate>Thu, 31 Oct 2024 17:14:25 +0800</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/%E4%B9%A6%E6%91%98/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>小说</title>
         <link>http://localhost:1313/blog/tags/%E5%B0%8F%E8%AF%B4/</link>
-        <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 31 Oct 2024 17:14:25 +0800</pubDate>
         
         <guid>http://localhost:1313/blog/tags/%E5%B0%8F%E8%AF%B4/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Hugo</title>
+        <link>http://localhost:1313/blog/tags/hugo/</link>
+        <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/hugo/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Page-Bundle</title>
+        <link>http://localhost:1313/blog/tags/page-bundle/</link>
+        <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/tags/page-bundle/</guid>
         <description></description>
         </item>
         <item>
@@ -280,14 +288,6 @@
         <description></description>
         </item>
         <item>
-        <title>书摘</title>
-        <link>http://localhost:1313/blog/tags/%E4%B9%A6%E6%91%98/</link>
-        <pubDate>Thu, 01 Aug 2024 10:10:17 +0800</pubDate>
-        
-        <guid>http://localhost:1313/blog/tags/%E4%B9%A6%E6%91%98/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>提示词</title>
         <link>http://localhost:1313/blog/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D/</link>
         <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
@@ -410,17 +410,9 @@
         <item>
         <title>Blog</title>
         <link>http://localhost:1313/blog/tags/blog/</link>
-        <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/tags/blog/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Hugo</title>
-        <link>http://localhost:1313/blog/tags/hugo/</link>
-        <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/tags/hugo/</guid>
         <description></description>
         </item>
         
