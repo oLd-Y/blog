@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-30T09:24:11+08:00
+lastmod: 2024-10-31T08:28:37+08:00
 ---
 Tutorial link: [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
 
@@ -43,7 +43,16 @@ keys:
 
 ## [Chapter 3. Getting Around](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-3/#_getting_around)
 
-None
+keys:
+1. `s` to enable the seek mode of `flash`.
+2. `C-<Up>`, `C-<Down>`, `C-y`, `C-e` to scroll the screen.
+3. `<Space>fc`, open the configuration directory of lazyvim.
+4. set vim options in `lua/option.lua` file:
+```lua
+vim.opt.number = false
+vim.opt.relativenumber = false
+```
+5. 
 
 ## [Chapter 4. Opening Files](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-4/#_opening_files)
 
