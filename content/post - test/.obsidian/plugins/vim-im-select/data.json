@@ -1,8 +1,0 @@
-{
-  "defaultIM": "",
-  "obtainCmd": "",
-  "switchCmd": "",
-  "windowsDefaultIM": "0",
-  "windowsObtainCmd": "im-select-cn.exe",
-  "windowsSwitchCmd": "im-select-cn.exe {im}"
-}

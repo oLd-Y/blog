@@ -9,10 +9,10 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-08-01T13:02:15+08:00
+lastmod: 2024-11-01T12:33:26+08:00
 ---
 
-之前写了一篇[[Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）/index.zh-cn|Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）]]总结了一下一个 SpringBoot 后端项目的启动流程。本篇顺便总结一下前端 Vue3 项目的启动过程，这个比后端启动简单一点。
+之前写了一篇[[Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）.zh-cn|Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）]]总结了一下一个 SpringBoot 后端项目的启动流程。本篇顺便总结一下前端 Vue3 项目的启动过程，这个比后端启动简单一点。
 
 ## 步骤
 

@@ -20,8 +20,107 @@
               "icon": "lucide-file",
               "title": "《汇编语言》 读书笔记"
             }
+          },
+          {
+            "id": "f2accabe1f8473a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "42. 接雨水.zh-cn.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "42. 接雨水.zh-cn"
+            }
+          },
+          {
+            "id": "5d37890f471a2297",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Excalidraw 自定义中文字体.zh-cn.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Excalidraw 自定义中文字体.zh-cn"
+            }
+          },
+          {
+            "id": "b566f66fb1f68b53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LazyVim for Ambitious Developers reading notes.en.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LazyVim for Ambitious Developers reading notes.en"
+            }
+          },
+          {
+            "id": "5931ae0753749998",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lazyvim 中无法使用 Ctrl - r.zh-cn.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lazyvim 中无法使用 Ctrl - r.zh-cn"
+            }
+          },
+          {
+            "id": "861a59ec30891a3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "信号量.zh-cn.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "信号量.zh-cn"
+            }
+          },
+          {
+            "id": "f825ab6d4bb90e1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）.zh-cn.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）.zh-cn"
+            }
+          },
+          {
+            "id": "f2fdffa77598b866",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LazyVim for Ambitious Developers reading notes.zh-cn.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LazyVim for Ambitious Developers reading notes.zh-cn"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -40,7 +139,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime"
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -52,7 +151,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "windows 目录树",
+                "query": "lazyvim",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +172,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -185,12 +283,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "eff28a2b24af03b6",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "Windows 命令行展示目录树/index.zh-cn.md",
+    "信号量.zh-cn.md",
+    "lazyvim 中无法使用 Ctrl - r.zh-cn.md",
+    "LazyVim for Ambitious Developers reading notes.en.md",
+    "LazyVim for Ambitious Developers reading notes.zh-cn.md",
+    "Excalidraw 自定义中文字体.zh-cn.md",
+    "Obsidian 插件记录.zh-cn.md",
+    "Windows 命令行展示目录树.zh-cn.md",
+    "《刀锋》读后感.zh-cn.md",
+    "线程.md",
+    "42. 接雨水.zh-cn.md",
     "《汇编语言》 读书笔记.md",
     "李治军操作系统总结.md",
-    "42. 接雨水/index.zh-cn.md",
     "15. 三数之和/index.zh-cn.md",
     "11. 盛最多水的容器/index.zh-cn.md",
     "Ubuntu 默认终端设置.md",
@@ -207,14 +313,6 @@
     "fd（fd-find）用法汇总.zh-cn.md",
     "围城 读后感/index.md",
     "哈工大操作系统实验4.md",
-    "哈工大操作系统实验3.md",
-    "信号量.md",
-    "弃用 emacs 转用 neovim 的原因.md",
-    "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误.zh-cn.md",
-    "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误wsl 执行 sudo apt update 时出现 Fail.md",
-    "go installation.en.md",
-    "hugo page bundle 问题.md",
-    "原子习惯 读后感/单词.md",
     "1. 两数之和",
     "_excalidraw",
     "Pasted Image 20240909104807_474.png",
