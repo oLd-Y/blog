@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-31T09:36:43+08:00
+lastmod: 2024-11-01T14:32:56+08:00
 ---
 Tutorial link: [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
 
@@ -63,7 +63,12 @@ vim.opt.relativenumber = false
 
 ## [Chapter 4. Opening Files](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-4/#_opening_files)
 
-Space q q closes the entire nvim window
+keys:
+1. `<Space> q q`, closes the entire nvim window and save the session.
+2. `<Space><Space>`/`Space>ff`, pop up find file window of the current project, which is case insensitive and become sensitive right after there is a upper case character. `<Space>fF` to 
+3. `cwd` is typically the directory where you enter nvim in the terminal, and root directory is where there is a configuration file such as `.git`, `package.json`, etc.
+4. Also, you can use `:lcd` to temprarily change the `cwd` for a buffer.
+5. `s` to enable the seek mode.
 
 `:LazyExtras` opens the mini.files plugin. mini.files is compatible with many lazyvim text editing operations. Use `=` to save modifications.
 
