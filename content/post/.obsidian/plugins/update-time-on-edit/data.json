@@ -105,7 +105,6 @@
     "_daily/2024-07-13_Saturday.md": "58ccfc1ed796577dbc9d0fb2c6854868596c44791f046c4def92b7878c7ee43a",
     "飞鸟集 读后感/index.zh-cn.md": "cc7c8b85b847aea96ec668fc234258e7b1406e972531638adb6e5a83b059262c",
     "maven 配置文件设置汇总/index.zh-cn.md": "d3f2119e7f609ec1a425c790f780d684da3cc4713ad9f349f9b1eb7f894c093c",
-    "Ubuntu 命令行启动 Vue3 项目（以 ruoyi-ui-admin-vue3为例）/index.zh-cn.md": "3efbc6369da18c93e3e4de8143d22291f0832724397e5183f5c9622722e4a1f6",
     "lazyvim 配置记录/index.zh-cn.md": "b40c83c5433f96fef6545fe8ce3848236c8b38be53ce71275adc8256c5290793",
     "香煎豆腐/index.zh-cn.md": "d7f6cf57515c389038a6f4e7159960dbfc13e87c77cbe2ec18f875481ea0f863",
     "鱼香肉丝/index.zh-cn.md": "afa8f8a6f0db07712d262dbd1380781e904b8b5a9e81e47dfd3519d7324b0bfe",
@@ -124,7 +123,6 @@
     "手撕包菜/index.zh-cn.md": "4a2bd655671b29de3556963c5a8ffd711143a5f3c773d8f3e40c050d7549dba4",
     "香菇肉片汤/index.zh-cn.md": "a150db09e8ead15bcb58ab1ae81d7c912c89ff4b8826b9d783955e910c0e8cc9",
     "凉拌秋葵/index.zh-cn.md": "4d5bcd937403e996eadb880bb7e4550376f0bc0f47bcbeb70198c04c9c0ce1b4",
-    "useful prompt/index.zh-cn.md": "0cd62a7dcec5cdf1151f2fdbcc7994a90989e3a8785586fea3b19b2e43ec6bf2",
     "蚝油生菜/index.zh-cn.md": "4ab8213a30cbc0e70369e2a9105043bfe5535d99f4cccd20e1ffa4aa27fc2b85",
     "白萝卜虾米汤/index.zh-cn.md": "b647b64030045f3deb5f89aa6f601200444d8e845ed99367ce014a0c4281705a",
     "高筋面粉、中筋面粉、低筋面粉有什么区别？/index.zh-cn.md": "d081510a7220aa1ceadfc690b0a69687920c0493ad334b5b6b638fb62b617d0f",
@@ -216,7 +214,6 @@
     "48. 旋转图像/index.zh-cn.md": "65a09a12851e41b40c16ff88e37a5ebe5e0559d80e5bdc324a647f246f693043",
     "矩阵旋转坐标公式/index.zh-cn.md": "aa94ef7d94448772cad1c5865d57925d8324b63add039f2731718e465d4edeb0",
     "240. 搜索二维矩阵 II/index.zh-cn.md": "bc95d24e0a8f8684e9d5625da6ac9dfbb5e986c8614ef244f6c7efeda28313f0",
-    "useful prompt/index.en.md": "6619df12c750b408cc4bbc4d8f6b11f02ccf466040a0c833a8d71bfe6ff7307f",
     "肉末蒸蛋/index.zh-cn.md": "b30ee679bdbf8c9f93f06831d5936bb7be315d6af6609ca3fef0457028d2f870",
     "口蘑汤/index.zh-cn.md": "9c683ce8aff5a9a854b2054639a2555a73aef61eb5a3ff226164124cb95413b8",
     "160. 相交链表/index.zh-cn.md": "6b32ebe6c31bd5d2ba35675816b898b70afc200fe73a1f3013a575afb04f865e",
@@ -246,6 +243,10 @@
     "LazyVim for Ambitious Developers reading notes.en.md": "c601157bd53809b6e5d4e824f761816229a8c6741aa1917edb957f43129a27a2",
     "LazyVim for Ambitious Developers reading notes.zh-cn.md": "177851dd3b80e956cf70d64493fced94bb31edb584306586da19d32dbeb78dcc",
     "信号量.zh-cn.md": "8fc3b699be0e0c979cdb2a8ec16af7b1c5de74d3fee457b7014530d87ca5b8ce",
-    "Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）.zh-cn.md": "423413c20b639cc8f183832ff5e8c690c9405cac368c845a33e474bdae3b8f79"
+    "Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）.zh-cn.md": "423413c20b639cc8f183832ff5e8c690c9405cac368c845a33e474bdae3b8f79",
+    "Ubuntu 命令行启动 Vue3 项目（以 ruoyi-ui-admin-vue3 为例）.zh-cn.md": "3efbc6369da18c93e3e4de8143d22291f0832724397e5183f5c9622722e4a1f6",
+    "useful prompt.en.md": "6619df12c750b408cc4bbc4d8f6b11f02ccf466040a0c833a8d71bfe6ff7307f",
+    "useful prompt.zh-cn.md": "0cd62a7dcec5cdf1151f2fdbcc7994a90989e3a8785586fea3b19b2e43ec6bf2",
+    "cargo installation.en.md": "5f10d2e9ff576c7c2c35009e6409f4b1c82062904e275ae03d946336c013766d"
   }
 }
