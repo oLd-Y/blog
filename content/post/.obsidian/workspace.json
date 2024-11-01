@@ -120,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -285,6 +285,7 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）.zh-cn.md",
     "信号量.zh-cn.md",
     "lazyvim 中无法使用 Ctrl - r.zh-cn.md",
     "LazyVim for Ambitious Developers reading notes.en.md",
@@ -312,7 +313,6 @@
     "_templates/archive",
     "fd（fd-find）用法汇总.zh-cn.md",
     "围城 读后感/index.md",
-    "哈工大操作系统实验4.md",
     "1. 两数之和",
     "_excalidraw",
     "Pasted Image 20240909104807_474.png",
