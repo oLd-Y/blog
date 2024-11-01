@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "s ^TbbNunHf",
+                "query": "windows 目录树",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -184,8 +185,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "eff28a2b24af03b6",
   "lastOpenFiles": [
+    "Windows 命令行展示目录树/index.zh-cn.md",
+    "《汇编语言》 读书笔记.md",
     "李治军操作系统总结.md",
     "42. 接雨水/index.zh-cn.md",
     "15. 三数之和/index.zh-cn.md",
@@ -212,8 +215,6 @@
     "go installation.en.md",
     "hugo page bundle 问题.md",
     "原子习惯 读后感/单词.md",
-    "欧 · 亨利短篇小说 读书笔记.en.md",
-    "欧 · 亨利短篇小说 读书笔记.zh-cn.md",
     "1. 两数之和",
     "_excalidraw",
     "Pasted Image 20240909104807_474.png",
