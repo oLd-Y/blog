@@ -63,8 +63,7 @@
               "title": "cargo installation.en"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +119,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 331.5,
+    "collapsed": true
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -227,10 +227,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "eff28a2b24af03b6",
   "lastOpenFiles": [
-    "信号量.zh-cn.md",
     "cargo installation.en.md",
+    "信号量.zh-cn.md",
     "vim command mode.md",
     "vim.md",
     "LazyVim for Ambitious Developers reading notes.zh-cn.md",
