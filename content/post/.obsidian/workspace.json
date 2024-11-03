@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "《汇编语言》 读书笔记.md",
+                "file": "电脑投屏手机软件 scrcpy 使用记录.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "《汇编语言》 读书笔记"
+              "title": "电脑投屏手机软件 scrcpy 使用记录"
             }
           },
           {
@@ -212,11 +212,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "eff28a2b24af03b6",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "《汇编语言》 读书笔记.md",
+    "电脑投屏手机软件 scrcpy 使用记录.md",
     "LazyVim for Ambitious Developers reading notes.zh-cn.md",
     "vim.md",
-    "《汇编语言》 读书笔记.md",
     "cargo installation.en.md",
     "信号量.zh-cn.md",
     "vim command mode.md",
@@ -239,7 +240,6 @@
     "Windows 自动推送 git 脚本.md",
     "emacs 入坑建议.md",
     "《红楼梦》读书笔记.md",
-    "1. 两数之和.zh-cn.md",
     "_templates/archive/templater",
     "_templates/archive",
     "1. 两数之和",
