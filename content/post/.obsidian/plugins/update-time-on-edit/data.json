@@ -40,7 +40,6 @@
     "哈工大操作系统实验4.md": "359e756d4b7b4e3aa812751d9dc3f32b326ca6dffba69182abbbaf06c7c530e1",
     "wsl 网络问题.md": "e99b98b36f09a8f31a2740cdd8c48d1c507397921641252c5e029032669b84bd",
     "弃用 emacs 转用 neovim 的原因.md": "83df063909a27ca969382ac3bc3ed2df5cb7bbd295abbd20636181cbf8cf7606",
-    "vim.md": "523be80b34121a7552cee67a03b76a739dc2b2f764c6b000f7866335d5674ada",
     "vim command mode.md": "fa8b26d7b0a18779cb12b21772c1c0019b07c9b05baf2f61414f979482099ab8",
     "reading notes -《Atomatic Habits》.md": "54a03fd7ea5a08693c4e9f054f03d56f644e1b18cf528e844d3dd30a98c49cca",
     "nvm 安装和使用/index.md": "db862dea6497d56b84a63f9c59924dd1295abf88d4af72af1bf08034457b77fc",
@@ -249,6 +248,7 @@
     "useful prompt.zh-cn.md": "0cd62a7dcec5cdf1151f2fdbcc7994a90989e3a8785586fea3b19b2e43ec6bf2",
     "cargo installation.en.md": "327361df95c42a7a4e97ba07e439485a7a9531732c434d73c70e019f0dbd5f69",
     "电脑投屏手机软件 scrcpy 使用记录.md": "03ff24f51c127d673c9a7e36aebb3ba46eca6702a3642b8cda0473ea51154cba",
-    "CSAPP summariztion - chanpter 1.md": "0765f99675243c0983889e236586b414d41c0be4e7453e65e990e278d64bca1c"
+    "CSAPP summariztion - chanpter 1.md": "0765f99675243c0983889e236586b414d41c0be4e7453e65e990e278d64bca1c",
+    "Windows 布局和工作区.md": "7432180f88a8cc4547b5e4b4d8b27372d480e77f02b2dbaf0aa9d5c7de56dbdc"
   }
 }
