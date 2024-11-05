@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": " [\"draft\":false] tag:#菜谱                                     ",
+  "search": "wsl",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -18,5 +18,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 1.2414543899483157,
-  "close": false
+  "close": true
 }

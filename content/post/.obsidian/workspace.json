@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lazyvim",
+                "query": "wsl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,12 +73,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 331.5,
-    "collapsed": true
+    "width": 331.5
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -187,11 +187,21 @@
   },
   "active": "b135dfd0196f2ee6",
   "lastOpenFiles": [
+    "hdc 无法挂载 minix.md",
+    "wsl2 安装 gnome 桌面环境.md",
+    "windows 无法进入 wsl.md",
+    "_excalidraw/42. 接雨水.excalidraw.md",
+    "CSAPP summariztion - chanpter 1.md",
+    "206. 反转链表.zh-cn.md",
+    "189. 轮转数组/189. 轮转数组.zh-cn.md",
+    "234. 回文链表.zh-cn.md",
+    "_excalidraw/234. 回文链表.excalidraw.md",
+    "48. 旋转图像.zh-cn.md",
+    "160. 相交链表.zh-cn.md",
     "vscode vim 快捷键.md",
     "Windows 部分程序无法固定到开始菜单解决方法.md",
     "电脑投屏手机软件 scrcpy 使用记录.md",
     "Windows 布局和工作区.md",
-    "CSAPP summariztion - chanpter 1.md",
     "《汇编语言》 读书笔记.md",
     "LazyVim for Ambitious Developers reading notes.zh-cn.md",
     "cargo installation.en.md",
@@ -203,16 +213,6 @@
     "LazyVim for Ambitious Developers reading notes.en.md",
     "Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）.zh-cn.md",
     "lazyvim 中无法使用 Ctrl - r.zh-cn.md",
-    "Obsidian 插件记录.zh-cn.md",
-    "Windows 命令行展示目录树.zh-cn.md",
-    "《刀锋》读后感.zh-cn.md",
-    "线程.md",
-    "42. 接雨水.zh-cn.md",
-    "李治军操作系统总结.md",
-    "15. 三数之和/index.zh-cn.md",
-    "11. 盛最多水的容器/index.zh-cn.md",
-    "Ubuntu 默认终端设置.md",
-    "Ubuntu 22.04 更换镜像源.md",
     "_templates/archive/templater",
     "_templates/archive",
     "1. 两数之和",
