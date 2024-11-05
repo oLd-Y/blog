@@ -20,6 +20,16 @@
               "icon": "lucide-file",
               "title": "Obsidian Vim 自动切换搜狗输入法中英状态"
             }
+          },
+          {
+            "id": "f3b5c2c1c18592e1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ]
       }
@@ -73,8 +83,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -185,8 +194,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b135dfd0196f2ee6",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "Obsidian Vim 自动切换搜狗输入法中英状态.md",
     "CSAPP summariztion - chanpter 1.md",
     "hdc 无法挂载 minix.md",
     "wsl2 安装 gnome 桌面环境.md",
@@ -212,7 +222,6 @@
     "Ubuntu 命令行启动 Vue3 项目（以 ruoyi-ui-admin-vue3 为例）.zh-cn.md",
     "LazyVim for Ambitious Developers reading notes.en.md",
     "Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）.zh-cn.md",
-    "lazyvim 中无法使用 Ctrl - r.zh-cn.md",
     "_templates/archive/templater",
     "_templates/archive",
     "1. 两数之和",
