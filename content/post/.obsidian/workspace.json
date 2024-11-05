@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "通过源码学 lua （1）- im-select.lua.md",
+                "file": "Upgrade Neovim To The Latest.en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "通过源码学 lua （1）- im-select.lua"
+              "title": "Upgrade Neovim To The Latest.en"
             }
           }
         ],
@@ -199,10 +199,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ff99d3a01f213b9a",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "通过源码学 lua （2）- lastmod.lua.md",
+    "欧 · 亨利短篇小说 读书笔记.en.md",
+    "保护模式相关.md",
+    "239. 滑动窗口最大值.zh-cn.md",
+    "76. 最小覆盖子串.zh-cn.md",
+    "54. 螺旋矩阵.zh-cn.md",
+    "Upgrade Neovim To The Latest.en.md",
     "通过源码学 lua （1）- im-select.lua.md",
+    "通过源码学 lua （2）- lastmod.lua.md",
     "wsl neovim 自动切换输入法.md",
     "SD 关键词记录.md",
     "reading notes -《Atomatic Habits》.en.md",
@@ -222,12 +228,6 @@
     "windows 无法进入 wsl.md",
     "_excalidraw/42. 接雨水.excalidraw.md",
     "206. 反转链表.zh-cn.md",
-    "234. 回文链表.zh-cn.md",
-    "_excalidraw/234. 回文链表.excalidraw.md",
-    "48. 旋转图像.zh-cn.md",
-    "160. 相交链表.zh-cn.md",
-    "vscode vim 快捷键.md",
-    "Windows 部分程序无法固定到开始菜单解决方法.md",
     "_templates/archive/templater",
     "_templates/archive",
     "1. 两数之和",
