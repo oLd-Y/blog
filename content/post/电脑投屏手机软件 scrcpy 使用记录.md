@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-04T21:09:10+08:00
+lastmod: 2024-11-04T21:16:16+08:00
 ---
 一直在用微信读书，它的手机 app 实在是比网页端好用太多，而且我经常需要在手机上查看内容，然后记录在电脑上，来回切换实在非常不方便。
 
@@ -81,5 +81,5 @@ Windows 在快捷方式的“属性 -> 目标” 处加上这个参数即可。
 
 ## 其它
 
-使用 `scrcpy-noconsole.vbs` 脚本也是一样的效果，区别在于它不会有额外的 terminal.
+使用 `scrcpy-noconsole.vbs` 脚本也是一样的效果，区别在于它不会有额外的 terminal。
 
