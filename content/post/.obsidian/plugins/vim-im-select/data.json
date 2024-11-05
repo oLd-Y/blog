@@ -2,7 +2,7 @@
   "defaultIM": "",
   "obtainCmd": "",
   "switchCmd": "",
-  "windowsDefaultIM": "0",
-  "windowsObtainCmd": "im-select-cn.exe",
-  "windowsSwitchCmd": "im-select-cn.exe {im}"
+  "windowsDefaultIM": "1033",
+  "windowsObtainCmd": "im-select.exe",
+  "windowsSwitchCmd": "im-select.exe {im}"
 }

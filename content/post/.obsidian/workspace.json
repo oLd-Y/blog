@@ -13,25 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Vim 自动切换搜狗输入法中英状态.md",
+                "file": "通过源码学 lua （2）- lastmod.lua.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian Vim 自动切换搜狗输入法中英状态"
+              "title": "通过源码学 lua （2）- lastmod.lua"
             }
           },
           {
-            "id": "f3b5c2c1c18592e1",
+            "id": "ff99d3a01f213b9a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "通过源码学 lua （1）- im-select.lua.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "通过源码学 lua （1）- im-select.lua"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,34 +199,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "ff99d3a01f213b9a",
   "lastOpenFiles": [
+    "通过源码学 lua （2）- lastmod.lua.md",
+    "通过源码学 lua （1）- im-select.lua.md",
+    "wsl neovim 自动切换输入法.md",
+    "SD 关键词记录.md",
+    "reading notes -《Atomatic Habits》.en.md",
+    "283. 移动零.zh-cn.md",
+    "56. 合并区间.zh-cn.md",
+    "73. 矩阵置零.zh-cn.md",
+    "704. 二分查找.zh-cn.md",
+    "49. 字母异位词分组.zh-cn.md",
+    "238. 除自身以外数组的乘积.zh-cn.md",
+    "189. 轮转数组.zh-cn.md",
+    "新建 文本文档.txt",
     "Obsidian Vim 自动切换搜狗输入法中英状态.md",
+    "Untitled.md",
     "CSAPP summariztion - chanpter 1.md",
     "hdc 无法挂载 minix.md",
     "wsl2 安装 gnome 桌面环境.md",
     "windows 无法进入 wsl.md",
     "_excalidraw/42. 接雨水.excalidraw.md",
     "206. 反转链表.zh-cn.md",
-    "189. 轮转数组/189. 轮转数组.zh-cn.md",
     "234. 回文链表.zh-cn.md",
     "_excalidraw/234. 回文链表.excalidraw.md",
     "48. 旋转图像.zh-cn.md",
     "160. 相交链表.zh-cn.md",
     "vscode vim 快捷键.md",
     "Windows 部分程序无法固定到开始菜单解决方法.md",
-    "电脑投屏手机软件 scrcpy 使用记录.md",
-    "Windows 布局和工作区.md",
-    "《汇编语言》 读书笔记.md",
-    "LazyVim for Ambitious Developers reading notes.zh-cn.md",
-    "cargo installation.en.md",
-    "信号量.zh-cn.md",
-    "vim command mode.md",
-    "useful prompt.en.md",
-    "Excalidraw 自定义中文字体.zh-cn.md",
-    "Ubuntu 命令行启动 Vue3 项目（以 ruoyi-ui-admin-vue3 为例）.zh-cn.md",
-    "LazyVim for Ambitious Developers reading notes.en.md",
-    "Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）.zh-cn.md",
     "_templates/archive/templater",
     "_templates/archive",
     "1. 两数之和",
@@ -233,7 +239,6 @@
     "美食",
     "菜谱",
     "新建文件夹",
-    "红楼梦第一回",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误/cover.jpg",
     "Windows 命令行展示目录树/cover.jpg",
     "windows 11 蓝牙无法搜索到设备的原因/cover.jpg",

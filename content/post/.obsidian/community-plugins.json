@@ -10,5 +10,7 @@
   "remember-cursor-position",
   "table-editor-obsidian",
   "obsidian-auto-link-title",
-  "obsidian-minimal-settings"
+  "obsidian-minimal-settings",
+  "obsidian-vimrc-support",
+  "vim-im-select"
 ]
