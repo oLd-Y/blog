@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP summariztion - chanpter 1.md",
+                "file": "Obsidian Vim 自动切换搜狗输入法中英状态.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSAPP summariztion - chanpter 1"
+              "title": "Obsidian Vim 自动切换搜狗输入法中英状态"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wsl",
+                "query": "im-select",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -187,11 +187,11 @@
   },
   "active": "b135dfd0196f2ee6",
   "lastOpenFiles": [
+    "CSAPP summariztion - chanpter 1.md",
     "hdc 无法挂载 minix.md",
     "wsl2 安装 gnome 桌面环境.md",
     "windows 无法进入 wsl.md",
     "_excalidraw/42. 接雨水.excalidraw.md",
-    "CSAPP summariztion - chanpter 1.md",
     "206. 反转链表.zh-cn.md",
     "189. 轮转数组/189. 轮转数组.zh-cn.md",
     "234. 回文链表.zh-cn.md",
