@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 331.5,
+    "collapsed": true
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -184,7 +185,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "b135dfd0196f2ee6",
   "lastOpenFiles": [
     "vscode vim 快捷键.md",
     "Windows 部分程序无法固定到开始菜单解决方法.md",
