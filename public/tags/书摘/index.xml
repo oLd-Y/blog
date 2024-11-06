@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>书摘 on 谷栗杳</title>
-        <link>http://localhost:1313/tags/%E4%B9%A6%E6%91%98/</link>
+        <link>http://localhost:1313/blog/tags/%E4%B9%A6%E6%91%98/</link>
         <description>Recent content in 书摘 on 谷栗杳</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Wed, 06 Nov 2024 07:03:14 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E4%B9%A6%E6%91%98/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 06 Nov 2024 07:03:14 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/%E4%B9%A6%E6%91%98/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>围城 读后感</title>
-        <link>http://localhost:1313/p/%E5%9B%B4%E5%9F%8E-%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
+        <link>http://localhost:1313/blog/p/%E5%9B%B4%E5%9F%8E-%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
         <pubDate>Wed, 06 Nov 2024 07:03:14 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%9B%B4%E5%9F%8E-%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
+        <guid>http://localhost:1313/blog/p/%E5%9B%B4%E5%9F%8E-%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
         <description>&lt;h2 id=&#34;读后感&#34;&gt;读后感
 &lt;/h2&gt;&lt;p&gt;围城主要讲述的是20世纪40年代左右，方鸿渐及其朋友、家人、同事之间交际、求职以及爱情相关的故事。按照我粗糙的印象，整个故事大致分为：&lt;/p&gt;
 &lt;ol&gt;
@@ -291,10 +291,10 @@
         </item>
         <item>
         <title>飞鸟集 读后感</title>
-        <link>http://localhost:1313/p/%E9%A3%9E%E9%B8%9F%E9%9B%86-%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
+        <link>http://localhost:1313/blog/p/%E9%A3%9E%E9%B8%9F%E9%9B%86-%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
         <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/%E9%A3%9E%E9%B8%9F%E9%9B%86-%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
+        <guid>http://localhost:1313/blog/p/%E9%A3%9E%E9%B8%9F%E9%9B%86-%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
         <description>&lt;h2 id=&#34;读后感&#34;&gt;读后感
 &lt;/h2&gt;&lt;p&gt;花了一两个月断断续续得读完了《飞鸟集》，不出所料，果然读得一头雾水。像这种诗歌类型的书，如果不知道其上下文，很容易读得不知所云。友情建议，如果对于诗歌没有什么兴趣的话，直接去网上搜索一些经典语录就可以了，不然可能陷入像我一样，读完完全不知道这本书讲了啥，语句又差不多忘完了，又不知道该不该读第二遍的尴尬境地。&lt;/p&gt;
 &lt;h2 id=&#34;书摘&#34;&gt;书摘
@@ -478,10 +478,10 @@
         </item>
         <item>
         <title>原子习惯 读后感</title>
-        <link>http://localhost:1313/p/%E5%8E%9F%E5%AD%90%E4%B9%A0%E6%83%AF-%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
+        <link>http://localhost:1313/blog/p/%E5%8E%9F%E5%AD%90%E4%B9%A0%E6%83%AF-%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
         <pubDate>Tue, 25 Jun 2024 08:10:16 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%8E%9F%E5%AD%90%E4%B9%A0%E6%83%AF-%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
+        <guid>http://localhost:1313/blog/p/%E5%8E%9F%E5%AD%90%E4%B9%A0%E6%83%AF-%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
         <description>&lt;h2 id=&#34;读后感&#34;&gt;读后感
 &lt;/h2&gt;&lt;p&gt;原子习惯这本书，主要讲述了如何养成一个好习惯，以及如何改掉一个坏习惯。&lt;/p&gt;
 &lt;p&gt;人们每天习惯性的动作占据了一个人的50%~60%的时间：起床后自动地去洗漱，出门时无意识地先穿左脚的鞋，学一会儿不由自主地打开手机，无需思考也能打出想要的字……&lt;/p&gt;

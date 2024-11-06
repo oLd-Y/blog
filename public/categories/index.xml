@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>分类 on 谷栗杳</title>
-        <link>http://localhost:1313/categories/</link>
+        <link>http://localhost:1313/blog/categories/</link>
         <description>Recent content in 分类 on 谷栗杳</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Wed, 06 Nov 2024 07:03:14 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 06 Nov 2024 07:03:14 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>阅读</title>
-        <link>http://localhost:1313/categories/%E9%98%85%E8%AF%BB/</link>
+        <link>http://localhost:1313/blog/categories/%E9%98%85%E8%AF%BB/</link>
         <pubDate>Wed, 06 Nov 2024 07:03:14 +0800</pubDate>
         
-        <guid>http://localhost:1313/categories/%E9%98%85%E8%AF%BB/</guid>
+        <guid>http://localhost:1313/blog/categories/%E9%98%85%E8%AF%BB/</guid>
         <description></description>
         </item>
         <item>
         <title>计算机</title>
-        <link>http://localhost:1313/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
+        <link>http://localhost:1313/blog/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
         <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</guid>
+        <guid>http://localhost:1313/blog/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</guid>
         <description></description>
         </item>
         <item>
         <title>CS</title>
-        <link>http://localhost:1313/categories/cs/</link>
+        <link>http://localhost:1313/blog/categories/cs/</link>
         <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/cs/</guid>
+        <guid>http://localhost:1313/blog/categories/cs/</guid>
         <description></description>
         </item>
         <item>
         <title>美食</title>
-        <link>http://localhost:1313/categories/%E7%BE%8E%E9%A3%9F/</link>
+        <link>http://localhost:1313/blog/categories/%E7%BE%8E%E9%A3%9F/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/%E7%BE%8E%E9%A3%9F/</guid>
+        <guid>http://localhost:1313/blog/categories/%E7%BE%8E%E9%A3%9F/</guid>
         <description></description>
         </item>
         

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>lyao&#39;s Blog</title>
-        <link>http://localhost:1313/en/</link>
+        <link>http://localhost:1313/blog/en/</link>
         <description>Recent content on lyao&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Wed, 06 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 06 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/en/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Resolving image insert conflict of Hugo and Obsidian</title>
-        <link>http://localhost:1313/en/p/resolving-image-insert-conflict-of-hugo-and-obsidian/</link>
+        <link>http://localhost:1313/blog/en/p/resolving-image-insert-conflict-of-hugo-and-obsidian/</link>
         <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/p/resolving-image-insert-conflict-of-hugo-and-obsidian/</guid>
+        <guid>http://localhost:1313/blog/en/p/resolving-image-insert-conflict-of-hugo-and-obsidian/</guid>
         <description>&lt;p&gt;I&amp;rsquo;m using &lt;code&gt;Hugo&lt;/code&gt; to build my blog and &lt;code&gt;Obsidian&lt;/code&gt; to locally read notes. However, there is a conflict at their rendering of images.&lt;/p&gt;
 &lt;p&gt;The hugo achieve all sources from its root, while obsidian vault gets images from its root too (which isn&amp;rsquo;t the same path as hugo&amp;rsquo;s root), and result in the mismatch of the url in an markdown file.&lt;/p&gt;
 &lt;p&gt;Luckily, hugo provide a functionality of mounting, which enable remapping a path inner it to another inside path. Here is an example of mine to illustrate the solution.&lt;/p&gt;
@@ -54,10 +54,10 @@
         </item>
         <item>
         <title>Upgrade Neovim To The Latest</title>
-        <link>http://localhost:1313/en/p/upgrade-neovim-to-the-latest/</link>
+        <link>http://localhost:1313/blog/en/p/upgrade-neovim-to-the-latest/</link>
         <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/p/upgrade-neovim-to-the-latest/</guid>
+        <guid>http://localhost:1313/blog/en/p/upgrade-neovim-to-the-latest/</guid>
         <description>&lt;p&gt;If you want to upgrade neovim to the latest version in Linux/WSL, here is the steps:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -100,10 +100,10 @@
         </item>
         <item>
         <title>CSAPP reading notes - chapter 1</title>
-        <link>http://localhost:1313/en/p/csapp-reading-notes-chapter-1/</link>
+        <link>http://localhost:1313/blog/en/p/csapp-reading-notes-chapter-1/</link>
         <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/p/csapp-reading-notes-chapter-1/</guid>
+        <guid>http://localhost:1313/blog/en/p/csapp-reading-notes-chapter-1/</guid>
         <description>&lt;h2 id=&#34;11-information-is-bits--context&#34;&gt;1.1 Information Is Bits + Context
 &lt;/h2&gt;&lt;p&gt;All information in a system is represented as a bunch of bits.&lt;/p&gt;
 &lt;h2 id=&#34;12-programs-are-translated-by-other-programs-into-different-forms&#34;&gt;1.2 Programs Are Translated by Other Programs into Different Forms
@@ -116,7 +116,7 @@
 &lt;/ul&gt;
 &lt;p&gt;The programs that perform these phases (preprocessor, compilor, assembler, and linker) is known collectively as the &lt;em&gt;compliation system&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Here is the phase figure:
-&lt;img src=&#34;http://localhost:1313/_images/figure%201.3%20compliation%20system.png&#34;
+&lt;img src=&#34;http://localhost:1313/blog/_images/figure%201.3%20compliation%20system.png&#34;
 	
 	
 	
@@ -131,10 +131,10 @@
         </item>
         <item>
         <title>cargo installation</title>
-        <link>http://localhost:1313/en/p/cargo-installation/</link>
+        <link>http://localhost:1313/blog/en/p/cargo-installation/</link>
         <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/p/cargo-installation/</guid>
+        <guid>http://localhost:1313/blog/en/p/cargo-installation/</guid>
         <description>&lt;h2 id=&#34;linux&#34;&gt;Linux
 &lt;/h2&gt;&lt;p&gt;First run the command in the terminal:
 &lt;code&gt;curl https://sh.rustup.rs -sSf | sh&lt;/code&gt;&lt;/p&gt;
@@ -151,10 +151,10 @@
         </item>
         <item>
         <title>go installation</title>
-        <link>http://localhost:1313/en/p/go-installation/</link>
+        <link>http://localhost:1313/blog/en/p/go-installation/</link>
         <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/p/go-installation/</guid>
+        <guid>http://localhost:1313/blog/en/p/go-installation/</guid>
         <description>&lt;h1 id=&#34;linux&#34;&gt;Linux
 &lt;/h1&gt;&lt;p&gt;go1.23.2 for instance:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -181,10 +181,10 @@
         </item>
         <item>
         <title>LazyVim for Ambitious Developers reading notes</title>
-        <link>http://localhost:1313/en/p/lazyvim-for-ambitious-developers-reading-notes/</link>
+        <link>http://localhost:1313/blog/en/p/lazyvim-for-ambitious-developers-reading-notes/</link>
         <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/p/lazyvim-for-ambitious-developers-reading-notes/</guid>
+        <guid>http://localhost:1313/blog/en/p/lazyvim-for-ambitious-developers-reading-notes/</guid>
         <description>&lt;p&gt;Tutorial link: &lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;LazyVim for Ambitious Developers&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;In keybindings, &lt;code&gt;C&lt;/code&gt; means &lt;code&gt;Ctrl&lt;/code&gt;.&lt;/p&gt;
@@ -516,10 +516,10 @@
         </item>
         <item>
         <title>O&#39; Henrry&#39;s short story reading notes</title>
-        <link>http://localhost:1313/en/p/o-henrrys-short-story-reading-notes/</link>
+        <link>http://localhost:1313/blog/en/p/o-henrrys-short-story-reading-notes/</link>
         <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/p/o-henrrys-short-story-reading-notes/</guid>
+        <guid>http://localhost:1313/blog/en/p/o-henrrys-short-story-reading-notes/</guid>
         <description>&lt;h2 id=&#34;01-the-gift-of-the-magi&#34;&gt;01 The Gift of the Magi
 &lt;/h2&gt;&lt;p&gt;This story focuses on Jim and Della, a loving but impoverished couple in an apartment, who both sell their most valuable things in order to buy each other their most beloved gifts - Jim sells his prized pocket watch, and Della sells her long, proud hair. Yet the gifts they buy for each other require exactly these things as a foundation - Della buys a long chain for Jim&amp;rsquo;s pocket watch for decoration, and Jim buys a comb for Della&amp;rsquo;s hair. One is struck by the unexpectedness of the situation, but also by their true love.&lt;/p&gt;
 &lt;h2 id=&#34;02-the-last-leaf&#34;&gt;02 The Last Leaf
@@ -548,10 +548,10 @@
         </item>
         <item>
         <title>useful prompt</title>
-        <link>http://localhost:1313/en/p/useful-prompt/</link>
+        <link>http://localhost:1313/blog/en/p/useful-prompt/</link>
         <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/p/useful-prompt/</guid>
+        <guid>http://localhost:1313/blog/en/p/useful-prompt/</guid>
         <description>&lt;h2 id=&#34;rewrite-text&#34;&gt;Rewrite Text
 &lt;/h2&gt;&lt;p&gt;I will give you text content which is wrapped by 3 double quotes, you need to rewrite it and output a better version of my text.&lt;/p&gt;
 &lt;ol&gt;
