@@ -6,7 +6,7 @@ tags:
 categories: CS
 date: 2024-11-04
 draft: false
-lastmod: 2024-11-06T11:19:58+08:00
+lastmod: 2024-11-06T11:26:47+08:00
 title: CSAPP reading notes - chapter 1
 weight: 1
 ---
@@ -31,3 +31,6 @@ baseurl = "https://old-y.github.io/", `/_image`, failed, src = `https://old-y.gi
 baseurl = "https://old-y.github.io/", `_image`, succeed, src = `https://old-y.github.io/blog/_images/figure%201.3%20compliation%20system.png`
 
 baseurl = "https://old-y.github.io/blog", `/_image`, failed, src = `https://old-y.github.io/_images/figure%201.3%20compliation%20system.png`
+
+baseurl = "https://old-y.github.io/blog", `_image`, failed, src = `https://old-y.github.io/blog/_images/figure%201.3%20compliation%20system.png`
+
