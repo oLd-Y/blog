@@ -121,7 +121,7 @@
 &lt;/ul&gt;
 &lt;p&gt;The programs that perform these phases (preprocessor, compilor, assembler, and linker) is known collectively as the &lt;em&gt;compliation system&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Here is the phase figure:
-&lt;img src=&#34;http://localhost:1313/blog/blog/_images/figure%201.3%20compliation%20system.png&#34;
+&lt;img src=&#34;http://localhost:1313/blog/blog/figure%201.3%20compliation%20system.png&#34;
 	
 	
 	
@@ -131,12 +131,68 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;The outcome of image rendering on remote &lt;strong&gt;site&lt;/strong&gt; and local &lt;strong&gt;site&lt;/strong&gt; after mount &lt;code&gt;content/post/_images&lt;/code&gt; onto &lt;code&gt;static/_images&lt;/code&gt;.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;baseurl&lt;/th&gt;
+&lt;th&gt;img url&lt;/th&gt;
+&lt;th&gt;remote&lt;/th&gt;
+&lt;th&gt;local&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;xxx.io/&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;/_images/img.png&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;failed&lt;/td&gt;
+&lt;td&gt;succeed&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;xxx.io/&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;_images/img.png&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;succeed&lt;/td&gt;
+&lt;td&gt;succeed&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;xxx.io/blog&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;/_images/img.png&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;failed&lt;/td&gt;
+&lt;td&gt;failed&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;xxx.io/blog&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;_images/img.png&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;succeed&lt;/td&gt;
+&lt;td&gt;succeed&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;If only file name without directory, only obsidian side can render correctly and both site rendered failed.&lt;/p&gt;
 &lt;p&gt;baseurl = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://old-y.github.io/%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://old-y.github.io/&#34;&lt;/a&gt;, &lt;code&gt;/_image&lt;/code&gt;, failed, src = &lt;code&gt;https://old-y.github.io/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/p&gt;
+    &gt;https://old-y.github.io/&#34;&lt;/a&gt;, url = &lt;code&gt;/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;remote failed, src = &lt;code&gt;https://old-y.github.io/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;local succeed, src = &lt;code&gt;http://localhost:1313/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;baseurl = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://old-y.github.io/%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://old-y.github.io/&#34;&lt;/a&gt;, &lt;code&gt;_image&lt;/code&gt;, succeed, src = &lt;code&gt;https://old-y.github.io/blog/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/p&gt;
+    &gt;https://old-y.github.io/&#34;&lt;/a&gt;, url = &lt;code&gt;_images/figure%201.3%20compliation%20system.png&lt;/code&gt;,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;remote succeed, src = &lt;code&gt;https://old-y.github.io/blog/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;local succeed, src = &lt;code&gt;http://localhost:1313/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;baseurl = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://old-y.github.io/blog%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://old-y.github.io/blog&#34;&lt;/a&gt;, &lt;code&gt;/_image&lt;/code&gt;,&lt;/p&gt;
+    &gt;https://old-y.github.io/blog&#34;&lt;/a&gt;, url = &lt;code&gt;/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;remote failed, src = &lt;code&gt;https://old-y.github.io/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;local failed, src = &lt;code&gt;http://localhost:1313/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;baseurl = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://old-y.github.io/blog%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://old-y.github.io/blog&#34;&lt;/a&gt;, url = &lt;code&gt;_images/figure%201.3%20compliation%20system.png&lt;/code&gt;,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;remote succeed, src = &lt;code&gt;https://old-y.github.io/blog/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;local succeed, src = &lt;code&gt;http://localhost:1313/blog/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         <item>
