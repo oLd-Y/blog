@@ -6,7 +6,7 @@ tags:
 categories: CS
 date: 2024-11-04
 draft: false
-lastmod: 2024-11-06T11:08:44+08:00
+lastmod: 2024-11-06T11:09:50+08:00
 title: CSAPP reading notes - chapter 1
 weight: 1
 ---
@@ -26,3 +26,6 @@ The programs that perform these phases (preprocessor, compilor, assembler, and l
 Here is the phase figure:
 ![compliation system](/_images/figure%201.3%20compliation%20system.png)
 
+baseurl = "https://old-y.github.io/"
+
+baseurl = "https://old-y.github.io/blog", `/_image`
