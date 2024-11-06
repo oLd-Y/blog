@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Computer science on lyao&#39;s Blog</title>
-        <link>http://localhost:1313/blog/en/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
+        <link>http://localhost:1313/en/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
         <description>Recent content in Computer science on lyao&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <copyright>谷栗杳</copyright><atom:link href="http://localhost:1313/blog/en/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+        <copyright>谷栗杳</copyright><atom:link href="http://localhost:1313/en/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

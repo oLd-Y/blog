@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Prompt on lyao&#39;s Blog</title>
-        <link>http://localhost:1313/blog/en/tags/prompt/</link>
+        <link>http://localhost:1313/en/tags/prompt/</link>
         <description>Recent content in Prompt on lyao&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/en/tags/prompt/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tags/prompt/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>useful prompt</title>
-        <link>http://localhost:1313/blog/en/p/useful-prompt/</link>
+        <link>http://localhost:1313/en/p/useful-prompt/</link>
         <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/en/p/useful-prompt/</guid>
+        <guid>http://localhost:1313/en/p/useful-prompt/</guid>
         <description>&lt;h2 id=&#34;rewrite-text&#34;&gt;Rewrite Text
 &lt;/h2&gt;&lt;p&gt;I will give you text content which is wrapped by 3 double quotes, you need to rewrite it and output a better version of my text.&lt;/p&gt;
 &lt;ol&gt;

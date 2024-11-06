@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>投屏 on 谷栗杳</title>
-        <link>http://localhost:1313/blog/tags/%E6%8A%95%E5%B1%8F/</link>
+        <link>http://localhost:1313/tags/%E6%8A%95%E5%B1%8F/</link>
         <description>Recent content in 投屏 on 谷栗杳</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Sun, 03 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/%E6%8A%95%E5%B1%8F/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 03 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%8A%95%E5%B1%8F/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>电脑投屏手机软件 scrcpy 使用记录</title>
-        <link>http://localhost:1313/blog/p/%E7%94%B5%E8%84%91%E6%8A%95%E5%B1%8F%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6-scrcpy-%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</link>
+        <link>http://localhost:1313/p/%E7%94%B5%E8%84%91%E6%8A%95%E5%B1%8F%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6-scrcpy-%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</link>
         <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/p/%E7%94%B5%E8%84%91%E6%8A%95%E5%B1%8F%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6-scrcpy-%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</guid>
+        <guid>http://localhost:1313/p/%E7%94%B5%E8%84%91%E6%8A%95%E5%B1%8F%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6-scrcpy-%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</guid>
         <description>&lt;p&gt;一直在用微信读书，它的手机 app 实在是比网页端好用太多，而且我经常需要在手机上查看内容，然后记录在电脑上，来回切换实在非常不方便。&lt;/p&gt;
 &lt;p&gt;于是我在搜索有什么解决方案，发现了一个好用的软件 scrcpy，可以直接在电脑上对手机的内容进行投屏和操作，一番折腾之后，基本可以满足我的使用需要，在此记录一下它的使用方法。&lt;/p&gt;
 &lt;h2 id=&#34;安装&#34;&gt;安装

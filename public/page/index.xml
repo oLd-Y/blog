@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on 谷栗杳</title>
-        <link>http://localhost:1313/blog/page/</link>
+        <link>http://localhost:1313/page/</link>
         <description>Recent content in Pages on 谷栗杳</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>归档</title>
-        <link>http://localhost:1313/blog/archives/</link>
+        <link>http://localhost:1313/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/archives/</guid>
+        <guid>http://localhost:1313/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>http://localhost:1313/blog/about-zh-cn/</link>
+        <link>http://localhost:1313/about-zh-cn/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/about-zh-cn/</guid>
+        <guid>http://localhost:1313/about-zh-cn/</guid>
         <description>&lt;h1 id=&#34;个人履历&#34;&gt;个人履历
 &lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;单日 24h 时间拥有者&lt;/li&gt;
@@ -32,18 +32,18 @@
         </item>
         <item>
         <title>搜索</title>
-        <link>http://localhost:1313/blog/search/</link>
+        <link>http://localhost:1313/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/search/</guid>
+        <guid>http://localhost:1313/search/</guid>
         <description></description>
         </item>
         <item>
         <title>友链</title>
-        <link>http://localhost:1313/blog/%E5%8F%8B%E9%93%BE/</link>
+        <link>http://localhost:1313/%E5%8F%8B%E9%93%BE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/%E5%8F%8B%E9%93%BE/</guid>
+        <guid>http://localhost:1313/%E5%8F%8B%E9%93%BE/</guid>
         <description>&lt;p&gt;如果你希望我展示你的博客，请参考如下格式提供你的链接：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;

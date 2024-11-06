@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>软件 on 谷栗杳</title>
-        <link>http://localhost:1313/blog/tags/%E8%BD%AF%E4%BB%B6/</link>
+        <link>http://localhost:1313/tags/%E8%BD%AF%E4%BB%B6/</link>
         <description>Recent content in 软件 on 谷栗杳</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Windows 部分程序无法固定到开始菜单解决方法</title>
-        <link>http://localhost:1313/blog/p/windows-%E9%83%A8%E5%88%86%E7%A8%8B%E5%BA%8F%E6%97%A0%E6%B3%95%E5%9B%BA%E5%AE%9A%E5%88%B0%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</link>
+        <link>http://localhost:1313/p/windows-%E9%83%A8%E5%88%86%E7%A8%8B%E5%BA%8F%E6%97%A0%E6%B3%95%E5%9B%BA%E5%AE%9A%E5%88%B0%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</link>
         <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/p/windows-%E9%83%A8%E5%88%86%E7%A8%8B%E5%BA%8F%E6%97%A0%E6%B3%95%E5%9B%BA%E5%AE%9A%E5%88%B0%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</guid>
+        <guid>http://localhost:1313/p/windows-%E9%83%A8%E5%88%86%E7%A8%8B%E5%BA%8F%E6%97%A0%E6%B3%95%E5%9B%BA%E5%AE%9A%E5%88%B0%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</guid>
         <description>&lt;p&gt;有时候部分脚本或者程序无法固定到开始菜单，这里记录一下这个问题的解决方法。&lt;/p&gt;
 &lt;p&gt;将相关的文件创建一个快捷方式，然后将这个快捷方式放到 &lt;code&gt;C:\Users\&amp;lt;Username&amp;gt;\AppData\Roaming\Microsoft\Windows\Start Menu\Programs&lt;/code&gt; 目录中，然后等 Windows 更新相关的索引或者重启电脑之后，在任务栏的搜索框中搜索上述快捷方式的名称，就可以将其固定到开始菜单中了。&lt;/p&gt;
 &lt;p&gt;也可以通过 &lt;code&gt;win + r&lt;/code&gt; 输入 &lt;code&gt;shell:programs&lt;/code&gt; 命令直接打开相关的目录。&lt;/p&gt;
@@ -20,10 +20,10 @@
         </item>
         <item>
         <title>电脑投屏手机软件 scrcpy 使用记录</title>
-        <link>http://localhost:1313/blog/p/%E7%94%B5%E8%84%91%E6%8A%95%E5%B1%8F%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6-scrcpy-%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</link>
+        <link>http://localhost:1313/p/%E7%94%B5%E8%84%91%E6%8A%95%E5%B1%8F%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6-scrcpy-%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</link>
         <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/p/%E7%94%B5%E8%84%91%E6%8A%95%E5%B1%8F%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6-scrcpy-%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</guid>
+        <guid>http://localhost:1313/p/%E7%94%B5%E8%84%91%E6%8A%95%E5%B1%8F%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6-scrcpy-%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</guid>
         <description>&lt;p&gt;一直在用微信读书，它的手机 app 实在是比网页端好用太多，而且我经常需要在手机上查看内容，然后记录在电脑上，来回切换实在非常不方便。&lt;/p&gt;
 &lt;p&gt;于是我在搜索有什么解决方案，发现了一个好用的软件 scrcpy，可以直接在电脑上对手机的内容进行投屏和操作，一番折腾之后，基本可以满足我的使用需要，在此记录一下它的使用方法。&lt;/p&gt;
 &lt;h2 id=&#34;安装&#34;&gt;安装

@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="&lt;%* let title = await tp.system.prompt(&ldquo;Enter the title&rdquo;); let folder = /_daily/ // 获取 Obsidian 根 vault 路径 let vaultPath = app.vault.adapter.basePath; // fileName = tp.system.suggester([&ldquo;中文&rdquo;, &ldquo;English&rdquo;], [&ldquo;index.zh-cn&rdquo;, &ldquo;index.en&rdquo;], true, &">
 <title></title>
 
 <link rel='canonical' href='http://localhost:1313/blog/p/'>
 
 <link rel="stylesheet" href="/blog/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="">
-<meta property='og:description' content="">
+<meta property='og:description' content="&lt;%* let title = await tp.system.prompt(&ldquo;Enter the title&rdquo;); let folder = /_daily/ // 获取 Obsidian 根 vault 路径 let vaultPath = app.vault.adapter.basePath; // fileName = tp.system.suggester([&ldquo;中文&rdquo;, &ldquo;English&rdquo;], [&ldquo;index.zh-cn&rdquo;, &ldquo;index.en&rdquo;], true, &">
 <meta property='og:url' content='http://localhost:1313/blog/p/'>
 <meta property='og:site_name' content='谷栗杳'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' />
 <meta name="twitter:title" content="">
-<meta name="twitter:description" content="">
+<meta name="twitter:description" content="&lt;%* let title = await tp.system.prompt(&ldquo;Enter the title&rdquo;); let folder = /_daily/ // 获取 Obsidian 根 vault 路径 let vaultPath = app.vault.adapter.basePath; // fileName = tp.system.suggester([&ldquo;中文&rdquo;, &ldquo;English&rdquo;], [&ldquo;index.zh-cn&rdquo;, &ldquo;index.en&rdquo;], true, &">
     <link rel="shortcut icon" href="/blog/favicon.ico" />
 
   
@@ -329,7 +329,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 0 分钟
+                    阅读时长: 1 分钟
                 </time>
             </div>
         
@@ -344,7 +344,14 @@
     <section class="article-content">
     
     
-    
+    <p>&lt;%*
+let title = await tp.system.prompt(&ldquo;Enter the title&rdquo;);
+if (title === null) {
+return;
+}</p>
+<p>await tp.file.create_new(tp.file.find_tfile(&ldquo;frontmatters&rdquo;), title, true)</p>
+<p>-%&gt;</p>
+
 </section>
 
 
