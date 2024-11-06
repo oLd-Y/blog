@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>分治法 on 谷栗杳</title>
-        <link>http://localhost:1313/tags/%E5%88%86%E6%B2%BB%E6%B3%95/</link>
+        <link>http://localhost:1313/blog/tags/%E5%88%86%E6%B2%BB%E6%B3%95/</link>
         <description>Recent content in 分治法 on 谷栗杳</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Tue, 24 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%88%86%E6%B2%BB%E6%B3%95/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 24 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/%E5%88%86%E6%B2%BB%E6%B3%95/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>53. 最大子数组和</title>
-        <link>http://localhost:1313/p/53.-%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C/</link>
+        <link>http://localhost:1313/blog/p/53.-%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C/</link>
         <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/53.-%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C/</guid>
+        <guid>http://localhost:1313/blog/p/53.-%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/maximum-subarray/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1动态规划&#34;&gt;方法 1：动态规划

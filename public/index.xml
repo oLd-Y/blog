@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>谷栗杳</title>
-        <link>http://localhost:1313/</link>
+        <link>http://localhost:1313/blog/</link>
         <description>Recent content on 谷栗杳</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Wed, 06 Nov 2024 07:03:14 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 06 Nov 2024 07:03:14 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>围城 读后感</title>
-        <link>http://localhost:1313/p/%E5%9B%B4%E5%9F%8E-%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
+        <link>http://localhost:1313/blog/p/%E5%9B%B4%E5%9F%8E-%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
         <pubDate>Wed, 06 Nov 2024 07:03:14 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%9B%B4%E5%9F%8E-%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
+        <guid>http://localhost:1313/blog/p/%E5%9B%B4%E5%9F%8E-%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
         <description>&lt;h2 id=&#34;读后感&#34;&gt;读后感
 &lt;/h2&gt;&lt;p&gt;围城主要讲述的是20世纪40年代左右，方鸿渐及其朋友、家人、同事之间交际、求职以及爱情相关的故事。按照我粗糙的印象，整个故事大致分为：&lt;/p&gt;
 &lt;ol&gt;
@@ -291,10 +291,10 @@
         </item>
         <item>
         <title>wsl neovim 自动切换输入法</title>
-        <link>http://localhost:1313/p/wsl-neovim-%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E8%BE%93%E5%85%A5%E6%B3%95/</link>
+        <link>http://localhost:1313/blog/p/wsl-neovim-%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E8%BE%93%E5%85%A5%E6%B3%95/</link>
         <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/wsl-neovim-%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E8%BE%93%E5%85%A5%E6%B3%95/</guid>
+        <guid>http://localhost:1313/blog/p/wsl-neovim-%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E8%BE%93%E5%85%A5%E6%B3%95/</guid>
         <description>&lt;p&gt;使用 im-select 可以自动设置中英文输入法的切换。本文介绍一下在 lazyvim 下这个软件的使用方法。&lt;/p&gt;
 &lt;p&gt;首先在&lt;a class=&#34;link&#34; href=&#34;https://github.com/daipeihust/im-select/raw/master/win/out/x64/im-select.exe&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;这个页面&lt;/a&gt;下载 im-select，放到一个目录中，并将其所在目录添加到环境变量中。&lt;/p&gt;
@@ -344,10 +344,10 @@
         </item>
         <item>
         <title>Windows 部分程序无法固定到开始菜单解决方法</title>
-        <link>http://localhost:1313/p/windows-%E9%83%A8%E5%88%86%E7%A8%8B%E5%BA%8F%E6%97%A0%E6%B3%95%E5%9B%BA%E5%AE%9A%E5%88%B0%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</link>
+        <link>http://localhost:1313/blog/p/windows-%E9%83%A8%E5%88%86%E7%A8%8B%E5%BA%8F%E6%97%A0%E6%B3%95%E5%9B%BA%E5%AE%9A%E5%88%B0%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</link>
         <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/windows-%E9%83%A8%E5%88%86%E7%A8%8B%E5%BA%8F%E6%97%A0%E6%B3%95%E5%9B%BA%E5%AE%9A%E5%88%B0%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</guid>
+        <guid>http://localhost:1313/blog/p/windows-%E9%83%A8%E5%88%86%E7%A8%8B%E5%BA%8F%E6%97%A0%E6%B3%95%E5%9B%BA%E5%AE%9A%E5%88%B0%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</guid>
         <description>&lt;p&gt;有时候部分脚本或者程序无法固定到开始菜单，这里记录一下这个问题的解决方法。&lt;/p&gt;
 &lt;p&gt;将相关的文件创建一个快捷方式，然后将这个快捷方式放到 &lt;code&gt;C:\Users\&amp;lt;Username&amp;gt;\AppData\Roaming\Microsoft\Windows\Start Menu\Programs&lt;/code&gt; 目录中，然后等 Windows 更新相关的索引或者重启电脑之后，在任务栏的搜索框中搜索上述快捷方式的名称，就可以将其固定到开始菜单中了。&lt;/p&gt;
 &lt;p&gt;也可以通过 &lt;code&gt;win + r&lt;/code&gt; 输入 &lt;code&gt;shell:programs&lt;/code&gt; 命令直接打开相关的目录。&lt;/p&gt;
@@ -355,10 +355,10 @@
         </item>
         <item>
         <title>电脑投屏手机软件 scrcpy 使用记录</title>
-        <link>http://localhost:1313/p/%E7%94%B5%E8%84%91%E6%8A%95%E5%B1%8F%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6-scrcpy-%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</link>
+        <link>http://localhost:1313/blog/p/%E7%94%B5%E8%84%91%E6%8A%95%E5%B1%8F%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6-scrcpy-%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</link>
         <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/%E7%94%B5%E8%84%91%E6%8A%95%E5%B1%8F%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6-scrcpy-%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</guid>
+        <guid>http://localhost:1313/blog/p/%E7%94%B5%E8%84%91%E6%8A%95%E5%B1%8F%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6-scrcpy-%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</guid>
         <description>&lt;p&gt;一直在用微信读书，它的手机 app 实在是比网页端好用太多，而且我经常需要在手机上查看内容，然后记录在电脑上，来回切换实在非常不方便。&lt;/p&gt;
 &lt;p&gt;于是我在搜索有什么解决方案，发现了一个好用的软件 scrcpy，可以直接在电脑上对手机的内容进行投屏和操作，一番折腾之后，基本可以满足我的使用需要，在此记录一下它的使用方法。&lt;/p&gt;
 &lt;h2 id=&#34;安装&#34;&gt;安装
@@ -469,18 +469,18 @@
         </item>
         <item>
         <title>hugo page bundle 问题</title>
-        <link>http://localhost:1313/p/hugo-page-bundle-%E9%97%AE%E9%A2%98/</link>
+        <link>http://localhost:1313/blog/p/hugo-page-bundle-%E9%97%AE%E9%A2%98/</link>
         <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/hugo-page-bundle-%E9%97%AE%E9%A2%98/</guid>
+        <guid>http://localhost:1313/blog/p/hugo-page-bundle-%E9%97%AE%E9%A2%98/</guid>
         <description></description>
         </item>
         <item>
         <title>《刀锋》读后感</title>
-        <link>http://localhost:1313/p/%E5%88%80%E9%94%8B%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
+        <link>http://localhost:1313/blog/p/%E5%88%80%E9%94%8B%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
         <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%88%80%E9%94%8B%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
+        <guid>http://localhost:1313/blog/p/%E5%88%80%E9%94%8B%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
         <description>&lt;p&gt;本书主要讲述了主人公拉里在参加战争亲眼目睹了自己的战友死在了自己的眼前之后，放弃触手可及的工作，开始游荡，思考人生的意义，以及这个过程中与之相关的人的事迹的故事。&lt;/p&gt;
 &lt;p&gt;首先毫无疑问的是，书中的每个人都在为自己而活，但他们的追求不同。由此造成的摩擦是本书的主要看点。&lt;/p&gt;
 &lt;p&gt;人到底应该追求物质的满足还是精神的充盈？这似乎并无孰是孰非之分，也并非随意一选就能做出的抉择，可能需要花费自己的大半辈子来寻找答案。我们的主人公拉里，如果没有见识过好友的惨状，能安然回到国内，可能就不会触发自己心中对于人生意义的思考，也如同他人期待的那般过一个有固定工作的安稳生活。&lt;/p&gt;
@@ -492,10 +492,10 @@
         </item>
         <item>
         <title>234. 回文链表</title>
-        <link>http://localhost:1313/p/234.-%E5%9B%9E%E6%96%87%E9%93%BE%E8%A1%A8/</link>
+        <link>http://localhost:1313/blog/p/234.-%E5%9B%9E%E6%96%87%E9%93%BE%E8%A1%A8/</link>
         <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/234.-%E5%9B%9E%E6%96%87%E9%93%BE%E8%A1%A8/</guid>
+        <guid>http://localhost:1313/blog/p/234.-%E5%9B%9E%E6%96%87%E9%93%BE%E8%A1%A8/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/palindrome-linked-list/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1快慢指针--反转&#34;&gt;方法 1：快慢指针 + 反转
@@ -562,10 +562,10 @@
         </item>
         <item>
         <title>206. 反转链表</title>
-        <link>http://localhost:1313/p/206.-%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8/</link>
+        <link>http://localhost:1313/blog/p/206.-%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8/</link>
         <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/206.-%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8/</guid>
+        <guid>http://localhost:1313/blog/p/206.-%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/reverse-linked-list/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1递归&#34;&gt;方法 1：递归
@@ -642,10 +642,10 @@
         </item>
         <item>
         <title>206. 反转链表</title>
-        <link>http://localhost:1313/p/206.-%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8/</link>
+        <link>http://localhost:1313/blog/p/206.-%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8/</link>
         <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/206.-%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8/</guid>
+        <guid>http://localhost:1313/blog/p/206.-%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/intersection-of-two-linked-lists/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1双指针&#34;&gt;方法 1：双指针
@@ -685,10 +685,10 @@
         </item>
         <item>
         <title>240. 搜索二维矩阵 II</title>
-        <link>http://localhost:1313/p/240.-%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5-ii/</link>
+        <link>http://localhost:1313/blog/p/240.-%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5-ii/</link>
         <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/240.-%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5-ii/</guid>
+        <guid>http://localhost:1313/blog/p/240.-%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5-ii/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/search-a-2d-matrix-ii/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1类二分法&#34;&gt;方法 1：类二分法
@@ -737,10 +737,10 @@
         </item>
         <item>
         <title>48. 旋转图像</title>
-        <link>http://localhost:1313/p/48.-%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F/</link>
+        <link>http://localhost:1313/blog/p/48.-%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F/</link>
         <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/48.-%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F/</guid>
+        <guid>http://localhost:1313/blog/p/48.-%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/rotate-image/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1原地旋转&#34;&gt;方法 1：原地旋转
@@ -788,10 +788,10 @@
         </item>
         <item>
         <title>矩阵旋转坐标公式</title>
-        <link>http://localhost:1313/p/%E7%9F%A9%E9%98%B5%E6%97%8B%E8%BD%AC%E5%9D%90%E6%A0%87%E5%85%AC%E5%BC%8F/</link>
+        <link>http://localhost:1313/blog/p/%E7%9F%A9%E9%98%B5%E6%97%8B%E8%BD%AC%E5%9D%90%E6%A0%87%E5%85%AC%E5%BC%8F/</link>
         <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/%E7%9F%A9%E9%98%B5%E6%97%8B%E8%BD%AC%E5%9D%90%E6%A0%87%E5%85%AC%E5%BC%8F/</guid>
+        <guid>http://localhost:1313/blog/p/%E7%9F%A9%E9%98%B5%E6%97%8B%E8%BD%AC%E5%9D%90%E6%A0%87%E5%85%AC%E5%BC%8F/</guid>
         <description>&lt;h2 id=&#34;n--n-矩阵&#34;&gt;n * n 矩阵
 &lt;/h2&gt;&lt;p&gt;关于旋转，一共有 3 种情况：&lt;/p&gt;
 &lt;h3 id=&#34;顺时针旋转-90-&#34;&gt;顺时针旋转 90 °
@@ -843,10 +843,10 @@
         </item>
         <item>
         <title>54. 螺旋矩阵</title>
-        <link>http://localhost:1313/p/54.-%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5/</link>
+        <link>http://localhost:1313/blog/p/54.-%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5/</link>
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/54.-%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5/</guid>
+        <guid>http://localhost:1313/blog/p/54.-%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/spiral-matrix/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1模拟&#34;&gt;方法 1：模拟
@@ -928,10 +928,10 @@
         </item>
         <item>
         <title>73. 矩阵置零</title>
-        <link>http://localhost:1313/p/73.-%E7%9F%A9%E9%98%B5%E7%BD%AE%E9%9B%B6/</link>
+        <link>http://localhost:1313/blog/p/73.-%E7%9F%A9%E9%98%B5%E7%BD%AE%E9%9B%B6/</link>
         <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/73.-%E7%9F%A9%E9%98%B5%E7%BD%AE%E9%9B%B6/</guid>
+        <guid>http://localhost:1313/blog/p/73.-%E7%9F%A9%E9%98%B5%E7%BD%AE%E9%9B%B6/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/set-matrix-zeroes/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1使用标记数组&#34;&gt;方法 1：使用标记数组
@@ -992,10 +992,10 @@
         </item>
         <item>
         <title>41. 缺失的第一个正数</title>
-        <link>http://localhost:1313/p/41.-%E7%BC%BA%E5%A4%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%AD%A3%E6%95%B0/</link>
+        <link>http://localhost:1313/blog/p/41.-%E7%BC%BA%E5%A4%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%AD%A3%E6%95%B0/</link>
         <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/41.-%E7%BC%BA%E5%A4%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%AD%A3%E6%95%B0/</guid>
+        <guid>http://localhost:1313/blog/p/41.-%E7%BC%BA%E5%A4%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%AD%A3%E6%95%B0/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/first-missing-positive/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1原地哈希&#34;&gt;方法 1：原地哈希
@@ -1044,10 +1044,10 @@
         </item>
         <item>
         <title>238. 除自身以外数组的乘积</title>
-        <link>http://localhost:1313/p/238.-%E9%99%A4%E8%87%AA%E8%BA%AB%E4%BB%A5%E5%A4%96%E6%95%B0%E7%BB%84%E7%9A%84%E4%B9%98%E7%A7%AF/</link>
+        <link>http://localhost:1313/blog/p/238.-%E9%99%A4%E8%87%AA%E8%BA%AB%E4%BB%A5%E5%A4%96%E6%95%B0%E7%BB%84%E7%9A%84%E4%B9%98%E7%A7%AF/</link>
         <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/238.-%E9%99%A4%E8%87%AA%E8%BA%AB%E4%BB%A5%E5%A4%96%E6%95%B0%E7%BB%84%E7%9A%84%E4%B9%98%E7%A7%AF/</guid>
+        <guid>http://localhost:1313/blog/p/238.-%E9%99%A4%E8%87%AA%E8%BA%AB%E4%BB%A5%E5%A4%96%E6%95%B0%E7%BB%84%E7%9A%84%E4%B9%98%E7%A7%AF/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/product-of-array-except-self/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1前后缀分解&#34;&gt;方法 1：前后缀分解
@@ -1148,10 +1148,10 @@
         </item>
         <item>
         <title>189. 轮转数组</title>
-        <link>http://localhost:1313/p/189.-%E8%BD%AE%E8%BD%AC%E6%95%B0%E7%BB%84/</link>
+        <link>http://localhost:1313/blog/p/189.-%E8%BD%AE%E8%BD%AC%E6%95%B0%E7%BB%84/</link>
         <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/189.-%E8%BD%AE%E8%BD%AC%E6%95%B0%E7%BB%84/</guid>
+        <guid>http://localhost:1313/blog/p/189.-%E8%BD%AE%E8%BD%AC%E6%95%B0%E7%BB%84/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/rotate-array/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1多次反转&#34;&gt;方法 1：多次反转
@@ -1224,10 +1224,10 @@
         </item>
         <item>
         <title>56. 合并区间</title>
-        <link>http://localhost:1313/p/56.-%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4/</link>
+        <link>http://localhost:1313/blog/p/56.-%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4/</link>
         <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/56.-%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4/</guid>
+        <guid>http://localhost:1313/blog/p/56.-%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/merge-intervals/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1排序&#34;&gt;方法 1：排序
@@ -1271,10 +1271,10 @@
         </item>
         <item>
         <title>Snipaste 固定位置</title>
-        <link>http://localhost:1313/p/snipaste-%E5%9B%BA%E5%AE%9A%E4%BD%8D%E7%BD%AE/</link>
+        <link>http://localhost:1313/blog/p/snipaste-%E5%9B%BA%E5%AE%9A%E4%BD%8D%E7%BD%AE/</link>
         <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/snipaste-%E5%9B%BA%E5%AE%9A%E4%BD%8D%E7%BD%AE/</guid>
+        <guid>http://localhost:1313/blog/p/snipaste-%E5%9B%BA%E5%AE%9A%E4%BD%8D%E7%BD%AE/</guid>
         <description>&lt;p&gt;Snipaste 是一个非常好用且轻量的截图工具。收集了一些它的实用技巧，记录于此。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;截完一张图片，我们将其复制。然后再次截图的时候，在选框的时候按 r 键，会自动回到上次截图的大小和位置。这在固定截图位置的时候十分有用。&lt;/li&gt;
@@ -1284,10 +1284,10 @@
         </item>
         <item>
         <title>53. 最大子数组和</title>
-        <link>http://localhost:1313/p/53.-%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C/</link>
+        <link>http://localhost:1313/blog/p/53.-%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C/</link>
         <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/53.-%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C/</guid>
+        <guid>http://localhost:1313/blog/p/53.-%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/maximum-subarray/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1动态规划&#34;&gt;方法 1：动态规划
@@ -1479,10 +1479,10 @@
         </item>
         <item>
         <title>LazyVim for Ambitious Developers reading notes</title>
-        <link>http://localhost:1313/p/lazyvim-for-ambitious-developers-reading-notes/</link>
+        <link>http://localhost:1313/blog/p/lazyvim-for-ambitious-developers-reading-notes/</link>
         <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/lazyvim-for-ambitious-developers-reading-notes/</guid>
+        <guid>http://localhost:1313/blog/p/lazyvim-for-ambitious-developers-reading-notes/</guid>
         <description>&lt;p&gt;Tutorial link: &lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;LazyVim for Ambitious Developers&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;In keybindings, &lt;code&gt;C&lt;/code&gt; means &lt;code&gt;Ctrl&lt;/code&gt;.&lt;/p&gt;
@@ -1814,10 +1814,10 @@
         </item>
         <item>
         <title>LazyVim for Ambitious Developers 阅读笔记</title>
-        <link>http://localhost:1313/p/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</link>
+        <link>http://localhost:1313/blog/p/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</link>
         <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</guid>
+        <guid>http://localhost:1313/blog/p/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</guid>
         <description>&lt;p&gt;教程链接：&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;LazyVim for Ambitious Developers&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;chapter-1-introduction-and-installationhttpslazyvim-ambitious-devsphillipscodescoursechapter-1_introduction_and_installation&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-1/#_introduction_and_installation&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -1853,10 +1853,10 @@
         </item>
         <item>
         <title>76. 最小覆盖子串</title>
-        <link>http://localhost:1313/p/76.-%E6%9C%80%E5%B0%8F%E8%A6%86%E7%9B%96%E5%AD%90%E4%B8%B2/</link>
+        <link>http://localhost:1313/blog/p/76.-%E6%9C%80%E5%B0%8F%E8%A6%86%E7%9B%96%E5%AD%90%E4%B8%B2/</link>
         <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/76.-%E6%9C%80%E5%B0%8F%E8%A6%86%E7%9B%96%E5%AD%90%E4%B8%B2/</guid>
+        <guid>http://localhost:1313/blog/p/76.-%E6%9C%80%E5%B0%8F%E8%A6%86%E7%9B%96%E5%AD%90%E4%B8%B2/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/minimum-window-substring/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1滑动窗口--哈希表&#34;&gt;方法 1：滑动窗口 + 哈希表
@@ -1979,10 +1979,10 @@
         </item>
         <item>
         <title>2</title>
-        <link>http://localhost:1313/p/2/</link>
+        <link>http://localhost:1313/blog/p/2/</link>
         <pubDate>Sat, 21 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/2/</guid>
+        <guid>http://localhost:1313/blog/p/2/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/sliding-window-maximum/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1单调队列&#34;&gt;方法 1：单调队列
@@ -2050,10 +2050,10 @@
         </item>
         <item>
         <title>303. 区域和检索 - 数组不可变</title>
-        <link>http://localhost:1313/p/303.-%E5%8C%BA%E5%9F%9F%E5%92%8C%E6%A3%80%E7%B4%A2-%E6%95%B0%E7%BB%84%E4%B8%8D%E5%8F%AF%E5%8F%98/</link>
+        <link>http://localhost:1313/blog/p/303.-%E5%8C%BA%E5%9F%9F%E5%92%8C%E6%A3%80%E7%B4%A2-%E6%95%B0%E7%BB%84%E4%B8%8D%E5%8F%AF%E5%8F%98/</link>
         <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/303.-%E5%8C%BA%E5%9F%9F%E5%92%8C%E6%A3%80%E7%B4%A2-%E6%95%B0%E7%BB%84%E4%B8%8D%E5%8F%AF%E5%8F%98/</guid>
+        <guid>http://localhost:1313/blog/p/303.-%E5%8C%BA%E5%9F%9F%E5%92%8C%E6%A3%80%E7%B4%A2-%E6%95%B0%E7%BB%84%E4%B8%8D%E5%8F%AF%E5%8F%98/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/range-sum-query-immutable/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1前缀和&#34;&gt;方法 1：前缀和
@@ -2124,10 +2124,10 @@
         </item>
         <item>
         <title>438. 找到字符串中所有字母异位词</title>
-        <link>http://localhost:1313/p/438.-%E6%89%BE%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E6%89%80%E6%9C%89%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D/</link>
+        <link>http://localhost:1313/blog/p/438.-%E6%89%BE%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E6%89%80%E6%9C%89%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D/</link>
         <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/438.-%E6%89%BE%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E6%89%80%E6%9C%89%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D/</guid>
+        <guid>http://localhost:1313/blog/p/438.-%E6%89%BE%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E6%89%80%E6%9C%89%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/find-all-anagrams-in-a-string/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1数组滑动窗口&#34;&gt;方法 1：数组滑动窗口
@@ -2255,10 +2255,10 @@
         </item>
         <item>
         <title>560. 和为 K 的子数组</title>
-        <link>http://localhost:1313/p/560.-%E5%92%8C%E4%B8%BA-k-%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/</link>
+        <link>http://localhost:1313/blog/p/560.-%E5%92%8C%E4%B8%BA-k-%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/</link>
         <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/560.-%E5%92%8C%E4%B8%BA-k-%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/</guid>
+        <guid>http://localhost:1313/blog/p/560.-%E5%92%8C%E4%B8%BA-k-%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/subarray-sum-equals-k/solutions/2781031/qian-zhui-he-ha-xi-biao-cong-liang-ci-bi-4mwr/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1前缀和--哈希表&#34;&gt;方法 1：前缀和 + 哈希表
@@ -2315,10 +2315,10 @@
         </item>
         <item>
         <title>3. 无重复字符的最长子串</title>
-        <link>http://localhost:1313/p/3.-%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2/</link>
+        <link>http://localhost:1313/blog/p/3.-%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2/</link>
         <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/3.-%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2/</guid>
+        <guid>http://localhost:1313/blog/p/3.-%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/longest-substring-without-repeating-characters/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1滑动窗口&#34;&gt;方法 1：滑动窗口
@@ -2371,10 +2371,10 @@
         </item>
         <item>
         <title>42. 接雨水</title>
-        <link>http://localhost:1313/p/42.-%E6%8E%A5%E9%9B%A8%E6%B0%B4/</link>
+        <link>http://localhost:1313/blog/p/42.-%E6%8E%A5%E9%9B%A8%E6%B0%B4/</link>
         <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/42.-%E6%8E%A5%E9%9B%A8%E6%B0%B4/</guid>
+        <guid>http://localhost:1313/blog/p/42.-%E6%8E%A5%E9%9B%A8%E6%B0%B4/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/trapping-rain-water/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1前后缀分解&#34;&gt;方法 1：前后缀分解
@@ -2592,10 +2592,10 @@
         </item>
         <item>
         <title>15. 三数之和</title>
-        <link>http://localhost:1313/p/15.-%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/</link>
+        <link>http://localhost:1313/blog/p/15.-%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/</link>
         <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/15.-%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/</guid>
+        <guid>http://localhost:1313/blog/p/15.-%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/3sum/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1双指针&#34;&gt;方法 1：双指针
@@ -2789,10 +2789,10 @@
         </item>
         <item>
         <title>11. 盛最多水的容器</title>
-        <link>http://localhost:1313/p/11.-%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8/</link>
+        <link>http://localhost:1313/blog/p/11.-%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8/</link>
         <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/11.-%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8/</guid>
+        <guid>http://localhost:1313/blog/p/11.-%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/container-with-most-water/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1双指针&#34;&gt;方法 1：双指针
@@ -2868,10 +2868,10 @@
         </item>
         <item>
         <title>283. 移动零</title>
-        <link>http://localhost:1313/p/283.-%E7%A7%BB%E5%8A%A8%E9%9B%B6/</link>
+        <link>http://localhost:1313/blog/p/283.-%E7%A7%BB%E5%8A%A8%E9%9B%B6/</link>
         <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/283.-%E7%A7%BB%E5%8A%A8%E9%9B%B6/</guid>
+        <guid>http://localhost:1313/blog/p/283.-%E7%A7%BB%E5%8A%A8%E9%9B%B6/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/move-zeroes/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1双指针&#34;&gt;方法 1：双指针
@@ -2925,10 +2925,10 @@
         </item>
         <item>
         <title>49. 字母异位词分组</title>
-        <link>http://localhost:1313/p/49.-%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84/</link>
+        <link>http://localhost:1313/blog/p/49.-%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84/</link>
         <pubDate>Tue, 03 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/49.-%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84/</guid>
+        <guid>http://localhost:1313/blog/p/49.-%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/group-anagrams/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1排序&#34;&gt;方法 1：排序
@@ -3009,10 +3009,10 @@
         </item>
         <item>
         <title>《刀锋》读书笔记</title>
-        <link>http://localhost:1313/p/%E5%88%80%E9%94%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+        <link>http://localhost:1313/blog/p/%E5%88%80%E9%94%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
         <pubDate>Sat, 31 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%88%80%E9%94%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+        <guid>http://localhost:1313/blog/p/%E5%88%80%E9%94%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
         <description>&lt;p&gt;作者：毛姆&lt;/p&gt;
 &lt;h2 id=&#34;第一章&#34;&gt;第一章
 &lt;/h2&gt;&lt;h3 id=&#34;i&#34;&gt;(i)
@@ -3328,10 +3328,10 @@
         </item>
         <item>
         <title>1. 两数之和</title>
-        <link>http://localhost:1313/p/1.-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/</link>
+        <link>http://localhost:1313/blog/p/1.-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/</link>
         <pubDate>Sat, 31 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/1.-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/</guid>
+        <guid>http://localhost:1313/blog/p/1.-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/two-sum/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1暴力枚举&#34;&gt;方法 1：暴力枚举
@@ -3409,10 +3409,10 @@
         </item>
         <item>
         <title>《汇编语言》 读书笔记</title>
-        <link>http://localhost:1313/p/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+        <link>http://localhost:1313/blog/p/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
         <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+        <guid>http://localhost:1313/blog/p/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
         <description>&lt;h2 id=&#34;第-1-章-基础知识&#34;&gt;第 1 章 基础知识
 &lt;/h2&gt;&lt;p&gt;在汇编层面，指令和数据别无二致，都是一堆二进制数据。&lt;/p&gt;
 &lt;p&gt;那么，CPU 是如何分辨此时的二进制代码应当识别为数据还是指令呢？&lt;/p&gt;
@@ -3742,10 +3742,10 @@
         </item>
         <item>
         <title>3264. K 次乘运算后的最终数组 I</title>
-        <link>http://localhost:1313/p/3264.-k-%E6%AC%A1%E4%B9%98%E8%BF%90%E7%AE%97%E5%90%8E%E7%9A%84%E6%9C%80%E7%BB%88%E6%95%B0%E7%BB%84-i/</link>
+        <link>http://localhost:1313/blog/p/3264.-k-%E6%AC%A1%E4%B9%98%E8%BF%90%E7%AE%97%E5%90%8E%E7%9A%84%E6%9C%80%E7%BB%88%E6%95%B0%E7%BB%84-i/</link>
         <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/3264.-k-%E6%AC%A1%E4%B9%98%E8%BF%90%E7%AE%97%E5%90%8E%E7%9A%84%E6%9C%80%E7%BB%88%E6%95%B0%E7%BB%84-i/</guid>
+        <guid>http://localhost:1313/blog/p/3264.-k-%E6%AC%A1%E4%B9%98%E8%BF%90%E7%AE%97%E5%90%8E%E7%9A%84%E6%9C%80%E7%BB%88%E6%95%B0%E7%BB%84-i/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/final-array-state-after-k-multiplication-operations-i/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1直接模拟&#34;&gt;方法 1：直接模拟
@@ -3779,10 +3779,10 @@
         </item>
         <item>
         <title>《红楼梦》读书笔记</title>
-        <link>http://localhost:1313/p/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+        <link>http://localhost:1313/blog/p/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
         <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+        <guid>http://localhost:1313/blog/p/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
         <description>&lt;p&gt;作者：曹雪芹&lt;/p&gt;
 &lt;h2 id=&#34;第一回-甄士隐幻识通灵-贾雨村风尘怀闺秀&#34;&gt;第一回 甄士隐幻识通灵 贾雨村风尘怀闺秀
 &lt;/h2&gt;&lt;p&gt;这一回主要讲了：&lt;/p&gt;
@@ -3895,10 +3895,10 @@
         </item>
         <item>
         <title>欧 · 亨利短篇小说 读书笔记</title>
-        <link>http://localhost:1313/p/%E6%AC%A7-%E4%BA%A8%E5%88%A9%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+        <link>http://localhost:1313/blog/p/%E6%AC%A7-%E4%BA%A8%E5%88%A9%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
         <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/%E6%AC%A7-%E4%BA%A8%E5%88%A9%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+        <guid>http://localhost:1313/blog/p/%E6%AC%A7-%E4%BA%A8%E5%88%A9%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
         <description>&lt;h2 id=&#34;01-麦吉的礼物&#34;&gt;01 麦吉的礼物
 &lt;/h2&gt;&lt;p&gt;这篇故事主要讲述了一对公寓里相爱却贫困的夫妇吉姆和黛拉，为了给对方买最心爱的礼物，都卖掉了自己最有价值的东西——吉姆卖掉了自己珍视的怀表，黛拉卖掉了自己引以为傲的长发。然而他们给互相买的礼物，却恰恰需要这些东西作为基础——黛拉为吉姆的怀表买了一个用于装饰的长链，而吉姆为黛拉的秀发买了一支昴贵的梳子。让人感慨意外的同时，也为他们的真爱而感动。&lt;/p&gt;
 &lt;h2 id=&#34;02-最后一片叶子&#34;&gt;02 最后一片叶子
@@ -3927,10 +3927,10 @@
         </item>
         <item>
         <title>有用的提示词</title>
-        <link>http://localhost:1313/p/%E6%9C%89%E7%94%A8%E7%9A%84%E6%8F%90%E7%A4%BA%E8%AF%8D/</link>
+        <link>http://localhost:1313/blog/p/%E6%9C%89%E7%94%A8%E7%9A%84%E6%8F%90%E7%A4%BA%E8%AF%8D/</link>
         <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/%E6%9C%89%E7%94%A8%E7%9A%84%E6%8F%90%E7%A4%BA%E8%AF%8D/</guid>
+        <guid>http://localhost:1313/blog/p/%E6%9C%89%E7%94%A8%E7%9A%84%E6%8F%90%E7%A4%BA%E8%AF%8D/</guid>
         <description>&lt;h2 id=&#34;知识性的书籍总结&#34;&gt;知识性的书籍总结
 &lt;/h2&gt;&lt;p&gt;我正在学习王爽的《汇编语言》。以下是我阅读完第一章之后对所学到的知识进行的陈述。请你暂时忽略 TODO 中所提出的问题，检查我总结的内容是否有错误。如果出现错误，请你指出；如果有更多需要补充的知识点，也请你告诉我。&lt;/p&gt;
 &lt;p&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
@@ -3991,10 +3991,10 @@ CHAPTER：&lt;/p&gt;
         </item>
         <item>
         <title>lazyvim 配置记录</title>
-        <link>http://localhost:1313/p/lazyvim-%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/</link>
+        <link>http://localhost:1313/blog/p/lazyvim-%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/</link>
         <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/lazyvim-%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/</guid>
+        <guid>http://localhost:1313/blog/p/lazyvim-%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/</guid>
         <description>&lt;p&gt;正在上手 neovim，首先使用 lazyvim 进行过渡。可以预见的是，在较长的时间内我使用的应该都是 neovim 的发行版而非自已进行配置（也可能不配置了hh），所以在此帖记录一些折腾 lazyvim 的过程，也防止自己长时间不用之后忘记了。&lt;/p&gt;
 &lt;h2 id=&#34;配置-java-开发环境&#34;&gt;配置 java 开发环境
 &lt;/h2&gt;&lt;p&gt;插件：&lt;a class=&#34;link&#34; href=&#34;https://github.com/nvim-java/nvim-java/wiki/Lazyvim&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -4151,10 +4151,10 @@ CHAPTER：&lt;/p&gt;
         </item>
         <item>
         <title>Ubuntu 命令行启动 Vue3 项目（以 ruoyi-ui-admin-vue3 为例）</title>
-        <link>http://localhost:1313/p/ubuntu-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8-vue3-%E9%A1%B9%E7%9B%AE%E4%BB%A5-ruoyi-ui-admin-vue3-%E4%B8%BA%E4%BE%8B/</link>
+        <link>http://localhost:1313/blog/p/ubuntu-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8-vue3-%E9%A1%B9%E7%9B%AE%E4%BB%A5-ruoyi-ui-admin-vue3-%E4%B8%BA%E4%BE%8B/</link>
         <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/ubuntu-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8-vue3-%E9%A1%B9%E7%9B%AE%E4%BB%A5-ruoyi-ui-admin-vue3-%E4%B8%BA%E4%BE%8B/</guid>
+        <guid>http://localhost:1313/blog/p/ubuntu-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8-vue3-%E9%A1%B9%E7%9B%AE%E4%BB%A5-ruoyi-ui-admin-vue3-%E4%B8%BA%E4%BE%8B/</guid>
         <description>&lt;p&gt;之前写了一篇[[Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）.zh-cn|Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）]]总结了一下一个 SpringBoot 后端项目的启动流程。本篇顺便总结一下前端 Vue3 项目的启动过程，这个比后端启动简单一点。&lt;/p&gt;
 &lt;h2 id=&#34;步骤&#34;&gt;步骤
 &lt;/h2&gt;&lt;p&gt;仍然是在 wsl 中 配置。以 ruoyi-ui-admin-vue3 项目为例。首先下载其项目到本地：&lt;/p&gt;
@@ -4317,10 +4317,10 @@ CHAPTER：&lt;/p&gt;
         </item>
         <item>
         <title>Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）</title>
-        <link>http://localhost:1313/p/ubuntu-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8-springboot-%E9%A1%B9%E7%9B%AE%E4%BB%A5-ruoyi-vue-pro-%E4%B8%BA%E4%BE%8B/</link>
+        <link>http://localhost:1313/blog/p/ubuntu-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8-springboot-%E9%A1%B9%E7%9B%AE%E4%BB%A5-ruoyi-vue-pro-%E4%B8%BA%E4%BE%8B/</link>
         <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/ubuntu-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8-springboot-%E9%A1%B9%E7%9B%AE%E4%BB%A5-ruoyi-vue-pro-%E4%B8%BA%E4%BE%8B/</guid>
+        <guid>http://localhost:1313/blog/p/ubuntu-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8-springboot-%E9%A1%B9%E7%9B%AE%E4%BB%A5-ruoyi-vue-pro-%E4%B8%BA%E4%BE%8B/</guid>
         <description>&lt;p&gt;最近在上手 neovim，尝试使用 wsl 作为我的开发环境。本文就以 ruoyi-vue-pro 为例，整理一下在命令行中启动 SpringBoot 项目的完整过程，最终效果是可以在 windows 中的浏览器中访问 wsl 中启动的项目。&lt;/p&gt;
 &lt;p&gt;操作系统版本：Windows 11 专业版 23H2 22631.3880
 wsl 版本：Ubuntu 22.04 LTS
@@ -4875,20 +4875,20 @@ maven 版本：3.9.1
         </item>
         <item>
         <title>lazyvim 中无法使用 Ctrl - r</title>
-        <link>http://localhost:1313/p/lazyvim-%E4%B8%AD%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8-ctrl-r/</link>
+        <link>http://localhost:1313/blog/p/lazyvim-%E4%B8%AD%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8-ctrl-r/</link>
         <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/lazyvim-%E4%B8%AD%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8-ctrl-r/</guid>
+        <guid>http://localhost:1313/blog/p/lazyvim-%E4%B8%AD%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8-ctrl-r/</guid>
         <description>&lt;p&gt;今天在 lazyvim 中一直无法使用小写的 &lt;code&gt;Ctrl-r&lt;/code&gt; 触发寄存器菜单，但我之前却是可以的，研究了半天，原来是安装了 flomo，它的全局快捷键把我的按键拦截了。&lt;/p&gt;
 &lt;p&gt;把 flomo 关掉或者把其中的快捷键关掉就可以了。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误</title>
-        <link>http://localhost:1313/p/wsl-%E6%89%A7%E8%A1%8C-sudo-apt-update-%E6%97%B6%E5%87%BA%E7%8E%B0-failed-to-fetch-temporary-failure-resolving-%E9%94%99%E8%AF%AF/</link>
+        <link>http://localhost:1313/blog/p/wsl-%E6%89%A7%E8%A1%8C-sudo-apt-update-%E6%97%B6%E5%87%BA%E7%8E%B0-failed-to-fetch-temporary-failure-resolving-%E9%94%99%E8%AF%AF/</link>
         <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/wsl-%E6%89%A7%E8%A1%8C-sudo-apt-update-%E6%97%B6%E5%87%BA%E7%8E%B0-failed-to-fetch-temporary-failure-resolving-%E9%94%99%E8%AF%AF/</guid>
+        <guid>http://localhost:1313/blog/p/wsl-%E6%89%A7%E8%A1%8C-sudo-apt-update-%E6%97%B6%E5%87%BA%E7%8E%B0-failed-to-fetch-temporary-failure-resolving-%E9%94%99%E8%AF%AF/</guid>
         <description>&lt;p&gt;在使用 wsl ubuntu 22.04 时执行 sudo apt update 出现标题中的错误，经查询是 DNS 解析相关的问题。&lt;/p&gt;
 &lt;p&gt;涉及到的文件有两个：wsl 中的 &lt;code&gt;/etc/resolv.conf&lt;/code&gt; 和 &lt;code&gt;/etc/wsl.conf&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;前者用于设置 wsl 的的域名解析相关的设置，后者用于控制 wsl 的某些行为，比如在这里就用于设置 wsl 是否自动生成域名解析。&lt;/p&gt;
@@ -5047,10 +5047,10 @@ maven 版本：3.9.1
         </item>
         <item>
         <title>飞鸟集 读后感</title>
-        <link>http://localhost:1313/p/%E9%A3%9E%E9%B8%9F%E9%9B%86-%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
+        <link>http://localhost:1313/blog/p/%E9%A3%9E%E9%B8%9F%E9%9B%86-%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
         <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/%E9%A3%9E%E9%B8%9F%E9%9B%86-%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
+        <guid>http://localhost:1313/blog/p/%E9%A3%9E%E9%B8%9F%E9%9B%86-%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
         <description>&lt;h2 id=&#34;读后感&#34;&gt;读后感
 &lt;/h2&gt;&lt;p&gt;花了一两个月断断续续得读完了《飞鸟集》，不出所料，果然读得一头雾水。像这种诗歌类型的书，如果不知道其上下文，很容易读得不知所云。友情建议，如果对于诗歌没有什么兴趣的话，直接去网上搜索一些经典语录就可以了，不然可能陷入像我一样，读完完全不知道这本书讲了啥，语句又差不多忘完了，又不知道该不该读第二遍的尴尬境地。&lt;/p&gt;
 &lt;h2 id=&#34;书摘&#34;&gt;书摘
@@ -5234,10 +5234,10 @@ maven 版本：3.9.1
         </item>
         <item>
         <title>704. 二分查找</title>
-        <link>http://localhost:1313/p/704.-%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/</link>
+        <link>http://localhost:1313/blog/p/704.-%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/</link>
         <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/704.-%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/</guid>
+        <guid>http://localhost:1313/blog/p/704.-%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/binary-search/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;方法-二分&#34;&gt;方法 ：二分
@@ -5309,10 +5309,10 @@ maven 版本：3.9.1
         </item>
         <item>
         <title>Excalidraw 自定义中文字体</title>
-        <link>http://localhost:1313/p/excalidraw-%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/</link>
+        <link>http://localhost:1313/blog/p/excalidraw-%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/</link>
         <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/excalidraw-%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/</guid>
+        <guid>http://localhost:1313/blog/p/excalidraw-%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/</guid>
         <description>&lt;p&gt;先在&lt;a class=&#34;link&#34; href=&#34;https://www.fonts.net.cn/commercial-free/fonts-zh-1.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;这个网站&lt;/a&gt;下载一个免费商用字体，下载到本地 Obsidian 的根 Vault 中的 Excalidraw 文件夹中，我是参考网上博客选择的&lt;a class=&#34;link&#34; href=&#34;https://www.fonts.net.cn/font-35068393713.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;沐瑶软笔手写体&lt;/a&gt;与原本的英文字体匹配。&lt;/p&gt;
@@ -5343,10 +5343,10 @@ maven 版本：3.9.1
         </item>
         <item>
         <title>Obsidian 插件记录</title>
-        <link>http://localhost:1313/p/obsidian-%E6%8F%92%E4%BB%B6%E8%AE%B0%E5%BD%95/</link>
+        <link>http://localhost:1313/blog/p/obsidian-%E6%8F%92%E4%BB%B6%E8%AE%B0%E5%BD%95/</link>
         <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/obsidian-%E6%8F%92%E4%BB%B6%E8%AE%B0%E5%BD%95/</guid>
+        <guid>http://localhost:1313/blog/p/obsidian-%E6%8F%92%E4%BB%B6%E8%AE%B0%E5%BD%95/</guid>
         <description>&lt;p&gt;Obsidian 中的插件数目众多，一不留神就会陷进折腾插件的陷阱。偶然找到的插件，当时未必立马有用，个人还是更倾向于用到了再装。但当时找得到的插件，以后就未必同样找得到；或者长时间不用某个插件之后忘记这个插件的用法。因此在这里记录一下用到的插件。持续更新。&lt;/p&gt;
 &lt;h2 id=&#34;calendar&#34;&gt;Calendar
 &lt;/h2&gt;&lt;p&gt;用于快速生成  日记和周记模板&lt;/p&gt;
@@ -5384,10 +5384,10 @@ maven 版本：3.9.1
         </item>
         <item>
         <title>21. 合并两个有序链表</title>
-        <link>http://localhost:1313/p/21.-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8/</link>
+        <link>http://localhost:1313/blog/p/21.-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8/</link>
         <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/21.-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8/</guid>
+        <guid>http://localhost:1313/blog/p/21.-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8/</guid>
         <description>&lt;p&gt;题目链接：&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/merge-two-sorted-lists/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;LeetCode 21. 合并两个有序链表&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法1链表--双指针&#34;&gt;方法1：链表 + 双指针
@@ -5472,10 +5472,10 @@ maven 版本：3.9.1
         </item>
         <item>
         <title>windows 11 蓝牙无法搜索到设备的原因</title>
-        <link>http://localhost:1313/p/windows-11-%E8%93%9D%E7%89%99%E6%97%A0%E6%B3%95%E6%90%9C%E7%B4%A2%E5%88%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E5%8E%9F%E5%9B%A0/</link>
+        <link>http://localhost:1313/blog/p/windows-11-%E8%93%9D%E7%89%99%E6%97%A0%E6%B3%95%E6%90%9C%E7%B4%A2%E5%88%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E5%8E%9F%E5%9B%A0/</link>
         <pubDate>Tue, 25 Jun 2024 12:43:19 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/windows-11-%E8%93%9D%E7%89%99%E6%97%A0%E6%B3%95%E6%90%9C%E7%B4%A2%E5%88%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E5%8E%9F%E5%9B%A0/</guid>
+        <guid>http://localhost:1313/blog/p/windows-11-%E8%93%9D%E7%89%99%E6%97%A0%E6%B3%95%E6%90%9C%E7%B4%A2%E5%88%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E5%8E%9F%E5%9B%A0/</guid>
         <description>&lt;p&gt;刚买的主机，一直没有用过蓝牙设备。前几天尝试连接一个蓝牙设备，一直在蓝牙界面转圈圈，根本搜索不出来设备。这两天被这个问题搞疯了快，今天总算解决了。汇总一下我网上搜集到的评论区好评的比较有效的方法：&lt;/p&gt;
 &lt;h2 id=&#34;冷启动&#34;&gt;冷启动
 &lt;/h2&gt;&lt;p&gt;可能是主机中的静电干扰了蓝牙的信号接收，因此需要释放静电。&lt;/p&gt;
@@ -5511,10 +5511,10 @@ maven 版本：3.9.1
         </item>
         <item>
         <title>原子习惯 读后感</title>
-        <link>http://localhost:1313/p/%E5%8E%9F%E5%AD%90%E4%B9%A0%E6%83%AF-%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
+        <link>http://localhost:1313/blog/p/%E5%8E%9F%E5%AD%90%E4%B9%A0%E6%83%AF-%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
         <pubDate>Tue, 25 Jun 2024 08:10:16 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%8E%9F%E5%AD%90%E4%B9%A0%E6%83%AF-%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
+        <guid>http://localhost:1313/blog/p/%E5%8E%9F%E5%AD%90%E4%B9%A0%E6%83%AF-%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
         <description>&lt;h2 id=&#34;读后感&#34;&gt;读后感
 &lt;/h2&gt;&lt;p&gt;原子习惯这本书，主要讲述了如何养成一个好习惯，以及如何改掉一个坏习惯。&lt;/p&gt;
 &lt;p&gt;人们每天习惯性的动作占据了一个人的50%~60%的时间：起床后自动地去洗漱，出门时无意识地先穿左脚的鞋，学一会儿不由自主地打开手机，无需思考也能打出想要的字……&lt;/p&gt;
@@ -5878,18 +5878,18 @@ maven 版本：3.9.1
         </item>
         <item>
         <title>归档</title>
-        <link>http://localhost:1313/archives/</link>
+        <link>http://localhost:1313/blog/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/archives/</guid>
+        <guid>http://localhost:1313/blog/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>http://localhost:1313/about-zh-cn/</link>
+        <link>http://localhost:1313/blog/about-zh-cn/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/about-zh-cn/</guid>
+        <guid>http://localhost:1313/blog/about-zh-cn/</guid>
         <description>&lt;h1 id=&#34;个人履历&#34;&gt;个人履历
 &lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;单日 24h 时间拥有者&lt;/li&gt;
@@ -5901,18 +5901,18 @@ maven 版本：3.9.1
         </item>
         <item>
         <title>搜索</title>
-        <link>http://localhost:1313/search/</link>
+        <link>http://localhost:1313/blog/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/search/</guid>
+        <guid>http://localhost:1313/blog/search/</guid>
         <description></description>
         </item>
         <item>
         <title>友链</title>
-        <link>http://localhost:1313/%E5%8F%8B%E9%93%BE/</link>
+        <link>http://localhost:1313/blog/%E5%8F%8B%E9%93%BE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/%E5%8F%8B%E9%93%BE/</guid>
+        <guid>http://localhost:1313/blog/%E5%8F%8B%E9%93%BE/</guid>
         <description>&lt;p&gt;如果你希望我展示你的博客，请参考如下格式提供你的链接：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;

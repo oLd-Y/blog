@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>前后缀分解 on 谷栗杳</title>
-        <link>http://localhost:1313/tags/%E5%89%8D%E5%90%8E%E7%BC%80%E5%88%86%E8%A7%A3/</link>
+        <link>http://localhost:1313/blog/tags/%E5%89%8D%E5%90%8E%E7%BC%80%E5%88%86%E8%A7%A3/</link>
         <description>Recent content in 前后缀分解 on 谷栗杳</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Sun, 29 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%89%8D%E5%90%8E%E7%BC%80%E5%88%86%E8%A7%A3/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 29 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/%E5%89%8D%E5%90%8E%E7%BC%80%E5%88%86%E8%A7%A3/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>238. 除自身以外数组的乘积</title>
-        <link>http://localhost:1313/p/238.-%E9%99%A4%E8%87%AA%E8%BA%AB%E4%BB%A5%E5%A4%96%E6%95%B0%E7%BB%84%E7%9A%84%E4%B9%98%E7%A7%AF/</link>
+        <link>http://localhost:1313/blog/p/238.-%E9%99%A4%E8%87%AA%E8%BA%AB%E4%BB%A5%E5%A4%96%E6%95%B0%E7%BB%84%E7%9A%84%E4%B9%98%E7%A7%AF/</link>
         <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/238.-%E9%99%A4%E8%87%AA%E8%BA%AB%E4%BB%A5%E5%A4%96%E6%95%B0%E7%BB%84%E7%9A%84%E4%B9%98%E7%A7%AF/</guid>
+        <guid>http://localhost:1313/blog/p/238.-%E9%99%A4%E8%87%AA%E8%BA%AB%E4%BB%A5%E5%A4%96%E6%95%B0%E7%BB%84%E7%9A%84%E4%B9%98%E7%A7%AF/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/product-of-array-except-self/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1前后缀分解&#34;&gt;方法 1：前后缀分解
@@ -113,10 +113,10 @@
         </item>
         <item>
         <title>42. 接雨水</title>
-        <link>http://localhost:1313/p/42.-%E6%8E%A5%E9%9B%A8%E6%B0%B4/</link>
+        <link>http://localhost:1313/blog/p/42.-%E6%8E%A5%E9%9B%A8%E6%B0%B4/</link>
         <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/42.-%E6%8E%A5%E9%9B%A8%E6%B0%B4/</guid>
+        <guid>http://localhost:1313/blog/p/42.-%E6%8E%A5%E9%9B%A8%E6%B0%B4/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/trapping-rain-water/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1前后缀分解&#34;&gt;方法 1：前后缀分解

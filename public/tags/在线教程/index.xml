@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>在线教程 on 谷栗杳</title>
-        <link>http://localhost:1313/tags/%E5%9C%A8%E7%BA%BF%E6%95%99%E7%A8%8B/</link>
+        <link>http://localhost:1313/blog/tags/%E5%9C%A8%E7%BA%BF%E6%95%99%E7%A8%8B/</link>
         <description>Recent content in 在线教程 on 谷栗杳</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Tue, 24 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%9C%A8%E7%BA%BF%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 24 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/%E5%9C%A8%E7%BA%BF%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>LazyVim for Ambitious Developers 阅读笔记</title>
-        <link>http://localhost:1313/p/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</link>
+        <link>http://localhost:1313/blog/p/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</link>
         <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</guid>
+        <guid>http://localhost:1313/blog/p/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</guid>
         <description>&lt;p&gt;教程链接：&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;LazyVim for Ambitious Developers&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;chapter-1-introduction-and-installationhttpslazyvim-ambitious-devsphillipscodescoursechapter-1_introduction_and_installation&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-1/#_introduction_and_installation&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;

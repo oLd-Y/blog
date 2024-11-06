@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Reading-Notes on lyao&#39;s Blog</title>
-        <link>http://localhost:1313/en/tags/reading-notes/</link>
+        <link>http://localhost:1313/blog/en/tags/reading-notes/</link>
         <description>Recent content in Reading-Notes on lyao&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Tue, 24 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tags/reading-notes/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 24 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/en/tags/reading-notes/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>LazyVim for Ambitious Developers reading notes</title>
-        <link>http://localhost:1313/en/p/lazyvim-for-ambitious-developers-reading-notes/</link>
+        <link>http://localhost:1313/blog/en/p/lazyvim-for-ambitious-developers-reading-notes/</link>
         <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/p/lazyvim-for-ambitious-developers-reading-notes/</guid>
+        <guid>http://localhost:1313/blog/en/p/lazyvim-for-ambitious-developers-reading-notes/</guid>
         <description>&lt;p&gt;Tutorial link: &lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;LazyVim for Ambitious Developers&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;In keybindings, &lt;code&gt;C&lt;/code&gt; means &lt;code&gt;Ctrl&lt;/code&gt;.&lt;/p&gt;

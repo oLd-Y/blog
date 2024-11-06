@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>快慢指针 on 谷栗杳</title>
-        <link>http://localhost:1313/tags/%E5%BF%AB%E6%85%A2%E6%8C%87%E9%92%88/</link>
+        <link>http://localhost:1313/blog/tags/%E5%BF%AB%E6%85%A2%E6%8C%87%E9%92%88/</link>
         <description>Recent content in 快慢指针 on 谷栗杳</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%BF%AB%E6%85%A2%E6%8C%87%E9%92%88/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/%E5%BF%AB%E6%85%A2%E6%8C%87%E9%92%88/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>234. 回文链表</title>
-        <link>http://localhost:1313/p/234.-%E5%9B%9E%E6%96%87%E9%93%BE%E8%A1%A8/</link>
+        <link>http://localhost:1313/blog/p/234.-%E5%9B%9E%E6%96%87%E9%93%BE%E8%A1%A8/</link>
         <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/234.-%E5%9B%9E%E6%96%87%E9%93%BE%E8%A1%A8/</guid>
+        <guid>http://localhost:1313/blog/p/234.-%E5%9B%9E%E6%96%87%E9%93%BE%E8%A1%A8/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/palindrome-linked-list/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1快慢指针--反转&#34;&gt;方法 1：快慢指针 + 反转

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Foundation on lyao&#39;s Blog</title>
-        <link>http://localhost:1313/en/tags/foundation/</link>
+        <link>http://localhost:1313/blog/en/tags/foundation/</link>
         <description>Recent content in Foundation on lyao&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tags/foundation/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/en/tags/foundation/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>CSAPP reading notes - chapter 1</title>
-        <link>http://localhost:1313/en/p/csapp-reading-notes-chapter-1/</link>
+        <link>http://localhost:1313/blog/en/p/csapp-reading-notes-chapter-1/</link>
         <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/p/csapp-reading-notes-chapter-1/</guid>
+        <guid>http://localhost:1313/blog/en/p/csapp-reading-notes-chapter-1/</guid>
         <description>&lt;h2 id=&#34;11-information-is-bits--context&#34;&gt;1.1 Information Is Bits + Context
 &lt;/h2&gt;&lt;p&gt;All information in a system is represented as a bunch of bits.&lt;/p&gt;
 &lt;h2 id=&#34;12-programs-are-translated-by-other-programs-into-different-forms&#34;&gt;1.2 Programs Are Translated by Other Programs into Different Forms
@@ -25,7 +25,7 @@
 &lt;/ul&gt;
 &lt;p&gt;The programs that perform these phases (preprocessor, compilor, assembler, and linker) is known collectively as the &lt;em&gt;compliation system&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Here is the phase figure:
-&lt;img src=&#34;http://localhost:1313/_images/figure%201.3%20compliation%20system.png&#34;
+&lt;img src=&#34;http://localhost:1313/blog/blog/_images/figure%201.3%20compliation%20system.png&#34;
 	
 	
 	
@@ -35,6 +35,12 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;baseurl = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://old-y.github.io/%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://old-y.github.io/&#34;&lt;/a&gt;, &lt;code&gt;/_image&lt;/code&gt;, failed, src = &lt;code&gt;https://old-y.github.io/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;baseurl = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://old-y.github.io/%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://old-y.github.io/&#34;&lt;/a&gt;, &lt;code&gt;_image&lt;/code&gt;, succeed, src = &lt;code&gt;https://old-y.github.io/blog/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;baseurl = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://old-y.github.io/blog%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://old-y.github.io/blog&#34;&lt;/a&gt;, &lt;code&gt;/_image&lt;/code&gt;,&lt;/p&gt;
 </description>
         </item>
         
