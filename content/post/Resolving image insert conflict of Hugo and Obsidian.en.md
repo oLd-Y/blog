@@ -7,7 +7,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-06T10:17:34+08:00
+lastmod: 2024-11-06T11:04:35+08:00
 ---
 I'm using `Hugo` to build my blog and `Obsidian` to locally read notes. However, there is a conflict at their rendering of images.
 
@@ -32,3 +32,6 @@ I make the `content/post` as my obsidian vault, as said above, if I want to inse
 ```markdown
 ![alt image]()
 ```
+
+There are several thing you need to notice:
+1. Check the 
