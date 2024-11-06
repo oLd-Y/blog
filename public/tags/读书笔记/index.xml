@@ -9,45 +9,6 @@
         <copyright>谷栗杳</copyright>
         <lastBuildDate>Tue, 24 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>LazyVim for Ambitious Developers 阅读笔记</title>
-        <link>http://localhost:1313/blog/post---test/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</link>
-        <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/post---test/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</guid>
-        <description>&lt;p&gt;教程链接：&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;LazyVim for Ambitious Developers&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;chapter-1-introduction-and-installationhttpslazyvim-ambitious-devsphillipscodescoursechapter-1_introduction_and_installation&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-1/#_introduction_and_installation&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Chapter 1. Introduction and Installation&lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;使用 GUI 加速的 terminal 来进行 Lazyvim 的安装，例如：&lt;a class=&#34;link&#34; href=&#34;https://sw.kovidgoyal.net/kitty/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Kitty Terminal&lt;/a&gt;、&lt;a class=&#34;link&#34; href=&#34;https://alacritty.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Alacritty&lt;/a&gt;、&lt;a class=&#34;link&#34; href=&#34;https://github.com/microsoft/terminal?tab=readme-ov-file&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Windows Terminal&lt;/a&gt; 等。&lt;/p&gt;
-&lt;p&gt;安装教程请查看&lt;a class=&#34;link&#34; href=&#34;https://www.lazyvim.org/installation&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;官网&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;chapter-2-what-is-modal-editing-anywayhttpslazyvim-ambitious-devsphillipscodescoursechapter-2_what_is_modal_editing_anyway&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-2/#_what_is_modal_editing_anyway&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Chapter 2. What is Modal Editing, Anyway?&lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;在 normal mode 下 &lt;code&gt;&amp;quot;&lt;/code&gt; 可以打开可用的寄存器。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;:x&lt;/code&gt; 几乎等于 &lt;code&gt;:wq&lt;/code&gt;，但 &lt;code&gt;:x&lt;/code&gt; 在文件未第修改的时候不会执行保存操作。&lt;/p&gt;
-&lt;h2 id=&#34;chapter-3-getting-aroundhttpslazyvim-ambitious-devsphillipscodescoursechapter-3_getting_around&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-3/#_getting_around&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Chapter 3. Getting Around&lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;无&lt;/p&gt;
-&lt;h2 id=&#34;chapter-4-opening-fileshttpslazyvim-ambitious-devsphillipscodescoursechapter-4_opening_files&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-4/#_opening_files&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Chapter 4. Opening Files&lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;Space q q 关闭整个 nvim 窗口&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;:LazyExtras&lt;/code&gt; 打开 mini.files 插件。mini.files 兼容许多 lazyvim 的文本编辑操作。使用 &lt;code&gt;=&lt;/code&gt; 进行修改的保存。&lt;/p&gt;
-&lt;p&gt;再次找到同一个插件按 x 就可以禁用这个插件。&lt;/p&gt;
-&lt;h2 id=&#34;chapter-5-configuration-and-plugin-basicshttpslazyvim-ambitious-devsphillipscodescoursechapter-5_configuration_and_plugin_basics&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-5/#_configuration_and_plugin_basics&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Chapter 5. Configuration and Plugin Basics&lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;&lt;code&gt;.config/nvim/lua/config/keymaps.lua&lt;/code&gt; 中一般用于设置 neovim 或者 lazyvim 中自带的按键设置。&lt;/p&gt;
-&lt;p&gt;插件配置参数中的 keys 设置按键，opts 设置与这个插件相关的选项配置。&lt;/p&gt;
-&lt;p&gt;各项配置参考示例：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;禁用某项功能：&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        </item>
-        <item>
-        <title>LazyVim for Ambitious Developers 阅读笔记</title>
         <link>http://localhost:1313/blog/p/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</link>
         <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
         
@@ -83,325 +44,6 @@
 &lt;li&gt;禁用某项功能：&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-</description>
-        </item>
-        <item>
-        <title>《刀锋》读书笔记</title>
-        <link>http://localhost:1313/blog/post---test/%E5%88%80%E9%94%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
-        <pubDate>Sat, 31 Aug 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/post---test/%E5%88%80%E9%94%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
-        <description>&lt;p&gt;作者：毛姆&lt;/p&gt;
-&lt;h2 id=&#34;第一章&#34;&gt;第一章
-&lt;/h2&gt;&lt;h3 id=&#34;i&#34;&gt;(i)
-&lt;/h3&gt;&lt;p&gt;本段主要介绍了写这篇本小说的原因，表明将会对真实事件进行叙述，以及为什么主人公不是一名英国人而是美国人。&lt;/p&gt;
-&lt;h3 id=&#34;ii&#34;&gt;(ii)
-&lt;/h3&gt;&lt;p&gt;本段主要介绍了 Larry Darrell 的事迹和性格。&lt;/p&gt;
-&lt;h3 id=&#34;iii&#34;&gt;(iii)
-&lt;/h3&gt;&lt;p&gt;本段中作者回忆了他与 Elliott Templeton 关系的发展。Elliott Templeton 一开始对叙述者漠不关心，作者作为编剧有所成就之后，他们就开始熟悉起来。但他们之间并不是真正的朋友。&lt;/p&gt;
-&lt;h3 id=&#34;iv&#34;&gt;(iv)
-&lt;/h3&gt;&lt;p&gt;本段细致地介绍了 Elliott Templeton。尽管他势利，但他慷慨好客、乐于奉献，善于讨价还价，对艺术有很高的鉴赏力。皈依天主教的原因是他的社会抱负，但他也是虔诚的。热衷于上流社会也是因为心中的理想。&lt;/p&gt;
-&lt;h3 id=&#34;v&#34;&gt;(v)
-&lt;/h3&gt;&lt;p&gt;我受 Elliott 邀请到他姐姐 Louisa Bradley 家吃中餐，聊到了她家的装饰。&lt;/p&gt;
-&lt;p&gt;午饭后，我见到了 Louisa 的女儿 Isabel 以及 Isabel 的未婚夫 Laurence Darrell。&lt;/p&gt;
-&lt;p&gt;我与 Elliott 闲逛博物馆之后分别。&lt;/p&gt;
-&lt;h3 id=&#34;vi&#34;&gt;(vi)
-&lt;/h3&gt;&lt;p&gt;我到达了 Mrs. Bradley 的房子参加派对，遇见了 Larry 的保镖 Dr. Nelson。&lt;/p&gt;
-&lt;p&gt;我与邻座一个年轻的小姑娘 Sophie 聊天。&lt;/p&gt;
-&lt;p&gt;晚餐后，包括我在内留下的一些人对 Larry 不愿意参加工作的情况进行了讨论。&lt;/p&gt;
-&lt;p&gt;Elliott 认为 Isabel 其实更适合与 Gray （富豪的儿子，也爱慕 Isabel）在一起。&lt;/p&gt;
-&lt;p&gt;我被邀请见一见 Maturin 父子（Gray 和他的父亲）。&lt;/p&gt;
-&lt;h3 id=&#34;vii&#34;&gt;(vii)
-&lt;/h3&gt;&lt;p&gt;我到图书馆看书，却意外发现 Larry 在那里看书，便与他交谈起来，认为他确实是个有个性的小伙子。&lt;/p&gt;
-&lt;p&gt;我和 Larry 讨论了为什么他不去上大学。&lt;/p&gt;
-&lt;p&gt;我离开图书馆，又两次返回，发现 Larry 都在那里读书，认为他确实十分专注。&lt;/p&gt;
-&lt;h3 id=&#34;viii&#34;&gt;(viii)
-&lt;/h3&gt;&lt;p&gt;Elliott 邀请我参加 Maturin 父子（Henry 和 Gray）的聚会，提到 Larry 拒绝了 Henry 提供的工作机会。&lt;/p&gt;
-&lt;p&gt;Henry 对他儿子 Gray 的高尔夫球技感到自豪。&lt;/p&gt;
-&lt;p&gt;饭后 Elliott 评价 Henry 关心他人，但也是个冷酷的商人。&lt;/p&gt;
-&lt;p&gt;后来 Isabel 和 Gradrey 都知道了 Larry 不想参加工作，于是想通过野餐了解 Larry 的想法，却得知他要去巴黎“游荡”两年。&lt;/p&gt;
-&lt;p&gt;这使得 Isabel 伤心却支持他的决定，使 Gradrey 感到不解，但 Elliott 却觉得这可能是一件好事，最后可能既成全了 Isabel 和 Gray，又成就了 Larry。&lt;/p&gt;
-&lt;h3 id=&#34;ix&#34;&gt;(ix)
-&lt;/h3&gt;&lt;p&gt;我前往 Henry Maturin 的大房子参加晚宴，见到了他的妻子 Mrs. Maturin 和 Mrs. Bradley 以及 Isabel。&lt;/p&gt;
-&lt;p&gt;我告诉 Isabel 之前在俱乐部遇见了 Larry 以及他读书非常专注的事，然后就被叫去打桥牌。完事之后发现 Mrs. Bradley 母女已经离开。&lt;/p&gt;
-&lt;h3 id=&#34;x&#34;&gt;(x)
-&lt;/h3&gt;&lt;p&gt;我即将离开这里前往远东，向 Mrs. Bradley 等一众人告别。出发前，Isabel 借口出门，到商店与我聊起了 Larry，我也了解了 Larry 与 Isabel 野餐时的情形，并认为他只是一时地迷茫，会找到自己的路。&lt;/p&gt;
-&lt;p&gt;此外，多年之后，Larry 告诉了一个名叫 Suzanne 的女人战争时发生在他身上的故事，然后 Suzanne 将这个故事告诉了我，我再转述给读者。&lt;/p&gt;
-&lt;p&gt;原来在一次任务时 Larry 被敌方的战机追击，命悬一线的时候被他的好战友 Patsy 拯救，但 Patsy 却因此牺牲，令 Larry 久久不能走出。&lt;/p&gt;
-&lt;h2 id=&#34;第二章&#34;&gt;第二章
-&lt;/h2&gt;&lt;h3 id=&#34;i-1&#34;&gt;(i)
-&lt;/h3&gt;&lt;p&gt;一年后我在伦敦又遇见了 Elliott，听到他吐槽 Larry 拒绝接受他拓展圈层的帮助。&lt;/p&gt;
-&lt;p&gt;同年秋天，我在前往马赛的路上经过巴黎，偶然遇到了 Larry，被其邀请共进午餐。&lt;/p&gt;
-&lt;h3 id=&#34;ii-1&#34;&gt;(ii)
-&lt;/h3&gt;&lt;p&gt;我去了卢森堡，看到了来来往往的人群，有些触景生情。然后赴约拉里，发现他只是为了与我吃个午餐而吃午餐，令我有些不解。&lt;/p&gt;
-&lt;h3 id=&#34;iii-1&#34;&gt;(iii)
-&lt;/h3&gt;&lt;p&gt;Mrs. Bredley 和 Isabel 在巴黎与 Elliott 碰面，Elliott 为 她们雇了一个女仆 Antoinette、联系了香奈儿要为她们订制衣服，并对他的朋友们宣称 Mrs. Bredley 己故的丈夫是个大使。以上种种只为 Mrs. Bredley 母女更加得体，不失他的颜面。&lt;/p&gt;
-&lt;p&gt;他们一行人与 Larry 在车站重逢。然后 Elliott 邀请 Larry 明天的午餐。&lt;/p&gt;
-&lt;p&gt;次日，Elliott 和 Mrs. Bredley 聊天，聊起了 Isabel 和 Gray 以及 Larry。Elliott 对 Larry 神神秘秘、不服从自己的安排感到不满。接着 Mrs. Bredley 说起了自己和 Isabel 提前来欧洲的原因，原来是 Mrs. Bredley 得了糖尿病，希望早点安顿好 Isabel，于是来欧洲看看 Larry 是否变得“合适”了。&lt;/p&gt;
-&lt;p&gt;Elliott 又谈到他对 Mrs. Bredley 母女的行程安排：今天中午的午宴以及周末的晚宴，并依 Mrs. Bredley 的意思邀请了 Larry。&lt;/p&gt;
-&lt;p&gt;Elliott 试图撮合 Larry 和一个法国贵妇 Marie Louise de Florimond，但失败了，并被 Louise 夫人回怼。晚宴上的其他人都很喜欢 Larry 和 Isabel。&lt;/p&gt;
-&lt;h3 id=&#34;iv-1&#34;&gt;(iv)
-&lt;/h3&gt;&lt;p&gt;早上吃早餐的时候，Mrs. Bredley 和 Isabel 提起马上就到和拉里约定的两年了。&lt;/p&gt;
-&lt;p&gt;Isabel 和 Larry 共进午餐，并提出想要去 Larry 的住所看一下，发现是个十分简朴的出租屋。他们谈论了各自的追求，Isabel 希望 Larry 能跟他芝加哥，上进工作，过上更好的物质生活；而 Larry 追求的是精神上的富足，更愿与 Isabel 留在巴黎接触那些有趣的人和事，虽然不富裕但很充实快乐。最终二人因理念不合和平分手。&lt;/p&gt;
-&lt;h3 id=&#34;v-1&#34;&gt;(v)
-&lt;/h3&gt;&lt;p&gt;Isabel 进到客厅时，发现聚集了许多客人，其中有两名贵妇令她感到艳羡（但贵妇们也同样对 Isabel 的年轻与活力感到嫉妒）。&lt;/p&gt;
-&lt;p&gt;等客人走后，Isabel 向 Elliott 和 Mrs. Bredley 坦白自己和 Larry 解除婚约的事。他们对此表示认同。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;单词/短语&lt;/th&gt;
-&lt;th&gt;意思&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;you could not but be conscious that&lt;br&gt;&lt;/td&gt;
-&lt;td&gt;你不可能不意识到&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;fall to pieces&lt;/td&gt;
-&lt;td&gt;碎掉&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;not up to your mark&lt;/td&gt;
-&lt;td&gt;比不上你&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;vi-1&#34;&gt;(vi)
-&lt;/h3&gt;&lt;p&gt;我从中东回到伦敦，被 Elliott 邀请去参加晚餐，久违地见到了 Mrs. Bredley 和 Isabel，得知了 Isabel 和 Larry 解除婚约的事情。&lt;/p&gt;
-&lt;p&gt;Elliott 对 Isabel 和 Larry 仍然频繁地往来感到不满，计划安排 Isabel 一家去参加英国的各种游宴，让 Isabel 分心，并顺便预约了一名糖尿病专家让 Mrs. Bredley 看一下病。&lt;/p&gt;
-&lt;p&gt;后来我想尽一下地主之宜，回请 Mrs. Bredley 等人共进午餐。Elliott 对我有些傲慢，于是互相之前用言语讥讽了一下。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;单词/短语&lt;/th&gt;
-&lt;th&gt;意思&lt;/th&gt;
-&lt;th&gt;例句&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;be urshered in&lt;br&gt;&lt;/td&gt;
-&lt;td&gt;被带进（某地）&lt;/td&gt;
-&lt;td&gt;I am ushered in the drawing-room.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;is taken with&lt;/td&gt;
-&lt;td&gt;喜欢某人&lt;/td&gt;
-&lt;td&gt;He is taken with her.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;fell in with the plan&lt;/td&gt;
-&lt;td&gt;同意这个计划&lt;/td&gt;
-&lt;td&gt;Now that you fell in with this plan, I have no word to say.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;reasonably account for&lt;/td&gt;
-&lt;td&gt;对某事做出合理的解释&lt;/td&gt;
-&lt;td&gt;His extreme sadness would reasonly account for his sudden departure.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;did not turn a hair&lt;/td&gt;
-&lt;td&gt;毫不动容&lt;/td&gt;
-&lt;td&gt;The knife almost touched his face, but he didn&amp;rsquo;t turn a hair.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;vii-1&#34;&gt;(vii)
-&lt;/h3&gt;&lt;p&gt;Elliott 带着他的亲人到处参加贵族的聚会，看似无私地想帮助 Isabel 走出不幸，但更像是为了跟他姐姐炫耀自己与上流社会多么熟悉。&lt;/p&gt;
-&lt;p&gt;Isabel 邀请我共进午餐，并进了了深度的谈话，探讨 Larry 的目的以及 Isabel 的感受。Isabel 提到有次她想通过怀孕逼迫 Larry 回国，但最后不忍骗 Larry，还是没有执行这个计划。&lt;/p&gt;
-&lt;p&gt;最后我给 Isabel 讲了一个关于远航的道理，希望能给 Isabel 一点安慰。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;单词/短语/句子&lt;/th&gt;
-&lt;th&gt;意思&lt;/th&gt;
-&lt;th&gt;例句&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;I don&amp;rsquo;t suppose&lt;br&gt;&lt;/td&gt;
-&lt;td&gt;我应该（don&amp;rsquo;t 表示不确定）&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;throw her off the scent&lt;/td&gt;
-&lt;td&gt;让她不再追问&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;名言：&lt;/p&gt;
-&lt;p&gt;There are criminals who&amp;rsquo;ll work like beavers to contrive schemes that land them in prison and they no sooner get out than they start all over again and again land in prison.&lt;/p&gt;
-&lt;h2 id=&#34;第三章&#34;&gt;第三章
-&lt;/h2&gt;&lt;h3 id=&#34;i-2&#34;&gt;(i)
-&lt;/h3&gt;&lt;p&gt;后来我有将近十年没有见到 Larry 和 Isabel 了。偶而可以通过 Elliott 了解 Isabel 的近况，但确实很久没有与 Larry 碰过面了。直到多年以后我才从他的口中得知他的经历。&lt;/p&gt;
-&lt;p&gt;Larry 在和 Isabel 分开后，一开始打算去希腊，但放弃了，于是一直待在巴黎，工作到深秋。然后觉得自己应该参加一些体力劳动，于是经介绍去了一家矿场到地下挖煤矿，并因此结识了 Kosti，一个曾经的骑兵军官，自己说是逃亡出来，不过他们老对头说他是被赶出来的。Larry 一开始做 Kosti 的助手，但后来因为自己懂一点机械知识，修理一些机器，当上了工头的机械顾问。&lt;/p&gt;
-&lt;p&gt;Larry 和 Kosti 经常在工作结束之后去小酒馆喝一杯酒，并玩一些赌搏游戏。他经常出老千，但 Larry 不知道他是如何做到的。Larry 非常欣赏 Kosti，觉得他非常有文化，又很健谈。&lt;/p&gt;
-&lt;h3 id=&#34;ii-2&#34;&gt;(ii)
-&lt;/h3&gt;&lt;p&gt;Kosti 提议去德国游荡，并邀请 Larry 一起，Larry 同意了，于是他们一同辞职步行前往德国。&lt;/p&gt;
-&lt;p&gt;后来他们到了德国境内，但钱快用完了，于是决定就近找一个农场干活，只要吃穿。他们被拒绝了几次之后，终于找到了一家农场。Larry 干活，感到非常充实。&lt;/p&gt;
-&lt;p&gt;农场主老 Becker 的妻子 Frau Becker 是 Becker 领养的女孩，在老 Becker 上任妻子去世之后成为正妻，因此她与老 Becker 的儿媳 Ellie，一个丈夫死于战争的寡妇，十分不对付。&lt;/p&gt;
-&lt;p&gt;Larry 时常跟 Ellie 学习德语。&lt;/p&gt;
-&lt;p&gt;而 Frau Becker 则是经常对 Larry 暗送秋波，可 Larry 认为她的年龄都可以做自己的母亲了，对其并不感冒，但却不知如何应对，只能装作没有看见。&lt;/p&gt;
-&lt;p&gt;他的破衣服会被修补好。&lt;/p&gt;
-&lt;p&gt;一次天很热，Larry 干活之后直接裸睡，迷迷糊糊起来，发现自己被用强了。他起初以为是 Frau Becker，结果没想到是 Ellie。他觉得不能在这个农场待了，于是立马动身，趁着夜色到了镇上，准备前往波恩住上一段日子。&lt;/p&gt;
-&lt;h3 id=&#34;iii-2&#34;&gt;(iii)
-&lt;/h3&gt;&lt;p&gt;Isabel 和 Gray 在芝加哥举办了隆重的婚礼结了婚，Elliott 很认可这个婚礼，不远万里、不惜花费重金购置结婚相关物品，并为此感到自满。&lt;/p&gt;
-&lt;p&gt;Isabel 和 Gray 后来搬进了 Herry Maturin 送的豪华房子，并有了两个女儿，Joan 和 Priscilla。&lt;/p&gt;
-&lt;p&gt;后来 Elliott 通过Henrry Maturin 的股票赚了很多钱。然而随着与他深交的旧贵族圈层的逐渐老去，他不再被新的贵族圈层待见。其中由他提拨但却变得对他十分傲慢的年轻人 Paul Barton 感到十分不快。&lt;/p&gt;
-&lt;p&gt;整个巴黎享乐之风盛行，但这不是 Elliott 想要的。&lt;/p&gt;
-&lt;h3 id=&#34;iv-2&#34;&gt;(iv)
-&lt;/h3&gt;&lt;p&gt;有朋友告诉 Elliott 里维埃拉即将变成时尚和旅游盛地，刚好他又通过 Herry 的股票挣了大钱，也不知是上帝的眷顾还是他自己独到的眼光，买下了两座即将成为时尚中心地段的房子，将他们打通连起并进行了高贵但平淡的装修。&lt;/p&gt;
-&lt;p&gt;后来 Elliott 办了许多高雅但不奢靡的宴会，接待了许多来自欧洲各国的贵族人士，也邀请了当地的权贵例如地区的行政长官、教区的主教以及其总司铎陪同共同进餐。&lt;/p&gt;
-&lt;p&gt;Elliott 想向他的家人展示自己的成就，于是邀请 Mrs. Bredley 和 Isabel 来自己这里游玩。可是 Mrs. Bredley 身体状况不好，需要静养，不来了；不过 Isabel 和 Gray 答应前来。&lt;/p&gt;
-&lt;p&gt;后来，经济大萧条来了。&lt;/p&gt;
-&lt;h3 id=&#34;v-2&#34;&gt;(v)
-&lt;/h3&gt;&lt;p&gt;起初我在伦敦，并这场灾难对我来说虽然有影响，但没有像美国那么严重。我知道 Elliott 重仓了股票，觉得他应该损失惨重。后来我们都回到了里维埃拉，才得知 Henry 由于过于自负加上经济大势所趋导致股票暴跌，再加身体抱恙，被人嘲笑，心力憔悴之下，心栓梗塞而死。公司剩下 Gray 经营，由于他经常搞一些不正当的活，再加上自己的鲁莽，很快致使公司破产倒闭，家产都变卖完了，最后他们一家只能搬到卡罗来纳州的草场住。&lt;/p&gt;
-&lt;p&gt;这股灾难之风最终也吹到了欧洲、里维埃拉，我周围的店铺经营都很差。可是 Elliott 却似乎没有受到任何影响，甚至每年还带自己的仆人们到自己巴黎的公寓度假。后来和他交谈我才知道原因，原来他受到梵蒂冈的人指点，知道经济危机即将到来，凭着自己的直觉，提前卖掉了自己的所有股票，这才幸免于难。&lt;/p&gt;
-&lt;p&gt;后来他被告知他的姐姐 Mrs. Bredley 病危，于是又回到美国照看她，并在她死后帮她处理了后事。&lt;/p&gt;
-&lt;p&gt;Gray 无处上班，一家生活非常困难，Elliott 又让他们一家住到自己巴黎的公寓，这使我十分钦佩 Elliott 的为人。&lt;/p&gt;
-&lt;h2 id=&#34;第四章&#34;&gt;第四章
-&lt;/h2&gt;&lt;h3 id=&#34;i-3&#34;&gt;(i)
-&lt;/h3&gt;&lt;p&gt;我因工作到巴黎，时隔十年再一次见到了 Isabel，她的身材外貌都有挺大的变化，更加具有女人味了。&lt;/p&gt;
-&lt;p&gt;我也同样见到了她的两个女儿 Joan 和 Priscilla 以及刚打完高尔夫回来的 Gray。Gray 变胖了，并且很憔悴。&lt;/p&gt;
-&lt;h3 id=&#34;ii-3&#34;&gt;(ii)
-&lt;/h3&gt;&lt;p&gt;后来我常去拜访 Isabel。我们相谈甚欢，并且我惊诧于 Isabel 的美貌。&lt;/p&gt;
-&lt;h3 id=&#34;iii-3&#34;&gt;(iii)
-&lt;/h3&gt;&lt;p&gt;我十分喜欢巴黎，其中以蒙帕纳斯最盛。看着现在年轻的学生，使我回忆起以前的种种，令我感慨万千。&lt;/p&gt;
-&lt;p&gt;我在巴黎吃饭的时候，偶然遇见一个像乞丐一样的人跟我打招呼，居然是 Larry。我与他聊天，得知了他的近况。先是表示他的一身行头十分破烂，我愿意资助他换一身衣服，但被拒绝。&lt;/p&gt;
-&lt;p&gt;然后我告诉了他 Isabel 和 Gray 的境遇，Larry 表示过几天会去探望他，接着就结束对话离开了。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;单词/短语/句子&lt;/th&gt;
-&lt;th&gt;意思&lt;/th&gt;
-&lt;th&gt;例句&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;odds and ends&lt;/td&gt;
-&lt;td&gt;零碎物品&lt;/td&gt;
-&lt;td&gt;I should get myself a few odds and ends.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;anew&lt;/td&gt;
-&lt;td&gt;再一次&lt;/td&gt;
-&lt;td&gt;I never came into her presence without feeling anew a little thrill of pleasure in her look.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;scarcely&lt;/td&gt;
-&lt;td&gt;几乎不&lt;/td&gt;
-&lt;td&gt;His manner scarcely correspond to his inner feeling.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;好句&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;If I was going to do it all, I&amp;rsquo;d better do the thing in style.
-我既然打算做，就最好把它做好。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;iv-3&#34;&gt;(iv)
-&lt;/h3&gt;&lt;p&gt;我跟 Isabel 和 Gray 说了我碰到 Larry 和他即将前来拜访的事，这令他们非常激动。然而苦等了 5 天 Larry 才来，原来是因为他飞去订制新行头来见旧人，所以花费了点时间。&lt;/p&gt;
-&lt;p&gt;我们相聚甚欢，一起吃了晚饭，不过 Larry 不怎么喝酒。Isabel 告知了 Larry 自己的遭遇，我们也得知了 Larry 在过去 5 年在印度的经历，虽然并不详尽：他一直在印度读书、思索，遇见过瑜珈士，也认识过圣人。&lt;/p&gt;
-&lt;p&gt;Larry 突然就准备离开，并不愿告知自己的住所。我提议明天晚上我们可以去外面参加一个聚会。&lt;/p&gt;
-&lt;h3 id=&#34;v-3&#34;&gt;(v)
-&lt;/h3&gt;&lt;p&gt;我到达 Isabel 的公寓，准备出发去聚会，结果发现 Gray 因头痛无法出门。&lt;/p&gt;
-&lt;p&gt;Larry 使用了神奇的催眠术，一下子便消除了 Gray 的头痛，令我和 Isabel 感到十分诧异。&lt;/p&gt;
-&lt;p&gt;我们得以正常前往聚会，在聚会上十分愉快，可 Larry 却对自己的神奇之术闭口不谈。&lt;/p&gt;
-&lt;h3 id=&#34;vi-2&#34;&gt;(vi)
-&lt;/h3&gt;&lt;p&gt;自那之后我们和 Larry 经常碰面。但有次 Gray 刚好又犯病但 Larry 不在，于是等 Larry 晚上到的时候 Gray 要求他的地址，但 Larry 不愿告知，只给了一个能联系到他的方式。&lt;/p&gt;
-&lt;p&gt;于是我与 Isabel 探讨了 Larry 不想给地址的原因，并顺着这个话题讨论了她对 Larry 的情感、她对 Gray 的情感以及她自身的性格等，以及围绕这个的哲学相关话题。Isabel 表示她只爱 Larry，但更适合 Gray，觉得 Larry 肯定还爱着她并且 Larry 还是个处。&lt;/p&gt;
-&lt;p&gt;天色晚了，我离开之后想到了 Suzanne，决定去找她吃个饭看个电影。&lt;/p&gt;
-&lt;h3 id=&#34;vii-2&#34;&gt;(vii)
-&lt;/h3&gt;&lt;p&gt;Suzanne 从小和母亲生活在乡村里，依靠母亲的抚恤金生活。在她 17 岁时她到邻镇上当了裁缝补贴家用，并因此结识了一名艺术家，然后成为了他的情人，被他带到了巴黎。&lt;/p&gt;
-&lt;p&gt;自那以后，Suzanne 又换了很多个艺术家，有立体派的、现实主义的、有钱的等等，当他们的情人，当他们的模特，为他们处理家务。这其中，她爱上了一个斯堪的纳维亚的艺术家，并与他生了个女儿。后来这个艺术家也找了个借口离开了她，并再也没回来找过她。&lt;/p&gt;
-&lt;p&gt;有次 Suzanne 得了伤寒，在医院住了三个月，出来之后身体虚弱又无人可依。所幸遇到了以前的一个情人，愿意拿她当模特，为她提供吃住。&lt;/p&gt;
-&lt;p&gt;在此期间，有个富豪看上了 Suzanne，让 Suzanne 做他的情人，解决他两周一次出差的会议时的生理需求。Suzanne 答应了。&lt;/p&gt;
-&lt;h3 id=&#34;viii-1&#34;&gt;(viii)
-&lt;/h3&gt;&lt;p&gt;Suzanne 住到了巴黎蒙帕纳斯，负责照顾 Monsieur Achille Gauvain，他的富豪情人 2 周一次的起居。&lt;/p&gt;
-&lt;p&gt;Monsieur Achille 对 Suzanne 的体贴感到高兴。Suzanne 对他也感到满意。Suzanne 既不能说忠诚——因为 Suzanne 有时也会搞外遇，但也不能说不忠——她不会让他的情人在 Monsieur Achille 给的公寓中过夜。&lt;/p&gt;
-&lt;p&gt;我是通过一个艺术家熟人认识 Suzanne 的，也因此认识了 Monsieur Achille，被其夸赞自己的文学。&lt;/p&gt;
-&lt;p&gt;后来 Suzanne 太闲了，突然想像她的前情人一样，于是她开始画画，得到了 Monsieur Achille 的支持。&lt;/p&gt;
-&lt;p&gt;Monsieur Achille 把 Suzanne 的女儿送到了修道院，使其接受良好的教育，长大后也送去当打字员，能够糊口。Suzanne 认为这个提议不赖。&lt;/p&gt;
-&lt;h3 id=&#34;ix-1&#34;&gt;(ix)
-&lt;/h3&gt;&lt;p&gt;两周后我和 Suzanne 在餐馆吃饭的时候偶然遇见了 Larry，并意外得知 Suzanne 和 Larry 是老相识，并稍显亲密。我迫不及待地想知道这是怎么回事。&lt;/p&gt;
-&lt;p&gt;原来 Suzanne 在伤寒之后出院，走投无路之下遇到了 Larry。Larry 把 Suzanne 连同她的女儿 Odette 一起带到了乡下静养，也是让自己休息。&lt;/p&gt;
-&lt;p&gt;经过休养，Suzanne 恢复了状态。这使得 Suzanne 几乎爱上了 Larry，并用自己的身体回报。又过了一段时间，他们分开了。&lt;/p&gt;
-&lt;h2 id=&#34;第五章&#34;&gt;第五章
-&lt;/h2&gt;&lt;h3 id=&#34;i-4&#34;&gt;(i)
-&lt;/h3&gt;&lt;p&gt;我很享受在巴黎的时光，经常与 Isabel、Gray、Larry 一同乘车出游。Gray 也不再头痛了。&lt;/p&gt;
-&lt;p&gt;但有一次回家途中的车上，我发现 Isabel 对着 Larry 进行了手淫，这使我感到非常震惊。&lt;/p&gt;
-&lt;p&gt;我即将离开巴黎回到里维埃拉，而 Larry 准备继续在巴黎工作一段时间。&lt;/p&gt;
-&lt;p&gt;我离开的前一个晚上，打算和他们三个人再吃一次晚饭。就是在这个晚上，我意外碰到了 Sophie。&lt;/p&gt;
-&lt;h3 id=&#34;ii-4&#34;&gt;(ii)
-&lt;/h3&gt;&lt;p&gt;在 Isabel 的坚持下，我们前往一个夜店吃饭。穿过乌烟瘴气、淫秽不堪的过道和一些看着就不良的人群，我们在一个桌子边坐下了。&lt;/p&gt;
-&lt;p&gt;结果我们却意外碰到了 Sophie，她喝醉了，并且性格和以前大不相同，大大咧咧且满嘴污言秽语，令我们感到十分震惊。&lt;/p&gt;
-&lt;p&gt;等她离开后，我们打算在外面吃点什么。经过 Isabel 的讲述，我想起 Sophie 是我第一次参加聚会时的邻座那个非常安静的小女孩。本来嫁给了一个英俊的男子，也有了一个孩子，过着非常恩爱、幸福美满的生活。然而一场车祸把她的丈夫和孩子的性命夺走了，她却意外活了下来。自那之后她便疯了，求死不能，每日酗酒乱交，赔偿的钱也被挥霍一空。她的婆家不想丢颜面，把她赶到国外（巴黎），持续地给点补助。Sophie 以此度日。&lt;/p&gt;
-&lt;p&gt;Isabel 觉得 Sophie 现在的行径是她本性如此，不值得可怜。而 Larry 回忆起从前的 Sophie，觉得是这场悲剧的车祸使她绝望，导致了她现在的境地。我也和 Larry 保持一样的观点。Larry 对待 Sophie 的态度使 Isabel 感到非常烦躁。&lt;/p&gt;
-&lt;h3 id=&#34;iii-4&#34;&gt;(iii)
-&lt;/h3&gt;&lt;p&gt;Elliott 身体看上去不太好，已经开始策划自己的葬礼。他费力为自己准备了一个洗礼盆、三联画以及一个墓志铭以炫耀自己的社会地位，并且吐槽了美国的社交礼仪崩坏。&lt;/p&gt;
-&lt;p&gt;不过 Elliott 尽管年龄大，身体也不佳，却仍热衷于参加各种上流聚会。&lt;/p&gt;
-&lt;h3 id=&#34;iv-4&#34;&gt;(iv)
-&lt;/h3&gt;&lt;p&gt;Elliott 准备前往巴黎看看 Isabel、Gray 和他们的孩子们，并邀请我一同前去，我同意了。&lt;/p&gt;
-&lt;p&gt;到了巴黎，我被 Isabel 的一封留语叫了过去，得知 Larry 和 Sophie 即将结婚。这个事实令 Isabel 非常震惊和不悦，认为 Sophie 是个荡妇，会毁了 Larry。&lt;/p&gt;
-&lt;p&gt;而我建议 Isabel 接受这个事实，甚至可以帮助他们的婚礼事宜。Isabel 非常愤怒，与我展开了一番激烈的争执，最终还是接受了这个提议，并让我举办一个小派对让大家聚一聚。&lt;/p&gt;
-&lt;h3 id=&#34;v-4&#34;&gt;(v)
-&lt;/h3&gt;&lt;p&gt;聚会比较顺利。我见到了 Sophie，她没有之前在夜店那么张扬了。&lt;/p&gt;
-&lt;p&gt;聚会上的酒非常不错，Elliott 借此讲述着自己的高贵交往，尽管他的肾不太好。Isabel 也一反常态，喝了许多，并让 Gray 带一些酒回家。&lt;/p&gt;
-&lt;p&gt;聚会末了，Isabel 约好带 Sophie 去服装展买衣服。我在聚会第二天前往了英国。&lt;/p&gt;
-&lt;h3 id=&#34;vi-3&#34;&gt;(vi)
-&lt;/h3&gt;&lt;p&gt;两个星期后，Elliott 到克拉里奇，我去拜访他，意外得知 Sophie 逃婚了，Larry 到处找她而不得。&lt;/p&gt;
-&lt;p&gt;直到一年后在土伦，我偶然遇见 Sophie，才知道事情的经过。原来她不希望 Larry 为了救赎自己而与她结婚，并且那天受到 Isabel 家中美酒的诱惑，于是打算回归本性。&lt;/p&gt;
-&lt;p&gt;Sophie 在土伦放纵自我，吸食鸦片，又找了个身强体壮的水手做男朋友。临走时，Sophie 让我给一本书店里我的著作签个名，我去书店买了一本，签了名送给了她。&lt;/p&gt;
-&lt;h3 id=&#34;vii-3&#34;&gt;(vii)
-&lt;/h3&gt;&lt;p&gt;Elliott 家的男仆 Joseph 告诉我 Elliott 病了，于是我到昴蒂布看望他，发现虽然他生病了，但精神却还不错。&lt;/p&gt;
-&lt;p&gt;一周后我意外在朋友的聚会上看到了他，他看着气色非常不好。没过几天，他又病倒了，并且被禁止出门。与此同时，他通过 Paul Barton 过来借衣服推测出自己没有被 Edna 邀请去她的盛大的宴会（因为他已经老了，并且和 Edna 有过节），这使他伤心愤恨。&lt;/p&gt;
-&lt;p&gt;看着这个老朋友因没被邀请而痛哭，我也不是滋味，决定偷偷从 Edna 那里帮他拿一张请帖回来，因为反正 Elliott 已经卧病在床去不了。不料虽然 Edna 带众人去花园观光，她的助理  Keith 小姐却在请柬处。不过好在她非常地通情达理，于是我顺利地拿到了请帖，并偷偷寄给了 Elliott。&lt;/p&gt;
-&lt;h3 id=&#34;viii-2&#34;&gt;(viii)
-&lt;/h3&gt;&lt;p&gt;Elliott 收到了请柬，非常开心，虽然身体不好，但仍然打算前往。结果第二天他的病情就恶化了。我立马发电报给 Isabel 和 Gray，但我估算了一下，他们需要 3 天才能到。&lt;/p&gt;
-&lt;p&gt;他的管家 Joseph 向我提到接受死前洗礼仪式的重要性。我与 Elliott 交谈了此事，最终他同意接受洗礼。于是我打电话叫来了一名主教，让 Elliott 进行了相关的仪式。主教离开前 Elliott 家的仆从们给予了祝福。&lt;/p&gt;
-&lt;h3 id=&#34;ix-2&#34;&gt;(ix)
-&lt;/h3&gt;&lt;p&gt;接受仪式之后，我本以为 Elliott 想静养，但 Elliott 却找我聊天。他提到自己死后一定可以进入天国中的贵族阶层。然后他让我帮他以一种幽默的方式写给 Edna 的回信。&lt;/p&gt;
-&lt;p&gt;Elliott 断断续续地昏迷，在夜里离开了人世。我陪伴他直到天亮。&lt;/p&gt;
-&lt;p&gt;后来我接到了 Elliott 的生前委托，让我来操办他的后事。我按照他的指示，为他穿上了他的先祖德-劳里亚伯爵的衣服，并要把他安葬在自己建的教堂中。&lt;/p&gt;
-&lt;p&gt;Gray 和 Isabel 在意大利参加了他的葬礼。&lt;/p&gt;
-&lt;h2 id=&#34;第六章&#34;&gt;第六章
-&lt;/h2&gt;&lt;h3 id=&#34;i-5&#34;&gt;(i)
-&lt;/h3&gt;&lt;p&gt;简短地表示了本章对剧情推动没什么作用，但本章与拉里的谈话是成书的原因。&lt;/p&gt;
-&lt;h3 id=&#34;ii-5&#34;&gt;(ii)
-&lt;/h3&gt;&lt;p&gt;本章主要讲述了 Elliott 死后与他相关的人的近况以及他的遗产分配问题。Elliott 留下了一部分钱做弥撒、他建的教堂的维护，一部分用于慈善事业，给他的仆人、两个大侄子各留了许多的遗款，然后剩下的全部留给了 Isabel。&lt;/p&gt;
-&lt;p&gt;Gray 一心想要回美国工作，但之前没有钱争取一个比较好的机会。有了遗产之后他再次尝试。不过他们还需要交遗产税，卖掉 Elliott 的地产以及一些有价值的东西。&lt;/p&gt;
-&lt;p&gt;Isabel 对在巴黎的生活还是挺满意的。Isabel 的两个女儿也都出落成大姑娘了，长得十分标致。&lt;/p&gt;
-&lt;h3 id=&#34;iii-5&#34;&gt;(iii)
-&lt;/h3&gt;&lt;p&gt;我在巴黎的一个剧院看戏，散场后，意外碰见了 Larry。我和他讨论了戏剧的内容，可能是这戏使他倘开心扉，他与我聊起了他“游荡”的经历，讲述了他如何在印度学会了“精神治愈法”并借以治疗了许多人，我的手臂甚至也不由自主地抬起来了，令我很是诧异。&lt;/p&gt;
-&lt;p&gt;Larry 又跟我说了他在波恩的经历，在那里他认识了一个学识渊博的传教士，跟他散步、聊天，并告诉了他自己的经历，包括参加战争、目睹战友战死、自己一直在寻找生命的意义等等，然后被邀请去修道院生活一段时间，Larry 去了，但仍然未能解决自己心中关于“如果真有万能的上帝，为什么要制造一些本可以不需要的邪恶”、“人们为什么要信仰一个只能尽力而非全能的上帝”等疑问，于是离开了修道院。&lt;/p&gt;
-&lt;h3 id=&#34;iv-5&#34;&gt;(iv)
-&lt;/h3&gt;&lt;p&gt;拉里去到了法国、西班牙寻找心中的答案，期间他遇到了一个法国女人 Auguste Cottet，并让她跟他住了一段时间。她的男子在服兵役，她还有个孩子在乡村。&lt;/p&gt;
-&lt;p&gt;等她的情人服完兵役回来之后，她离开了 Larry。Larry 后来在一次旅程中前往了印度。&lt;/p&gt;
-&lt;h3 id=&#34;v-5&#34;&gt;(v)
-&lt;/h3&gt;&lt;p&gt;本章主要介绍了深夜我和 Larry 所在酒馆的一些景象。有高瘦的男人、矮胖的女人等，客人来来往往。&lt;/p&gt;
-&lt;p&gt;有个瘦小的男人在看报纸，一个女人进来给了她钱，被男的扇了一巴掌，引发了一场骚乱。&lt;/p&gt;
-&lt;h3 id=&#34;vi-4&#34;&gt;(vi)
-&lt;/h3&gt;&lt;p&gt;Larry 到了孟买，受到其宗教文化触动，觉得可以找到自己心中的答案，决定留在印度，并遇见了一个教会的长老，看到了一个宏伟的半身像。&lt;/p&gt;
-&lt;p&gt;Larry 跟我说了许多关于生命的哲理相关的话。&lt;/p&gt;
-&lt;h3 id=&#34;vii-4&#34;&gt;(vii)
-&lt;/h3&gt;&lt;p&gt;深夜 Larry 和我讲述了许多关于吠檀多、绝对、存在等哲学的话题，我对于与 Larry 的这次相遇以及 Larry 的为人感到奇特。&lt;/p&gt;
-&lt;h3 id=&#34;viii-3&#34;&gt;(viii)
-&lt;/h3&gt;&lt;p&gt;Larry 继续和我讨论了哲学的话题。&lt;/p&gt;
-&lt;h2 id=&#34;第六章-1&#34;&gt;第六章
-&lt;/h2&gt;&lt;h3 id=&#34;i--ii&#34;&gt;(i) ~ (ii)
-&lt;/h3&gt;&lt;p&gt;我被警察叫过去，并意外得知 Sophie 被杀害。Larry 也得知了此事，我们后来为其安置了葬礼。&lt;/p&gt;
-&lt;h3 id=&#34;iii-6&#34;&gt;(iii)
-&lt;/h3&gt;&lt;p&gt;Larry 即将回到美国过一个自由的生活。&lt;/p&gt;
-&lt;p&gt;我验证了自己的想法，Isabel 确实是故意放的那瓶酒，间接导致了 Sophie 的堕落。&lt;/p&gt;
-&lt;h3 id=&#34;iv--vi&#34;&gt;(iv) ~ (vi)
-&lt;/h3&gt;&lt;p&gt;Maturin 一家离开了巴黎回到了美国，并在那边过得很好。&lt;/p&gt;
-&lt;p&gt;Monsieur Achille 的妻子过世了，他要续弦 Suzanne，并打算让 Suzanne 参加一个画展，以此提高名望。&lt;/p&gt;
-&lt;p&gt;我最后发现，我写了一个 happy ending，基本上每个人都过上了自己想要的生活。&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -725,278 +367,6 @@
         </item>
         <item>
         <title>《汇编语言》 读书笔记</title>
-        <link>http://localhost:1313/blog/post---test/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
-        <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/post---test/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
-        <description>&lt;h2 id=&#34;第-1-章-基础知识&#34;&gt;第 1 章 基础知识
-&lt;/h2&gt;&lt;p&gt;在汇编层面，指令和数据别无二致，都是一堆二进制数据。&lt;/p&gt;
-&lt;p&gt;那么，CPU 是如何分辨此时的二进制代码应当识别为数据还是指令呢？&lt;/p&gt;
-&lt;p&gt;答案是 IP 寄存器。IP 寄存器指向的数据即为指令。&lt;/p&gt;
-&lt;p&gt;CPU 和内存共同组成了计算机的“大脑”，二者之间通过总线进行连接。总线根据用途，可以分为：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;用于 CPU 告诉内存要取的数据地址的&lt;strong&gt;地址线&lt;/strong&gt;；&lt;/li&gt;
-&lt;li&gt;用于内存向 CPU 传递数据的&lt;strong&gt;数据线&lt;/strong&gt;；&lt;/li&gt;
-&lt;li&gt;用于 CPU 向内存传递读写指令的&lt;strong&gt;控制线&lt;/strong&gt;。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;CPU 的所有指令以及数据，都是通过总线在内存中进行访问的，但物理上各种数据的存储又是分开的，比如显卡的显存，主存储器的 RAM 等（这些都是运行时的内存）。因此，很容易联想到，这些物理上的内存一定通过某种方式联系了起来，供 CPU 使用。具体表现为，CPU 使用的是虚拟内存地址，将逻辑地址映射到物理地址上。&lt;/p&gt;
-&lt;p&gt;其中，虚拟内存地址的映射是通过内存管理单元（MMU, Memory Management Unit）来实现的。MMU 负责将 CPU 的逻辑地址（虚拟地址）映射到物理地址，并管理虚拟内存的分页、段等操作。这一过程涉及到页表（Page Table）的使用，CPU 通过查找页表，将虚拟地址转换为物理地址，最终访问到具体的物理内存。&lt;/p&gt;
-&lt;h2 id=&#34;第-2-章-寄存器&#34;&gt;第 2 章 寄存器
-&lt;/h2&gt;&lt;p&gt;8086 cpu 有 14 个寄存器，其中通用寄存器有 4 个：ax、bx、cx、dx，这四个都可以分为上下进行使用，例如 ax 可以分为 al、ah。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240909192019.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;image.png&#34;
-	
-	
-&gt;
-8086 cpu （16 位）可以处理两种类型的数据：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;字节，1 字节 = 8 bit&lt;/li&gt;
-&lt;li&gt;字，1 字 = 2 字节 = 16 bit&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;cs 和 ip 是最重要的寄存器。CPU 通过 cs:ip 访问所有的指令，指令的位置为&lt;code&gt;基址 + 偏移&lt;/code&gt;，即 &lt;code&gt;cs * 16 + ip&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;常用指令：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;jmp 2AE3:3&lt;/code&gt;，令 cs = 2AE3，ip = 3。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;mov ax, bx&lt;/code&gt;，将 bx 的值赋给 ax。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;jmp 4&lt;/code&gt;，令 ip = 4，cs 不变。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;第-3-章-寄存器内存访问&#34;&gt;第 3 章 寄存器（内存访问）
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240913152935.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;image.png&#34;
-	
-	
-&gt;
-对于这张图，1 地址处的&lt;strong&gt;字&lt;/strong&gt;型数据为 &lt;code&gt;124EH&lt;/code&gt;，&lt;strong&gt;字节&lt;/strong&gt;型数据为 &lt;code&gt;4EH&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;mov al, [0]&lt;/code&gt;：将 [0] 单元中的数据送入 al 寄存器，该数据的默认段地址为 ds 寄存器中的内容。&lt;code&gt;[0]&lt;/code&gt; 表示一个偏移地址为 0 的内存单元。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;mov ds, 1000H&lt;/code&gt; 是不合法的命令，&lt;code&gt;mov ds, ax&lt;/code&gt; 则合法。&lt;/p&gt;
-&lt;p&gt;栈由 &lt;code&gt;ss&lt;/code&gt; 寄存器 和 &lt;code&gt;sp&lt;/code&gt; 指针决定， &lt;code&gt;ss:sp&lt;/code&gt; 指向当前栈的栈顶。如果此时栈为空，则 &lt;code&gt;sp&lt;/code&gt; 为栈顶本来应该在的内存单元地址 + 2。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;push ax&lt;/code&gt; / &lt;code&gt;pop ax&lt;/code&gt; 的作用为先变化 &lt;code&gt;sp&lt;/code&gt; 指针，然后将 ax 中的内容压入栈中/从栈中内容弹出到 ax 中。&lt;code&gt;sp&lt;/code&gt; 指针从高地址向低地址变化。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240913201938.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;image.png&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;8086 CPU 根据不同的寄存器/指针判断当前内存区域是代码、栈还是数据：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;cs:ip 指向的内容为代码段的首位。&lt;/li&gt;
-&lt;li&gt;ds 中存放的内容就作为数据段的首位&lt;strong&gt;地址&lt;/strong&gt;。&lt;/li&gt;
-&lt;li&gt;ss:sp 指向的内容为栈段的栈顶。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;第-4-章-第一个程序&#34;&gt;第 4 章 第一个程序
-&lt;/h2&gt;&lt;p&gt;一个程序编写好了之后，需要经过编译、连接，才能成为可执行文件。每个步骤执行结束之后的文件后缀分别为：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;编写完成：&lt;code&gt;.asm&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;编译完成：&lt;code&gt;.obj&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;连接之后：&lt;code&gt;.exe&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;连接的作用：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;程序很大时，将多个编译后的文件连接在一起。&lt;/li&gt;
-&lt;li&gt;程序调用库文件中的程序时，将库文件和该文件生成的目标文件连接在一起。&lt;/li&gt;
-&lt;li&gt;单个文件编译之后有些内容无法直接生成机器码，这部分内容就由连接来生成机器码。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;第-5-章-bx和loop指令&#34;&gt;第 5 章 [BX]和loop指令
-&lt;/h2&gt;&lt;p&gt;设 bx 中的数据为 EA，ds 中的数据为 SA，则：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;mov ax, [bx]&lt;/code&gt; 表示将 EA:SA 的数据赋给 ax。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;mov [bx], ax&lt;/code&gt; 表示将 ax 的数据送入内存 EA:SA 处。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;loop s&lt;/code&gt; 表示循环标号 s 所在的代码，循环次数由 cx 寄存器决定。&lt;/p&gt;
-&lt;p&gt;指令中不只可以使用默认 ds 表示段地址，也可以使用段前缀，例如：&lt;code&gt;mov ds:[0] al&lt;/code&gt;，&lt;code&gt;mov ax, es:[bx]&lt;/code&gt; 等。&lt;/p&gt;
-&lt;h2 id=&#34;第-6-章-包含多个段的程序&#34;&gt;第 6 章 包含多个段的程序
-&lt;/h2&gt;&lt;p&gt;db 用于定义字节型数据，dw 用于定义字型数据。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;dw 0123h, 0456h&lt;/code&gt; 定义两个 16 进制数据  0123，0456。&lt;/p&gt;
-&lt;p&gt;如果先定义数据，再编写程序，则 CPU 指执行时最先接触的就是数据而非程序。因此，我们通过 &lt;code&gt;end&lt;/code&gt; 指明程序的入口，例如 &lt;code&gt;end start&lt;/code&gt; 指明入口程序的标号为 &lt;code&gt;start&lt;/code&gt;，程序执行的时候，CPU 就会自动将标号 start 程序所在的地址作为程序的起始地址。&lt;/p&gt;
-&lt;p&gt;dw 命令既可以说它定义了数据，也可以说它开辟了空间。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;mov ds data&lt;/code&gt;，data 为段标号。这句是将 data 所在的段地址赋给了 ds。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;db &#39;a&#39;, &#39;b&#39;&lt;/code&gt; 定义两个字符数据 a, b。当然实际只是 ASCII 码 65h、66h。&lt;/p&gt;
-&lt;p&gt;若是需要让 cpu 将代码段、栈段、数据段正确识别，就需要在程序运行时将段地址（cs、ss、ds）赋好、指针（ip、sp）的位置指好，例如：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;;; 假设已提前定义好 stack 段
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mov ax stack
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mov ss, ax
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mov sp, 20h
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;第-7-章-更灵活的定位内存地址的方法&#34;&gt;第 7 章 更灵活的定位内存地址的方法
-&lt;/h2&gt;&lt;p&gt;&lt;code&gt;and al, 10111111B&lt;/code&gt; 和 &lt;code&gt;or al, 10111111B&lt;/code&gt; 进行与和或的操作。&lt;/p&gt;
-&lt;p&gt;某内存的数据如下所示：&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;2000:1000 BE 00 06 00 6A 22 ......&lt;/code&gt;（ds = 2000, bx = 1000）则&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;第一个字的数据地址为 &lt;code&gt;2000:1000&lt;/code&gt;，值为 &lt;code&gt;00BEh&lt;/code&gt;。&lt;/li&gt;
-&lt;li&gt;第二个字的数据地址为 &lt;code&gt;2000:1002&lt;/code&gt;，值为 &lt;code&gt;0006h&lt;/code&gt;。&lt;/li&gt;
-&lt;li&gt;而 &lt;code&gt;ds:[bx + 1]&lt;/code&gt; 加的是字节，不是字，因此其值为 &lt;code&gt;0600h&lt;/code&gt;。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;大写字母和小写字母在二进制层面的区别为：小写字母的第 5 位为 1，而相应的大写字母的第 5 位为 0，且二者的二进制只有这里有区别。（位数从 0 开始算）&lt;/p&gt;
-&lt;p&gt;si，di 为功能和 bx 相近的寄存器。&lt;/p&gt;
-&lt;p&gt;常量、变量或者他们的结合都可以用来表示一个内存地址，例如 [5]，[bx + 4]，[bx + si]，[bx + di + 4] 等。&lt;/p&gt;
-&lt;h2 id=&#34;第-8-章-数据处理的两个基本问题&#34;&gt;第 8 章 数据处理的两个基本问题
-&lt;/h2&gt;&lt;p&gt;指令执行前，可能在的位置有 3 个：CPU 内部、内存、端口。&lt;/p&gt;
-&lt;p&gt;汇编中的数据位置有 3 种表达方式：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;立即数，执行前在 CPU 的指令缓冲器中，例如 &lt;code&gt;mov ax 1&lt;/code&gt;。&lt;/li&gt;
-&lt;li&gt;寄存器，执行前在 CPU 的寄存器中，例如 &lt;code&gt;mov ax，bx&lt;/code&gt;。&lt;/li&gt;
-&lt;li&gt;通过寄存器给出的偏移地址指向内存中的地址，执行前在内存中，例如 &lt;code&gt;mov ax，[bx + 8]&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;8086 cpu 中只有 4 个寄存器可以放在中括号 &lt;code&gt;[]&lt;/code&gt; 中表示内存地址，分别是 bx、di、si、bp。其中：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;当寄存器组合出现的时候，只有以下四种组合合法：&lt;code&gt;bx 和 di&lt;/code&gt;、&lt;code&gt;bx 和 si&lt;/code&gt;、&lt;code&gt;bp 和 di&lt;/code&gt;、&lt;code&gt;bp 和 si&lt;/code&gt;。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;[bp]&lt;/code&gt; 的段地址默认在 ss 中，而非 ds 中。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;常用寻址方式小结：
-&lt;img src=&#34;https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240925115228.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;image.png&#34;
-	
-	
-&gt;
-如何确定当前 CPU 要操作的是字型数据还是字节型数据？有如下 3 种方式：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;通过寄存器名指明，例如 ax 是字的，al 是字节的。&lt;/li&gt;
-&lt;li&gt;通过关键字指明，例如 &lt;code&gt;mov word ptr [bx]&lt;/code&gt; 指明是字型数据，&lt;code&gt;mov byte ptr [bx]&lt;/code&gt; 则指明是字节型数据。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;设被除数为 x，除数为 y，则要表达 x / y，其汇编指令为 &lt;code&gt;div y&lt;/code&gt;，除数存储在内存单元或者一个寄存器中，而被除数则存储在 &lt;code&gt;ax&lt;/code&gt; 或者 &lt;code&gt;ax&lt;/code&gt; 和 &lt;code&gt;dx&lt;/code&gt; 中。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;若 x 为 8 位，则 y 为 16 位，默认存放在 ax 中。&lt;/li&gt;
-&lt;li&gt;若 x 为 16 位，则 y 为 32 位，默认存放在 ax 和 dx 中，dx 放高 16 位，ax 放低 16 位。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;dd 1&lt;/code&gt; 定义一个双字型的数据 &lt;code&gt;00000001H&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;dup&lt;/code&gt; 配合 &lt;code&gt;db&lt;/code&gt;，&lt;code&gt;dw&lt;/code&gt;，&lt;code&gt;dd&lt;/code&gt; 等伪指令使用，用于重复创建相同的数据。例如 &lt;code&gt;db dup 3 (0)&lt;/code&gt; 创建 3 个字节类型的 0。&lt;/p&gt;
-&lt;h2 id=&#34;第-9-章-转移指令的原理&#34;&gt;第 9 章 转移指令的原理
-&lt;/h2&gt;&lt;p&gt;可以修改 ip 或 cs &amp;amp; ip 的指令称为转移指令。主要分为：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;无条件转移指令(如：jmp)&lt;/li&gt;
-&lt;li&gt;条件转移指令&lt;/li&gt;
-&lt;li&gt;循环指令(如：loop)&lt;/li&gt;
-&lt;li&gt;过程&lt;/li&gt;
-&lt;li&gt;中断&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;转移行为分为：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;段内转移（只修改 ip），如 &lt;code&gt;jmp ax&lt;/code&gt;。根据修改的 ip 大小，段内转移又分为：
-&lt;ul&gt;
-&lt;li&gt;短转移（-128 ~ 127）。&lt;/li&gt;
-&lt;li&gt;近转移（-32768 ~ 32767）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;段间转移（同时修改 cs &amp;amp; ip）如 &lt;code&gt;jmp 1000:0&lt;/code&gt;。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;mov ax, offset start&lt;/code&gt;，offset 的作用是获取 start 标号所在的偏移地址。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;jmp short s&lt;/code&gt;，short 表明此次 jmp 进行的是短转移，用 s 的偏移地址修改 ip 指针。&lt;/p&gt;
-&lt;p&gt;jmp 命令并不是通过目的地址进行跳转，而是通过相对量进行位移（相对量通过 &lt;code&gt;标号所在地址&lt;/code&gt; 与 &lt;code&gt;jmp 后一条命令所在地址&lt;/code&gt; 的地址之差获取）。使用相对地址跳转而不是直接使用绝对地址的好处在于，如果程序的在内存中的位置更改了，不用把所有的地址都一并更改。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;jmp far ptr s&lt;/code&gt;，far ptr 表明此次 jmp 进行的是段间转移（远转移），用 s 的段地址和偏移地址修改 cs 和 ip。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;jmp word ptr ds:[0]&lt;/code&gt;，word 表明在 ds:[0] 处存放了一个字的内容，用这个内容修改 ip 的值。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;jcxz s&lt;/code&gt;，jcxz 是一个条件转移，只有当 cx == 0 的时候才跳转到标号 s 所在位置。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;loop s&lt;/code&gt;，所有循环都是短转移，只有当 cx == 0 的时候才跳转到标号 s 所在位置。&lt;/p&gt;
-&lt;h2 id=&#34;第-10-章-call-和-ret-指令&#34;&gt;第 10 章 call 和 ret 指令
-&lt;/h2&gt;&lt;p&gt;&lt;code&gt;ret&lt;/code&gt; 相当于 &lt;code&gt;pop IP&lt;/code&gt;，即把栈中的数据弹到 IP 指针中。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;retf&lt;/code&gt; 相当于 &lt;code&gt;pop IP&lt;/code&gt; 再 &lt;code&gt;pop CS&lt;/code&gt;，即把栈中的数据弹到 IP 指针之后再弹一次数据到 CS 中。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;call 标号&lt;/code&gt; 的就是调用函数， 作用是先将当前的 IP 或者 CS &amp;amp; IP 压栈，然后再跳到标号所在的位置执行程序。根据是否跨段决定是否从栈中弹出 CS 的值，例如：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;call 标号&lt;/code&gt;，相当于 &lt;code&gt;push IP&lt;/code&gt;，&lt;code&gt;jmp near ptr 标号&lt;/code&gt;。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;call far ptr 标号&lt;/code&gt;，相当于 &lt;code&gt;push CS&lt;/code&gt;，&lt;code&gt;push IP&lt;/code&gt;，&lt;code&gt;jmp far ptr 标号&lt;/code&gt;。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;call al&lt;/code&gt;，相当于 &lt;code&gt;push IP&lt;/code&gt;，&lt;code&gt;jmp al&lt;/code&gt;。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;call word ptr [4]&lt;/code&gt;，相当于 &lt;code&gt;push IP&lt;/code&gt;，&lt;code&gt;jmp word ptr [4]&lt;/code&gt;。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;code&gt;call&lt;/code&gt; 和 &lt;code&gt;ret&lt;/code&gt; 一般配合使用，call 调用函数，在这之前将当前执行位置压栈，等执行完毕之后使用 ret 把栈中的内容返回。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;mul bl&lt;/code&gt; 或者 &lt;code&gt;mul bx&lt;/code&gt;，mul 表示乘法，两个乘数要么都是 16 位，要么都是 8 位。除了 mul 后的操作数，另一个乘数默认在 ax 中或者 al 中（跟位数有关）。8 位乘法的结果默认放在 ax 中，16 位默认高位在 dx 中，低位在 ax 中。&lt;/p&gt;
-&lt;p&gt;父子程序可能使用同一个寄存器，因此&lt;strong&gt;子程序&lt;/strong&gt;的最开头需要将这些信息入栈保存起来，结尾时候出栈返回。&lt;/p&gt;
-&lt;h2 id=&#34;第-11-章-标志寄存器&#34;&gt;第 11 章 标志寄存器
-&lt;/h2&gt;&lt;p&gt;即 flag，每一位都有作用。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;第 6 位，zf，0 标志位。zf = 1，则结果为 0。&lt;/li&gt;
-&lt;li&gt;第 2 位，pf，奇偶标志位。pf = 1，则结果里位为 1 的个数为偶数。&lt;/li&gt;
-&lt;li&gt;第 7 位，sf，符号标志位。sf = 1，则结果为负。&lt;/li&gt;
-&lt;li&gt;第 0 位，cf，进位标志位。cf = 1，则向高位借位或者进位了。&lt;/li&gt;
-&lt;li&gt;第 11 位，of，溢出标志位。of = 1，则发生了溢出。&lt;/li&gt;
-&lt;li&gt;第 10 位，df，方向标志位。df = 1，则每次操作之后 si、di 递减。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;adc 比 add 多加了一个 cf，sbb 比 sub 多减了一个 cf。&lt;/p&gt;
-&lt;p&gt;cmp 只做减法，仅影响标志位，不保存结果。&lt;/p&gt;
-&lt;p&gt;常用条件转移及相关标志位：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;je/jne, zf = 1 / zf = 0。&lt;/li&gt;
-&lt;li&gt;jb/jnb, cf = 1 / cf = 0。&lt;/li&gt;
-&lt;li&gt;ja/jna, (cf = 0 &amp;amp;&amp;amp; zf = 0) / (cf = 1 || zf = 1)。
-（equal, below, above)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;movsb&lt;/code&gt; 等价于将 ds:si 地址上的值赋给 es:di 地址。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;cld&lt;/code&gt; 将 df 置 0，std 将 df 置 1 。&lt;/p&gt;
-&lt;p&gt;pushf 将 flag 的值压栈，popf 则出栈到 flag 中。&lt;/p&gt;
-&lt;p&gt;debug 中的标志位表示（标志 - 值为 1 时- 值为 0 时）：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;of-OV-NV&lt;/li&gt;
-&lt;li&gt;sf-NG-PL&lt;/li&gt;
-&lt;li&gt;zf-ZR-NZ&lt;/li&gt;
-&lt;li&gt;pf-PE-PO&lt;/li&gt;
-&lt;li&gt;cf-CY-NC&lt;/li&gt;
-&lt;li&gt;df-DN-UP&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;第-12-章-内中断的产生&#34;&gt;第 12 章 内中断的产生
-&lt;/h2&gt;&lt;p&gt;4 种产生中断的情况（形式 - 类型码）：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;除法错误 - 0。&lt;/li&gt;
-&lt;li&gt;单步执行 - 1。&lt;/li&gt;
-&lt;li&gt;执行 into 指令 - 4。&lt;/li&gt;
-&lt;li&gt;执行 int 指令 - n。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;中断向量表中存放中断类型码以及相关的中断程序地址，每个表项占用两个字，高地址字放段地址，低地址字放偏移地址。&lt;/p&gt;
-&lt;p&gt;中断的过程：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;取得中断类型码 N&lt;/li&gt;
-&lt;li&gt;pushf&lt;/li&gt;
-&lt;li&gt;TF = 0，IF = 0&lt;/li&gt;
-&lt;li&gt;push CS&lt;/li&gt;
-&lt;li&gt;push IP&lt;/li&gt;
-&lt;li&gt;(IP) = (N * 4), (CS) = (N * 4 + 2)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;code&gt;offset do0end - offset do0&lt;/code&gt; 表达式可以计算出 do0 程序的长度。&lt;/p&gt;
-&lt;p&gt;tf = 1 时，会执行单步中断。&lt;/p&gt;
-&lt;p&gt;进行栈相关的操作之后，&lt;code&gt;ss&lt;/code&gt; 和 &lt;code&gt;sp&lt;/code&gt; 指针应该连续设置（这期间连中断也不会响应）。&lt;/p&gt;
-&lt;h2 id=&#34;第-13-章-int-指令&#34;&gt;第 13 章 int 指令
-&lt;/h2&gt;&lt;p&gt;&lt;code&gt;int&lt;/code&gt; 和 &lt;code&gt;iret&lt;/code&gt; 是中断中的 &lt;code&gt;call&lt;/code&gt; 和 &lt;code&gt;ret&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;系统板 ROM 中存放了一些程序，叫 BIOS，其存放了这些程序（中断例程）：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;检测硬件、初始化程序;&lt;/li&gt;
-&lt;li&gt;外部、内部中断;&lt;/li&gt;
-&lt;li&gt;对硬件进行 I/O;&lt;/li&gt;
-&lt;li&gt;其它与硬件相关的。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;B8000H ~ BFFFFH 共 32 kb 的空间为显示缓冲区。一屏可显示的内容占用 4000 个字节。&lt;/p&gt;
-&lt;p&gt;要在显示器上显示字符，其实就是把屏幕显示相关的寄存器设置好，再将要显示的字符送入指定的内存地址（即显示缓冲区），然后调用屏幕显示相关的中断让操作系统将其显示在屏幕上。寄存器中的设置的值可以用于指示包括显示光标位置、字符的属性、调用哪个中断的子程序、显示缓冲区中的第几页等。&lt;/p&gt;
-&lt;h2 id=&#34;第-14-章-端口&#34;&gt;第 14 章 端口
-&lt;/h2&gt;&lt;p&gt;CPU 外部各种网卡、外设等芯片中的寄存器称为端口。&lt;/p&gt;
-&lt;p&gt;总结：CPU 可以读取数据的位置有 3 个：CPU 内部的寄存器、内存单元、端口。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>《汇编语言》 读书笔记</title>
         <link>http://localhost:1313/blog/p/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
         <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
         
@@ -1051,7 +421,7 @@
 对于这张图，1 地址处的&lt;strong&gt;字&lt;/strong&gt;型数据为 &lt;code&gt;124EH&lt;/code&gt;，&lt;strong&gt;字节&lt;/strong&gt;型数据为 &lt;code&gt;4EH&lt;/code&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;mov al, [0]&lt;/code&gt;：将 [0] 单元中的数据送入 al 寄存器，该数据的默认段地址为 ds 寄存器中的内容。&lt;code&gt;[0]&lt;/code&gt; 表示一个偏移地址为 0 的内存单元。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;mov ds, 1000H&lt;/code&gt; 是不合法的命令，&lt;code&gt;mov ds, ax&lt;/code&gt; 则合法。&lt;/p&gt;
-&lt;p&gt;栈由 &lt;code&gt;ss&lt;/code&gt; 寄存器 和 &lt;code&gt;sp&lt;/code&gt; 指针决定， &lt;code&gt;ss:sp&lt;/code&gt; 指向当前栈的栈顶。如果此时栈为空，则 &lt;code&gt;sp&lt;/code&gt; 为栈顶本来应该在的内存单元地址 + 2。&lt;/p&gt;
+&lt;p&gt;栈由 &lt;code&gt;ss&lt;/code&gt; 寄存器 和 &lt;code&gt;sp&lt;/code&gt; 指针决定， &lt;code&gt;ss:sp&lt;/code&gt; 指向当前栈的栈顶。如果此时栈为空，则 &lt;code&gt;sp&lt;/code&gt; 为栈最高内存单元地址 + 2。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;push ax&lt;/code&gt; / &lt;code&gt;pop ax&lt;/code&gt; 的作用为先变化 &lt;code&gt;sp&lt;/code&gt; 指针，然后将 ax 中的内容压入栈中/从栈中内容弹出到 ax 中。&lt;code&gt;sp&lt;/code&gt; 指针从高地址向低地址变化。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240913201938.png&#34;
 	
@@ -1089,7 +459,7 @@
 &lt;li&gt;&lt;code&gt;mov [bx], ax&lt;/code&gt; 表示将 ax 的数据送入内存 EA:SA 处。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;code&gt;loop s&lt;/code&gt; 表示循环标号 s 所在的代码，循环次数由 cx 寄存器决定。&lt;/p&gt;
-&lt;p&gt;指令中不只可以使用默认 ds 表示段地址，也可以使用段前缀，例如：&lt;code&gt;mov ds:[0] al&lt;/code&gt;，&lt;code&gt;mov ax, es:[bx]&lt;/code&gt; 等。&lt;/p&gt;
+&lt;p&gt;指令中不止可以使用默认 ds 表示段地址，也可以使用段前缀，例如：&lt;code&gt;mov ds:[0] al&lt;/code&gt;，&lt;code&gt;mov ax, es:[bx]&lt;/code&gt; 等。&lt;/p&gt;
 &lt;h2 id=&#34;第-6-章-包含多个段的程序&#34;&gt;第 6 章 包含多个段的程序
 &lt;/h2&gt;&lt;p&gt;db 用于定义字节型数据，dw 用于定义字型数据。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;dw 0123h, 0456h&lt;/code&gt; 定义两个 16 进制数据  0123，0456。&lt;/p&gt;
@@ -1125,7 +495,7 @@
 &lt;p&gt;si，di 为功能和 bx 相近的寄存器。&lt;/p&gt;
 &lt;p&gt;常量、变量或者他们的结合都可以用来表示一个内存地址，例如 [5]，[bx + 4]，[bx + si]，[bx + di + 4] 等。&lt;/p&gt;
 &lt;h2 id=&#34;第-8-章-数据处理的两个基本问题&#34;&gt;第 8 章 数据处理的两个基本问题
-&lt;/h2&gt;&lt;p&gt;指令执行前，可能在的位置有 3 个：CPU 内部、内存、端口。&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;指令执行前，数据可能在的位置有 3 个：CPU 内部、内存、端口。&lt;/p&gt;
 &lt;p&gt;汇编中的数据位置有 3 种表达方式：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;立即数，执行前在 CPU 的指令缓冲器中，例如 &lt;code&gt;mov ax 1&lt;/code&gt;。&lt;/li&gt;
@@ -1216,7 +586,7 @@
 &lt;li&gt;je/jne, zf = 1 / zf = 0。&lt;/li&gt;
 &lt;li&gt;jb/jnb, cf = 1 / cf = 0。&lt;/li&gt;
 &lt;li&gt;ja/jna, (cf = 0 &amp;amp;&amp;amp; zf = 0) / (cf = 1 || zf = 1)。
-（equal, below, above)&lt;/li&gt;
+（not，equal, below, above)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;code&gt;movsb&lt;/code&gt; 等价于将 ds:si 地址上的值赋给 es:di 地址。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;cld&lt;/code&gt; 将 df 置 0，std 将 df 置 1 。&lt;/p&gt;
@@ -1248,7 +618,7 @@
 &lt;li&gt;push IP&lt;/li&gt;
 &lt;li&gt;(IP) = (N * 4), (CS) = (N * 4 + 2)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;code&gt;offset do0end - offset do0&lt;/code&gt; 表达式可以计算出 do0 程序的长度。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;offset do0end - offset do0&lt;/code&gt; 表达式可以计算出 do0 标号程序的长度。&lt;/p&gt;
 &lt;p&gt;tf = 1 时，会执行单步中断。&lt;/p&gt;
 &lt;p&gt;进行栈相关的操作之后，&lt;code&gt;ss&lt;/code&gt; 和 &lt;code&gt;sp&lt;/code&gt; 指针应该连续设置（这期间连中断也不会响应）。&lt;/p&gt;
 &lt;h2 id=&#34;第-13-章-int-指令&#34;&gt;第 13 章 int 指令
@@ -1265,122 +635,67 @@
 &lt;h2 id=&#34;第-14-章-端口&#34;&gt;第 14 章 端口
 &lt;/h2&gt;&lt;p&gt;CPU 外部各种网卡、外设等芯片中的寄存器称为端口。&lt;/p&gt;
 &lt;p&gt;总结：CPU 可以读取数据的位置有 3 个：CPU 内部的寄存器、内存单元、端口。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>《红楼梦》读书笔记</title>
-        <link>http://localhost:1313/blog/post---test/%E7%BA%A2%E6%A5%BC%E6%A2%A6-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
-        <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/post---test/%E7%BA%A2%E6%A5%BC%E6%A2%A6-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
-        <description>&lt;p&gt;作者：曹雪芹&lt;/p&gt;
-&lt;h2 id=&#34;第一回-甄士隐幻识通灵-贾雨村风尘怀闺秀&#34;&gt;第一回 甄士隐幻识通灵 贾雨村风尘怀闺秀
-&lt;/h2&gt;&lt;p&gt;这一回主要讲了：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;in al, 60h&lt;/code&gt;, 从 60 号端口中读入一个字节。出为 out。&lt;/p&gt;
+&lt;p&gt;in/out 指令只能用 ax(16 位)/al (8 位) 存放要读写的数据。&lt;/p&gt;
+&lt;p&gt;CMOS RAM 芯片，简称 CMOS，128 字节的 RAM 存储器中 0 ~ 0 dh 字节存放时间信息，其余大部分用于保存系统配置信息。&lt;/p&gt;
+&lt;p&gt;其存储的时间以 BCD 码的形式存放，1 byte 可表示两个 BCD 码。&lt;/p&gt;
+&lt;p&gt;shl/shr 是逻辑左移、右移的指令，移出的最后一位放入 CF 中，低位补 0 。&lt;/p&gt;
+&lt;h1 id=&#34;第-15-章-外中断&#34;&gt;第 15 章 外中断
+&lt;/h1&gt;&lt;p&gt;I/O相关的中断称为外中断，其分为可屏蔽中断和不可屏蔽中断。&lt;/p&gt;
+&lt;p&gt;可屏蔽中断和内中断的过程相同。不可屏蔽中断的类型码固定为 2，所以没有那些取址的操作。&lt;/p&gt;
+&lt;p&gt;if 用于控制 cpu 是否需要响应可屏蔽中断，if = 0 则不响应。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sti&lt;/code&gt; 设置 if = 1；&lt;code&gt;cli&lt;/code&gt; 设置 if = 0 。&lt;/p&gt;
+&lt;p&gt;键盘输入，按下和松开一个键，会分别产生一个通码和断码（都叫扫描码）。&lt;/p&gt;
+&lt;p&gt;它们都会被送到 60h 号端口，然后相关芯片就会向 CPU 发送 int 9 中断可屏蔽中断，如果 if =1，则 CPU 响应中断。&lt;/p&gt;
+&lt;p&gt;通码的第 7 位为 0，断码的第 7 位为 1 ，即断码 = 通码 + 80h。&lt;/p&gt;
+&lt;p&gt;以下为部分键的通码。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241101104757.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241101105003.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;第-16-章-直接定址表&#34;&gt;第 16 章 直接定址表
+&lt;/h2&gt;&lt;p&gt;数据标号：&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;作者自述此书来历。&lt;/li&gt;
-&lt;li&gt;一女娲䃼天所剩顽石让一僧一道带下凡体验尘俗。&lt;/li&gt;
-&lt;li&gt;甄士隐在梦中遇见一僧一道，听到关于绛珠仙草和神瑛侍者的故事。&lt;/li&gt;
-&lt;li&gt;甄士隐与贾雨村结识，并资助贾雨村中举做官。&lt;/li&gt;
-&lt;li&gt;贾雨村初见娇杏。&lt;/li&gt;
-&lt;li&gt;甄家仆从霍启弄丢甄士隐的女儿英莲并逃走。&lt;/li&gt;
-&lt;li&gt;甄士隐家中失火落了魄，投靠其岳父，最后遇到一破道士看破红尘，出家脱俗。&lt;/li&gt;
+&lt;li&gt;若用 &lt;code&gt;a:db 1,2,3,4,5,6,7,8&lt;/code&gt; 定义了一组数据，则可以使用&lt;code&gt;mov al, a[si]&lt;/code&gt; 替代 &lt;code&gt;mov al, cs:[si]&lt;/code&gt;，并且表示 a 起始地址及之后的内存单元都是字节单元。&lt;/li&gt;
+&lt;li&gt;类似地，如果用 &lt;code&gt;b dw 0&lt;/code&gt; 定义了一个字单元，则可以使用 &lt;code&gt;add b, ax&lt;/code&gt; 替代 &lt;code&gt;add cs:[bx], ax&lt;/code&gt;，并且 b 起始地址及之后的内存单元都是字单元。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;甄士隐——真事隐，贾雨村——假语村言（虚假的言语，村俗的语言）&lt;/p&gt;
-&lt;h2 id=&#34;第二回-贾夫人仙逝扬州城-冷子兴演说荣国府&#34;&gt;第二回 贾夫人仙逝扬州城 冷子兴演说荣国府
-&lt;/h2&gt;&lt;p&gt;这一回主要讲了：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;mov al, a[si]&lt;/code&gt; 编译为 &lt;code&gt;mov al, [si + 0]&lt;/code&gt;; &lt;code&gt;add b, ax&lt;/code&gt; 编译为 &lt;code&gt;add [8], ax&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;a[si]&lt;/code&gt; 默认的段地址放在 &lt;code&gt;ds&lt;/code&gt; 中，要想正确地访问的是 &lt;code&gt;data&lt;/code&gt; 段的地址，需要首先将 &lt;code&gt;a&lt;/code&gt; 所在的段 &lt;code&gt;data&lt;/code&gt; 的段地址放在 &lt;code&gt;ds&lt;/code&gt; 中，即需要如下语句：&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;贾雨村发达之后回到甄士隐处，娶了其丫鬟作妾，还扶作正室。&lt;/li&gt;
-&lt;li&gt;回到之前，介绍贾雨村拿了甄士隐的钱进京赶考，当了小官，却因事被辞退，然后周游全国，偶遇林如海，当起了其女林黛玉的教书先生。&lt;/li&gt;
-&lt;li&gt;贾雨村散步到智通寺遇见一老和尚。&lt;/li&gt;
-&lt;li&gt;贾雨村到酒馆喝酒时偶遇冷子兴，聊起京城中的贾府。&lt;/li&gt;
-&lt;li&gt;介绍了贾府的主要人物及概况，为引出下文人物做了铺垫。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assume ds:data&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mov ax, data&lt;/code&gt;, &lt;code&gt;mov ds, ax&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;第三回-贾雨村夤缘复旧职-林黛玉抛父进京都&#34;&gt;第三回 贾雨村夤缘复旧职 林黛玉抛父进京都
-&lt;/h2&gt;&lt;p&gt;这回主要讲了：&lt;/p&gt;
+&lt;p&gt;标号可以直接当数据定义，编译器会将标号所在的地址当作数据的值。例如（在段中定义的）：&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;贾雨村复了职，被林如海引荐到贾府，当了应天府的官。&lt;/li&gt;
-&lt;li&gt;林黛玉到贾府大堂中，见了贾府众人，包括贾母，王熙凤等人。&lt;/li&gt;
-&lt;li&gt;贾府一家人在后房门吃饭，饭毕林黛玉见到了贾宝玉，贾宝玉摔玉泄愤。&lt;/li&gt;
-&lt;li&gt;林黛玉与鹦哥、袭人夜聊。&lt;/li&gt;
-&lt;li&gt;薛蟠闹事的书信传至王夫人和王熙凤。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;c dw a, b&lt;/code&gt; 相当于 &lt;code&gt;c dw offset a, offset b&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;c dd a, b&lt;/code&gt; 相当于 &lt;code&gt;c dw offset a, seg a, offset b, seg b&lt;/code&gt;. &lt;code&gt;seg a&lt;/code&gt; 用于取得 a 所在的段地址。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;第四回-薄命女偏逢薄命郎-葫芦僧乱判葫芦案&#34;&gt;第四回 薄命女偏逢薄命郎 葫芦僧乱判葫芦案
-&lt;/h2&gt;&lt;p&gt;本回主要讲了：&lt;/p&gt;
+&lt;p&gt;将不同子程序，用空间换时间。&lt;/p&gt;
+&lt;h2 id=&#34;第-17-章-使用-biso-进行键盘输入和磁盘读写&#34;&gt;第 17 章 使用 BISO 进行键盘输入和磁盘读写
+&lt;/h2&gt;&lt;p&gt;键盘输入的过程（以 Shift_A 为例）：&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;介绍了已故的贾珠之妻李纨的身份。&lt;/li&gt;
-&lt;li&gt;贾雨村依门子所言，乱判了冯渊，英莲，薛蟠的命案。&lt;/li&gt;
-&lt;li&gt;薛蟠母舅王子腾升迁，薛家母子一行人为了和贾家亲近关系，联络感情，搬到贾府梨香院常住。&lt;/li&gt;
+&lt;li&gt;按下左 Shift 键，引发键盘中断。int 9 中断例程接收左 Shift 键的通码，设置 0040:17 处的状态字节的第 1 位为 1，表示左 Shift 键按下。&lt;/li&gt;
+&lt;li&gt;按下 A 键，引发键盘中断，CPU 执行 int 9 中断例程，从 60h 端口读出 A 键的通码。&lt;/li&gt;
+&lt;li&gt;检测状态码，发现左 Shift 键被按下，则将 A 键的扫描码 1Eh 和 A（大写） 对应的 ASCII 码写入键盘缓冲区。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;第五回-游幻境指迷十二钗-饮仙醪曲演红楼梦&#34;&gt;第五回 游幻境指迷十二钗 饮仙醪曲演红楼梦
-&lt;/h2&gt;&lt;p&gt;本回主要讲了：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;林黛玉入了贾府以来与贾宝玉的关系日益趋好。&lt;/li&gt;
-&lt;li&gt;尤氏请贾母一众人赏花。&lt;/li&gt;
-&lt;li&gt;贾宝玉困觉，被秦氏带至房中歇息。&lt;/li&gt;
-&lt;li&gt;贾宝玉在梦中被警幻仙姑引至太虚幻境，查看了《金陵十二钗》的册子，又听了《红楼梦》的十二支曲子。&lt;/li&gt;
-&lt;li&gt;贾宝玉听过警幻所嘱之言，后与梦中的秦可卿行了云雨之事。次日去游山，到了迷津，被夜叉海鬼拖下水而惊醒。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;第六回-贾宝玉初试云雨情-刘姥姥一进荣国府&#34;&gt;第六回 贾宝玉初试云雨情 刘姥姥一进荣国府
-&lt;/h2&gt;&lt;p&gt;本回主要讲了：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;贾宝玉与袭人初试云雨。&lt;/li&gt;
-&lt;li&gt;王家的祖上（和王夫人之父同一辈）曾与王夫人家连了宗，其儿王成的儿子狗儿家里揭不开锅。于是狗儿让其岳母刘姥姥前往荣国府寻求资助。&lt;/li&gt;
-&lt;li&gt;刘姥姥到荣国府，经周瑞家的引荐，见到了王熙凤，见识了荣国府的奢华，但也得到了 20 两银子的资助。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;第七回-送宫花贾琏戏熙凤-宴宁府宝玉会秦钟&#34;&gt;第七回 送宫花贾琏戏熙凤 宴宁府宝玉会秦钟
-&lt;/h2&gt;&lt;p&gt;本回主要讲了：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;周瑞家的送刘姥姥离开后，去回话，发现王夫人去了薛姨妈那里，然后碰见了薜宝钗，聊了她的病情和疗法，得知宝钗服用“冷香丸”。&lt;/li&gt;
-&lt;li&gt;薛姨妈让周瑞家的将宫花送给迎春、探春、惜春和林黛玉各两枝，余下送给王熙凤。&lt;/li&gt;
-&lt;li&gt;路上周瑞家的与迎春、探春、惜春、智能儿以及王熙凤的丫头平儿交谈并送了宫花。&lt;/li&gt;
-&lt;li&gt;周瑞家的在贾母处遇到了自己的女儿，得知女婿冷子兴遇到了官司问题。&lt;/li&gt;
-&lt;li&gt;黛玉最后收到宫花，感到有些不满。&lt;/li&gt;
-&lt;li&gt;王熙凤前往宁府赴宴，宝玉跟随前往。随后宝玉遇见了秦钟，交谈甚欢，计划在贾府家塾一起读书。&lt;/li&gt;
-&lt;li&gt;焦大醉酒闹事，被贾蓉命令捆起来，凤姐建议将焦大打发到远处的庄子上去。在回荣府的路上，宝玉询问“爬灰”的含义，凤姐斥责他不要多问。&lt;/li&gt;
-&lt;li&gt;凤姐计划让宝玉和秦钟一起去家塾读书。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;第八回-比通灵金莺微露意-探宝钗黛玉半含酸&#34;&gt;第八回 比通灵金莺微露意 探宝钗黛玉半含酸
-&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;贾宝玉随贾母等前往尤氏那看戏之后前往探望薜宝钗，发现他的玉佩和宝钗的金锁上的文字可以成对。&lt;/li&gt;
-&lt;li&gt;林黛玉也来探望宝钗，薜姨妈于是留下林黛玉和贾宝玉吃茶。贾宝玉吃酒意在兴头，被李嬷嬷阻拦，不高兴，回去时因丫头没给自己带好帽子斥责丫头。&lt;/li&gt;
-&lt;li&gt;回到屋中，贾宝玉因李嬷嬷又是把自己留给晴雯的包子给她孙子吃了，又是把自己留的茶给喝了，加之上午的劝阻吃酒，生气异常，于是摔茶杯以泄愤。此事被袭人担下掩饰了过去。&lt;/li&gt;
-&lt;li&gt;秦业带上礼携了秦钟到贾府。贾宝玉和秦钟即将前往一同读书。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;第九回-恋风流情友入家塾-起嫌疑顽童闹学堂&#34;&gt;第九回 恋风流情友入家塾 起嫌疑顽童闹学堂
-&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;贾宝玉准备后天上学，到了这天，袭人为其准备了行李。&lt;/li&gt;
-&lt;li&gt;贾宝玉于是向贾母、王夫人等辞行。到了给贾政辞别的时候，被其讽刺了上学的态度。贾政顺便把随行的仆人李贵骂了一顿。后宝玉便和秦钟一同前往家塾。&lt;/li&gt;
-&lt;li&gt;学中，薛蟠对香怜和玉爱有所图，但后来对他们失去了兴趣。秦钟和香怜趁机在后院传情，被金荣撞见并在教室中大声阴阳。&lt;/li&gt;
-&lt;li&gt;这惹得贾蔷不快，其挑唆宝玉的书童茗烟去教训金荣。金荣气上头，扔书板歪了到贾菌贾兰桌上，引发了一场混乱。&lt;/li&gt;
-&lt;li&gt;最终贾瑞怕事情闹大，让金荣给秦钟道了歉。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;第十回-金寡妇贪利权受辱-张太医论病细穷源&#34;&gt;第十回 金寡妇贪利权受辱 张太医论病细穷源
-&lt;/h2&gt;&lt;p&gt;金荣的姑妈准备通过尤氏帮金荣找场子，反而被尤氏用言语激走。&lt;/p&gt;
-&lt;p&gt;秦氏（秦可卿）生病，贾珍为她找了一个张大夫（张友士）开了个方子治病。&lt;/p&gt;
-&lt;h2 id=&#34;第十一回-庆寿辰宁府排家宴-见熙凤贾瑞起淫心&#34;&gt;第十一回 庆寿辰宁府排家宴 见熙凤贾瑞起淫心
-&lt;/h2&gt;&lt;p&gt;贾敬寿辰，族人在园子中开家宴祝寿。&lt;/p&gt;
-&lt;p&gt;王熙凤和贾宝玉等前往看望秦可卿。&lt;/p&gt;
-&lt;p&gt;王熙凤在后山遇见了贾瑞，其对凤姐不怀好意。&lt;/p&gt;
-&lt;p&gt;秦可卿日益病重。&lt;/p&gt;
-&lt;h2 id=&#34;第十二回-王熙凤毒设相思局-贾天祥正照风月鉴&#34;&gt;第十二回 王熙凤毒设相思局 贾天祥正照风月鉴
-&lt;/h2&gt;&lt;p&gt;凤姐设计捉弄了贾瑞数次，并让其被贾蔷、贾蓉当场抓包勒索。&lt;/p&gt;
-&lt;p&gt;贾瑞气闷淫思，诸事交加，生了个重病不起。后又碰见个老和尚，没忍住看了两次“风月鉴”的正面，最终精尽人亡。&lt;/p&gt;
-&lt;h2 id=&#34;第十三回-秦可卿死封龙禁尉-王熙凤协理宁国府&#34;&gt;第十三回 秦可卿死封龙禁尉 王熙凤协理宁国府
-&lt;/h2&gt;&lt;p&gt;秦可卿托梦告诉王熙凤要为家道中落做些准备，却突然被现实中她死去的消息惊醒。府中人无不悲咽。&lt;/p&gt;
-&lt;p&gt;贾珍为了丧礼上名头好，为贾蓉在老内相戴权那里花银子买了个官位。&lt;/p&gt;
-&lt;p&gt;由于缺人，贾宝玉向贾珍推荐王熙凤来主持丧礼事务。&lt;/p&gt;
-&lt;h2 id=&#34;第十四回-林如海捐馆扬州城-贾宝玉路谒北静王&#34;&gt;第十四回 林如海捐馆扬州城 贾宝玉路谒北静王
-&lt;/h2&gt;&lt;p&gt;凤姐将丧礼的事务管理得十分周到，也颇俱威信。&lt;/p&gt;
-&lt;p&gt;林如海在扬州过世了。&lt;/p&gt;
-&lt;p&gt;各路世家都声势浩大地过来查看。北静王水溶也过来了，并见到了宝玉。&lt;/p&gt;
-&lt;h2 id=&#34;第十五回-王凤姐弄权铁槛寺-秦鲸卿得趣馒头庵&#34;&gt;第十五回 王凤姐弄权铁槛寺 秦鲸卿得趣馒头庵
-&lt;/h2&gt;&lt;p&gt;宁府送殡到铁槛寺，宝玉对没见过的农具感到好奇。&lt;/p&gt;
-&lt;p&gt;一个老尼姑请求王熙凤找关系让她的一个财主朋友张家的女儿退亲跟另一人家结婚。&lt;/p&gt;
-&lt;p&gt;秦钟趁黑与智能儿偷腥。&lt;/p&gt;
-&lt;h2 id=&#34;第十六回-贾元春才选凤藻宫-秦鲸卿夭逝黄泉路&#34;&gt;第十六回 贾元春才选凤藻宫 秦鲸卿夭逝黄泉路
-&lt;/h2&gt;&lt;p&gt;凤姐成功帮张家的女儿退了亲，却导致张家和守家的当事人双双殉情。&lt;/p&gt;
-&lt;p&gt;元春被封为凤藻宫尚书，加封贤德妃，贾琏与凤姐讨论了省亲事宜，并得知了省亲别院的筹备情况。&lt;/p&gt;
-&lt;p&gt;智能私逃与秦钟会面，被父亲秦业得知，秦业因气愤过度而死。秦钟也因情病交加而病危，与宝玉见最后一面之后也过世了。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;int 16h&lt;/code&gt; 从缓冲区读入并删除一个键盘输入。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;int 13h&lt;/code&gt; 对磁盘进行读写。&lt;/p&gt;
 </description>
         </item>
         <item>

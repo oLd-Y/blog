@@ -7,13 +7,102 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Thu, 31 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 05 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Upgrade Neovim To The Latest</title>
+        <link>http://localhost:1313/blog/en/p/upgrade-neovim-to-the-latest/</link>
+        <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/upgrade-neovim-to-the-latest/</guid>
+        <description>&lt;p&gt;If you want to upgrade neovim to the latest version in Linux/WSL, here is the steps:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# remove the current version&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt remove neovim
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# add neovim ppa&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo add-apt-repository ppa:neovim-ppa/stable
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt update
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install neovim
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# verify neovim installation&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nvim --version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;If you encounter an error &amp;ldquo;sudo: add-apt-repository: command not found&amp;rdquo;, then you should install the &lt;code&gt;software-properties-common&lt;/code&gt; package.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt update
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install software-properties-common
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>CSAPP reading notes - chapter 1</title>
+        <link>http://localhost:1313/blog/en/p/csapp-reading-notes-chapter-1/</link>
+        <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/csapp-reading-notes-chapter-1/</guid>
+        <description>&lt;h2 id=&#34;11-information-is-bits--context&#34;&gt;1.1 Information Is Bits + Context
+&lt;/h2&gt;&lt;p&gt;All information in a system is represented as a bunch of bits.&lt;/p&gt;
+&lt;h2 id=&#34;12-programs-are-translated-by-other-programs-into-different-forms&#34;&gt;1.2 Programs Are Translated by Other Programs into Different Forms
+&lt;/h2&gt;&lt;p&gt;The gcc compiler driver reads the source file hello.c and translated into an execuable object file hello. The translation is performed in the sequence of four phases,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Preprocessing phase.&lt;/li&gt;
+&lt;li&gt;Compliation phase.&lt;/li&gt;
+&lt;li&gt;Assembly phase.&lt;/li&gt;
+&lt;li&gt;Linking phase.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The programs that perform these phases (preprocessor, compilor, assembler, and linker) is known collectively as the &lt;em&gt;compliation system&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Here is the phase figure:
+&lt;img src=&#34;http://localhost:1313/blog/blog/images/figure%201.3%20compliation%20system.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;compliation system&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;There are&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>cargo installation</title>
         <link>http://localhost:1313/blog/en/p/cargo-installation/</link>
         <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/en/p/cargo-installation/</guid>
-        <description></description>
+        <description>&lt;h2 id=&#34;linux&#34;&gt;Linux
+&lt;/h2&gt;&lt;p&gt;First run the command in the terminal:
+&lt;code&gt;curl https://sh.rustup.rs -sSf | sh&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This command get and execute a shell script from the certain website, which downloads the necessary tools and environments.&lt;/p&gt;
+&lt;p&gt;Here is the explanation of the flag of &lt;code&gt;curl&lt;/code&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-s&lt;/code&gt;, shows no output.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-S&lt;/code&gt;, BUT error message.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-f&lt;/code&gt;, silent failure on HTTP errors, which means only return an error code instead of the whole messages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;then use the command below to source the environment:
+&lt;code&gt;. ~/.cargo/env&lt;/code&gt;&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>go installation</title>
@@ -110,7 +199,14 @@
 &lt;/ol&gt;
 &lt;h2 id=&#34;chapter-4-opening-fileshttpslazyvim-ambitious-devsphillipscodescoursechapter-4_opening_files&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-4/#_opening_files&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Chapter 4. Opening Files&lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;Space q q closes the entire nvim window&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;keys:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;Space&amp;gt; q q&lt;/code&gt;, closes the entire nvim window and save the session.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;Space&amp;gt;&amp;lt;Space&amp;gt;&lt;/code&gt;/&lt;code&gt;Space&amp;gt;ff&lt;/code&gt;, pop up find file window of the current project, which is case insensitive and become sensitive right after there is a upper case character. &lt;code&gt;&amp;lt;Space&amp;gt;fF&lt;/code&gt; to&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cwd&lt;/code&gt; is typically the directory where you enter nvim in the terminal, and root directory is where there is a configuration file such as &lt;code&gt;.git&lt;/code&gt;, &lt;code&gt;package.json&lt;/code&gt;, etc.&lt;/li&gt;
+&lt;li&gt;Also, you can use &lt;code&gt;:lcd&lt;/code&gt; to temprarily change the &lt;code&gt;cwd&lt;/code&gt; for a buffer.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;s&lt;/code&gt; to enable the seek mode.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p&gt;&lt;code&gt;:LazyExtras&lt;/code&gt; opens the mini.files plugin. mini.files is compatible with many lazyvim text editing operations. Use &lt;code&gt;=&lt;/code&gt; to save modifications.&lt;/p&gt;
 &lt;p&gt;To find and disable the same plugin again, press x.&lt;/p&gt;
 &lt;h2 id=&#34;chapter-5-configuration-and-plugin-basicshttpslazyvim-ambitious-devsphillipscodescoursechapter-5_configuration_and_plugin_basics&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-5/#_configuration_and_plugin_basics&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;

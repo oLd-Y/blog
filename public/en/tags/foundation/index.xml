@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Foundation on lyao&#39;s Blog</title>
+        <link>http://localhost:1313/blog/en/tags/foundation/</link>
+        <description>Recent content in Foundation on lyao&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>谷栗杳</copyright>
+        <lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/en/tags/foundation/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>CSAPP reading notes - chapter 1</title>
+        <link>http://localhost:1313/blog/en/p/csapp-reading-notes-chapter-1/</link>
+        <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/csapp-reading-notes-chapter-1/</guid>
+        <description>&lt;h2 id=&#34;11-information-is-bits--context&#34;&gt;1.1 Information Is Bits + Context
+&lt;/h2&gt;&lt;p&gt;All information in a system is represented as a bunch of bits.&lt;/p&gt;
+&lt;h2 id=&#34;12-programs-are-translated-by-other-programs-into-different-forms&#34;&gt;1.2 Programs Are Translated by Other Programs into Different Forms
+&lt;/h2&gt;&lt;p&gt;The gcc compiler driver reads the source file hello.c and translated into an execuable object file hello. The translation is performed in the sequence of four phases,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Preprocessing phase.&lt;/li&gt;
+&lt;li&gt;Compliation phase.&lt;/li&gt;
+&lt;li&gt;Assembly phase.&lt;/li&gt;
+&lt;li&gt;Linking phase.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The programs that perform these phases (preprocessor, compilor, assembler, and linker) is known collectively as the &lt;em&gt;compliation system&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Here is the phase figure:
+&lt;img src=&#34;http://localhost:1313/blog/blog/pictures/figure%201.3%20compliation%20system.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;compliation system&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;There are&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

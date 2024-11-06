@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>软件 on 谷栗杳</title>
+        <link>http://localhost:1313/blog/tags/%E8%BD%AF%E4%BB%B6/</link>
+        <description>Recent content in 软件 on 谷栗杳</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>谷栗杳</copyright>
+        <lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Windows 部分程序无法固定到开始菜单解决方法</title>
+        <link>http://localhost:1313/blog/p/windows-%E9%83%A8%E5%88%86%E7%A8%8B%E5%BA%8F%E6%97%A0%E6%B3%95%E5%9B%BA%E5%AE%9A%E5%88%B0%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</link>
+        <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/windows-%E9%83%A8%E5%88%86%E7%A8%8B%E5%BA%8F%E6%97%A0%E6%B3%95%E5%9B%BA%E5%AE%9A%E5%88%B0%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</guid>
+        <description>&lt;p&gt;有时候部分脚本或者程序无法固定到开始菜单，这里记录一下这个问题的解决方法。&lt;/p&gt;
+&lt;p&gt;将相关的文件创建一个快捷方式，然后将这个快捷方式放到 &lt;code&gt;C:\Users\&amp;lt;Username&amp;gt;\AppData\Roaming\Microsoft\Windows\Start Menu\Programs&lt;/code&gt; 目录中，然后等 Windows 更新相关的索引或者重启电脑之后，在任务栏的搜索框中搜索上述快捷方式的名称，就可以将其固定到开始菜单中了。&lt;/p&gt;
+&lt;p&gt;也可以通过 &lt;code&gt;win + r&lt;/code&gt; 输入 &lt;code&gt;shell:programs&lt;/code&gt; 命令直接打开相关的目录。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>电脑投屏手机软件 scrcpy 使用记录</title>
+        <link>http://localhost:1313/blog/p/%E7%94%B5%E8%84%91%E6%8A%95%E5%B1%8F%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6-scrcpy-%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</link>
+        <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/%E7%94%B5%E8%84%91%E6%8A%95%E5%B1%8F%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6-scrcpy-%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</guid>
+        <description>&lt;p&gt;一直在用微信读书，它的手机 app 实在是比网页端好用太多，而且我经常需要在手机上查看内容，然后记录在电脑上，来回切换实在非常不方便。&lt;/p&gt;
+&lt;p&gt;于是我在搜索有什么解决方案，发现了一个好用的软件 scrcpy，可以直接在电脑上对手机的内容进行投屏和操作，一番折腾之后，基本可以满足我的使用需要，在此记录一下它的使用方法。&lt;/p&gt;
+&lt;h2 id=&#34;安装&#34;&gt;安装
+&lt;/h2&gt;&lt;p&gt;首先在&lt;a class=&#34;link&#34; href=&#34;https://github.com/Genymobile/scrcpy/releases/tag/v2.7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;安装界面&lt;/a&gt;下载适合操作系统的软件包。&lt;/p&gt;
+&lt;p&gt;在手机设置的参数信息里面狂按系统版本号，把开发者选项打开，然后在开发者选项里面把 USB 调试打开。&lt;/p&gt;
+&lt;p&gt;接着用一根 usb 线把手机和电脑连起来，在电脑中把解压好的软件包打开，点击 exe 文件，弹出一个界面，就是自己手机的投屏。&lt;/p&gt;
+&lt;p&gt;如果你的手机中安装的是搜狗输入法，那么直接把电脑中输入法切换成英文状态，就可以在投屏中对手机进行打字了。&lt;/p&gt;
+&lt;p&gt;但如果你和我一样用的其它小众输入法（例如虎码），那么需要安装其它输入法，如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/fcitx5-android/fcitx5-android&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;小企鹅输入法5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/osfans/trime&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;同文输入法&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;虎码用户直接用手机在&lt;a class=&#34;link&#34; href=&#34;http://ys-j.ysepan.com/620946455/916731337/jfS9jUs5G4K7S26JIMKH62/%E8%99%8E%E7%A0%81%E5%B0%8F%E4%BC%81%E9%B9%85%E5%AD%97%E8%AF%8D%E7%89%882024_07_29.apk?lx=xz&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官网&lt;/a&gt;下载资源即可。&lt;/p&gt;
+&lt;h2 id=&#34;常用快捷键&#34;&gt;常用快捷键
+&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;快捷键&lt;/th&gt;
+&lt;th&gt;操作&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;alt-o&lt;/td&gt;
+&lt;td&gt;关闭真机屏幕（保持投屏，按电源键可恢复）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt-O&lt;/td&gt;
+&lt;td&gt;打开真机屏幕&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt-s&lt;/td&gt;
+&lt;td&gt;多任务&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt-b&lt;/td&gt;
+&lt;td&gt;返回上一级/鼠标右键&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt-h&lt;/td&gt;
+&lt;td&gt;home 键/鼠标中键&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt-p&lt;/td&gt;
+&lt;td&gt;按电源&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt-&amp;lt;left&amp;gt;/&amp;lt;right&amp;gt;&lt;/td&gt;
+&lt;td&gt;旋转屏幕&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt-&amp;lt;up&amp;gt;/&amp;lt;down&amp;gt;&lt;/td&gt;
+&lt;td&gt;调节音量&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt-g&lt;/td&gt;
+&lt;td&gt;投屏铺满窗口&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ctrl-c&lt;/td&gt;
+&lt;td&gt;复制（可跨机）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ctrl-v&lt;/td&gt;
+&lt;td&gt;粘贴（可跨机）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;以下为常用的启动参数：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;--stay-awake&lt;/code&gt;，保持唤醒状态。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--always-on-top&lt;/code&gt;，总是位于顶部。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--keyboard=uhid&lt;/code&gt;，更加接近真实物理键盘。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--turn-screen-off&lt;/code&gt;，默认关闭真机的屏幕。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--window-title=&amp;quot;&amp;lt;你的窗口名称&amp;gt;&amp;quot;&lt;/code&gt;，设置窗口名称。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Windows 在快捷方式的“属性 -&amp;gt; 目标” 处加上这个参数即可。&lt;/p&gt;
+&lt;h2 id=&#34;无线连接&#34;&gt;无线连接
+&lt;/h2&gt;&lt;p&gt;除了使用 usb 连接，scrcpy 还可以通过无线连接的方式进行投屏。&lt;/p&gt;
+&lt;p&gt;在 scrcpy 的安装目录打开 windows terminal。&lt;/p&gt;
+&lt;p&gt;执行以下命令：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 在插入 usb 的状态下执行，用于设置手机监听 5555 端口&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.&lt;span class=&#34;se&#34;&gt;\a&lt;/span&gt;db.exe tcpip &lt;span class=&#34;m&#34;&gt;5555&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 拔掉 usb 之后执行，用于通过 scrcpy 的 adb 工具连接到手机的指定端口&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.&lt;span class=&#34;se&#34;&gt;\a&lt;/span&gt;db.exe connect &amp;lt;手机的 ip 地址&amp;gt;:5555
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这样之后再打开 scrcpy 软件就可以通过 wifi 进行连接了。&lt;/p&gt;
+&lt;p&gt;手机的 ip 地址可以通过 &lt;code&gt;.\adb.exe shell ip -f inet addr show wlan0&lt;/code&gt; 这条命令查询，或者直接通过在手机的设置搜索框中搜索。需要重新恢复不连接的状态的话则将 &lt;code&gt;connect&lt;/code&gt; 改为 &lt;code&gt;disconnect&lt;/code&gt; 即可。&lt;/p&gt;
+&lt;p&gt;重新启动操作系统之后，需要重新连接，并且 wifi 质量不好的话，会经常卡顿。因此不建议使用 wifi 的方式进行连接。&lt;/p&gt;
+&lt;h2 id=&#34;其它&#34;&gt;其它
+&lt;/h2&gt;&lt;p&gt;使用 &lt;code&gt;scrcpy-noconsole.vbs&lt;/code&gt; 脚本也是一样的效果，区别在于它不会有额外的 terminal。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

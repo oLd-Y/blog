@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Thu, 31 Oct 2024 17:14:25 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 06 Nov 2024 07:03:14 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>围城 读后感</title>
         <link>http://localhost:1313/blog/p/%E5%9B%B4%E5%9F%8E-%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
-        <pubDate>Thu, 31 Oct 2024 17:14:25 +0800</pubDate>
+        <pubDate>Wed, 06 Nov 2024 07:03:14 +0800</pubDate>
         
         <guid>http://localhost:1313/blog/p/%E5%9B%B4%E5%9F%8E-%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
         <description>&lt;h2 id=&#34;读后感&#34;&gt;读后感
@@ -290,6 +290,184 @@
 </description>
         </item>
         <item>
+        <title>wsl neovim 自动切换输入法</title>
+        <link>http://localhost:1313/blog/p/wsl-neovim-%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E8%BE%93%E5%85%A5%E6%B3%95/</link>
+        <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/wsl-neovim-%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E8%BE%93%E5%85%A5%E6%B3%95/</guid>
+        <description>&lt;p&gt;使用 im-select 可以自动设置中英文输入法的切换。本文介绍一下在 lazyvim 下这个软件的使用方法。&lt;/p&gt;
+&lt;p&gt;首先在&lt;a class=&#34;link&#34; href=&#34;https://github.com/daipeihust/im-select/raw/master/win/out/x64/im-select.exe&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这个页面&lt;/a&gt;下载 im-select，放到一个目录中，并将其所在目录添加到环境变量中。&lt;/p&gt;
+&lt;p&gt;然后我们需要安装一个使用 im-select 的 nvim 插件。&lt;/p&gt;
+&lt;p&gt;在 &lt;code&gt;~/.config/nvim/lua/plugins&lt;/code&gt; 目录下创建一个文件 im-select.lua（任意取名），写下如下代码：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;s2&#34;&gt;&amp;#34;keaising/im-select.nvim&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;lazy&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;config&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;require&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;im_select&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;setup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;default_im_select&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1033&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;default_command&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;im-select.exe&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;})&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kr&#34;&gt;end&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;重启 lazyvim 即可。&lt;/p&gt;
+&lt;p&gt;注意事项：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;im-select 需要电脑中同时拥有中文和英文的语言包。具体地看 Windows 设置中的“时间和语言 &amp;gt; 语言和区域”中看是否有两个语言，以及两个语言的语言包是否都已经下载了。&lt;/li&gt;
+&lt;li&gt;其用法是切换不同的输入法，而非切换输入法中的中英文状态。关于如何直接切换中英文状态，暂时没有找到比较好用的解决方案，只能习惯使用 &lt;code&gt;win + &amp;lt;space&amp;gt;&lt;/code&gt; 切换输入法状态了。&lt;/li&gt;
+&lt;li&gt;1033 是英文（美国）的输入法句柄码，2052 为中文输入法的句柄码。&lt;/li&gt;
+&lt;li&gt;im-select 会记忆上次进入 normal 之前的输入法。&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
+        <title>Windows 部分程序无法固定到开始菜单解决方法</title>
+        <link>http://localhost:1313/blog/p/windows-%E9%83%A8%E5%88%86%E7%A8%8B%E5%BA%8F%E6%97%A0%E6%B3%95%E5%9B%BA%E5%AE%9A%E5%88%B0%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</link>
+        <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/windows-%E9%83%A8%E5%88%86%E7%A8%8B%E5%BA%8F%E6%97%A0%E6%B3%95%E5%9B%BA%E5%AE%9A%E5%88%B0%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</guid>
+        <description>&lt;p&gt;有时候部分脚本或者程序无法固定到开始菜单，这里记录一下这个问题的解决方法。&lt;/p&gt;
+&lt;p&gt;将相关的文件创建一个快捷方式，然后将这个快捷方式放到 &lt;code&gt;C:\Users\&amp;lt;Username&amp;gt;\AppData\Roaming\Microsoft\Windows\Start Menu\Programs&lt;/code&gt; 目录中，然后等 Windows 更新相关的索引或者重启电脑之后，在任务栏的搜索框中搜索上述快捷方式的名称，就可以将其固定到开始菜单中了。&lt;/p&gt;
+&lt;p&gt;也可以通过 &lt;code&gt;win + r&lt;/code&gt; 输入 &lt;code&gt;shell:programs&lt;/code&gt; 命令直接打开相关的目录。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>电脑投屏手机软件 scrcpy 使用记录</title>
+        <link>http://localhost:1313/blog/p/%E7%94%B5%E8%84%91%E6%8A%95%E5%B1%8F%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6-scrcpy-%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</link>
+        <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/%E7%94%B5%E8%84%91%E6%8A%95%E5%B1%8F%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6-scrcpy-%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</guid>
+        <description>&lt;p&gt;一直在用微信读书，它的手机 app 实在是比网页端好用太多，而且我经常需要在手机上查看内容，然后记录在电脑上，来回切换实在非常不方便。&lt;/p&gt;
+&lt;p&gt;于是我在搜索有什么解决方案，发现了一个好用的软件 scrcpy，可以直接在电脑上对手机的内容进行投屏和操作，一番折腾之后，基本可以满足我的使用需要，在此记录一下它的使用方法。&lt;/p&gt;
+&lt;h2 id=&#34;安装&#34;&gt;安装
+&lt;/h2&gt;&lt;p&gt;首先在&lt;a class=&#34;link&#34; href=&#34;https://github.com/Genymobile/scrcpy/releases/tag/v2.7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;安装界面&lt;/a&gt;下载适合操作系统的软件包。&lt;/p&gt;
+&lt;p&gt;在手机设置的参数信息里面狂按系统版本号，把开发者选项打开，然后在开发者选项里面把 USB 调试打开。&lt;/p&gt;
+&lt;p&gt;接着用一根 usb 线把手机和电脑连起来，在电脑中把解压好的软件包打开，点击 exe 文件，弹出一个界面，就是自己手机的投屏。&lt;/p&gt;
+&lt;p&gt;如果你的手机中安装的是搜狗输入法，那么直接把电脑中输入法切换成英文状态，就可以在投屏中对手机进行打字了。&lt;/p&gt;
+&lt;p&gt;但如果你和我一样用的其它小众输入法（例如虎码），那么需要安装其它输入法，如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/fcitx5-android/fcitx5-android&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;小企鹅输入法5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/osfans/trime&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;同文输入法&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;虎码用户直接用手机在&lt;a class=&#34;link&#34; href=&#34;http://ys-j.ysepan.com/620946455/916731337/jfS9jUs5G4K7S26JIMKH62/%E8%99%8E%E7%A0%81%E5%B0%8F%E4%BC%81%E9%B9%85%E5%AD%97%E8%AF%8D%E7%89%882024_07_29.apk?lx=xz&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官网&lt;/a&gt;下载资源即可。&lt;/p&gt;
+&lt;h2 id=&#34;常用快捷键&#34;&gt;常用快捷键
+&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;快捷键&lt;/th&gt;
+&lt;th&gt;操作&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;alt-o&lt;/td&gt;
+&lt;td&gt;关闭真机屏幕（保持投屏，按电源键可恢复）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt-O&lt;/td&gt;
+&lt;td&gt;打开真机屏幕&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt-s&lt;/td&gt;
+&lt;td&gt;多任务&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt-b&lt;/td&gt;
+&lt;td&gt;返回上一级/鼠标右键&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt-h&lt;/td&gt;
+&lt;td&gt;home 键/鼠标中键&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt-p&lt;/td&gt;
+&lt;td&gt;按电源&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt-&amp;lt;left&amp;gt;/&amp;lt;right&amp;gt;&lt;/td&gt;
+&lt;td&gt;旋转屏幕&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt-&amp;lt;up&amp;gt;/&amp;lt;down&amp;gt;&lt;/td&gt;
+&lt;td&gt;调节音量&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt-g&lt;/td&gt;
+&lt;td&gt;投屏铺满窗口&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ctrl-c&lt;/td&gt;
+&lt;td&gt;复制（可跨机）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ctrl-v&lt;/td&gt;
+&lt;td&gt;粘贴（可跨机）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;以下为常用的启动参数：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;--stay-awake&lt;/code&gt;，保持唤醒状态。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--always-on-top&lt;/code&gt;，总是位于顶部。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--keyboard=uhid&lt;/code&gt;，更加接近真实物理键盘。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--turn-screen-off&lt;/code&gt;，默认关闭真机的屏幕。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--window-title=&amp;quot;&amp;lt;你的窗口名称&amp;gt;&amp;quot;&lt;/code&gt;，设置窗口名称。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Windows 在快捷方式的“属性 -&amp;gt; 目标” 处加上这个参数即可。&lt;/p&gt;
+&lt;h2 id=&#34;无线连接&#34;&gt;无线连接
+&lt;/h2&gt;&lt;p&gt;除了使用 usb 连接，scrcpy 还可以通过无线连接的方式进行投屏。&lt;/p&gt;
+&lt;p&gt;在 scrcpy 的安装目录打开 windows terminal。&lt;/p&gt;
+&lt;p&gt;执行以下命令：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 在插入 usb 的状态下执行，用于设置手机监听 5555 端口&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.&lt;span class=&#34;se&#34;&gt;\a&lt;/span&gt;db.exe tcpip &lt;span class=&#34;m&#34;&gt;5555&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 拔掉 usb 之后执行，用于通过 scrcpy 的 adb 工具连接到手机的指定端口&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.&lt;span class=&#34;se&#34;&gt;\a&lt;/span&gt;db.exe connect &amp;lt;手机的 ip 地址&amp;gt;:5555
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这样之后再打开 scrcpy 软件就可以通过 wifi 进行连接了。&lt;/p&gt;
+&lt;p&gt;手机的 ip 地址可以通过 &lt;code&gt;.\adb.exe shell ip -f inet addr show wlan0&lt;/code&gt; 这条命令查询，或者直接通过在手机的设置搜索框中搜索。需要重新恢复不连接的状态的话则将 &lt;code&gt;connect&lt;/code&gt; 改为 &lt;code&gt;disconnect&lt;/code&gt; 即可。&lt;/p&gt;
+&lt;p&gt;重新启动操作系统之后，需要重新连接，并且 wifi 质量不好的话，会经常卡顿。因此不建议使用 wifi 的方式进行连接。&lt;/p&gt;
+&lt;h2 id=&#34;其它&#34;&gt;其它
+&lt;/h2&gt;&lt;p&gt;使用 &lt;code&gt;scrcpy-noconsole.vbs&lt;/code&gt; 脚本也是一样的效果，区别在于它不会有额外的 terminal。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>hugo page bundle 问题</title>
         <link>http://localhost:1313/blog/p/hugo-page-bundle-%E9%97%AE%E9%A2%98/</link>
         <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
@@ -463,11 +641,11 @@
 </description>
         </item>
         <item>
-        <title>160. 相交链表</title>
-        <link>http://localhost:1313/blog/p/160.-%E7%9B%B8%E4%BA%A4%E9%93%BE%E8%A1%A8/</link>
+        <title>206. 反转链表</title>
+        <link>http://localhost:1313/blog/p/206.-%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8/</link>
         <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/p/160.-%E7%9B%B8%E4%BA%A4%E9%93%BE%E8%A1%A8/</guid>
+        <guid>http://localhost:1313/blog/p/206.-%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/intersection-of-two-linked-lists/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1双指针&#34;&gt;方法 1：双指针
@@ -1300,6 +1478,341 @@
 </description>
         </item>
         <item>
+        <title>LazyVim for Ambitious Developers reading notes</title>
+        <link>http://localhost:1313/blog/p/lazyvim-for-ambitious-developers-reading-notes/</link>
+        <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/lazyvim-for-ambitious-developers-reading-notes/</guid>
+        <description>&lt;p&gt;Tutorial link: &lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LazyVim for Ambitious Developers&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In keybindings, &lt;code&gt;C&lt;/code&gt; means &lt;code&gt;Ctrl&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;chapter-1-introduction-and-installationhttpslazyvim-ambitious-devsphillipscodescoursechapter-1_introduction_and_installation&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-1/#_introduction_and_installation&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chapter 1. Introduction and Installation&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Use a GPU-accelerated terminal for installing LazyVim, such as: &lt;a class=&#34;link&#34; href=&#34;https://sw.kovidgoyal.net/kitty/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kitty Terminal&lt;/a&gt;, &lt;a class=&#34;link&#34; href=&#34;https://alacritty.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Alacritty&lt;/a&gt;, &lt;a class=&#34;link&#34; href=&#34;https://github.com/microsoft/terminal?tab=readme-ov-file&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Windows Terminal&lt;/a&gt;, etc.&lt;/p&gt;
+&lt;p&gt;For installation instructions, please refer to the &lt;a class=&#34;link&#34; href=&#34;https://www.lazyvim.org/installation&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;official website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;keys:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;Space&amp;gt;l&lt;/code&gt;, n, open the lazy.nvim plugin manager. Press &lt;code&gt;S&lt;/code&gt; to sync the update.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;chapter-2-what-is-modal-editing-anywayhttpslazyvim-ambitious-devsphillipscodescoursechapter-2_what_is_modal_editing_anyway&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-2/#_what_is_modal_editing_anyway&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chapter 2. What is Modal Editing, Anyway?&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;In normal mode, &lt;code&gt;&amp;quot;&lt;/code&gt; can open available registers.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;:x&lt;/code&gt; is almost equivalent to &lt;code&gt;:wq&lt;/code&gt;, but &lt;code&gt;:x&lt;/code&gt; does not perform save operations when the file has not been modified.&lt;/p&gt;
+&lt;p&gt;keys:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;C-R&lt;/code&gt;, i, pop up the register menu.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;quot;&lt;/code&gt;, n, pop up the register menu.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;C-c&lt;/code&gt;, can also exit the insert mode and enter the normal mode.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:q!&lt;/code&gt;, force to quit neovim without saving.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:x&lt;/code&gt; nearly equals to &lt;code&gt;:wq&lt;/code&gt;, except that &lt;code&gt;:x&lt;/code&gt; won&amp;rsquo;t execute the &amp;ldquo;save&amp;rdquo; operation if there is no modifications.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:e &amp;lt;path&amp;gt;&lt;/code&gt; to edit a new file, &lt;code&gt;&amp;lt;Tab&amp;gt;&lt;/code&gt; to cicyle through the available directories, &lt;code&gt;C-y&lt;/code&gt; to accept the current directory, &lt;code&gt;&amp;lt;Down&amp;gt;&lt;/code&gt; to enter the selected directory.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;chapter-3-getting-aroundhttpslazyvim-ambitious-devsphillipscodescoursechapter-3_getting_around&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-3/#_getting_around&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chapter 3. Getting Around&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;keys:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;s&lt;/code&gt; to enable the seek mode of &lt;code&gt;flash&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;C-&amp;lt;Up&amp;gt;&lt;/code&gt;, &lt;code&gt;C-&amp;lt;Down&amp;gt;&lt;/code&gt;, &lt;code&gt;C-y&lt;/code&gt;, &lt;code&gt;C-e&lt;/code&gt; to scroll the screen.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;Space&amp;gt;fc&lt;/code&gt;, open the configuration directory of lazyvim.&lt;/li&gt;
+&lt;li&gt;set vim options in &lt;code&gt;lua/option.lua&lt;/code&gt; file:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;vim.opt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;number&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;vim.opt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;relativenumber&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;&lt;code&gt;f&lt;/code&gt;/&lt;code&gt;F&lt;/code&gt; to find next/previous character, press again to continously forward/backward. &lt;code&gt;;&lt;/code&gt; is set to repeat the operation by default. Or you can use &lt;code&gt;f&lt;/code&gt; to jump to the third character after the current cursor.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;t&lt;/code&gt;/&lt;code&gt;T&lt;/code&gt; is same like &lt;code&gt;f&lt;/code&gt;/&lt;code&gt;F&lt;/code&gt; , but &lt;code&gt;t&lt;/code&gt;/&lt;code&gt;T&lt;/code&gt; arrive right before the target character.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;w&lt;/code&gt;,&lt;code&gt;e&lt;/code&gt;,&lt;code&gt;b&lt;/code&gt; to go to &amp;ldquo;beginning of the next word&amp;rdquo;, &amp;ldquo;end of the next word&amp;rdquo;, &amp;ldquo;beginning of the previous word&amp;rdquo;. &lt;code&gt;W&lt;/code&gt;, &lt;code&gt;E&lt;/code&gt;, &lt;code&gt;B&lt;/code&gt; move a little bigger, which omit punctuation.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;be&lt;/code&gt;/&lt;code&gt;ge&lt;/code&gt; to go to the end of previous word.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;A&lt;/code&gt;/&lt;code&gt;I&lt;/code&gt; to move to the end/beginning of a line and enter insert mode.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;^&lt;/code&gt;/&lt;code&gt;$&lt;/code&gt;/&lt;code&gt;0&lt;/code&gt; to move to the beginning/end/beginning of the line in normal mode.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gg&lt;/code&gt;/&lt;code&gt;G&lt;/code&gt; to move to the beginning/end of the file. &lt;code&gt;100G&lt;/code&gt;/&lt;code&gt;100gg&lt;/code&gt;/&lt;code&gt;:100&lt;/code&gt; to move to line 100.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;C-o&lt;/code&gt;/&lt;code&gt;C-i&lt;/code&gt; to jump backward/farward in jump history.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;chapter-4-opening-fileshttpslazyvim-ambitious-devsphillipscodescoursechapter-4_opening_files&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-4/#_opening_files&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chapter 4. Opening Files&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;keys:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;Space&amp;gt; q q&lt;/code&gt;, closes the entire nvim window and save the session.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;Space&amp;gt;&amp;lt;Space&amp;gt;&lt;/code&gt;/&lt;code&gt;Space&amp;gt;ff&lt;/code&gt;, pop up find file window of the current project, which is case insensitive and become sensitive right after there is a upper case character. &lt;code&gt;&amp;lt;Space&amp;gt;fF&lt;/code&gt; to&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cwd&lt;/code&gt; is typically the directory where you enter nvim in the terminal, and root directory is where there is a configuration file such as &lt;code&gt;.git&lt;/code&gt;, &lt;code&gt;package.json&lt;/code&gt;, etc.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:lcd&lt;/code&gt; to temprarily change the &lt;code&gt;cwd&lt;/code&gt; for a buffer.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;s&lt;/code&gt; to enable the seek mode.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;x&lt;/code&gt; to enable/disable a plugin in &lt;code&gt;:LazyExtras&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;=&lt;/code&gt; to save modifications in &lt;code&gt;mini.files&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;chapter-5-configuration-and-plugin-basicshttpslazyvim-ambitious-devsphillipscodescoursechapter-5_configuration_and_plugin_basics&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-5/#_configuration_and_plugin_basics&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chapter 5. Configuration and Plugin Basics&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;.config/nvim/lua/config/keymaps.lua&lt;/code&gt; is generally used for setting key bindings in Neovim or those that come with lazyvim.&lt;/p&gt;
+&lt;p&gt;In plugin configuration parameters, keys set key bindings, and opts sets plugin-related option configurations.&lt;/p&gt;
+&lt;p&gt;Reference examples for various configurations:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Disable a certain feature:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;nvim-neo-tree/neo-tree.nvim&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;enabled&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Modiry a certain built-in plugin &lt;code&gt;mini.files&lt;/code&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;34
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;35
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;36
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;37
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;38
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;39
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;40
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;41
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;s2&#34;&gt;&amp;#34;echasnovski/mini.files&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;keys&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;leader&amp;gt;e&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;kr&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;require&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;mini.files&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;open&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;vim.api&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;nvim_buf_get_name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;kr&#34;&gt;end&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;desc&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Open mini.files (directory of current file)&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;leader&amp;gt;E&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;kr&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;require&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;mini.files&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;open&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;vim.uv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cwd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;kr&#34;&gt;end&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;desc&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Open mini.files (cwd)&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;leader&amp;gt;fm&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;kr&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;require&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;mini.files&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;open&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;LazyVim.root&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;kr&#34;&gt;end&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;desc&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Open mini.files (root)&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;opts&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;-- mappings = {&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;--   go_in = &amp;#34;&amp;lt;Right&amp;gt;&amp;#34;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;--   go_out = &amp;#34;&amp;lt;Left&amp;gt;&amp;#34;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;-- },&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;windows&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;width_nofocus&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;width_focus&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;40&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;width_preview&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;80&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;options&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;use_as_default_explorer&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Modify &lt;code&gt;nvim-cmp&lt;/code&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;s2&#34;&gt;&amp;#34;hrsh7th/nvim-cmp&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;opts&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;opts&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;kd&#34;&gt;local&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cmp&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;require&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;cmp&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;opts.mapping&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;vim.tbl_extend&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;force&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;opts.mapping&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;Right&amp;gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cmp.mapping&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;confirm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;select&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;CR&amp;gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fallback&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cmp.abort&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;fallback&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;end&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kr&#34;&gt;end&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Configure &lt;code&gt;guess-indent&lt;/code&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;s2&#34;&gt;&amp;#34;nmac427/guess-indent.nvim&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;opts&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;auto_cmd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;override_editorconfig&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Configure &lt;code&gt;nvim-spider&lt;/code&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;s2&#34;&gt;&amp;#34;chrisgrieser/nvim-spider&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;opts&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;keys&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;s2&#34;&gt;&amp;#34;w&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;cmd&amp;gt;lua require(&amp;#39;spider&amp;#39;).motion(&amp;#39;w&amp;#39;)&amp;lt;CR&amp;gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;mode&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;n&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;o&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;x&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;desc&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Move to start of next of word&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;s2&#34;&gt;&amp;#34;e&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;cmd&amp;gt;lua require(&amp;#39;spider&amp;#39;).motion(&amp;#39;e&amp;#39;)&amp;lt;CR&amp;gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;mode&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;n&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;o&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;x&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;desc&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Move to end of word&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;s2&#34;&gt;&amp;#34;b&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;cmd&amp;gt;lua require(&amp;#39;spider&amp;#39;).motion(&amp;#39;b&amp;#39;)&amp;lt;CR&amp;gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;mode&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;n&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;o&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;x&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;desc&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Move to start of previous word&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;chapter-6-basic-editinghttpslazyvim-ambitious-devsphillipscodescoursechapter-6_basic_editing&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-6/#_basic_editing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chapter 6. Basic Editing&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;80i*&amp;lt;Escape&amp;gt;&lt;/code&gt; will insert 80 &lt;code&gt;*&lt;/code&gt; which is nifty.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;gU&amp;lt;range&amp;gt;&lt;/code&gt; will convert a character of a sequence of characters into uppercase, while the &lt;code&gt;gu&amp;lt;range&amp;gt;&lt;/code&gt; is the inverse.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;~&lt;/code&gt; inverts the case of character under the cursor.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;q&amp;lt;reg_name&amp;gt;&lt;/code&gt; will start recording a sequence of operations which called &lt;code&gt;macro&lt;/code&gt;, and press &lt;code&gt;q&lt;/code&gt; again will stop the recording. The fastest way to play back the latest macro is press &lt;code&gt;Q&lt;/code&gt;, or you can use &lt;code&gt;@&amp;lt;reg_name&amp;gt;&lt;/code&gt; instead.&lt;/p&gt;
+&lt;h2 id=&#34;chapter-7-objects-and-operator-pending-modehttpslazyvim-ambitious-devsphillipscodescoursechapter-7_objects_and_operator_pending_mode&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-7/#_objects_and_operator_pending_mode&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chapter 7. Objects and Operator-Pending Mode&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;(&lt;/code&gt;, &lt;code&gt;{&lt;/code&gt; move the cursor to the beginning of a sentence and paragraph, while &lt;code&gt;)&lt;/code&gt;, &lt;code&gt;}&lt;/code&gt; to the end.&lt;/p&gt;
+&lt;p&gt;debugger, python, time out error:&lt;/p&gt;
+&lt;p&gt;possible solutions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;venv-selector nvim plugin should be installed.&lt;/li&gt;
+&lt;li&gt;enable a venv for a project before starting debugging for python.&lt;/li&gt;
+&lt;li&gt;make sure your python3.exe could be properly recognized. user/global.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:DapShowLog&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;related plugin: nvim-dap&lt;/li&gt;
+&lt;li&gt;related keywords: nvim-dap-python&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;possible references:
+&lt;a class=&#34;link&#34; href=&#34;https://github.com/mfussenegger/nvim-dap-python/issues/118&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Debugpy - Windows · Issue #118 · mfussenegger/nvim-dap-python · GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mfussenegger/nvim-dap/discussions/846&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Attach to debugpy · mfussenegger/nvim-dap · Discussion #846 · GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.reddit.com/r/neovim/comments/199jt2c/nvimdap_debugpy_cant_work_in_windows/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;reddit.com/r/neovim/comments/199jt2c/nvimdap_debugpy_cant_work_in_windows/&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>LazyVim for Ambitious Developers 阅读笔记</title>
         <link>http://localhost:1313/blog/p/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</link>
         <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
@@ -1465,11 +1978,11 @@
 </description>
         </item>
         <item>
-        <title>239. 滑动窗口最大值</title>
-        <link>http://localhost:1313/blog/p/239.-%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E6%9C%80%E5%A4%A7%E5%80%BC/</link>
+        <title>2</title>
+        <link>http://localhost:1313/blog/p/2/</link>
         <pubDate>Sat, 21 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/p/239.-%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E6%9C%80%E5%A4%A7%E5%80%BC/</guid>
+        <guid>http://localhost:1313/blog/p/2/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/sliding-window-maximum/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题目链接&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;方法-1单调队列&#34;&gt;方法 1：单调队列
@@ -2814,6 +3327,87 @@
 </description>
         </item>
         <item>
+        <title>1. 两数之和</title>
+        <link>http://localhost:1313/blog/p/1.-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/</link>
+        <pubDate>Sat, 31 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/1.-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/two-sum/description/?envType=study-plan-v2&amp;amp;envId=top-100-liked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;题目链接&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;方法-1暴力枚举&#34;&gt;方法 1：暴力枚举
+&lt;/h2&gt;&lt;h3 id=&#34;思路&#34;&gt;思路
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;遍历数组，访问某个元素时，查看其后是否存在某个元素与其组成 target。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;代码&#34;&gt;代码
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;Solution&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;twoSum&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nums&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;List&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;target&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;List&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;n&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;len&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;nums&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;range&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;j&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;range&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nums&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nums&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;j&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;target&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;j&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;复杂度&#34;&gt;复杂度
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;时间复杂度：&lt;code&gt;O(N^2)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;空间复杂度：&lt;code&gt;O(1)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;方法-2哈希表&#34;&gt;方法 2：哈希表
+&lt;/h2&gt;&lt;h3 id=&#34;思路-1&#34;&gt;思路
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;首先一次遍历即可访问到所有的元素。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;方法 1 中，第一次遍历的结果并没有产生效益。我们可以用一个哈希表将遍历的结果保存起来，每次访问下一个元素的时候去哈希表里查，而不是再次遍历数组。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;代码-1&#34;&gt;代码
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;Solution&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;twoSum&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nums&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;List&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;target&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;List&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;h&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;dict&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;num&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;enumerate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;nums&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;target&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;num&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;h&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;h&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;target&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;num&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;h&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;num&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;复杂度-1&#34;&gt;复杂度
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;时间复杂度：&lt;code&gt;O(N)&lt;/code&gt;，一次遍历。&lt;/li&gt;
+&lt;li&gt;空间复杂度：&lt;code&gt;O(N)&lt;/code&gt;，哈希表产生的开销。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>《汇编语言》 读书笔记</title>
         <link>http://localhost:1313/blog/p/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
         <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
@@ -2869,7 +3463,7 @@
 对于这张图，1 地址处的&lt;strong&gt;字&lt;/strong&gt;型数据为 &lt;code&gt;124EH&lt;/code&gt;，&lt;strong&gt;字节&lt;/strong&gt;型数据为 &lt;code&gt;4EH&lt;/code&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;mov al, [0]&lt;/code&gt;：将 [0] 单元中的数据送入 al 寄存器，该数据的默认段地址为 ds 寄存器中的内容。&lt;code&gt;[0]&lt;/code&gt; 表示一个偏移地址为 0 的内存单元。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;mov ds, 1000H&lt;/code&gt; 是不合法的命令，&lt;code&gt;mov ds, ax&lt;/code&gt; 则合法。&lt;/p&gt;
-&lt;p&gt;栈由 &lt;code&gt;ss&lt;/code&gt; 寄存器 和 &lt;code&gt;sp&lt;/code&gt; 指针决定， &lt;code&gt;ss:sp&lt;/code&gt; 指向当前栈的栈顶。如果此时栈为空，则 &lt;code&gt;sp&lt;/code&gt; 为栈顶本来应该在的内存单元地址 + 2。&lt;/p&gt;
+&lt;p&gt;栈由 &lt;code&gt;ss&lt;/code&gt; 寄存器 和 &lt;code&gt;sp&lt;/code&gt; 指针决定， &lt;code&gt;ss:sp&lt;/code&gt; 指向当前栈的栈顶。如果此时栈为空，则 &lt;code&gt;sp&lt;/code&gt; 为栈最高内存单元地址 + 2。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;push ax&lt;/code&gt; / &lt;code&gt;pop ax&lt;/code&gt; 的作用为先变化 &lt;code&gt;sp&lt;/code&gt; 指针，然后将 ax 中的内容压入栈中/从栈中内容弹出到 ax 中。&lt;code&gt;sp&lt;/code&gt; 指针从高地址向低地址变化。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240913201938.png&#34;
 	
@@ -2907,7 +3501,7 @@
 &lt;li&gt;&lt;code&gt;mov [bx], ax&lt;/code&gt; 表示将 ax 的数据送入内存 EA:SA 处。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;code&gt;loop s&lt;/code&gt; 表示循环标号 s 所在的代码，循环次数由 cx 寄存器决定。&lt;/p&gt;
-&lt;p&gt;指令中不只可以使用默认 ds 表示段地址，也可以使用段前缀，例如：&lt;code&gt;mov ds:[0] al&lt;/code&gt;，&lt;code&gt;mov ax, es:[bx]&lt;/code&gt; 等。&lt;/p&gt;
+&lt;p&gt;指令中不止可以使用默认 ds 表示段地址，也可以使用段前缀，例如：&lt;code&gt;mov ds:[0] al&lt;/code&gt;，&lt;code&gt;mov ax, es:[bx]&lt;/code&gt; 等。&lt;/p&gt;
 &lt;h2 id=&#34;第-6-章-包含多个段的程序&#34;&gt;第 6 章 包含多个段的程序
 &lt;/h2&gt;&lt;p&gt;db 用于定义字节型数据，dw 用于定义字型数据。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;dw 0123h, 0456h&lt;/code&gt; 定义两个 16 进制数据  0123，0456。&lt;/p&gt;
@@ -2943,7 +3537,7 @@
 &lt;p&gt;si，di 为功能和 bx 相近的寄存器。&lt;/p&gt;
 &lt;p&gt;常量、变量或者他们的结合都可以用来表示一个内存地址，例如 [5]，[bx + 4]，[bx + si]，[bx + di + 4] 等。&lt;/p&gt;
 &lt;h2 id=&#34;第-8-章-数据处理的两个基本问题&#34;&gt;第 8 章 数据处理的两个基本问题
-&lt;/h2&gt;&lt;p&gt;指令执行前，可能在的位置有 3 个：CPU 内部、内存、端口。&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;指令执行前，数据可能在的位置有 3 个：CPU 内部、内存、端口。&lt;/p&gt;
 &lt;p&gt;汇编中的数据位置有 3 种表达方式：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;立即数，执行前在 CPU 的指令缓冲器中，例如 &lt;code&gt;mov ax 1&lt;/code&gt;。&lt;/li&gt;
@@ -3034,7 +3628,7 @@
 &lt;li&gt;je/jne, zf = 1 / zf = 0。&lt;/li&gt;
 &lt;li&gt;jb/jnb, cf = 1 / cf = 0。&lt;/li&gt;
 &lt;li&gt;ja/jna, (cf = 0 &amp;amp;&amp;amp; zf = 0) / (cf = 1 || zf = 1)。
-（equal, below, above)&lt;/li&gt;
+（not，equal, below, above)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;code&gt;movsb&lt;/code&gt; 等价于将 ds:si 地址上的值赋给 es:di 地址。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;cld&lt;/code&gt; 将 df 置 0，std 将 df 置 1 。&lt;/p&gt;
@@ -3066,7 +3660,7 @@
 &lt;li&gt;push IP&lt;/li&gt;
 &lt;li&gt;(IP) = (N * 4), (CS) = (N * 4 + 2)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;code&gt;offset do0end - offset do0&lt;/code&gt; 表达式可以计算出 do0 程序的长度。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;offset do0end - offset do0&lt;/code&gt; 表达式可以计算出 do0 标号程序的长度。&lt;/p&gt;
 &lt;p&gt;tf = 1 时，会执行单步中断。&lt;/p&gt;
 &lt;p&gt;进行栈相关的操作之后，&lt;code&gt;ss&lt;/code&gt; 和 &lt;code&gt;sp&lt;/code&gt; 指针应该连续设置（这期间连中断也不会响应）。&lt;/p&gt;
 &lt;h2 id=&#34;第-13-章-int-指令&#34;&gt;第 13 章 int 指令
@@ -3083,6 +3677,67 @@
 &lt;h2 id=&#34;第-14-章-端口&#34;&gt;第 14 章 端口
 &lt;/h2&gt;&lt;p&gt;CPU 外部各种网卡、外设等芯片中的寄存器称为端口。&lt;/p&gt;
 &lt;p&gt;总结：CPU 可以读取数据的位置有 3 个：CPU 内部的寄存器、内存单元、端口。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;in al, 60h&lt;/code&gt;, 从 60 号端口中读入一个字节。出为 out。&lt;/p&gt;
+&lt;p&gt;in/out 指令只能用 ax(16 位)/al (8 位) 存放要读写的数据。&lt;/p&gt;
+&lt;p&gt;CMOS RAM 芯片，简称 CMOS，128 字节的 RAM 存储器中 0 ~ 0 dh 字节存放时间信息，其余大部分用于保存系统配置信息。&lt;/p&gt;
+&lt;p&gt;其存储的时间以 BCD 码的形式存放，1 byte 可表示两个 BCD 码。&lt;/p&gt;
+&lt;p&gt;shl/shr 是逻辑左移、右移的指令，移出的最后一位放入 CF 中，低位补 0 。&lt;/p&gt;
+&lt;h1 id=&#34;第-15-章-外中断&#34;&gt;第 15 章 外中断
+&lt;/h1&gt;&lt;p&gt;I/O相关的中断称为外中断，其分为可屏蔽中断和不可屏蔽中断。&lt;/p&gt;
+&lt;p&gt;可屏蔽中断和内中断的过程相同。不可屏蔽中断的类型码固定为 2，所以没有那些取址的操作。&lt;/p&gt;
+&lt;p&gt;if 用于控制 cpu 是否需要响应可屏蔽中断，if = 0 则不响应。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sti&lt;/code&gt; 设置 if = 1；&lt;code&gt;cli&lt;/code&gt; 设置 if = 0 。&lt;/p&gt;
+&lt;p&gt;键盘输入，按下和松开一个键，会分别产生一个通码和断码（都叫扫描码）。&lt;/p&gt;
+&lt;p&gt;它们都会被送到 60h 号端口，然后相关芯片就会向 CPU 发送 int 9 中断可屏蔽中断，如果 if =1，则 CPU 响应中断。&lt;/p&gt;
+&lt;p&gt;通码的第 7 位为 0，断码的第 7 位为 1 ，即断码 = 通码 + 80h。&lt;/p&gt;
+&lt;p&gt;以下为部分键的通码。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241101104757.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241101105003.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;第-16-章-直接定址表&#34;&gt;第 16 章 直接定址表
+&lt;/h2&gt;&lt;p&gt;数据标号：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;若用 &lt;code&gt;a:db 1,2,3,4,5,6,7,8&lt;/code&gt; 定义了一组数据，则可以使用&lt;code&gt;mov al, a[si]&lt;/code&gt; 替代 &lt;code&gt;mov al, cs:[si]&lt;/code&gt;，并且表示 a 起始地址及之后的内存单元都是字节单元。&lt;/li&gt;
+&lt;li&gt;类似地，如果用 &lt;code&gt;b dw 0&lt;/code&gt; 定义了一个字单元，则可以使用 &lt;code&gt;add b, ax&lt;/code&gt; 替代 &lt;code&gt;add cs:[bx], ax&lt;/code&gt;，并且 b 起始地址及之后的内存单元都是字单元。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;mov al, a[si]&lt;/code&gt; 编译为 &lt;code&gt;mov al, [si + 0]&lt;/code&gt;; &lt;code&gt;add b, ax&lt;/code&gt; 编译为 &lt;code&gt;add [8], ax&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;a[si]&lt;/code&gt; 默认的段地址放在 &lt;code&gt;ds&lt;/code&gt; 中，要想正确地访问的是 &lt;code&gt;data&lt;/code&gt; 段的地址，需要首先将 &lt;code&gt;a&lt;/code&gt; 所在的段 &lt;code&gt;data&lt;/code&gt; 的段地址放在 &lt;code&gt;ds&lt;/code&gt; 中，即需要如下语句：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;assume ds:data&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mov ax, data&lt;/code&gt;, &lt;code&gt;mov ds, ax&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;标号可以直接当数据定义，编译器会将标号所在的地址当作数据的值。例如（在段中定义的）：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;c dw a, b&lt;/code&gt; 相当于 &lt;code&gt;c dw offset a, offset b&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;c dd a, b&lt;/code&gt; 相当于 &lt;code&gt;c dw offset a, seg a, offset b, seg b&lt;/code&gt;. &lt;code&gt;seg a&lt;/code&gt; 用于取得 a 所在的段地址。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;将不同子程序，用空间换时间。&lt;/p&gt;
+&lt;h2 id=&#34;第-17-章-使用-biso-进行键盘输入和磁盘读写&#34;&gt;第 17 章 使用 BISO 进行键盘输入和磁盘读写
+&lt;/h2&gt;&lt;p&gt;键盘输入的过程（以 Shift_A 为例）：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;按下左 Shift 键，引发键盘中断。int 9 中断例程接收左 Shift 键的通码，设置 0040:17 处的状态字节的第 1 位为 1，表示左 Shift 键按下。&lt;/li&gt;
+&lt;li&gt;按下 A 键，引发键盘中断，CPU 执行 int 9 中断例程，从 60h 端口读出 A 键的通码。&lt;/li&gt;
+&lt;li&gt;检测状态码，发现左 Shift 键被按下，则将 A 键的扫描码 1Eh 和 A（大写） 对应的 ASCII 码写入键盘缓冲区。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;int 16h&lt;/code&gt; 从缓冲区读入并删除一个键盘输入。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;int 13h&lt;/code&gt; 对磁盘进行读写。&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -3500,7 +4155,7 @@ CHAPTER：&lt;/p&gt;
         <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/p/ubuntu-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8-vue3-%E9%A1%B9%E7%9B%AE%E4%BB%A5-ruoyi-ui-admin-vue3-%E4%B8%BA%E4%BE%8B/</guid>
-        <description>&lt;p&gt;之前写了一篇[[Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）/index.zh-cn|Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）]]总结了一下一个 SpringBoot 后端项目的启动流程。本篇顺便总结一下前端 Vue3 项目的启动过程，这个比后端启动简单一点。&lt;/p&gt;
+        <description>&lt;p&gt;之前写了一篇[[Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）.zh-cn|Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）]]总结了一下一个 SpringBoot 后端项目的启动流程。本篇顺便总结一下前端 Vue3 项目的启动过程，这个比后端启动简单一点。&lt;/p&gt;
 &lt;h2 id=&#34;步骤&#34;&gt;步骤
 &lt;/h2&gt;&lt;p&gt;仍然是在 wsl 中 配置。以 ruoyi-ui-admin-vue3 项目为例。首先下载其项目到本地：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
