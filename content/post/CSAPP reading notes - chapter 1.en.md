@@ -6,7 +6,7 @@ tags:
 categories: CS
 date: 2024-11-04
 draft: false
-lastmod: 2024-11-06T11:13:44+08:00
+lastmod: 2024-11-06T11:14:03+08:00
 title: CSAPP reading notes - chapter 1
 weight: 1
 ---
@@ -27,5 +27,7 @@ Here is the phase figure:
 ![compliation system](_images/figure%201.3%20compliation%20system.png)
 
 baseurl = "https://old-y.github.io/", `/_image`, failed, src = `https://old-y.github.io/_images/figure%201.3%20compliation%20system.png`
+
+baseurl = "https://old-y.github.io/", `_image`,
 
 baseurl = "https://old-y.github.io/blog", `/_image`, 
