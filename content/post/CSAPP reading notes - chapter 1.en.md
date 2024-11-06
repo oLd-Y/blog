@@ -6,7 +6,7 @@ tags:
 categories: CS
 date: 2024-11-04
 draft: false
-lastmod: 2024-11-06T11:06:53+08:00
+lastmod: 2024-11-06T11:08:44+08:00
 title: CSAPP reading notes - chapter 1
 weight: 1
 ---
@@ -24,5 +24,5 @@ The gcc compiler driver reads the source file hello.c and translated into an exe
 The programs that perform these phases (preprocessor, compilor, assembler, and linker) is known collectively as the *compliation system*. 
 
 Here is the phase figure:
-![compliation system](_images/figure%201.3%20compliation%20system.png)
+![compliation system](/_images/figure%201.3%20compliation%20system.png)
 

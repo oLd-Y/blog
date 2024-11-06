@@ -35,8 +35,7 @@
               "title": "Resolving image insert conflict of Hugo and Obsidian.en"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,10 +198,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "12cfa5b9c489df11",
+  "active": "a31320b87e9364e3",
   "lastOpenFiles": [
-    "CSAPP reading notes - chapter 1.en.md",
     "Resolving image insert conflict of Hugo and Obsidian.en.md",
+    "CSAPP reading notes - chapter 1.en.md",
     "_images/figure 1.3 compliation system.png",
     "images/figure 1.3 compliation system.png",
     "images",

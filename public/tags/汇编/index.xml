@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>汇编 on 谷栗杳</title>
-        <link>http://localhost:1313/blog/tags/%E6%B1%87%E7%BC%96/</link>
+        <link>http://localhost:1313/tags/%E6%B1%87%E7%BC%96/</link>
         <description>Recent content in 汇编 on 谷栗杳</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Mon, 26 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/%E6%B1%87%E7%BC%96/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 26 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%B1%87%E7%BC%96/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>《汇编语言》 读书笔记</title>
-        <link>http://localhost:1313/blog/p/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+        <link>http://localhost:1313/p/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
         <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/p/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+        <guid>http://localhost:1313/p/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
         <description>&lt;h2 id=&#34;第-1-章-基础知识&#34;&gt;第 1 章 基础知识
 &lt;/h2&gt;&lt;p&gt;在汇编层面，指令和数据别无二致，都是一堆二进制数据。&lt;/p&gt;
 &lt;p&gt;那么，CPU 是如何分辨此时的二进制代码应当识别为数据还是指令呢？&lt;/p&gt;

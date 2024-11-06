@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Obsidian on 谷栗杳</title>
-        <link>http://localhost:1313/blog/tags/obsidian/</link>
+        <link>http://localhost:1313/tags/obsidian/</link>
         <description>Recent content in Obsidian on 谷栗杳</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/obsidian/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/obsidian/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Excalidraw 自定义中文字体</title>
-        <link>http://localhost:1313/blog/p/excalidraw-%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/</link>
+        <link>http://localhost:1313/p/excalidraw-%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/</link>
         <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/p/excalidraw-%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/</guid>
+        <guid>http://localhost:1313/p/excalidraw-%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/</guid>
         <description>&lt;p&gt;先在&lt;a class=&#34;link&#34; href=&#34;https://www.fonts.net.cn/commercial-free/fonts-zh-1.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;这个网站&lt;/a&gt;下载一个免费商用字体，下载到本地 Obsidian 的根 Vault 中的 Excalidraw 文件夹中，我是参考网上博客选择的&lt;a class=&#34;link&#34; href=&#34;https://www.fonts.net.cn/font-35068393713.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;沐瑶软笔手写体&lt;/a&gt;与原本的英文字体匹配。&lt;/p&gt;
@@ -43,10 +43,10 @@
         </item>
         <item>
         <title>Obsidian 插件记录</title>
-        <link>http://localhost:1313/blog/p/obsidian-%E6%8F%92%E4%BB%B6%E8%AE%B0%E5%BD%95/</link>
+        <link>http://localhost:1313/p/obsidian-%E6%8F%92%E4%BB%B6%E8%AE%B0%E5%BD%95/</link>
         <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/p/obsidian-%E6%8F%92%E4%BB%B6%E8%AE%B0%E5%BD%95/</guid>
+        <guid>http://localhost:1313/p/obsidian-%E6%8F%92%E4%BB%B6%E8%AE%B0%E5%BD%95/</guid>
         <description>&lt;p&gt;Obsidian 中的插件数目众多，一不留神就会陷进折腾插件的陷阱。偶然找到的插件，当时未必立马有用，个人还是更倾向于用到了再装。但当时找得到的插件，以后就未必同样找得到；或者长时间不用某个插件之后忘记这个插件的用法。因此在这里记录一下用到的插件。持续更新。&lt;/p&gt;
 &lt;h2 id=&#34;calendar&#34;&gt;Calendar
 &lt;/h2&gt;&lt;p&gt;用于快速生成  日记和周记模板&lt;/p&gt;

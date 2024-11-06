@@ -1,4 +1,4 @@
-baseurl = "https://old-y.github.io/blog"
+baseurl = "https://old-y.github.io/"
 # baseurl = "http://localhost:1313/"
 languageCode = "zh-CN"
 # theme = ["hugo-theme-stack", "almeida-cv"]

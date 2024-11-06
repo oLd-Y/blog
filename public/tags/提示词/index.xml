@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>提示词 on 谷栗杳</title>
-        <link>http://localhost:1313/blog/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D/</link>
+        <link>http://localhost:1313/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D/</link>
         <description>Recent content in 提示词 on 谷栗杳</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>有用的提示词</title>
-        <link>http://localhost:1313/blog/p/%E6%9C%89%E7%94%A8%E7%9A%84%E6%8F%90%E7%A4%BA%E8%AF%8D/</link>
+        <link>http://localhost:1313/p/%E6%9C%89%E7%94%A8%E7%9A%84%E6%8F%90%E7%A4%BA%E8%AF%8D/</link>
         <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/p/%E6%9C%89%E7%94%A8%E7%9A%84%E6%8F%90%E7%A4%BA%E8%AF%8D/</guid>
+        <guid>http://localhost:1313/p/%E6%9C%89%E7%94%A8%E7%9A%84%E6%8F%90%E7%A4%BA%E8%AF%8D/</guid>
         <description>&lt;h2 id=&#34;知识性的书籍总结&#34;&gt;知识性的书籍总结
 &lt;/h2&gt;&lt;p&gt;我正在学习王爽的《汇编语言》。以下是我阅读完第一章之后对所学到的知识进行的陈述。请你暂时忽略 TODO 中所提出的问题，检查我总结的内容是否有错误。如果出现错误，请你指出；如果有更多需要补充的知识点，也请你告诉我。&lt;/p&gt;
 &lt;p&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
