@@ -38,6 +38,14 @@ weight = 2
   [languages.zh-cn.params]
   description = "成为最好的自己!"
 
+[[module.mounts]]
+source = 'static'
+target = 'static'
+
+[[module.mounts]]
+source = 'content/post/_images'
+target = 'static/_images'
+
 # [languages.ar]
 # languageName = "عربي"
 # languagedirection = "rtl"
