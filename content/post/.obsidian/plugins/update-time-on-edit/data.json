@@ -69,7 +69,6 @@
     "_daily/2024-06-24_Monday.md": "1e518e67866535cc72cbc742fe9ae410e7e2ab3e70114a7431a97c2f0d9017cf",
     "_daily/2024-5-10_Friday.md": "37f00f947bd1c4ea5343a6a0e88d3e939d63570140ae6f45ed3c84f1f8857081",
     "Atomic Habits 读后感/index.md": "3d59df00c977fadc229257a725074e0fd90061b03ccba55cf1d222b5bc157f0f",
-    "围城 读后感/index.md": "00bf270ffb9e366e6cd9f43191da54a02e976100c2ecefe5774306efff335ec0",
     "hugo + stack + obsidian 搭建博客/index.md": "356913267d7c30e3f8782eb73a74f007a89db53becca6869f80e825fea9b4af6",
     "windows 11 蓝牙无法搜索到设备的原因 /index.md": "ae63efb16bcf53e605dd76d3892e43bd813e89eaa0f53931fcfe61249796b223",
     "windows 11 蓝牙无法搜索到设备的原因/index.md": "5ec1d26d8cf4e2e5bfb2a3bc26fd72ae35fdc4457e4d43f86473e709ed571dcb",
@@ -92,7 +91,6 @@
     "LeetCode21. 合并两个有序链表/index.zh-cn.md": "1a26aa0de298febfc39ca2073f6a61a8bceb7c73db92c0bc2cba31bc299a5660",
     "LeetCode 21. 合并两个有序链表/index.zh-cn.md": "926b6edfa688197fb7dd225151425858b1fc5e807ccf111f6b5aea6a4d6648de",
     "Hugo 解析 Obsidian 双链（Wiki links）的方法/index.zh-cn.md": "4b0d1e571c0509e0e8b5ff2db977b716598ae501a8ffbcfbb87bf0149b8ffebf",
-    "原子习惯 读后感/index.md": "1e2f1dc9812036dfc09360fdd1d667d141c5f0833bbd510194ec244684b53317",
     "炒粉丝/index.zh-cn.md": "50d8631ef4c821362776c158408bfbc1532fd7ca2e7aa861bf6816943637e592",
     "青椒炒肉/index.zh-cn.md": "551b06526f751c11bd1caa4c36f780ace3e4be8b8197a34d0ab6d68bb3752ef9",
     "辣椒炒肉/index.zh-cn.md": "5b1f040fd9321c8756916ba5699177767258d5d6e950fe56e9cda2c936fa9ba0",
@@ -161,7 +159,6 @@
     "炝锅面/index.zh-cn.md": "4624ba66779bc2dfe2b245a7b402ca8d3a222f5c89bee859c064727bad6ec940",
     "影响是潜移默化的/index.zh-cn.md": "40529220a6a88f8f5fb22c15206e6c1701c37bb02aa5b7474063d1f404e298b6",
     "言行一致是一门修行/index.zh-cn.md": "72b6738d9fd7bdeb3679a9a679e920aecc3a1282ae7567e7653c6a9816c42676",
-    "128. 最长连续序列/index.zh-cn.md": "8331b07227fb956f0569c94c9539d5abbdd4c158997a432b7bbcc883ef327a2c",
     "有动力才愿意前进/index.zh-cn.md": "f8a5ff92a53bbe1acd13a8572ef5543ced57794913adfc9f457fc0c5c931fafc",
     "不要过分追求细节/index.zh-cn.md": "31e2f4d2fd94000c59b2c0d8c28366d87e293e971c1512a5fa443caa2a2760f6",
     "清汤米粉/index.zh-cn.md": "c05ad2c0fc349fd21595049d32818693069b9a1c8efc7816ffa675f4779357e1",
@@ -200,7 +197,6 @@
     "断更通知/index.zh-cn.md": "e1c5d58edf9f75415c42bcc497dc05042d5e42d790ac7055d173e21244bd01a0",
     "41. 缺失的第一个正数/index.zh-cn.md": "b626f9972032be4955231feea6df497b3b47b080feaf65f19948b2108ff821eb",
     "矩阵旋转坐标公式/index.zh-cn.md": "aa94ef7d94448772cad1c5865d57925d8324b63add039f2731718e465d4edeb0",
-    "240. 搜索二维矩阵 II/index.zh-cn.md": "bc95d24e0a8f8684e9d5625da6ac9dfbb5e986c8614ef244f6c7efeda28313f0",
     "肉末蒸蛋/index.zh-cn.md": "b30ee679bdbf8c9f93f06831d5936bb7be315d6af6609ca3fef0457028d2f870",
     "口蘑汤/index.zh-cn.md": "9c683ce8aff5a9a854b2054639a2555a73aef61eb5a3ff226164124cb95413b8",
     "腐竹烧肉/index.zh-cn.md": "746de0ef83f47c25e29aeae7b600ec9ac8b2b6dc9f384c1c4dbf2a9dc7b61eb4",
@@ -233,7 +229,7 @@
     "useful prompt.zh-cn.md": "0cd62a7dcec5cdf1151f2fdbcc7994a90989e3a8785586fea3b19b2e43ec6bf2",
     "cargo installation.en.md": "327361df95c42a7a4e97ba07e439485a7a9531732c434d73c70e019f0dbd5f69",
     "电脑投屏手机软件 scrcpy 使用记录.md": "ab909887ace9e2068a5464cc597980d41688d3cd2efc39691c0233797530d3bf",
-    "CSAPP summariztion - chanpter 1.md": "635ab1c2bd6d4817230af4707685461f95d8c04f92234bd0cd2fc5e398bce168",
+    "CSAPP summariztion - chanpter 1.md": "82c1b26945b7e96471117c603bfa9e9cb245ec1d4a834b9dc0cfd41357acbc62",
     "Windows 布局和工作区.md": "7432180f88a8cc4547b5e4b4d8b27372d480e77f02b2dbaf0aa9d5c7de56dbdc",
     "Windows 部分程序无法固定到开始菜单解决方法.md": "f7fbbabe5597781853ea7af8365a81803631c54de327f40f76a0ab3001d764d8",
     "160. 相交链表.zh-cn.md": "c0e975a1f8511954908053de7237ae14998a6cd1ec6eab7e210ddd095dbf4cf3",
@@ -254,6 +250,11 @@
     "Upgrade Neovim To The Latest.en.md": "3a193e725e2d91eb193f0213e6c5921f702f90a1e65fd66c359bd098e25543a0",
     "54. 螺旋矩阵.zh-cn.md": "12512a3fd5cd3559d6c5deb11089051fc76d02f9971c0bbe28e3ac5749650824",
     "76. 最小覆盖子串.zh-cn.md": "b6613f31d88bdc8d06155f5f93b575da45dda6c1525a2edbcb01ca9fb9651692",
-    "239. 滑动窗口最大值.zh-cn.md": "d4452f60a8d6808d68e50bada2246755640e0640ee512e8b355706396c0bfa9c"
+    "239. 滑动窗口最大值.zh-cn.md": "d4452f60a8d6808d68e50bada2246755640e0640ee512e8b355706396c0bfa9c",
+    "128. 最长连续序列.zh-cn.md": "8331b07227fb956f0569c94c9539d5abbdd4c158997a432b7bbcc883ef327a2c",
+    "240. 搜索二维矩阵 II.zh-cn.md": "bc95d24e0a8f8684e9d5625da6ac9dfbb5e986c8614ef244f6c7efeda28313f0",
+    "围城 读后感.zh-cn.md": "036b9e82554fa357590f8fc01fad738406e7b210a87e090a39a6ef7dcefa3604",
+    "原子习惯 读后感.zh-cn.md": "1e2f1dc9812036dfc09360fdd1d667d141c5f0833bbd510194ec244684b53317",
+    "LazyVim for Ambitious Developers reading notes.en 1.md": "497963b6be0c6b008d8f927da7f21a92ccc2bd8dbdfd9e5e60a8a97543b4f2d1"
   }
 }
