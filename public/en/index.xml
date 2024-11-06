@@ -132,9 +132,9 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;baseurl = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://old-y.github.io/%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://old-y.github.io/&#34;&lt;/a&gt;&lt;/p&gt;
+    &gt;https://old-y.github.io/&#34;&lt;/a&gt;, &lt;code&gt;/_image&lt;/code&gt;, failed&lt;/p&gt;
 &lt;p&gt;baseurl = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://old-y.github.io/blog%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://old-y.github.io/blog&#34;&lt;/a&gt;, &lt;code&gt;/_image&lt;/code&gt;&lt;/p&gt;
+    &gt;https://old-y.github.io/blog&#34;&lt;/a&gt;, &lt;code&gt;/_image&lt;/code&gt;,&lt;/p&gt;
 </description>
         </item>
         <item>
