@@ -7,7 +7,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-06T11:04:35+08:00
+lastmod: 2024-11-06T11:07:42+08:00
 ---
 I'm using `Hugo` to build my blog and `Obsidian` to locally read notes. However, there is a conflict at their rendering of images.
 
@@ -28,10 +28,13 @@ blog/
 ├── ...
 ```
 
-I make the `content/post` as my obsidian vault, as said above, if I want to insert an image called `test.png` placed in `images` subdirectory of the obsidian vault into the `file.md`, write the url with such format:
+I make the `content/post` as my obsidian vault, as said above, if I want to insert into the `file.md` an image called `test.png` placed in `images` subdirectory of the obsidian vault, write the url with such format:
 ```markdown
 ![alt image]()
 ```
 
 There are several thing you need to notice:
 1. Check the 
+
+
+I've written an article to record the solution in English, please help me polish the text to fix it grammar as well as making it more native and fluent without changing its original meanings.
