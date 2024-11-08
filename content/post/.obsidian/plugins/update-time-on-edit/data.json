@@ -195,7 +195,7 @@
     "lazyvim 中无法使用 Ctrl - r.zh-cn.md": "c763cfe259622137ffcab502d95914c1dd483c2d01e6d05fd5c43f2a7d40b3fb",
     "Obsidian 插件记录.zh-cn.md": "5c5b7316a13aace6e21966afbcc8bed240c1ba318cbc0de5e55f8fa402917908",
     "LazyVim for Ambitious Developers reading notes.en.md": "c601157bd53809b6e5d4e824f761816229a8c6741aa1917edb957f43129a27a2",
-    "LazyVim for Ambitious Developers reading notes.zh-cn.md": "177851dd3b80e956cf70d64493fced94bb31edb584306586da19d32dbeb78dcc",
+    "LazyVim for Ambitious Developers reading notes.zh-cn.md": "923a82f56c20813a6bd517c7db858f291d48d5a425e45aea6e68ac85a88dc3cc",
     "信号量.zh-cn.md": "8fc3b699be0e0c979cdb2a8ec16af7b1c5de74d3fee457b7014530d87ca5b8ce",
     "Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）.zh-cn.md": "423413c20b639cc8f183832ff5e8c690c9405cac368c845a33e474bdae3b8f79",
     "Ubuntu 命令行启动 Vue3 项目（以 ruoyi-ui-admin-vue3 为例）.zh-cn.md": "3efbc6369da18c93e3e4de8143d22291f0832724397e5183f5c9622722e4a1f6",
@@ -228,8 +228,7 @@
     "240. 搜索二维矩阵 II.zh-cn.md": "bc95d24e0a8f8684e9d5625da6ac9dfbb5e986c8614ef244f6c7efeda28313f0",
     "围城 读后感.zh-cn.md": "036b9e82554fa357590f8fc01fad738406e7b210a87e090a39a6ef7dcefa3604",
     "原子习惯 读后感.zh-cn.md": "1e2f1dc9812036dfc09360fdd1d667d141c5f0833bbd510194ec244684b53317",
-    "LazyVim for Ambitious Developers reading notes.en 1.md": "497963b6be0c6b008d8f927da7f21a92ccc2bd8dbdfd9e5e60a8a97543b4f2d1",
-    "Resolving image insert conflict of Hugo and Obsidian.en.md": "0e880c001ef938c60922e38517e7f1796cf0fcae9458e7b6b13c3171a1a80ef5",
-    "CSAPP reading notes - chapter 1.en.md": "d19eee819c841f8d513ae62692afe45b91490fd095020b70db5f824ea3f2d747"
+    "Resolving image insert conflict of Hugo and Obsidian.en.md": "d2d8410d2702dc7062275fce0b94fe7f05ff382651793a0e9d3a4f6d2142129c",
+    "CSAPP reading notes - chapter 1.en.md": "15fe1c030f8283606dca888f25600c02a2e9df6b3a211f64ed9a5a6315bd565a"
   }
 }

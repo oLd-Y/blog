@@ -6,7 +6,7 @@ tags:
 categories: CS
 date: 2024-11-04
 draft: false
-lastmod: 2024-11-08T07:55:11+08:00
+lastmod: 2024-11-08T09:56:07+08:00
 title: CSAPP reading notes - chapter 1
 weight: 1
 ---
@@ -26,4 +26,3 @@ The programs that perform these phases (preprocessor, compilor, assembler, and l
 Here is the phase figure:
 ![compliation system](figure%201.3%20compliation%20system.png)
 
-The outcome of image rendering on remote **site** and local **site** after mount `content/post/_images` onto `static/_images`.

@@ -1,13 +1,14 @@
 ---
 title: Resolving image insert conflict of Hugo and Obsidian
-categories: 
-tags: 
+categories: CS
+tags:
+  - tool
 date: 2024-11-06
 description: 
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-08T09:16:34+08:00
+lastmod: 2024-11-08T09:55:20+08:00
 ---
 I'm using `Hugo` to build my blog and `Obsidian` to locally read notes. However, there is a conflict in their rendering of images.
 
@@ -29,7 +30,7 @@ blog/
 ├── ...
 ```
 
-I use the `content/post` directory as my Obsidian vault. When I want to insert an image `img.png` (placed in `content/post/images`) into `file.md`, I tried these URLs: 
+I use the `content/post` directory as my Obsidian vault. When I want to insert an image `img.png` (placed in `content/post/_images`) into `file.md`, I tried these URLs: 
 `![alt image](_image/img.png)` and `![alt image](img.png)`. Both rendered correctly in obsidian but failed in both local and remote Hugo sites for the reason mentioned above.
 
 To solve this, we need to let Hugo know where we put the images. Add these configuration in your Hugo config file:
@@ -44,15 +45,14 @@ target = 'static/_images'
 ```
 
 Here is the explanation:
-- The first mount with same `static` of both source and target is aim to make resources in default hugo static directory not to be overwrited.
-- The second mount of source `content/post/_images` and target `static` is try to mount the former to the latter. In that case, both your hugo site and obsidian with get the `_images` path properly.
+- The first mount with same `static` source and target aims to prevent resources in default Hugo static directory from overwritten.
+- The second mount maps `content/post/_images` to `static/_images`, allowing both Hugo site and Obsidian to resolve the `_images` path properly.
 
-There are several things you need to notice:
-1. Hugo will combine all of the configuration files into one file, and place it in the root of hugo project. Thus the path in your hugo config code above starts from current directory with no leading slash `/`. 
-2. The `static` directory will also be integrated and disapear, and the image url in your markdown files shouldn't have the leading `/`, because it will be interpreted to your host root rather than hugo project root.
+Important notes:
+1. Hugo will combine all configuration files into one, and place it in the project root. Therefore, paths in the Hugo config above should start from current directory without leading slash `/`. 
+2. The `static` directory will be integrated and disappear, and image URLs in markdown files shouldn't have a leading `/` as it will be interpreted as your host root rather than Hugo project root.
 
-
-Here are the different test results of whether there is a leading `/` about remote and local hugo site.
+Here are the different test results showing how the presence of  leading `/` in an image URLs affects remote and local Hugo sites:
 
 | baseurl       | img url            | remote  | local   |     |
 | ------------- | ------------------ | ------- | ------- | --- |
@@ -61,25 +61,21 @@ Here are the different test results of whether there is a leading `/` about remo
 | `xxx.io/blog` | `/_images/img.png` | failed  | failed  |     |
 | `xxx.io/blog` | `_images/img.png`  | succeed | succeed |     |
 
-Besides, only obsidian is able to render the image without prefix `/_images`, both remote site and local site fail.
+Note: Only Obsidian can render images without the `/_images` prefix; both remote and local sites requires it.
 
-Detailed test outcomes are as follows:
+Detailed outcomes:
 
-baseurl = "https://old-y.github.io/", url = `/_images/figure%201.3%20compliation%20system.png`, 
-- remote failed, src = `https://old-y.github.io/_images/figure%201.3%20compliation%20system.png`
-- local succeed, src = `http://localhost:1313/_images/figure%201.3%20compliation%20system.png`
+1. baseurl = "https://old-y.github.io/", url = `/_images/figure%201.3%20compliation%20system.png`, 
+	- remote failed, src = `https://old-y.github.io/_images/figure%201.3%20compliation%20system.png`
+	- local succeed, src = `http://localhost:1313/_images/figure%201.3%20compliation%20system.png`
+2. baseurl = "https://old-y.github.io/", url = `_images/figure%201.3%20compliation%20system.png`, 
+	- remote succeed, src = `https://old-y.github.io/blog/_images/figure%201.3%20compliation%20system.png`
+	- local succeed, src = `http://localhost:1313/_images/figure%201.3%20compliation%20system.png`
+3. baseurl = "https://old-y.github.io/blog", url = `/_images/figure%201.3%20compliation%20system.png`, 
+	- remote failed, src = `https://old-y.github.io/_images/figure%201.3%20compliation%20system.png`
+	- local failed, src = `http://localhost:1313/_images/figure%201.3%20compliation%20system.png`
+4. baseurl = "https://old-y.github.io/blog", url = `_images/figure%201.3%20compliation%20system.png`, 
+	- remote succeed, src = `https://old-y.github.io/blog/_images/figure%201.3%20compliation%20system.png`; 
+	- local succeed, src = `http://localhost:1313/blog/_images/figure%201.3%20compliation%20system.png`
 
-baseurl = "https://old-y.github.io/", url = `_images/figure%201.3%20compliation%20system.png`, 
-- remote succeed, src = `https://old-y.github.io/blog/_images/figure%201.3%20compliation%20system.png`
-- local succeed, src = `http://localhost:1313/_images/figure%201.3%20compliation%20system.png`
-
-baseurl = "https://old-y.github.io/blog", url = `/_images/figure%201.3%20compliation%20system.png`, 
-- remote failed, src = `https://old-y.github.io/_images/figure%201.3%20compliation%20system.png`
-- local failed, src = `http://localhost:1313/_images/figure%201.3%20compliation%20system.png`
-
-baseurl = "https://old-y.github.io/blog", url = `_images/figure%201.3%20compliation%20system.png`, 
-- remote succeed, src = `https://old-y.github.io/blog/_images/figure%201.3%20compliation%20system.png`; 
-- local succeed, src = `http://localhost:1313/blog/_images/figure%201.3%20compliation%20system.png`
-
-What we can learn from them is that `baseurl` only take effects in the local site.
-
+The key finding is that baseurl only affects the local site behavior. With leading slash `/`, no matter how I change the `baseurl` in config file, the remote site will interpreted it into `xxx/_images` rather than `xxx/blog/_images`, but the local site will change accordingly.
