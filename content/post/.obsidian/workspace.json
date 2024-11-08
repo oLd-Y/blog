@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 331.5,
+    "collapsed": true
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -199,7 +200,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "12cfa5b9c489df11",
   "lastOpenFiles": [
     "CSAPP reading notes - chapter 1.en.md",
     "Resolving image insert conflict of Hugo and Obsidian.en.md",

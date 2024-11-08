@@ -7,15 +7,16 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-08T08:14:58+08:00
+lastmod: 2024-11-08T09:16:34+08:00
 ---
-I'm using `Hugo` to build my blog and `Obsidian` to locally read notes. However, there is a conflict at their rendering of images.
+I'm using `Hugo` to build my blog and `Obsidian` to locally read notes. However, there is a conflict in their rendering of images.
 
-The hugo achieve all sources from its root, while obsidian vault gets images from its root too (which isn't the same path as hugo's root), and result in the mismatch of the url in an markdown file.
+Hugo accesses all sources from its root, while obsidian vault gets images from its root too (which isn't the same path as hugo's root). This result in mismatched URLs in markdown files.
 
-Luckily, hugo provide a functionality of mounting, which enable remapping a path inner it to another inside path. Here is an example of mine to illustrate the solution.
+Fortunately, Hugo provides a mounting functionality that enable remapping paths within the project. Here's an example of my solution.
 
-First of all, I have a hugo project called `blog`, and its directory structure would be something like:
+First, I have a Hugo project called `blog`, with a directory structure like this:
+
 ```
 blog/
 ├── static/           
@@ -28,10 +29,10 @@ blog/
 ├── ...
 ```
 
-I use the `content/post` directory as my obsidian vault, if I want to insert into the `file.md` an image called `img.png` placed in `content/post/images`, which is a subdirectory in my obsidian vault, I tried these urls: 
-`![alt image](_image/img.png)` and `![alt image](img.png`, both can be rendered correctly in obsidian, but both failed in the local or remote Hugo site. The reason is said above.
+I use the `content/post` directory as my Obsidian vault. When I want to insert an image `img.png` (placed in `content/post/images`) into `file.md`, I tried these URLs: 
+`![alt image](_image/img.png)` and `![alt image](img.png)`. Both rendered correctly in obsidian but failed in both local and remote Hugo sites for the reason mentioned above.
 
-To solve this, we should let Hugo know the path we put the images. Put these code in your hugo config file:
+To solve this, we need to let Hugo know where we put the images. Add these configuration in your Hugo config file:
 ```toml
 [[module.mounts]]
 source = 'static'
@@ -43,27 +44,26 @@ target = 'static/_images'
 ```
 
 Here is the explanation:
-- The first mount of source with `static` and target with `static`, is aim to make resources in default hugo static directory not to be overwrited.
-- The second mount of source with `content/post/_images` and target `static`
+- The first mount with same `static` of both source and target is aim to make resources in default hugo static directory not to be overwrited.
+- The second mount of source `content/post/_images` and target `static` is try to mount the former to the latter. In that case, both your hugo site and obsidian with get the `_images` path properly.
 
 There are several things you need to notice:
-1. Check the 
+1. Hugo will combine all of the configuration files into one file, and place it in the root of hugo project. Thus the path in your hugo config code above starts from current directory with no leading slash `/`. 
+2. The `static` directory will also be integrated and disapear, and the image url in your markdown files shouldn't have the leading `/`, because it will be interpreted to your host root rather than hugo project root.
 
 
-I've written an article to record the solution in English, please help me polish the text to fix it grammar as well as making it more native and fluent without changing its original meanings.
+Here are the different test results of whether there is a leading `/` about remote and local hugo site.
 
+| baseurl       | img url            | remote  | local   |     |
+| ------------- | ------------------ | ------- | ------- | --- |
+| `xxx.io/`     | `/_images/img.png` | failed  | succeed |     |
+| `xxx.io/`     | `_images/img.png`  | succeed | succeed |     |
+| `xxx.io/blog` | `/_images/img.png` | failed  | failed  |     |
+| `xxx.io/blog` | `_images/img.png`  | succeed | succeed |     |
 
-| baseurl       | img url            | remote  | local   |
-| ------------- | ------------------ | ------- | ------- |
-| `xxx.io/`     | `/_images/img.png` | failed  | succeed |
-| `xxx.io/`     | `_images/img.png`  | succeed | succeed |
-| `xxx.io/blog` | `/_images/img.png` | failed  | failed  |
-| `xxx.io/blog` | `_images/img.png`  | succeed | succeed |
-Only obsidian is able to render the image without prefix `/_images`, both remote site and local site fail.
+Besides, only obsidian is able to render the image without prefix `/_images`, both remote site and local site fail.
 
-If only file name without directory, only obsidian side can render correctly and both site rendered failed.
-
-Here are detailed test outcomes:
+Detailed test outcomes are as follows:
 
 baseurl = "https://old-y.github.io/", url = `/_images/figure%201.3%20compliation%20system.png`, 
 - remote failed, src = `https://old-y.github.io/_images/figure%201.3%20compliation%20system.png`
@@ -81,4 +81,5 @@ baseurl = "https://old-y.github.io/blog", url = `_images/figure%201.3%20compliat
 - remote succeed, src = `https://old-y.github.io/blog/_images/figure%201.3%20compliation%20system.png`; 
 - local succeed, src = `http://localhost:1313/blog/_images/figure%201.3%20compliation%20system.png`
 
+What we can learn from them is that `baseurl` only take effects in the local site.
 
