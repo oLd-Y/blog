@@ -16,7 +16,7 @@
         <description>&lt;h2 id=&#34;11-information-is-bits--context&#34;&gt;1.1 Information Is Bits + Context
 &lt;/h2&gt;&lt;p&gt;All information in a system is represented as a bunch of bits.&lt;/p&gt;
 &lt;h2 id=&#34;12-programs-are-translated-by-other-programs-into-different-forms&#34;&gt;1.2 Programs Are Translated by Other Programs into Different Forms
-&lt;/h2&gt;&lt;p&gt;The gcc compiler driver reads the source file hello.c and translated into an execuable object file hello. The translation is performed in the sequence of four phases,&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;The gcc compiler driver reads the source file hello.c and translated into an execuable object file hello. The translation is performed in the sequence of four phases:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Preprocessing phase.&lt;/li&gt;
 &lt;li&gt;Compliation phase.&lt;/li&gt;
@@ -35,30 +35,19 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;baseurl = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://old-y.github.io/%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://old-y.github.io/&#34;&lt;/a&gt;, url = &lt;code&gt;/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;,&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;remote failed, src = &lt;code&gt;https://old-y.github.io/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;local succeed, src = &lt;code&gt;http://localhost:1313/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;baseurl = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://old-y.github.io/%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://old-y.github.io/&#34;&lt;/a&gt;, url = &lt;code&gt;_images/figure%201.3%20compliation%20system.png&lt;/code&gt;,&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;remote succeed, src = &lt;code&gt;https://old-y.github.io/blog/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;local succeed, src = &lt;code&gt;http://localhost:1313/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;baseurl = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://old-y.github.io/blog%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://old-y.github.io/blog&#34;&lt;/a&gt;, url = &lt;code&gt;/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;,&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;remote failed, src = &lt;code&gt;https://old-y.github.io/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;local failed, src = &lt;code&gt;http://localhost:1313/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;baseurl = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://old-y.github.io/blog%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://old-y.github.io/blog&#34;&lt;/a&gt;, url = &lt;code&gt;_images/figure%201.3%20compliation%20system.png&lt;/code&gt;,&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;remote succeed, src = &lt;code&gt;https://old-y.github.io/blog/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;;&lt;/li&gt;
-&lt;li&gt;local succeed, src = &lt;code&gt;http://localhost:1313/blog/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&#34;13-it-pays-to-understand-how-compilation-systems-work&#34;&gt;1.3 It Pays to Understand How Compilation Systems Work
+&lt;/h2&gt;&lt;p&gt;None.&lt;/p&gt;
+&lt;h2 id=&#34;14-processors-read-and-interpret-instructions-stored-in-memory&#34;&gt;1.4 Processors Read and Interpret Instructions Stored in Memory
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/figure%201.4.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Hardware orgnization of a typical system&#34;
+	
+	
+&gt;&lt;/p&gt;
 </description>
         </item>
         

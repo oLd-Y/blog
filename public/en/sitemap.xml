@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/en/p/resolving-image-insert-conflict-of-hugo-and-obsidian/</loc>
-    <lastmod>2024-11-06T11:07:42+08:00</lastmod>
+    <lastmod>2024-11-08T09:55:20+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/en/p/upgrade-neovim-to-the-latest/</loc>
     <lastmod>2024-11-05T22:10:31+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/en/p/csapp-reading-notes-chapter-1/</loc>
-    <lastmod>2024-11-06T11:37:22+08:00</lastmod>
+    <lastmod>2024-11-08T11:29:05+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/en/p/cargo-installation/</loc>
     <lastmod>2024-11-01T15:52:45+08:00</lastmod>
@@ -44,7 +44,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/blog/en/p/useful-prompt/</loc>
-    <lastmod>2024-10-07T09:31:52+08:00</lastmod>
+    <lastmod>2024-11-08T10:29:35+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -56,34 +56,8 @@
                 href="http://localhost:1313/blog/en/p/useful-prompt/"
                 />
   </url><url>
-    <loc>http://localhost:1313/blog/en/</loc>
-    <lastmod>2024-11-06T11:37:22+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="http://localhost:1313/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/blog/en/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/blog/en/post/</loc>
-    <lastmod>2024-11-06T11:37:22+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="http://localhost:1313/blog/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/blog/en/post/"
-                />
-  </url><url>
     <loc>http://localhost:1313/blog/en/categories/</loc>
-    <lastmod>2024-11-06T11:37:22+08:00</lastmod>
+    <lastmod>2024-11-08T11:29:05+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -96,7 +70,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/blog/en/categories/cs/</loc>
-    <lastmod>2024-11-06T11:37:22+08:00</lastmod>
+    <lastmod>2024-11-08T11:29:05+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -106,6 +80,58 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/blog/en/categories/cs/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/blog/en/</loc>
+    <lastmod>2024-11-08T11:29:05+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog/en/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/blog/en/post/</loc>
+    <lastmod>2024-11-08T11:29:05+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/blog/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog/en/post/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/blog/en/tags/</loc>
+    <lastmod>2024-11-08T11:29:05+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/blog/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog/en/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/blog/en/tags/tool/</loc>
+    <lastmod>2024-11-08T09:55:20+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/blog/tags/tool/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog/en/tags/tool/"
                 />
   </url><url>
     <loc>http://localhost:1313/blog/en/tags/installation/</loc>
@@ -124,21 +150,8 @@
                 href="http://localhost:1313/blog/en/tags/neovim/"
                 />
   </url><url>
-    <loc>http://localhost:1313/blog/en/tags/</loc>
-    <lastmod>2024-11-06T11:37:22+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="http://localhost:1313/blog/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/blog/en/tags/"
-                />
-  </url><url>
     <loc>http://localhost:1313/blog/en/tags/foundation/</loc>
-    <lastmod>2024-11-06T11:37:22+08:00</lastmod>
+    <lastmod>2024-11-08T11:29:05+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/en/tags/go/</loc>
     <lastmod>2024-10-31T12:34:45+08:00</lastmod>
@@ -158,35 +171,15 @@
   </url><url>
     <loc>http://localhost:1313/blog/en/tags/online-tutorial/</loc>
     <lastmod>2024-11-01T14:32:56+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="http://localhost:1313/blog/tags/online-tutorial/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/blog/en/tags/online-tutorial/"
-                />
   </url><url>
     <loc>http://localhost:1313/blog/en/tags/reading-notes/</loc>
     <lastmod>2024-11-01T14:32:56+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="http://localhost:1313/blog/tags/reading-notes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/blog/en/tags/reading-notes/"
-                />
   </url><url>
     <loc>http://localhost:1313/blog/en/tags/fiction/</loc>
     <lastmod>2024-08-30T07:45:02+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/en/tags/prompt/</loc>
-    <lastmod>2024-10-07T09:31:52+08:00</lastmod>
+    <lastmod>2024-11-08T10:29:35+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/en/categories/reading/</loc>
     <lastmod>2024-08-30T07:45:02+08:00</lastmod>

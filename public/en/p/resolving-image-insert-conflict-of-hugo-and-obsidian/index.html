@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="I&rsquo;m using Hugo to build my blog and Obsidian to locally read notes. However, there is a conflict at their rendering of images. The hugo achieve all sources from its root, while obsidian vault gets images from its root too (which isn&rsquo;t the same path as hugo&rsquo;s root), and result in the mismatch of the url in an markdown file. Luckily, hugo provide a functionality of mounting, which enable remapping a path inner it to another inside path.">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="I&rsquo;m using Hugo to build my blog and Obsidian to locally read notes. However, there is a conflict in their rendering of images. Hugo accesses all sources from its root, while obsidian vault gets images from its root too (which isn&rsquo;t the same path as hugo&rsquo;s root). This result in mismatched URLs in markdown files. Fortunately, Hugo provides a mounting functionality that enable remapping paths within the project. Here&rsquo;s an example of my solution.">
 <title>Resolving image insert conflict of Hugo and Obsidian</title>
 
 <link rel='canonical' href='http://localhost:1313/blog/en/p/resolving-image-insert-conflict-of-hugo-and-obsidian/'>
 
 <link rel="stylesheet" href="/blog/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="Resolving image insert conflict of Hugo and Obsidian">
-<meta property='og:description' content="I&rsquo;m using Hugo to build my blog and Obsidian to locally read notes. However, there is a conflict at their rendering of images. The hugo achieve all sources from its root, while obsidian vault gets images from its root too (which isn&rsquo;t the same path as hugo&rsquo;s root), and result in the mismatch of the url in an markdown file. Luckily, hugo provide a functionality of mounting, which enable remapping a path inner it to another inside path.">
+<meta property='og:description' content="I&rsquo;m using Hugo to build my blog and Obsidian to locally read notes. However, there is a conflict in their rendering of images. Hugo accesses all sources from its root, while obsidian vault gets images from its root too (which isn&rsquo;t the same path as hugo&rsquo;s root). This result in mismatched URLs in markdown files. Fortunately, Hugo provides a mounting functionality that enable remapping paths within the project. Here&rsquo;s an example of my solution.">
 <meta property='og:url' content='http://localhost:1313/blog/en/p/resolving-image-insert-conflict-of-hugo-and-obsidian/'>
 <meta property='og:site_name' content='lyao&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-11-06T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-11-06T11:07:42&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='tool' /><meta property='article:published_time' content='2024-11-06T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-11-08T09:55:20&#43;08:00'/>
 <meta name="twitter:title" content="Resolving image insert conflict of Hugo and Obsidian">
-<meta name="twitter:description" content="I&rsquo;m using Hugo to build my blog and Obsidian to locally read notes. However, there is a conflict at their rendering of images. The hugo achieve all sources from its root, while obsidian vault gets images from its root too (which isn&rsquo;t the same path as hugo&rsquo;s root), and result in the mismatch of the url in an markdown file. Luckily, hugo provide a functionality of mounting, which enable remapping a path inner it to another inside path.">
+<meta name="twitter:description" content="I&rsquo;m using Hugo to build my blog and Obsidian to locally read notes. However, there is a conflict in their rendering of images. Hugo accesses all sources from its root, while obsidian vault gets images from its root too (which isn&rsquo;t the same path as hugo&rsquo;s root). This result in mismatched URLs in markdown files. Fortunately, Hugo provides a mounting functionality that enable remapping paths within the project. Here&rsquo;s an example of my solution.">
     <link rel="shortcut icon" href="/blog/favicon.ico" />
 
   
@@ -204,6 +204,14 @@
 
     <div class="article-details">
     
+    <header class="article-category">
+        
+            <a href="/blog/en/categories/cs/" >
+                CS
+            </a>
+        
+    </header>
+    
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
@@ -244,7 +252,7 @@
 
 
                 <time class="article-time--reading">
-                    2 minute read
+                    3 minute read
                 </time>
             </div>
         
@@ -259,10 +267,10 @@
     <section class="article-content">
     
     
-    <p>I&rsquo;m using <code>Hugo</code> to build my blog and <code>Obsidian</code> to locally read notes. However, there is a conflict at their rendering of images.</p>
-<p>The hugo achieve all sources from its root, while obsidian vault gets images from its root too (which isn&rsquo;t the same path as hugo&rsquo;s root), and result in the mismatch of the url in an markdown file.</p>
-<p>Luckily, hugo provide a functionality of mounting, which enable remapping a path inner it to another inside path. Here is an example of mine to illustrate the solution.</p>
-<p>First of all, I have a hugo project called <code>blog</code>, and its directory structure would be something like:</p>
+    <p>I&rsquo;m using <code>Hugo</code> to build my blog and <code>Obsidian</code> to locally read notes. However, there is a conflict in their rendering of images.</p>
+<p>Hugo accesses all sources from its root, while obsidian vault gets images from its root too (which isn&rsquo;t the same path as hugo&rsquo;s root). This result in mismatched URLs in markdown files.</p>
+<p>Fortunately, Hugo provides a mounting functionality that enable remapping paths within the project. Here&rsquo;s an example of my solution.</p>
+<p>First, I have a Hugo project called <code>blog</code>, with a directory structure like this:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -287,26 +295,126 @@
 </span></span><span class="line"><span class="cl">├── ...
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>I make the <code>content/post</code> as my obsidian vault, as said above, if I want to insert into the <code>file.md</code> an image called <code>test.png</code> placed in <code>images</code> subdirectory of the obsidian vault, write the url with such format:</p>
+</div><p>I use the <code>content/post</code> directory as my Obsidian vault. When I want to insert an image <code>img.png</code> (placed in <code>content/post/_images</code>) into <code>file.md</code>, I tried these URLs:
+<code>![alt image](_image/img.png)</code> and <code>![alt image](img.png)</code>. Both rendered correctly in obsidian but failed in both local and remote Hugo sites for the reason mentioned above.</p>
+<p>To solve this, we need to let Hugo know where we put the images. Add these configuration in your Hugo config file:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">![alt image]()
+<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">module</span><span class="p">.</span><span class="nx">mounts</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">source</span> <span class="p">=</span> <span class="s1">&#39;static&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">target</span> <span class="p">=</span> <span class="s1">&#39;static&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">module</span><span class="p">.</span><span class="nx">mounts</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">source</span> <span class="p">=</span> <span class="s1">&#39;content/post/_images&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">target</span> <span class="p">=</span> <span class="s1">&#39;static/_images&#39;</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>There are several thing you need to notice:</p>
+</div><p>Here is the explanation:</p>
+<ul>
+<li>The first mount with same <code>static</code> source and target aims to prevent resources in default Hugo static directory from overwritten.</li>
+<li>The second mount maps <code>content/post/_images</code> to <code>static/_images</code>, allowing both Hugo site and Obsidian to resolve the <code>_images</code> path properly.</li>
+</ul>
+<p>Important notes:</p>
 <ol>
-<li>Check the</li>
+<li>Hugo will combine all configuration files into one, and place it in the project root. Therefore, paths in the Hugo config above should start from current directory without leading slash <code>/</code>.</li>
+<li>The <code>static</code> directory will be integrated and disappear, and image URLs in markdown files shouldn&rsquo;t have a leading <code>/</code> as it will be interpreted as your host root rather than Hugo project root.</li>
 </ol>
-<p>I&rsquo;ve written an article to record the solution in English, please help me polish the text to fix it grammar as well as making it more native and fluent without changing its original meanings.</p>
+<p>Here are the different test results showing how the presence of  leading <code>/</code> in an image URLs affects remote and local Hugo sites:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>baseurl</th>
+<th>img url</th>
+<th>remote</th>
+<th>local</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>xxx.io/</code></td>
+<td><code>/_images/img.png</code></td>
+<td>failed</td>
+<td>succeed</td>
+<td></td>
+</tr>
+<tr>
+<td><code>xxx.io/</code></td>
+<td><code>_images/img.png</code></td>
+<td>succeed</td>
+<td>succeed</td>
+<td></td>
+</tr>
+<tr>
+<td><code>xxx.io/blog</code></td>
+<td><code>/_images/img.png</code></td>
+<td>failed</td>
+<td>failed</td>
+<td></td>
+</tr>
+<tr>
+<td><code>xxx.io/blog</code></td>
+<td><code>_images/img.png</code></td>
+<td>succeed</td>
+<td>succeed</td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<p>Note: Only Obsidian can render images without the <code>/_images</code> prefix; both remote and local sites requires it.</p>
+<p>Detailed outcomes:</p>
+<ol>
+<li>baseurl = &ldquo;<a class="link" href="https://old-y.github.io/%22"  target="_blank" rel="noopener"
+    >https://old-y.github.io/"</a>, url = <code>/_images/figure%201.3%20compliation%20system.png</code>,
+<ul>
+<li>remote failed, src = <code>https://old-y.github.io/_images/figure%201.3%20compliation%20system.png</code></li>
+<li>local succeed, src = <code>http://localhost:1313/_images/figure%201.3%20compliation%20system.png</code></li>
+</ul>
+</li>
+<li>baseurl = &ldquo;<a class="link" href="https://old-y.github.io/%22"  target="_blank" rel="noopener"
+    >https://old-y.github.io/"</a>, url = <code>_images/figure%201.3%20compliation%20system.png</code>,
+<ul>
+<li>remote succeed, src = <code>https://old-y.github.io/blog/_images/figure%201.3%20compliation%20system.png</code></li>
+<li>local succeed, src = <code>http://localhost:1313/_images/figure%201.3%20compliation%20system.png</code></li>
+</ul>
+</li>
+<li>baseurl = &ldquo;<a class="link" href="https://old-y.github.io/blog%22"  target="_blank" rel="noopener"
+    >https://old-y.github.io/blog"</a>, url = <code>/_images/figure%201.3%20compliation%20system.png</code>,
+<ul>
+<li>remote failed, src = <code>https://old-y.github.io/_images/figure%201.3%20compliation%20system.png</code></li>
+<li>local failed, src = <code>http://localhost:1313/_images/figure%201.3%20compliation%20system.png</code></li>
+</ul>
+</li>
+<li>baseurl = &ldquo;<a class="link" href="https://old-y.github.io/blog%22"  target="_blank" rel="noopener"
+    >https://old-y.github.io/blog"</a>, url = <code>_images/figure%201.3%20compliation%20system.png</code>,
+<ul>
+<li>remote succeed, src = <code>https://old-y.github.io/blog/_images/figure%201.3%20compliation%20system.png</code>;</li>
+<li>local succeed, src = <code>http://localhost:1313/blog/_images/figure%201.3%20compliation%20system.png</code></li>
+</ul>
+</li>
+</ol>
+<p>The key finding is that baseurl only affects the local site behavior. With leading slash <code>/</code>, no matter how I change the <code>baseurl</code> in config file, the remote site will interpreted it into <code>xxx/_images</code> rather than <code>xxx/blog/_images</code>, but the local site will change accordingly.</p>
 
 </section>
 
 
     <footer class="article-footer">
     
+    <section class="article-tags">
+        
+            <a href="/blog/en/tags/tool/">Tool</a>
+        
+    </section>
+
 
     
     <section class="article-copyright">
@@ -330,7 +438,7 @@
 
 
         <span>
-            Last updated on Nov 06, 2024 11:07 CST
+            Last updated on Nov 08, 2024 09:55 CST
         </span>
     </section></footer>
 
@@ -365,6 +473,80 @@
     
 
     
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/blog/en/p/upgrade-neovim-to-the-latest/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Upgrade Neovim To The Latest</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/en/p/csapp-reading-notes-chapter-1/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">CSAPP reading notes - chapter 1</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/en/p/go-installation/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">go installation</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/en/p/lazyvim-for-ambitious-developers-reading-notes/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">LazyVim for Ambitious Developers reading notes</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/en/p/useful-prompt/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">useful prompt</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
 
      
     

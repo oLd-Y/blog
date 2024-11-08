@@ -13,10 +13,10 @@
         <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/en/p/resolving-image-insert-conflict-of-hugo-and-obsidian/</guid>
-        <description>&lt;p&gt;I&amp;rsquo;m using &lt;code&gt;Hugo&lt;/code&gt; to build my blog and &lt;code&gt;Obsidian&lt;/code&gt; to locally read notes. However, there is a conflict at their rendering of images.&lt;/p&gt;
-&lt;p&gt;The hugo achieve all sources from its root, while obsidian vault gets images from its root too (which isn&amp;rsquo;t the same path as hugo&amp;rsquo;s root), and result in the mismatch of the url in an markdown file.&lt;/p&gt;
-&lt;p&gt;Luckily, hugo provide a functionality of mounting, which enable remapping a path inner it to another inside path. Here is an example of mine to illustrate the solution.&lt;/p&gt;
-&lt;p&gt;First of all, I have a hugo project called &lt;code&gt;blog&lt;/code&gt;, and its directory structure would be something like:&lt;/p&gt;
+        <description>&lt;p&gt;I&amp;rsquo;m using &lt;code&gt;Hugo&lt;/code&gt; to build my blog and &lt;code&gt;Obsidian&lt;/code&gt; to locally read notes. However, there is a conflict in their rendering of images.&lt;/p&gt;
+&lt;p&gt;Hugo accesses all sources from its root, while obsidian vault gets images from its root too (which isn&amp;rsquo;t the same path as hugo&amp;rsquo;s root). This result in mismatched URLs in markdown files.&lt;/p&gt;
+&lt;p&gt;Fortunately, Hugo provides a mounting functionality that enable remapping paths within the project. Here&amp;rsquo;s an example of my solution.&lt;/p&gt;
+&lt;p&gt;First, I have a Hugo project called &lt;code&gt;blog&lt;/code&gt;, with a directory structure like this:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -41,20 +41,114 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── ...
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;I make the &lt;code&gt;content/post&lt;/code&gt; as my obsidian vault, as said above, if I want to insert into the &lt;code&gt;file.md&lt;/code&gt; an image called &lt;code&gt;test.png&lt;/code&gt; placed in &lt;code&gt;images&lt;/code&gt; subdirectory of the obsidian vault, write the url with such format:&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;I use the &lt;code&gt;content/post&lt;/code&gt; directory as my Obsidian vault. When I want to insert an image &lt;code&gt;img.png&lt;/code&gt; (placed in &lt;code&gt;content/post/_images&lt;/code&gt;) into &lt;code&gt;file.md&lt;/code&gt;, I tried these URLs:
+&lt;code&gt;![alt image](_image/img.png)&lt;/code&gt; and &lt;code&gt;![alt image](img.png)&lt;/code&gt;. Both rendered correctly in obsidian but failed in both local and remote Hugo sites for the reason mentioned above.&lt;/p&gt;
+&lt;p&gt;To solve this, we need to let Hugo know where we put the images. Add these configuration in your Hugo config file:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;![alt image]()
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;module&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;mounts&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;source&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;static&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;target&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;static&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;module&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;mounts&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;source&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;content/post/_images&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;target&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;static/_images&amp;#39;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;There are several thing you need to notice:&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;Here is the explanation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The first mount with same &lt;code&gt;static&lt;/code&gt; source and target aims to prevent resources in default Hugo static directory from overwritten.&lt;/li&gt;
+&lt;li&gt;The second mount maps &lt;code&gt;content/post/_images&lt;/code&gt; to &lt;code&gt;static/_images&lt;/code&gt;, allowing both Hugo site and Obsidian to resolve the &lt;code&gt;_images&lt;/code&gt; path properly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Important notes:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Check the&lt;/li&gt;
+&lt;li&gt;Hugo will combine all configuration files into one, and place it in the project root. Therefore, paths in the Hugo config above should start from current directory without leading slash &lt;code&gt;/&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;static&lt;/code&gt; directory will be integrated and disappear, and image URLs in markdown files shouldn&amp;rsquo;t have a leading &lt;code&gt;/&lt;/code&gt; as it will be interpreted as your host root rather than Hugo project root.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;I&amp;rsquo;ve written an article to record the solution in English, please help me polish the text to fix it grammar as well as making it more native and fluent without changing its original meanings.&lt;/p&gt;
+&lt;p&gt;Here are the different test results showing how the presence of  leading &lt;code&gt;/&lt;/code&gt; in an image URLs affects remote and local Hugo sites:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;baseurl&lt;/th&gt;
+&lt;th&gt;img url&lt;/th&gt;
+&lt;th&gt;remote&lt;/th&gt;
+&lt;th&gt;local&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;xxx.io/&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;/_images/img.png&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;failed&lt;/td&gt;
+&lt;td&gt;succeed&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;xxx.io/&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;_images/img.png&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;succeed&lt;/td&gt;
+&lt;td&gt;succeed&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;xxx.io/blog&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;/_images/img.png&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;failed&lt;/td&gt;
+&lt;td&gt;failed&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;xxx.io/blog&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;_images/img.png&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;succeed&lt;/td&gt;
+&lt;td&gt;succeed&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Note: Only Obsidian can render images without the &lt;code&gt;/_images&lt;/code&gt; prefix; both remote and local sites requires it.&lt;/p&gt;
+&lt;p&gt;Detailed outcomes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;baseurl = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://old-y.github.io/%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://old-y.github.io/&#34;&lt;/a&gt;, url = &lt;code&gt;/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;,
+&lt;ul&gt;
+&lt;li&gt;remote failed, src = &lt;code&gt;https://old-y.github.io/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;local succeed, src = &lt;code&gt;http://localhost:1313/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;baseurl = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://old-y.github.io/%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://old-y.github.io/&#34;&lt;/a&gt;, url = &lt;code&gt;_images/figure%201.3%20compliation%20system.png&lt;/code&gt;,
+&lt;ul&gt;
+&lt;li&gt;remote succeed, src = &lt;code&gt;https://old-y.github.io/blog/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;local succeed, src = &lt;code&gt;http://localhost:1313/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;baseurl = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://old-y.github.io/blog%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://old-y.github.io/blog&#34;&lt;/a&gt;, url = &lt;code&gt;/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;,
+&lt;ul&gt;
+&lt;li&gt;remote failed, src = &lt;code&gt;https://old-y.github.io/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;local failed, src = &lt;code&gt;http://localhost:1313/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;baseurl = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://old-y.github.io/blog%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://old-y.github.io/blog&#34;&lt;/a&gt;, url = &lt;code&gt;_images/figure%201.3%20compliation%20system.png&lt;/code&gt;,
+&lt;ul&gt;
+&lt;li&gt;remote succeed, src = &lt;code&gt;https://old-y.github.io/blog/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;local succeed, src = &lt;code&gt;http://localhost:1313/blog/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The key finding is that baseurl only affects the local site behavior. With leading slash &lt;code&gt;/&lt;/code&gt;, no matter how I change the &lt;code&gt;baseurl&lt;/code&gt; in config file, the remote site will interpreted it into &lt;code&gt;xxx/_images&lt;/code&gt; rather than &lt;code&gt;xxx/blog/_images&lt;/code&gt;, but the local site will change accordingly.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -112,7 +206,7 @@
         <description>&lt;h2 id=&#34;11-information-is-bits--context&#34;&gt;1.1 Information Is Bits + Context
 &lt;/h2&gt;&lt;p&gt;All information in a system is represented as a bunch of bits.&lt;/p&gt;
 &lt;h2 id=&#34;12-programs-are-translated-by-other-programs-into-different-forms&#34;&gt;1.2 Programs Are Translated by Other Programs into Different Forms
-&lt;/h2&gt;&lt;p&gt;The gcc compiler driver reads the source file hello.c and translated into an execuable object file hello. The translation is performed in the sequence of four phases,&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;The gcc compiler driver reads the source file hello.c and translated into an execuable object file hello. The translation is performed in the sequence of four phases:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Preprocessing phase.&lt;/li&gt;
 &lt;li&gt;Compliation phase.&lt;/li&gt;
@@ -121,7 +215,7 @@
 &lt;/ul&gt;
 &lt;p&gt;The programs that perform these phases (preprocessor, compilor, assembler, and linker) is known collectively as the &lt;em&gt;compliation system&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Here is the phase figure:
-&lt;img src=&#34;http://localhost:1313/blog/blog/figure%201.3%20compliation%20system.png&#34;
+&lt;img src=&#34;http://localhost:1313/blog/blog/_images/figure%201.3%20compliation%20system.png&#34;
 	
 	
 	
@@ -131,68 +225,19 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;The outcome of image rendering on remote &lt;strong&gt;site&lt;/strong&gt; and local &lt;strong&gt;site&lt;/strong&gt; after mount &lt;code&gt;content/post/_images&lt;/code&gt; onto &lt;code&gt;static/_images&lt;/code&gt;.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;baseurl&lt;/th&gt;
-&lt;th&gt;img url&lt;/th&gt;
-&lt;th&gt;remote&lt;/th&gt;
-&lt;th&gt;local&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;xxx.io/&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;/_images/img.png&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;failed&lt;/td&gt;
-&lt;td&gt;succeed&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;xxx.io/&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;_images/img.png&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;succeed&lt;/td&gt;
-&lt;td&gt;succeed&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;xxx.io/blog&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;/_images/img.png&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;failed&lt;/td&gt;
-&lt;td&gt;failed&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;xxx.io/blog&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;_images/img.png&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;succeed&lt;/td&gt;
-&lt;td&gt;succeed&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;If only file name without directory, only obsidian side can render correctly and both site rendered failed.&lt;/p&gt;
-&lt;p&gt;baseurl = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://old-y.github.io/%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://old-y.github.io/&#34;&lt;/a&gt;, url = &lt;code&gt;/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;,&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;remote failed, src = &lt;code&gt;https://old-y.github.io/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;local succeed, src = &lt;code&gt;http://localhost:1313/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;baseurl = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://old-y.github.io/%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://old-y.github.io/&#34;&lt;/a&gt;, url = &lt;code&gt;_images/figure%201.3%20compliation%20system.png&lt;/code&gt;,&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;remote succeed, src = &lt;code&gt;https://old-y.github.io/blog/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;local succeed, src = &lt;code&gt;http://localhost:1313/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;baseurl = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://old-y.github.io/blog%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://old-y.github.io/blog&#34;&lt;/a&gt;, url = &lt;code&gt;/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;,&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;remote failed, src = &lt;code&gt;https://old-y.github.io/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;local failed, src = &lt;code&gt;http://localhost:1313/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;baseurl = &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://old-y.github.io/blog%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://old-y.github.io/blog&#34;&lt;/a&gt;, url = &lt;code&gt;_images/figure%201.3%20compliation%20system.png&lt;/code&gt;,&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;remote succeed, src = &lt;code&gt;https://old-y.github.io/blog/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;;&lt;/li&gt;
-&lt;li&gt;local succeed, src = &lt;code&gt;http://localhost:1313/blog/_images/figure%201.3%20compliation%20system.png&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&#34;13-it-pays-to-understand-how-compilation-systems-work&#34;&gt;1.3 It Pays to Understand How Compilation Systems Work
+&lt;/h2&gt;&lt;p&gt;None.&lt;/p&gt;
+&lt;h2 id=&#34;14-processors-read-and-interpret-instructions-stored-in-memory&#34;&gt;1.4 Processors Read and Interpret Instructions Stored in Memory
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/_images/figure%201.4.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Hardware orgnization of a typical system&#34;
+	
+	
+&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -675,6 +720,8 @@ PART: 6&lt;/p&gt;
 &lt;p&gt;The content of current chapter is as follows:
 &amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
 &lt;p&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
+&lt;h2 id=&#34;polish-text&#34;&gt;Polish text
+&lt;/h2&gt;&lt;p&gt;I&amp;rsquo;ve written an article to record the solution in English, please help me polish the text to fix it grammar as well as making it more native and fluent without changing its original meanings.&lt;/p&gt;
 </description>
         </item>
         
