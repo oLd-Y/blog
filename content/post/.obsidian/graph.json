@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "wsl",
+  "search": "ahk",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -18,5 +18,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 1.2414543899483157,
-  "close": true
+  "close": false
 }

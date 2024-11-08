@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-10-07T09:31:52+08:00
+lastmod: 2024-11-08T10:29:35+08:00
 ---
 ## Rewrite Text
 
@@ -57,4 +57,6 @@ The content of current chapter is as follows:
 
 """
 
+## Polish text
 
+I've written an article to record the solution in English, please help me polish the text to fix it grammar as well as making it more native and fluent without changing its original meanings.
