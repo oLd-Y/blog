@@ -83,7 +83,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -195,7 +196,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a31320b87e9364e3",
+  "active": "5f807305454f16b5",
   "lastOpenFiles": [
     "_images/figure 1.4.png",
     "Obsidian 插件记录.zh-cn.md",
