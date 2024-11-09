@@ -5,6 +5,30 @@
       "path": "CSAPP reading notes - chapter 1.en.md"
     },
     {
+      "basename": "_images",
+      "path": "_images.md"
+    },
+    {
+      "basename": "560. 和为 K 的子数组.zh-cn",
+      "path": "560. 和为 K 的子数组.zh-cn.md"
+    },
+    {
+      "basename": "飞鸟集 读后感.zh-cn",
+      "path": "飞鸟集 读后感.zh-cn.md"
+    },
+    {
+      "basename": "自媒体工作流程（自用）.zh-cn",
+      "path": "自媒体工作流程（自用）.zh-cn.md"
+    },
+    {
+      "basename": "438. 找到字符串中所有字母异位词.zh-cn",
+      "path": "438. 找到字符串中所有字母异位词.zh-cn.md"
+    },
+    {
+      "basename": "Hugo 解析 Obsidian 双链（Wiki links）的方法.zh-cn",
+      "path": "Hugo 解析 Obsidian 双链（Wiki links）的方法.zh-cn.md"
+    },
+    {
       "basename": "Obsidian 插件记录.zh-cn",
       "path": "Obsidian 插件记录.zh-cn.md"
     },
