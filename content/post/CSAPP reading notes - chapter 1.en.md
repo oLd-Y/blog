@@ -6,7 +6,7 @@ tags:
 categories: CS
 date: 2024-11-04
 draft: false
-lastmod: 2024-11-09T11:22:21+08:00
+lastmod: 2024-11-09T11:49:14+08:00
 title: CSAPP reading notes - chapter 1
 weight: 1
 ---
@@ -55,4 +55,6 @@ The L1 and L2 caches are implemented with a hardware technology known as static 
 ## 1.6 Storage Devices Form a Hierarchy
 
 ![example of memory hierarchy](img/figure%201.9.png)
+
+## 1.7 The Operating System Manages the Hardware
 
