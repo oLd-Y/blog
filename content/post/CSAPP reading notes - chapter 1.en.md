@@ -6,10 +6,14 @@ tags:
 categories: CS
 date: 2024-11-04
 draft: false
-lastmod: 2024-11-09T11:49:14+08:00
+lastmod: 2024-11-10T09:45:56+08:00
 title: CSAPP reading notes - chapter 1
 weight: 1
 ---
+![The hello program](img/1.1.png)
+
+![The ASCII text representation of hello.c](img/1.2.png)
+
 ## 1.1 Information Is Bits + Context
 
 All information in a system is represented as a bunch of bits.
@@ -24,7 +28,7 @@ The gcc compiler driver reads the source file hello.c and translated into an exe
 The programs that perform these phases (preprocessor, compilor, assembler, and linker) is known collectively as the *compliation system*. 
 
 Here is the phase figure:
-![compliation system](img/figure%201.3%20compliation%20system.png)
+![The compliation system](img/1.3.png)
 
 ## 1.3 It Pays to Understand How Compilation Systems Work
 
@@ -32,29 +36,52 @@ None.
 
 ## 1.4 Processors Read and Interpret Instructions Stored in Memory
 
-![Hardware orgnization of a typical system](img/figure%201.4.png)
+![Hardware orgnization of a typical system](img/1.4.png)
 
 PC: program counter
 ALU: arithmetic/logic unit
 
-Hardware Organization of a System:
-- Buses
-- I/O Devices
-- Main Memory. Physically, main memory consists of a collection of dynamic random access memory (DRAM).
-- Processor
+### 1.4.1 Hardware Organization of a System:
+#### Buses
+#### I/O Devices
 
 I/O: Input/Output
+#### Main Memory
 
+Physically, main memory consists of a collection of dynamic random access memory (DRAM).
+#### Processor
+
+### 1.4.2 Running the hello Program
+
+![Reading the hello program from the keyboard](img/1.5.png)
 
 DMA: direct memory access
 
+![loading executable from disk into main memory](img/1.6.png)
+
+![Writing the output string from the memory to the display](1.7.png)
+
 ## 1.5 Caches Matter
+
+![Cache memories](img/1.8.png)
 
 The L1 and L2 caches are implemented with a hardware technology known as static random access memory (SRAM)
 
 ## 1.6 Storage Devices Form a Hierarchy
 
-![example of memory hierarchy](img/figure%201.9.png)
+![example of memory hierarchy](img/1.9.png)
 
 ## 1.7 The Operating System Manages the Hardware
+
+![Layered view of a computer system](img/1.10.png)
+
+The operating system has two primary purposes:
+1. to protect the hardware from misuse by runaway applications
+2. to provide applications with simple and uniform mechanisms for manipulating complicated and often wildly different low-level hardware devices.
+
+It achieves both goal via the foundamental abstractions: processes, virtual memory, and files.
+
+![Abstractions provided by an operating system](img/1.11.png)
+
+
 
