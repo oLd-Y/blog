@@ -1,19 +1,17 @@
 ---
-categories:
-  - ""
-  - nodejs
+title: nvm 安装和使用
+categories: CS
 tags:
   - nvm
+  - nodejs
 draft: true
-lastmod: 2024-07-19T14:29:46+08:00
-title: nvm 安装和使用
+lastmod: 2024-11-10T13:01:23+08:00
 date: 2024-6-25
 description: ""
 slug: 
 image: 
 weight: 1
 ---
-
 ### 安装 nvm 
 1. 下载并安装 nvm：
 ```sh

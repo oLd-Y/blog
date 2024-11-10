@@ -6,7 +6,7 @@ tags:
 categories: CS
 date: 2024-11-04
 draft: false
-lastmod: 2024-11-10T10:56:17+08:00
+lastmod: 2024-11-10T13:38:20+08:00
 title: CSAPP reading notes - chapter 1
 weight: 1
 ---
@@ -99,6 +99,13 @@ Each process has the same uniform view of memory, which is known as its *virtual
 
 ![Process virtual address](img/1.13.png)
 
+The virtual address space seen by each process consists of a number of well defined areas, starting from low to high:
+- Program code and data.
+- Heap.
+- Shared libraries.
+- Stack.
+- kernel virtual memory.
 
+#### 1.7.4 Files
 
 
