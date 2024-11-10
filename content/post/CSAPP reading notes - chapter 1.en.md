@@ -6,7 +6,7 @@ tags:
 categories: CS
 date: 2024-11-04
 draft: false
-lastmod: 2024-11-10T10:31:27+08:00
+lastmod: 2024-11-10T10:56:17+08:00
 title: CSAPP reading notes - chapter 1
 weight: 1
 ---
@@ -92,5 +92,13 @@ When the operating system decides to transfer control from the current process t
 #### 1.7.2 Threads
 
 Each thread runs in the context of the process and sharing the same code and global data.
+
+#### 1.7.3 Virtual Memory
+
+Each process has the same uniform view of memory, which is known as its *virtual address space*.
+
+![Process virtual address](img/1.13.png)
+
+
 
 
