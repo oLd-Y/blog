@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Excalidraw on 谷栗杳</title>
+        <link>http://localhost:1313/blog/zh-cn/tags/excalidraw/</link>
+        <description>Recent content in Excalidraw on 谷栗杳</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>谷栗杳</copyright>
+        <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/zh-cn/tags/excalidraw/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Excalidraw 自定义中文字体</title>
+        <link>http://localhost:1313/blog/zh-cn/p/excalidraw-%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/</link>
+        <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/zh-cn/p/excalidraw-%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/</guid>
+        <description>&lt;p&gt;先在&lt;a class=&#34;link&#34; href=&#34;https://www.fonts.net.cn/commercial-free/fonts-zh-1.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这个网站&lt;/a&gt;下载一个免费商用字体，下载到本地 Obsidian 的根 Vault 中的 Excalidraw 文件夹中，我是参考网上博客选择的&lt;a class=&#34;link&#34; href=&#34;https://www.fonts.net.cn/font-35068393713.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;沐瑶软笔手写体&lt;/a&gt;与原本的英文字体匹配。&lt;/p&gt;
+&lt;p&gt;然后在 Excalidraw 插件设置中打开 Non-Excalidraw.com supported features （非 Excalidraw.com 支持的特性），再打开“第四字体”的选项并设置字体为 &lt;code&gt;Muyao-Softbrush-2.ttf&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240701091206.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;接着就可以在任意 Excalidraw 画布中设置并使用这个字体了。&lt;/p&gt;
+&lt;p&gt;选中字体之后右键，选择第四个字体即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240701091446.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="最近在上手 neovim，尝试使用 wsl 作为我的开发环境。本文就以 ruoyi-vue-pro 为例，整理一下在命令行中启动 SpringBoot 项目的完整过程，最终效果是可以在 windows 中的浏览器中访">
+<title>Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）</title>
+
+<link rel='canonical' href='http://localhost:1313/blog/zh-cn/p/ubuntu-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8-springboot-%E9%A1%B9%E7%9B%AE%E4%BB%A5-ruoyi-vue-pro-%E4%B8%BA%E4%BE%8B/'>
+
+<link rel="stylesheet" href="/blog/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）">
+<meta property='og:description' content="最近在上手 neovim，尝试使用 wsl 作为我的开发环境。本文就以 ruoyi-vue-pro 为例，整理一下在命令行中启动 SpringBoot 项目的完整过程，最终效果是可以在 windows 中的浏览器中访">
+<meta property='og:url' content='http://localhost:1313/blog/zh-cn/p/ubuntu-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8-springboot-%E9%A1%B9%E7%9B%AE%E4%BB%A5-ruoyi-vue-pro-%E4%B8%BA%E4%BE%8B/'>
+<meta property='og:site_name' content='谷栗杳'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='windows' /><meta property='article:tag' content='wsl' /><meta property='article:tag' content='springboot' /><meta property='article:published_time' content='2024-07-18T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-08-01T13:02:15&#43;08:00'/>
+<meta name="twitter:title" content="Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）">
+<meta name="twitter:description" content="最近在上手 neovim，尝试使用 wsl 作为我的开发环境。本文就以 ruoyi-vue-pro 为例，整理一下在命令行中启动 SpringBoot 项目的完整过程，最终效果是可以在 windows 中的浏览器中访">
+    <link rel="shortcut icon" href="/blog/favicon.ico" />
+
+  
+
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/blog/zh-cn/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/blog/img/avatar_hu94e2356dc7c89f996982d096d3fcd26c_12520_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">✨</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/blog/zh-cn">谷栗杳</a></h1>
+            <h2 class="site-description">再微弱的荧光，也有它可以照亮的地方。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/oLd-Y'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/180272185'
+                        target="_blank"
+                        title="bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-bilibili" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="currentColor" fill="none"/>
+  <path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z" />
+  <path d="M8 3l2 3" />
+  <path d="M16 3l-2 3" />
+  <path d="M9 13v-2" />
+  <path d="M15 11v2" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://old-y.github.io/blog/index.xml'
+                        target="_blank"
+                        title="Rss"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/blog/zh-cn/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/blog/zh-cn/about-zh-cn/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/blog/zh-cn/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/blog/zh-cn/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/blog/zh-cn/%E5%8F%8B%E9%93%BE/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友链</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="http://localhost:1313/blog/" >English</option>
+                                
+                                    <option value="http://localhost:1313/blog/zh-cn/" selected>中文</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#安装必要开发工具">安装必要开发工具</a>
+      <ol>
+        <li><a href="#安装-jdk-17">安装 JDK 17</a></li>
+        <li><a href="#安装-maven">安装 Maven</a></li>
+        <li><a href="#配置-maven">配置 Maven</a></li>
+      </ol>
+    </li>
+    <li><a href="#下载-ruoyi-vue-pro-并安装依赖">下载 Ruoyi-Vue-Pro 并安装依赖</a></li>
+    <li><a href="#初始化-mysql">初始化 Mysql</a></li>
+    <li><a href="#初始化-redis">初始化 Redis</a></li>
+    <li><a href="#修改-springboot-的配置文件">修改 SpringBoot 的配置文件</a></li>
+    <li><a href="#打开防火墙">打开防火墙</a></li>
+    <li><a href="#启动项目">启动项目</a></li>
+    <li><a href="#注意事项">注意事项</a>
+      <ol>
+        <li><a href="#开启局域网访问">开启局域网访问</a></li>
+        <li><a href="#windows-添加防火墙的方法">Windows 添加防火墙的方法</a></li>
+        <li><a href="#其它">其它</a></li>
+      </ol>
+    </li>
+    <li><a href="#参考链接">参考链接</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/blog/zh-cn/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/" >
+                计算机
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/blog/zh-cn/p/ubuntu-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8-springboot-%E9%A1%B9%E7%9B%AE%E4%BB%A5-ruoyi-vue-pro-%E4%B8%BA%E4%BE%8B/">Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jul 18, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 6 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>最近在上手 neovim，尝试使用 wsl 作为我的开发环境。本文就以 ruoyi-vue-pro 为例，整理一下在命令行中启动 SpringBoot 项目的完整过程，最终效果是可以在 windows 中的浏览器中访问 wsl 中启动的项目。</p>
+<p>操作系统版本：Windows 11 专业版 23H2 22631.3880
+wsl 版本：Ubuntu 22.04 LTS
+java 版本：OpenJDK 17.0.1
+maven 版本：3.9.1
+项目版本：ruoyi-vue-pro，master-jdk17 分支</p>
+<h2 id="安装必要开发工具">安装必要开发工具
+</h2><p>如果是在 Ubuntu 中开发，默认已安装了 git。</p>
+<h3 id="安装-jdk-17">安装 JDK 17
+</h3><p>首先 <code>java -version</code> 确保自己的 jdk 版本正确。</p>
+<p>如果不对，需要安装指定的版本：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo apt install openjdk-17-jdk -y
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>ubuntu 中可以使用 <code>sudo update-alternatives --config java</code> 命令切换 jdk 的版本。</p>
+<h3 id="安装-maven">安装 Maven
+</h3><p>可以直接使用 <code>sudo apt install maven -y</code> 安装 ubuntu 库中的 maven。如果觉得版本较旧，也可以按照下面的步骤手动安装较新的版本（需先卸载原有的 maven。以 3.8.7 版本为例）。</p>
+<ol>
+<li>从 <a class="link" href="https://archive.apache.org/dist/maven/maven-3/"  target="_blank" rel="noopener"
+    >maven 官网</a> 下载指定版本的压缩包。</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">wget https://apache.osuosl.org/maven/maven-3/3.8.7/binaries/apache-maven-3.8.7-bin.tar.gz
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>解压下载的 maven 压缩包到 /opt 目录（或任何你想安装的目录）：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo tar xf apache-maven-3.8.7-bin.tar.gz -C /opt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>编辑环境变量</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">M2_HOME</span><span class="o">=</span>/opt/apache-maven-3.8.7
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="nv">$M2_HOME</span>/bin:<span class="nv">$PATH</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>让环境变量生效：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">source</span> ~/.bashrc <span class="c1"># 或 ~/.zshrc 等</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="4">
+<li>验证</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">mvn -version
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="配置-maven">配置 Maven
+</h3><p>打开 maven 的配置文件 setting.xml</p>
+<ul>
+<li>如果是 apt 安装的则使用下面这条命令：</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">sudo -E vim /usr/share/maven/conf/settings.xml
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>如果是手动安装的则使用下面这条命令：</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">sudo -E vim /etc/maven/settings.xml
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><code>-E</code> 参数表示继承当前的环境变量，否则使用的是默认的 vim 配置。</p>
+<p>在 <code>&lt;mirrors&gt;</code> 标签内填写下列镜像：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl">    <span class="nt">&lt;mirror&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;id&gt;</span>aliyunmaven<span class="nt">&lt;/id&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;mirrorOf&gt;</span>*<span class="nt">&lt;/mirrorOf&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;name&gt;</span>Aliyun Maven<span class="nt">&lt;/name&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;url&gt;</span>https://maven.aliyun.com/repository/public<span class="nt">&lt;/url&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/mirror&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;mirror&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;id&gt;</span>central<span class="nt">&lt;/id&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;mirrorOf&gt;</span>*<span class="nt">&lt;/mirrorOf&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;name&gt;</span>Central Repository<span class="nt">&lt;/name&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;url&gt;</span>https://repo1.maven.org/maven2<span class="nt">&lt;/url&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/mirror&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;mirror&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;id&gt;</span>tencent<span class="nt">&lt;/id&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;mirrorOf&gt;</span>*<span class="nt">&lt;/mirrorOf&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;name&gt;</span>Tencent Maven<span class="nt">&lt;/name&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;url&gt;</span>https://mirrors.cloud.tencent.com/nexus/repository/maven-public/<span class="nt">&lt;/url&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/mirror&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>（可选）在 <code>proxies</code> 标签中加入如下代码，用于设置 maven 使用的代理。使用镜像的时候可以不设置。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl">    <span class="nt">&lt;proxy&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;id&gt;</span>my-proxy<span class="nt">&lt;/id&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;active&gt;</span>true<span class="nt">&lt;/active&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;protocol&gt;</span>http<span class="nt">&lt;/protocol&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;host&gt;</span>宿主机的 WLAN IP<span class="nt">&lt;/host&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;port&gt;</span>7890<span class="nt">&lt;/port&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/proxy&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>如果设置的代理，<code>&lt;host&gt;</code> 那一栏需要设置为 windows 的正在使用的网卡的默认网关或者 ip 地址，比如下面的这个 ip 地址（powershell 中 执行 ipconfig）：
+<img src="https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240719203916.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<h2 id="下载-ruoyi-vue-pro-并安装依赖">下载 Ruoyi-Vue-Pro 并安装依赖
+</h2><p>假设将项目下载到 <code>~</code> 目录。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">cd</span> ~
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><code>git clone -b master-jdk17 https://github.com/YunaiV/ruoyi-vue-pro.git</code> 下载 ruoyi-vue-pro 的 master-jdk17 分支。</p>
+<p><code>cd ruoyi-vue-pro</code> 切换到项目根目录。</p>
+<p><code>mvn clean install -Dmaven.test.skip=true</code> 安装所需的依赖。<code>-Dmaven.test.skip=true</code> 用于跳过测试关的依赖安装，否则可能出现一些错误。</p>
+<p>如果出现一些依赖安装失败，则可能需要删除依赖之后重新安装。例如我的 mq 相关依赖安装失败：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">[ERROR] Failed to execute goal on project yudao-spring-boot-starter-mq: Could not resolve dependencies for project cn.iocoder.boot:yudao-spring-boot-starter-mq:jar:2.1.0-snapshot: Could not transfer artifact org.apache.rocketmq:rocketmq-rocksdb:jar:1.0.2 from/to aliyunmaven (https://maven.aliyun.com/repository/public): GET request of: org/apache/rocketmq/rocketmq-rocksdb/1.0.2/rocketmq-rocksdb-1.0.2.jar from aliyunmaven failed: Premature end of Content-Length delimited message body (expected: 29,977,931; received: 25,996,828) -&gt; [Help 1]
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>则删除 <code>rocketmq-rocksdb</code>。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">rm -rf ~/.m2/repository/org/apache/rocketmq/rocketmq-rocksdb/1.0.2
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>之后重新下载依赖</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">mvn clean install -Dmaven.test.skip<span class="o">=</span><span class="nb">true</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="初始化-mysql">初始化 Mysql
+</h2><p>执行以下命令：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="c1"># 安装 mysql</span>
+</span></span><span class="line"><span class="cl">sudo apt install mysql-server -y
+</span></span><span class="line"><span class="cl"><span class="c1"># 启动 mysql</span>
+</span></span><span class="line"><span class="cl">sudo systemctl start mysql
+</span></span><span class="line"><span class="cl"><span class="c1"># 设置 mysql 开机自启</span>
+</span></span><span class="line"><span class="cl">sudo systemctl <span class="nb">enable</span> mysql
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>注：如果 wsl 中没有 systemd（即 systemctl 命令），则需要在 <code>wsl.conf</code> 文件中开启。</p>
+<p>在 wsl 的 <code>/etc/wsl.conf</code> 文件中加入如下代码后重启以开启 systemd：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="o">[</span>boot<span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="nv">systemd</span><span class="o">=</span><span class="nb">true</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>创建并初始化 ruoyi-vue-pro 的数据库：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">sudo mysql -u root -p
+</span></span><span class="line"><span class="cl">CREATE DATABASE ruoyi_vue_pro<span class="p">;</span>
+</span></span><span class="line"><span class="cl">EXIT<span class="p">;</span>
+</span></span><span class="line"><span class="cl">mysql -u root -p ruoyi_vue_pro &lt; ~/ruoyi-vue-pro/sql/mysql/ruoyi-vue-pro.sql
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>ubuntu 默认安装的 mysql 是没有密码的。ubuntu 中 mysql 如果没有密码的话，项目启动的时候可能会出现一些权限相关的错误导致无法访问，所以我们需要修改 mysql 的密码，可以按照以下步骤执行：</p>
+<ol>
+<li>关闭 mysql 服务和进程：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">sudo systemctl stop mysql
+</span></span><span class="line"><span class="cl">sudo killall mysqld
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>打开 mysql 的安全模式，可以不用密码打开 mysql：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">sudo mysqld_safe --skip-grant-tables
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>开启另一个终端连接到 mysql：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">mysql -u root
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="4">
+<li>刷新权限并重置密码：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="n">FLUSH</span><span class="w"> </span><span class="k">PRIVILEGES</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">ALTER</span><span class="w"> </span><span class="k">USER</span><span class="w"> </span><span class="s1">&#39;root&#39;</span><span class="o">@</span><span class="s1">&#39;localhost&#39;</span><span class="w"> </span><span class="n">IDENTIFIED</span><span class="w"> </span><span class="k">WITH</span><span class="w"> </span><span class="n">caching_sha2_password</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="s1">&#39;123456&#39;</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="5">
+<li>退出 MySQL 命令行：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="n">EXIT</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="6">
+<li>停止并重新启动 MySQL：
+在原始窗口中按 Ctrl+C 停止 MySQL 安全模式，然后启动 MySQL 正常模式：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">sudo systemctl start mysql
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>接着我们可以开启 mysql 的远程连接。打开 mysql 的配置文件：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>找到其中 <code>[mysqld]</code> 下的  <code>bind-adrress = 127.0.0.1</code>，将其改为 ``bind-adrress = 0.0.0.0`。</p>
+<h2 id="初始化-redis">初始化 Redis
+</h2><p>执行下列命令：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="c1"># 安装 redis</span>
+</span></span><span class="line"><span class="cl">sudo apt install redis-server -y
+</span></span><span class="line"><span class="cl"><span class="c1"># 启动 redis</span>
+</span></span><span class="line"><span class="cl">sudo systemctl start redis
+</span></span><span class="line"><span class="cl"><span class="c1"># 设置 redis 开机自启</span>
+</span></span><span class="line"><span class="cl">sudo systemctl <span class="nb">enable</span> redis
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后同样打开其配置文件开启远程访问。<code>sudo vim /etc/redis/redis.conf</code> 打开配置文件，在其中找到并打开 <code>bind</code> 变量，将其值从 <code>127.0.0.1 ::1</code> 修改为 <code>0.0.0.0</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">bind</span> 0.0.0.0
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>由于 redis 不修改密码也没有出现什么问题，这里我就不修改了，有需要的小伙伴可以自行上网查阅。</p>
+<h2 id="修改-springboot-的配置文件">修改 SpringBoot 的配置文件
+</h2><p>做完上面的步骤，接下来我们就可以修改 ruoyi-vue-pro 的配置文件了。</p>
+<p>打开 <code>~/ruoyi-vue-pro/yudao-server/src/main/resources/application-local.yaml</code> 文件，找到 datasource 属性，修改 mysql 的相关参数：</p>
+<p><img src="https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240719075615.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<p>下方的 redis 没什么改动就不用改了。</p>
+<h2 id="打开防火墙">打开防火墙
+</h2><p>接着我们需要在 wsl 中打开需要的防火墙。这一步非常坑，虽然简单，但我在这里卡了很久。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">sudo ufw allow <span class="m">3306</span>
+</span></span><span class="line"><span class="cl">sudo ufw allow <span class="m">6379</span>
+</span></span><span class="line"><span class="cl">sudo ufw allow <span class="m">48080</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 查看打开的端口</span>
+</span></span><span class="line"><span class="cl">sudo ufw status
+</span></span><span class="line"><span class="cl"><span class="c1"># 关闭防火墙</span>
+</span></span><span class="line"><span class="cl">sudo ufw disable
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="启动项目">启动项目
+</h2><p>所有东西都配置完成之后，我们就可以启动项目了。</p>
+<p>首先切换到启动类所在的目录，即 yudao-server 目录。注意要在 yudao-server 目录下执行而不是在项目的根目录下执行。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">cd</span> yudao-server
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后执行 <code>mvn:spring-boot:run</code> 命令，不出意外的话，应该可以正常启动。</p>
+<p>接着我们使用 <code>curl localhost:48080</code> 命令，如果看到下面的内容，就说明项目启动成功。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="o">{</span><span class="s2">&#34;code&#34;</span>:401,<span class="s2">&#34;data&#34;</span>:null,<span class="s2">&#34;msg&#34;</span>:<span class="s2">&#34;账号未登录&#34;</span><span class="o">}</span>%
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>如果 windows 防火墙没有拦截 wsl 的网络请求，在 windows 中的浏览器中访问 <code>localhost:48080</code> 也能看到同样的内容。</p>
+<p>至此，整个项目的启动就到此结束。</p>
+<h2 id="注意事项">注意事项
+</h2><h3 id="开启局域网访问">开启局域网访问
+</h3><p>以上操作完成之后，可以在 wsl 和 windows 中使用 <code>localhost:端口</code> 访问本地的项目。但如果在 windows 或者其它局域网的设备中使用 <code>ip地址:端口</code> 的形式则不行。</p>
+<p>要想开启 wsl 的局域网访问，新版的 wsl 中可以通过 wsl 的配置文件直接开启。其位置在 <code>%USERPROFILE%/.wslconfig</code>。</p>
+<p>首先先贴上我的配置文件以供参考。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ini" data-lang="ini"><span class="line"><span class="cl"><span class="k">[wsl2]</span>
+</span></span><span class="line"><span class="cl"><span class="na">kernel</span><span class="o">=</span><span class="s">C:\\Windows\\System32\\lxss\\tools\\kernel_6.1.21.2_minix</span>
+</span></span><span class="line"><span class="cl"><span class="na">networkingMode</span><span class="o">=</span><span class="s">mirrored</span>
+</span></span><span class="line"><span class="cl"><span class="na">dnsTunneling</span><span class="o">=</span><span class="s">true</span>
+</span></span><span class="line"><span class="cl"><span class="na">firewall</span><span class="o">=</span><span class="s">true</span>
+</span></span><span class="line"><span class="cl"><span class="na">autoProxy</span><span class="o">=</span><span class="s">true</span>
+</span></span><span class="line"><span class="cl"><span class="na">swap</span><span class="o">=</span><span class="s">0</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">[experimental]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># requires dnsTunneling but are also OPTIONAL</span>
+</span></span><span class="line"><span class="cl"><span class="na">bestEffortDnsParsing</span><span class="o">=</span><span class="s">true</span>
+</span></span><span class="line"><span class="cl"><span class="na">useWindowsDnsCache</span><span class="o">=</span><span class="s">true</span>
+</span></span><span class="line"><span class="cl"><span class="na">hostAddressLoopback</span><span class="o">=</span><span class="s">true</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>注意到 <code>[experimental]</code> 标签下有一个 <code>hostAddressLoopback</code> 标签，将其设置为 <code>true</code> 就可以使用 wsl 的局域网地址进行访问。</p>
+<p>wsl 的局域网地址可以在 wsl 中通过命令 <code>ip addr</code> 进行查看。</p>
+<p>像 <code>eth0</code>，<code>eth3</code> 这种以太网接口中的 <code>inet</code> 后面的就是这个接口的 ip 地址。</p>
+<p>以下命令可以直接获取 <code>eth0</code> 接口的 IP 地址：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">ip addr show eth0 <span class="p">|</span> grep <span class="s2">&#34;inet\b&#34;</span> <span class="p">|</span> awk <span class="s1">&#39;{print $2}&#39;</span> <span class="p">|</span> cut -d/ -f1
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 或者</span>
+</span></span><span class="line"><span class="cl">ip addr show eth0 <span class="p">|</span> grep inet <span class="p">|</span> awk <span class="s1">&#39;{ print $2; }&#39;</span> <span class="p">|</span> sed <span class="s1">&#39;s/\/.*$//&#39;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>这里需要注意的是，网上的很多教程都说使用 <code>eth0</code> 接口的 ip 地址，但不知是不是我开了代理的缘故，使用 <code>eth0</code> 始终无法访问 wsl 中的服务，即便我放开了放火墙之类的也不行。还是偶然更换为另一个有 ip 地址的 <code>eth3</code> 才发现可以正常访问。</p>
+<p>（注意）另外我也尝试了一下一些帖子中说的开启 windows 的端口代理，对我来说好像没啥作用，但这里也给出相关的代码万一有人需要。开启 windows 端口代理相关的代码如下所示：</p>
+<p>首先以管理员方式打开 powershell，然后在其中执行如下命令用于设置端口代理：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># 新增端口代理</span>
+</span></span><span class="line"><span class="cl">netsh interface portproxy add v4tov4 <span class="nv">listenport</span><span class="o">=</span><span class="m">48080</span> <span class="nv">listenaddress</span><span class="o">=</span>0.0.0.0 <span class="nv">connectport</span><span class="o">=</span><span class="m">48080</span> <span class="nv">connectaddress</span><span class="o">=</span>198.18.0.1 <span class="nv">protocol</span><span class="o">=</span>tcp
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 展示所有端口代理</span>
+</span></span><span class="line"><span class="cl">netsh interface portproxy show all
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 删除指定端口代理</span>
+</span></span><span class="line"><span class="cl">netsh interface portproxy delete v4tov4 <span class="nv">listenport</span><span class="o">=</span><span class="m">48080</span> <span class="nv">listenaddress</span><span class="o">=</span>0.0.0.0
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>还有一点，如果 <code>.wslconfig</code> 文件中设置的是 <code>networkingMode=mirrored</code> 模式，则你不会在 windows 的网络接口查询中看到 <code>vEthernet (WSL)</code> 接口，因为这是一个虚拟网卡，使用镜像就不需要使用虚拟网卡了。因此类似于 <code>New-NetFirewallRule -DisplayName &quot;WSL&quot; -Direction Inbound -InterfaceAlias &quot;vEthernet (WSL)&quot;  -Action Allow</code> 之类的命令也会错误。</p>
+<h3 id="windows-添加防火墙的方法">Windows 添加防火墙的方法
+</h3><p>有两种方法可以为 windows 添加（端口）防火墙：</p>
+<ol>
+<li>命令行添加防火墙。以下命令增加一个 8080 端口的出站（out）规则：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">netsh advfirewall firewall add rule <span class="nv">name</span><span class="o">=</span> <span class="s2">&#34;Open Port 8080&#34;</span> <span class="nv">dir</span><span class="o">=</span>out <span class="nv">action</span><span class="o">=</span>allow <span class="nv">protocol</span><span class="o">=</span>TCP <span class="nv">localport</span><span class="o">=</span><span class="m">8080</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>windows 搜索防火墙，新建入站、出站规则，指定端口即可，其它都无需更改。</li>
+</ol>
+<h3 id="其它">其它
+</h3><p>新 wsl 可能没有 <code>ifconfig</code> 或者 <code>ip</code> 工具，需要手动下载：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">sudo apt install net-tools
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="参考链接">参考链接
+</h2><p><a class="link" href="https://juejin.cn/post/7037893084998270990"  target="_blank" rel="noopener"
+    >juejin.cn/post/7037893084998270990</a>
+<a class="link" href="https://learn.microsoft.com/en-us/windows/wsl/networking"  target="_blank" rel="noopener"
+    >Accessing network applications with WSL | Microsoft Learn</a></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/blog/zh-cn/tags/windows/">Windows</a>
+        
+            <a href="/blog/zh-cn/tags/wsl/">Wsl</a>
+        
+            <a href="/blog/zh-cn/tags/springboot/">Springboot</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 Aug 01, 2024 13:02 CST
+        </span>
+    </section></footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.body, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/blog/zh-cn/p/lazyvim-%E4%B8%AD%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8-ctrl-r/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">lazyvim 中无法使用 Ctrl - r</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/zh-cn/p/wsl-%E6%89%A7%E8%A1%8C-sudo-apt-update-%E6%97%B6%E5%87%BA%E7%8E%B0-failed-to-fetch-temporary-failure-resolving-%E9%94%99%E8%AF%AF/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/zh-cn/p/wsl-neovim-%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E8%BE%93%E5%85%A5%E6%B3%95/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">wsl neovim 自动切换输入法</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/zh-cn/p/windows-11-%E8%93%9D%E7%89%99%E6%97%A0%E6%B3%95%E6%90%9C%E7%B4%A2%E5%88%B0%E8%AE%BE%E5%A4%87%E7%9A%84%E5%8E%9F%E5%9B%A0/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">windows 11 蓝牙无法搜索到设备的原因</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/zh-cn/p/windows-%E9%83%A8%E5%88%86%E7%A8%8B%E5%BA%8F%E6%97%A0%E6%B3%95%E5%9B%BA%E5%AE%9A%E5%88%B0%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Windows 部分程序无法固定到开始菜单解决方法</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="oLd-Y/blog"
+    data-repo-id="R_kgDOLzCoMA"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOMdwBSM4ChU46"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="zh-CN"
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark');
+            }
+        }
+    })();
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 谷栗杳
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.26.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+<script src="/blog/js/obsidian-links.js"></script>
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/blog/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

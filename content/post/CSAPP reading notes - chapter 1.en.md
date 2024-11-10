@@ -6,7 +6,7 @@ tags:
 categories: CS
 date: 2024-11-04
 draft: false
-lastmod: 2024-11-10T13:38:20+08:00
+lastmod: 2024-11-10T14:22:38+08:00
 title: CSAPP reading notes - chapter 1
 weight: 1
 ---
@@ -107,5 +107,19 @@ The virtual address space seen by each process consists of a number of well defi
 - kernel virtual memory.
 
 #### 1.7.4 Files
+
+A *file* is a sequence of bytes. Every I/O devices is modeled as a file. All input and output in the system is performed by reading and writing files, using a small set of system calls known as *Unix I/O*.
+
+## 1.8 Systems Communicate with Other Systems Using Networks
+
+The network can be viewed as just another I/O devices.
+
+![A network is another I/O device](img/1.14.png)
+
+The system copies a sequence of bytes from main memory to the network adapter rather than disk controller, which helps the data flow across the network to another mechine instead of a local disk drive.
+
+![Using telnet to run hello program remotely over a network](img/1.15.png)
+
+
 
 

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Obsidian on 谷栗杳</title>
+        <link>http://localhost:1313/blog/zh-cn/tags/obsidian/</link>
+        <description>Recent content in Obsidian on 谷栗杳</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>谷栗杳</copyright>
+        <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/zh-cn/tags/obsidian/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Excalidraw 自定义中文字体</title>
+        <link>http://localhost:1313/blog/zh-cn/p/excalidraw-%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/</link>
+        <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/zh-cn/p/excalidraw-%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/</guid>
+        <description>&lt;p&gt;先在&lt;a class=&#34;link&#34; href=&#34;https://www.fonts.net.cn/commercial-free/fonts-zh-1.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这个网站&lt;/a&gt;下载一个免费商用字体，下载到本地 Obsidian 的根 Vault 中的 Excalidraw 文件夹中，我是参考网上博客选择的&lt;a class=&#34;link&#34; href=&#34;https://www.fonts.net.cn/font-35068393713.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;沐瑶软笔手写体&lt;/a&gt;与原本的英文字体匹配。&lt;/p&gt;
+&lt;p&gt;然后在 Excalidraw 插件设置中打开 Non-Excalidraw.com supported features （非 Excalidraw.com 支持的特性），再打开“第四字体”的选项并设置字体为 &lt;code&gt;Muyao-Softbrush-2.ttf&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240701091206.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;接着就可以在任意 Excalidraw 画布中设置并使用这个字体了。&lt;/p&gt;
+&lt;p&gt;选中字体之后右键，选择第四个字体即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240701091446.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Obsidian 插件记录</title>
+        <link>http://localhost:1313/blog/zh-cn/p/obsidian-%E6%8F%92%E4%BB%B6%E8%AE%B0%E5%BD%95/</link>
+        <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/zh-cn/p/obsidian-%E6%8F%92%E4%BB%B6%E8%AE%B0%E5%BD%95/</guid>
+        <description>&lt;p&gt;Obsidian 中的插件数目众多，一不留神就会陷进折腾插件的陷阱。偶然找到的插件，当时未必立马有用，个人还是更倾向于用到了再装。但当时找得到的插件，以后就未必同样找得到；或者长时间不用某个插件之后忘记这个插件的用法。因此在这里记录一下用到的插件。持续更新。&lt;/p&gt;
+&lt;h2 id=&#34;calendar&#34;&gt;Calendar
+&lt;/h2&gt;&lt;p&gt;用于快速生成  日记和周记模板&lt;/p&gt;
+&lt;h2 id=&#34;colored-text&#34;&gt;Colored Text
+&lt;/h2&gt;&lt;p&gt;快速为文本设置颜色。&lt;/p&gt;
+&lt;h2 id=&#34;git&#34;&gt;Git
+&lt;/h2&gt;&lt;p&gt;自动备份当前 Vault 到远程 Git 仓库。&lt;/p&gt;
+&lt;h2 id=&#34;templater&#34;&gt;Templater
+&lt;/h2&gt;&lt;p&gt;比 Ob 自带的模板插件功能更多，可以执行 js 脚本之类的。&lt;/p&gt;
+&lt;h2 id=&#34;tag-wrangler&#34;&gt;Tag Wrangler
+&lt;/h2&gt;&lt;p&gt;批量修改 tag&lt;/p&gt;
+&lt;h2 id=&#34;spaced-repetition&#34;&gt;Spaced Repetition
+&lt;/h2&gt;&lt;p&gt;在 Obsidian 中制作记忆卡片，可以作为 Anki 软件的替代。&lt;/p&gt;
+&lt;h2 id=&#34;automatically-reveal-active-file&#34;&gt;Automatically reveal active file
+&lt;/h2&gt;&lt;p&gt;打开文件时自动在目录中找到该文件的位置。&lt;/p&gt;
+&lt;h2 id=&#34;remember-cursor-position&#34;&gt;Remember cursor position
+&lt;/h2&gt;&lt;p&gt;自动记忆上次文件的打开位置。&lt;/p&gt;
+&lt;h2 id=&#34;front-matter-title&#34;&gt;Front Matter Title
+&lt;/h2&gt;&lt;p&gt;将文章中 front matter 的 &lt;code&gt;title&lt;/code&gt; 作为文件名，可以在 Obsidian 中的搜索或者 graph view 中以 title 而非原始文件名展现。对于 hugo 的 page bundle 用户使用 obsidan 来说，这个插件应该是刚需。&lt;/p&gt;
+&lt;h2 id=&#34;home-page&#34;&gt;Home Page
+&lt;/h2&gt;&lt;p&gt;为 Obsidian 增加一个主页。&lt;/p&gt;
+&lt;h2 id=&#34;open-in-new-tab&#34;&gt;Open In New Tab
+&lt;/h2&gt;&lt;p&gt;在新标签页打开一个新的文件或者激活原有的文件。obsidian 的原有方式是在当前标签页中打开，十分不方便。&lt;/p&gt;
+&lt;h2 id=&#34;editing-toolbar&#34;&gt;Editing Toolbar
+&lt;/h2&gt;&lt;p&gt;增加一个类似于 word 一样的编辑栏。&lt;/p&gt;
+&lt;h2 id=&#34;recent-files&#34;&gt;Recent files
+&lt;/h2&gt;&lt;p&gt;记录历史打开文件。&lt;/p&gt;
+&lt;h2 id=&#34;workspaces&#34;&gt;Workspaces
+&lt;/h2&gt;&lt;p&gt;在 core plugin 打开即可，可以保存当前打开的文件布局。&lt;/p&gt;
+&lt;h2 id=&#34;enhancing-exporting&#34;&gt;Enhancing Exporting
+&lt;/h2&gt;&lt;p&gt;增强 obsidian 的导出，可以导出为 html 等。&lt;/p&gt;
+&lt;h2 id=&#34;easy-typing&#34;&gt;Easy Typing
+&lt;/h2&gt;&lt;p&gt;提高中英文规范书写体验。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

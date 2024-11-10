@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>分类 on 谷栗杳</title>
+        <title>分类 on lyao&#39;s Blog</title>
         <link>http://localhost:1313/blog/categories/</link>
-        <description>Recent content in 分类 on 谷栗杳</description>
+        <description>Recent content in 分类 on lyao&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
+        <language>en</language>
         <copyright>谷栗杳</copyright>
         <lastBuildDate>Fri, 08 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>CS</title>
@@ -16,27 +16,35 @@
         <description></description>
         </item>
         <item>
-        <title>阅读</title>
-        <link>http://localhost:1313/blog/categories/%E9%98%85%E8%AF%BB/</link>
-        <pubDate>Wed, 06 Nov 2024 07:03:14 +0800</pubDate>
+        <title>Reading</title>
+        <link>http://localhost:1313/blog/categories/reading/</link>
+        <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/categories/%E9%98%85%E8%AF%BB/</guid>
+        <guid>http://localhost:1313/blog/categories/reading/</guid>
         <description></description>
         </item>
         <item>
-        <title>计算机</title>
+        <title>Computer science</title>
         <link>http://localhost:1313/blog/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
-        <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</guid>
         <description></description>
         </item>
         <item>
-        <title>美食</title>
+        <title>cuisine</title>
         <link>http://localhost:1313/blog/categories/%E7%BE%8E%E9%A3%9F/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/categories/%E7%BE%8E%E9%A3%9F/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>reading</title>
+        <link>http://localhost:1313/blog/categories/%E9%98%85%E8%AF%BB/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/categories/%E9%98%85%E8%AF%BB/</guid>
         <description></description>
         </item>
         
