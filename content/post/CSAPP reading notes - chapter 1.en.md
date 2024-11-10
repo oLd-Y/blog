@@ -6,7 +6,7 @@ tags:
 categories: CS
 date: 2024-11-04
 draft: false
-lastmod: 2024-11-10T09:45:56+08:00
+lastmod: 2024-11-10T10:31:27+08:00
 title: CSAPP reading notes - chapter 1
 weight: 1
 ---
@@ -83,5 +83,14 @@ It achieves both goal via the foundamental abstractions: processes, virtual memo
 
 ![Abstractions provided by an operating system](img/1.11.png)
 
+#### 1.7.1 Processes
+
+When the operating system decides to transfer control from the current process to some new process, it performs a *context switch* by saving the context of the current process, restoring the context of the new process, and then passing control to the new process.
+
+![Process context switching](img/1.12.png)
+
+#### 1.7.2 Threads
+
+Each thread runs in the context of the process and sharing the same code and global data.
 
 

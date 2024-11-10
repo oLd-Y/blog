@@ -211,14 +211,13 @@
     "Upgrade Neovim To The Latest.en.md": "3a193e725e2d91eb193f0213e6c5921f702f90a1e65fd66c359bd098e25543a0",
     "54. 螺旋矩阵.zh-cn.md": "12512a3fd5cd3559d6c5deb11089051fc76d02f9971c0bbe28e3ac5749650824",
     "76. 最小覆盖子串.zh-cn.md": "b6613f31d88bdc8d06155f5f93b575da45dda6c1525a2edbcb01ca9fb9651692",
-    "239. 滑动窗口最大值.zh-cn.md": "d4452f60a8d6808d68e50bada2246755640e0640ee512e8b355706396c0bfa9c",
+    "239. 滑动窗口最大值.zh-cn.md": "92d067d5b48ee866673523741a601817a484a8c4fe455ede022cd2433c5e27e3",
     "128. 最长连续序列.zh-cn.md": "8331b07227fb956f0569c94c9539d5abbdd4c158997a432b7bbcc883ef327a2c",
     "240. 搜索二维矩阵 II.zh-cn.md": "bc95d24e0a8f8684e9d5625da6ac9dfbb5e986c8614ef244f6c7efeda28313f0",
     "围城 读后感.zh-cn.md": "036b9e82554fa357590f8fc01fad738406e7b210a87e090a39a6ef7dcefa3604",
     "原子习惯 读后感.zh-cn.md": "1e2f1dc9812036dfc09360fdd1d667d141c5f0833bbd510194ec244684b53317",
     "Resolving image insert conflict of Hugo and Obsidian.en.md": "d2d8410d2702dc7062275fce0b94fe7f05ff382651793a0e9d3a4f6d2142129c",
-    "CSAPP reading notes - chapter 1.en.md": "588b06d9c2a66ddd7ca01ad6855b8d69dd6b88ffc2cf3f67e4d3fb30f13b351a",
-    "Make a window always on top through AHK.md": "95809f5d7ea110fb54b7b19ff2e0ae1353f2e6e77fc924f22f3a542822908405",
+    "CSAPP reading notes - chapter 1.en.md": "1e6a943843732859b7021fa8d0a224baf5de20221859f53d84b2a6c83cfc4b80",
     "11. 盛最多水的容器.zh-cn.md": "b107dc2fe7d87f0db04dea9cc154fa0671467b0344acca8dff7bb5ea3c5d61ae",
     "3. 无重复字符的最长子串.zh-cn.md": "63239562814203f9dc833a46462fa5df893b33d79485f59d968dd966cba7cc5a",
     "15. 三数之和.zh-cn.md": "563bed39d53f1f3871737f8db60cbca5bb3486b87d6a01126c6aed50c3f759e3",
@@ -229,6 +228,7 @@
     "自媒体工作流程（自用）.zh-cn.md": "4170358ebf4b4acd2aeeb69fe42290c1bc60b22aafad1c711ae222b17b344ddc",
     "飞鸟集 读后感.zh-cn.md": "cc7c8b85b847aea96ec668fc234258e7b1406e972531638adb6e5a83b059262c",
     "560. 和为 K 的子数组.zh-cn.md": "dd73aa6935f4408c73b9997b2c1ad47474e9e3246ccebc2d3ca6a174f5d55282",
-    "438. 找到字符串中所有字母异位词.zh-cn.md": "36ca18d1ac29056cf735997adf2b6b8f93c4712d51ce4eeb5bf070717b943aa3"
+    "438. 找到字符串中所有字母异位词.zh-cn.md": "36ca18d1ac29056cf735997adf2b6b8f93c4712d51ce4eeb5bf070717b943aa3",
+    "Make a window always on top through AHK.en.md": "95809f5d7ea110fb54b7b19ff2e0ae1353f2e6e77fc924f22f3a542822908405"
   }
 }

@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "obsidian 插件",
+                "query": "单调",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -198,19 +198,21 @@
   },
   "active": "a31320b87e9364e3",
   "lastOpenFiles": [
+    "206. 反转链表.zh-cn.md",
+    "239. 滑动窗口最大值.zh-cn.md",
+    "CSAPP reading notes - chapter 1.en.md",
+    "Make a window always on top through AHK.en.md",
+    "_images.md",
+    "img/1.12.png",
     "img/1.11.png",
     "img/1.10.png",
     "img/1.8.png",
-    "CSAPP reading notes - chapter 1.en.md",
     "img/1.9.png",
     "img/1.5.png",
     "img/1.4.png",
     "img/1.3.png",
     "img/1.2.png",
     "img/1.1.png",
-    "img/1.7.png",
-    "img/1.6.png",
-    "_images.md",
     "560. 和为 K 的子数组.zh-cn.md",
     "飞鸟集 读后感.zh-cn.md",
     "自媒体工作流程（自用）.zh-cn.md",
@@ -218,7 +220,6 @@
     "Hugo 解析 Obsidian 双链（Wiki links）的方法.zh-cn.md",
     "Hugo 主题 Stack 使用问题汇总/index.zh-cn.md",
     "Obsidian 插件记录.zh-cn.md",
-    "Make a window always on top through AHK.md",
     "53. 最大子数组和.zh-cn.md",
     "41. 缺失的第一个正数.zh-cn.md",
     "21. 合并两个有序链表.zh-cn.md",
@@ -236,7 +237,6 @@
     "img",
     "compliation.md",
     "figure.md",
-    "《汇编语言》 读书笔记.md",
     "CSAPP reading notes",
     "新建 文本文档.txt",
     "_templates/archive/templater",

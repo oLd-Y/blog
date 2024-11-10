@@ -10,7 +10,7 @@ DefaultContentLanguage = "zh-cn"
 hasCJKLanguage = true
 
 # 需要放到配置文件较前的地方，否则可能不生效。相对于 content 文件夹的位置。
-ignoreFiles = ["content/post/_templates", "content/post/_excalidraw", "content/post/_daily", "content/post/_week"]
+ignoreFiles = ["content/post/_templates", "content/post/_excalidraw", "content/post/img"]
 
 
 # enableRobotsTXT = true

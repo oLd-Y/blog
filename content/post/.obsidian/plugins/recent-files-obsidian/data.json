@@ -5,8 +5,16 @@
       "path": "CSAPP reading notes - chapter 1.en.md"
     },
     {
-      "basename": "_images",
-      "path": "_images.md"
+      "basename": "206. 反转链表.zh-cn",
+      "path": "206. 反转链表.zh-cn.md"
+    },
+    {
+      "basename": "239. 滑动窗口最大值.zh-cn",
+      "path": "239. 滑动窗口最大值.zh-cn.md"
+    },
+    {
+      "basename": "Make a window always on top through AHK.en",
+      "path": "Make a window always on top through AHK.en.md"
     },
     {
       "basename": "560. 和为 K 的子数组.zh-cn",
@@ -31,10 +39,6 @@
     {
       "basename": "Obsidian 插件记录.zh-cn",
       "path": "Obsidian 插件记录.zh-cn.md"
-    },
-    {
-      "basename": "Make a window always on top through AHK",
-      "path": "Make a window always on top through AHK.md"
     },
     {
       "basename": "53. 最大子数组和.zh-cn",
