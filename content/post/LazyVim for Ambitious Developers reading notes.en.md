@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-10T14:45:02+08:00
+lastmod: 2024-11-10T14:54:27+08:00
 ---
 Tutorial link: [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
 
@@ -70,7 +70,7 @@ keys:
 1. `<Space> q q`, closes the entire nvim window and save the session.
 2. `<Space><Space>`/`Space>ff`, find file (root dir), which is case insensitive and become sensitive right after there is a upper case character. `<Space>fF` to find file (cwd).
 4. Also, you can use `:lcd` to temprarily change the `cwd` for a buffer.
-5. `s` to enable the seek mode.
+5. `s` to enable the seek mode. Note that it will jump to the *first* character of the seeking word.
 
 ## [Chapter 5. Configuration and Plugin Basics](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-5/#_configuration_and_plugin_basics)
 
@@ -189,8 +189,9 @@ return {
 
 ## [Chapter 6. Basic Editing](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-6/#_basic_editing)
 
-`80i*<Escape>` will insert 80 `*` which is nifty.
-
+keys:
+1. `80i*<Escape>` will insert 80 `*` which is nifty.
+2. `dsfoos`, delete from the cursor to the **first character** of the target word `foo`.
 `gU<range>` will convert a character of a sequence of characters into uppercase, while the `gu<range>` is the inverse.
 
 `~` inverts the case of character under the cursor.
