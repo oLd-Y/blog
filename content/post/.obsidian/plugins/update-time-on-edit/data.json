@@ -204,7 +204,7 @@
     "围城 读后感.zh-cn.md": "036b9e82554fa357590f8fc01fad738406e7b210a87e090a39a6ef7dcefa3604",
     "原子习惯 读后感.zh-cn.md": "1e2f1dc9812036dfc09360fdd1d667d141c5f0833bbd510194ec244684b53317",
     "Resolving image insert conflict of Hugo and Obsidian.en.md": "d2d8410d2702dc7062275fce0b94fe7f05ff382651793a0e9d3a4f6d2142129c",
-    "CSAPP reading notes - chapter 1.en.md": "e1eab0608ac55309bf863e2963cd5157371d29c3109cceb05ea839a2128ce4f2",
+    "CSAPP reading notes - chapter 1.en.md": "76ce82e568ced92f659ab27c1c3dca64caf66a222aefe43bc562dd0d44f781ca",
     "11. 盛最多水的容器.zh-cn.md": "b107dc2fe7d87f0db04dea9cc154fa0671467b0344acca8dff7bb5ea3c5d61ae",
     "3. 无重复字符的最长子串.zh-cn.md": "63239562814203f9dc833a46462fa5df893b33d79485f59d968dd966cba7cc5a",
     "15. 三数之和.zh-cn.md": "563bed39d53f1f3871737f8db60cbca5bb3486b87d6a01126c6aed50c3f759e3",
@@ -230,6 +230,7 @@
     "《红楼梦》读书笔记.zh-cn.md": "87aad0c9bc7d295b2d14e86e933bd6d51c79a2be0f759e17aac17352c1f3a008",
     "《汇编语言》 读书笔记.zh-cn.md": "c8c37f2d5f3e164aaa7bca35c27f906367d662631c2bf90da4a8f05f7e1aa27a",
     "Learn LaTex through examples.en.md": "90c47b0d6a58c85d90f319ce7c2f5ce259a747d91db6982f790a4366c9669690",
-    "虎码用法记录.zh-cn.md": "d65d076da8a22db14a4e380f7f9040a29c0d984112a206422e2b28dd9ea636d7"
+    "虎码用法记录.zh-cn.md": "d65d076da8a22db14a4e380f7f9040a29c0d984112a206422e2b28dd9ea636d7",
+    "wsl2 安装 kitty.zh-cn.md": "a75a3a4ae8192038e6f503f297978fe561f1bf549e54f43468f2bd8def6fb874"
   }
 }
