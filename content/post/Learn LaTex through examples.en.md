@@ -1,14 +1,15 @@
 ---
-title: Lear LaTex through examples
-categories: Math
+title: Learn LaTex through examples
+categories: CS
 tags:
   - Latex
+  - Math
 date: 2024-11-11
 description: 
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-11T09:17:31+08:00
+lastmod: 2024-11-11T10:41:37+08:00
 ---
 # Came from CSAPP "1.9.1 Amdahl’s Law"
 
@@ -34,4 +35,5 @@ $$
 S = \frac{T_{\text{old}}}{T_{\text{new}}} = \frac{1}{(1-\alpha) + \alpha/k}
 ```
 
-- `\frac{numerator}{denominator}` creates a fraction.
+- `\frac{numerator}{denominator}` creates a fraction. 
+

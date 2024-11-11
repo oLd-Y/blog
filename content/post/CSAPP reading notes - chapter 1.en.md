@@ -6,7 +6,7 @@ tags:
 categories: CS
 date: 2024-11-04
 draft: false
-lastmod: 2024-11-11T08:28:19+08:00
+lastmod: 2024-11-11T10:44:44+08:00
 title: CSAPP reading notes - chapter 1
 weight: 1
 ---
@@ -128,3 +128,4 @@ $$
 $$
 S = \frac{T_{\text{old}}}{T_{\text{new}}} = \frac{1}{(1-\alpha) + \alpha/k}
 $$
+

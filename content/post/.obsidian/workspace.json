@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lear LaTex through examples.en.md",
+                "file": "CSAPP reading notes - chapter 1.en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lear LaTex through examples.en"
+              "title": "CSAPP reading notes - chapter 1.en"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 485.5,
-    "collapsed": true
+    "width": 485.5
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -196,10 +195,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5f807305454f16b5",
+  "active": "a31320b87e9364e3",
   "lastOpenFiles": [
+    "Learn LaTex through examples.en.md",
+    "虎码用法记录.zh-cn.md",
     "CSAPP reading notes - chapter 1.en.md",
-    "Lear LaTex through examples.en.md",
     "电脑投屏手机软件 scrcpy 使用记录.zh-cn.md",
     "LazyVim for Ambitious Developers reading notes.en.md",
     "《刀锋》读书笔记.zh-cn.md",
@@ -233,7 +233,6 @@
     "img/1.5.png",
     "img/1.4.png",
     "560. 和为 K 的子数组.zh-cn.md",
-    "飞鸟集 读后感.zh-cn.md",
     "images",
     "CSAPP reading notes/pictures/Untitled",
     "img",
