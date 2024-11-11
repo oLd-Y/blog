@@ -231,6 +231,7 @@
     "《汇编语言》 读书笔记.zh-cn.md": "c8c37f2d5f3e164aaa7bca35c27f906367d662631c2bf90da4a8f05f7e1aa27a",
     "Learn LaTex through examples.en.md": "90c47b0d6a58c85d90f319ce7c2f5ce259a747d91db6982f790a4366c9669690",
     "虎码用法记录.zh-cn.md": "1bc459ee1643e18933f2399204430b9eb4cc6beea617a44c27a28d4cb02e2f5e",
-    "wsl2 安装 kitty.zh-cn.md": "a75a3a4ae8192038e6f503f297978fe561f1bf549e54f43468f2bd8def6fb874"
+    "wsl2 安装 kitty.zh-cn.md": "a75a3a4ae8192038e6f503f297978fe561f1bf549e54f43468f2bd8def6fb874",
+    "Use Vim mode on the command line in zsh.en.md": "f4ff9497f2cae7dfb8c203b2de0e28e82650a9f594025f51a15af2154361c83b"
   }
 }
