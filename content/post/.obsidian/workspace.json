@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "CSAPP reading notes - chapter 1.en"
             }
-          },
-          {
-            "id": "a4e6faa0aa122e0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Use Vim mode on the command line in zsh.en.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Use Vim mode on the command line in zsh.en"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,13 +83,11 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 485.5,
-    "collapsed": true
+    "width": 485.5
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -211,10 +194,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a4e6faa0aa122e0e",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "CSAPP reading notes - chapter 1.en.md",
+    "hdc 无法挂载 minix.zh-cn.md",
+    "go installation.en.md",
+    "git clone 参数解析.md",
+    "emacs 入坑建议.md",
+    "emacs 默认快捷键.md",
+    "线程.md",
+    "通过 hugo 主题 stack 中的 menu.scss 文件学习 css 知识.zh-cn.md",
+    "通过源码学 lua （2）- lastmod.lua.md",
+    "通过源码学 lua （1）- im-select.lua.md",
+    "_TODO.md",
+    "矩阵旋转坐标公式.zh-cn.md",
+    "原子习惯 读后感/单词.md",
     "Use Vim mode on the command line in zsh.en.md",
+    "CSAPP reading notes - chapter 1.en.md",
     "虎码用法记录.zh-cn.md",
     "wsl2 安装 kitty.zh-cn.md",
     "Learn LaTex through examples.en.md",
@@ -229,19 +224,7 @@
     "Windows 布局和工作区.md",
     "img/1.15.png",
     "img/1.14.png",
-    "160. 相交链表.zh-cn.md",
-    "Snipaste 固定位置.zh-cn.md",
-    "maven 配置文件设置汇总.zh-cn.md",
-    "lazyvim 配置记录.zh-cn.md",
-    "李治军操作系统-前置知识.md",
-    "保护模式相关.md",
-    "3264. K 次乘运算后的最终数组 I.zh-cn.md",
-    "windows 11 蓝牙无法搜索到设备的原因.zh-cn.md",
-    "nvm 安装和使用.zh-cn.md",
     "img/1.13.png",
-    "206. 反转链表.zh-cn.md",
-    "239. 滑动窗口最大值.zh-cn.md",
-    "Make a window always on top through AHK.en.md",
     "img/1.12.png",
     "img/1.11.png",
     "img/1.10.png",

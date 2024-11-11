@@ -1,8 +1,6 @@
 ---
 title: 通过 hugo 主题 stack 中的 menu.scss 文件学习 css 知识
-categories:
-  - ""
-  - 前端
+categories: 前端
 tags:
   - scss
 date: 2024-06-25T11:11:07.861Z
@@ -11,7 +9,7 @@ slug: ""
 image: 
 weight: 1
 draft: true
-lastmod: 2024-08-01T10:10:17+08:00
+lastmod: 2024-11-11T14:37:39+08:00
 ---
 在使用 hugo 的主题 [stack](https://github.com/CaiJimmy/hugo-theme-stack) 的时候，需要修改侧边栏的图标，其中涉及到修改 scss 文件，趁此机会稍微学习一下 scss 的语法。在我[参考的博客](https://jinli.io/p/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84%E5%BB%BA%E7%AB%8B%E8%BF%87%E7%A8%8B%E4%B8%89hugo%E4%B8%BB%E9%A2%98stack%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E4%BC%98%E5%8C%96/)中的代码是这样的：
 ```scss
