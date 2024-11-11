@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "电脑投屏手机软件 scrcpy 使用记录.zh-cn",
+      "path": "电脑投屏手机软件 scrcpy 使用记录.zh-cn.md"
+    },
+    {
+      "basename": "CSAPP reading notes - chapter 1.en",
+      "path": "CSAPP reading notes - chapter 1.en.md"
+    },
+    {
       "basename": "KDE arch linux 安装 fcitx5 和 rime 输入法.zh-cn",
       "path": "KDE arch linux 安装 fcitx5 和 rime 输入法.zh-cn.md"
     },
@@ -53,10 +61,6 @@
       "path": "Use Vim mode on the command line in zsh.en.md"
     },
     {
-      "basename": "CSAPP reading notes - chapter 1.en",
-      "path": "CSAPP reading notes - chapter 1.en.md"
-    },
-    {
       "basename": "虎码用法记录.zh-cn",
       "path": "虎码用法记录.zh-cn.md"
     },
@@ -67,10 +71,6 @@
     {
       "basename": "Learn LaTex through examples.en",
       "path": "Learn LaTex through examples.en.md"
-    },
-    {
-      "basename": "电脑投屏手机软件 scrcpy 使用记录.zh-cn",
-      "path": "电脑投屏手机软件 scrcpy 使用记录.zh-cn.md"
     },
     {
       "basename": "LazyVim for Ambitious Developers reading notes.en",
