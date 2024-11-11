@@ -6,7 +6,7 @@ tags:
 categories: CS
 date: 2024-11-04
 draft: false
-lastmod: 2024-11-10T14:22:38+08:00
+lastmod: 2024-11-11T08:28:19+08:00
 title: CSAPP reading notes - chapter 1
 weight: 1
 ---
@@ -122,4 +122,9 @@ The system copies a sequence of bytes from main memory to the network adapter ra
 
 
 
-
+$$
+T_{new} = (1-\alpha)T_{\text{old}} + (\alpha T_{\text{old}})/k = T_{\text{old}}[(1-\alpha) + \alpha/k]
+$$
+$$
+S = \frac{T_{\text{old}}}{T_{\text{new}}} = \frac{1}{(1-\alpha) + \alpha/k}
+$$

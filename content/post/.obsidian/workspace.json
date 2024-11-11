@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "电脑投屏手机软件 scrcpy 使用记录.zh-cn.md",
+                "file": "Lear LaTex through examples.en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "电脑投屏手机软件 scrcpy 使用记录.zh-cn"
+              "title": "Lear LaTex through examples.en"
             }
           }
         ]
@@ -84,11 +84,12 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 485.5
+    "width": 485.5,
+    "collapsed": true
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -197,6 +198,9 @@
   },
   "active": "a31320b87e9364e3",
   "lastOpenFiles": [
+    "CSAPP reading notes - chapter 1.en.md",
+    "Lear LaTex through examples.en.md",
+    "电脑投屏手机软件 scrcpy 使用记录.zh-cn.md",
     "LazyVim for Ambitious Developers reading notes.en.md",
     "《刀锋》读书笔记.zh-cn.md",
     "Windows 部分程序无法固定到开始菜单解决方法.zh-cn.md",
@@ -205,7 +209,6 @@
     "hugo page bundle 问题.zh-cn.md",
     "《红楼梦》读书笔记.zh-cn.md",
     "Windows 布局和工作区.md",
-    "CSAPP reading notes - chapter 1.en.md",
     "img/1.15.png",
     "img/1.14.png",
     "160. 相交链表.zh-cn.md",
@@ -213,7 +216,6 @@
     "maven 配置文件设置汇总.zh-cn.md",
     "lazyvim 配置记录.zh-cn.md",
     "李治军操作系统-前置知识.md",
-    "电脑投屏手机软件 scrcpy 使用记录.zh-cn.md",
     "保护模式相关.md",
     "3264. K 次乘运算后的最终数组 I.zh-cn.md",
     "windows 11 蓝牙无法搜索到设备的原因.zh-cn.md",
@@ -232,7 +234,6 @@
     "img/1.4.png",
     "560. 和为 K 的子数组.zh-cn.md",
     "飞鸟集 读后感.zh-cn.md",
-    "自媒体工作流程（自用）.zh-cn.md",
     "images",
     "CSAPP reading notes/pictures/Untitled",
     "img",

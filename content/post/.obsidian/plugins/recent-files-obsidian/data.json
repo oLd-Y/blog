@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Lear LaTex through examples.en",
+      "path": "Lear LaTex through examples.en.md"
+    },
+    {
+      "basename": "CSAPP reading notes - chapter 1.en",
+      "path": "CSAPP reading notes - chapter 1.en.md"
+    },
+    {
       "basename": "电脑投屏手机软件 scrcpy 使用记录.zh-cn",
       "path": "电脑投屏手机软件 scrcpy 使用记录.zh-cn.md"
     },
@@ -31,10 +39,6 @@
     {
       "basename": "Windows 布局和工作区",
       "path": "Windows 布局和工作区.md"
-    },
-    {
-      "basename": "CSAPP reading notes - chapter 1.en",
-      "path": "CSAPP reading notes - chapter 1.en.md"
     },
     {
       "basename": "160. 相交链表.zh-cn",
