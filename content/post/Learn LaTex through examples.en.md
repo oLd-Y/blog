@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-11T10:41:37+08:00
+lastmod: 2024-11-13T07:44:00+08:00
 ---
 # Came from CSAPP "1.9.1 Amdahl’s Law"
 
@@ -36,4 +36,7 @@ S = \frac{T_{\text{old}}}{T_{\text{new}}} = \frac{1}{(1-\alpha) + \alpha/k}
 ```
 
 - `\frac{numerator}{denominator}` creates a fraction. 
+
+
+## Came from Practice Problem 2.1 (solution page 179)
 

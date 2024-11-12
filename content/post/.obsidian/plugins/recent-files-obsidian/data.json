@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Learn LaTex through examples.en",
+      "path": "Learn LaTex through examples.en.md"
+    },
+    {
+      "basename": "CSAPP reading notes - part I, chapter 2.en",
+      "path": "CSAPP reading notes - part I, chapter 2.en.md"
+    },
+    {
       "basename": "电脑投屏手机软件 scrcpy 使用记录.zh-cn",
       "path": "电脑投屏手机软件 scrcpy 使用记录.zh-cn.md"
+    },
+    {
+      "basename": "LazyVim for Ambitious Developers reading notes.en",
+      "path": "LazyVim for Ambitious Developers reading notes.en.md"
     },
     {
       "basename": "emacs 使用 org-mode 搭配 ox-hugo 搭建博客",
@@ -15,14 +27,6 @@
     {
       "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
       "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
-    },
-    {
-      "basename": "LazyVim for Ambitious Developers reading notes.en",
-      "path": "LazyVim for Ambitious Developers reading notes.en.md"
-    },
-    {
-      "basename": "CSAPP reading notes - part I, chapter 2.en",
-      "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
     {
       "basename": "CSAPP reading notes - chapter 1.en",
@@ -83,10 +87,6 @@
     {
       "basename": "wsl2 安装 kitty.zh-cn",
       "path": "wsl2 安装 kitty.zh-cn.md"
-    },
-    {
-      "basename": "Learn LaTex through examples.en",
-      "path": "Learn LaTex through examples.en.md"
     },
     {
       "basename": "《刀锋》读书笔记.zh-cn",
