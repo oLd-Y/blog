@@ -83,12 +83,12 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 485.5,
-    "collapsed": true
+    "width": 485.5
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
