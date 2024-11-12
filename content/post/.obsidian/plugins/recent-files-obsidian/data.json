@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
+      "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
+    },
+    {
       "basename": "LazyVim for Ambitious Developers reading notes.en",
       "path": "LazyVim for Ambitious Developers reading notes.en.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "3. 无重复字符的最长子串.zh-cn",
       "path": "3. 无重复字符的最长子串.zh-cn.md"
-    },
-    {
-      "basename": "11. 盛最多水的容器.zh-cn",
-      "path": "11. 盛最多水的容器.zh-cn.md"
     }
   ],
   "omittedPaths": []
