@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-10T14:54:27+08:00
+lastmod: 2024-11-12T15:26:23+08:00
 ---
 Tutorial link: [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
 
@@ -192,6 +192,9 @@ return {
 keys:
 1. `80i*<Escape>` will insert 80 `*` which is nifty.
 2. `dsfoos`, delete from the cursor to the **first character** of the target word `foo`.
+3. `X` delete the character before the cursor.
+4. `J` to join lines.
+
 `gU<range>` will convert a character of a sequence of characters into uppercase, while the `gu<range>` is the inverse.
 
 `~` inverts the case of character under the cursor.
