@@ -6,7 +6,7 @@ tags:
 categories: CS
 date: 2024-11-04
 draft: false
-lastmod: 2024-11-12T10:29:18+08:00
+lastmod: 2024-11-12T10:41:43+08:00
 title: CSAPP reading notes - chapter 1
 weight: 1
 ---
@@ -125,6 +125,8 @@ The system copies a sequence of bytes from main memory to the network adapter ra
 #### 1.9.1 Amdahl's law
 
 The main idea of *Amdahl's law* is that when we speed up one part of a system effect on the overall all system performance depends on both how sigficant this part was and how much it sped up.
+
+Suppose some part of the system requires a fraction *α* of this time, and that we improve its performence by a factor of *k*.
 
 $$
 T_{new} = (1-\alpha)T_{\text{old}} + (\alpha T_{\text{old}})/k = T_{\text{old}}[(1-\alpha) + \alpha/k]
