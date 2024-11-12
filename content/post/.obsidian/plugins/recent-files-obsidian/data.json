@@ -5,6 +5,14 @@
       "path": "电脑投屏手机软件 scrcpy 使用记录.zh-cn.md"
     },
     {
+      "basename": "emacs 使用 org-mode 搭配 ox-hugo 搭建博客",
+      "path": "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md"
+    },
+    {
+      "basename": "emacs 入坑建议",
+      "path": "emacs 入坑建议.md"
+    },
+    {
       "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
       "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "git clone 参数解析",
       "path": "git clone 参数解析.md"
-    },
-    {
-      "basename": "emacs 入坑建议",
-      "path": "emacs 入坑建议.md"
     },
     {
       "basename": "emacs 默认快捷键",
@@ -195,10 +199,6 @@
     {
       "basename": "15. 三数之和.zh-cn",
       "path": "15. 三数之和.zh-cn.md"
-    },
-    {
-      "basename": "3. 无重复字符的最长子串.zh-cn",
-      "path": "3. 无重复字符的最长子串.zh-cn.md"
     }
   ],
   "omittedPaths": []

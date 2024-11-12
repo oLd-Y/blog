@@ -2,7 +2,7 @@
 tags:
   - emacs
 draft: true
-lastmod: 2024-06-25T11:24:27+08:00
+lastmod: 2024-11-12T21:39:43+08:00
 title: emacs 入坑建议
 date: 2024-05-08
 ---
