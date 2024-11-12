@@ -1,14 +1,16 @@
 ---
+title: CSAPP reading notes - chapter 1
 id: CSAPP reading notes - chapter 1
 aliases: 
 tags:
   - foundation
+  - CSAPP
 categories: CS
 date: 2024-11-04
 draft: false
-lastmod: 2024-11-12T10:41:43+08:00
-title: CSAPP reading notes - chapter 1
+lastmod: 2024-11-12T12:37:05+08:00
 weight: 1
+description: "Chapter 1 \rA Tour of Computer Systems"
 ---
 ![The hello program](img/1.1.png)
 
