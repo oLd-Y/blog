@@ -6,7 +6,7 @@ tags:
 categories: CS
 date: 2024-11-04
 draft: false
-lastmod: 2024-11-12T09:22:41+08:00
+lastmod: 2024-11-12T10:29:18+08:00
 title: CSAPP reading notes - chapter 1
 weight: 1
 ---
@@ -120,6 +120,7 @@ The system copies a sequence of bytes from main memory to the network adapter ra
 
 ![Using telnet to run hello program remotely over a network](img/1.15.png)
 
+### 1.9 Important Themes
 
 #### 1.9.1 Amdahl's law
 
@@ -133,7 +134,6 @@ $$
 S = \frac{T_{\text{old}}}{T_{\text{new}}} = \frac{1}{(1-\alpha) + \alpha/k}
 $$
 
-
 #### 1.9.2 Concurrency and Parallelism
 
 ### Thread-Level Concurrency
@@ -144,7 +144,26 @@ Traditionally, this concurrent execution was only *simulated*, much as a juggler
 
 ![Categorizing different processor configurations](img/1.16.png)
 
-![](img/1.17.png)
+![Multi-core processor orgnization](img/1.17.png)
 
 Hyperthreading also called *simultaneous multi-threading*. Whereas a conventional processor requires around 20,000 clock style to shift between different threads, a hyperthreaded processor decides which of its threads to execute on a cycle-by-cycle basis.
+
+### Instruction-Level Parallelism
+
+Processors that can sustain execution rates faster than 1 instruction per cycle are known as *superscalar* processors.
+
+### Single-Instruction, Multiple-Data(SIMD) Parallelism
+
+#### 1.9.3 The Importance of Abstractions in Computer Systems
+
+![Some abstractions provided by a computer system](img/1.18.png)
+
+### 1.10 Summary
+
+Storage devices that are higher in the hierarchy serve as caches for devices that are lower in the hierarchy.
+
+The operating system kernel serves as an intermediary between the application and the hardware. It provides three fundamental abstractions:
+1. Files are abstractions for I/O devices.
+2. Virtual memory is an abstraction for both main memory and disk.
+3. Processes are abstractions for the processor, main memory, and I/O devices.
 
