@@ -6,7 +6,7 @@ tags:
 categories: CS
 date: 2024-11-04
 draft: false
-lastmod: 2024-11-12T08:34:54+08:00
+lastmod: 2024-11-12T09:22:41+08:00
 title: CSAPP reading notes - chapter 1
 weight: 1
 ---
@@ -139,3 +139,12 @@ $$
 ### Thread-Level Concurrency
 
 Traditionally, this concurrent execution was only *simulated*, much as a juggler keeps multiple balls flying through the air.
+
+*Multiprocessor systems* have more recently become commonplace with the advent of *multi-core* processors and *hyperthreading*.
+
+![Categorizing different processor configurations](img/1.16.png)
+
+![](img/1.17.png)
+
+Hyperthreading also called *simultaneous multi-threading*. Whereas a conventional processor requires around 20,000 clock style to shift between different threads, a hyperthreaded processor decides which of its threads to execute on a cycle-by-cycle basis.
+
