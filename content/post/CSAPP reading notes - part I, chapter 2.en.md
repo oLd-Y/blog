@@ -5,9 +5,15 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-12T12:36:53+08:00
+lastmod: 2024-11-12T14:38:15+08:00
 draft: false
 title: CSAPP reading notes - chapter 1
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
 ---
+## 2.1 Information Storage
+
+Most computers use block of 8 bits, or *bytes*, as the smallest unit of memory.
+
+A mechine-level program views memory as a very large array of bytes, referred to as *virtual memory*. Every byte of memory is identified by a unique nubmer, known as *address*, and the set of all possible addresses is known as the *virtual address space*.
+
