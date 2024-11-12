@@ -6,7 +6,7 @@ tags:
 categories: CS
 date: 2024-11-04
 draft: false
-lastmod: 2024-11-11T11:12:38+08:00
+lastmod: 2024-11-12T08:34:54+08:00
 title: CSAPP reading notes - chapter 1
 weight: 1
 ---
@@ -121,11 +121,21 @@ The system copies a sequence of bytes from main memory to the network adapter ra
 ![Using telnet to run hello program remotely over a network](img/1.15.png)
 
 
+#### 1.9.1 Amdahl's law
+
+The main idea of *Amdahl's law* is that when we speed up one part of a system effect on the overall all system performance depends on both how sigficant this part was and how much it sped up.
 
 $$
 T_{new} = (1-\alpha)T_{\text{old}} + (\alpha T_{\text{old}})/k = T_{\text{old}}[(1-\alpha) + \alpha/k]
 $$
+
 $$
 S = \frac{T_{\text{old}}}{T_{\text{new}}} = \frac{1}{(1-\alpha) + \alpha/k}
 $$
 
+
+#### 1.9.2 Concurrency and Parallelism
+
+### Thread-Level Concurrency
+
+Traditionally, this concurrent execution was only *simulated*, much as a juggler keeps multiple balls flying through the air.

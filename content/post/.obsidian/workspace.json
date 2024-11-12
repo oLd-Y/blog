@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "电脑投屏手机软件 scrcpy 使用记录.zh-cn.md",
+                "file": "CSAPP reading notes - chapter 1.en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "电脑投屏手机软件 scrcpy 使用记录.zh-cn"
+              "title": "CSAPP reading notes - chapter 1.en"
             }
           }
         ]
@@ -87,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 485.5
+    "width": 485.5,
+    "collapsed": true
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -196,6 +197,7 @@
   },
   "active": "a31320b87e9364e3",
   "lastOpenFiles": [
+    "电脑投屏手机软件 scrcpy 使用记录.zh-cn.md",
     "CSAPP reading notes - chapter 1.en.md",
     "KDE arch linux 安装 fcitx5 和 rime 输入法.zh-cn.md",
     "hdc 无法挂载 minix.zh-cn.md",
@@ -214,7 +216,6 @@
     "虎码用法记录.zh-cn.md",
     "wsl2 安装 kitty.zh-cn.md",
     "Learn LaTex through examples.en.md",
-    "电脑投屏手机软件 scrcpy 使用记录.zh-cn.md",
     "LazyVim for Ambitious Developers reading notes.en.md",
     "《刀锋》读书笔记.zh-cn.md",
     "Windows 部分程序无法固定到开始菜单解决方法.zh-cn.md",
