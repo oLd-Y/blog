@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-13T07:47:37+08:00
+lastmod: 2024-11-13T08:54:33+08:00
 ---
 # Came from CSAPP "1.9.1 Amdahl’s Law"
 
@@ -55,4 +55,4 @@ x^n
 $$
 x^n
 $$
-- `^` .
+- x to the nth power.

@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-13T07:40:33+08:00
+lastmod: 2024-11-13T09:40:13+08:00
 draft: false
 title: CSAPP reading notes - chapter 1
 weight: 1
@@ -23,6 +23,8 @@ The GNU Compiler Collection (GCC) can compile programs according to the conventi
 
 ![Specifying different versions of C to gcc](img/2.1.png)
 
+### 2.1.1 Hexadecimal Notation
+
 Decimal and binary values associated with the hexadecimal digits:
 
 ![Hexadecimal notation](img/2.2.png)
@@ -35,3 +37,8 @@ D. binary 1100100010110110010110 to hexadecimal
 
 For $x = 2,048 = 2^{11}$, we have $n = 11 = 3 + 4 \cdot 2$, giving hexdecimal representation `0x800`.
 
+### 2.1.2 Data Sizes
+
+A 32-bit word size limits the virtual address space to 4 gigabytes(written 4 GB), that is, just over 4 x 10^9 bytes. Scaling up to a 64-bit word size leads to a virtual address space of 16 exabytes, or around 1.84 x 10^19 bytes.
+
+The distinction referring to programs as being either "32-bit programs" or "64-bit programs" lies in how a program is compiled, rather than the type of machine on which it runs.
