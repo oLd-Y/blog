@@ -1,8 +1,92 @@
 {
   "recentFiles": [
     {
+      "basename": "CSAPP reading notes - part I, chapter 2.en",
+      "path": "CSAPP reading notes - part I, chapter 2.en.md"
+    },
+    {
+      "basename": "CSAPP reading notes - chapter 1.en",
+      "path": "CSAPP reading notes - chapter 1.en.md"
+    },
+    {
+      "basename": "_TODO",
+      "path": "_TODO.md"
+    },
+    {
+      "basename": "Learn LaTex through examples.en",
+      "path": "Learn LaTex through examples.en.md"
+    },
+    {
+      "basename": "电脑投屏手机软件 scrcpy 使用记录.zh-cn",
+      "path": "电脑投屏手机软件 scrcpy 使用记录.zh-cn.md"
+    },
+    {
       "basename": "LazyVim for Ambitious Developers reading notes.en",
       "path": "LazyVim for Ambitious Developers reading notes.en.md"
+    },
+    {
+      "basename": "emacs 使用 org-mode 搭配 ox-hugo 搭建博客",
+      "path": "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md"
+    },
+    {
+      "basename": "emacs 入坑建议",
+      "path": "emacs 入坑建议.md"
+    },
+    {
+      "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
+      "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
+    },
+    {
+      "basename": "KDE arch linux 安装 fcitx5 和 rime 输入法.zh-cn",
+      "path": "KDE arch linux 安装 fcitx5 和 rime 输入法.zh-cn.md"
+    },
+    {
+      "basename": "hdc 无法挂载 minix.zh-cn",
+      "path": "hdc 无法挂载 minix.zh-cn.md"
+    },
+    {
+      "basename": "go installation.en",
+      "path": "go installation.en.md"
+    },
+    {
+      "basename": "git clone 参数解析",
+      "path": "git clone 参数解析.md"
+    },
+    {
+      "basename": "emacs 默认快捷键",
+      "path": "emacs 默认快捷键.md"
+    },
+    {
+      "basename": "线程",
+      "path": "线程.md"
+    },
+    {
+      "basename": "通过 hugo 主题 stack 中的 menu.scss 文件学习 css 知识.zh-cn",
+      "path": "通过 hugo 主题 stack 中的 menu.scss 文件学习 css 知识.zh-cn.md"
+    },
+    {
+      "basename": "通过源码学 lua （2）- lastmod.lua",
+      "path": "通过源码学 lua （2）- lastmod.lua.md"
+    },
+    {
+      "basename": "通过源码学 lua （1）- im-select.lua",
+      "path": "通过源码学 lua （1）- im-select.lua.md"
+    },
+    {
+      "basename": "矩阵旋转坐标公式.zh-cn",
+      "path": "矩阵旋转坐标公式.zh-cn.md"
+    },
+    {
+      "basename": "Use Vim mode on the command line in zsh.en",
+      "path": "Use Vim mode on the command line in zsh.en.md"
+    },
+    {
+      "basename": "虎码用法记录.zh-cn",
+      "path": "虎码用法记录.zh-cn.md"
+    },
+    {
+      "basename": "wsl2 安装 kitty.zh-cn",
+      "path": "wsl2 安装 kitty.zh-cn.md"
     },
     {
       "basename": "《刀锋》读书笔记.zh-cn",
@@ -29,10 +113,6 @@
       "path": "Windows 布局和工作区.md"
     },
     {
-      "basename": "CSAPP reading notes - chapter 1.en",
-      "path": "CSAPP reading notes - chapter 1.en.md"
-    },
-    {
       "basename": "160. 相交链表.zh-cn",
       "path": "160. 相交链表.zh-cn.md"
     },
@@ -51,10 +131,6 @@
     {
       "basename": "李治军操作系统-前置知识",
       "path": "李治军操作系统-前置知识.md"
-    },
-    {
-      "basename": "电脑投屏手机软件 scrcpy 使用记录.zh-cn",
-      "path": "电脑投屏手机软件 scrcpy 使用记录.zh-cn.md"
     },
     {
       "basename": "保护模式相关",
@@ -123,14 +199,6 @@
     {
       "basename": "15. 三数之和.zh-cn",
       "path": "15. 三数之和.zh-cn.md"
-    },
-    {
-      "basename": "3. 无重复字符的最长子串.zh-cn",
-      "path": "3. 无重复字符的最长子串.zh-cn.md"
-    },
-    {
-      "basename": "11. 盛最多水的容器.zh-cn",
-      "path": "11. 盛最多水的容器.zh-cn.md"
     }
   ],
   "omittedPaths": []

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>CSAPP on lyao&#39;s Blog</title>
+        <link>http://localhost:1313/blog/tags/csapp/</link>
+        <description>Recent content in CSAPP on lyao&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>谷栗杳</copyright>
+        <lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/csapp/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>CSAPP reading notes - Chapter 1</title>
+        <link>http://localhost:1313/blog/p/csapp-reading-notes-chapter-1/</link>
+        <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/csapp-reading-notes-chapter-1/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/1.1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The hello program&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/1.2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The ASCII text representation of hello.c&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;11-information-is-bits--context&#34;&gt;1.1 Information Is Bits + Context
+&lt;/h2&gt;&lt;p&gt;All information in a system is represented as a bunch of bits.&lt;/p&gt;
+&lt;h2 id=&#34;12-programs-are-translated-by-other-programs-into-different-forms&#34;&gt;1.2 Programs Are Translated by Other Programs into Different Forms
+&lt;/h2&gt;&lt;p&gt;The gcc compiler driver reads the source file hello.c and translated into an execuable object file hello. The translation is performed in the sequence of four phases:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Preprocessing phase.&lt;/li&gt;
+&lt;li&gt;Compliation phase.&lt;/li&gt;
+&lt;li&gt;Assembly phase.&lt;/li&gt;
+&lt;li&gt;Linking phase.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The programs that perform these phases (preprocessor, compilor, assembler, and linker) is known collectively as the &lt;em&gt;compliation system&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Here is the phase figure:
+&lt;img src=&#34;http://localhost:1313/blog/blog/img/1.3.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The compliation system&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;13-it-pays-to-understand-how-compilation-systems-work&#34;&gt;1.3 It Pays to Understand How Compilation Systems Work
+&lt;/h2&gt;&lt;p&gt;None.&lt;/p&gt;
+&lt;h2 id=&#34;14-processors-read-and-interpret-instructions-stored-in-memory&#34;&gt;1.4 Processors Read and Interpret Instructions Stored in Memory
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/1.4.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Hardware orgnization of a typical system&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;PC: program counter
+ALU: arithmetic/logic unit&lt;/p&gt;
+&lt;h3 id=&#34;141-hardware-organization-of-a-system&#34;&gt;1.4.1 Hardware Organization of a System:
+&lt;/h3&gt;&lt;h4 id=&#34;buses&#34;&gt;Buses
+&lt;/h4&gt;&lt;h4 id=&#34;io-devices&#34;&gt;I/O Devices
+&lt;/h4&gt;&lt;p&gt;I/O: Input/Output&lt;/p&gt;
+&lt;h4 id=&#34;main-memory&#34;&gt;Main Memory
+&lt;/h4&gt;&lt;p&gt;Physically, main memory consists of a collection of dynamic random access memory (DRAM).&lt;/p&gt;
+&lt;h4 id=&#34;processor&#34;&gt;Processor
+&lt;/h4&gt;&lt;h3 id=&#34;142-running-the-hello-program&#34;&gt;1.4.2 Running the hello Program
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/1.5.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Reading the hello program from the keyboard&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;DMA: direct memory access&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/1.6.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;loading executable from disk into main memory&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/1.7.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Writing the output string from the memory to the display&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;15-caches-matter&#34;&gt;1.5 Caches Matter
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/1.8.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Cache memories&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The L1 and L2 caches are implemented with a hardware technology known as static random access memory (SRAM)&lt;/p&gt;
+&lt;h2 id=&#34;16-storage-devices-form-a-hierarchy&#34;&gt;1.6 Storage Devices Form a Hierarchy
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/1.9.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;example of memory hierarchy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;17-the-operating-system-manages-the-hardware&#34;&gt;1.7 The Operating System Manages the Hardware
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/1.10.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Layered view of a computer system&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The operating system has two primary purposes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;to protect the hardware from misuse by runaway applications&lt;/li&gt;
+&lt;li&gt;to provide applications with simple and uniform mechanisms for manipulating complicated and often wildly different low-level hardware devices.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It achieves both goal via the foundamental abstractions: processes, virtual memory, and files.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/1.11.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Abstractions provided by an operating system&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;171-processes&#34;&gt;1.7.1 Processes
+&lt;/h4&gt;&lt;p&gt;When the operating system decides to transfer control from the current process to some new process, it performs a &lt;em&gt;context switch&lt;/em&gt; by saving the context of the current process, restoring the context of the new process, and then passing control to the new process.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/1.12.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Process context switching&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;172-threads&#34;&gt;1.7.2 Threads
+&lt;/h4&gt;&lt;p&gt;Each thread runs in the context of the process and sharing the same code and global data.&lt;/p&gt;
+&lt;h4 id=&#34;173-virtual-memory&#34;&gt;1.7.3 Virtual Memory
+&lt;/h4&gt;&lt;p&gt;Each process has the same uniform view of memory, which is known as its &lt;em&gt;virtual address space&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/1.13.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Process virtual address&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The virtual address space seen by each process consists of a number of well defined areas, starting from low to high:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Program code and data.&lt;/li&gt;
+&lt;li&gt;Heap.&lt;/li&gt;
+&lt;li&gt;Shared libraries.&lt;/li&gt;
+&lt;li&gt;Stack.&lt;/li&gt;
+&lt;li&gt;kernel virtual memory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;174-files&#34;&gt;1.7.4 Files
+&lt;/h4&gt;&lt;p&gt;A &lt;em&gt;file&lt;/em&gt; is a sequence of bytes. Every I/O devices is modeled as a file. All input and output in the system is performed by reading and writing files, using a small set of system calls known as &lt;em&gt;Unix I/O&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;18-systems-communicate-with-other-systems-using-networks&#34;&gt;1.8 Systems Communicate with Other Systems Using Networks
+&lt;/h2&gt;&lt;p&gt;The network can be viewed as just another I/O devices.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/1.14.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;A network is another I/O device&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The system copies a sequence of bytes from main memory to the network adapter rather than disk controller, which helps the data flow across the network to another mechine instead of a local disk drive.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/1.15.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Using telnet to run hello program remotely over a network&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;19-important-themes&#34;&gt;1.9 Important Themes
+&lt;/h3&gt;&lt;h4 id=&#34;191-amdahls-law&#34;&gt;1.9.1 Amdahl&amp;rsquo;s law
+&lt;/h4&gt;&lt;p&gt;The main idea of &lt;em&gt;Amdahl&amp;rsquo;s law&lt;/em&gt; is that when we speed up one part of a system effect on the overall all system performance depends on both how sigficant this part was and how much it sped up.&lt;/p&gt;
+&lt;p&gt;Suppose some part of the system requires a fraction &lt;em&gt;α&lt;/em&gt; of this time, and that we improve its performence by a factor of &lt;em&gt;k&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;$$
+T_{new} = (1-\alpha)T_{\text{old}} + (\alpha T_{\text{old}})/k = T_{\text{old}}[(1-\alpha) + \alpha/k]
+$$&lt;/p&gt;
+&lt;p&gt;$$
+S = \frac{T_{\text{old}}}{T_{\text{new}}} = \frac{1}{(1-\alpha) + \alpha/k}
+$$&lt;/p&gt;
+&lt;h4 id=&#34;192-concurrency-and-parallelism&#34;&gt;1.9.2 Concurrency and Parallelism
+&lt;/h4&gt;&lt;h3 id=&#34;thread-level-concurrency&#34;&gt;Thread-Level Concurrency
+&lt;/h3&gt;&lt;p&gt;Traditionally, this concurrent execution was only &lt;em&gt;simulated&lt;/em&gt;, much as a juggler keeps multiple balls flying through the air.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Multiprocessor systems&lt;/em&gt; have more recently become commonplace with the advent of &lt;em&gt;multi-core&lt;/em&gt; processors and &lt;em&gt;hyperthreading&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/1.16.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Categorizing different processor configurations&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/1.17.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Multi-core processor orgnization&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Hyperthreading also called &lt;em&gt;simultaneous multi-threading&lt;/em&gt;. Whereas a conventional processor requires around 20,000 clock style to shift between different threads, a hyperthreaded processor decides which of its threads to execute on a cycle-by-cycle basis.&lt;/p&gt;
+&lt;h3 id=&#34;instruction-level-parallelism&#34;&gt;Instruction-Level Parallelism
+&lt;/h3&gt;&lt;p&gt;Processors that can sustain execution rates faster than 1 instruction per cycle are known as &lt;em&gt;superscalar&lt;/em&gt; processors.&lt;/p&gt;
+&lt;h3 id=&#34;single-instruction-multiple-datasimd-parallelism&#34;&gt;Single-Instruction, Multiple-Data(SIMD) Parallelism
+&lt;/h3&gt;&lt;h4 id=&#34;193-the-importance-of-abstractions-in-computer-systems&#34;&gt;1.9.3 The Importance of Abstractions in Computer Systems
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/1.18.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Some abstractions provided by a computer system&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;110-summary&#34;&gt;1.10 Summary
+&lt;/h3&gt;&lt;p&gt;Storage devices that are higher in the hierarchy serve as caches for devices that are lower in the hierarchy.&lt;/p&gt;
+&lt;p&gt;The operating system kernel serves as an intermediary between the application and the hardware. It provides three fundamental abstractions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Files are abstractions for I/O devices.&lt;/li&gt;
+&lt;li&gt;Virtual memory is an abstraction for both main memory and disk.&lt;/li&gt;
+&lt;li&gt;Processes are abstractions for the processor, main memory, and I/O devices.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
+        <title>CSAPP reading notes - Part 1, Chapter 1</title>
+        <link>http://localhost:1313/blog/p/csapp-reading-notes-part-1-chapter-1/</link>
+        <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/csapp-reading-notes-part-1-chapter-1/</guid>
+        <description>&lt;h2 id=&#34;21-information-storage&#34;&gt;2.1 Information Storage
+&lt;/h2&gt;&lt;p&gt;Most computers use block of 8 bits, or &lt;em&gt;bytes&lt;/em&gt;, as the smallest unit of memory.&lt;/p&gt;
+&lt;p&gt;A mechine-level program views memory as a very large array of bytes, referred to as &lt;em&gt;virtual memory&lt;/em&gt;. Every byte of memory is identified by a unique nubmer, known as &lt;em&gt;address&lt;/em&gt;, and the set of all possible addresses is known as the &lt;em&gt;virtual address space&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Virtual address space is just a conceptual image presented to mechine-level program. The actual implementation uses a combination of DRAM, flash memory, disk storage,special hardware, and operating system software to provide the program with what apears to be a monolithic byte array.&lt;/p&gt;
+&lt;p&gt;The GNU Compiler Collection (GCC) can compile programs according to the conventions of several different version of the C language, based on different command-line options.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/2.1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Specifying different versions of C to gcc&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;211-hexadecimal-notation&#34;&gt;2.1.1 Hexadecimal Notation
+&lt;/h3&gt;&lt;p&gt;Decimal and binary values associated with the hexadecimal digits:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/2.2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Hexadecimal notation&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;practice problem 2.1:
+A. 0x25B9D2 to binary
+B. binary 1010111001001001 to hexadecimal
+C. 0xA8B3D to binary
+D. binary 1100100010110110010110 to hexadecimal&lt;/p&gt;
+&lt;p&gt;For $x = 2,048 = 2^{11}$, we have $n = 11 = 3 + 4 \cdot 2$, giving hexdecimal representation &lt;code&gt;0x800&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;212-data-sizes&#34;&gt;2.1.2 Data Sizes
+&lt;/h3&gt;&lt;p&gt;A 32-bit word size limits the virtual address space to 4 gigabytes(written 4 GB), that is, just over 4 x 10^9 bytes. Scaling up to a 64-bit word size leads to a virtual address space of 16 exabytes, or around 1.84 x 10^19 bytes.&lt;/p&gt;
+&lt;p&gt;The distinction referring to programs as being either &amp;ldquo;32-bit programs&amp;rdquo; or &amp;ldquo;64-bit programs&amp;rdquo; lies in how a program is compiled, rather than the type of machine on which it runs.&lt;/p&gt;
+&lt;p&gt;The C language supports multiple data formats for both integer and floating-piont data.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.3.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Typical sizes (in bytes) of basic C data types&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

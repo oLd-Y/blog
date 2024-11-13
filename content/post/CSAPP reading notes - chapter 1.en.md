@@ -1,6 +1,5 @@
 ---
-title: CSAPP reading notes - chapter 1
-id: CSAPP reading notes - chapter 1
+title: CSAPP reading notes - Chapter 1
 aliases: 
 tags:
   - foundation
@@ -8,13 +7,13 @@ tags:
 categories: CS
 date: 2024-11-04
 draft: false
-lastmod: 2024-11-12T12:37:05+08:00
+lastmod: 2024-11-13T10:14:57+08:00
 weight: 1
 description: "Chapter 1 \rA Tour of Computer Systems"
 ---
-![The hello program](img/1.1.png)
+![The hello program](CSAPP/1.1.png)
 
-![The ASCII text representation of hello.c](img/1.2.png)
+![The ASCII text representation of hello.c](CSAPP/1.2.png)
 
 ## 1.1 Information Is Bits + Context
 
@@ -30,7 +29,7 @@ The gcc compiler driver reads the source file hello.c and translated into an exe
 The programs that perform these phases (preprocessor, compilor, assembler, and linker) is known collectively as the *compliation system*. 
 
 Here is the phase figure:
-![The compliation system](img/1.3.png)
+![The compliation system](CSAPP/1.3.png)
 
 ## 1.3 It Pays to Understand How Compilation Systems Work
 
@@ -38,7 +37,7 @@ None.
 
 ## 1.4 Processors Read and Interpret Instructions Stored in Memory
 
-![Hardware orgnization of a typical system](img/1.4.png)
+![Hardware orgnization of a typical system](CSAPP/1.4.png)
 
 PC: program counter
 ALU: arithmetic/logic unit
@@ -55,27 +54,27 @@ Physically, main memory consists of a collection of dynamic random access memory
 
 ### 1.4.2 Running the hello Program
 
-![Reading the hello program from the keyboard](img/1.5.png)
+![Reading the hello program from the keyboard](CSAPP/1.5.png)
 
 DMA: direct memory access
 
-![loading executable from disk into main memory](img/1.6.png)
+![loading executable from disk into main memory](CSAPP/1.6.png)
 
 ![Writing the output string from the memory to the display](1.7.png)
 
 ## 1.5 Caches Matter
 
-![Cache memories](img/1.8.png)
+![Cache memories](CSAPP/1.8.png)
 
 The L1 and L2 caches are implemented with a hardware technology known as static random access memory (SRAM)
 
 ## 1.6 Storage Devices Form a Hierarchy
 
-![example of memory hierarchy](img/1.9.png)
+![example of memory hierarchy](CSAPP/1.9.png)
 
 ## 1.7 The Operating System Manages the Hardware
 
-![Layered view of a computer system](img/1.10.png)
+![Layered view of a computer system](CSAPP/1.10.png)
 
 The operating system has two primary purposes:
 1. to protect the hardware from misuse by runaway applications
@@ -83,13 +82,13 @@ The operating system has two primary purposes:
 
 It achieves both goal via the foundamental abstractions: processes, virtual memory, and files.
 
-![Abstractions provided by an operating system](img/1.11.png)
+![Abstractions provided by an operating system](CSAPP/1.11.png)
 
 #### 1.7.1 Processes
 
 When the operating system decides to transfer control from the current process to some new process, it performs a *context switch* by saving the context of the current process, restoring the context of the new process, and then passing control to the new process.
 
-![Process context switching](img/1.12.png)
+![Process context switching](CSAPP/1.12.png)
 
 #### 1.7.2 Threads
 
@@ -99,7 +98,7 @@ Each thread runs in the context of the process and sharing the same code and glo
 
 Each process has the same uniform view of memory, which is known as its *virtual address space*.
 
-![Process virtual address](img/1.13.png)
+![Process virtual address](CSAPP/1.13.png)
 
 The virtual address space seen by each process consists of a number of well defined areas, starting from low to high:
 - Program code and data.
@@ -116,11 +115,11 @@ A *file* is a sequence of bytes. Every I/O devices is modeled as a file. All inp
 
 The network can be viewed as just another I/O devices.
 
-![A network is another I/O device](img/1.14.png)
+![A network is another I/O device](CSAPP/1.14.png)
 
 The system copies a sequence of bytes from main memory to the network adapter rather than disk controller, which helps the data flow across the network to another mechine instead of a local disk drive.
 
-![Using telnet to run hello program remotely over a network](img/1.15.png)
+![Using telnet to run hello program remotely over a network](CSAPP/1.15.png)
 
 ### 1.9 Important Themes
 
@@ -146,9 +145,9 @@ Traditionally, this concurrent execution was only *simulated*, much as a juggler
 
 *Multiprocessor systems* have more recently become commonplace with the advent of *multi-core* processors and *hyperthreading*.
 
-![Categorizing different processor configurations](img/1.16.png)
+![Categorizing different processor configurations](CSAPP/1.16.png)
 
-![Multi-core processor orgnization](img/1.17.png)
+![Multi-core processor orgnization](CSAPP/1.17.png)
 
 Hyperthreading also called *simultaneous multi-threading*. Whereas a conventional processor requires around 20,000 clock style to shift between different threads, a hyperthreaded processor decides which of its threads to execute on a cycle-by-cycle basis.
 
@@ -160,7 +159,7 @@ Processors that can sustain execution rates faster than 1 instruction per cycle 
 
 #### 1.9.3 The Importance of Abstractions in Computer Systems
 
-![Some abstractions provided by a computer system](img/1.18.png)
+![Some abstractions provided by a computer system](CSAPP/1.18.png)
 
 ### 1.10 Summary
 

@@ -1,13 +1,12 @@
 ---
-id: CSAPP reading notes - part I, chapter 2
+title: CSAPP reading notes - Chapter 2 (Part I)
 categories: CS
 tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-13T09:40:13+08:00
+lastmod: 2024-11-13T10:24:59+08:00
 draft: false
-title: CSAPP reading notes - chapter 1
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
 ---
@@ -21,13 +20,13 @@ Virtual address space is just a conceptual image presented to mechine-level prog
 
 The GNU Compiler Collection (GCC) can compile programs according to the conventions of several different version of the C language, based on different command-line options.
 
-![Specifying different versions of C to gcc](img/2.1.png)
+![Specifying different versions of C to gcc](CSAPP/2.1.png)
 
 ### 2.1.1 Hexadecimal Notation
 
 Decimal and binary values associated with the hexadecimal digits:
 
-![Hexadecimal notation](img/2.2.png)
+![Hexadecimal notation](CSAPP/2.2.png)
 
 practice problem 2.1:
 A. 0x25B9D2 to binary
@@ -42,3 +41,13 @@ For $x = 2,048 = 2^{11}$, we have $n = 11 = 3 + 4 \cdot 2$, giving hexdecimal re
 A 32-bit word size limits the virtual address space to 4 gigabytes(written 4 GB), that is, just over 4 x 10^9 bytes. Scaling up to a 64-bit word size leads to a virtual address space of 16 exabytes, or around 1.84 x 10^19 bytes.
 
 The distinction referring to programs as being either "32-bit programs" or "64-bit programs" lies in how a program is compiled, rather than the type of machine on which it runs.
+
+The C language supports multiple data formats for both integer and floating-piont data.
+
+
+![Typical sizes (in bytes) of basic C data types](CSAPP/2.3.png)
+
+`int32_t` and `int64_t` have exactly 4 and 8 bytes, respectively, to avoid the vagaries of relying on "typical" sizes and different compiler settings.
+
+### 2.1.3 Addressing and Byte Ordering
+

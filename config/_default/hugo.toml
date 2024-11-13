@@ -43,8 +43,8 @@ source = 'static'
 target = 'static'
 
 [[module.mounts]]
-source = 'content/post/img'
-target = 'static/img'
+source = 'content/post/static/CSAPP'
+target = 'static/CSAPP'
 
 # [languages.ar]
 # languageName = "عربي"

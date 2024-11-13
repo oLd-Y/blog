@@ -8,7 +8,7 @@
         <language>en</language>
         <copyright>谷栗杳</copyright>
         <lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/foundation/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>CSAPP reading notes - chapter 1</title>
+        <title>CSAPP reading notes - Chapter 1</title>
         <link>http://localhost:1313/blog/p/csapp-reading-notes-chapter-1/</link>
         <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
         
@@ -215,6 +215,118 @@ ALU: arithmetic/logic unit&lt;/p&gt;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Using telnet to run hello program remotely over a network&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;19-important-themes&#34;&gt;1.9 Important Themes
+&lt;/h3&gt;&lt;h4 id=&#34;191-amdahls-law&#34;&gt;1.9.1 Amdahl&amp;rsquo;s law
+&lt;/h4&gt;&lt;p&gt;The main idea of &lt;em&gt;Amdahl&amp;rsquo;s law&lt;/em&gt; is that when we speed up one part of a system effect on the overall all system performance depends on both how sigficant this part was and how much it sped up.&lt;/p&gt;
+&lt;p&gt;Suppose some part of the system requires a fraction &lt;em&gt;α&lt;/em&gt; of this time, and that we improve its performence by a factor of &lt;em&gt;k&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;$$
+T_{new} = (1-\alpha)T_{\text{old}} + (\alpha T_{\text{old}})/k = T_{\text{old}}[(1-\alpha) + \alpha/k]
+$$&lt;/p&gt;
+&lt;p&gt;$$
+S = \frac{T_{\text{old}}}{T_{\text{new}}} = \frac{1}{(1-\alpha) + \alpha/k}
+$$&lt;/p&gt;
+&lt;h4 id=&#34;192-concurrency-and-parallelism&#34;&gt;1.9.2 Concurrency and Parallelism
+&lt;/h4&gt;&lt;h3 id=&#34;thread-level-concurrency&#34;&gt;Thread-Level Concurrency
+&lt;/h3&gt;&lt;p&gt;Traditionally, this concurrent execution was only &lt;em&gt;simulated&lt;/em&gt;, much as a juggler keeps multiple balls flying through the air.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Multiprocessor systems&lt;/em&gt; have more recently become commonplace with the advent of &lt;em&gt;multi-core&lt;/em&gt; processors and &lt;em&gt;hyperthreading&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/1.16.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Categorizing different processor configurations&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/1.17.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Multi-core processor orgnization&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Hyperthreading also called &lt;em&gt;simultaneous multi-threading&lt;/em&gt;. Whereas a conventional processor requires around 20,000 clock style to shift between different threads, a hyperthreaded processor decides which of its threads to execute on a cycle-by-cycle basis.&lt;/p&gt;
+&lt;h3 id=&#34;instruction-level-parallelism&#34;&gt;Instruction-Level Parallelism
+&lt;/h3&gt;&lt;p&gt;Processors that can sustain execution rates faster than 1 instruction per cycle are known as &lt;em&gt;superscalar&lt;/em&gt; processors.&lt;/p&gt;
+&lt;h3 id=&#34;single-instruction-multiple-datasimd-parallelism&#34;&gt;Single-Instruction, Multiple-Data(SIMD) Parallelism
+&lt;/h3&gt;&lt;h4 id=&#34;193-the-importance-of-abstractions-in-computer-systems&#34;&gt;1.9.3 The Importance of Abstractions in Computer Systems
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/1.18.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Some abstractions provided by a computer system&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;110-summary&#34;&gt;1.10 Summary
+&lt;/h3&gt;&lt;p&gt;Storage devices that are higher in the hierarchy serve as caches for devices that are lower in the hierarchy.&lt;/p&gt;
+&lt;p&gt;The operating system kernel serves as an intermediary between the application and the hardware. It provides three fundamental abstractions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Files are abstractions for I/O devices.&lt;/li&gt;
+&lt;li&gt;Virtual memory is an abstraction for both main memory and disk.&lt;/li&gt;
+&lt;li&gt;Processes are abstractions for the processor, main memory, and I/O devices.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
+        <title>CSAPP reading notes - Part 1, Chapter 1</title>
+        <link>http://localhost:1313/blog/p/csapp-reading-notes-part-1-chapter-1/</link>
+        <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/csapp-reading-notes-part-1-chapter-1/</guid>
+        <description>&lt;h2 id=&#34;21-information-storage&#34;&gt;2.1 Information Storage
+&lt;/h2&gt;&lt;p&gt;Most computers use block of 8 bits, or &lt;em&gt;bytes&lt;/em&gt;, as the smallest unit of memory.&lt;/p&gt;
+&lt;p&gt;A mechine-level program views memory as a very large array of bytes, referred to as &lt;em&gt;virtual memory&lt;/em&gt;. Every byte of memory is identified by a unique nubmer, known as &lt;em&gt;address&lt;/em&gt;, and the set of all possible addresses is known as the &lt;em&gt;virtual address space&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Virtual address space is just a conceptual image presented to mechine-level program. The actual implementation uses a combination of DRAM, flash memory, disk storage,special hardware, and operating system software to provide the program with what apears to be a monolithic byte array.&lt;/p&gt;
+&lt;p&gt;The GNU Compiler Collection (GCC) can compile programs according to the conventions of several different version of the C language, based on different command-line options.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/2.1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Specifying different versions of C to gcc&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;211-hexadecimal-notation&#34;&gt;2.1.1 Hexadecimal Notation
+&lt;/h3&gt;&lt;p&gt;Decimal and binary values associated with the hexadecimal digits:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/2.2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Hexadecimal notation&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;practice problem 2.1:
+A. 0x25B9D2 to binary
+B. binary 1010111001001001 to hexadecimal
+C. 0xA8B3D to binary
+D. binary 1100100010110110010110 to hexadecimal&lt;/p&gt;
+&lt;p&gt;For $x = 2,048 = 2^{11}$, we have $n = 11 = 3 + 4 \cdot 2$, giving hexdecimal representation &lt;code&gt;0x800&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;212-data-sizes&#34;&gt;2.1.2 Data Sizes
+&lt;/h3&gt;&lt;p&gt;A 32-bit word size limits the virtual address space to 4 gigabytes(written 4 GB), that is, just over 4 x 10^9 bytes. Scaling up to a 64-bit word size leads to a virtual address space of 16 exabytes, or around 1.84 x 10^19 bytes.&lt;/p&gt;
+&lt;p&gt;The distinction referring to programs as being either &amp;ldquo;32-bit programs&amp;rdquo; or &amp;ldquo;64-bit programs&amp;rdquo; lies in how a program is compiled, rather than the type of machine on which it runs.&lt;/p&gt;
+&lt;p&gt;The C language supports multiple data formats for both integer and floating-piont data.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.3.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Typical sizes (in bytes) of basic C data types&#34;
 	
 	
 &gt;&lt;/p&gt;

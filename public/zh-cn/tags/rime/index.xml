@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Rime on 谷栗杳</title>
+        <link>http://localhost:1313/blog/zh-cn/tags/rime/</link>
+        <description>Recent content in Rime on 谷栗杳</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>谷栗杳</copyright>
+        <lastBuildDate>Mon, 11 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/zh-cn/tags/rime/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>虎码用法记录</title>
+        <link>http://localhost:1313/blog/zh-cn/p/%E8%99%8E%E7%A0%81%E7%94%A8%E6%B3%95%E8%AE%B0%E5%BD%95/</link>
+        <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/zh-cn/p/%E8%99%8E%E7%A0%81%E7%94%A8%E6%B3%95%E8%AE%B0%E5%BD%95/</guid>
+        <description>&lt;h2 id=&#34;rime-输入特殊字符&#34;&gt;Rime 输入特殊字符
+&lt;/h2&gt;&lt;p&gt;如果你使用的是 Rime 输入法，可以使用 &lt;code&gt;/&lt;/code&gt; 加一些引导输入一些特殊字符，例如 &lt;code&gt;/xl&lt;/code&gt; 输入希腊字符。&lt;/p&gt;
+&lt;p&gt;更加具体的可以查看配置文件中的 &lt;code&gt;symbol.yaml&lt;/code&gt; 文件中的 &lt;code&gt;symbols&lt;/code&gt; 属性。&lt;/p&gt;
+&lt;h2 id=&#34;添加四码上屏功能&#34;&gt;添加四码上屏功能
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;tiger.schema.yaml, 虎码单字输入&lt;/li&gt;
+&lt;li&gt;tigress.schema.yaml, 虎码官方词库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在 &lt;code&gt;tigeress.schema.yaml&lt;/code&gt; 文件中找到 &lt;code&gt;auto_select_pattern&lt;/code&gt; 属性，将其值改为 &lt;code&gt;^;\w+|^\w{4}$&lt;/code&gt; 即可。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

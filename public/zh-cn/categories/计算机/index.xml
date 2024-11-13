@@ -7,7 +7,24 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Tue, 05 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/zh-cn/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 11 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/zh-cn/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>虎码用法记录</title>
+        <link>http://localhost:1313/blog/zh-cn/p/%E8%99%8E%E7%A0%81%E7%94%A8%E6%B3%95%E8%AE%B0%E5%BD%95/</link>
+        <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/zh-cn/p/%E8%99%8E%E7%A0%81%E7%94%A8%E6%B3%95%E8%AE%B0%E5%BD%95/</guid>
+        <description>&lt;h2 id=&#34;rime-输入特殊字符&#34;&gt;Rime 输入特殊字符
+&lt;/h2&gt;&lt;p&gt;如果你使用的是 Rime 输入法，可以使用 &lt;code&gt;/&lt;/code&gt; 加一些引导输入一些特殊字符，例如 &lt;code&gt;/xl&lt;/code&gt; 输入希腊字符。&lt;/p&gt;
+&lt;p&gt;更加具体的可以查看配置文件中的 &lt;code&gt;symbol.yaml&lt;/code&gt; 文件中的 &lt;code&gt;symbols&lt;/code&gt; 属性。&lt;/p&gt;
+&lt;h2 id=&#34;添加四码上屏功能&#34;&gt;添加四码上屏功能
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;tiger.schema.yaml, 虎码单字输入&lt;/li&gt;
+&lt;li&gt;tigress.schema.yaml, 虎码官方词库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在 &lt;code&gt;tigeress.schema.yaml&lt;/code&gt; 文件中找到 &lt;code&gt;auto_select_pattern&lt;/code&gt; 属性，将其值改为 &lt;code&gt;^;\w+|^\w{4}$&lt;/code&gt; 即可。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>wsl neovim 自动切换输入法</title>
         <link>http://localhost:1313/blog/zh-cn/p/wsl-neovim-%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E8%BE%93%E5%85%A5%E6%B3%95/</link>
         <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
@@ -184,14 +201,6 @@
 &lt;h2 id=&#34;其它&#34;&gt;其它
 &lt;/h2&gt;&lt;p&gt;使用 &lt;code&gt;scrcpy-noconsole.vbs&lt;/code&gt; 脚本也是一样的效果，区别在于它不会有额外的 terminal。&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>hugo page bundle 问题</title>
-        <link>http://localhost:1313/blog/zh-cn/p/hugo-page-bundle-%E9%97%AE%E9%A2%98/</link>
-        <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/zh-cn/p/hugo-page-bundle-%E9%97%AE%E9%A2%98/</guid>
-        <description></description>
         </item>
         <item>
         <title>234. 回文链表</title>
