@@ -83,7 +83,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -197,6 +198,8 @@
   },
   "active": "a31320b87e9364e3",
   "lastOpenFiles": [
+    "static/CSAPP/big-little-endian.png",
+    "static/CSAPP/big and little endian.png",
     "CSAPP reading notes - chapter 1.en.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
     "_TODO.md",
@@ -209,7 +212,6 @@
     "static/CSAPP/1.14.png",
     "static/CSAPP/1.13.png",
     "static/CSAPP/1.12.png",
-    "static/CSAPP/1.11.png",
     "static/CSAPP",
     "static",
     "img/CSAPP",

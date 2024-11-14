@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-13T10:24:59+08:00
+lastmod: 2024-11-14T07:37:16+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -50,4 +50,8 @@ The C language supports multiple data formats for both integer and floating-pion
 `int32_t` and `int64_t` have exactly 4 and 8 bytes, respectively, to avoid the vagaries of relying on "typical" sizes and different compiler settings.
 
 ### 2.1.3 Addressing and Byte Ordering
+
+The convention where the least significant bytes comes first is referred to as *little endian*. The convention where the most sifnificant byte comes first is referred to as *big endian*.
+
+![](CSAPP/big-little-endian.png)
 
