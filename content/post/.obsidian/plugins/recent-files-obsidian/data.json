@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "learn x86-64 assembly through code.en",
+      "path": "learn x86-64 assembly through code.en.md"
+    },
+    {
       "basename": "CSAPP reading notes - part I, chapter 2.en",
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "21. 合并两个有序链表.zh-cn",
       "path": "21. 合并两个有序链表.zh-cn.md"
-    },
-    {
-      "basename": "15. 三数之和.zh-cn",
-      "path": "15. 三数之和.zh-cn.md"
     }
   ],
   "omittedPaths": []
