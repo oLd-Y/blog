@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Practice on lyao&#39;s Blog</title>
+        <link>http://localhost:1313/blog/tags/practice/</link>
+        <description>Recent content in Practice on lyao&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>谷栗杳</copyright>
+        <lastBuildDate>Thu, 14 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/practice/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>CSAPP practice problem and solutions</title>
+        <link>http://localhost:1313/blog/p/csapp-practice-problem-and-solutions/</link>
+        <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/csapp-practice-problem-and-solutions/</guid>
+        <description>&lt;blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;What would be printed as a result of the following call to show_bytes?
+const char *m = &amp;ldquo;mnopqr&amp;rdquo;;
+show_bytes((byte_pointer) m, strlen(m));
+Note that letters ‘a’ through ‘z’ have ASCII codes 0x61 through 0x7A.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

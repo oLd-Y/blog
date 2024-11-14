@@ -10,7 +10,7 @@
 <meta property='og:description' content="Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation">
 <meta property='og:url' content='http://localhost:1313/blog/p/csapp-reading-notes-chapter-2-part-i/'>
 <meta property='og:site_name' content='lyao&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='foundation' /><meta property='article:tag' content='CSAPP' /><meta property='article:published_time' content='2024-11-04T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-11-13T10:16:28&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='foundation' /><meta property='article:tag' content='CSAPP' /><meta property='article:published_time' content='2024-11-04T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-11-14T15:58:34&#43;08:00'/>
 <meta name="twitter:title" content="CSAPP reading notes - Chapter 2 (Part I)">
 <meta name="twitter:description" content="Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation">
     <link rel="shortcut icon" href="/blog/favicon.ico" />
@@ -319,6 +319,8 @@
       <ol>
         <li><a href="#211-hexadecimal-notation">2.1.1 Hexadecimal Notation</a></li>
         <li><a href="#212-data-sizes">2.1.2 Data Sizes</a></li>
+        <li><a href="#213-addressing-and-byte-ordering">2.1.3 Addressing and Byte Ordering</a></li>
+        <li><a href="#214-representing-strings">2.1.4 Representing Strings</a></li>
       </ol>
     </li>
   </ol>
@@ -451,7 +453,38 @@ D. binary 1100100010110110010110 to hexadecimal</p>
 	
 	
 ></p>
-
+<p><code>int32_t</code> and <code>int64_t</code> have exactly 4 and 8 bytes, respectively, to avoid the vagaries of relying on &ldquo;typical&rdquo; sizes and different compiler settings.</p>
+<h3 id="213-addressing-and-byte-ordering">2.1.3 Addressing and Byte Ordering
+</h3><p>The convention where the least significant bytes comes first is referred to as <em>little endian</em>. The convention where the most sifnificant byte comes first is referred to as <em>big endian</em>.</p>
+<p><img src="/blog/CSAPP/big-little-endian.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="/blog/CSAPP/2.5-2.6.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Byte representations of different data values among different machines"
+	
+	
+></p>
+<p>Although the floating-pint and the integer data both encode the numeric value 12,345, they have very different byte patterns: 0x00003039 for the integer and 0x4640E400 for floating point. In general, these two formats use different encoding shemes. If we expand these hexadecimal patterns into binary form and shift them appropriately, we find a sequence of 13 matching bits, indicated by a sequence of asterisks, as follows:</p>
+<p><img src="/blog/CSAPP/mathcing-bits-of-floating-point-and-integer.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h3 id="214-representing-strings">2.1.4 Representing Strings
+</h3>
 </section>
 
 
@@ -488,7 +521,7 @@ D. binary 1100100010110110010110 to hexadecimal</p>
 
 
         <span>
-            Last updated on Nov 13, 2024 10:16 CST
+            Last updated on Nov 14, 2024 15:58 CST
         </span>
     </section></footer>
 
@@ -544,51 +577,51 @@ D. binary 1100100010110110010110 to hexadecimal</p>
             
                 
 <article class="">
+    <a href="/blog/p/csapp-practice-problem-and-solutions/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">CSAPP practice problem and solutions</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/p/learn-c-through-code/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">learn C through code</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/p/learn-x86-64-assembly-through-code/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">learn x86-64 assembly through code</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
     <a href="/blog/p/learn-latex-through-examples/">
         
         
 
         <div class="article-details">
             <h2 class="article-title">Learn LaTex through examples</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/blog/p/make-a-window-always-on-top-through-ahk/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Make a window always on top through AHK</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/blog/p/resolving-image-insert-conflict-of-hugo-and-obsidian/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Resolving image insert conflict of Hugo and Obsidian</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/blog/p/upgrade-neovim-to-the-latest/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Upgrade Neovim To The Latest</h2>
         </div>
     </a>
 </article>

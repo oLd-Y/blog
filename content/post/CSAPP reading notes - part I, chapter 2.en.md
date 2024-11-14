@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-14T15:00:58+08:00
+lastmod: 2024-11-14T15:58:34+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -62,4 +62,6 @@ Although the floating-pint and the integer data both encode the numeric value 12
 ![](CSAPP/mathcing-bits-of-floating-point-and-integer.png)
 
 ### 2.1.4 Representing Strings
+
+
 

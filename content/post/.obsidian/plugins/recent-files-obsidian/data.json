@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CSAPP practice problem and solutions.en",
+      "path": "CSAPP practice problem and solutions.en.md"
+    },
+    {
       "basename": "CSAPP reading notes - part I, chapter 2.en",
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "53. 最大子数组和.zh-cn",
       "path": "53. 最大子数组和.zh-cn.md"
-    },
-    {
-      "basename": "41. 缺失的第一个正数.zh-cn",
-      "path": "41. 缺失的第一个正数.zh-cn.md"
     }
   ],
   "omittedPaths": []
