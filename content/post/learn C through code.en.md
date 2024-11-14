@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-14T11:11:59+08:00
+lastmod: 2024-11-14T11:47:53+08:00
 ---
 ## Came from CSAPP "Figure 2.4"
 
@@ -41,5 +41,7 @@ void show_pointer(void *x) {
 - After `typedef unsigned char *byte_pointer;`, the type `byte_pointer` has the same functionality of `unsigned char *`
 - `%` starts the format, `.2` means minimum 2 digits, pad with zeros if needed.
 - `start[i]` = `*(start + i)` = $*(start + i \cdot sizeof(byte\_pointer)$.
+- The expression `&x` creates a pointer to the location holding the object indicated by variable x.
+- The cast `(byte_pointer) &x` indicates that whatever type the pointer `&x` had before, the program will now reference a pointer to data of type `unsigned char`. The casts do not change the actual pointer; they simply direct the comiler to refer to tha data being pointed to according to the new data type.
 
-Although the floating-pint and the integer data both encode the numeric value 12,345, they have very different byte patterns: 0x00003039 for the integer and 0x4640E400 for floating point. In general, these two formats use dif
+
