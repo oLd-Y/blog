@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-14T11:40:54+08:00
+lastmod: 2024-11-14T15:00:58+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -60,3 +60,6 @@ The convention where the least significant bytes comes first is referred to as *
 Although the floating-pint and the integer data both encode the numeric value 12,345, they have very different byte patterns: 0x00003039 for the integer and 0x4640E400 for floating point. In general, these two formats use different encoding shemes. If we expand these hexadecimal patterns into binary form and shift them appropriately, we find a sequence of 13 matching bits, indicated by a sequence of asterisks, as follows:
 
 ![](CSAPP/mathcing-bits-of-floating-point-and-integer.png)
+
+### 2.1.4 Representing Strings
+
