@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "7e8aada2e31d8728",
+            "id": "b65b50cf49cc4fd4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learn x86-64 assembly through code.en.md",
+                "file": "learn C through code.en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "learn x86-64 assembly through code.en"
+              "title": "learn C through code.en"
             }
           }
         ],
@@ -211,9 +211,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7e8aada2e31d8728",
+  "active": "b65b50cf49cc4fd4",
   "lastOpenFiles": [
     "CSAPP reading notes - part I, chapter 2.en.md",
+    "learn C through code.en.md",
+    "static/CSAPP/2.4.png",
     "learn x86-64 assembly through code.en.md",
     "static/CSAPP/big-little-endian.png",
     "static/CSAPP/big and little endian.png",
@@ -226,7 +228,6 @@
     "static/CSAPP/1.16.png",
     "static/CSAPP/1.15.png",
     "static/CSAPP/1.14.png",
-    "static/CSAPP/1.13.png",
     "static/CSAPP",
     "static",
     "img/CSAPP",
@@ -252,7 +253,6 @@
     "虎码用法记录.zh-cn.md",
     "wsl2 安装 kitty.zh-cn.md",
     "《刀锋》读书笔记.zh-cn.md",
-    "Windows 部分程序无法固定到开始菜单解决方法.zh-cn.md",
     "images",
     "CSAPP reading notes/pictures/Untitled",
     "img",
