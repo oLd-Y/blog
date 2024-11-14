@@ -9,9 +9,9 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-13T08:54:33+08:00
+lastmod: 2024-11-14T18:51:13+08:00
 ---
-# Came from CSAPP "1.9.1 Amdahl’s Law"
+## Came from CSAPP "1.9.1 Amdahl’s Law"
 
 $$
 T_{\text{new}} = (1-\alpha)T_{\text{old}} + (\alpha T_{\text{old}})/k = T_{\text{old}}[(1-\alpha) + \alpha/k]
@@ -56,3 +56,13 @@ $$
 x^n
 $$
 - x to the nth power.
+
+## Logical symbols
+
+```latex
+A \land B \lor C \not D \wedge C \vee E \neg F
+```
+
+$$
+A \land B \lor C \not D \wedge C \vee E \neg F 
+$$

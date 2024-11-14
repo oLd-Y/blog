@@ -121,8 +121,8 @@ Note that letters ‘a’ through ‘z’ have ASCII codes 0x61 through 0x7A.&lt
         <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/p/learn-latex-through-examples/</guid>
-        <description>&lt;h1 id=&#34;came-from-csapp-191-amdahls-law&#34;&gt;Came from CSAPP &amp;ldquo;1.9.1 Amdahl’s Law&amp;rdquo;
-&lt;/h1&gt;&lt;p&gt;$$
+        <description>&lt;h2 id=&#34;came-from-csapp-191-amdahls-law&#34;&gt;Came from CSAPP &amp;ldquo;1.9.1 Amdahl’s Law&amp;rdquo;
+&lt;/h2&gt;&lt;p&gt;$$
 T_{\text{new}} = (1-\alpha)T_{\text{old}} + (\alpha T_{\text{old}})/k = T_{\text{old}}[(1-\alpha) + \alpha/k]
 $$&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -182,6 +182,18 @@ $$&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;x to the nth power.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;logical-symbols&#34;&gt;Logical symbols
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;A &lt;span class=&#34;k&#34;&gt;\land&lt;/span&gt; B &lt;span class=&#34;k&#34;&gt;\lor&lt;/span&gt; C &lt;span class=&#34;k&#34;&gt;\not&lt;/span&gt; D &lt;span class=&#34;k&#34;&gt;\wedge&lt;/span&gt; C &lt;span class=&#34;k&#34;&gt;\vee&lt;/span&gt; E &lt;span class=&#34;k&#34;&gt;\neg&lt;/span&gt; F
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;$$
+A \land B \lor C \not D \wedge C \vee E \neg F
+$$&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -756,7 +768,7 @@ D. binary 1100100010110110010110 to hexadecimal&lt;/p&gt;
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;214-representing-strings&#34;&gt;2.1.4 Representing Strings
-&lt;/h3&gt;&lt;p&gt;$A  B$&lt;/p&gt;
+&lt;/h3&gt;&lt;p&gt;$A \land B$&lt;/p&gt;
 </description>
         </item>
         <item>

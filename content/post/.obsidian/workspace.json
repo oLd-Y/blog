@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP reading notes - part I, chapter 2.en.md",
+                "file": "Learn LaTex through examples.en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSAPP reading notes - part I, chapter 2.en"
+              "title": "Learn LaTex through examples.en"
             }
           },
           {
@@ -211,10 +211,11 @@
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
     "CSAPP practice problem and solutions.en.md",
+    "Learn LaTex through examples.en.md",
+    "CSAPP reading notes - part I, chapter 2.en.md",
     "static/CSAPP/pp2.6.png",
     "static/CSAPP/pp2.7.png",
     "static/CSAPP/pp2.5.png",
-    "CSAPP reading notes - part I, chapter 2.en.md",
     "learn C through code.en.md",
     "static/CSAPP/mathcing-bits-of-floating-point-and-integer.png",
     "static/CSAPP/2.5-2.6.png",
@@ -230,7 +231,6 @@
     "static",
     "img/CSAPP",
     "img/新建文件夹",
-    "Learn LaTex through examples.en.md",
     "电脑投屏手机软件 scrcpy 使用记录.zh-cn.md",
     "LazyVim for Ambitious Developers reading notes.en.md",
     "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md",

@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-14T18:07:15+08:00
+lastmod: 2024-11-14T18:20:33+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -63,5 +63,6 @@ Although the floating-pint and the integer data both encode the numeric value 12
 
 ### 2.1.4 Representing Strings
 
-$A  B$
+$A \land B$ 
+
 
