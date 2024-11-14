@@ -35,8 +35,7 @@
               "title": "CSAPP practice problem and solutions.en"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,13 +208,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e3c152feda423a70",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "CSAPP practice problem and solutions.en.md",
     "static/CSAPP/pp2.6.png",
     "static/CSAPP/pp2.7.png",
     "static/CSAPP/pp2.5.png",
     "CSAPP reading notes - part I, chapter 2.en.md",
-    "CSAPP practice problem and solutions.en.md",
     "learn C through code.en.md",
     "static/CSAPP/mathcing-bits-of-floating-point-and-integer.png",
     "static/CSAPP/2.5-2.6.png",
@@ -227,7 +226,6 @@
     "_TODO.md",
     "static/CSAPP/2.2.png",
     "static/CSAPP/2.1.png",
-    "static/CSAPP/1.18.png",
     "static/CSAPP",
     "static",
     "img/CSAPP",
