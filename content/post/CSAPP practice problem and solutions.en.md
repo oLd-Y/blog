@@ -5,7 +5,7 @@ tags:
   - CSAPP
   - practice
 date: 2024-11-14
-lastmod: 2024-11-15T10:19:13+08:00
+lastmod: 2024-11-15T11:39:30+08:00
 draft: false
 weight: 1
 description: 
@@ -49,3 +49,13 @@ description:
 ![](CSAPP/pp2.13.png)
 
 ## 2.1.8 Logical Operations in C
+
+![](CSAPP/pp2.14.png)
+
+![](CSAPP/pp2.15.png)
+!(x ^ y)
+
+## 2.1.9 Shift Operations in C
+
+![](CSAPP/pp2.16.png)
+

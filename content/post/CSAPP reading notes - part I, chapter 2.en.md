@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-15T10:21:03+08:00
+lastmod: 2024-11-15T11:19:14+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -85,3 +85,15 @@ A mask is a bit pattern that indicates a selected set of bits within a word. The
 
 ### 2.1.8 Logical Operations in C
 
+A bitwise operation will have behavior matching that of its logical counterpart only in the special case in which the arguments are restricted to 0 or 1.
+
+The logical operators do not evaluate their second argument if the result of the expression can be determined by evaluating the first argument.
+
+### 2.1.9 Shift Operations in C
+
+`x << k`: $x$ is shifted $k$ bits to the left, dropping off the $k$ most significant bits and filling the right end with $k$ zeros.
+
+`x >> k`:
+- Logical. A logical right shift fills the left end with $k$ zeros.
+- Arithmetic. An arithemetic right shift fills the left end with $k$ repetitions of the most significant bit. 
+- Arithmetic is the most-used right shift for signed data. But for unsigned data it must be logical right shift.
