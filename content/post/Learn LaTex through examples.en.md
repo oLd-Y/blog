@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-15T08:56:00+08:00
+lastmod: 2024-11-15T10:20:50+08:00
 ---
 ## Fraction, subscript and Greek characters
 
@@ -74,7 +74,7 @@ $$
 ## Set operations
 
 ```latex
-
+A \cap B \cup C \bigcap_{i=1}^n A_i
 ```
 
 $$

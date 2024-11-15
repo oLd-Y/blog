@@ -5,7 +5,7 @@ tags:
   - CSAPP
   - practice
 date: 2024-11-14
-lastmod: 2024-11-15T09:26:32+08:00
+lastmod: 2024-11-15T10:19:13+08:00
 draft: false
 weight: 1
 description: 
@@ -34,7 +34,6 @@ description:
 ## 2.1.6 Introduction to Boolean Algebra
 
 ![](CSAPP/pp2.8-1.png)
-
 ![](CSAPP/pp2.8-2.png)
 
 ## 2.1.7 Bit-Level Operations in C
@@ -42,3 +41,11 @@ description:
 ![](CSAPP/pp2.9.png)
 
 ![](CSAPP/pp2.11.png)
+
+
+![](CSAPP/pp2.12-1.png)
+![](CSAPP/pp2.12-2.png)
+
+![](CSAPP/pp2.13.png)
+
+## 2.1.8 Logical Operations in C

@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-15T09:14:07+08:00
+lastmod: 2024-11-15T10:21:03+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -80,4 +80,8 @@ According to the position of 1 from right to left, bit vector a = [01101001] enc
 ### 2.1.7 Bit-Level Operations in C
 
 The best way to determin the effect of a bit-level expression is to extend the hexadecimal arguments to their binary representations, perform the operations in binary, and then convert back to the hexadecimal.
+
+A mask is a bit pattern that indicates a selected set of bits within a word. The expression `~0` will yield a mask of all ones.
+
+### 2.1.8 Logical Operations in C
 
