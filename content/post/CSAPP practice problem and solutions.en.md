@@ -5,7 +5,7 @@ tags:
   - CSAPP
   - practice
 date: 2024-11-14
-lastmod: 2024-11-15T08:30:42+08:00
+lastmod: 2024-11-15T09:26:32+08:00
 draft: false
 weight: 1
 description: 
@@ -31,15 +31,14 @@ description:
 
 #### solution
 
-
-
-### 2.8
-
-#### problem
+## 2.1.6 Introduction to Boolean Algebra
 
 ![](CSAPP/pp2.8-1.png)
 
 ![](CSAPP/pp2.8-2.png)
 
-#### solution
+## 2.1.7 Bit-Level Operations in C
 
+![](CSAPP/pp2.9.png)
+
+![](CSAPP/pp2.11.png)

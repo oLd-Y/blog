@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-15T08:29:43+08:00
+lastmod: 2024-11-15T09:14:07+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -75,4 +75,9 @@ When we consider operations ^, & and ~ operating on bit vectors of length w, we 
 
 `a ^ a = 0` for any value a, so `(a ^ b) ^ a = b`.
 
+According to the position of 1 from right to left, bit vector a = [01101001] encodes the set A = {0, 3, 5, 6}, while bit vector b = [01010101] encodes the set B = {0, 2, 4, 6}. Then the operation a & b yields bit vector [01000001], while $A \cap B$ = {0, 6}.
+
+### 2.1.7 Bit-Level Operations in C
+
+The best way to determin the effect of a bit-level expression is to extend the hexadecimal arguments to their binary representations, perform the operations in binary, and then convert back to the hexadecimal.
 

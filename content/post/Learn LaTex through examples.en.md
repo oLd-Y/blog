@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-15T07:59:37+08:00
+lastmod: 2024-11-15T08:56:00+08:00
 ---
 ## Fraction, subscript and Greek characters
 
@@ -69,4 +69,14 @@ A \land B \lor C \not D \wedge C \vee E \neg F \oplus G \barwedge H \; \hat{} \;
 
 $$
 A \land B \lor C \not D \wedge C \vee E \neg F \oplus G \barwedge H \; \hat{} \; I  \veebar J
+$$
+
+## Set operations
+
+```latex
+
+```
+
+$$
+A \cap B \cup C \bigcap_{i=1}^n A_i
 $$
