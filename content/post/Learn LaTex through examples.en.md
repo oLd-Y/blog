@@ -9,9 +9,11 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-14T18:51:13+08:00
+lastmod: 2024-11-15T07:59:37+08:00
 ---
-## Came from CSAPP "1.9.1 Amdahl’s Law"
+## Fraction, subscript and Greek characters
+
+Came from CSAPP "1.9.1 Amdahl’s Law"
 
 $$
 T_{\text{new}} = (1-\alpha)T_{\text{old}} + (\alpha T_{\text{old}})/k = T_{\text{old}}[(1-\alpha) + \alpha/k]
@@ -38,7 +40,9 @@ S = \frac{T_{\text{old}}}{T_{\text{new}}} = \frac{1}{(1-\alpha) + \alpha/k}
 - `\frac{numerator}{denominator}` creates a fraction. 
 
 
-## Came from Practice Problem 2.1 (solution page 179)
+## Multiple dot
+
+Came from Practice Problem 2.1 (solution page 179)
 
 ```latex
 n = 11 = 3 + 4 \cdot 2
@@ -60,9 +64,9 @@ $$
 ## Logical symbols
 
 ```latex
-A \land B \lor C \not D \wedge C \vee E \neg F
+A \land B \lor C \not D \wedge C \vee E \neg F \oplus G \barwedge H \; \hat{} \; I  \veebar J
 ```
 
 $$
-A \land B \lor C \not D \wedge C \vee E \neg F 
+A \land B \lor C \not D \wedge C \vee E \neg F \oplus G \barwedge H \; \hat{} \; I  \veebar J
 $$

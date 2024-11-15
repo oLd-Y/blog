@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-14T18:20:33+08:00
+lastmod: 2024-11-15T08:29:43+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -63,6 +63,16 @@ Although the floating-pint and the integer data both encode the numeric value 12
 
 ### 2.1.4 Representing Strings
 
-$A \land B$ 
+None
+### 2.1.5 Representing Code
+
+None
+### 2.1.6 Introduction to Boolean Algebra
+
+![Operations of Boolean algebra](CSAPP/2.7.png)
+
+When we consider operations ^, & and ~ operating on bit vectors of length w, we get a different mathematical form, known as a Boolean ring.
+
+`a ^ a = 0` for any value a, so `(a ^ b) ^ a = b`.
 
 
