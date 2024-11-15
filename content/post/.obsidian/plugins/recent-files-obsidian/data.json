@@ -5,6 +5,10 @@
       "path": "CSAPP practice problem and solutions.en.md"
     },
     {
+      "basename": "获取某个网页的 cookies",
+      "path": "获取某个网页的 cookies.md"
+    },
+    {
       "basename": "CSAPP reading notes - part I, chapter 2.en",
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Obsidian 插件记录.zh-cn",
       "path": "Obsidian 插件记录.zh-cn.md"
-    },
-    {
-      "basename": "53. 最大子数组和.zh-cn",
-      "path": "53. 最大子数组和.zh-cn.md"
     }
   ],
   "omittedPaths": []
