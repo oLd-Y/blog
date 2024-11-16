@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "always",
+                "query": "-zxvf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,12 +97,12 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 485.5,
-    "collapsed": true
+    "width": 485.5
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -209,7 +209,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a31320b87e9364e3",
+  "active": "75ab60c5b57d6774",
   "lastOpenFiles": [
     "static/CSAPP/2.10.png",
     "static/CSAPP/2.9.png",
