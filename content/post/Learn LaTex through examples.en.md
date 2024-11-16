@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-15T10:20:50+08:00
+lastmod: 2024-11-16T12:02:54+08:00
 ---
 ## Fraction, subscript and Greek characters
 
@@ -79,4 +79,18 @@ A \cap B \cup C \bigcap_{i=1}^n A_i
 
 $$
 A \cap B \cup C \bigcap_{i=1}^n A_i
+$$
+
+## Vector, Sum
+
+```latex
+
+```
+
+$$
+\text{For vector} \; \vec{x} = [x_{w-1}, x_{w-2}, \ldots, x_{0}]: 
+$$
+
+$$
+B2U_w(\vec{x}) = \sum_{i=0}^{w-1}x_{i}2^i \qquad (2.1)
 $$

@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Learn LaTex through examples.en",
+      "path": "Learn LaTex through examples.en.md"
+    },
+    {
+      "basename": "extract a .tar.gz file.en",
+      "path": "unzip/extract a .tar.gz file.en.md"
+    },
+    {
       "basename": "CSAPP reading notes - part I, chapter 2.en",
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
     {
-      "basename": "frontmatters",
-      "path": "_templates/templater/frontmatters.md"
-    },
-    {
       "basename": "CSAPP practice problem and solutions.en",
       "path": "CSAPP practice problem and solutions.en.md"
+    },
+    {
+      "basename": "获取某个网页的 cookies.zh-cn",
+      "path": "获取某个网页的 cookies.zh-cn.md"
+    },
+    {
+      "basename": "frontmatters",
+      "path": "_templates/templater/frontmatters.md"
     },
     {
       "basename": "new note",
@@ -35,14 +47,6 @@
     {
       "basename": "create page bundle - cn",
       "path": "_templates/archive/create page bundle - cn.md"
-    },
-    {
-      "basename": "获取某个网页的 cookies",
-      "path": "获取某个网页的 cookies.md"
-    },
-    {
-      "basename": "Learn LaTex through examples.en",
-      "path": "Learn LaTex through examples.en.md"
     },
     {
       "basename": "learn C through code.en",
