@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "fb713e7fc6f6d6d4",
+            "id": "7bf85c68f11faddf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,20 +33,6 @@
               },
               "icon": "lucide-file",
               "title": "Learn LaTex through examples.en"
-            }
-          },
-          {
-            "id": "7bf85c68f11faddf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSAPP practice problem and solutions.en.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CSAPP practice problem and solutions.en"
             }
           }
         ],
@@ -224,12 +210,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fb713e7fc6f6d6d4",
+  "active": "7bf85c68f11faddf",
   "lastOpenFiles": [
-    "unzip/extract a .tar.gz file.en.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
-    "unzip",
+    "Learn LaTex through examples.en.md",
     "CSAPP practice problem and solutions.en.md",
+    "unzip/extract a .tar.gz file.en.md",
+    "unzip",
     "获取某个网页的 cookies.zh-cn.md",
     "static/CSAPP/2.10.png",
     "static/CSAPP/2.9.png",
@@ -245,7 +232,6 @@
     "static/CSAPP/pp2.16.png",
     "static/CSAPP/pp2.15.png",
     "static/CSAPP/pp2.14.png",
-    "Learn LaTex through examples.en.md",
     "static/CSAPP/pp2.13.png",
     "static/CSAPP/pp2.12-2.png",
     "static/CSAPP/pp2.12-1.png",

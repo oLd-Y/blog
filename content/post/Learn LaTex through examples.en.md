@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-16T12:02:54+08:00
+lastmod: 2024-11-16T12:17:12+08:00
 ---
 ## Fraction, subscript and Greek characters
 
@@ -80,17 +80,16 @@ A \cap B \cup C \bigcap_{i=1}^n A_i
 $$
 A \cap B \cup C \bigcap_{i=1}^n A_i
 $$
+## Vector, Sum, Equation numbering, Dot equal
 
-## Vector, Sum
+came from "CSAPP 2.2.2 Unsigned Encodings"
 
 ```latex
-
+B2U_w(\vec{x}) \dotequal \sum_{i=0}^{w-1}x_{i}2^i \qquad (2.1)
 ```
 
 $$
-\text{For vector} \; \vec{x} = [x_{w-1}, x_{w-2}, \ldots, x_{0}]: 
+B2U_w(\vec{x}) \doteq \sum_{i=0}^{w-1}x_{i}2^i \qquad (2.1)
 $$
-
-$$
-B2U_w(\vec{x}) = \sum_{i=0}^{w-1}x_{i}2^i \qquad (2.1)
-$$
+- `\qquad`: "quad" refers to a unit of horizontal spacing (specifically a quadratically sized space). So `\qquad` means "quadratic space" - it creates a wide horizontal space
+- `\ldots`: "l" stands for "low" - these are dots that appear on the baseline, as opposed to `\cdots` where "c" stands for "centered" dots that appear in the middle. So `\ldots` means "low dots"

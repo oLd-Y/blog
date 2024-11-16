@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-16T08:55:05+08:00
+lastmod: 2024-11-16T12:19:08+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -125,3 +125,9 @@ x << 67      // shift by 67 (67 mod 32 = 3)
 
 ![Typical ranges for C integral data types for 64-bit programs](CSAPP/2.10.png)
 
+### 2.2.2 Unsigned Encodings
+
+For vector $\vec{x} = [x_{w-1}, x_{w-2}, \ldots, x_{0}$:
+$$
+B2U_{w}(\vec{x}) = \sum_{i=0}^{w-1}x_{i}2^i \qquad (2.1)
+$$
