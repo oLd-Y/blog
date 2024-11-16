@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-16T13:32:14+08:00
+lastmod: 2024-11-17T07:25:18+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -135,3 +135,11 @@ For vector $\vec{x} = [x_{w-1}, x_{w-2}, \ldots, x_{0}$:
 $$
 B2U_{w}(\vec{x}) = \sum_{i=0}^{w-1}x_{i}2^i \qquad (2.1)
 $$
+
+The least value is given by bit vector $[00 \cdots 0]$ having integer value 0, and the greatest value is given by bit vector $[11 \cdots 1]$ having integer value $UMax_{w} \doteq \sum_{i=0}^{w-1}2^i = 2^w - 1$.
+
+principle: Uniqueness of unsigned encoding
+Function B2Uw is a bijection.
+
+### 2.2.3 Two’s-Complement Encodings
+

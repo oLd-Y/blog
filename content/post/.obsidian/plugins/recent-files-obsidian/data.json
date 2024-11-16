@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
-      "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
-    },
-    {
       "basename": "CSAPP reading notes - part I, chapter 2.en",
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
+    },
+    {
+      "basename": "_TODO",
+      "path": "_TODO.md"
+    },
+    {
+      "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
+      "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
     },
     {
       "basename": "Learn LaTex through examples.en",
@@ -79,10 +83,6 @@
     {
       "basename": "CSAPP reading notes - chapter 1.en",
       "path": "CSAPP reading notes - chapter 1.en.md"
-    },
-    {
-      "basename": "_TODO",
-      "path": "_TODO.md"
     },
     {
       "basename": "电脑投屏手机软件 scrcpy 使用记录.zh-cn",

@@ -35,8 +35,7 @@
               "title": "《枪炮、病菌与钢铁》读书笔记.zh-cn"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,12 +96,24 @@
               "icon": "clock",
               "title": "Recent Files"
             }
+          },
+          {
+            "id": "b1a7ce1a8e537e46",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 485.5
+    "width": 485.5,
+    "collapsed": true
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -186,8 +197,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -200,22 +211,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "graph:Open graph view": false,
+      "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "templater-obsidian:Templater": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e432db42e8aa4a8e",
+  "active": "a31320b87e9364e3",
   "lastOpenFiles": [
+    "_TODO.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
+    "《枪炮、病菌与钢铁》读书笔记.zh-cn.md",
     "Learn LaTex through examples.en.md",
     "useful prompt.zh-cn.md",
     "《刀锋》读书笔记.zh-cn.md",
-    "《枪炮、病菌与钢铁》读书笔记.zh-cn.md",
     "《刀锋》读书笔记.zh-cn 1.md",
     "李治军操作系统总结.md",
     "李治军操作系统-前置知识.md",
@@ -244,7 +256,6 @@
     "learn C through code.en.md",
     "learn x86-64 assembly through code.en.md",
     "CSAPP reading notes - chapter 1.en.md",
-    "_TODO.md",
     "static/CSAPP",
     "static",
     "img/CSAPP",
