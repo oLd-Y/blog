@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
+      "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
+    },
+    {
+      "basename": "《刀锋》读书笔记.zh-cn",
+      "path": "《刀锋》读书笔记.zh-cn.md"
+    },
+    {
+      "basename": "useful prompt.zh-cn",
+      "path": "useful prompt.zh-cn.md"
+    },
+    {
+      "basename": "李治军操作系统总结",
+      "path": "李治军操作系统总结.md"
+    },
+    {
+      "basename": "李治军操作系统-前置知识",
+      "path": "李治军操作系统-前置知识.md"
+    },
+    {
       "basename": "Learn LaTex through examples.en",
       "path": "Learn LaTex through examples.en.md"
     },
@@ -81,10 +101,6 @@
       "path": "emacs 入坑建议.md"
     },
     {
-      "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
-      "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
-    },
-    {
       "basename": "KDE arch linux 安装 fcitx5 和 rime 输入法.zh-cn",
       "path": "KDE arch linux 安装 fcitx5 和 rime 输入法.zh-cn.md"
     },
@@ -137,10 +153,6 @@
       "path": "wsl2 安装 kitty.zh-cn.md"
     },
     {
-      "basename": "《刀锋》读书笔记.zh-cn",
-      "path": "《刀锋》读书笔记.zh-cn.md"
-    },
-    {
       "basename": "Windows 部分程序无法固定到开始菜单解决方法.zh-cn",
       "path": "Windows 部分程序无法固定到开始菜单解决方法.zh-cn.md"
     },
@@ -177,28 +189,12 @@
       "path": "lazyvim 配置记录.zh-cn.md"
     },
     {
-      "basename": "李治军操作系统-前置知识",
-      "path": "李治军操作系统-前置知识.md"
-    },
-    {
       "basename": "保护模式相关",
       "path": "保护模式相关.md"
     },
     {
       "basename": "3264. K 次乘运算后的最终数组 I.zh-cn",
       "path": "3264. K 次乘运算后的最终数组 I.zh-cn.md"
-    },
-    {
-      "basename": "windows 11 蓝牙无法搜索到设备的原因.zh-cn",
-      "path": "windows 11 蓝牙无法搜索到设备的原因.zh-cn.md"
-    },
-    {
-      "basename": "nvm 安装和使用.zh-cn",
-      "path": "nvm 安装和使用.zh-cn.md"
-    },
-    {
-      "basename": "206. 反转链表.zh-cn",
-      "path": "206. 反转链表.zh-cn.md"
     }
   ],
   "omittedPaths": []
