@@ -35,8 +35,7 @@
               "title": "CSAPP practice problem and solutions.en"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,12 +97,12 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 485.5
+    "width": 485.5,
+    "collapsed": true
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -210,12 +209,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7bf85c68f11faddf",
+  "active": "a31320b87e9364e3",
   "lastOpenFiles": [
-    "获取某个网页的 cookies.md",
-    "CSAPP practice problem and solutions.en.md",
-    "static/CSAPP/pp2.16.png",
+    "static/CSAPP/2.10.png",
+    "static/CSAPP/2.9.png",
+    "_templates/templater/frontmatters.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
+    "_templates/templater/img.md",
+    "CSAPP practice problem and solutions.en.md",
+    "_templates/templater/new note.md",
+    "_templates/archive/week.md",
+    "_templates/archive/recipe.md",
+    "_templates/archive/new dairy template.md",
+    "_templates/archive/create page bundle - en.md",
+    "_templates/archive/create page bundle - cn.md",
+    "static/CSAPP/2.8.png",
+    "获取某个网页的 cookies.md",
+    "static/CSAPP/pp2.16.png",
     "static/CSAPP/pp2.15.png",
     "static/CSAPP/pp2.14.png",
     "Learn LaTex through examples.en.md",
@@ -224,8 +234,6 @@
     "static/CSAPP/pp2.12-1.png",
     "static/CSAPP/pp2.11.png",
     "static/CSAPP/pp2.10.png",
-    "static/CSAPP/pp2.9.png",
-    "static/CSAPP/pp2.8-2.png",
     "learn C through code.en.md",
     "learn x86-64 assembly through code.en.md",
     "CSAPP reading notes - chapter 1.en.md",
@@ -243,15 +251,6 @@
     "hdc 无法挂载 minix.zh-cn.md",
     "go installation.en.md",
     "git clone 参数解析.md",
-    "emacs 默认快捷键.md",
-    "线程.md",
-    "通过 hugo 主题 stack 中的 menu.scss 文件学习 css 知识.zh-cn.md",
-    "通过源码学 lua （2）- lastmod.lua.md",
-    "通过源码学 lua （1）- im-select.lua.md",
-    "矩阵旋转坐标公式.zh-cn.md",
-    "原子习惯 读后感/单词.md",
-    "Use Vim mode on the command line in zsh.en.md",
-    "虎码用法记录.zh-cn.md",
     "images",
     "CSAPP reading notes/pictures/Untitled",
     "img",

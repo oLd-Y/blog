@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-15T11:19:14+08:00
+lastmod: 2024-11-16T08:55:05+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -97,3 +97,31 @@ The logical operators do not evaluate their second argument if the result of the
 - Logical. A logical right shift fills the left end with $k$ zeros.
 - Arithmetic. An arithemetic right shift fills the left end with $k$ repetitions of the most significant bit. 
 - Arithmetic is the most-used right shift for signed data. But for unsigned data it must be logical right shift.
+
+On many machines, the shift instruction consider only the lower $log_2 w$ bits of the shift amount when shifting a w-bit value, and so the shift amount is computed as `k mod w`. `w` is the bit length of the data type. For instance:
+
+```c
+int x = 1;
+int w = 32;  // 32-bit integer
+
+// These will give identical results:
+x << 3       // shift by 3
+x << 35      // shift by 35 (35 mod 32 = 3)
+x << 67      // shift by 67 (67 mod 32 = 3)
+
+// Because:
+3  in binary = 00011  (lowest 5 bits)
+35 in binary = 100011 (lowest 5 bits = 00011)
+67 in binary = 1000011 (lowest 5 bits = 00011)
+```
+
+## 2.2 Integer Representations
+
+![Terminology for integer data and arithmetic operations](CSAPP/2.8.png)
+
+### 2.2.1 Integral Data Types
+
+![Typical ranges for C integral data types for 32-bit programs](CSAPP/2.9.png)
+
+![Typical ranges for C integral data types for 64-bit programs](CSAPP/2.10.png)
+
