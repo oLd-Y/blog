@@ -1,10 +1,10 @@
 ---
-lastmod: 2024-11-17T07:23:04+08:00
+lastmod: 2024-11-17T11:06:37+08:00
 draft: true
 ---
 - [ ] Latex suite better input
 - [ ] neovim obsidian
-- [ ] 
+- [ ] `git config --global core.editor "nvim"`
 
 
 

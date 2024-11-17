@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "好用软件名称记录.zh-cn.md",
+                "file": "_TODO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "好用软件名称记录.zh-cn"
+              "title": "_TODO"
             }
           },
           {
@@ -237,8 +237,8 @@
   },
   "active": "aea680cc83684c47",
   "lastOpenFiles": [
-    "CSAPP reading notes - part I, chapter 2.en.md",
     "好用软件名称记录.zh-cn.md",
+    "CSAPP reading notes - part I, chapter 2.en.md",
     "_TODO.md",
     "《枪炮、病菌与钢铁》读书笔记.zh-cn.md",
     "Learn LaTex through examples.en.md",
