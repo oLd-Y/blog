@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "《枪炮、病菌与钢铁》读书笔记.en",
+      "path": "《枪炮、病菌与钢铁》读书笔记.en.md"
+    },
+    {
       "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
       "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
     },
     {
+      "basename": "围城 读后感.zh-cn",
+      "path": "围城 读后感.zh-cn.md"
+    },
+    {
       "basename": "CSAPP reading notes - part I, chapter 2.en",
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
+    },
+    {
+      "basename": "获取某个网页的 cookies.zh-cn",
+      "path": "获取某个网页的 cookies.zh-cn.md"
+    },
+    {
+      "basename": "《刀锋》读后感.zh-cn",
+      "path": "《刀锋》读后感.zh-cn.md"
+    },
+    {
+      "basename": "LazyVim for Ambitious Developers reading notes.en",
+      "path": "LazyVim for Ambitious Developers reading notes.en.md"
+    },
+    {
+      "basename": "LazyVim for Ambitious Developers reading notes.zh-cn",
+      "path": "LazyVim for Ambitious Developers reading notes.zh-cn.md"
     },
     {
       "basename": "_TODO",
@@ -43,10 +67,6 @@
     {
       "basename": "extract a .tar.gz file.en",
       "path": "unzip/extract a .tar.gz file.en.md"
-    },
-    {
-      "basename": "获取某个网页的 cookies.zh-cn",
-      "path": "获取某个网页的 cookies.zh-cn.md"
     },
     {
       "basename": "frontmatters",
@@ -91,10 +111,6 @@
     {
       "basename": "电脑投屏手机软件 scrcpy 使用记录.zh-cn",
       "path": "电脑投屏手机软件 scrcpy 使用记录.zh-cn.md"
-    },
-    {
-      "basename": "LazyVim for Ambitious Developers reading notes.en",
-      "path": "LazyVim for Ambitious Developers reading notes.en.md"
     },
     {
       "basename": "emacs 使用 org-mode 搭配 ox-hugo 搭建博客",
@@ -183,22 +199,6 @@
     {
       "basename": "Snipaste 固定位置.zh-cn",
       "path": "Snipaste 固定位置.zh-cn.md"
-    },
-    {
-      "basename": "maven 配置文件设置汇总.zh-cn",
-      "path": "maven 配置文件设置汇总.zh-cn.md"
-    },
-    {
-      "basename": "lazyvim 配置记录.zh-cn",
-      "path": "lazyvim 配置记录.zh-cn.md"
-    },
-    {
-      "basename": "保护模式相关",
-      "path": "保护模式相关.md"
-    },
-    {
-      "basename": "3264. K 次乘运算后的最终数组 I.zh-cn",
-      "path": "3264. K 次乘运算后的最终数组 I.zh-cn.md"
     }
   ],
   "omittedPaths": []

@@ -1,9 +1,9 @@
 ---
-title: "reading"
-description: "my reading thoughts and so on"
-slug: "reading-en"
+id: _index
+aliases: []
+tags: []
+description: ""
 image: ""
-# style:
-#     background: "#759e8f"
-#     color: "#fff"
+slug: literature-en
+title: literature
 ---

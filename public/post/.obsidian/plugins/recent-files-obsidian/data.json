@@ -5,24 +5,108 @@
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
     {
-      "basename": "CSAPP reading notes - chapter 1.en",
-      "path": "CSAPP reading notes - chapter 1.en.md"
+      "basename": "围城 读后感.zh-cn",
+      "path": "围城 读后感.zh-cn.md"
+    },
+    {
+      "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
+      "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
+    },
+    {
+      "basename": "获取某个网页的 cookies.zh-cn",
+      "path": "获取某个网页的 cookies.zh-cn.md"
+    },
+    {
+      "basename": "《刀锋》读后感.zh-cn",
+      "path": "《刀锋》读后感.zh-cn.md"
+    },
+    {
+      "basename": "LazyVim for Ambitious Developers reading notes.en",
+      "path": "LazyVim for Ambitious Developers reading notes.en.md"
+    },
+    {
+      "basename": "LazyVim for Ambitious Developers reading notes.zh-cn",
+      "path": "LazyVim for Ambitious Developers reading notes.zh-cn.md"
     },
     {
       "basename": "_TODO",
       "path": "_TODO.md"
     },
     {
+      "basename": "好用软件名称记录.zh-cn",
+      "path": "好用软件名称记录.zh-cn.md"
+    },
+    {
       "basename": "Learn LaTex through examples.en",
       "path": "Learn LaTex through examples.en.md"
     },
     {
-      "basename": "电脑投屏手机软件 scrcpy 使用记录.zh-cn",
-      "path": "电脑投屏手机软件 scrcpy 使用记录.zh-cn.md"
+      "basename": "useful prompt.zh-cn",
+      "path": "useful prompt.zh-cn.md"
     },
     {
-      "basename": "LazyVim for Ambitious Developers reading notes.en",
-      "path": "LazyVim for Ambitious Developers reading notes.en.md"
+      "basename": "《刀锋》读书笔记.zh-cn",
+      "path": "《刀锋》读书笔记.zh-cn.md"
+    },
+    {
+      "basename": "李治军操作系统总结",
+      "path": "李治军操作系统总结.md"
+    },
+    {
+      "basename": "李治军操作系统-前置知识",
+      "path": "李治军操作系统-前置知识.md"
+    },
+    {
+      "basename": "CSAPP practice problem and solutions.en",
+      "path": "CSAPP practice problem and solutions.en.md"
+    },
+    {
+      "basename": "extract a .tar.gz file.en",
+      "path": "unzip/extract a .tar.gz file.en.md"
+    },
+    {
+      "basename": "frontmatters",
+      "path": "_templates/templater/frontmatters.md"
+    },
+    {
+      "basename": "new note",
+      "path": "_templates/templater/new note.md"
+    },
+    {
+      "basename": "week",
+      "path": "_templates/archive/week.md"
+    },
+    {
+      "basename": "recipe",
+      "path": "_templates/archive/recipe.md"
+    },
+    {
+      "basename": "new dairy template",
+      "path": "_templates/archive/new dairy template.md"
+    },
+    {
+      "basename": "create page bundle - en",
+      "path": "_templates/archive/create page bundle - en.md"
+    },
+    {
+      "basename": "create page bundle - cn",
+      "path": "_templates/archive/create page bundle - cn.md"
+    },
+    {
+      "basename": "learn C through code.en",
+      "path": "learn C through code.en.md"
+    },
+    {
+      "basename": "learn x86-64 assembly through code.en",
+      "path": "learn x86-64 assembly through code.en.md"
+    },
+    {
+      "basename": "CSAPP reading notes - chapter 1.en",
+      "path": "CSAPP reading notes - chapter 1.en.md"
+    },
+    {
+      "basename": "电脑投屏手机软件 scrcpy 使用记录.zh-cn",
+      "path": "电脑投屏手机软件 scrcpy 使用记录.zh-cn.md"
     },
     {
       "basename": "emacs 使用 org-mode 搭配 ox-hugo 搭建博客",
@@ -31,10 +115,6 @@
     {
       "basename": "emacs 入坑建议",
       "path": "emacs 入坑建议.md"
-    },
-    {
-      "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
-      "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
     },
     {
       "basename": "KDE arch linux 安装 fcitx5 和 rime 输入法.zh-cn",
@@ -89,10 +169,6 @@
       "path": "wsl2 安装 kitty.zh-cn.md"
     },
     {
-      "basename": "《刀锋》读书笔记.zh-cn",
-      "path": "《刀锋》读书笔记.zh-cn.md"
-    },
-    {
       "basename": "Windows 部分程序无法固定到开始菜单解决方法.zh-cn",
       "path": "Windows 部分程序无法固定到开始菜单解决方法.zh-cn.md"
     },
@@ -123,82 +199,6 @@
     {
       "basename": "maven 配置文件设置汇总.zh-cn",
       "path": "maven 配置文件设置汇总.zh-cn.md"
-    },
-    {
-      "basename": "lazyvim 配置记录.zh-cn",
-      "path": "lazyvim 配置记录.zh-cn.md"
-    },
-    {
-      "basename": "李治军操作系统-前置知识",
-      "path": "李治军操作系统-前置知识.md"
-    },
-    {
-      "basename": "保护模式相关",
-      "path": "保护模式相关.md"
-    },
-    {
-      "basename": "3264. K 次乘运算后的最终数组 I.zh-cn",
-      "path": "3264. K 次乘运算后的最终数组 I.zh-cn.md"
-    },
-    {
-      "basename": "windows 11 蓝牙无法搜索到设备的原因.zh-cn",
-      "path": "windows 11 蓝牙无法搜索到设备的原因.zh-cn.md"
-    },
-    {
-      "basename": "nvm 安装和使用.zh-cn",
-      "path": "nvm 安装和使用.zh-cn.md"
-    },
-    {
-      "basename": "206. 反转链表.zh-cn",
-      "path": "206. 反转链表.zh-cn.md"
-    },
-    {
-      "basename": "239. 滑动窗口最大值.zh-cn",
-      "path": "239. 滑动窗口最大值.zh-cn.md"
-    },
-    {
-      "basename": "Make a window always on top through AHK.en",
-      "path": "Make a window always on top through AHK.en.md"
-    },
-    {
-      "basename": "560. 和为 K 的子数组.zh-cn",
-      "path": "560. 和为 K 的子数组.zh-cn.md"
-    },
-    {
-      "basename": "飞鸟集 读后感.zh-cn",
-      "path": "飞鸟集 读后感.zh-cn.md"
-    },
-    {
-      "basename": "自媒体工作流程（自用）.zh-cn",
-      "path": "自媒体工作流程（自用）.zh-cn.md"
-    },
-    {
-      "basename": "438. 找到字符串中所有字母异位词.zh-cn",
-      "path": "438. 找到字符串中所有字母异位词.zh-cn.md"
-    },
-    {
-      "basename": "Hugo 解析 Obsidian 双链（Wiki links）的方法.zh-cn",
-      "path": "Hugo 解析 Obsidian 双链（Wiki links）的方法.zh-cn.md"
-    },
-    {
-      "basename": "Obsidian 插件记录.zh-cn",
-      "path": "Obsidian 插件记录.zh-cn.md"
-    },
-    {
-      "basename": "53. 最大子数组和.zh-cn",
-      "path": "53. 最大子数组和.zh-cn.md"
-    },
-    {
-      "basename": "41. 缺失的第一个正数.zh-cn",
-      "path": "41. 缺失的第一个正数.zh-cn.md"
-    },
-    {
-      "basename": "21. 合并两个有序链表.zh-cn",
-      "path": "21. 合并两个有序链表.zh-cn.md"
-    },
-    {
-      "basename": "15. 三数之和.zh-cn",
-      "path": "15. 三数之和.zh-cn.md"
     }
   ],
   "omittedPaths": []

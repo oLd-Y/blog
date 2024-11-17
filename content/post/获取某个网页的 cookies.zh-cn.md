@@ -1,6 +1,6 @@
 ---
 title: 获取某个网页的 cookies
-categories: CS
+categories: 计算机
 tags:
   - js
   - 浏览器
@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-15T19:15:32+08:00
+lastmod: 2024-11-17T15:30:44+08:00
 ---
 ## 方法一
 

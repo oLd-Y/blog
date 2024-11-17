@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/p/csapp-practice-problem-and-solutions/</loc>
-    <lastmod>2024-11-14T15:58:37+08:00</lastmod>
+    <loc>http://localhost:1313/blog/p/extract-a-.tar.gz-file/</loc>
+    <lastmod>2024-11-16T11:38:46+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/p/csapp-practice-problems-and-solutions/</loc>
+    <lastmod>2024-11-16T08:41:40+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/p/learn-c-through-code/</loc>
     <lastmod>2024-11-14T11:47:53+08:00</lastmod>
@@ -12,7 +15,7 @@
     <lastmod>2024-11-14T09:19:32+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/p/learn-latex-through-examples/</loc>
-    <lastmod>2024-11-13T08:54:33+08:00</lastmod>
+    <lastmod>2024-11-16T13:34:04+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/p/make-a-window-always-on-top-through-ahk/</loc>
     <lastmod>2024-11-08T10:54:08+08:00</lastmod>
@@ -27,7 +30,7 @@
     <lastmod>2024-11-13T10:14:57+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/p/csapp-reading-notes-chapter-2-part-i/</loc>
-    <lastmod>2024-11-14T15:58:34+08:00</lastmod>
+    <lastmod>2024-11-17T09:27:53+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/p/cargo-installation/</loc>
     <lastmod>2024-11-01T15:52:45+08:00</lastmod>
@@ -75,7 +78,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2024-11-14T15:58:37+08:00</lastmod>
+    <lastmod>2024-11-17T13:23:25+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -87,20 +90,8 @@
                 href="http://localhost:1313/blog/"
                 />
   </url><url>
-    <loc>http://localhost:1313/blog/tags/c/</loc>
-    <lastmod>2024-11-14T11:47:53+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/cs/</loc>
-    <lastmod>2024-11-14T15:58:37+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/csapp/</loc>
-    <lastmod>2024-11-14T15:58:37+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/learn-x-through-code/</loc>
-    <lastmod>2024-11-14T11:47:53+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/post/</loc>
-    <lastmod>2024-11-14T15:58:37+08:00</lastmod>
+    <lastmod>2024-11-17T13:23:25+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -112,11 +103,20 @@
                 href="http://localhost:1313/blog/post/"
                 />
   </url><url>
-    <loc>http://localhost:1313/blog/tags/practice/</loc>
-    <lastmod>2024-11-14T15:58:37+08:00</lastmod>
+    <loc>http://localhost:1313/blog/categories/cs/</loc>
+    <lastmod>2024-11-17T09:27:53+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/gzip/</loc>
+    <lastmod>2024-11-16T11:38:46+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/linux/</loc>
+    <lastmod>2024-11-16T11:38:46+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/tar/</loc>
+    <lastmod>2024-11-16T11:38:46+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/</loc>
-    <lastmod>2024-11-14T15:58:37+08:00</lastmod>
+    <lastmod>2024-11-17T09:27:53+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -129,7 +129,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/blog/tags/</loc>
-    <lastmod>2024-11-14T15:58:37+08:00</lastmod>
+    <lastmod>2024-11-17T09:27:53+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -141,11 +141,23 @@
                 href="http://localhost:1313/blog/tags/"
                 />
   </url><url>
+    <loc>http://localhost:1313/blog/tags/c/</loc>
+    <lastmod>2024-11-14T11:47:53+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/csapp/</loc>
+    <lastmod>2024-11-17T09:27:53+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/learn-x-through-code/</loc>
+    <lastmod>2024-11-14T11:47:53+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/practice/</loc>
+    <lastmod>2024-11-16T08:41:40+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/tags/latex/</loc>
-    <lastmod>2024-11-13T08:54:33+08:00</lastmod>
+    <lastmod>2024-11-16T13:34:04+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/math/</loc>
-    <lastmod>2024-11-13T08:54:33+08:00</lastmod>
+    <lastmod>2024-11-16T13:34:04+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/ahk/</loc>
     <lastmod>2024-11-08T10:54:08+08:00</lastmod>
@@ -186,7 +198,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/blog/tags/foundation/</loc>
-    <lastmod>2024-11-14T15:58:34+08:00</lastmod>
+    <lastmod>2024-11-17T09:27:53+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/go/</loc>
     <lastmod>2024-10-31T12:34:45+08:00</lastmod>

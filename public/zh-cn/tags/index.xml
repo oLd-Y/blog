@@ -7,7 +7,23 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Tue, 12 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/zh-cn/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/zh-cn/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Js</title>
+        <link>http://localhost:1313/blog/zh-cn/tags/js/</link>
+        <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/zh-cn/tags/js/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>浏览器</title>
+        <link>http://localhost:1313/blog/zh-cn/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/</link>
+        <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/zh-cn/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>读书笔记</title>
         <link>http://localhost:1313/blog/zh-cn/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
         <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
@@ -37,30 +53,6 @@
         <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/zh-cn/tags/%E8%BE%93%E5%85%A5%E6%B3%95/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>读后感</title>
-        <link>http://localhost:1313/blog/zh-cn/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
-        <pubDate>Wed, 06 Nov 2024 07:03:14 +0800</pubDate>
-        
-        <guid>http://localhost:1313/blog/zh-cn/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>书摘</title>
-        <link>http://localhost:1313/blog/zh-cn/tags/%E4%B9%A6%E6%91%98/</link>
-        <pubDate>Wed, 06 Nov 2024 07:03:14 +0800</pubDate>
-        
-        <guid>http://localhost:1313/blog/zh-cn/tags/%E4%B9%A6%E6%91%98/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>小说</title>
-        <link>http://localhost:1313/blog/zh-cn/tags/%E5%B0%8F%E8%AF%B4/</link>
-        <pubDate>Wed, 06 Nov 2024 07:03:14 +0800</pubDate>
-        
-        <guid>http://localhost:1313/blog/zh-cn/tags/%E5%B0%8F%E8%AF%B4/</guid>
         <description></description>
         </item>
         <item>
@@ -109,6 +101,22 @@
         <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/zh-cn/tags/%E6%8A%95%E5%B1%8F/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>读后感</title>
+        <link>http://localhost:1313/blog/zh-cn/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
+        <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/zh-cn/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>小说</title>
+        <link>http://localhost:1313/blog/zh-cn/tags/%E5%B0%8F%E8%AF%B4/</link>
+        <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/zh-cn/tags/%E5%B0%8F%E8%AF%B4/</guid>
         <description></description>
         </item>
         <item>
@@ -373,6 +381,14 @@
         <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/zh-cn/tags/bug/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>书摘</title>
+        <link>http://localhost:1313/blog/zh-cn/tags/%E4%B9%A6%E6%91%98/</link>
+        <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/zh-cn/tags/%E4%B9%A6%E6%91%98/</guid>
         <description></description>
         </item>
         <item>

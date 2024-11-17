@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-08T10:01:29+08:00
+lastmod: 2024-11-17T15:19:42+08:00
 ---
 教程链接：[LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
 

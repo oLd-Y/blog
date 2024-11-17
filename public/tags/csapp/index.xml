@@ -8,17 +8,126 @@
         <language>en</language>
         <copyright>谷栗杳</copyright>
         <lastBuildDate>Thu, 14 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/csapp/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>CSAPP practice problem and solutions</title>
-        <link>http://localhost:1313/blog/p/csapp-practice-problem-and-solutions/</link>
+        <title>CSAPP practice problems and solutions</title>
+        <link>http://localhost:1313/blog/p/csapp-practice-problems-and-solutions/</link>
         <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/p/csapp-practice-problem-and-solutions/</guid>
-        <description>&lt;blockquote&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;What would be printed as a result of the following call to show_bytes?
-const char *m = &amp;ldquo;mnopqr&amp;rdquo;;
-show_bytes((byte_pointer) m, strlen(m));
+        <guid>http://localhost:1313/blog/p/csapp-practice-problems-and-solutions/</guid>
+        <description>&lt;h2 id=&#34;practice-problem-25&#34;&gt;Practice Problem 2.5
+&lt;/h2&gt;&lt;h3 id=&#34;problem&#34;&gt;problem
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.5.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;214-representing-strings&#34;&gt;2.1.4 Representing Strings
+&lt;/h2&gt;&lt;h3 id=&#34;27&#34;&gt;2.7
+&lt;/h3&gt;&lt;h4 id=&#34;problem-1&#34;&gt;problem
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;What would be printed as a result of the following call to show_bytes?&lt;br&gt;
+const char *m = &amp;ldquo;mnopqr&amp;rdquo;;&lt;br&gt;
+show_bytes((byte_pointer) m, strlen(m));&lt;br&gt;
 Note that letters ‘a’ through ‘z’ have ASCII codes 0x61 through 0x7A.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;solution&#34;&gt;solution
+&lt;/h4&gt;&lt;h2 id=&#34;216-introduction-to-boolean-algebra&#34;&gt;2.1.6 Introduction to Boolean Algebra
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.8-1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.8-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;217-bit-level-operations-in-c&#34;&gt;2.1.7 Bit-Level Operations in C
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.9.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.11.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.12-1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.12-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.13.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;218-logical-operations-in-c&#34;&gt;2.1.8 Logical Operations in C
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.14.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.15.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+!(x ^ y)&lt;/p&gt;
+&lt;h2 id=&#34;219-shift-operations-in-c&#34;&gt;2.1.9 Shift Operations in C
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.16.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;%25%20tp.file.cursor%282%29%20%25&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;&amp;lt;% tp.file.cursor(1) %&amp;gt;&#34;
+	
+	
+&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -375,7 +484,134 @@ D. binary 1100100010110110010110 to hexadecimal&lt;/p&gt;
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;214-representing-strings&#34;&gt;2.1.4 Representing Strings
-&lt;/h3&gt;</description>
+&lt;/h3&gt;&lt;p&gt;None&lt;/p&gt;
+&lt;h3 id=&#34;215-representing-code&#34;&gt;2.1.5 Representing Code
+&lt;/h3&gt;&lt;p&gt;None&lt;/p&gt;
+&lt;h3 id=&#34;216-introduction-to-boolean-algebra&#34;&gt;2.1.6 Introduction to Boolean Algebra
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.7.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Operations of Boolean algebra&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;When we consider operations ^, &amp;amp; and ~ operating on bit vectors of length w, we get a different mathematical form, known as a Boolean ring.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;a ^ a = 0&lt;/code&gt; for any value a, so &lt;code&gt;(a ^ b) ^ a = b&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;According to the position of 1 from right to left, bit vector a = [01101001] encodes the set A = {0, 3, 5, 6}, while bit vector b = [01010101] encodes the set B = {0, 2, 4, 6}. Then the operation a &amp;amp; b yields bit vector [01000001], while $A \cap B$ = {0, 6}.&lt;/p&gt;
+&lt;h3 id=&#34;217-bit-level-operations-in-c&#34;&gt;2.1.7 Bit-Level Operations in C
+&lt;/h3&gt;&lt;p&gt;The best way to determin the effect of a bit-level expression is to extend the hexadecimal arguments to their binary representations, perform the operations in binary, and then convert back to the hexadecimal.&lt;/p&gt;
+&lt;p&gt;A mask is a bit pattern that indicates a selected set of bits within a word. The expression &lt;code&gt;~0&lt;/code&gt; will yield a mask of all ones.&lt;/p&gt;
+&lt;h3 id=&#34;218-logical-operations-in-c&#34;&gt;2.1.8 Logical Operations in C
+&lt;/h3&gt;&lt;p&gt;A bitwise operation will have behavior matching that of its logical counterpart only in the special case in which the arguments are restricted to 0 or 1.&lt;/p&gt;
+&lt;p&gt;The logical operators do not evaluate their second argument if the result of the expression can be determined by evaluating the first argument.&lt;/p&gt;
+&lt;h3 id=&#34;219-shift-operations-in-c&#34;&gt;2.1.9 Shift Operations in C
+&lt;/h3&gt;&lt;p&gt;&lt;code&gt;x &amp;lt;&amp;lt; k&lt;/code&gt;: $x$ is shifted $k$ bits to the left, dropping off the $k$ most significant bits and filling the right end with $k$ zeros.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;x &amp;gt;&amp;gt; k&lt;/code&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Logical. A logical right shift fills the left end with $k$ zeros.&lt;/li&gt;
+&lt;li&gt;Arithmetic. An arithemetic right shift fills the left end with $k$ repetitions of the most significant bit.&lt;/li&gt;
+&lt;li&gt;Arithmetic is the most-used right shift for signed data. But for unsigned data it must be logical right shift.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;On many machines, the shift instruction consider only the lower $log_2 w$ bits of the shift amount when shifting a w-bit value, and so the shift amount is computed as &lt;code&gt;k mod w&lt;/code&gt;. &lt;code&gt;w&lt;/code&gt; is the bit length of the data type. For instance:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;w&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;32&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;// 32-bit integer
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// These will give identical results:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;       &lt;span class=&#34;c1&#34;&gt;// shift by 3
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;35&lt;/span&gt;      &lt;span class=&#34;c1&#34;&gt;// shift by 35 (35 mod 32 = 3)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;67&lt;/span&gt;      &lt;span class=&#34;c1&#34;&gt;// shift by 67 (67 mod 32 = 3)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Because:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;  &lt;span class=&#34;n&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;binary&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mo&#34;&gt;00011&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;lowest&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bits&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;mi&#34;&gt;35&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;binary&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;100011&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;lowest&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bits&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mo&#34;&gt;00011&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;mi&#34;&gt;67&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;binary&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1000011&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;lowest&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bits&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mo&#34;&gt;00011&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;22-integer-representations&#34;&gt;2.2 Integer Representations
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.8.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Terminology for integer data and arithmetic operations&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;221-integral-data-types&#34;&gt;2.2.1 Integral Data Types
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.9.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Typical ranges for C integral data types for 32-bit programs&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.10.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Typical ranges for C integral data types for 64-bit programs&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.11.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Guaranteed ranges for C integral data types&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;222-unsigned-encodings&#34;&gt;2.2.2 Unsigned Encodings
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.12.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Unsigned number examples for w = 4.&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;For vector $\vec{x} = [x_{w-1}, x_{w-2}, \ldots, x_{0}$:
+$$
+B2U_{w}(\vec{x}) = \sum_{i=0}^{w-1}x_{i}2^i \qquad (2.1)
+$$&lt;/p&gt;
+&lt;p&gt;The least value is given by bit vector $[00 \cdots 0]$ having integer value 0, and the greatest value is given by bit vector $[11 \cdots 1]$ having integer value $UMax_{w} \doteq \sum_{i=0}^{w-1}2^i = 2^w - 1$.&lt;/p&gt;
+&lt;p&gt;principle: Uniqueness of unsigned encoding
+Function B2Uw is a bijection.&lt;/p&gt;
+&lt;h3 id=&#34;223-twos-complement-encodings&#34;&gt;2.2.3 Two’s-Complement Encodings
+&lt;/h3&gt;&lt;p&gt;For some programs, it is essential that data types be encoded using representations with specific sizes. For example, when writing programs to enable a machine to communicate over the Internet according to a standard protocol, it is important to have data types compatible with those specified by the protocol. We have seen that some C data types, especially long, have different ranges on different machines, and in fact the C standards only specify the minimum ranges for any data type, not the exact ranges. Although we can choose data types that will be compatible with standard representations on most machines, there is no guarantee of portability.
+We have already encountered the 32- and 64-bit versions of fixed-size integer types (Figure 2.3); they are part of a larger class of data types. The ISO C99 standard introduces this class of integer types in the file stdint.h. This file defines a set of data types with declarations of the form intN_t and uintN_t, specifying N-bit signed and unsigned integers, for different values of N. The exact values of N are implementation dependent, but most compilers allow values of 8, 16, 32, and 64. Thus, we can unambiguously declare an unsigned 16-bit variable by giving it type uint16_t, and a signed variable of 32 bits as int32_t.
+Along with these data types are a set of macros defining the minimum and maximum values for each value of N. These have names of the form INTN_MIN, INTN_MAX, and UINTN_MAX.
+Formatted printing with fixed-width types requires use of macros that expand into format strings in a system-dependent manner. So, for example, the values of variables x and y of type int32_t and uint64_t can be printed by the following call to printf:&lt;/p&gt;
+</description>
         </item>
         
     </channel>

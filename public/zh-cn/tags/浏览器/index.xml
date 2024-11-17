@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>浏览器 on 谷栗杳</title>
+        <link>http://localhost:1313/blog/zh-cn/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/</link>
+        <description>Recent content in 浏览器 on 谷栗杳</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>谷栗杳</copyright>
+        <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/zh-cn/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>获取某个网页的 cookies</title>
+        <link>http://localhost:1313/blog/zh-cn/p/%E8%8E%B7%E5%8F%96%E6%9F%90%E4%B8%AA%E7%BD%91%E9%A1%B5%E7%9A%84-cookies/</link>
+        <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/zh-cn/p/%E8%8E%B7%E5%8F%96%E6%9F%90%E4%B8%AA%E7%BD%91%E9%A1%B5%E7%9A%84-cookies/</guid>
+        <description>&lt;h2 id=&#34;方法一&#34;&gt;方法一
+&lt;/h2&gt;&lt;p&gt;在 console 控制台输入 &lt;code&gt;javascript:document.cookie&lt;/code&gt; 代码。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

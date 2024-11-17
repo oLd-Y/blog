@@ -7,7 +7,17 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Mon, 11 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/zh-cn/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/zh-cn/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>获取某个网页的 cookies</title>
+        <link>http://localhost:1313/blog/zh-cn/p/%E8%8E%B7%E5%8F%96%E6%9F%90%E4%B8%AA%E7%BD%91%E9%A1%B5%E7%9A%84-cookies/</link>
+        <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/zh-cn/p/%E8%8E%B7%E5%8F%96%E6%9F%90%E4%B8%AA%E7%BD%91%E9%A1%B5%E7%9A%84-cookies/</guid>
+        <description>&lt;h2 id=&#34;方法一&#34;&gt;方法一
+&lt;/h2&gt;&lt;p&gt;在 console 控制台输入 &lt;code&gt;javascript:document.cookie&lt;/code&gt; 代码。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>虎码用法记录</title>
         <link>http://localhost:1313/blog/zh-cn/p/%E8%99%8E%E7%A0%81%E7%94%A8%E6%B3%95%E8%AE%B0%E5%BD%95/</link>
         <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
