@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
+      "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
+    },
+    {
+      "basename": "鲁迅全集（全20卷）",
+      "path": "_weread/鲁迅全集（全20卷）.md"
+    },
+    {
       "basename": "圆圈正义：作为自由前提的信念",
       "path": "_weread/圆圈正义：作为自由前提的信念.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "增广贤文（国学大书院）",
       "path": "_weread/增广贤文（国学大书院）.md"
-    },
-    {
-      "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
-      "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
     },
     {
       "basename": "被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
@@ -117,10 +121,6 @@
       "path": "Obsidian latex-suite usage.en.md"
     },
     {
-      "basename": "《枪炮、病菌与钢铁》读书笔记.en",
-      "path": "《枪炮、病菌与钢铁》读书笔记.en.md"
-    },
-    {
       "basename": "围城 读后感.zh-cn",
       "path": "围城 读后感.zh-cn.md"
     },
@@ -195,10 +195,6 @@
     {
       "basename": "create page bundle - en",
       "path": "_templates/archive/create page bundle - en.md"
-    },
-    {
-      "basename": "create page bundle - cn",
-      "path": "_templates/archive/create page bundle - cn.md"
     }
   ],
   "omittedPaths": []
