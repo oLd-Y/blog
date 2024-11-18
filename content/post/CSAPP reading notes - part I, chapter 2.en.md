@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-18T10:08:50+08:00
+lastmod: 2024-11-18T11:57:15+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -158,4 +158,6 @@ The least representable value is given by bitvector `[10 ... 0]` (set the bit wi
 principle: Uniqueness of two’s-complement encoding 
 Function B2Tw is a bijection.
 
+$\left| TMin \right| = \left| TMax \right| + 1$
 
+Since 0 is nonnegative, this means that it can represent one less positive number than negative.
