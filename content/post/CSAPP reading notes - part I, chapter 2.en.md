@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-18T09:49:23+08:00
+lastmod: 2024-11-18T10:08:50+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -147,7 +147,7 @@ Function B2Uw is a bijection.
 principle: Definition of two’s-complement encoding 
 For vector $\vec{x} = [x_{w-1},x_{w-2},\cdots x_{0}]$:
 $$
-B2T_{w}(\vec{x}) \doteq -x_{w-1}2^{w-1} + \sum_{i=0}^{w-2}x_{i}2^{i} \qquad (2.3) 
+B2T_{w}(\vec{x}) \doteq -x_{w-1}2^{w-1} + \sum_{i=0}^{w-2}x_{i}2^{i} \qquad (2.3)
 $$
 
 

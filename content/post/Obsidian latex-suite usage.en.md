@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-11-18T09:50:39+08:00
+lastmod: 2024-11-18T10:04:30+08:00
 ---
 I'm using the obsidian-latex-suite, what is the flags option in its snippets used for?
 The whole document of snippets is as follows:
@@ -95,3 +95,5 @@ The flags field is marked as optional in the documentation (flags?: string), so 
 | xund    | \underline{x}      |              |
 | ee      | e^{ }              |              |
 | invs    | ^{-1}              |              |
+| us      | _{}                | under score  |
+| eq      | =                  | equal        |
