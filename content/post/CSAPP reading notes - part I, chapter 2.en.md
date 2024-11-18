@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-18T11:58:00+08:00
+lastmod: 2024-11-18T13:50:23+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -164,3 +164,10 @@ Since 0 is nonnegative, this means that it can represent one less positive numbe
 
 ![Important numbers](CSAPP/2.14.png)
 
+Two other standard representations for signed numbers:
+$$
+B2O_{w}(\vec{x}) \doteq -x_{w-1}(2^{w-1} - 1) + \sum _{i=0}^{w-2}x_{i}2^{i} 
+$$
+$$
+B2S_{w}(\vec{x}) \doteq (-1)^{x_{w-1}} \cdot \left( \sum _{i = 0}^{w-2}x_{i}2^{i} \right) 
+$$
