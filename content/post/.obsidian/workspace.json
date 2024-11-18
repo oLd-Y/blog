@@ -112,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 485.5,
-    "collapsed": true
+    "width": 485.5
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -222,6 +221,7 @@
   },
   "active": "a31320b87e9364e3",
   "lastOpenFiles": [
+    "static/CSAPP/2.14.png",
     "CSAPP practice problem and solutions.en.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
     "Obsidian latex-suite usage.en.md",
@@ -257,7 +257,6 @@
     "_templates/archive/week.md",
     "_templates/archive/recipe.md",
     "_templates/archive/new dairy template.md",
-    "_templates/archive/create page bundle - en.md",
     "static/CSAPP/2.8.png",
     "static/CSAPP/pp2.16.png",
     "static/CSAPP/pp2.15.png",

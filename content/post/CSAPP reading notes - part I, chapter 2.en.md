@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-18T11:57:15+08:00
+lastmod: 2024-11-18T11:58:00+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -161,3 +161,6 @@ Function B2Tw is a bijection.
 $\left| TMin \right| = \left| TMax \right| + 1$
 
 Since 0 is nonnegative, this means that it can represent one less positive number than negative.
+
+![Important numbers](CSAPP/2.14.png)
+
