@@ -1,6 +1,110 @@
 {
   "recentFiles": [
     {
+      "basename": "圆圈正义：作为自由前提的信念",
+      "path": "_weread/圆圈正义：作为自由前提的信念.md"
+    },
+    {
+      "basename": "Atomic Habits",
+      "path": "_weread/Atomic Habits.md"
+    },
+    {
+      "basename": "增广贤文（国学大书院）",
+      "path": "_weread/增广贤文（国学大书院）.md"
+    },
+    {
+      "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
+      "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
+    },
+    {
+      "basename": "被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
+      "path": "_weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md"
+    },
+    {
+      "basename": "明朝那些事儿（全集）",
+      "path": "_weread/明朝那些事儿（全集）.md"
+    },
+    {
+      "basename": "高效能人士的七个习惯（30周年纪念版）打造一套全新的思维方式和原则体系（经典著作，附赠个人效能PEQ在线测评）",
+      "path": "_weread/高效能人士的七个习惯（30周年纪念版）打造一套全新的思维方式和原则体系（经典著作，附赠个人效能PEQ在线测评）.md"
+    },
+    {
+      "basename": "高效能家庭的7个习惯",
+      "path": "_weread/高效能家庭的7个习惯.md"
+    },
+    {
+      "basename": "欧·亨利短篇小说（英文版）",
+      "path": "_weread/欧·亨利短篇小说（英文版）.md"
+    },
+    {
+      "basename": "平凡的世界（全三册）",
+      "path": "_weread/平凡的世界（全三册）.md"
+    },
+    {
+      "basename": "史蒂夫·乔布斯传（修订版）",
+      "path": "_weread/史蒂夫·乔布斯传（修订版）.md"
+    },
+    {
+      "basename": "楚汉双雄(中国古代史上桥段频出的8年,旧制度为什么无法搞定新问题)",
+      "path": "_weread/楚汉双雄(中国古代史上桥段频出的8年,旧制度为什么无法搞定新问题).md"
+    },
+    {
+      "basename": "津巴多普通心理学（第8版）",
+      "path": "_weread/津巴多普通心理学（第8版）.md"
+    },
+    {
+      "basename": "亲密关系：通往灵魂的桥梁+无拘无束的关系（套装共2册）",
+      "path": "_weread/亲密关系：通往灵魂的桥梁+无拘无束的关系（套装共2册）.md"
+    },
+    {
+      "basename": "小米创业思考",
+      "path": "_weread/小米创业思考.md"
+    },
+    {
+      "basename": "刀锋（毛姆长篇作品精选）",
+      "path": "_weread/刀锋（毛姆长篇作品精选）.md"
+    },
+    {
+      "basename": "穷查理宝典：查理·芒格智慧箴言录(elib.cc)",
+      "path": "_weread/穷查理宝典：查理·芒格智慧箴言录(elib.cc).md"
+    },
+    {
+      "basename": "三体（全集）",
+      "path": "_weread/三体（全集）.md"
+    },
+    {
+      "basename": "小岛经济学",
+      "path": "_weread/小岛经济学.md"
+    },
+    {
+      "basename": "写给地球人的《三体》说明书",
+      "path": "_weread/写给地球人的《三体》说明书.md"
+    },
+    {
+      "basename": "影响力（全新升级版）",
+      "path": "_weread/影响力（全新升级版）.md"
+    },
+    {
+      "basename": "手把手教你读财报财报是用来排除企业的",
+      "path": "_weread/手把手教你读财报财报是用来排除企业的.md"
+    },
+    {
+      "basename": "围城",
+      "path": "_weread/围城.md"
+    },
+    {
+      "basename": "呐喊（果麦经典）",
+      "path": "_weread/呐喊（果麦经典）.md"
+    },
+    {
+      "basename": "枪炮、病菌与钢铁",
+      "path": "_weread/枪炮、病菌与钢铁.md"
+    },
+    {
+      "basename": "蛤蟆先生去看心理医生",
+      "path": "_weread/蛤蟆先生去看心理医生.md"
+    },
+    {
       "basename": "CSAPP reading notes - part I, chapter 2.en",
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
@@ -15,10 +119,6 @@
     {
       "basename": "《枪炮、病菌与钢铁》读书笔记.en",
       "path": "《枪炮、病菌与钢铁》读书笔记.en.md"
-    },
-    {
-      "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
-      "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
     },
     {
       "basename": "围城 读后感.zh-cn",
@@ -99,106 +199,6 @@
     {
       "basename": "create page bundle - cn",
       "path": "_templates/archive/create page bundle - cn.md"
-    },
-    {
-      "basename": "learn C through code.en",
-      "path": "learn C through code.en.md"
-    },
-    {
-      "basename": "learn x86-64 assembly through code.en",
-      "path": "learn x86-64 assembly through code.en.md"
-    },
-    {
-      "basename": "CSAPP reading notes - chapter 1.en",
-      "path": "CSAPP reading notes - chapter 1.en.md"
-    },
-    {
-      "basename": "电脑投屏手机软件 scrcpy 使用记录.zh-cn",
-      "path": "电脑投屏手机软件 scrcpy 使用记录.zh-cn.md"
-    },
-    {
-      "basename": "emacs 使用 org-mode 搭配 ox-hugo 搭建博客",
-      "path": "emacs 使用 org-mode 搭配 ox-hugo 搭建博客.md"
-    },
-    {
-      "basename": "emacs 入坑建议",
-      "path": "emacs 入坑建议.md"
-    },
-    {
-      "basename": "KDE arch linux 安装 fcitx5 和 rime 输入法.zh-cn",
-      "path": "KDE arch linux 安装 fcitx5 和 rime 输入法.zh-cn.md"
-    },
-    {
-      "basename": "hdc 无法挂载 minix.zh-cn",
-      "path": "hdc 无法挂载 minix.zh-cn.md"
-    },
-    {
-      "basename": "go installation.en",
-      "path": "go installation.en.md"
-    },
-    {
-      "basename": "git clone 参数解析",
-      "path": "git clone 参数解析.md"
-    },
-    {
-      "basename": "emacs 默认快捷键",
-      "path": "emacs 默认快捷键.md"
-    },
-    {
-      "basename": "线程",
-      "path": "线程.md"
-    },
-    {
-      "basename": "通过 hugo 主题 stack 中的 menu.scss 文件学习 css 知识.zh-cn",
-      "path": "通过 hugo 主题 stack 中的 menu.scss 文件学习 css 知识.zh-cn.md"
-    },
-    {
-      "basename": "通过源码学 lua （2）- lastmod.lua",
-      "path": "通过源码学 lua （2）- lastmod.lua.md"
-    },
-    {
-      "basename": "通过源码学 lua （1）- im-select.lua",
-      "path": "通过源码学 lua （1）- im-select.lua.md"
-    },
-    {
-      "basename": "矩阵旋转坐标公式.zh-cn",
-      "path": "矩阵旋转坐标公式.zh-cn.md"
-    },
-    {
-      "basename": "Use Vim mode on the command line in zsh.en",
-      "path": "Use Vim mode on the command line in zsh.en.md"
-    },
-    {
-      "basename": "虎码用法记录.zh-cn",
-      "path": "虎码用法记录.zh-cn.md"
-    },
-    {
-      "basename": "wsl2 安装 kitty.zh-cn",
-      "path": "wsl2 安装 kitty.zh-cn.md"
-    },
-    {
-      "basename": "Windows 部分程序无法固定到开始菜单解决方法.zh-cn",
-      "path": "Windows 部分程序无法固定到开始菜单解决方法.zh-cn.md"
-    },
-    {
-      "basename": "wsl neovim 自动切换输入法.zh-cn",
-      "path": "wsl neovim 自动切换输入法.zh-cn.md"
-    },
-    {
-      "basename": "《汇编语言》 读书笔记.zh-cn",
-      "path": "《汇编语言》 读书笔记.zh-cn.md"
-    },
-    {
-      "basename": "《红楼梦》读书笔记.zh-cn",
-      "path": "《红楼梦》读书笔记.zh-cn.md"
-    },
-    {
-      "basename": "Windows 布局和工作区",
-      "path": "Windows 布局和工作区.md"
-    },
-    {
-      "basename": "160. 相交链表.zh-cn",
-      "path": "160. 相交链表.zh-cn.md"
     }
   ],
   "omittedPaths": []

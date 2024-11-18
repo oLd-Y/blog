@@ -1,28 +1,12 @@
 {
   "cookies": [
     {
+      "name": "wr_gid",
+      "value": "238089422"
+    },
+    {
       "name": "wr_fp",
       "value": "2734285660"
-    },
-    {
-      "name": "wr_gid",
-      "value": "242881675"
-    },
-    {
-      "name": "wr_vid",
-      "value": "392912636"
-    },
-    {
-      "name": "wr_skey",
-      "value": "sMaanzIr"
-    },
-    {
-      "name": "wr_pf",
-      "value": "0"
-    },
-    {
-      "name": "wr_rt",
-      "value": "web@FOhZEkyyAWpwjpn~4cY_AL"
     },
     {
       "name": "wr_localvid",
@@ -39,6 +23,18 @@
     {
       "name": "wr_gender",
       "value": "0"
+    },
+    {
+      "name": "wr_skey",
+      "value": "WSK9IWKs"
+    },
+    {
+      "name": "wr_vid",
+      "value": "392912636"
+    },
+    {
+      "name": "wr_rt",
+      "value": "web@kW1y9qiVXzQcMSZOyJ3_AL"
     }
   ],
   "noteLocation": "_weread",
@@ -46,7 +42,7 @@
   "insertAfter": "# daily reading notes",
   "insertBefore": "# journal",
   "dailyNotesFormat": "YYYY-MM-DD_dddd",
-  "lastCookieTime": 1719456575859,
+  "lastCookieTime": 1731915442412,
   "isCookieValid": true,
   "user": "风吟",
   "userVid": "392912636",
@@ -58,5 +54,6 @@
   "notesBlacklist": "",
   "showEmptyChapterTitleToggle": false,
   "convertTags": false,
-  "saveArticleToggle": true
+  "saveArticleToggle": true,
+  "saveReadingInfoToggle": true
 }
