@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-11-19T08:20:55+08:00
+lastmod: 2024-11-19T09:06:16+08:00
 draft: true
 ---
 - [ ] Latex suite better input
@@ -10,6 +10,7 @@ draft: true
 - [ ] 本地大模型翻译
 - [ ] how to read CSAPP
 - [ ] 先吃饭再刷牙还是
+- [ ] obsidian 自动格式化
 
 
 

@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-19T08:16:02+08:00
+lastmod: 2024-11-19T09:28:31+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -132,6 +132,7 @@ x << 67      // shift by 67 (67 mod 32 = 3)
 ![Unsigned number examples for w = 4.](CSAPP/2.12.png)
 
 principle: Definition of unsigned encoding
+
 For vector $\vec{x} = [x_{w-1}, x_{w-2}, \ldots, x_{0}$:
 $$
 B2U_{w}(\vec{x}) = \sum_{i=0}^{w-1}x_{i}2^i \qquad (2.1)
@@ -140,11 +141,13 @@ $$
 The least value is given by bit vector $[00 \cdots 0]$ having integer value 0, and the greatest value is given by bit vector $[11 \cdots 1]$ having integer value $UMax_{w} \doteq \sum_{i=0}^{w-1}2^i = 2^w - 1$.
 
 principle: Uniqueness of unsigned encoding
-Function B2Uw is a bijection.
+
+Function $B2U_{w}$ is a bijection.
 
 ### 2.2.3 Two’s-Complement Encodings
 
 principle: Definition of two’s-complement encoding 
+
 For vector $\vec{x} = [x_{w-1},x_{w-2},\cdots x_{0}]$:
 $$
 B2T_{w}(\vec{x}) \doteq -x_{w-1}2^{w-1} + \sum_{i=0}^{w-2}x_{i}2^{i} \qquad (2.3)
@@ -156,7 +159,8 @@ $$
 The least representable value is given by bitvector `[10 ... 0]` (set the bit with negative weight but clear all others),having integer value $TMin_{w} \doteq - 2^{w-1}$.The greatest value is given by bitvector `[01 ... 1]` (clear the bit with negative weight but set all others),having integer value $Tmax_{w} \doteq \sum_{i=0}^{w-2}2^i = 2^{w} - 1$.
 
 principle: Uniqueness of two’s-complement encoding 
-Function B2Tw is a bijection.
+
+Function $B2T_{w}$ is a bijection.
 
 $\left| TMin \right| = \left| TMax \right| + 1$
 
@@ -182,3 +186,17 @@ $$
 $$
 U2T_{w}\left( \vec{x} \right) \doteq B2T_{w}\left( U2B_{w} \right) 
 $$
+
+principle: Conversion from two’s complement to unsigned 
+
+For x such that $TMinw ≤ x ≤ TMaxw$:
+$$
+T2U_{w}\left( x \right)  = \begin{cases}
+x + 2^{w}, & x < 0  \\
+x, & x \geq 0
+\end{cases} \qquad (2.5)
+$$
+
+derivation: Conversion from two’s complement to unsigned
+
+Comparing Equations 2.1 and 2.3, we can see that for bit pattern $\vec{x}$, if we compute the difference $B2U_{w}(\vec{x}) - B2T_{w}(\vec{x})$ the weighted sums for bits from 0 to w ? 2 will cancel each other, leaving a value B 2 Uw (? x) ? B 2 Tw (? x) = xw?1 (2 w? 1 ? ?2 w? 1) = xw? 12

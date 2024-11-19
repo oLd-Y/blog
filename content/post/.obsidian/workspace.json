@@ -49,8 +49,7 @@
               "title": "_TODO"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -235,14 +234,15 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "5f5381acf7346d03",
+  "active": "a31320b87e9364e3",
   "lastOpenFiles": [
+    "CSAPP practice problem and solutions.en.md",
+    "CSAPP reading notes - part I, chapter 2.en.md",
+    "Learn LaTex through examples.en.md",
+    "_TODO.md",
     "static/CSAPP/pp2.19-1.png",
     "static/CSAPP/pp2.19-2.png",
     "static/CSAPP/pp2.19.png",
-    "CSAPP reading notes - part I, chapter 2.en.md",
-    "_TODO.md",
-    "CSAPP practice problem and solutions.en.md",
     "_weread/枪炮、病菌与钢铁.md",
     "《枪炮、病菌与钢铁》读书笔记.zh-cn.md",
     "static/CSAPP/pp2.18-2.png",
@@ -275,7 +275,6 @@
     "static/CSAPP/2.13.png",
     "围城 读后感.zh-cn.md~",
     "4913",
-    "static/CSAPP/2.11.png",
     "unzip",
     "static/CSAPP",
     "static",
