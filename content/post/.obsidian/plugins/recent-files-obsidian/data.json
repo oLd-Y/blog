@@ -5,6 +5,10 @@
       "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
     },
     {
+      "basename": "枪炮、病菌与钢铁",
+      "path": "_weread/枪炮、病菌与钢铁.md"
+    },
+    {
       "basename": "CSAPP reading notes - part I, chapter 2.en",
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "Obsidian latex-suite usage.en",
       "path": "Obsidian latex-suite usage.en.md"
-    },
-    {
-      "basename": "枪炮、病菌与钢铁",
-      "path": "_weread/枪炮、病菌与钢铁.md"
     },
     {
       "basename": "影响力（全新升级版）",

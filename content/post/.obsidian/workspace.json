@@ -68,7 +68,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTimeReverse"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -121,13 +121,11 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 485.5,
-    "collapsed": true
+    "width": 485.5
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -235,8 +233,10 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "a31320b87e9364e3",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "_weread/枪炮、病菌与钢铁.md",
+    "《枪炮、病菌与钢铁》读书笔记.zh-cn.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
     "_TODO.md",
     "CSAPP practice problem and solutions.en.md",
@@ -249,8 +249,6 @@
     "static/CSAPP/pp2.19-1.png",
     "static/CSAPP/pp2.19-2.png",
     "static/CSAPP/pp2.19.png",
-    "_weread/枪炮、病菌与钢铁.md",
-    "《枪炮、病菌与钢铁》读书笔记.zh-cn.md",
     "static/CSAPP/pp2.18-2.png",
     "static/CSAPP/pp2.18-1.png",
     "static/CSAPP/2.15.png",
