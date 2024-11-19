@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP reading notes - part I, chapter 2.en.md",
+                "file": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSAPP reading notes - part I, chapter 2.en"
+              "title": "《枪炮、病菌与钢铁》读书笔记.zh-cn"
             }
           },
           {
@@ -121,7 +121,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -235,8 +236,8 @@
   },
   "active": "a31320b87e9364e3",
   "lastOpenFiles": [
-    "_TODO.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
+    "_TODO.md",
     "CSAPP practice problem and solutions.en.md",
     "Learn LaTex through examples.en.md",
     "static/CSAPP/2.18.png",
