@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-19T10:08:11+08:00
+lastmod: 2024-11-19T10:33:23+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -222,4 +222,8 @@ $$
 ![Conversion from unsigned to two’s complement.](CSAPP/2.18.png)
 
 derivation: Unsigned to two’s-complement conversion 
-Let $\vec{u} = U2B_{w}(u)$. This bit vector will also be the two’s-complement representation of 
+Let $\vec{u} = U2B_{w}(u)$. This bit vector will also be the two’s-complement representation of $U2T_{w}(u)$. Equations 2.1 and 2.3 can be combined to give
+$$
+U2T_{w}(u) = -u_{w-1}2^{w} + u \qquad (2.8)
+$$
+

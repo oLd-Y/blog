@@ -5,6 +5,10 @@
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
     {
+      "basename": "_TODO",
+      "path": "_TODO.md"
+    },
+    {
       "basename": "CSAPP practice problem and solutions.en",
       "path": "CSAPP practice problem and solutions.en.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Obsidian latex-suite usage.en",
       "path": "Obsidian latex-suite usage.en.md"
-    },
-    {
-      "basename": "_TODO",
-      "path": "_TODO.md"
     },
     {
       "basename": "枪炮、病菌与钢铁",
