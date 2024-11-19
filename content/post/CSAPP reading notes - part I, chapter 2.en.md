@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-19T12:20:00+08:00
+lastmod: 2024-11-19T19:27:53+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -210,6 +210,8 @@ For the two’s-complement case, the most significant bit serves as the sign bit
 
 ![Conversion from two’s complement to unsigned.](CSAPP/2.17.png)
 
+![Conversion from unsigned to two’s complement.](CSAPP/2.18.png)
+
 principle: Unsigned to two’s-complement conversion
 For u such that $0 \leq u \leq UMax_{w}$:
 $$
@@ -219,15 +221,11 @@ u - 2^{w}, & u > Tmax_{w}
 \end{cases} \qquad (2.7)
 $$
 
-
-
 derivation: Unsigned to two’s-complement conversion 
 Let $\vec{u} = U2B_{w}(u)$. This bit vector will also be the two’s-complement representation of $U2T_{w}(u)$. Equations 2.1 and 2.3 can be combined to give
 $$
 U2T_{w}(u) = -u_{w-1}2^{w} + u \qquad (2.8)
 $$
-
-![Conversion from unsigned to two’s complement.](CSAPP/2.18.png)
 
 To summarize, we considered the effects of converting in both directions between unsigned and two’s-complement representations. For values x in the range $0 \leq x \leq TMax_{w}$, we have $T2U_{w}(x) = x$ and $U2T_{w}(x) = x$. That is, numbers in this range have identical unsigned and two’s-complement representations. For values outside of this range, the conversions either add or subtract $2^{w}$. For example, we have $T2U_{w}(-1) = -1 + 2^{w}$ -the negative number closest to zero maps to the largest unsigned number. At the other extreme, one can see that $T2U_{w}(TMin_{w}) = -2^{w-1} + 2^{w} = 2^{w-1} = TMax_{w} - 1$ —the most negative number maps to an unsigned number just outside the range of positive two’s-complement numbers. Using the example of Figure 2.15, we can see that $T2U_{16}(-12345) = 65536 + -12345 = 53191$. 
 
