@@ -63,8 +63,7 @@
               "title": "_TODO"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -249,13 +248,13 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "b605d9b23bf2403b",
+  "active": "a31320b87e9364e3",
   "lastOpenFiles": [
+    "CSAPP reading notes - part I, chapter 2.en.md",
     "_weread/枪炮、病菌与钢铁.md",
     "_weread/津巴多普通心理学（第8版）.md",
     "_weread/红楼梦.md",
     "《枪炮、病菌与钢铁》读书笔记.zh-cn.md",
-    "CSAPP reading notes - part I, chapter 2.en.md",
     "_TODO.md",
     "CSAPP practice problem and solutions.en.md",
     "Learn LaTex through examples.en.md",
