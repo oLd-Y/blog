@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-19T09:28:31+08:00
+lastmod: 2024-11-19T10:08:11+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -199,4 +199,27 @@ $$
 
 derivation: Conversion from two’s complement to unsigned
 
-Comparing Equations 2.1 and 2.3, we can see that for bit pattern $\vec{x}$, if we compute the difference $B2U_{w}(\vec{x}) - B2T_{w}(\vec{x})$ the weighted sums for bits from 0 to w ? 2 will cancel each other, leaving a value B 2 Uw (? x) ? B 2 Tw (? x) = xw?1 (2 w? 1 ? ?2 w? 1) = xw? 12
+Comparing Equations 2.1 and 2.3, we can see that for bit pattern $\vec{x}$, if we compute the difference $B2U_{w}(\vec{x}) - B2T_{w}(\vec{x})$, the weighted sums for bits from `0` to ` w - 2 ` will cancel each other, leaving a value $B2U_{w}(\vec{x}) - B2T_{w}(\vec{x}) = x_{w-1} (2^{w-1} - -2^{w-1}) = x_{w-1}2^{w}$. This gives a relationship $B2U_{w}(\vec{x}) = B2T_{w}(\vec{x}) + x_{w-1}2^{w}$. We therefore have 
+$$
+B2U_{w}(T2B_{w}(x)) = T2U_{w}(x) = x \;+\;x_{w-1}2^{w} \qquad (2.6)
+$$
+
+For the two’s-complement case, the most significant bit serves as the sign bit, which we diagram as a leftward-pointing gray bar. For the unsigned case, this bit has positive weight, which we show as a rightward-pointing black bar.
+
+![Comparing unsigned and two’s-complement representations for w = 4.](CSAPP/2.16.png)
+
+![Conversion from two’s complement to unsigned.](CSAPP/2.17.png)
+
+principle: Unsigned to two’s-complement conversion
+For u such that $0 \leq u \leq UMax_{w}$:
+$$
+U2T_{w}(u) = \begin{cases}
+u, & u \leq TMax_{w} \\
+u - 2^{w}, & u > Tmax_{w}
+\end{cases} \qquad (2.7)
+$$
+
+![Conversion from unsigned to two’s complement.](CSAPP/2.18.png)
+
+derivation: Unsigned to two’s-complement conversion 
+Let $\vec{u} = U2B_{w}(u)$. This bit vector will also be the two’s-complement representation of 

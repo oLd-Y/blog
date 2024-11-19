@@ -13,6 +13,10 @@
       "path": "Learn LaTex through examples.en.md"
     },
     {
+      "basename": "Obsidian latex-suite usage.en",
+      "path": "Obsidian latex-suite usage.en.md"
+    },
+    {
       "basename": "_TODO",
       "path": "_TODO.md"
     },
@@ -123,10 +127,6 @@
     {
       "basename": "蛤蟆先生去看心理医生",
       "path": "_weread/蛤蟆先生去看心理医生.md"
-    },
-    {
-      "basename": "Obsidian latex-suite usage.en",
-      "path": "Obsidian latex-suite usage.en.md"
     },
     {
       "basename": "围城 读后感.zh-cn",

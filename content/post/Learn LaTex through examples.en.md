@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-19T09:10:37+08:00
+lastmod: 2024-11-19T10:14:52+08:00
 ---
 ## Fraction, subscript and Greek characters
 
@@ -95,7 +95,7 @@ $$
 - `\ldots`: "l" stands for "low" - these are dots that appear on the baseline, as opposed to `\cdots` where "c" stands for "centered" dots that appear in the middle. So `\ldots` means "low dots".
 - $\doteq$ is commonly used in mathematics and computer science to denote a "definitional equality" - meaning it's used when you're defining something, rather than just stating that two things are equal.
 
-## Cases (curly brace) and its Condition
+## Cases (curly brace), Condition, Greater and equal to
 
 ```latex
 T2U_{w}\left( x \right)  = \begin{cases}
