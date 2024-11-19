@@ -5,7 +5,7 @@ tags:
   - CSAPP
   - practice
 date: 2024-11-14
-lastmod: 2024-11-18T10:09:43+08:00
+lastmod: 2024-11-19T08:26:49+08:00
 draft: false
 weight: 1
 description: 
@@ -61,3 +61,15 @@ description:
 
 ![](CSAPP/pp2.17-1.png)
 ![](CSAPP/pp2.17-2.png)
+
+
+![](CSAPP/pp2.18-1.png)
+![](CSAPP/pp2.18-2.png)
+
+![](CSAPP/pp2.19-1.png)
+![](CSAPP/pp2.19-2.png)
+
+principle: Conversion from two’s complement to unsigned For x such that $TMinw ≤ x ≤ TMaxw$:
+$$
+T2U_{w}\left( x \right)  = 
+$$

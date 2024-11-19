@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-18T13:50:23+08:00
+lastmod: 2024-11-19T08:16:02+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -170,4 +170,15 @@ B2O_{w}(\vec{x}) \doteq -x_{w-1}(2^{w-1} - 1) + \sum _{i=0}^{w-2}x_{i}2^{i}
 $$
 $$
 B2S_{w}(\vec{x}) \doteq (-1)^{x_{w-1}} \cdot \left( \sum _{i = 0}^{w-2}x_{i}2^{i} \right) 
+$$
+
+### 2 .2.4 Conversions between Signed and Unsigned
+
+![Two’s-complement representations of 12,345 and ?12,345, and unsigned representation of 53,191. Note that the latter two have identical bit representations](CSAPP/2.15.png)
+
+$$
+T2U_{w}\left( \vec{x} \right) \doteq B2U_{w}\left( T2B_{w} \right) 
+$$
+$$
+U2T_{w}\left( \vec{x} \right) \doteq B2T_{w}\left( U2B_{w} \right) 
 $$

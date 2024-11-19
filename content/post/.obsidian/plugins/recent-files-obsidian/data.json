@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "CSAPP practice problem and solutions.en",
+      "path": "CSAPP practice problem and solutions.en.md"
+    },
+    {
+      "basename": "CSAPP reading notes - part I, chapter 2.en",
+      "path": "CSAPP reading notes - part I, chapter 2.en.md"
+    },
+    {
+      "basename": "_TODO",
+      "path": "_TODO.md"
+    },
+    {
+      "basename": "枪炮、病菌与钢铁",
+      "path": "_weread/枪炮、病菌与钢铁.md"
+    },
+    {
       "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
       "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
     },
     {
       "basename": "影响力（全新升级版）",
       "path": "_weread/影响力（全新升级版）.md"
-    },
-    {
-      "basename": "枪炮、病菌与钢铁",
-      "path": "_weread/枪炮、病菌与钢铁.md"
     },
     {
       "basename": "被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
@@ -109,14 +121,6 @@
       "path": "_weread/蛤蟆先生去看心理医生.md"
     },
     {
-      "basename": "CSAPP reading notes - part I, chapter 2.en",
-      "path": "CSAPP reading notes - part I, chapter 2.en.md"
-    },
-    {
-      "basename": "CSAPP practice problem and solutions.en",
-      "path": "CSAPP practice problem and solutions.en.md"
-    },
-    {
       "basename": "Obsidian latex-suite usage.en",
       "path": "Obsidian latex-suite usage.en.md"
     },
@@ -139,10 +143,6 @@
     {
       "basename": "LazyVim for Ambitious Developers reading notes.zh-cn",
       "path": "LazyVim for Ambitious Developers reading notes.zh-cn.md"
-    },
-    {
-      "basename": "_TODO",
-      "path": "_TODO.md"
     },
     {
       "basename": "好用软件名称记录.zh-cn",
