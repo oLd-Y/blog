@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-20T11:04:36+08:00
+lastmod: 2024-11-20T11:12:34+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -238,4 +238,5 @@ most signed by default, suffix `u` for unsigned
 %d, %u, and %x 
 a signed decimal, an unsigned decimal, and in hexadecimal format
 
+possible, print, int with %u, unsigned with %d
 
