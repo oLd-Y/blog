@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP reading notes - part I, chapter 2.en.md",
+                "file": "虎码用法记录.zh-cn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSAPP reading notes - part I, chapter 2.en"
+              "title": "虎码用法记录.zh-cn"
             }
           },
           {
@@ -259,6 +259,7 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "CSAPP reading notes - part I, chapter 2.en.md",
     "_weread/枪炮、病菌与钢铁.md",
     "_weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
     "_weread/谁动了我的奶酪.md",
@@ -284,7 +285,6 @@
     "_weread/写给地球人的《三体》说明书.md",
     "_weread/蛤蟆先生去看心理医生.md",
     "_weread/自控力.md",
-    "_weread/洛克菲勒写给儿子的38封信.md",
     "_weread",
     "static/CSAPP/2.18.png",
     "static/CSAPP/pp2.20.png",
