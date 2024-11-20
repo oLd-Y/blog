@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-20T09:23:52+08:00
+lastmod: 2024-11-20T11:04:36+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -233,7 +233,9 @@ To summarize, we considered the effects of converting in both directions between
 
 From here on, since repeatedly taking screenshots and copying key words is very troublesome, I will only record key words that help with memory as summarized by myself, which also serves as an index.
 
-signed by default, suffix `u` for unsigned
+most signed by default, suffix `u` for unsigned
 
+%d, %u, and %x 
+a signed decimal, an unsigned decimal, and in hexadecimal format
 
 
