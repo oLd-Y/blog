@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
-      "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
-    },
-    {
       "basename": "CSAPP reading notes - part I, chapter 2.en",
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
+    },
+    {
+      "basename": "虎码用法记录.zh-cn",
+      "path": "虎码用法记录.zh-cn.md"
+    },
+    {
+      "basename": "CSAPP practice problem and solutions.en",
+      "path": "CSAPP practice problem and solutions.en.md"
+    },
+    {
+      "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
+      "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
     },
     {
       "basename": "枪炮、病菌与钢铁",
@@ -23,10 +31,6 @@
     {
       "basename": "_TODO",
       "path": "_TODO.md"
-    },
-    {
-      "basename": "CSAPP practice problem and solutions.en",
-      "path": "CSAPP practice problem and solutions.en.md"
     },
     {
       "basename": "Learn LaTex through examples.en",
@@ -195,10 +199,6 @@
     {
       "basename": "new dairy template",
       "path": "_templates/archive/new dairy template.md"
-    },
-    {
-      "basename": "create page bundle - en",
-      "path": "_templates/archive/create page bundle - en.md"
     }
   ],
   "omittedPaths": []

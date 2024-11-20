@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-19T19:27:53+08:00
+lastmod: 2024-11-20T07:21:23+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -231,3 +231,4 @@ To summarize, we considered the effects of converting in both directions between
 
 ### 2.2.5 Signed versus Unsigned in C
 
+From here on, since repeatedly taking screenshots and copying key words is very troublesome, I will only record key words that help with memory as summarized by myself, which also serves as an index.
