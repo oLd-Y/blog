@@ -49,8 +49,7 @@
               "title": "_TODO"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +125,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 485.5
+    "width": 485.5,
+    "collapsed": true
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -244,8 +244,9 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "b645eed817921918",
+  "active": "b605d9b23bf2403b",
   "lastOpenFiles": [
+    "_TODO.md",
     "虎码用法记录.zh-cn.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
     "extract a .tar.gz file.en.md",
@@ -255,7 +256,6 @@
     "static/新建文件夹",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误.zh-cn.md",
     "why $T2U_{w}(-1) = UMax_{w}$.en.md",
-    "_TODO.md",
     "Untitled 1.md",
     "static/CSAPP/pp2.21.png",
     "static/CSAPP/PixPin_2024-11-21_09-01-35.png",
