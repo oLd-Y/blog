@@ -56,5 +56,4 @@ $('.content, .list').each((idx, item) => {
         });
     
         item.innerHTML = _strLink;
-    }
-})
+    }})

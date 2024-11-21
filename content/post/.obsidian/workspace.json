@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP reading notes - part I, chapter 2.en.md",
+                "file": "How could the number of bigger data type with leading 1 equals to the original number.en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSAPP reading notes - part I, chapter 2.en"
+              "title": "How could the number of bigger data type with leading 1 equals to the original number.en"
             }
           },
           {
@@ -246,11 +246,11 @@
   },
   "active": "b605d9b23bf2403b",
   "lastOpenFiles": [
+    "CSAPP reading notes - part I, chapter 2.en.md",
     "How could the number of bigger data type with leading 1 equals to the original number.en.md",
     "static/ChatGPT",
     "static/新建文件夹",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误.zh-cn.md",
-    "CSAPP reading notes - part I, chapter 2.en.md",
     "虎码用法记录.zh-cn.md",
     "why $T2U_{w}(-1) = UMax_{w}$.en.md",
     "_TODO.md",

@@ -10,3 +10,10 @@
     {{- $customScript := . | js.Build $opts -}}
     <script type="text/javascript" src="{{ $customScript.RelPermalink }}" defer></script>
 {{- end -}}
+
+<!-- Load jQuery -->
+{{- $jquery := resources.Get "js/jquery-3.7.1.min.js" | js.Build $opts -}}
+<script type="text/javascript" src="{{ $jquery.RelPermalink }}" defer></script>
+<!-- Load Obsidian Links Script -->
+{{- $obsidianScript := resources.Get "js/renderWikiLink.js" | js.Build $opts -}}
+<script type="text/javascript" src="{{ $obsidianScript.RelPermalink }}" defer></script>

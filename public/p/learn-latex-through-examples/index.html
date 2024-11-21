@@ -10,7 +10,7 @@
 <meta property='og:description' content="Fraction, subscript and Greek characters Came from CSAPP &ldquo;1.9.1 Amdahl’s Law&rdquo; $$ T_{\\text{new}} = (1-\\alpha)T_{\\text{old}} + (\\alpha T_{\\text{old}})/k = T_{\\text{old}}[(1-\\alpha) + \\alpha/k] $$ 1 T_{\\text{new}} = (1-\\alpha)T_{\\text{old}} + (\\alpha T_{\\text{old}})/k = T_{\\text{old}}[(1-\\alpha) + \\alpha/k] _ is used for subscripts. \\alpha produce the Greek letter α. Other Greek letters follow similar pattern(e.g., \\beta, \\gamma, \\delta). \\text{} makes the text inside appear normal text font rather than math italic. By default in LaTex math mode, every character is assumed to be its own variables, appearing in italics.">
 <meta property='og:url' content='http://localhost:1313/blog/p/learn-latex-through-examples/'>
 <meta property='og:site_name' content='lyao&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Latex' /><meta property='article:tag' content='Math' /><meta property='article:published_time' content='2024-11-11T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-11-16T13:34:04&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Latex' /><meta property='article:tag' content='Math' /><meta property='article:published_time' content='2024-11-11T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-11-19T10:14:52&#43;08:00'/>
 <meta name="twitter:title" content="Learn LaTex through examples">
 <meta name="twitter:description" content="Fraction, subscript and Greek characters Came from CSAPP &ldquo;1.9.1 Amdahl’s Law&rdquo; $$ T_{\\text{new}} = (1-\\alpha)T_{\\text{old}} + (\\alpha T_{\\text{old}})/k = T_{\\text{old}}[(1-\\alpha) + \\alpha/k] $$ 1 T_{\\text{new}} = (1-\\alpha)T_{\\text{old}} + (\\alpha T_{\\text{old}})/k = T_{\\text{old}}[(1-\\alpha) + \\alpha/k] _ is used for subscripts. \\alpha produce the Greek letter α. Other Greek letters follow similar pattern(e.g., \\beta, \\gamma, \\delta). \\text{} makes the text inside appear normal text font rather than math italic. By default in LaTex math mode, every character is assumed to be its own variables, appearing in italics.">
     <link rel="shortcut icon" href="/blog/favicon.ico" />
@@ -320,6 +320,7 @@
     <li><a href="#logical-symbols">Logical symbols</a></li>
     <li><a href="#set-operations">Set operations</a></li>
     <li><a href="#vector-sum-equation-numbering-dot-equal">Vector, Sum, Equation numbering, Dot equal</a></li>
+    <li><a href="#cases-curly-brace-condition-greater-and-equal-to">Cases (curly brace), Condition, Greater and equal to</a></li>
   </ol>
 </nav>
         </div>
@@ -504,6 +505,31 @@ $$</p>
 <li><code>\ldots</code>: &ldquo;l&rdquo; stands for &ldquo;low&rdquo; - these are dots that appear on the baseline, as opposed to <code>\cdots</code> where &ldquo;c&rdquo; stands for &ldquo;centered&rdquo; dots that appear in the middle. So <code>\ldots</code> means &ldquo;low dots&rdquo;.</li>
 <li>$\doteq$ is commonly used in mathematics and computer science to denote a &ldquo;definitional equality&rdquo; - meaning it&rsquo;s used when you&rsquo;re defining something, rather than just stating that two things are equal.</li>
 </ul>
+<h2 id="cases-curly-brace-condition-greater-and-equal-to">Cases (curly brace), Condition, Greater and equal to
+</h2><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl">T2U<span class="nb">_{</span>w<span class="nb">}</span><span class="k">\left</span>( x <span class="k">\right</span>)  = <span class="k">\begin</span><span class="nb">{</span>cases<span class="nb">}</span>
+</span></span><span class="line"><span class="cl">x + 2<span class="nb">^{</span>w<span class="nb">}</span>, <span class="nb">&amp;</span> x &lt; 0  <span class="k">\\</span>
+</span></span><span class="line"><span class="cl">x, <span class="nb">&amp;</span> x <span class="k">\geq</span> 0
+</span></span><span class="line"><span class="cl"><span class="k">\end</span><span class="nb">{</span>cases<span class="nb">}</span> <span class="k">\qquad</span> (2.5)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>$$
+T2U_{w}\left( x \right)  = \begin{cases}
+x + 2^{w}, &amp; x &lt; 0  \
+x, &amp; x \geq 0
+\end{cases} \qquad (2.5)
+$$</p>
+<ul>
+<li><code>\\</code> means newline.</li>
+<li><code>&amp;</code> before <code>x &lt; 0</code> is an alignment operator</li>
+</ul>
 
 </section>
 
@@ -541,7 +567,7 @@ $$</p>
 
 
         <span>
-            Last updated on Nov 16, 2024 13:34 CST
+            Last updated on Nov 19, 2024 10:14 CST
         </span>
     </section></footer>
 
@@ -584,6 +610,32 @@ $$</p>
             
                 
 <article class="">
+    <a href="/blog/p/how-could-the-number-of-bigger-data-type-with-leading-1-equals-to-the-original-number/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">How could the number of bigger data type with leading 1 equals to the original number?</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/p/why-does-a-twos-complement-encoded-1-convert-to-unsigned-encoding-would-be-the-max-value-of-unsiged-number-t2u_w-1-umax_w/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">why does a two&#39;s complement encoded -1 convert to unsigned encoding would be the max value of unsiged number? ($T2U_{w}(-1) = UMax_{w}$)</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
     <a href="/blog/p/extract-a-.tar.gz-file/">
         
         
@@ -616,32 +668,6 @@ $$</p>
 
         <div class="article-details">
             <h2 class="article-title">learn C through code</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/blog/p/learn-x86-64-assembly-through-code/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">learn x86-64 assembly through code</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/blog/p/make-a-window-always-on-top-through-ahk/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Make a window always on top through AHK</h2>
         </div>
     </a>
 </article>

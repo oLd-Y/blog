@@ -18,20 +18,6 @@
 </description>
         </item>
         <item>
-        <title>《枪炮、病菌与钢铁》读书笔记</title>
-        <link>http://localhost:1313/blog/zh-cn/p/%E6%9E%AA%E7%82%AE%E7%97%85%E8%8F%8C%E4%B8%8E%E9%92%A2%E9%93%81%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
-        <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/zh-cn/p/%E6%9E%AA%E7%82%AE%E7%97%85%E8%8F%8C%E4%B8%8E%E9%92%A2%E9%93%81%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
-        <description>&lt;h2 id=&#34;开场白&#34;&gt;开场白
-&lt;/h2&gt;&lt;p&gt;1972 年，作者在热带岛屿新几内亚与当地一名政治人物亚力散步交谈。亚力向作者提出了一个问题：为什么是白人制造出这么多货物，再运来这里？为什么我们黑人没搞出过什么名堂？&lt;/p&gt;
-&lt;p&gt;这个看似简单的问题，却难以回答。作者在与亚力交谈之后的二十五年间，一直在研究人类演化、历史与语言等方向的课题。&lt;/p&gt;
-&lt;h2 id=&#34;第一章-人类社会的起跑线&#34;&gt;第一章 人类社会的起跑线
-&lt;/h2&gt;&lt;h2 id=&#34;第二章-历史的自然实验&#34;&gt;第二章 历史的自然实验
-&lt;/h2&gt;&lt;p&gt;一八三五年，在新西兰东部 500 英里的查塔姆岛上, 莫里奥里人被后登岛的两波的毛利人屠杀殆尽。但这两个族群都是从波利尼西亚分化出来的。&lt;/p&gt;
-</description>
-        </item>
-        <item>
         <title>虎码用法记录</title>
         <link>http://localhost:1313/blog/zh-cn/p/%E8%99%8E%E7%A0%81%E7%94%A8%E6%B3%95%E8%AE%B0%E5%BD%95/</link>
         <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
@@ -46,6 +32,122 @@
 &lt;li&gt;tigress.schema.yaml, 虎码官方词库&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;在 &lt;code&gt;tigeress.schema.yaml&lt;/code&gt; 文件中找到 &lt;code&gt;auto_select_pattern&lt;/code&gt; 属性，将其值改为 &lt;code&gt;^;\w+|^\w{4}$&lt;/code&gt; 即可。&lt;/p&gt;
+&lt;h2 id=&#34;快速输入标点符号&#34;&gt;快速输入标点符号
+&lt;/h2&gt;&lt;p&gt;以 &lt;code&gt;;&lt;/code&gt; 键开头，加上字母键，可以快速打出一些标点符号。以下为默认标点的表格（按照键盘顺序）：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;字母&lt;/th&gt;
+&lt;th&gt;标点&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;;q&lt;/td&gt;
+&lt;td&gt;：“&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;w&lt;/td&gt;
+&lt;td&gt;？&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;e&lt;/td&gt;
+&lt;td&gt;（&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;r&lt;/td&gt;
+&lt;td&gt;）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;t&lt;/td&gt;
+&lt;td&gt;→&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;y&lt;/td&gt;
+&lt;td&gt;·&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;u&lt;/td&gt;
+&lt;td&gt;~&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;i&lt;/td&gt;
+&lt;td&gt;——&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;o&lt;/td&gt;
+&lt;td&gt;〖&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;p&lt;/td&gt;
+&lt;td&gt;〗&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;a&lt;/td&gt;
+&lt;td&gt;！&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;s&lt;/td&gt;
+&lt;td&gt;……&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;d&lt;/td&gt;
+&lt;td&gt;、&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;f&lt;/td&gt;
+&lt;td&gt;“&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;g&lt;/td&gt;
+&lt;td&gt;”&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;h&lt;/td&gt;
+&lt;td&gt;『&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;j&lt;/td&gt;
+&lt;td&gt;』&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;k&lt;/td&gt;
+&lt;td&gt;￥&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;l&lt;/td&gt;
+&lt;td&gt;%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;z&lt;/td&gt;
+&lt;td&gt;|&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;x&lt;/td&gt;
+&lt;td&gt;【&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;c&lt;/td&gt;
+&lt;td&gt;】&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;v&lt;/td&gt;
+&lt;td&gt;《&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;b&lt;/td&gt;
+&lt;td&gt;》&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;n&lt;/td&gt;
+&lt;td&gt;「&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;m&lt;/td&gt;
+&lt;td&gt;」&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 </description>
         </item>
         <item>

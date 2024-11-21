@@ -70,8 +70,8 @@ featuredImageField = "image"
 rssFullContent = true
 favicon = "favicon.ico"
 
-[params.customJS]
-customJS = ["js/obsidian-links.js"]
+#[params.customJS]
+#customJS = ["js/renderWikiLink.js"]
 
 
 # enableMetaTags = true

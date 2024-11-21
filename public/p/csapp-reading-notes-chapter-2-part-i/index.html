@@ -10,7 +10,7 @@
 <meta property='og:description' content="Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation">
 <meta property='og:url' content='http://localhost:1313/blog/p/csapp-reading-notes-chapter-2-part-i/'>
 <meta property='og:site_name' content='lyao&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='foundation' /><meta property='article:tag' content='CSAPP' /><meta property='article:published_time' content='2024-11-04T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-11-17T09:27:53&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='foundation' /><meta property='article:tag' content='CSAPP' /><meta property='article:published_time' content='2024-11-04T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-11-21T10:48:13&#43;08:00'/>
 <meta name="twitter:title" content="CSAPP reading notes - Chapter 2 (Part I)">
 <meta name="twitter:description" content="Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation">
     <link rel="shortcut icon" href="/blog/favicon.ico" />
@@ -333,6 +333,9 @@
         <li><a href="#221-integral-data-types">2.2.1 Integral Data Types</a></li>
         <li><a href="#222-unsigned-encodings">2.2.2 Unsigned Encodings</a></li>
         <li><a href="#223-twos-complement-encodings">2.2.3 Two’s-Complement Encodings</a></li>
+        <li><a href="#224-conversions-between-signed-and-unsigned">2.2.4 Conversions between Signed and Unsigned</a></li>
+        <li><a href="#225-signed-versus-unsigned-in-c">2.2.5 Signed versus Unsigned in C</a></li>
+        <li><a href="#226-expanding-the-bit-representation-of-a-number">2.2.6 Expanding the Bit Representation of a Number</a></li>
       </ol>
     </li>
   </ol>
@@ -403,7 +406,7 @@
 
 
                 <time class="article-time--reading">
-                    6 minute read
+                    8 minute read
                 </time>
             </div>
         
@@ -611,18 +614,139 @@ D. binary 1100100010110110010110 to hexadecimal</p>
 	
 	
 ></p>
+<p>principle: Definition of unsigned encoding</p>
 <p>For vector $\vec{x} = [x_{w-1}, x_{w-2}, \ldots, x_{0}$:
 $$
 B2U_{w}(\vec{x}) = \sum_{i=0}^{w-1}x_{i}2^i \qquad (2.1)
 $$</p>
 <p>The least value is given by bit vector $[00 \cdots 0]$ having integer value 0, and the greatest value is given by bit vector $[11 \cdots 1]$ having integer value $UMax_{w} \doteq \sum_{i=0}^{w-1}2^i = 2^w - 1$.</p>
-<p>principle: Uniqueness of unsigned encoding
-Function B2Uw is a bijection.</p>
+<p>principle: Uniqueness of unsigned encoding</p>
+<p>Function $B2U_{w}$ is a bijection.</p>
 <h3 id="223-twos-complement-encodings">2.2.3 Two’s-Complement Encodings
-</h3><p>For some programs, it is essential that data types be encoded using representations with specific sizes. For example, when writing programs to enable a machine to communicate over the Internet according to a standard protocol, it is important to have data types compatible with those specified by the protocol. We have seen that some C data types, especially long, have different ranges on different machines, and in fact the C standards only specify the minimum ranges for any data type, not the exact ranges. Although we can choose data types that will be compatible with standard representations on most machines, there is no guarantee of portability.
-We have already encountered the 32- and 64-bit versions of fixed-size integer types (Figure 2.3); they are part of a larger class of data types. The ISO C99 standard introduces this class of integer types in the file stdint.h. This file defines a set of data types with declarations of the form intN_t and uintN_t, specifying N-bit signed and unsigned integers, for different values of N. The exact values of N are implementation dependent, but most compilers allow values of 8, 16, 32, and 64. Thus, we can unambiguously declare an unsigned 16-bit variable by giving it type uint16_t, and a signed variable of 32 bits as int32_t.
-Along with these data types are a set of macros defining the minimum and maximum values for each value of N. These have names of the form INTN_MIN, INTN_MAX, and UINTN_MAX.
-Formatted printing with fixed-width types requires use of macros that expand into format strings in a system-dependent manner. So, for example, the values of variables x and y of type int32_t and uint64_t can be printed by the following call to printf:</p>
+</h3><p>principle: Definition of two’s-complement encoding</p>
+<p>For vector $\vec{x} = [x_{w-1},x_{w-2},\cdots x_{0}]$:
+$$
+B2T_{w}(\vec{x}) \doteq -x_{w-1}2^{w-1} + \sum_{i=0}^{w-2}x_{i}2^{i} \qquad (2.3)
+$$</p>
+<p>The MSB (most significant bit) has its dual role as both the sign and a weighted bit.</p>
+<p><img src="/blog/CSAPP/2.13.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Two&rsquo;s-complement number examples forw = 4"
+	
+	
+></p>
+<p>The least representable value is given by bitvector <code>[10 ... 0]</code> (set the bit with negative weight but clear all others),having integer value $TMin_{w} \doteq - 2^{w-1}$.The greatest value is given by bitvector <code>[01 ... 1]</code> (clear the bit with negative weight but set all others),having integer value $Tmax_{w} \doteq \sum_{i=0}^{w-2}2^i = 2^{w} - 1$.</p>
+<p>principle: Uniqueness of two’s-complement encoding</p>
+<p>Function $B2T_{w}$ is a bijection.</p>
+<p>$\left| TMin \right| = \left| TMax \right| + 1$</p>
+<p>Since 0 is nonnegative, this means that it can represent one less positive number than negative.</p>
+<p><img src="/blog/CSAPP/2.14.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Important numbers"
+	
+	
+></p>
+<p>Two other standard representations for signed numbers:
+$$
+B2O_{w}(\vec{x}) \doteq -x_{w-1}(2^{w-1} - 1) + \sum <em>{i=0}^{w-2}x</em>{i}2^{i}
+$$
+$$
+B2S_{w}(\vec{x}) \doteq (-1)^{x_{w-1}} \cdot \left( \sum <em>{i = 0}^{w-2}x</em>{i}2^{i} \right)
+$$</p>
+<h3 id="224-conversions-between-signed-and-unsigned">2.2.4 Conversions between Signed and Unsigned
+</h3><p><img src="/blog/CSAPP/2.15.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Two’s-complement representations of 12,345 and ?12,345, and unsigned representation of 53,191. Note that the latter two have identical bit representations"
+	
+	
+></p>
+<p>$$
+T2U_{w}\left( \vec{x} \right) \doteq B2U_{w}\left( T2B_{w} \right)
+$$
+$$
+U2T_{w}\left( \vec{x} \right) \doteq B2T_{w}\left( U2B_{w} \right)
+$$</p>
+<p>principle: Conversion from two’s complement to unsigned</p>
+<p>For x such that $TMinw ≤ x ≤ TMaxw$:
+$$
+T2U_{w}\left( x \right)  = \begin{cases}
+x + 2^{w}, &amp; x &lt; 0  \
+x, &amp; x \geq 0
+\end{cases} \qquad (2.5)
+$$</p>
+<p>derivation: Conversion from two’s complement to unsigned</p>
+<p>Comparing Equations 2.1 and 2.3, we can see that for bit pattern $\vec{x}$, if we compute the difference $B2U_{w}(\vec{x}) - B2T_{w}(\vec{x})$, the weighted sums for bits from <code>0</code> to <code>w - 2</code> will cancel each other, leaving a value $B2U_{w}(\vec{x}) - B2T_{w}(\vec{x}) = x_{w-1} (2^{w-1} - -2^{w-1}) = x_{w-1}2^{w}$. This gives a relationship $B2U_{w}(\vec{x}) = B2T_{w}(\vec{x}) + x_{w-1}2^{w}$. We therefore have
+$$
+B2U_{w}(T2B_{w}(x)) = T2U_{w}(x) = x ;+;x_{w-1}2^{w} \qquad (2.6)
+$$</p>
+<p>For the two’s-complement case, the most significant bit serves as the sign bit, which we diagram as a leftward-pointing gray bar. For the unsigned case, this bit has positive weight, which we show as a rightward-pointing black bar.</p>
+<p><img src="/blog/CSAPP/2.16.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Comparing unsigned and two’s-complement representations for w = 4."
+	
+	
+></p>
+<p><img src="/blog/CSAPP/2.17.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Conversion from two’s complement to unsigned."
+	
+	
+></p>
+<p><img src="/blog/CSAPP/2.18.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Conversion from unsigned to two’s complement."
+	
+	
+></p>
+<p>principle: Unsigned to two’s-complement conversion
+For u such that $0 \leq u \leq UMax_{w}$:
+$$
+U2T_{w}(u) = \begin{cases}
+u, &amp; u \leq TMax_{w} \
+u - 2^{w}, &amp; u &gt; Tmax_{w}
+\end{cases} \qquad (2.7)
+$$</p>
+<p>derivation: Unsigned to two’s-complement conversion
+Let $\vec{u} = U2B_{w}(u)$. This bit vector will also be the two’s-complement representation of $U2T_{w}(u)$. Equations 2.1 and 2.3 can be combined to give
+$$
+U2T_{w}(u) = -u_{w-1}2^{w} + u \qquad (2.8)
+$$</p>
+<p>To summarize, we considered the effects of converting in both directions between unsigned and two’s-complement representations. For values x in the range $0 \leq x \leq TMax_{w}$, we have $T2U_{w}(x) = x$ and $U2T_{w}(x) = x$. That is, numbers in this range have identical unsigned and two’s-complement representations. For values outside of this range, the conversions either add or subtract $2^{w}$. For example, we have $T2U_{w}(-1) = -1 + 2^{w}$ -the negative number closest to zero maps to the largest unsigned number. At the other extreme, one can see that $T2U_{w}(TMin_{w}) = -2^{w-1} + 2^{w} = 2^{w-1} = TMax_{w} - 1$ —the most negative number maps to an unsigned number just outside the range of positive two’s-complement numbers. Using the example of Figure 2.15, we can see that $T2U_{16}(-12345) = 65536 + -12345 = 53191$.</p>
+<h3 id="225-signed-versus-unsigned-in-c">2.2.5 Signed versus Unsigned in C
+</h3><p>From here on, since repeatedly taking screenshots and copying key words is very troublesome, I will only record key words that help with memory as summarized by myself, which also serves as an index.</p>
+<p>most signed by default, suffix <code>u</code> for unsigned</p>
+<p>%d, %u, and %x
+a signed decimal, an unsigned decimal, and in hexadecimal format</p>
+<p>possible, print, int with %u, unsigned with %d</p>
+<p>result of the expression <code>-1 &lt; 0U</code> is <em>0 and unsigned</em>, since <code>0U</code> is unsigned, <code>-1</code> is implicitly cast to unsigned, which is $T2U_{w}(-1) = UMax_{w} = 4294967295U$.</p>
+<h3 id="226-expanding-the-bit-representation-of-a-number">2.2.6 Expanding the Bit Representation of a Number
+</h3><p>unsigned -&gt; large data type =&gt; add leading <em>zeros</em></p>
+<p>two&rsquo;s-complement -&gt;</p>
+<p>[](how could)</p>
 
 </section>
 
@@ -660,7 +784,7 @@ Formatted printing with fixed-width types requires use of macros that expand int
 
 
         <span>
-            Last updated on Nov 17, 2024 09:27 CST
+            Last updated on Nov 21, 2024 10:48 CST
         </span>
     </section></footer>
 
@@ -716,6 +840,32 @@ Formatted printing with fixed-width types requires use of macros that expand int
             
                 
 <article class="">
+    <a href="/blog/p/how-could-the-number-of-bigger-data-type-with-leading-1-equals-to-the-original-number/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">How could the number of bigger data type with leading 1 equals to the original number?</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/p/why-does-a-twos-complement-encoded-1-convert-to-unsigned-encoding-would-be-the-max-value-of-unsiged-number-t2u_w-1-umax_w/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">why does a two&#39;s complement encoded -1 convert to unsigned encoding would be the max value of unsiged number? ($T2U_{w}(-1) = UMax_{w}$)</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
     <a href="/blog/p/csapp-practice-problems-and-solutions/">
         
         
@@ -735,32 +885,6 @@ Formatted printing with fixed-width types requires use of macros that expand int
 
         <div class="article-details">
             <h2 class="article-title">extract a .tar.gz file</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/blog/p/learn-c-through-code/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">learn C through code</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/blog/p/learn-x86-64-assembly-through-code/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">learn x86-64 assembly through code</h2>
         </div>
     </a>
 </article>

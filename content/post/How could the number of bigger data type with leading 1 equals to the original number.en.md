@@ -10,7 +10,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-21T10:43:23+08:00
+lastmod: 2024-11-21T12:08:58+08:00
 ---
 **You:**
 
@@ -74,4 +74,4 @@ The leading `1`s preserve the negative value in two's-complement, keeping it as 
 
 This process guarantees that the number's value remains consistent regardless of its width.
 
-
+[[虎码用法记录.zh-cn]]

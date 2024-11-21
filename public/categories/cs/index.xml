@@ -7,7 +7,197 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Sat, 16 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/cs/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 21 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/cs/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>How could the number of bigger data type with leading 1 equals to the original number?</title>
+        <link>http://localhost:1313/blog/p/how-could-the-number-of-bigger-data-type-with-leading-1-equals-to-the-original-number/</link>
+        <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/how-could-the-number-of-bigger-data-type-with-leading-1-equals-to-the-original-number/</guid>
+        <description>&lt;p&gt;&lt;strong&gt;You:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;here is a statement in csapp (provided by the image). How could the number of bigger data type with leading 1 equals to the original number? explain it a bit.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241121104304.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;ChatGPT:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This statement refers to the &lt;em&gt;sign extension&lt;/em&gt; process in two&amp;rsquo;s-complement representation, which ensures that the value of a number remains the same when its bit-width is expanded.&lt;/p&gt;
+&lt;h3 id=&#34;key-idea-of-twos-complement-sign-extension&#34;&gt;Key Idea of Two&amp;rsquo;s-Complement Sign Extension
+&lt;/h3&gt;&lt;p&gt;In two&amp;rsquo;s-complement notation, the &lt;strong&gt;most significant bit (MSB)&lt;/strong&gt; is the &lt;strong&gt;sign bit&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;0&lt;/code&gt; indicates a non-negative number.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;1&lt;/code&gt; indicates a negative number.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When extending a two&amp;rsquo;s-complement number to a larger bit-width, &lt;strong&gt;the sign bit is replicated (copied)&lt;/strong&gt; into the additional higher-order bits. This preserves the number&amp;rsquo;s original value because:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For positive numbers (&lt;code&gt;MSB = 0&lt;/code&gt;), adding leading &lt;code&gt;0&lt;/code&gt;s does not change the magnitude.&lt;/li&gt;
+&lt;li&gt;For negative numbers (&lt;code&gt;MSB = 1&lt;/code&gt;), adding leading &lt;code&gt;1&lt;/code&gt;s preserves the negative value by maintaining the two&amp;rsquo;s-complement encoding.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;why-does-this-work&#34;&gt;Why Does This Work?
+&lt;/h3&gt;&lt;p&gt;The key is in how two&amp;rsquo;s-complement numbers are interpreted:&lt;/p&gt;
+&lt;p&gt;$$B2T_w(\mathbf{x}) = -x_{w-1} \cdot 2^{w-1} + \sum_{i=0}^{w-2} x_i \cdot 2^i$$&lt;/p&gt;
+&lt;p&gt;Here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$x_{w-1}$ is the sign bit.&lt;/li&gt;
+&lt;li&gt;$x_i$ are the other bits of the number.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When sign-extending to a new width $w&amp;rsquo; &amp;gt; w$, the replicated bits do not alter the value because:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For positive numbers ($x_{w-1} = 0$), adding leading &lt;code&gt;0&lt;/code&gt;s contributes nothing to the sum.&lt;/li&gt;
+&lt;li&gt;For negative numbers ($x_{w-1} = 1$), adding leading &lt;code&gt;1&lt;/code&gt;s adds a negative offset equivalent to what would be added if the value were represented at the original width $w$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;example-4-bit-to-8-bit&#34;&gt;Example: 4-bit to 8-bit
+&lt;/h3&gt;&lt;p&gt;Let’s see an example.&lt;/p&gt;
+&lt;h4 id=&#34;case-1-positive-number&#34;&gt;Case 1: Positive Number
+&lt;/h4&gt;&lt;p&gt;Consider the 4-bit number $0110$ (6 in decimal). When expanded to 8 bits:&lt;/p&gt;
+&lt;p&gt;$$0110 \rightarrow 00000110$$&lt;/p&gt;
+&lt;p&gt;The value is unchanged, as the leading &lt;code&gt;0&lt;/code&gt;s contribute nothing.&lt;/p&gt;
+&lt;h4 id=&#34;case-2-negative-number&#34;&gt;Case 2: Negative Number
+&lt;/h4&gt;&lt;p&gt;Consider the 4-bit number $1010$ (-6 in decimal). When expanded to 8 bits:&lt;/p&gt;
+&lt;p&gt;$$1010 \rightarrow 11111010$$&lt;/p&gt;
+&lt;p&gt;The leading &lt;code&gt;1&lt;/code&gt;s preserve the negative value in two&amp;rsquo;s-complement, keeping it as -6.&lt;/p&gt;
+&lt;p&gt;This process guarantees that the number&amp;rsquo;s value remains consistent regardless of its width.&lt;/p&gt;
+&lt;p&gt;[[虎码用法记录.zh-cn]]&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>why does a two&#39;s complement encoded -1 convert to unsigned encoding would be the max value of unsiged number? ($T2U_{w}(-1) = UMax_{w}$)</title>
+        <link>http://localhost:1313/blog/p/why-does-a-twos-complement-encoded-1-convert-to-unsigned-encoding-would-be-the-max-value-of-unsiged-number-t2u_w-1-umax_w/</link>
+        <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/why-does-a-twos-complement-encoded-1-convert-to-unsigned-encoding-would-be-the-max-value-of-unsiged-number-t2u_w-1-umax_w/</guid>
+        <description>&lt;p&gt;&lt;strong&gt;You:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m learning csapp, please explain me why $T2U_{w}(-1) = UMax_{w}$.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;ChatGPT:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The equation $T2U_w(-1) = UMax_w$ comes from the relationship between signed and unsigned integer representations in two&amp;rsquo;s complement arithmetic.&lt;/p&gt;
+&lt;p&gt;Here’s why it holds:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Two&amp;rsquo;s Complement Representation&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In $w$-bit two&amp;rsquo;s complement representation, the signed integer $-1$ is represented as a bit pattern where all $w$ bits are $1$. For example, in 4 bits, $-1$ is $1111_2$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Interpreting the Bit Pattern as Unsigned&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When interpreted as an unsigned number, the bit pattern $1111_2$ corresponds to the maximum unsigned value for $w$ bits, which is $2^w - 1$. This is because all $w$ bits contribute their maximum weight to the value.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In 4 bits: $1111_2 = 2^4 - 1 = 15$.&lt;/li&gt;
+&lt;li&gt;In 8 bits: $11111111_2 = 2^8 - 1 = 255$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Generalization&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The function $T2U_w(x)$ takes a signed integer $x$ and converts its two&amp;rsquo;s complement representation to an unsigned integer interpretation.&lt;/li&gt;
+&lt;li&gt;For $x = -1$, the bit pattern is all $1$&amp;rsquo;s, so $T2U_w(-1) = UMax_w$, where $UMax_w = 2^w - 1$ is the maximum unsigned value for $w$ bits.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion
+&lt;/h3&gt;&lt;p&gt;The equation $T2U_w(-1) = UMax_w$ reflects the dual interpretation of the same bit pattern under two&amp;rsquo;s complement (signed) and unsigned interpretations. The bit pattern for $-1$ in two&amp;rsquo;s complement is always the largest possible value in unsigned representation.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;You:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;if -1 in two&amp;rsquo;s complement is represented by $1111_2$, how is the $TMin_2$ represented?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;ChatGPT:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In two&amp;rsquo;s complement representation, the minimum signed value ($TMin_w$) for $w$-bit integers is represented by a bit pattern where the most significant bit (MSB) is $1$ and all other bits are $0$.&lt;/p&gt;
+&lt;p&gt;For $w = 2$, the minimum value ($TMin_2$) is represented as:&lt;/p&gt;
+&lt;p&gt;$$10_2$$&lt;/p&gt;
+&lt;h3 id=&#34;explanation&#34;&gt;Explanation:
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Range of Two&amp;rsquo;s Complement Values&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For $w$-bit two&amp;rsquo;s complement, the range of values is: $$TMin_w = -2^{w-1} \quad \text{to} \quad TMax_w = 2^{w-1} - 1$$&lt;/li&gt;
+&lt;li&gt;For $w = 2$, this range is: $$TMin_2 = -2^{2-1} = -2, \quad TMax_2 = 2^{2-1} - 1 = 1$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Bit Pattern for $TMin_2$&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The MSB in two&amp;rsquo;s complement indicates the sign of the number:
+&lt;ul&gt;
+&lt;li&gt;$0$: Non-negative.&lt;/li&gt;
+&lt;li&gt;$1$: Negative.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;$TMin_w$ is the most negative number, so its MSB is $1$, and all other bits are $0$.&lt;/li&gt;
+&lt;li&gt;For $w = 2$, $TMin_2$ is: $$10_2$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Verification&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The bit pattern $10_2$ represents: $$-2^{1} + 0 \cdot 2^{0} = -2$$&lt;/li&gt;
+&lt;li&gt;This matches $TMin_2$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;summary&#34;&gt;Summary:
+&lt;/h3&gt;&lt;p&gt;For $w = 2$, $TMin_2$ ($-2$) is represented by the bit pattern $10_2$.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;You:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If the MSB is represent for a &lt;em&gt;sign&lt;/em&gt;, how can it also be a counted number and involve in the calculation of its value?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;ChatGPT:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Great question! This is a key insight into how two&amp;rsquo;s complement works—it combines the sign and value representation in a single system, allowing arithmetic operations to proceed uniformly without special handling for positive and negative numbers.&lt;/p&gt;
+&lt;p&gt;Here’s how it works:&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;1-the-role-of-the-msb-in-twos-complement&#34;&gt;&lt;strong&gt;1. The Role of the MSB in Two&amp;rsquo;s Complement&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;In $w$-bit two&amp;rsquo;s complement representation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The most significant bit (MSB) is indeed the &lt;em&gt;sign bit&lt;/em&gt;:
+&lt;ul&gt;
+&lt;li&gt;$0$: Non-negative.&lt;/li&gt;
+&lt;li&gt;$1$: Negative.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;However, the MSB also contributes to the &lt;em&gt;numerical value&lt;/em&gt; of the number. This is achieved by assigning the MSB a negative weight, making it part of the number&amp;rsquo;s representation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;2-signed-value-calculation-in-twos-complement&#34;&gt;&lt;strong&gt;2. Signed Value Calculation in Two&amp;rsquo;s Complement&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;The value of a $w$-bit number in two&amp;rsquo;s complement is computed as:&lt;/p&gt;
+&lt;p&gt;$$\text{Value} = -2^{w-1} \cdot \text{MSB} + \sum_{i=0}^{w-2} 2^i \cdot \text{bit}[i]$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The MSB contributes $-2^{w-1}$ if it is $1$, which gives the number its negative weight.&lt;/li&gt;
+&lt;li&gt;All other bits ($\text{bit}[i]$) contribute their usual positive weights.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;3-example-4-bit-twos-complement&#34;&gt;&lt;strong&gt;3. Example: 4-Bit Two&amp;rsquo;s Complement&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;Let’s illustrate with $w = 4$:&lt;/p&gt;
+&lt;h4 id=&#34;positive-number-0101_2&#34;&gt;&lt;strong&gt;Positive Number ($0101_2$):&lt;/strong&gt;
+&lt;/h4&gt;&lt;p&gt;$$\text{MSB} = 0 \quad \Rightarrow \quad \text{Value} = 0 \cdot (-2^3) + 2^2 + 0 \cdot 2^1 + 2^0 = 4 + 0 + 1 = 5$$&lt;/p&gt;
+&lt;h4 id=&#34;negative-number-1011_2&#34;&gt;&lt;strong&gt;Negative Number ($1011_2$):&lt;/strong&gt;
+&lt;/h4&gt;&lt;p&gt;$$\text{MSB} = 1 \quad \Rightarrow \quad \text{Value} = 1 \cdot (-2^3) + 0 \cdot 2^2 + 2^1 + 2^0 = -8 + 0 + 2 + 1 = -5$$&lt;/p&gt;
+&lt;p&gt;Notice how the MSB flips the numerical value into the negative range when it is $1$.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;4-why-this-works-for-arithmetic&#34;&gt;&lt;strong&gt;4. Why This Works for Arithmetic&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;By interpreting the MSB as $-2^{w-1}$, two&amp;rsquo;s complement ensures:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Arithmetic (addition and subtraction) can be performed without special handling for signed and unsigned numbers.&lt;/li&gt;
+&lt;li&gt;Overflow detection and handling become consistent with bit manipulation rules.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For instance:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adding $0101_2$ ($+5$) and $1011_2$ ($-5$) in two&amp;rsquo;s complement directly gives $0000_2$ ($0$).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;5-intuition&#34;&gt;&lt;strong&gt;5. Intuition&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;The MSB’s dual role as both the sign and a weighted bit is the magic of two&amp;rsquo;s complement. It ensures that the entire binary number encodes both the magnitude and the sign seamlessly, allowing all bits—including the MSB—to be treated consistently in calculations.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>extract a .tar.gz file</title>
         <link>http://localhost:1313/blog/p/extract-a-.tar.gz-file/</link>
         <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
@@ -152,13 +342,67 @@ Note that letters ‘a’ through ‘z’ have ASCII codes 0x61 through 0x7A.&lt
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;%25%20tp.file.cursor%282%29%20%25&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.17-1.png&#34;
 	
 	
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;&amp;lt;% tp.file.cursor(1) %&amp;gt;&#34;
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.17-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.18-1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.18-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.19-1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.19-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.20.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.21.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
 	
 	
 &gt;&lt;/p&gt;
@@ -355,6 +599,31 @@ $$&lt;/p&gt;
 &lt;li&gt;&lt;code&gt;\qquad&lt;/code&gt;: &amp;ldquo;quad&amp;rdquo; refers to a unit of horizontal spacing (specifically a quadratically sized space). So &lt;code&gt;\qquad&lt;/code&gt; means &amp;ldquo;quadratic space&amp;rdquo; - it creates a wide horizontal space&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;\ldots&lt;/code&gt;: &amp;ldquo;l&amp;rdquo; stands for &amp;ldquo;low&amp;rdquo; - these are dots that appear on the baseline, as opposed to &lt;code&gt;\cdots&lt;/code&gt; where &amp;ldquo;c&amp;rdquo; stands for &amp;ldquo;centered&amp;rdquo; dots that appear in the middle. So &lt;code&gt;\ldots&lt;/code&gt; means &amp;ldquo;low dots&amp;rdquo;.&lt;/li&gt;
 &lt;li&gt;$\doteq$ is commonly used in mathematics and computer science to denote a &amp;ldquo;definitional equality&amp;rdquo; - meaning it&amp;rsquo;s used when you&amp;rsquo;re defining something, rather than just stating that two things are equal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cases-curly-brace-condition-greater-and-equal-to&#34;&gt;Cases (curly brace), Condition, Greater and equal to
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;T2U&lt;span class=&#34;nb&#34;&gt;_{&lt;/span&gt;w&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\left&lt;/span&gt;( x &lt;span class=&#34;k&#34;&gt;\right&lt;/span&gt;)  = &lt;span class=&#34;k&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;cases&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;x + 2&lt;span class=&#34;nb&#34;&gt;^{&lt;/span&gt;w&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;, &lt;span class=&#34;nb&#34;&gt;&amp;amp;&lt;/span&gt; x &amp;lt; 0  &lt;span class=&#34;k&#34;&gt;\\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;x, &lt;span class=&#34;nb&#34;&gt;&amp;amp;&lt;/span&gt; x &lt;span class=&#34;k&#34;&gt;\geq&lt;/span&gt; 0
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;cases&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;\qquad&lt;/span&gt; (2.5)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;$$
+T2U_{w}\left( x \right)  = \begin{cases}
+x + 2^{w}, &amp;amp; x &amp;lt; 0  \
+x, &amp;amp; x \geq 0
+\end{cases} \qquad (2.5)
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;\\&lt;/code&gt; means newline.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;amp;&lt;/code&gt; before &lt;code&gt;x &amp;lt; 0&lt;/code&gt; is an alignment operator&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
@@ -1045,18 +1314,139 @@ D. binary 1100100010110110010110 to hexadecimal&lt;/p&gt;
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;principle: Definition of unsigned encoding&lt;/p&gt;
 &lt;p&gt;For vector $\vec{x} = [x_{w-1}, x_{w-2}, \ldots, x_{0}$:
 $$
 B2U_{w}(\vec{x}) = \sum_{i=0}^{w-1}x_{i}2^i \qquad (2.1)
 $$&lt;/p&gt;
 &lt;p&gt;The least value is given by bit vector $[00 \cdots 0]$ having integer value 0, and the greatest value is given by bit vector $[11 \cdots 1]$ having integer value $UMax_{w} \doteq \sum_{i=0}^{w-1}2^i = 2^w - 1$.&lt;/p&gt;
-&lt;p&gt;principle: Uniqueness of unsigned encoding
-Function B2Uw is a bijection.&lt;/p&gt;
+&lt;p&gt;principle: Uniqueness of unsigned encoding&lt;/p&gt;
+&lt;p&gt;Function $B2U_{w}$ is a bijection.&lt;/p&gt;
 &lt;h3 id=&#34;223-twos-complement-encodings&#34;&gt;2.2.3 Two’s-Complement Encodings
-&lt;/h3&gt;&lt;p&gt;For some programs, it is essential that data types be encoded using representations with specific sizes. For example, when writing programs to enable a machine to communicate over the Internet according to a standard protocol, it is important to have data types compatible with those specified by the protocol. We have seen that some C data types, especially long, have different ranges on different machines, and in fact the C standards only specify the minimum ranges for any data type, not the exact ranges. Although we can choose data types that will be compatible with standard representations on most machines, there is no guarantee of portability.
-We have already encountered the 32- and 64-bit versions of fixed-size integer types (Figure 2.3); they are part of a larger class of data types. The ISO C99 standard introduces this class of integer types in the file stdint.h. This file defines a set of data types with declarations of the form intN_t and uintN_t, specifying N-bit signed and unsigned integers, for different values of N. The exact values of N are implementation dependent, but most compilers allow values of 8, 16, 32, and 64. Thus, we can unambiguously declare an unsigned 16-bit variable by giving it type uint16_t, and a signed variable of 32 bits as int32_t.
-Along with these data types are a set of macros defining the minimum and maximum values for each value of N. These have names of the form INTN_MIN, INTN_MAX, and UINTN_MAX.
-Formatted printing with fixed-width types requires use of macros that expand into format strings in a system-dependent manner. So, for example, the values of variables x and y of type int32_t and uint64_t can be printed by the following call to printf:&lt;/p&gt;
+&lt;/h3&gt;&lt;p&gt;principle: Definition of two’s-complement encoding&lt;/p&gt;
+&lt;p&gt;For vector $\vec{x} = [x_{w-1},x_{w-2},\cdots x_{0}]$:
+$$
+B2T_{w}(\vec{x}) \doteq -x_{w-1}2^{w-1} + \sum_{i=0}^{w-2}x_{i}2^{i} \qquad (2.3)
+$$&lt;/p&gt;
+&lt;p&gt;The MSB (most significant bit) has its dual role as both the sign and a weighted bit.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.13.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Two&amp;rsquo;s-complement number examples forw = 4&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The least representable value is given by bitvector &lt;code&gt;[10 ... 0]&lt;/code&gt; (set the bit with negative weight but clear all others),having integer value $TMin_{w} \doteq - 2^{w-1}$.The greatest value is given by bitvector &lt;code&gt;[01 ... 1]&lt;/code&gt; (clear the bit with negative weight but set all others),having integer value $Tmax_{w} \doteq \sum_{i=0}^{w-2}2^i = 2^{w} - 1$.&lt;/p&gt;
+&lt;p&gt;principle: Uniqueness of two’s-complement encoding&lt;/p&gt;
+&lt;p&gt;Function $B2T_{w}$ is a bijection.&lt;/p&gt;
+&lt;p&gt;$\left| TMin \right| = \left| TMax \right| + 1$&lt;/p&gt;
+&lt;p&gt;Since 0 is nonnegative, this means that it can represent one less positive number than negative.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.14.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Important numbers&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Two other standard representations for signed numbers:
+$$
+B2O_{w}(\vec{x}) \doteq -x_{w-1}(2^{w-1} - 1) + \sum &lt;em&gt;{i=0}^{w-2}x&lt;/em&gt;{i}2^{i}
+$$
+$$
+B2S_{w}(\vec{x}) \doteq (-1)^{x_{w-1}} \cdot \left( \sum &lt;em&gt;{i = 0}^{w-2}x&lt;/em&gt;{i}2^{i} \right)
+$$&lt;/p&gt;
+&lt;h3 id=&#34;224-conversions-between-signed-and-unsigned&#34;&gt;2.2.4 Conversions between Signed and Unsigned
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.15.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Two’s-complement representations of 12,345 and ?12,345, and unsigned representation of 53,191. Note that the latter two have identical bit representations&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;$$
+T2U_{w}\left( \vec{x} \right) \doteq B2U_{w}\left( T2B_{w} \right)
+$$
+$$
+U2T_{w}\left( \vec{x} \right) \doteq B2T_{w}\left( U2B_{w} \right)
+$$&lt;/p&gt;
+&lt;p&gt;principle: Conversion from two’s complement to unsigned&lt;/p&gt;
+&lt;p&gt;For x such that $TMinw ≤ x ≤ TMaxw$:
+$$
+T2U_{w}\left( x \right)  = \begin{cases}
+x + 2^{w}, &amp;amp; x &amp;lt; 0  \
+x, &amp;amp; x \geq 0
+\end{cases} \qquad (2.5)
+$$&lt;/p&gt;
+&lt;p&gt;derivation: Conversion from two’s complement to unsigned&lt;/p&gt;
+&lt;p&gt;Comparing Equations 2.1 and 2.3, we can see that for bit pattern $\vec{x}$, if we compute the difference $B2U_{w}(\vec{x}) - B2T_{w}(\vec{x})$, the weighted sums for bits from &lt;code&gt;0&lt;/code&gt; to &lt;code&gt;w - 2&lt;/code&gt; will cancel each other, leaving a value $B2U_{w}(\vec{x}) - B2T_{w}(\vec{x}) = x_{w-1} (2^{w-1} - -2^{w-1}) = x_{w-1}2^{w}$. This gives a relationship $B2U_{w}(\vec{x}) = B2T_{w}(\vec{x}) + x_{w-1}2^{w}$. We therefore have
+$$
+B2U_{w}(T2B_{w}(x)) = T2U_{w}(x) = x ;+;x_{w-1}2^{w} \qquad (2.6)
+$$&lt;/p&gt;
+&lt;p&gt;For the two’s-complement case, the most significant bit serves as the sign bit, which we diagram as a leftward-pointing gray bar. For the unsigned case, this bit has positive weight, which we show as a rightward-pointing black bar.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.16.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Comparing unsigned and two’s-complement representations for w = 4.&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.17.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Conversion from two’s complement to unsigned.&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.18.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Conversion from unsigned to two’s complement.&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;principle: Unsigned to two’s-complement conversion
+For u such that $0 \leq u \leq UMax_{w}$:
+$$
+U2T_{w}(u) = \begin{cases}
+u, &amp;amp; u \leq TMax_{w} \
+u - 2^{w}, &amp;amp; u &amp;gt; Tmax_{w}
+\end{cases} \qquad (2.7)
+$$&lt;/p&gt;
+&lt;p&gt;derivation: Unsigned to two’s-complement conversion
+Let $\vec{u} = U2B_{w}(u)$. This bit vector will also be the two’s-complement representation of $U2T_{w}(u)$. Equations 2.1 and 2.3 can be combined to give
+$$
+U2T_{w}(u) = -u_{w-1}2^{w} + u \qquad (2.8)
+$$&lt;/p&gt;
+&lt;p&gt;To summarize, we considered the effects of converting in both directions between unsigned and two’s-complement representations. For values x in the range $0 \leq x \leq TMax_{w}$, we have $T2U_{w}(x) = x$ and $U2T_{w}(x) = x$. That is, numbers in this range have identical unsigned and two’s-complement representations. For values outside of this range, the conversions either add or subtract $2^{w}$. For example, we have $T2U_{w}(-1) = -1 + 2^{w}$ -the negative number closest to zero maps to the largest unsigned number. At the other extreme, one can see that $T2U_{w}(TMin_{w}) = -2^{w-1} + 2^{w} = 2^{w-1} = TMax_{w} - 1$ —the most negative number maps to an unsigned number just outside the range of positive two’s-complement numbers. Using the example of Figure 2.15, we can see that $T2U_{16}(-12345) = 65536 + -12345 = 53191$.&lt;/p&gt;
+&lt;h3 id=&#34;225-signed-versus-unsigned-in-c&#34;&gt;2.2.5 Signed versus Unsigned in C
+&lt;/h3&gt;&lt;p&gt;From here on, since repeatedly taking screenshots and copying key words is very troublesome, I will only record key words that help with memory as summarized by myself, which also serves as an index.&lt;/p&gt;
+&lt;p&gt;most signed by default, suffix &lt;code&gt;u&lt;/code&gt; for unsigned&lt;/p&gt;
+&lt;p&gt;%d, %u, and %x
+a signed decimal, an unsigned decimal, and in hexadecimal format&lt;/p&gt;
+&lt;p&gt;possible, print, int with %u, unsigned with %d&lt;/p&gt;
+&lt;p&gt;result of the expression &lt;code&gt;-1 &amp;lt; 0U&lt;/code&gt; is &lt;em&gt;0 and unsigned&lt;/em&gt;, since &lt;code&gt;0U&lt;/code&gt; is unsigned, &lt;code&gt;-1&lt;/code&gt; is implicitly cast to unsigned, which is $T2U_{w}(-1) = UMax_{w} = 4294967295U$.&lt;/p&gt;
+&lt;h3 id=&#34;226-expanding-the-bit-representation-of-a-number&#34;&gt;2.2.6 Expanding the Bit Representation of a Number
+&lt;/h3&gt;&lt;p&gt;unsigned -&amp;gt; large data type =&amp;gt; add leading &lt;em&gt;zeros&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;two&amp;rsquo;s-complement -&amp;gt;&lt;/p&gt;
+&lt;p&gt;[](how could)&lt;/p&gt;
 </description>
         </item>
         <item>
