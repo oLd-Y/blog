@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-21T09:21:34+08:00
+lastmod: 2024-11-21T10:48:13+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -248,3 +248,6 @@ result of the expression `-1 < 0U` is *0 and unsigned*, since `0U` is unsigned, 
 
 unsigned -> large data type => add leading *zeros*
 
+two's-complement -> 
+
+[](how could)
