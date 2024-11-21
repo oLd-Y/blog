@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-20T13:51:37+08:00
+lastmod: 2024-11-21T08:00:15+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -239,4 +239,6 @@ most signed by default, suffix `u` for unsigned
 a signed decimal, an unsigned decimal, and in hexadecimal format
 
 possible, print, int with %u, unsigned with %d
+
+result of the expression `-1 < 0U` is *0 and unsigned*, since `0U` is unsigned, `-1` is implicitly cast to unsigned, which is $T2U_{w}(-1) = UMax_{w} = 4294967295U$.
 
