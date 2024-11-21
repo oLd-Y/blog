@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-11-21T09:33:45+08:00
+lastmod: 2024-11-21T13:30:14+08:00
 draft: true
 ---
 - [ ] Latex suite better input
@@ -12,7 +12,7 @@ draft: true
 - [ ] 先吃饭再刷牙还是
 - [ ] obsidian 自动格式化
 - [ ] blog i18n 工具
-- [ ] 
+- [ ] hugo obsidian wiki link 格式渲染
 
 
 

@@ -63,7 +63,6 @@
 &lt;p&gt;$$1010 \rightarrow 11111010$$&lt;/p&gt;
 &lt;p&gt;The leading &lt;code&gt;1&lt;/code&gt;s preserve the negative value in two&amp;rsquo;s-complement, keeping it as -6.&lt;/p&gt;
 &lt;p&gt;This process guarantees that the number&amp;rsquo;s value remains consistent regardless of its width.&lt;/p&gt;
-&lt;p&gt;[[虎码用法记录.zh-cn]]&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -1445,8 +1444,7 @@ a signed decimal, an unsigned decimal, and in hexadecimal format&lt;/p&gt;
 &lt;p&gt;result of the expression &lt;code&gt;-1 &amp;lt; 0U&lt;/code&gt; is &lt;em&gt;0 and unsigned&lt;/em&gt;, since &lt;code&gt;0U&lt;/code&gt; is unsigned, &lt;code&gt;-1&lt;/code&gt; is implicitly cast to unsigned, which is $T2U_{w}(-1) = UMax_{w} = 4294967295U$.&lt;/p&gt;
 &lt;h3 id=&#34;226-expanding-the-bit-representation-of-a-number&#34;&gt;2.2.6 Expanding the Bit Representation of a Number
 &lt;/h3&gt;&lt;p&gt;unsigned -&amp;gt; large data type =&amp;gt; add leading &lt;em&gt;zeros&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;two&amp;rsquo;s-complement -&amp;gt;&lt;/p&gt;
-&lt;p&gt;[](how could)&lt;/p&gt;
+&lt;p&gt;two&amp;rsquo;s-complement -&amp;gt; large data type =&amp;gt; sign extension (filled by the first bit)&lt;/p&gt;
 </description>
         </item>
         <item>

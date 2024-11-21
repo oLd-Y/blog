@@ -10,7 +10,7 @@
 <meta property='og:description' content="Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation">
 <meta property='og:url' content='http://localhost:1313/blog/p/csapp-reading-notes-chapter-2-part-i/'>
 <meta property='og:site_name' content='lyao&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='foundation' /><meta property='article:tag' content='CSAPP' /><meta property='article:published_time' content='2024-11-04T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-11-21T10:48:13&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='foundation' /><meta property='article:tag' content='CSAPP' /><meta property='article:published_time' content='2024-11-04T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-11-21T13:29:32&#43;08:00'/>
 <meta name="twitter:title" content="CSAPP reading notes - Chapter 2 (Part I)">
 <meta name="twitter:description" content="Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation">
     <link rel="shortcut icon" href="/blog/favicon.ico" />
@@ -745,8 +745,7 @@ a signed decimal, an unsigned decimal, and in hexadecimal format</p>
 <p>result of the expression <code>-1 &lt; 0U</code> is <em>0 and unsigned</em>, since <code>0U</code> is unsigned, <code>-1</code> is implicitly cast to unsigned, which is $T2U_{w}(-1) = UMax_{w} = 4294967295U$.</p>
 <h3 id="226-expanding-the-bit-representation-of-a-number">2.2.6 Expanding the Bit Representation of a Number
 </h3><p>unsigned -&gt; large data type =&gt; add leading <em>zeros</em></p>
-<p>two&rsquo;s-complement -&gt;</p>
-<p>[](how could)</p>
+<p>two&rsquo;s-complement -&gt; large data type =&gt; sign extension (filled by the first bit)</p>
 
 </section>
 
@@ -784,7 +783,7 @@ a signed decimal, an unsigned decimal, and in hexadecimal format</p>
 
 
         <span>
-            Last updated on Nov 21, 2024 10:48 CST
+            Last updated on Nov 21, 2024 13:29 CST
         </span>
     </section></footer>
 
