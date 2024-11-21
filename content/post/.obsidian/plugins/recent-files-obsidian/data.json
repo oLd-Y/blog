@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "_TODO",
-      "path": "_TODO.md"
+      "basename": "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误.zh-cn",
+      "path": "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误.zh-cn.md"
+    },
+    {
+      "basename": "How could the number of bigger data type with leading 1 equals to the original number.en",
+      "path": "How could the number of bigger data type with leading 1 equals to the original number.en.md"
     },
     {
       "basename": "CSAPP reading notes - part I, chapter 2.en",
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
+    },
+    {
+      "basename": "虎码用法记录.zh-cn",
+      "path": "虎码用法记录.zh-cn.md"
+    },
+    {
+      "basename": "why $T2U_{w}(-1) = UMax_{w}$.en",
+      "path": "why $T2U_{w}(-1) = UMax_{w}$.en.md"
+    },
+    {
+      "basename": "_TODO",
+      "path": "_TODO.md"
     },
     {
       "basename": "CSAPP practice problem and solutions.en",
@@ -15,10 +31,6 @@
     {
       "basename": "枪炮、病菌与钢铁",
       "path": "_weread/枪炮、病菌与钢铁.md"
-    },
-    {
-      "basename": "虎码用法记录.zh-cn",
-      "path": "虎码用法记录.zh-cn.md"
     },
     {
       "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
