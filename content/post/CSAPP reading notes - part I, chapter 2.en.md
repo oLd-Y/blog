@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-21T08:00:15+08:00
+lastmod: 2024-11-21T09:21:34+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -153,6 +153,8 @@ $$
 B2T_{w}(\vec{x}) \doteq -x_{w-1}2^{w-1} + \sum_{i=0}^{w-2}x_{i}2^{i} \qquad (2.3)
 $$
 
+The MSB (most significant bit) has its dual role as both the sign and a weighted bit.
+
 
 ![Two's-complement number examples forw = 4](CSAPP/2.13.png)
 
@@ -241,4 +243,8 @@ a signed decimal, an unsigned decimal, and in hexadecimal format
 possible, print, int with %u, unsigned with %d
 
 result of the expression `-1 < 0U` is *0 and unsigned*, since `0U` is unsigned, `-1` is implicitly cast to unsigned, which is $T2U_{w}(-1) = UMax_{w} = 4294967295U$.
+
+### 2.2.6 Expanding the Bit Representation of a Number
+
+unsigned -> large data type => add leading *zeros*
 
