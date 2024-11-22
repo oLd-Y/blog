@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "《枪炮、病菌与钢铁》第一部分.md",
+                "file": "CSAPP reading notes - part I, chapter 2.en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "《枪炮、病菌与钢铁》第一部分"
+              "title": "CSAPP reading notes - part I, chapter 2.en"
             }
           },
           {
@@ -135,7 +135,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -260,9 +261,9 @@
   },
   "active": "09515b469d92bf55",
   "lastOpenFiles": [
-    "CSAPP practice problem and solutions.en.md",
-    "_weread/枪炮、病菌与钢铁.md",
     "《枪炮、病菌与钢铁》第一部分.md",
+    "_weread/枪炮、病菌与钢铁.md",
+    "CSAPP practice problem and solutions.en.md",
     "虎码用法记录.zh-cn.md",
     "_TODO.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
