@@ -1,7 +1,7 @@
 {
   "collapse-filter": false,
-  "search": "ahk",
-  "showTags": true,
+  "search": "",
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.2414543899483157,
+  "scale": 0.885498954315047,
   "close": false
 }

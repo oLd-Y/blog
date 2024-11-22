@@ -135,13 +135,11 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 485.5,
-    "collapsed": true
+    "width": 485.5
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -259,16 +257,17 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "09515b469d92bf55",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "CSAPP reading notes - part I, chapter 2.en.md",
+    "0, 0, 0], [0, 0, o.md",
+    "How could the number of bigger data type with leading 1 equals to the original number.en.md",
     "《枪炮、病菌与钢铁》第一部分.md",
     "_weread/枪炮、病菌与钢铁.md",
     "CSAPP practice problem and solutions.en.md",
     "虎码用法记录.zh-cn.md",
     "_TODO.md",
-    "CSAPP reading notes - part I, chapter 2.en.md",
     "extract a .tar.gz file.en.md",
-    "How could the number of bigger data type with leading 1 equals to the original number.en.md",
     "static/ChatGPT",
     "static/新建文件夹",
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误.zh-cn.md",
@@ -290,7 +289,6 @@
     "_weread/影响力（全新升级版）.md",
     "_weread/高效能人士的七个习惯（30周年纪念版）打造一套全新的思维方式和原则体系（经典著作，附赠个人效能PEQ在线测评）.md",
     "_weread/史蒂夫·乔布斯传（修订版）.md",
-    "_weread/纳瓦尔宝典.md",
     "_weread",
     "static/CSAPP/2.18.png",
     "static/CSAPP/pp2.20.png",

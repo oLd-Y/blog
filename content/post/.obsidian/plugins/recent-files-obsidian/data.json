@@ -5,6 +5,10 @@
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
     {
+      "basename": "How could the number of bigger data type with leading 1 equals to the original number.en",
+      "path": "How could the number of bigger data type with leading 1 equals to the original number.en.md"
+    },
+    {
       "basename": "《枪炮、病菌与钢铁》第一部分",
       "path": "《枪炮、病菌与钢铁》第一部分.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "extract a .tar.gz file.en",
       "path": "extract a .tar.gz file.en.md"
-    },
-    {
-      "basename": "How could the number of bigger data type with leading 1 equals to the original number.en",
-      "path": "How could the number of bigger data type with leading 1 equals to the original number.en.md"
     },
     {
       "basename": "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误.zh-cn",

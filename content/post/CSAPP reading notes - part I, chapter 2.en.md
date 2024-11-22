@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-22T08:08:56+08:00
+lastmod: 2024-11-22T10:14:32+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -250,4 +250,5 @@ unsigned -> large data type => add leading *zeros*
 
 two's-complement -> large data type => sign extension (filled by the first bit)
 
-[[How could the number of bigger data type with leading 1 equals to the original number.en]]
+[[How could the number of bigger data type with leading 1 equals to the original number.en |Here is the chatgpt expalanation of why bigger data type with leading 1 equals to the original number.]]
+
