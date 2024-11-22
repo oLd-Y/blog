@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-22T10:14:32+08:00
+lastmod: 2024-11-22T11:25:40+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -249,6 +249,8 @@ result of the expression `-1 < 0U` is *0 and unsigned*, since `0U` is unsigned, 
 unsigned -> large data type => add leading *zeros*
 
 two's-complement -> large data type => sign extension (filled by the first bit)
+
+The key property we exploit is that $2^{w} - 2^{w-1} = 2^{w-1}$. Thus, the combined effect of adding a bit of weight $-2^{w}$ and of converting the bit having weight $-2^{w-1}$ to be one with weight $2^{w-1}$ is to preserve the original numeric value.
 
 [[How could the number of bigger data type with leading 1 equals to the original number.en |Here is the chatgpt expalanation of why bigger data type with leading 1 equals to the original number.]]
 
