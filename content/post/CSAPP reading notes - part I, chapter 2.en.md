@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-23T08:52:38+08:00
+lastmod: 2024-11-23T10:06:11+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -255,3 +255,12 @@ The key property we exploit is that $2^{w} - 2^{w-1} = 2^{w-1}$. Thus, the combi
 [[How could the number of bigger data type with leading 1 equals to the original number.en |Here is the chatgpt expalanation of why bigger data type with leading 1 equals to the original number.]]
 
 When `short` cast to `unsigned`, it will first promote to `int`, result in `(unsigned)(int)` rather than `(unsigned)(unsigned short)`.
+
+### 2.2.7 Truncating Numbers
+
+```c
+  int x = 53191;
+  short sx = (short)x; /* -12345 */
+  int y = sx; /* -12345 */
+```
+
