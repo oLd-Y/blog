@@ -5,7 +5,7 @@ tags:
   - CSAPP
   - practice
 date: 2024-11-14
-lastmod: 2024-11-21T09:02:18+08:00
+lastmod: 2024-11-23T08:58:22+08:00
 draft: false
 weight: 1
 description: 
@@ -72,4 +72,9 @@ description:
 ![](CSAPP/pp2.20.png)
 
 ![](CSAPP/pp2.21.png)
+
+![](CSAPP/pp2.22.png)
+
+
+![](CSAPP/pp2.23.png)
 
