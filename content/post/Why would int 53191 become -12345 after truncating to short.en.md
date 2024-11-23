@@ -9,15 +9,15 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-23T10:09:17+08:00
+lastmod: 2024-11-23T10:35:28+08:00
 ---
-**You:**
+## **You:**
 
 explain the truncation more detailed
 
 * * *
 
-**ChatGPT:**
+## **ChatGPT:**
 
 Let’s dive deeper into what happens when an `int` is **truncated** to a `short` in your program.
 

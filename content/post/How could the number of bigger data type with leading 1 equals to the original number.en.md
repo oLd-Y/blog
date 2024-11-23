@@ -10,9 +10,9 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-21T13:27:28+08:00
+lastmod: 2024-11-23T10:34:37+08:00
 ---
-**You:**
+## **You:**
 
 here is a statement in csapp (provided by the image). How could the number of bigger data type with leading 1 equals to the original number? explain it a bit.
 
@@ -20,7 +20,7 @@ here is a statement in csapp (provided by the image). How could the number of bi
 
 * * *
 
-**ChatGPT:**
+## **ChatGPT:**
 
 This statement refers to the _sign extension_ process in two's-complement representation, which ensures that the value of a number remains the same when its bit-width is expanded.
 

@@ -167,7 +167,7 @@
     "Excalidraw 自定义中文字体.zh-cn.md": "64079062a9b4d6c5838035a24fb2f1236cfb5147c7c658f06fa9c280fdfbf2e6",
     "Windows 命令行展示目录树.zh-cn.md": "72ee0c7d747b21521be65f4a847701c5e3fa4890ad6d9d96503cc5db093d867f",
     "lazyvim 中无法使用 Ctrl - r.zh-cn.md": "c763cfe259622137ffcab502d95914c1dd483c2d01e6d05fd5c43f2a7d40b3fb",
-    "Obsidian 插件记录.zh-cn.md": "5c5b7316a13aace6e21966afbcc8bed240c1ba318cbc0de5e55f8fa402917908",
+    "Obsidian 插件记录.zh-cn.md": "3d5530bb99568223ba41d819124c74d85e5a416b4892ab51e144ef327d6adf04",
     "LazyVim for Ambitious Developers reading notes.en.md": "8bd768c0e228ed99251027c5286f1d20205e19feae84d52d31235488503ee3c7",
     "LazyVim for Ambitious Developers reading notes.zh-cn.md": "5ab422458a57ebfd5d902305520f376cd3653cdb2849f3a025b21f5f49c58699",
     "信号量.zh-cn.md": "8fc3b699be0e0c979cdb2a8ec16af7b1c5de74d3fee457b7014530d87ca5b8ce",
@@ -233,7 +233,7 @@
     "矩阵旋转坐标公式.zh-cn.md": "aa94ef7d94448772cad1c5865d57925d8324b63add039f2731718e465d4edeb0",
     "hdc 无法挂载 minix.zh-cn.md": "0209c96a7364b664c412111684cf6f689b04b71a6899655c6ad2505c49ac604a",
     "KDE arch linux 安装 fcitx5 和 rime 输入法.zh-cn.md": "70ed8b6074719b03f62164b458b0ce730b1007f45f1203bdc476569bfded0428",
-    "CSAPP reading notes - part I, chapter 2.en.md": "092ada0d7fa69b04efaf7388ad9aa9a98c7c8091a6f235e0cc574a87c78919a9",
+    "CSAPP reading notes - part I, chapter 2.en.md": "9b2030359bd648c995f3590b448c20b82b638cd93dd7ef152baa8b4b91e12fc1",
     "《枪炮、病菌与钢铁》读书笔记.zh-cn.md": "fbfc8b5586c59d55d3682a46dfcac6d956ddaa6da1d21a6279fb1ecb7e17c449",
     "learn x86-64 assembly through code.en.md": "62419eb78730088d0ff5d1858521e06d8cd7f86af955c3f3409f7763a24e787e",
     "learn C through code.en.md": "3c1c1cd3587ff81d0c205cdc86de1ffa8ec58759914452c3fafe0d445a64f30c",
@@ -242,9 +242,9 @@
     "好用软件名称记录.zh-cn.md": "fe8822500cc315325b0fa654f86356a592df4cb5e224a3ffcce94bb64e1124c8",
     "Obsidian latex-suite usage.en.md": "e3ff21522ce9a7f80ad5619a79a293fa18e38c88542c7325ebae47275cb17b7b",
     "why $T2U_{w}(-1) = UMax_{w}$.en.md": "f7a83cf1790c432de51e3ef83d636a3cf53cfff352199aa9b3ea56ed382946df",
-    "How could the number of bigger data type with leading 1 equals to the original number.en.md": "a9efb8f41b6d4f1e11b547146499f29ac417a6a19a9037782f7496c6510e1613",
+    "How could the number of bigger data type with leading 1 equals to the original number.en.md": "6f89daf46d5ae27eee50f870615ac87682c4efc438c1fb0db871dc9d3b6c9189",
     "extract a .tar.gz file.en.md": "4554f34c4086f45d75efafcb34d0e68a12563c7b2cb3f0f7ae48616079aef966",
     "《枪炮、病菌与钢铁》第一部分.md": "0a49842a2203a09489c9ea0e3dd7af32fc6f892120529fb7c42599f2ed145f6f",
-    "Why would int 53191 become -12345 after truncating to short.en.md": "cb5a69f31e6b90adafb6b9777c39b0e0149323ccb8e3c2fa9dbbac11d84edf2a"
+    "Why would int 53191 become -12345 after truncating to short.en.md": "edcac8caaf140644d9eea30347d4413c26774bbea4f73d30dcc3f8a7626c7794"
   }
 }
