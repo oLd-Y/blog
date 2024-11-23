@@ -1,24 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Obsidian 插件记录.zh-cn",
-      "path": "Obsidian 插件记录.zh-cn.md"
-    },
-    {
       "basename": "CSAPP reading notes - part I, chapter 2.en",
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
+    },
+    {
+      "basename": "why does the formula the modula of `x mod 2 to k power` will retain k bits.en",
+      "path": "why does the formula the modula of `x mod 2 to k power` will retain k bits.en.md"
     },
     {
       "basename": "How could the number of bigger data type with leading 1 equals to the original number.en",
       "path": "How could the number of bigger data type with leading 1 equals to the original number.en.md"
     },
     {
-      "basename": "Why would int 53191 become -12345 after truncating to short.en",
-      "path": "Why would int 53191 become -12345 after truncating to short.en.md"
-    },
-    {
       "basename": "CSAPP practice problem and solutions.en",
       "path": "CSAPP practice problem and solutions.en.md"
+    },
+    {
+      "basename": "Obsidian 插件记录.zh-cn",
+      "path": "Obsidian 插件记录.zh-cn.md"
+    },
+    {
+      "basename": "Why would int 53191 become -12345 after truncating to short.en",
+      "path": "Why would int 53191 become -12345 after truncating to short.en.md"
     },
     {
       "basename": "枪炮、病菌与钢铁",
