@@ -5,7 +5,7 @@ tags:
   - CSAPP
   - practice
 date: 2024-11-14
-lastmod: 2024-11-23T16:03:43+08:00
+lastmod: 2024-11-24T12:45:28+08:00
 draft: false
 weight: 1
 description: 
@@ -85,5 +85,4 @@ description:
 ![](CSAPP/pp2.26-1.png)
 ![](CSAPP/pp2.26-2.png)
 
-### 2.3 Integer Arithmetic
-
+![](CSAPP/pp2.27.png)

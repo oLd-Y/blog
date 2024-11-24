@@ -232,13 +232,15 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "5f807305454f16b5",
+  "active": "88ba0308e605d3d3",
   "lastOpenFiles": [
+    "static/CSAPP/pp2.27.png",
+    "static/CSAPP/2.27.png",
     "CSAPP reading notes - part I, chapter 2.en.md",
+    "CSAPP practice problem and solutions.en.md",
     "static/CSAPP/pp2.26-2.png",
     "static/CSAPP/pp2.26-1.png",
     "static/CSAPP/pp2.25.png",
-    "CSAPP practice problem and solutions.en.md",
     "static/CSAPP/pp2.24.png",
     "why does the formula the modula of `x mod 2 to k power` will retain k bits.en.md",
     "How could the number of bigger data type with leading 1 equals to the original number.en.md",
@@ -275,7 +277,6 @@
     "_weread/人性的弱点（果麦经典）.md",
     "_weread",
     "static/CSAPP/2.18.png",
-    "static/CSAPP/pp2.20.png",
     "_weread",
     "围城 读后感.zh-cn.md~",
     "4913",

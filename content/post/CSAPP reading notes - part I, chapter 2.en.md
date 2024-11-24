@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-23T15:49:13+08:00
+lastmod: 2024-11-24T12:42:34+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -271,3 +271,7 @@ truncate `x` down to k bits `x'`: $x' = x \mod 2^{k}$
 [[why does the formula the modula of `x mod 2 to k power` will retain k bits.en]]
 
 ### 2.2.8 Advice on Signed versus Unsigned
+
+None
+
+### 2.3 Integer Arithmetic
