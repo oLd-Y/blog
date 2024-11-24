@@ -98,8 +98,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -234,10 +233,11 @@
   },
   "active": "88ba0308e605d3d3",
   "lastOpenFiles": [
+    "_weread/枪炮、病菌与钢铁.md",
+    "CSAPP practice problem and solutions.en.md",
     "static/CSAPP/pp2.27.png",
     "static/CSAPP/2.27.png",
     "CSAPP reading notes - part I, chapter 2.en.md",
-    "CSAPP practice problem and solutions.en.md",
     "static/CSAPP/pp2.26-2.png",
     "static/CSAPP/pp2.26-1.png",
     "static/CSAPP/pp2.25.png",
@@ -251,7 +251,6 @@
     "_ebooks",
     "新建文件夹",
     "static/CSAPP/pp2.23.png",
-    "_weread/枪炮、病菌与钢铁.md",
     "_weread/欧·亨利短篇小说（英文版）.md",
     "linux-0.11 _set_gate 宏解释.md",
     "_set_gate 宏解释.md",
@@ -276,7 +275,6 @@
     "_weread/增广贤文（国学大书院）.md",
     "_weread/人性的弱点（果麦经典）.md",
     "_weread",
-    "static/CSAPP/2.18.png",
     "_weread",
     "围城 读后感.zh-cn.md~",
     "4913",
