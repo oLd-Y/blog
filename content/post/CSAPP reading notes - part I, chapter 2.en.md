@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-24T12:42:34+08:00
+lastmod: 2024-11-25T09:51:05+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -268,10 +268,18 @@ When `short` cast to `unsigned`, it will first promote to `int`, result in `(uns
 
 truncate `x` down to k bits `x'`: $x' = x \mod 2^{k}$
 
-[[why does the formula the modula of `x mod 2 to k power` will retain k bits.en]]
+[[why does the modula of `x mod 2 to k power` will retain k bits.en]]
 
 ### 2.2.8 Advice on Signed versus Unsigned
 
 None
 
 ### 2.3 Integer Arithmetic
+
+### 2.3.2 Two’s-Complement Addition
+
+overflow means remove the most significant bit.
+
+positive overflow: x > 0 & y > 0 but $x +_{w}^{t}y \leq 0$.
+negetive overflow: x < 0 & y < 0 but $x +_{w}^{t}y \geq 0$.
+

@@ -1,5 +1,5 @@
 ---
-title: why does the formula the modula of `x mod 2 to k power` will retain k bits
+title: why does the modula of `x mod 2 to k power` will retain k bits
 categories: CS
 tags:
   - ai-respond/chatgpt
@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-23T13:46:28+08:00
+lastmod: 2024-11-25T09:10:23+08:00
 ---
 ## **ChatGPT:**
 
