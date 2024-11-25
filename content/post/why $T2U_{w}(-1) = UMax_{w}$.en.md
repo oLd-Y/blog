@@ -2,15 +2,14 @@
 title: why does a two's complement encoded -1 convert to unsigned encoding would be the max value of unsiged number? ($T2U_{w}(-1) = UMax_{w}$)
 categories: CS
 tags:
-  - ai-respond
+  - ai-respond/chatgpt
   - CSAPP
-  - chatgpt
 date: 2024-11-21
 description: 
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-21T10:14:18+08:00
+lastmod: 2024-11-25T10:49:59+08:00
 ---
 **You:**
 

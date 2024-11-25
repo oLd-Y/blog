@@ -241,11 +241,12 @@
     "获取某个网页的 cookies.zh-cn.md": "cd9209066100e54b748e913d4701a621c81a2005ea7dd63c151f233a52620493",
     "好用软件名称记录.zh-cn.md": "fe8822500cc315325b0fa654f86356a592df4cb5e224a3ffcce94bb64e1124c8",
     "Obsidian latex-suite usage.en.md": "e3ff21522ce9a7f80ad5619a79a293fa18e38c88542c7325ebae47275cb17b7b",
-    "why $T2U_{w}(-1) = UMax_{w}$.en.md": "f7a83cf1790c432de51e3ef83d636a3cf53cfff352199aa9b3ea56ed382946df",
-    "How could the number of bigger data type with leading 1 equals to the original number.en.md": "6f89daf46d5ae27eee50f870615ac87682c4efc438c1fb0db871dc9d3b6c9189",
+    "why $T2U_{w}(-1) = UMax_{w}$.en.md": "6e4e531ca8f861ad35fd0bb924bab1868ef23877a268d624f6409a57fdf31333",
+    "How could the number of bigger data type with leading 1 equals to the original number.en.md": "b48d25ae9b880db8d2b5edbbd92839f64e60851ed04603b79c1f12bce3506312",
     "extract a .tar.gz file.en.md": "4554f34c4086f45d75efafcb34d0e68a12563c7b2cb3f0f7ae48616079aef966",
     "《枪炮、病菌与钢铁》第一部分.md": "0a49842a2203a09489c9ea0e3dd7af32fc6f892120529fb7c42599f2ed145f6f",
     "Why would int 53191 become -12345 after truncating to short.en.md": "edcac8caaf140644d9eea30347d4413c26774bbea4f73d30dcc3f8a7626c7794",
-    "why does the formula the modula of `x mod 2 to k power` will retain k bits.en.md": "86dae4f4c1c4b05bdacb0c6c99a9fa0925d1322c45128c2e5639fd036d5a3377"
+    "why does the formula the modula of `x mod 2 to k power` will retain k bits.en.md": "86dae4f4c1c4b05bdacb0c6c99a9fa0925d1322c45128c2e5639fd036d5a3377",
+    "bit representation of TMin and TMax.en.md": "c9ee7e99c95f2d9586ae9f2381ad09934fbf38045fe7739a986bb00b5bc303f8"
   }
 }

@@ -3,14 +3,13 @@ title: How could the number of bigger data type with leading 1 equals to the ori
 categories: CS
 tags:
   - CSAPP
-  - chatgpt
-  - ai-respond
+  - ai-respond/chatgpt
 date: 2024-11-21
 description: 
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-23T10:34:37+08:00
+lastmod: 2024-11-25T10:50:22+08:00
 ---
 ## **You:**
 

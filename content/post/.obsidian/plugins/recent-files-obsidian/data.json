@@ -9,12 +9,20 @@
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
     {
-      "basename": "why does the formula the modula of `x mod 2 to k power` will retain k bits.en",
-      "path": "why does the formula the modula of `x mod 2 to k power` will retain k bits.en.md"
-    },
-    {
       "basename": "How could the number of bigger data type with leading 1 equals to the original number.en",
       "path": "How could the number of bigger data type with leading 1 equals to the original number.en.md"
+    },
+    {
+      "basename": "why $T2U_{w}(-1) = UMax_{w}$.en",
+      "path": "why $T2U_{w}(-1) = UMax_{w}$.en.md"
+    },
+    {
+      "basename": "bit representation of TMin and TMax.en",
+      "path": "bit representation of TMin and TMax.en.md"
+    },
+    {
+      "basename": "why does the formula the modula of `x mod 2 to k power` will retain k bits.en",
+      "path": "why does the formula the modula of `x mod 2 to k power` will retain k bits.en.md"
     },
     {
       "basename": "Obsidian 插件记录.zh-cn",
@@ -59,10 +67,6 @@
     {
       "basename": "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误.zh-cn",
       "path": "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误.zh-cn.md"
-    },
-    {
-      "basename": "why $T2U_{w}(-1) = UMax_{w}$.en",
-      "path": "why $T2U_{w}(-1) = UMax_{w}$.en.md"
     },
     {
       "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
