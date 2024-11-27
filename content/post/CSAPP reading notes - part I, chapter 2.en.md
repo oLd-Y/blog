@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-27T11:03:33+08:00
+lastmod: 2024-11-27T11:08:41+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -285,3 +285,7 @@ negetive overflow: x < 0 & y < 0 but $x +_{w}^{t}y \geq 0$.
 $x *_{w}^{t} = U2T_{w}((x\cdot y)\mod 2^{w})$
 
 k bits will be left if you modula a binary x by k.
+
+we can transform multiplication into shifting, for example, x * 14:
+1. 14 = 2^3 + 2^2 + 2^1 => (x<<3) + (x<<2) + (x<<1)
+2. 14 = 2^4 - 2^1 => (x<<4) - (x<<1)
