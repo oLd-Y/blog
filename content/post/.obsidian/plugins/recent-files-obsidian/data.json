@@ -5,16 +5,16 @@
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
     {
+      "basename": "CSAPP practice problem and solutions.en",
+      "path": "CSAPP practice problem and solutions.en.md"
+    },
+    {
       "basename": "bit representation of TMin and TMax.en",
       "path": "bit representation of TMin and TMax.en.md"
     },
     {
       "basename": "why does  the modula of `x mod 2 to k power` will retain k bits.en",
       "path": "why does  the modula of `x mod 2 to k power` will retain k bits.en.md"
-    },
-    {
-      "basename": "CSAPP practice problem and solutions.en",
-      "path": "CSAPP practice problem and solutions.en.md"
     },
     {
       "basename": "How could the number of bigger data type with leading 1 equals to the original number.en",
