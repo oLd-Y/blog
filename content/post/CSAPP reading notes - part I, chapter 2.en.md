@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-27T08:03:15+08:00
+lastmod: 2024-11-27T08:26:49+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -268,8 +268,7 @@ When `short` cast to `unsigned`, it will first promote to `int`, result in `(uns
 
 truncate `x` down to k bits `x'`: $x' = x \mod 2^{k}$
 
-[[why does the modula of `x mod 2 to k power` will retain k bits.en]]
-
+[[why does  the modula of `x mod 2 to k power` will retain k bits.en]]
 ### 2.2.8 Advice on Signed versus Unsigned
 
 None

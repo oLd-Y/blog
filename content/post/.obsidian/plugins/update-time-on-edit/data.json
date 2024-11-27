@@ -233,7 +233,7 @@
     "矩阵旋转坐标公式.zh-cn.md": "aa94ef7d94448772cad1c5865d57925d8324b63add039f2731718e465d4edeb0",
     "hdc 无法挂载 minix.zh-cn.md": "0209c96a7364b664c412111684cf6f689b04b71a6899655c6ad2505c49ac604a",
     "KDE arch linux 安装 fcitx5 和 rime 输入法.zh-cn.md": "70ed8b6074719b03f62164b458b0ce730b1007f45f1203bdc476569bfded0428",
-    "CSAPP reading notes - part I, chapter 2.en.md": "a0131fee23b18d9656dba7cf512751825c8e04b1b4a093605b56301de0370e00",
+    "CSAPP reading notes - part I, chapter 2.en.md": "4710576d0a1064501f7d605cf2d93d1c3f1cb1251a33821d9b086d7a39e65736",
     "《枪炮、病菌与钢铁》读书笔记.zh-cn.md": "fbfc8b5586c59d55d3682a46dfcac6d956ddaa6da1d21a6279fb1ecb7e17c449",
     "learn x86-64 assembly through code.en.md": "62419eb78730088d0ff5d1858521e06d8cd7f86af955c3f3409f7763a24e787e",
     "learn C through code.en.md": "3c1c1cd3587ff81d0c205cdc86de1ffa8ec58759914452c3fafe0d445a64f30c",
@@ -246,7 +246,7 @@
     "extract a .tar.gz file.en.md": "4554f34c4086f45d75efafcb34d0e68a12563c7b2cb3f0f7ae48616079aef966",
     "《枪炮、病菌与钢铁》第一部分.md": "0a49842a2203a09489c9ea0e3dd7af32fc6f892120529fb7c42599f2ed145f6f",
     "Why would int 53191 become -12345 after truncating to short.en.md": "edcac8caaf140644d9eea30347d4413c26774bbea4f73d30dcc3f8a7626c7794",
-    "why does the formula the modula of `x mod 2 to k power` will retain k bits.en.md": "86dae4f4c1c4b05bdacb0c6c99a9fa0925d1322c45128c2e5639fd036d5a3377",
-    "bit representation of TMin and TMax.en.md": "c9ee7e99c95f2d9586ae9f2381ad09934fbf38045fe7739a986bb00b5bc303f8"
+    "bit representation of TMin and TMax.en.md": "c9ee7e99c95f2d9586ae9f2381ad09934fbf38045fe7739a986bb00b5bc303f8",
+    "why does  the modula of `x mod 2 to k power` will retain k bits.en.md": "86dae4f4c1c4b05bdacb0c6c99a9fa0925d1322c45128c2e5639fd036d5a3377"
   }
 }

@@ -5,6 +5,14 @@
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
     {
+      "basename": "bit representation of TMin and TMax.en",
+      "path": "bit representation of TMin and TMax.en.md"
+    },
+    {
+      "basename": "why does  the modula of `x mod 2 to k power` will retain k bits.en",
+      "path": "why does  the modula of `x mod 2 to k power` will retain k bits.en.md"
+    },
+    {
       "basename": "CSAPP practice problem and solutions.en",
       "path": "CSAPP practice problem and solutions.en.md"
     },
@@ -15,14 +23,6 @@
     {
       "basename": "why $T2U_{w}(-1) = UMax_{w}$.en",
       "path": "why $T2U_{w}(-1) = UMax_{w}$.en.md"
-    },
-    {
-      "basename": "bit representation of TMin and TMax.en",
-      "path": "bit representation of TMin and TMax.en.md"
-    },
-    {
-      "basename": "why does the formula the modula of `x mod 2 to k power` will retain k bits.en",
-      "path": "why does the formula the modula of `x mod 2 to k power` will retain k bits.en.md"
     },
     {
       "basename": "Obsidian 插件记录.zh-cn",
