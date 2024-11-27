@@ -35,8 +35,7 @@
               "title": "CSAPP practice problem and solutions.en"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,11 +97,13 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 485.5
+    "width": 485.5,
+    "collapsed": true
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -230,12 +231,12 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "88ba0308e605d3d3",
+  "active": "b5a07848f81a5c9f",
   "lastOpenFiles": [
+    "CSAPP practice problem and solutions.en.md",
     "static/CSAPP/pp2.33.png",
     "static/CSAPP/2.33.png",
     "CSAPP reading notes - part I, chapter 2.en.md",
-    "CSAPP practice problem and solutions.en.md",
     "How could the number of bigger data type with leading 1 equals to the original number.en.md",
     "why $T2U_{w}(-1) = UMax_{w}$.en.md",
     "bit representation of TMin and TMax.en.md",
@@ -248,7 +249,6 @@
     "why does the formula the modula of `x mod 2 to k power` will retain k bits.en.md",
     "static/CSAPP/pp2.28-2.png",
     "static/CSAPP/pp2.28-1.png",
-    "static/CSAPP/2.28-2.png",
     "_weread/枪炮、病菌与钢铁.md",
     "Obsidian 插件记录.zh-cn.md",
     "Why would int 53191 become -12345 after truncating to short.en.md",
