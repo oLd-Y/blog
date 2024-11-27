@@ -5,7 +5,7 @@ tags:
   - CSAPP
   - practice
 date: 2024-11-14
-lastmod: 2024-11-27T11:32:02+08:00
+lastmod: 2024-11-27T12:09:44+08:00
 draft: false
 weight: 1
 description: 
@@ -119,3 +119,5 @@ description:
 ![](CSAPP/pp2.40.png)
 
 ![](CSAPP/pp2.41.png)
+
+$\left\lceil  \frac{x}{2^{k}}  \right\rceil$
