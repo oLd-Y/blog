@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-28T08:00:21+08:00
+lastmod: 2024-11-28T08:56:59+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -289,4 +289,8 @@ k bits will be left if you modula a binary x by k.
 we can transform multiplication into shifting, for example, x * 14:
 1. 14 = 2^3 + 2^2 + 2^1 => (x<<3) + (x<<2) + (x<<1)
 2. 14 = 2^4 - 2^1 => (x<<4) - (x<<1)
+
+For the cases where rounding is required, adding the bias causes the upper bits to be incremented, so that the result will be rounded toward zero.
+
+$\lceil x/y \rceil=\lfloor (x + y - 1) / y\rfloor$
 
