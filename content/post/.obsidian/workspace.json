@@ -35,8 +35,7 @@
               "title": "CSAPP practice problem and solutions.en"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,11 +97,13 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 485.5
+    "width": 485.5,
+    "collapsed": true
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -230,14 +231,14 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "88ba0308e605d3d3",
+  "active": "b5a07848f81a5c9f",
   "lastOpenFiles": [
+    "CSAPP practice problem and solutions.en.md",
     "static/CSAPP/pp2.41.png",
     "static/CSAPP/pp2.40.png",
     "static/CSAPP/pp2.39.png",
     "static/CSAPP/pp2.38.png",
     "CSAPP reading notes - part I, chapter 2.en.md",
-    "CSAPP practice problem and solutions.en.md",
     "static/CSAPP/pp2.37-2.png",
     "static/CSAPP/pp2.35.png",
     "static/CSAPP/pp2.37.png",
@@ -247,7 +248,6 @@
     "bit representation of TMin and TMax.en.md",
     "why does  the modula of `x mod 2 to k power` will retain k bits.en.md",
     "why does the modula of `x mod 2 to k power` will retain k bits.en.md",
-    "static/CSAPP/pp2.33.png",
     "How could the number of bigger data type with leading 1 equals to the original number.en.md",
     "why $T2U_{w}(-1) = UMax_{w}$.en.md",
     "_weread/枪炮、病菌与钢铁.md",
