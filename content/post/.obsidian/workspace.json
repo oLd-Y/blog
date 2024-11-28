@@ -35,7 +35,8 @@
               "title": "CSAPP practice problem and solutions.en"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -231,20 +232,21 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "b5a07848f81a5c9f",
+  "active": "88ba0308e605d3d3",
   "lastOpenFiles": [
+    "static/CSAPP/pp2.44.png",
+    "CSAPP reading notes - part I, chapter 2.en.md",
+    "static/CSAPP/pp2.43.png",
+    "static/CSAPP/pp2.42.png",
     "CSAPP practice problem and solutions.en.md",
     "static/CSAPP/pp2.41.png",
     "static/CSAPP/pp2.40.png",
     "static/CSAPP/pp2.39.png",
     "static/CSAPP/pp2.38.png",
-    "CSAPP reading notes - part I, chapter 2.en.md",
     "static/CSAPP/pp2.37-2.png",
     "static/CSAPP/pp2.35.png",
     "static/CSAPP/pp2.37.png",
     "static/CSAPP/pp2.36.png",
-    "static/CSAPP/pp2.34-2.png",
-    "static/CSAPP/pp2.34.png",
     "bit representation of TMin and TMax.en.md",
     "why does  the modula of `x mod 2 to k power` will retain k bits.en.md",
     "why does the modula of `x mod 2 to k power` will retain k bits.en.md",
