@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-28T09:30:08+08:00
+lastmod: 2024-11-28T10:41:37+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -295,3 +295,11 @@ For the cases where rounding is required, adding the bias causes the upper bits 
 $\lceil x/y \rceil=\lfloor (x + y - 1) / y\rfloor$
 
 c expression that yields x/2^k: `(x<0 ? x+(1<<k)-1 : x) >> k`
+
+## 2.4 Floating Point
+### 2.4.1 Fractional Binary Numbers
+
+$$
+b = \sum_{i=-n}^{m}2^{i} \times b_{i}
+$$
+$$
