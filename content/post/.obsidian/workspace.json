@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "虎码用法记录.zh-cn.md",
+                "file": "CSAPP practice problem and solutions.en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "虎码用法记录.zh-cn"
+              "title": "CSAPP practice problem and solutions.en"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -232,9 +231,11 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "88ba0308e605d3d3",
+  "active": "b5a07848f81a5c9f",
   "lastOpenFiles": [
+    "static/CSAPP/2.33.png",
     "CSAPP practice problem and solutions.en.md",
+    "虎码用法记录.zh-cn.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
     "static/CSAPP/pp2.46-2.png",
     "static/CSAPP/pp2.46.png",
@@ -266,7 +267,6 @@
     "_excalidraw/15.三数之和.excalidraw.md",
     "0, 0, 0], [0, 0, o.md",
     "《枪炮、病菌与钢铁》第一部分.md",
-    "虎码用法记录.zh-cn.md",
     "_TODO.md",
     "extract a .tar.gz file.en.md",
     "static/ChatGPT",
