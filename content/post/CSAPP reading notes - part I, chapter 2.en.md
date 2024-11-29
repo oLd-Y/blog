@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-11-28T19:42:52+08:00
+lastmod: 2024-11-29T08:55:13+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -302,7 +302,11 @@ c expression that yields x/2^k: `(x<0 ? x+(1<<k)-1 : x) >> k`
 $$
 b = \sum_{i=-n}^{m}2^{i} \times b_{i}
 $$
+it can't represent a very large number.
 
 ### 2.4.2 IEEE Floating-Point Representation
+
+The IEEE floating-point standard represents a number in a form:
+$V=(-1)^{s}\times M\times2^{E}$
 
 ![](CSAPP/2.33.png)
