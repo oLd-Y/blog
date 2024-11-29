@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP reading notes - part I, chapter 2.en.md",
+                "file": "虎码用法记录.zh-cn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSAPP reading notes - part I, chapter 2.en"
+              "title": "虎码用法记录.zh-cn"
             }
           },
           {
@@ -231,12 +231,12 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "5f807305454f16b5",
+  "active": "b5a07848f81a5c9f",
   "lastOpenFiles": [
+    "CSAPP reading notes - part I, chapter 2.en.md",
     "static/CSAPP/2.33.png",
     "CSAPP practice problem and solutions.en.md",
     "虎码用法记录.zh-cn.md",
-    "CSAPP reading notes - part I, chapter 2.en.md",
     "static/CSAPP/pp2.46-2.png",
     "static/CSAPP/pp2.46.png",
     "static/CSAPP/pp2.45.png",
@@ -246,7 +246,6 @@
     "static/CSAPP/pp2.41.png",
     "static/CSAPP/pp2.40.png",
     "static/CSAPP/pp2.39.png",
-    "static/CSAPP/pp2.38.png",
     "bit representation of TMin and TMax.en.md",
     "why does  the modula of `x mod 2 to k power` will retain k bits.en.md",
     "why does the modula of `x mod 2 to k power` will retain k bits.en.md",
