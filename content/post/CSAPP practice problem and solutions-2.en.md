@@ -1,16 +1,26 @@
 ---
-title: CSAPP practice problems and solutions
+title: CSAPP practice problems and solutions-2
 categories: CS
 tags:
   - CSAPP
   - practice
 date: 2024-11-14
-lastmod: 2024-12-02T15:30:13+08:00
+lastmod: 2024-12-02T15:34:51+08:00
 draft: false
 weight: 1
 description: 
 ---
 
+![](CSAPP/pp2.1.png)
+
+![](CSAPP/pp2.2.png)
+![](CSAPP/pp2.2-2.png)
+
+![](CSAPP/pp2.3.png)
+![](CSAPP/pp2.3-2.png)
+
+
+![](CSAPP/pp2.4.png)
 
 
 ## 2.5

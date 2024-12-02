@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-12-02T15:25:41+08:00
+lastmod: 2024-12-02T16:18:58+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -317,3 +317,8 @@ E: exponent
 ![](CSAPP/2.33.png)
 
 E = e - bias
+
+### 2.4.4 Rounding Floating-point
+
+4 rounding modes:
+![](CSAPP/2.37.png)

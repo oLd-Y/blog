@@ -233,11 +233,10 @@
     "矩阵旋转坐标公式.zh-cn.md": "aa94ef7d94448772cad1c5865d57925d8324b63add039f2731718e465d4edeb0",
     "hdc 无法挂载 minix.zh-cn.md": "0209c96a7364b664c412111684cf6f689b04b71a6899655c6ad2505c49ac604a",
     "KDE arch linux 安装 fcitx5 和 rime 输入法.zh-cn.md": "70ed8b6074719b03f62164b458b0ce730b1007f45f1203bdc476569bfded0428",
-    "CSAPP reading notes - part I, chapter 2.en.md": "2b550f27744cae605e7f81c62e10ceaceb94778cec8593c9c62889cd3637579b",
+    "CSAPP reading notes - part I, chapter 2.en.md": "1abdad316f457ecdd4ce57759a20c6807ed9f2ef329844ce53902e1396bb6df1",
     "《枪炮、病菌与钢铁》读书笔记.zh-cn.md": "fbfc8b5586c59d55d3682a46dfcac6d956ddaa6da1d21a6279fb1ecb7e17c449",
     "learn x86-64 assembly through code.en.md": "62419eb78730088d0ff5d1858521e06d8cd7f86af955c3f3409f7763a24e787e",
     "learn C through code.en.md": "3c1c1cd3587ff81d0c205cdc86de1ffa8ec58759914452c3fafe0d445a64f30c",
-    "CSAPP practice problem and solutions.en.md": "16301dcbcdf738166dee965f9d932a60f56bbee88ead7f92ad4b4dccb6234c89",
     "获取某个网页的 cookies.zh-cn.md": "cd9209066100e54b748e913d4701a621c81a2005ea7dd63c151f233a52620493",
     "好用软件名称记录.zh-cn.md": "fe8822500cc315325b0fa654f86356a592df4cb5e224a3ffcce94bb64e1124c8",
     "Obsidian latex-suite usage.en.md": "e3ff21522ce9a7f80ad5619a79a293fa18e38c88542c7325ebae47275cb17b7b",
@@ -247,6 +246,8 @@
     "《枪炮、病菌与钢铁》第一部分.md": "0a49842a2203a09489c9ea0e3dd7af32fc6f892120529fb7c42599f2ed145f6f",
     "Why would int 53191 become -12345 after truncating to short.en.md": "edcac8caaf140644d9eea30347d4413c26774bbea4f73d30dcc3f8a7626c7794",
     "bit representation of TMin and TMax.en.md": "c9ee7e99c95f2d9586ae9f2381ad09934fbf38045fe7739a986bb00b5bc303f8",
-    "why does  the modula of `x mod 2 to k power` will retain k bits.en.md": "86dae4f4c1c4b05bdacb0c6c99a9fa0925d1322c45128c2e5639fd036d5a3377"
+    "why does  the modula of `x mod 2 to k power` will retain k bits.en.md": "86dae4f4c1c4b05bdacb0c6c99a9fa0925d1322c45128c2e5639fd036d5a3377",
+    "CSAPP practice problem and solutions-2.en.md": "1ed24f085ef319317aa044b5366c30eef2324fcaad24937564fe1260bb0e81d5",
+    "CSAPP practice problem and solutions-1.en.md": "0e9916eccd573330daa72f06db35f7c5c758a278e423ab6a729204977e76c01a"
   }
 }
