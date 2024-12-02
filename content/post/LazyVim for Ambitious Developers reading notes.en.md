@@ -11,7 +11,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-12T15:26:23+08:00
+lastmod: 2024-12-02T20:36:39+08:00
 ---
 Tutorial link: [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
 
@@ -194,16 +194,13 @@ keys:
 2. `dsfoos`, delete from the cursor to the **first character** of the target word `foo`.
 3. `X` delete the character before the cursor.
 4. `J` to join lines.
-
-`gU<range>` will convert a character of a sequence of characters into uppercase, while the `gu<range>` is the inverse.
-
-`~` inverts the case of character under the cursor.
-
-`q<reg_name>` will start recording a sequence of operations which called `macro`, and press `q` again will stop the recording. The fastest way to play back the latest macro is press `Q`, or you can use `@<reg_name>` instead.
+5. `gU<range>` converts a sequence of characters into uppercase, while the `gu<range>` do the inverse.
+6. `~` inverts the case of character under the cursor.
+7. `q<reg_name>` will start recording a sequence of operations called `macro`, and press `q` again will stop the recording. The fastest way to play back the latest macro is press `Q`, or you can use `@<reg_name>` instead.
 
 ## [Chapter 7. Objects and Operator-Pending Mode](https://lazyvim-ambitious-devs.phillips.codes/course/chapter-7/#_objects_and_operator_pending_mode)
 
-`(`, `{` move the cursor to the beginning of a sentence and paragraph, while `)`, `}` to the end.
+1. `(`, `{` move the cursor to the beginning of a sentence or paragraph, while `)`, `}` to the end.
 
 
 debugger, python, time out error: 
