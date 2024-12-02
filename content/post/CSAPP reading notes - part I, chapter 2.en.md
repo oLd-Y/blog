@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-12-02T16:18:58+08:00
+lastmod: 2024-12-02T16:41:01+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -322,3 +322,6 @@ E = e - bias
 
 4 rounding modes:
 ![](CSAPP/2.37.png)
+
+Halfway point format: `XX...X.YY...Y100...`
+
