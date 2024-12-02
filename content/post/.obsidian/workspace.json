@@ -35,7 +35,8 @@
               "title": "CSAPP practice problem and solutions.en"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -231,11 +232,15 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "b5a07848f81a5c9f",
+  "active": "88ba0308e605d3d3",
   "lastOpenFiles": [
+    "static/CSAPP/pp2.47-2.png",
+    "static/CSAPP/pp2.47.png",
+    "static/CSAPP/2.47-2.png",
+    "static/CSAPP/2.47.png",
+    "CSAPP reading notes - part I, chapter 2.en.md",
     "CSAPP reading notes - chapter 1.en.md",
     "虎码用法记录.zh-cn.md",
-    "CSAPP reading notes - part I, chapter 2.en.md",
     "static/CSAPP/2.33.png",
     "CSAPP practice problem and solutions.en.md",
     "static/CSAPP/pp2.46-2.png",
@@ -244,9 +249,6 @@
     "static/CSAPP/pp2.44.png",
     "static/CSAPP/pp2.43.png",
     "static/CSAPP/pp2.42.png",
-    "static/CSAPP/pp2.41.png",
-    "static/CSAPP/pp2.40.png",
-    "static/CSAPP/pp2.39.png",
     "bit representation of TMin and TMax.en.md",
     "why does  the modula of `x mod 2 to k power` will retain k bits.en.md",
     "why does the modula of `x mod 2 to k power` will retain k bits.en.md",
@@ -274,7 +276,6 @@
     "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误.zh-cn.md",
     "Untitled 1.md",
     "_weread/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
-    "_weread/谁动了我的奶酪.md",
     "_weread",
     "_weread",
     "围城 读后感.zh-cn.md~",
