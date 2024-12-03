@@ -213,7 +213,7 @@
     "560. 和为 K 的子数组.zh-cn.md": "dd73aa6935f4408c73b9997b2c1ad47474e9e3246ccebc2d3ca6a174f5d55282",
     "438. 找到字符串中所有字母异位词.zh-cn.md": "36ca18d1ac29056cf735997adf2b6b8f93c4712d51ce4eeb5bf070717b943aa3",
     "Make a window always on top through AHK.en.md": "95809f5d7ea110fb54b7b19ff2e0ae1353f2e6e77fc924f22f3a542822908405",
-    "lazyvim 配置记录.zh-cn.md": "b40c83c5433f96fef6545fe8ce3848236c8b38be53ce71275adc8256c5290793",
+    "lazyvim 配置记录.zh-cn.md": "627aad466bec8da660d1c5dcd1c74b92e881b3b7c547d4aaa6d1a8c887121841",
     "maven 配置文件设置汇总.zh-cn.md": "d3f2119e7f609ec1a425c790f780d684da3cc4713ad9f349f9b1eb7f894c093c",
     "nvm 安装和使用.zh-cn.md": "b9641a6907eb88d59dae739e391037d871d81d432d762cff631d3e03693c3f4a",
     "Snipaste 固定位置.zh-cn.md": "b838769406b5ec508a6057affea143ab4c853e1605da094d18928cd7f3020ef2",
@@ -248,6 +248,7 @@
     "bit representation of TMin and TMax.en.md": "c9ee7e99c95f2d9586ae9f2381ad09934fbf38045fe7739a986bb00b5bc303f8",
     "why does  the modula of `x mod 2 to k power` will retain k bits.en.md": "86dae4f4c1c4b05bdacb0c6c99a9fa0925d1322c45128c2e5639fd036d5a3377",
     "CSAPP practice problem and solutions-2.en.md": "ae897f6c1edb5e0438269829d168bfcf55e72af2d64f0d03497723932ff9f632",
-    "CSAPP practice problem and solutions-1.en.md": "0e9916eccd573330daa72f06db35f7c5c758a278e423ab6a729204977e76c01a"
+    "CSAPP practice problem and solutions-1.en.md": "0e9916eccd573330daa72f06db35f7c5c758a278e423ab6a729204977e76c01a",
+    "配置 C/lazyvim 中的 C 及 C++ 开发环境.zh-cn.md": "5e0cb8c61c304dab80e29ffb821a4fae914cd35ad2bd1771b57ec8fbbaf27b2c"
   }
 }
