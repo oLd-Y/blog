@@ -5,7 +5,7 @@ tags:
   - CSAPP
   - practice
 date: 2024-11-14
-lastmod: 2024-12-02T16:45:50+08:00
+lastmod: 2024-12-03T19:18:44+08:00
 draft: false
 weight: 1
 description: 
@@ -157,3 +157,9 @@ description:
 
 ![](CSAPP/pp2.52.png)
 
+### 2.4.6 Floating Point in C
+
+![](CSAPP/pp2.53.png)
+
+![](CSAPP/pp2.54.png)
+![](CSAPP/pp2.54-2.png)
