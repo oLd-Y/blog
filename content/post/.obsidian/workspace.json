@@ -112,7 +112,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -245,7 +246,7 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "88ba0308e605d3d3",
+  "active": "5f807305454f16b5",
   "lastOpenFiles": [
     "CSAPP practice problem and solutions-2.en.md",
     "static/CSAPP/pp2.52.png",
