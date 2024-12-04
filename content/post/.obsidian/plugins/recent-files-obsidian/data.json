@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "tmux shortcuts recording.en",
-      "path": "tmux shortcuts recording.en.md"
+      "basename": "CSAPP reading notes - part I, chapter 2.en",
+      "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
     {
       "basename": "CSAPP practice problem and solutions-2.en",
       "path": "CSAPP practice problem and solutions-2.en.md"
+    },
+    {
+      "basename": "tmux shortcuts recording.en",
+      "path": "tmux shortcuts recording.en.md"
+    },
+    {
+      "basename": "lazyvim shortcuts.en",
+      "path": "lazyvim shortcuts.en.md"
     },
     {
       "basename": "LazyVim for Ambitious Developers reading notes.en",
@@ -23,10 +31,6 @@
     {
       "basename": "获取某个网页的 cookies.zh-cn",
       "path": "获取某个网页的 cookies.zh-cn.md"
-    },
-    {
-      "basename": "CSAPP reading notes - part I, chapter 2.en",
-      "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
     {
       "basename": "lazyvim 配置记录.zh-cn",

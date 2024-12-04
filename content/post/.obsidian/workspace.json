@@ -14,10 +14,10 @@
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://chatgpt.com/c/674efa14-3548-8007-95a9-eb7af56710c7"
+                "url": "https://chatgpt.com/c/674fcdfa-94b4-8007-8904-ca80eca53ffb"
               },
               "icon": "lucide-file",
-              "title": "Close tmux window safely"
+              "title": "ChatGPT"
             }
           }
         ]
@@ -68,23 +68,8 @@
               "icon": "lucide-file",
               "title": "CSAPP practice problem and solutions-2.en"
             }
-          },
-          {
-            "id": "5324df4feace4f2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tmux shortcuts recording.en.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "tmux shortcuts recording.en"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -281,10 +266,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "98b4deefcbd6242b",
+  "active": "b5a07848f81a5c9f",
   "lastOpenFiles": [
-    "tmux shortcuts recording.en.md",
     "CSAPP practice problem and solutions-2.en.md",
+    "tmux shortcuts recording.en.md",
+    "lazyvim shortcuts.en.md",
     "LazyVim for Ambitious Developers reading notes.en.md",
     "how to judge whether a machine is little-endian or big-endian.en.md",
     "配置 C/lazyvim 中的 C 及 C++ 开发环境.zh-cn.md",
@@ -323,7 +309,6 @@
     "李治军操作系统-前置知识.md",
     "_excalidraw/11. 盛最多水的容器.excalidraw.md",
     "_excalidraw/15.三数之和.excalidraw.md",
-    "0, 0, 0], [0, 0, o.md",
     "static/ChatGPT",
     "static/新建文件夹",
     "_weread",
