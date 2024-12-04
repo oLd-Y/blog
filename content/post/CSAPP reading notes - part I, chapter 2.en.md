@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-12-04T18:18:31+08:00
+lastmod: 2024-12-04T20:23:55+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -46,6 +46,8 @@ The C language supports multiple data formats for both integer and floating-pion
 ### 2.1.3 Addressing and Byte Ordering
 
 The convention where the least significant bytes comes first is referred to as *little endian*. The convention where the most sifnificant byte comes first is referred to as *big endian*.
+
+For value `x = 0x01234567`, the high-order byte has hexadecimal value `0x01`, while the low-order byte has value `0x67`.
 
 ![](CSAPP/big-little-endian.png)
 
@@ -308,9 +310,13 @@ s: sign
 M: significand
 E: exponent
 
+![](CSAPP/2.32.png)
+
 ![](CSAPP/2.33.png)
 
 E = e - bias
+
+
 
 ### 2.4.4 Rounding Floating-point
 
