@@ -10,7 +10,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-12-04T11:38:43+08:00
+lastmod: 2024-12-04T16:33:16+08:00
 ---
 `man tmux` to view the command details.
 
@@ -25,10 +25,12 @@ Below assume that you use `C-b` as your prefix of tmux.
 `C-b w`, switch among windows.
 
 `C-b ;`, switch to the latest pane.
-`C-b l`, switch to the latest window.
+`C-b l`, swtch to the latest window.
 `C-b L`, switch to the latest session.
 
 `C-b q`，show the panel number, press the number will jump accordingly.
+
+`C-b &`, close the current window.
 
 ## Plugins
 

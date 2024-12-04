@@ -1,32 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "软链接.zh-cn",
-      "path": "软链接.zh-cn.md"
-    },
-    {
-      "basename": "tmux shortcuts recording.en",
-      "path": "tmux shortcuts recording.en.md"
-    },
-    {
       "basename": "CSAPP reading notes - part I, chapter 2.en",
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
     {
-      "basename": "虎码用法记录.zh-cn",
-      "path": "虎码用法记录.zh-cn.md"
+      "basename": "CSAPP reading notes - chapter 1.en",
+      "path": "CSAPP reading notes - chapter 1.en.md"
     },
     {
       "basename": "CSAPP practice problem and solutions-2.en",
       "path": "CSAPP practice problem and solutions-2.en.md"
     },
     {
-      "basename": "lazyvim shortcuts.en",
-      "path": "lazyvim shortcuts.en.md"
+      "basename": "tmux shortcuts recording.en",
+      "path": "tmux shortcuts recording.en.md"
     },
     {
       "basename": "LazyVim for Ambitious Developers reading notes.en",
       "path": "LazyVim for Ambitious Developers reading notes.en.md"
+    },
+    {
+      "basename": "软链接.zh-cn",
+      "path": "软链接.zh-cn.md"
+    },
+    {
+      "basename": "枪炮、病菌与钢铁",
+      "path": "_weread/枪炮、病菌与钢铁.md"
+    },
+    {
+      "basename": "虎码用法记录.zh-cn",
+      "path": "虎码用法记录.zh-cn.md"
+    },
+    {
+      "basename": "lazyvim shortcuts.en",
+      "path": "lazyvim shortcuts.en.md"
     },
     {
       "basename": "how to judge whether a machine is little-endian or big-endian.en",
@@ -47,10 +55,6 @@
     {
       "basename": "CSAPP practice problem and solutions-1.en",
       "path": "CSAPP practice problem and solutions-1.en.md"
-    },
-    {
-      "basename": "CSAPP reading notes - chapter 1.en",
-      "path": "CSAPP reading notes - chapter 1.en.md"
     },
     {
       "basename": "bit representation of TMin and TMax.en",

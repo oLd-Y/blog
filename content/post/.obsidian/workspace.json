@@ -14,7 +14,7 @@
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://chatgpt.com/c/67500da3-ae8c-8007-8f94-010319ac7a58"
+                "url": "https://chatgpt.com/c/6750212c-ab04-8007-a97d-b3ec65870d49"
               },
               "icon": "lucide-file",
               "title": "ChatGPT"
@@ -33,26 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tmux shortcuts recording.en.md",
+                "file": "CSAPP reading notes - part I, chapter 2.en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tmux shortcuts recording.en"
-            }
-          },
-          {
-            "id": "fb259aa277c3519a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软链接.zh-cn.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "软链接.zh-cn"
+              "title": "CSAPP reading notes - part I, chapter 2.en"
             }
           },
           {
@@ -83,8 +69,7 @@
               "title": "CSAPP practice problem and solutions-2.en"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -281,15 +266,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "fb259aa277c3519a",
+  "active": "b5a07848f81a5c9f",
   "lastOpenFiles": [
+    "CSAPP reading notes - chapter 1.en.md",
+    "CSAPP practice problem and solutions-2.en.md",
     "tmux shortcuts recording.en.md",
+    "LazyVim for Ambitious Developers reading notes.en.md",
     "软链接.zh-cn.md",
+    "_weread/枪炮、病菌与钢铁.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
     "虎码用法记录.zh-cn.md",
-    "CSAPP practice problem and solutions-2.en.md",
     "lazyvim shortcuts.en.md",
-    "LazyVim for Ambitious Developers reading notes.en.md",
     "how to judge whether a machine is little-endian or big-endian.en.md",
     "配置 C/lazyvim 中的 C 及 C++ 开发环境.zh-cn.md",
     "获取某个网页的 cookies.zh-cn.md",
@@ -306,13 +293,11 @@
     "static/CSAPP/pp2.48.png",
     "static/CSAPP/pp2.4.png",
     "CSAPP practice problem and solutions-1.en.md",
-    "CSAPP reading notes - chapter 1.en.md",
     "bit representation of TMin and TMax.en.md",
     "why does  the modula of `x mod 2 to k power` will retain k bits.en.md",
     "why does the modula of `x mod 2 to k power` will retain k bits.en.md",
     "How could the number of bigger data type with leading 1 equals to the original number.en.md",
     "why $T2U_{w}(-1) = UMax_{w}$.en.md",
-    "_weread/枪炮、病菌与钢铁.md",
     "Obsidian 插件记录.zh-cn.md",
     "Why would int 53191 become -12345 after truncating to short.en.md",
     "_ebooks/Computer Systems A Programmers Perspective by Ran.pdf",
