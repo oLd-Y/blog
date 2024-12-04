@@ -1,28 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "how to judge whether a machine is little-endian or big-endian.en",
-      "path": "how to judge whether a machine is little-endian or big-endian.en.md"
+      "basename": "tmux shortcuts recording.en",
+      "path": "tmux shortcuts recording.en.md"
     },
     {
       "basename": "CSAPP practice problem and solutions-2.en",
       "path": "CSAPP practice problem and solutions-2.en.md"
     },
     {
-      "basename": "lazyvim 配置记录.zh-cn",
-      "path": "lazyvim 配置记录.zh-cn.md"
+      "basename": "LazyVim for Ambitious Developers reading notes.en",
+      "path": "LazyVim for Ambitious Developers reading notes.en.md"
+    },
+    {
+      "basename": "how to judge whether a machine is little-endian or big-endian.en",
+      "path": "how to judge whether a machine is little-endian or big-endian.en.md"
     },
     {
       "basename": "lazyvim 中的 C 及 C++ 开发环境.zh-cn",
       "path": "配置 C/lazyvim 中的 C 及 C++ 开发环境.zh-cn.md"
     },
     {
+      "basename": "获取某个网页的 cookies.zh-cn",
+      "path": "获取某个网页的 cookies.zh-cn.md"
+    },
+    {
       "basename": "CSAPP reading notes - part I, chapter 2.en",
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
     {
-      "basename": "LazyVim for Ambitious Developers reading notes.en",
-      "path": "LazyVim for Ambitious Developers reading notes.en.md"
+      "basename": "lazyvim 配置记录.zh-cn",
+      "path": "lazyvim 配置记录.zh-cn.md"
     },
     {
       "basename": "CSAPP practice problem and solutions-1.en",
@@ -107,10 +115,6 @@
     {
       "basename": "围城 读后感.zh-cn",
       "path": "围城 读后感.zh-cn.md"
-    },
-    {
-      "basename": "获取某个网页的 cookies.zh-cn",
-      "path": "获取某个网页的 cookies.zh-cn.md"
     },
     {
       "basename": "《刀锋》读后感.zh-cn",
