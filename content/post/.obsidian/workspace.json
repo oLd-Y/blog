@@ -140,7 +140,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -272,7 +273,7 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "5f807305454f16b5",
   "lastOpenFiles": [
     "CSAPP practice problem and solutions-2.en.md",
     "how to judge whether a machine is little-endian or big-endian.en.md",
