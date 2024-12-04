@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-12-02T16:41:01+08:00
+lastmod: 2024-12-04T18:18:31+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -27,12 +27,6 @@ The GNU Compiler Collection (GCC) can compile programs according to the conventi
 Decimal and binary values associated with the hexadecimal digits:
 
 ![Hexadecimal notation](CSAPP/2.2.png)
-
-practice problem 2.1:
-A. 0x25B9D2 to binary
-B. binary 1010111001001001 to hexadecimal
-C. 0xA8B3D to binary
-D. binary 1100100010110110010110 to hexadecimal
 
 For $x = 2,048 = 2^{11}$, we have $n = 11 = 3 + 4 \cdot 2$, giving hexdecimal representation `0x800`.
 

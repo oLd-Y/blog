@@ -5,6 +5,10 @@
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
     {
+      "basename": "LazyVim for Ambitious Developers reading notes.en",
+      "path": "LazyVim for Ambitious Developers reading notes.en.md"
+    },
+    {
       "basename": "CSAPP reading notes - chapter 1.en",
       "path": "CSAPP reading notes - chapter 1.en.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "tmux shortcuts recording.en",
       "path": "tmux shortcuts recording.en.md"
-    },
-    {
-      "basename": "LazyVim for Ambitious Developers reading notes.en",
-      "path": "LazyVim for Ambitious Developers reading notes.en.md"
     },
     {
       "basename": "软链接.zh-cn",
@@ -57,10 +57,6 @@
       "path": "CSAPP practice problem and solutions-1.en.md"
     },
     {
-      "basename": "bit representation of TMin and TMax.en",
-      "path": "bit representation of TMin and TMax.en.md"
-    },
-    {
       "basename": "why does  the modula of `x mod 2 to k power` will retain k bits.en",
       "path": "why does  the modula of `x mod 2 to k power` will retain k bits.en.md"
     },
@@ -95,10 +91,6 @@
     {
       "basename": "15.三数之和.excalidraw",
       "path": "_excalidraw/15.三数之和.excalidraw.md"
-    },
-    {
-      "basename": "《枪炮、病菌与钢铁》第一部分",
-      "path": "《枪炮、病菌与钢铁》第一部分.md"
     },
     {
       "basename": "_TODO",

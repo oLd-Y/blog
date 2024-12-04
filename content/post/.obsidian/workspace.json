@@ -100,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "无法",
+                "query": "现实世界",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -131,8 +131,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -268,13 +267,15 @@
   },
   "active": "b5a07848f81a5c9f",
   "lastOpenFiles": [
+    "《枪炮、病菌与钢铁》第一部分.md",
+    "CSAPP reading notes - part I, chapter 2.en.md",
+    "bit representation of TMin and TMax.en.md",
+    "LazyVim for Ambitious Developers reading notes.en.md",
     "CSAPP reading notes - chapter 1.en.md",
     "CSAPP practice problem and solutions-2.en.md",
     "tmux shortcuts recording.en.md",
-    "LazyVim for Ambitious Developers reading notes.en.md",
     "软链接.zh-cn.md",
     "_weread/枪炮、病菌与钢铁.md",
-    "CSAPP reading notes - part I, chapter 2.en.md",
     "虎码用法记录.zh-cn.md",
     "lazyvim shortcuts.en.md",
     "how to judge whether a machine is little-endian or big-endian.en.md",
@@ -293,7 +294,6 @@
     "static/CSAPP/pp2.48.png",
     "static/CSAPP/pp2.4.png",
     "CSAPP practice problem and solutions-1.en.md",
-    "bit representation of TMin and TMax.en.md",
     "why does  the modula of `x mod 2 to k power` will retain k bits.en.md",
     "why does the modula of `x mod 2 to k power` will retain k bits.en.md",
     "How could the number of bigger data type with leading 1 equals to the original number.en.md",
@@ -308,7 +308,6 @@
     "linux-0.11 _set_gate 宏解释.md",
     "_set_gate 宏解释.md",
     "李治军操作系统-前置知识.md",
-    "_excalidraw/11. 盛最多水的容器.excalidraw.md",
     "static/ChatGPT",
     "static/新建文件夹",
     "_weread",
