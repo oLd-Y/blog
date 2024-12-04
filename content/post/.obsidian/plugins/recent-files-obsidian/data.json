@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "软链接.zh-cn",
+      "path": "软链接.zh-cn.md"
+    },
+    {
+      "basename": "tmux shortcuts recording.en",
+      "path": "tmux shortcuts recording.en.md"
+    },
+    {
       "basename": "CSAPP reading notes - part I, chapter 2.en",
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "CSAPP practice problem and solutions-2.en",
       "path": "CSAPP practice problem and solutions-2.en.md"
-    },
-    {
-      "basename": "tmux shortcuts recording.en",
-      "path": "tmux shortcuts recording.en.md"
     },
     {
       "basename": "lazyvim shortcuts.en",
