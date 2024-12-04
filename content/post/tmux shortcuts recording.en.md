@@ -10,7 +10,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-12-04T10:26:42+08:00
+lastmod: 2024-12-04T11:03:48+08:00
 ---
 `man tmux` to view the command details.
 
@@ -19,8 +19,6 @@ Below assume that you use `C-b` as your prefix of tmux.
 ## Default shortcuts
 
 `C-b o`, switch to the next panel.
-
-`C-b C-o`, exchange the 
 
 `C-b !`, break the panel out into its own window, as a way to hide other pane.
 
@@ -40,14 +38,16 @@ Below assume that you use `C-b` as your prefix of tmux.
 
 ## Plugins
 
-### [tpm](https://github.com/tmux-plugins/tpm)
+### [tpm](https://github.com/tmux-plugins/tpm): manage your tmux plugins.
 
 `C-b I`, install the plugins witten in `.tmux.conf`.
 
-### [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect)
+### [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect): save & reload your session.
 
 `C-b C-s`, save your current session.
 
 `C-b C-r`, reload your last session.
 
-[linux - How to switch to the previous pane by any shortcut in tmux? - Stack Overflow](https://stackoverflow.com/questions/31980036/how-to-switch-to-the-previous-pane-by-any-shortcut-in-tmux)
+[tmux-sensible](https://github.com/tmux-plugins/tmux-sensible): the most sensible configuration of tmux for everyone.
+
+
