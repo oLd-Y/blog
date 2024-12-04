@@ -82,6 +82,18 @@
               "icon": "lucide-file",
               "title": "tmux shortcuts recording.en"
             }
+          },
+          {
+            "id": "949187dab68bc1bf",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://stackoverflow.com/questions/31980036/how-to-switch-to-the-previous-pane-by-any-shortcut-in-tmux"
+              },
+              "icon": "lucide-file",
+              "title": "linux - How to switch to the previous pane by any shortcut in tmux? - Stack Overflow"
+            }
           }
         ],
         "currentTab": 3
@@ -281,7 +293,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "98b4deefcbd6242b",
+  "active": "5324df4feace4f2f",
   "lastOpenFiles": [
     "tmux shortcuts recording.en.md",
     "CSAPP practice problem and solutions-2.en.md",
