@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "lazyvim 超出屏幕的一行不会自动换行.zh-cn",
+      "path": "lazyvim 超出屏幕的一行不会自动换行.zh-cn.md"
+    },
+    {
       "basename": "how to judge whether a machine is little-endian or big-endian.en",
       "path": "how to judge whether a machine is little-endian or big-endian.en.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "李治军操作系统总结",
       "path": "李治军操作系统总结.md"
-    },
-    {
-      "basename": "week",
-      "path": "_templates/archive/week.md"
     }
   ],
   "omittedPaths": []

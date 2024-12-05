@@ -256,6 +256,7 @@
     "Conversion from 2's complement integer to floating point number.en.md": "6ba533f1e578bee96b9a00a757cb688cb7cb1657f82e11c98279b3b0c7ef941b",
     "整数到浮点数的转换.zh-cn.md": "aaf4db057c367d28aee29b693c2e58ffe7f7e3d0e6d83378ebf3619584f0bba0",
     "Untitled.md": "b6fd46bdf8b9612443e21b4bd9f8f72c9744bb6edf66868e348c990d275f6daa",
-    "原码、反码、补码的定义及求值.zh-cn.md": "65767eb80d4d725246b01c6076ccca9b639285091c3616a2e7d809b46094f6e3"
+    "原码、反码、补码的定义及求值.zh-cn.md": "65767eb80d4d725246b01c6076ccca9b639285091c3616a2e7d809b46094f6e3",
+    "lazyvim 超出屏幕的一行不会自动换行.zh-cn.md": "7b51820ada95936f47770e60e57bb1a49685ae6848e8f8c1b6c2ccbda052e474"
   }
 }
