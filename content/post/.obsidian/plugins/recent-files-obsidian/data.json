@@ -5,6 +5,14 @@
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
     {
+      "basename": "内存存放数据的大端模式和小端模式.zh-cn",
+      "path": "内存存放数据的大端模式和小端模式.zh-cn.md"
+    },
+    {
+      "basename": "frontmatters",
+      "path": "_templates/templater/frontmatters.md"
+    },
+    {
       "basename": "虎码用法记录.zh-cn",
       "path": "虎码用法记录.zh-cn.md"
     },
@@ -143,10 +151,6 @@
     {
       "basename": "李治军操作系统总结",
       "path": "李治军操作系统总结.md"
-    },
-    {
-      "basename": "frontmatters",
-      "path": "_templates/templater/frontmatters.md"
     },
     {
       "basename": "new note",

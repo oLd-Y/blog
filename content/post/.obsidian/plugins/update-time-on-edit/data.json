@@ -251,6 +251,7 @@
     "how to judge whether a machine is little-endian or big-endian.en.md": "208b314d6be9a9ae97b8d481e2b2bba9e6740ba044ac5392a7cd987e682bbfb9",
     "tmux shortcuts recording.en.md": "fffffe070f96b5a033b3d67ef3eb61ec5fb6df586cacdc96ab1b8e08196674fc",
     "lazyvim shortcuts.en.md": "46265cfddb456520c0756d2dc65710b4c04724575d4d83427405df71fde95661",
-    "软链接.zh-cn.md": "c6ffba72e4020a54d44f05db0a63975dd4d6444a07fe00aa126de619f0622b2b"
+    "软链接.zh-cn.md": "c6ffba72e4020a54d44f05db0a63975dd4d6444a07fe00aa126de619f0622b2b",
+    "内存存放数据的大端模式和小端模式.zh-cn.md": "2d44bc3494c5454f55629b522281a56bdfd3ecc5ca56e1d153dbb53362c300d0"
   }
 }

@@ -17,7 +17,7 @@
                 "url": "https://chatgpt.com/c/6750212c-ab04-8007-a97d-b3ec65870d49"
               },
               "icon": "lucide-file",
-              "title": "ChatGPT"
+              "title": "CSAPP Two's Complement Explanation"
             }
           }
         ]
@@ -265,9 +265,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "98b4deefcbd6242b",
+  "active": "b5a07848f81a5c9f",
   "lastOpenFiles": [
+    "内存存放数据的大端模式和小端模式.zh-cn.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
+    "_templates/templater/frontmatters.md",
     "static/CSAPP/2.32.png",
     "虎码用法记录.zh-cn.md",
     "《枪炮、病菌与钢铁》第一部分.md",
@@ -306,7 +308,6 @@
     "新建文件夹",
     "_weread/欧·亨利短篇小说（英文版）.md",
     "linux-0.11 _set_gate 宏解释.md",
-    "_set_gate 宏解释.md",
     "static/ChatGPT",
     "static/新建文件夹",
     "_weread",
