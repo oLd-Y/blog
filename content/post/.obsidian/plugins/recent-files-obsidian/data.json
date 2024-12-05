@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "整数到浮点数的转换.zh-cn",
+      "path": "整数到浮点数的转换.zh-cn.md"
+    },
+    {
+      "basename": "frontmatters",
+      "path": "_templates/templater/frontmatters.md"
+    },
+    {
+      "basename": "Conversion from 2's complement integer to floating point number.en",
+      "path": "Conversion from 2's complement integer to floating point number.en.md"
+    },
+    {
+      "basename": "LazyVim for Ambitious Developers reading notes.en",
+      "path": "LazyVim for Ambitious Developers reading notes.en.md"
+    },
+    {
       "basename": "CSAPP reading notes - part I, chapter 2.en",
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
@@ -9,16 +25,8 @@
       "path": "内存存放数据的大端模式和小端模式.zh-cn.md"
     },
     {
-      "basename": "frontmatters",
-      "path": "_templates/templater/frontmatters.md"
-    },
-    {
       "basename": "虎码用法记录.zh-cn",
       "path": "虎码用法记录.zh-cn.md"
-    },
-    {
-      "basename": "LazyVim for Ambitious Developers reading notes.en",
-      "path": "LazyVim for Ambitious Developers reading notes.en.md"
     },
     {
       "basename": "CSAPP reading notes - chapter 1.en",

@@ -56,6 +56,34 @@
             }
           },
           {
+            "id": "39306f3ab675039c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conversion from 2's complement integer to floating point number.en.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Conversion from 2's complement integer to floating point number.en"
+            }
+          },
+          {
+            "id": "7535a37cf12f79f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "整数到浮点数的转换.zh-cn.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "整数到浮点数的转换.zh-cn"
+            }
+          },
+          {
             "id": "d0720cf0b64bf8fb",
             "type": "leaf",
             "state": {
@@ -69,7 +97,8 @@
               "title": "CSAPP practice problem and solutions-2.en"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -265,16 +294,18 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "b5a07848f81a5c9f",
+  "active": "7535a37cf12f79f3",
   "lastOpenFiles": [
-    "内存存放数据的大端模式和小端模式.zh-cn.md",
-    "CSAPP reading notes - part I, chapter 2.en.md",
     "_templates/templater/frontmatters.md",
+    "整数到浮点数的转换.zh-cn.md",
+    "Conversion from 2's complement integer to floating point number.en.md",
+    "LazyVim for Ambitious Developers reading notes.en.md",
+    "CSAPP reading notes - part I, chapter 2.en.md",
+    "内存存放数据的大端模式和小端模式.zh-cn.md",
     "static/CSAPP/2.32.png",
     "虎码用法记录.zh-cn.md",
     "《枪炮、病菌与钢铁》第一部分.md",
     "bit representation of TMin and TMax.en.md",
-    "LazyVim for Ambitious Developers reading notes.en.md",
     "CSAPP reading notes - chapter 1.en.md",
     "CSAPP practice problem and solutions-2.en.md",
     "tmux shortcuts recording.en.md",
@@ -306,8 +337,6 @@
     "_ebooks/Computer Systems A Programmers Perspective by Ran.pdf.lnk",
     "_ebooks",
     "新建文件夹",
-    "_weread/欧·亨利短篇小说（英文版）.md",
-    "linux-0.11 _set_gate 宏解释.md",
     "static/ChatGPT",
     "static/新建文件夹",
     "_weread",

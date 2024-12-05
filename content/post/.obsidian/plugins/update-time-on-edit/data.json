@@ -252,6 +252,8 @@
     "tmux shortcuts recording.en.md": "fffffe070f96b5a033b3d67ef3eb61ec5fb6df586cacdc96ab1b8e08196674fc",
     "lazyvim shortcuts.en.md": "46265cfddb456520c0756d2dc65710b4c04724575d4d83427405df71fde95661",
     "软链接.zh-cn.md": "c6ffba72e4020a54d44f05db0a63975dd4d6444a07fe00aa126de619f0622b2b",
-    "内存存放数据的大端模式和小端模式.zh-cn.md": "2d44bc3494c5454f55629b522281a56bdfd3ecc5ca56e1d153dbb53362c300d0"
+    "内存存放数据的大端模式和小端模式.zh-cn.md": "2d44bc3494c5454f55629b522281a56bdfd3ecc5ca56e1d153dbb53362c300d0",
+    "Conversion from 2's complement integer to floating point number.en.md": "3b2c683432f580ca1505bb7ccfd6704e22224effddf00e8aa4593a2d3e6c00b8",
+    "整数到浮点数的转换.zh-cn.md": "0fdb37133a3ad8834143fa1e72eb3f9aaf8e0c6fbc64af21f1008cd20c7a1c7f"
   }
 }
