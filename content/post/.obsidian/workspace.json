@@ -47,12 +47,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "整数到浮点数的转换.zh-cn.md",
+                "file": "LazyVim for Ambitious Developers reading notes.en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "整数到浮点数的转换.zh-cn"
+              "title": "LazyVim for Ambitious Developers reading notes.en"
             }
           },
           {
@@ -266,7 +266,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "88ba0308e605d3d3",
+  "active": "98b4deefcbd6242b",
   "lastOpenFiles": [
     "LazyVim for Ambitious Developers reading notes.en.md",
     "整数到浮点数的转换.zh-cn.md",
