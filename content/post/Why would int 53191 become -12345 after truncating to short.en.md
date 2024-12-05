@@ -2,14 +2,14 @@
 title: Why would int 53191 become -12345 after truncating to short
 categories: CS
 tags:
-  - ai-respond/chatgpt
+  - ai-QA/chatgpt
   - data-type-casting
 date: 2024-11-23
 description: 
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-23T10:35:28+08:00
+lastmod: 2024-12-05T21:28:32+08:00
 ---
 ## **You:**
 

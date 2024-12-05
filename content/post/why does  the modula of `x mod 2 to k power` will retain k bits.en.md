@@ -2,14 +2,14 @@
 title: why does the modula of `x mod 2 to k power` will retain k bits
 categories: CS
 tags:
-  - ai-respond/chatgpt
+  - ai-QA/chatgpt
   - CSAPP
 date: 2024-11-23
 description: 
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-25T09:10:23+08:00
+lastmod: 2024-12-05T21:28:32+08:00
 ---
 ## **ChatGPT:**
 

@@ -4,13 +4,13 @@ categories: CS
 tags:
   - base
   - CSAPP
-  - ai-respond/chatgpt
+  - ai-QA/chatgpt
 date: 2024-12-05
 description: 
 image: 
 weight: 1
 draft: false
-lastmod: 2024-12-05T09:22:58+08:00
+lastmod: 2024-12-05T21:28:32+08:00
 ---
 ## **You:**
 

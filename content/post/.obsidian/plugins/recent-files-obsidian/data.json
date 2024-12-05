@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "how to judge whether a machine is little-endian or big-endian.en",
+      "path": "how to judge whether a machine is little-endian or big-endian.en.md"
+    },
+    {
+      "basename": "原码、反码、补码的定义及求值.zh-cn",
+      "path": "原码、反码、补码的定义及求值.zh-cn.md"
+    },
+    {
       "basename": "_TODO",
       "path": "_TODO.md"
     },
@@ -87,10 +95,6 @@
     {
       "basename": "枪炮、病菌与钢铁",
       "path": "_weread/枪炮、病菌与钢铁.md"
-    },
-    {
-      "basename": "how to judge whether a machine is little-endian or big-endian.en",
-      "path": "how to judge whether a machine is little-endian or big-endian.en.md"
     },
     {
       "basename": "lazyvim 中的 C 及 C++ 开发环境.zh-cn",

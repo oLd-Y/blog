@@ -2,14 +2,14 @@
 title: how to judge whether a machine is little-endian or big-endian?
 categories: CS
 tags:
-  - ai-respond/chatgpt
+  - ai-QA/chatgpt
   - base
 date: 2024-12-03
 description: 
 image: 
 weight: 1
 draft: false
-lastmod: 2024-12-03T22:14:12+08:00
+lastmod: 2024-12-05T21:28:32+08:00
 ---
 ## **You:**
 
