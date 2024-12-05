@@ -5,12 +5,8 @@
       "path": "整数到浮点数的转换.zh-cn.md"
     },
     {
-      "basename": "frontmatters",
-      "path": "_templates/templater/frontmatters.md"
-    },
-    {
-      "basename": "Conversion from 2's complement integer to floating point number.en",
-      "path": "Conversion from 2's complement integer to floating point number.en.md"
+      "basename": "虎码用法记录.zh-cn",
+      "path": "虎码用法记录.zh-cn.md"
     },
     {
       "basename": "LazyVim for Ambitious Developers reading notes.en",
@@ -21,20 +17,56 @@
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
     {
+      "basename": "CSAPP practice problem and solutions-2.en",
+      "path": "CSAPP practice problem and solutions-2.en.md"
+    },
+    {
+      "basename": "frontmatters",
+      "path": "_templates/templater/frontmatters.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "Insert Callouts",
+      "path": "_templates/archive/Insert Callouts.md"
+    },
+    {
+      "basename": "recipe",
+      "path": "_templates/archive/recipe.md"
+    },
+    {
+      "basename": "leetcode",
+      "path": "_templates/archive/leetcode.md"
+    },
+    {
+      "basename": "new dairy template",
+      "path": "_templates/archive/new dairy template.md"
+    },
+    {
+      "basename": "new index template",
+      "path": "_templates/archive/new index template.md"
+    },
+    {
+      "basename": "create diary",
+      "path": "_templates/archive/create diary.md"
+    },
+    {
+      "basename": "new note",
+      "path": "_templates/templater/new note.md"
+    },
+    {
+      "basename": "Conversion from 2's complement integer to floating point number.en",
+      "path": "Conversion from 2's complement integer to floating point number.en.md"
+    },
+    {
       "basename": "内存存放数据的大端模式和小端模式.zh-cn",
       "path": "内存存放数据的大端模式和小端模式.zh-cn.md"
     },
     {
-      "basename": "虎码用法记录.zh-cn",
-      "path": "虎码用法记录.zh-cn.md"
-    },
-    {
       "basename": "CSAPP reading notes - chapter 1.en",
       "path": "CSAPP reading notes - chapter 1.en.md"
-    },
-    {
-      "basename": "CSAPP practice problem and solutions-2.en",
-      "path": "CSAPP practice problem and solutions-2.en.md"
     },
     {
       "basename": "tmux shortcuts recording.en",
@@ -161,20 +193,8 @@
       "path": "李治军操作系统总结.md"
     },
     {
-      "basename": "new note",
-      "path": "_templates/templater/new note.md"
-    },
-    {
       "basename": "week",
       "path": "_templates/archive/week.md"
-    },
-    {
-      "basename": "recipe",
-      "path": "_templates/archive/recipe.md"
-    },
-    {
-      "basename": "new dairy template",
-      "path": "_templates/archive/new dairy template.md"
     }
   ],
   "omittedPaths": []
