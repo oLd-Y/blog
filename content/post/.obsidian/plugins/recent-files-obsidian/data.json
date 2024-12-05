@@ -5,6 +5,10 @@
       "path": "整数到浮点数的转换.zh-cn.md"
     },
     {
+      "basename": "LazyVim for Ambitious Developers reading notes.en",
+      "path": "LazyVim for Ambitious Developers reading notes.en.md"
+    },
+    {
       "basename": "lazyvim shortcuts.en",
       "path": "lazyvim shortcuts.en.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "虎码用法记录.zh-cn",
       "path": "虎码用法记录.zh-cn.md"
-    },
-    {
-      "basename": "LazyVim for Ambitious Developers reading notes.en",
-      "path": "LazyVim for Ambitious Developers reading notes.en.md"
     },
     {
       "basename": "CSAPP reading notes - part I, chapter 2.en",
