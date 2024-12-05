@@ -5,6 +5,14 @@
       "path": "整数到浮点数的转换.zh-cn.md"
     },
     {
+      "basename": "lazyvim shortcuts.en",
+      "path": "lazyvim shortcuts.en.md"
+    },
+    {
+      "basename": "_TODO",
+      "path": "_TODO.md"
+    },
+    {
       "basename": "虎码用法记录.zh-cn",
       "path": "虎码用法记录.zh-cn.md"
     },
@@ -81,10 +89,6 @@
       "path": "_weread/枪炮、病菌与钢铁.md"
     },
     {
-      "basename": "lazyvim shortcuts.en",
-      "path": "lazyvim shortcuts.en.md"
-    },
-    {
       "basename": "how to judge whether a machine is little-endian or big-endian.en",
       "path": "how to judge whether a machine is little-endian or big-endian.en.md"
     },
@@ -139,10 +143,6 @@
     {
       "basename": "15.三数之和.excalidraw",
       "path": "_excalidraw/15.三数之和.excalidraw.md"
-    },
-    {
-      "basename": "_TODO",
-      "path": "_TODO.md"
     },
     {
       "basename": "extract a .tar.gz file.en",

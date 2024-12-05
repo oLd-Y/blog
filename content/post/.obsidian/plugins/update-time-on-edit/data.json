@@ -58,7 +58,7 @@
     "test12/index.md": "ed4be0d2ed617a3ef56e21884eb272011e7675bf453bf39e7f63990a79c77120",
     "test11/index 1.md": "16e49ee2352d14a9997aa30e6cb343854f746e6ad211397bd6323a918cf75a7e",
     "test111/index.md": "5bc96bbe11c28f8e4557bf7e0ae95d1c59ba0cc106ec2c01aae71cf5d532cb92",
-    "_TODO.md": "c9a232d133b153f3504b83feade81c9537bfc2c6625b3cb5ac2fb24e647c9454",
+    "_TODO.md": "42d45f64e5bf50b4b699aa6a10959dc75b1444e99a1ac1d7b9a727457524504f",
     "LeetCode21. 合并两个有序链表/index.zh-cn.md": "1a26aa0de298febfc39ca2073f6a61a8bceb7c73db92c0bc2cba31bc299a5660",
     "LeetCode 21. 合并两个有序链表/index.zh-cn.md": "926b6edfa688197fb7dd225151425858b1fc5e807ccf111f6b5aea6a4d6648de",
     "炒粉丝/index.zh-cn.md": "50d8631ef4c821362776c158408bfbc1532fd7ca2e7aa861bf6816943637e592",
@@ -250,11 +250,11 @@
     "配置 C/lazyvim 中的 C 及 C++ 开发环境.zh-cn.md": "8565a8f87a64eedb06f32a1afbd475a3613a94af1c86d8a1d09bf7f1d426a1ea",
     "how to judge whether a machine is little-endian or big-endian.en.md": "208b314d6be9a9ae97b8d481e2b2bba9e6740ba044ac5392a7cd987e682bbfb9",
     "tmux shortcuts recording.en.md": "fffffe070f96b5a033b3d67ef3eb61ec5fb6df586cacdc96ab1b8e08196674fc",
-    "lazyvim shortcuts.en.md": "46265cfddb456520c0756d2dc65710b4c04724575d4d83427405df71fde95661",
+    "lazyvim shortcuts.en.md": "dba1334db32ac35ada1b5cd139cfa296c93b29f47b408fcd0f6e3a49e16b5b5c",
     "软链接.zh-cn.md": "c6ffba72e4020a54d44f05db0a63975dd4d6444a07fe00aa126de619f0622b2b",
     "内存存放数据的大端模式和小端模式.zh-cn.md": "e3474064b130947299d210e64c5e6a3b5347734b95647096c2415763f3c417dc",
     "Conversion from 2's complement integer to floating point number.en.md": "3b2c683432f580ca1505bb7ccfd6704e22224effddf00e8aa4593a2d3e6c00b8",
-    "整数到浮点数的转换.zh-cn.md": "4f765519132a5d2a4211022dc12577510fa17360250a335dfdc7d024200154ad",
+    "整数到浮点数的转换.zh-cn.md": "55f94ca96fddaf336b9e302b748a4f6069d65429cd9e7e481cfcfaa1ea3c93f0",
     "Untitled.md": "b6fd46bdf8b9612443e21b4bd9f8f72c9744bb6edf66868e348c990d275f6daa"
   }
 }

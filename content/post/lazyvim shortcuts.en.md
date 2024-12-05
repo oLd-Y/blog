@@ -9,6 +9,8 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-12-04T11:52:13+08:00
+lastmod: 2024-12-05T14:39:57+08:00
 ---
 `K`, to view the function signiture.
+
+`C-/`, open an inner terminal.
