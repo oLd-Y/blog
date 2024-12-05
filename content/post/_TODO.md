@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-12-05T19:27:12+08:00
+lastmod: 2024-12-05T20:41:06+08:00
 draft: true
 ---
 - [ ] `git config --global core.editor "nvim"`
@@ -9,6 +9,7 @@ draft: true
 - [ ] hugo obsidian wiki link 格式渲染
 - [ ] 给 Rime 的配置说明创建软链接。 
 - [ ] vim 标记 \` 和 ' 区别 [Vim tips: Moving around using marks and jumps - Linux.com](https://www.linux.com/news/vim-tips-moving-around-using-marks-and-jumps/)
+- [ ] tmux，[WSL+ZSH+TMUX+NeoVIM在WSL上配置ZSH+TMUX+NeoVIM，OhMyZSH优化Shell体验，T - 掘金](https://juejin.cn/post/7257440759581392933)
 - [ ] 
 
 
