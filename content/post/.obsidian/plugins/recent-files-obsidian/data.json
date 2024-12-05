@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "_TODO",
+      "path": "_TODO.md"
+    },
+    {
       "basename": "LazyVim for Ambitious Developers reading notes.en",
       "path": "LazyVim for Ambitious Developers reading notes.en.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "lazyvim shortcuts.en",
       "path": "lazyvim shortcuts.en.md"
-    },
-    {
-      "basename": "_TODO",
-      "path": "_TODO.md"
     },
     {
       "basename": "虎码用法记录.zh-cn",
