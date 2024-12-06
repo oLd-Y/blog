@@ -4,12 +4,13 @@ categories: CS
 tags:
   - Latex
   - Math
+  - learn-X-through-examples
 date: 2024-11-11
 description: 
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-19T10:14:52+08:00
+lastmod: 2024-12-06T14:27:51+08:00
 ---
 ## Fraction, subscript and Greek characters
 

@@ -1,24 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "vim shortcuts.en",
-      "path": "vim shortcuts.en.md"
-    },
-    {
-      "basename": "lazyvim shortcuts.en",
-      "path": "lazyvim shortcuts.en.md"
+      "basename": "CSAPP reading notes - part I, chapter 2.en",
+      "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
     {
       "basename": "_TODO",
       "path": "_TODO.md"
     },
     {
-      "basename": "lazyvim 超出屏幕的一行不会自动换行.zh-cn",
-      "path": "lazyvim 超出屏幕的一行不会自动换行.zh-cn.md"
-    },
-    {
       "basename": "how to judge whether a machine is little-endian or big-endian.en",
       "path": "how to judge whether a machine is little-endian or big-endian.en.md"
+    },
+    {
+      "basename": "vim shortcuts.en",
+      "path": "vim shortcuts.en.md"
+    },
+    {
+      "basename": "learn vim command line through examples.en",
+      "path": "learn vim command line through examples.en.md"
+    },
+    {
+      "basename": "Learn LaTex through examples.en",
+      "path": "Learn LaTex through examples.en.md"
+    },
+    {
+      "basename": "lazyvim shortcuts.en",
+      "path": "lazyvim shortcuts.en.md"
+    },
+    {
+      "basename": "lazyvim 超出屏幕的一行不会自动换行.zh-cn",
+      "path": "lazyvim 超出屏幕的一行不会自动换行.zh-cn.md"
     },
     {
       "basename": "原码、反码、补码的定义及求值.zh-cn",
@@ -35,10 +47,6 @@
     {
       "basename": "虎码用法记录.zh-cn",
       "path": "虎码用法记录.zh-cn.md"
-    },
-    {
-      "basename": "CSAPP reading notes - part I, chapter 2.en",
-      "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
     {
       "basename": "CSAPP practice problem and solutions-2.en",
@@ -169,10 +177,6 @@
       "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
     },
     {
-      "basename": "Learn LaTex through examples.en",
-      "path": "Learn LaTex through examples.en.md"
-    },
-    {
       "basename": "Obsidian latex-suite usage.en",
       "path": "Obsidian latex-suite usage.en.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "useful prompt.zh-cn",
       "path": "useful prompt.zh-cn.md"
-    },
-    {
-      "basename": "《刀锋》读书笔记.zh-cn",
-      "path": "《刀锋》读书笔记.zh-cn.md"
     }
   ],
   "omittedPaths": []

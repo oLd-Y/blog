@@ -225,7 +225,7 @@
     "《刀锋》读书笔记.zh-cn.md": "05a7493c5a387a496550fd7f61ee5757d147f2231504c380c29b04845a6259fc",
     "《红楼梦》读书笔记.zh-cn.md": "626de1332aac2e9e30fad0d015755bb8e809813c8e96521758e954063c39bf15",
     "《汇编语言》 读书笔记.zh-cn.md": "c8c37f2d5f3e164aaa7bca35c27f906367d662631c2bf90da4a8f05f7e1aa27a",
-    "Learn LaTex through examples.en.md": "d0bf1017b977df8c559b530c4b060b59cb2abd4f7819ebd5d69263bd41888cd6",
+    "Learn LaTex through examples.en.md": "0e8b7cbc97a99a7353a9c5d0698a154df7087652c172f13ee29e1c4c54c26960",
     "虎码用法记录.zh-cn.md": "9eca5a482e6706650bde0d566afe4f7af98d5f67e6868314e4075febed23b0a1",
     "wsl2 安装 kitty.zh-cn.md": "a75a3a4ae8192038e6f503f297978fe561f1bf549e54f43468f2bd8def6fb874",
     "Use Vim mode on the command line in zsh.en.md": "f4ff9497f2cae7dfb8c203b2de0e28e82650a9f594025f51a15af2154361c83b",
@@ -258,6 +258,7 @@
     "Untitled.md": "b6fd46bdf8b9612443e21b4bd9f8f72c9744bb6edf66868e348c990d275f6daa",
     "原码、反码、补码的定义及求值.zh-cn.md": "65767eb80d4d725246b01c6076ccca9b639285091c3616a2e7d809b46094f6e3",
     "lazyvim 超出屏幕的一行不会自动换行.zh-cn.md": "7b51820ada95936f47770e60e57bb1a49685ae6848e8f8c1b6c2ccbda052e474",
-    "vim shortcuts.en.md": "dd43b6147e1287eafb246d8c9d2fb4eef662c4d6d6287f8fd03d5906ae85aff3"
+    "vim shortcuts.en.md": "8b61ed60395936c698edab49cb31c8773cc350d3f7726aed660c5343d51bd2b7",
+    "learn vim command line through examples.en.md": "36acf23f1b0d0e7ca15715942406cf806fd8d909f4fe5106a74103a97b901ded"
   }
 }
