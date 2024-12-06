@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "vim shortcuts.en",
+      "path": "vim shortcuts.en.md"
+    },
+    {
+      "basename": "lazyvim shortcuts.en",
+      "path": "lazyvim shortcuts.en.md"
+    },
+    {
       "basename": "_TODO",
       "path": "_TODO.md"
     },
@@ -23,10 +31,6 @@
     {
       "basename": "整数到浮点数的转换.zh-cn",
       "path": "整数到浮点数的转换.zh-cn.md"
-    },
-    {
-      "basename": "lazyvim shortcuts.en",
-      "path": "lazyvim shortcuts.en.md"
     },
     {
       "basename": "虎码用法记录.zh-cn",
@@ -195,10 +199,6 @@
     {
       "basename": "《刀锋》读书笔记.zh-cn",
       "path": "《刀锋》读书笔记.zh-cn.md"
-    },
-    {
-      "basename": "李治军操作系统总结",
-      "path": "李治军操作系统总结.md"
     }
   ],
   "omittedPaths": []
