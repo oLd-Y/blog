@@ -75,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lazyvim 超出屏幕的一行不会自动换行.zh-cn.md",
+                "file": "_TODO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lazyvim 超出屏幕的一行不会自动换行.zh-cn"
+              "title": "_TODO"
             }
           },
           {
@@ -295,10 +295,10 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "5f807305454f16b5",
+  "active": "2a3c6d6b243b46ce",
   "lastOpenFiles": [
-    "how to judge whether a machine is little-endian or big-endian.en.md",
     "lazyvim 超出屏幕的一行不会自动换行.zh-cn.md",
+    "how to judge whether a machine is little-endian or big-endian.en.md",
     "原码、反码、补码的定义及求值.zh-cn.md",
     "_TODO.md",
     "LazyVim for Ambitious Developers reading notes.en.md",

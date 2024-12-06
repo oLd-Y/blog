@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "_TODO",
+      "path": "_TODO.md"
+    },
+    {
       "basename": "lazyvim 超出屏幕的一行不会自动换行.zh-cn",
       "path": "lazyvim 超出屏幕的一行不会自动换行.zh-cn.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "原码、反码、补码的定义及求值.zh-cn",
       "path": "原码、反码、补码的定义及求值.zh-cn.md"
-    },
-    {
-      "basename": "_TODO",
-      "path": "_TODO.md"
     },
     {
       "basename": "LazyVim for Ambitious Developers reading notes.en",
