@@ -74,7 +74,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTimeReverse"
+                "sortOrder": "byModifiedTime"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -121,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 485.5,
-    "collapsed": true
+    "width": 485.5
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -251,8 +250,13 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "b5a07848f81a5c9f",
+  "active": "98b4deefcbd6242b",
   "lastOpenFiles": [
+    "配置 lazyvim 中的 C 及 C++ 开发环境.zh-cn.md",
+    "_weread/枪炮、病菌与钢铁.md",
+    "_weread/枪炮、病菌与钢铁（全新版本，重磅上市！全面增补校订书稿。作者亲笔撰写中文出版序！附赠《解读册》陈嘉映、俞敏洪、吴军、梁文道、严飞、郝景芳等15位专家倾力解读。人类大历史开山.md",
+    "Untitled.md",
+    "虎码用法记录.zh-cn.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
     "_TODO.md",
     "how to judge whether a machine is little-endian or big-endian.en.md",
@@ -264,10 +268,8 @@
     "原码、反码、补码的定义及求值.zh-cn.md",
     "LazyVim for Ambitious Developers reading notes.en.md",
     "整数到浮点数的转换.zh-cn.md",
-    "虎码用法记录.zh-cn.md",
     "CSAPP practice problem and solutions-2.en.md",
     "_templates/templater/frontmatters.md",
-    "Untitled.md",
     "_templates/archive/Insert Callouts.md",
     "_templates/archive/recipe.md",
     "_templates/archive/leetcode.md",
@@ -276,10 +278,7 @@
     "_templates/archive/create diary.md",
     "_templates/templater/new note.md",
     "Conversion from 2's complement integer to floating point number.en.md",
-    "内存存放数据的大端模式和小端模式.zh-cn.md",
     "static/CSAPP/2.32.png",
-    "《枪炮、病菌与钢铁》第一部分.md",
-    "bit representation of TMin and TMax.en.md",
     "配置 C",
     "static/CSAPP/pp2.54-2.png",
     "static/CSAPP/pp2.54.png",

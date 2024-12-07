@@ -1,10 +1,6 @@
 {
   "cookies": [
     {
-      "name": "wr_gid",
-      "value": "238089422"
-    },
-    {
       "name": "wr_fp",
       "value": "2734285660"
     },
@@ -25,16 +21,20 @@
       "value": "0"
     },
     {
+      "name": "wr_gid",
+      "value": "240228912"
+    },
+    {
       "name": "wr_skey",
-      "value": "8HHqexKh"
+      "value": "vRa4MJfe"
     },
     {
       "name": "wr_vid",
-      "value": "392912636"
+      "value": "903604006"
     },
     {
       "name": "wr_rt",
-      "value": "web@kW1y9qiVXzQcMSZOyJ3_AL"
+      "value": "web@~N568BdDv2QkrZjw5a3_AL"
     }
   ],
   "noteLocation": "_weread",
@@ -42,10 +42,10 @@
   "insertAfter": "# daily reading notes",
   "insertBefore": "# journal",
   "dailyNotesFormat": "YYYY-MM-DD_dddd",
-  "lastCookieTime": 1732435170017,
+  "lastCookieTime": 1733494438889,
   "isCookieValid": true,
   "user": "风吟",
-  "userVid": "392912636",
+  "userVid": "903604006",
   "template": "---\ntitle: {{metaData.title}}\nauthor: {{metaData.author}}\ncategory: {{metaData.category}}\npublisher: {{metaData.publisher}}\npublishTime: {{metaData.publishTime}}\nisbn: {{metaData.isbn}}\nbookId: {{metaData.bookId}}\ncover.image: {{metaData.cover}}\ncover: \ndraft: true # hugo 博客还不知道如何渲染\n---\n\n# 元数据\n> [!abstract]- {{metaData.title}}\n> - ![ {{metaData.title}}|200]({{metaData.cover}})\n> - 书名： {{metaData.title}}\n> - 作者： {{metaData.author}}\n> - 简介： {{metaData.intro}}\n> - 出版时间： {{metaData.publishTime}}\n> - ISBN： {{metaData.isbn}}\n> - 分类： {{metaData.category}}\n> - 出版社： {{metaData.publisher}}\n\n# 高亮划线\n{% for chapter in chapterHighlights %}{% if chapter.level == 1 %}## {{chapter.chapterTitle}}{% elif chapter.level == 2 %}### {{chapter.chapterTitle}}{% elif chapter.level == 3 %}#### {{chapter.chapterTitle}}{% endif %}\n{% for highlight in chapter.highlights %}{% set colors = ['#ffce78', '#ff8a78', '#c69eff', '#78edff', '#87d37c', '#ffce78'] %}{% set highlightColor = colors[highlight.colorStyle] %}\n{% if highlight.reviewContent %}\n> [!Annotation]+ <span style=\"color: {{highlightColor}};\">Annotation</span>\n> {{ highlight.markText | trim | replace(\"      \",\"\") | replace(\"。”\", \"。”\\n> \") | replace(\"。“\", \"。\\n> “\")| replace(\"”“\",\"”\\n> “\") | replace(\"。 \", \"。\\n> \") | replace(\"”。\",\"”。\\n> \") | replace(\"  \", \"\\n> \") }}\n> {{ '---' }}\n> {{ highlight.reviewContent | replace('\\n', '\\n> ') }}\n{% else %}\n> [!Cite]+ <span style=\"color: {{highlightColor}};\">Highlight</span>\n> {{ highlight.markText | trim | replace(\"      \",\"\") | replace(\"。”\", \"。”\\n> \") | replace(\"。“\", \"。\\n> “\")| replace(\"”“\",\"”\\n> “\") | replace(\"。 \", \"。\\n> \") | replace(\"”。\",\"”。\\n> \") | replace(\"  \", \"\\n> \") }}\n> ^{{highlight.chapterUid}}-{{highlight.range}}\n{% endif %}{% endfor %}{% endfor %}\n{% if bookReview.chapterReviews  | length %}{{\\n}}# 读书笔记{% endif %}\n{% for chapter in bookReview.chapterReviews %}{% if chapter.reviews or chapter.chapterReview %}\n### {{chapter.chapterTitle}}\n{% if  chapter.chapterReviews %}{% for chapterReview in chapter.chapterReviews %}\n#### 章节评论 No.{{loop.index}}\n{{chapterReview.content}}\n^{{chapterReview.reviewId}}{{\\n}}{% endfor%}{% endif %}{% if chapter.reviews %}{# #### 划线评论 #}{%for review in chapter.reviews %}\n> [!Annotation] {{ review.abstract | truncate(12, true, \"...\") }}\n> {{review.abstract | trim | replace(\"      \",\"\") | replace(\"。”\", \"。”\\n> \") | replace(\"。“\", \"。\\n> “\")| replace(\"”“\",\"”\\n> “\") | replace(\"。 \", \"。\\n> \") | replace(\"”。\",\"”。\\n> \") }} \n> ^{{review.reviewId}}\n> {{ '---' }}\n> {{review.content | replace('\\n', '\\n> ')}}\n{% endfor %}{%endif %}{% endif %}{% endfor %}\n{% if bookReview.bookReviews | length %}\n## 本书评论\n{% for bookReview in bookReview.bookReviews %}\n> [!Review] 书评 No.{{loop.index}} \n> {{bookReview.mdContent | replace(\"\\r\\n\", \"\\n> \")}} \n> ^{{bookReview.reviewId}}\n{% endfor%}{% endif %}",
   "noteCountLimit": -1,
   "subFolderType": "-1",

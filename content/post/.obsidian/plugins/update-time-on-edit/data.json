@@ -247,7 +247,6 @@
     "why does  the modula of `x mod 2 to k power` will retain k bits.en.md": "2974aeb17449e0e986f08b4fbd3f9f897a8781e1b80422176481f7d85e3cc217",
     "CSAPP practice problem and solutions-2.en.md": "ae897f6c1edb5e0438269829d168bfcf55e72af2d64f0d03497723932ff9f632",
     "CSAPP practice problem and solutions-1.en.md": "0e9916eccd573330daa72f06db35f7c5c758a278e423ab6a729204977e76c01a",
-    "配置 C/lazyvim 中的 C 及 C++ 开发环境.zh-cn.md": "8565a8f87a64eedb06f32a1afbd475a3613a94af1c86d8a1d09bf7f1d426a1ea",
     "how to judge whether a machine is little-endian or big-endian.en.md": "0a5fe5954b68df109dc646f4462e188da7eb9200261527d3421d144163ccb69b",
     "tmux shortcuts recording.en.md": "fffffe070f96b5a033b3d67ef3eb61ec5fb6df586cacdc96ab1b8e08196674fc",
     "lazyvim shortcuts.en.md": "dba1334db32ac35ada1b5cd139cfa296c93b29f47b408fcd0f6e3a49e16b5b5c",
@@ -255,10 +254,10 @@
     "内存存放数据的大端模式和小端模式.zh-cn.md": "e3474064b130947299d210e64c5e6a3b5347734b95647096c2415763f3c417dc",
     "Conversion from 2's complement integer to floating point number.en.md": "6ba533f1e578bee96b9a00a757cb688cb7cb1657f82e11c98279b3b0c7ef941b",
     "整数到浮点数的转换.zh-cn.md": "aaf4db057c367d28aee29b693c2e58ffe7f7e3d0e6d83378ebf3619584f0bba0",
-    "Untitled.md": "b6fd46bdf8b9612443e21b4bd9f8f72c9744bb6edf66868e348c990d275f6daa",
     "原码、反码、补码的定义及求值.zh-cn.md": "65767eb80d4d725246b01c6076ccca9b639285091c3616a2e7d809b46094f6e3",
     "lazyvim 超出屏幕的一行不会自动换行.zh-cn.md": "7b51820ada95936f47770e60e57bb1a49685ae6848e8f8c1b6c2ccbda052e474",
     "vim shortcuts.en.md": "8b61ed60395936c698edab49cb31c8773cc350d3f7726aed660c5343d51bd2b7",
-    "learn vim command line through examples.en.md": "36acf23f1b0d0e7ca15715942406cf806fd8d909f4fe5106a74103a97b901ded"
+    "learn vim command line through examples.en.md": "36acf23f1b0d0e7ca15715942406cf806fd8d909f4fe5106a74103a97b901ded",
+    "配置 lazyvim 中的 C 及 C++ 开发环境.zh-cn.md": "80733d4810af626cde978cd19e1ce42dc408376149e8f7d7959909c446d6456f"
   }
 }

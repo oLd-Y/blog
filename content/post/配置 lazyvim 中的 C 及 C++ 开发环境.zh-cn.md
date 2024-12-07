@@ -1,5 +1,5 @@
 ---
-title: lazyvim 中的 C 及 C++ 开发环境
+title: 配置 lazyvim 中的 C 及 C++ 开发环境
 categories: 计算机
 tags:
   - lsp
@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-12-04T08:37:28+08:00
+lastmod: 2024-12-06T22:19:20+08:00
 ---
 ### LSP（Clangd）配置
 
