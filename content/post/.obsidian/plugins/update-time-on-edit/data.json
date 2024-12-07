@@ -258,6 +258,7 @@
     "lazyvim 超出屏幕的一行不会自动换行.zh-cn.md": "7b51820ada95936f47770e60e57bb1a49685ae6848e8f8c1b6c2ccbda052e474",
     "vim shortcuts.en.md": "8b61ed60395936c698edab49cb31c8773cc350d3f7726aed660c5343d51bd2b7",
     "learn vim command line through examples.en.md": "36acf23f1b0d0e7ca15715942406cf806fd8d909f4fe5106a74103a97b901ded",
-    "配置 lazyvim 中的 C 及 C++ 开发环境.zh-cn.md": "80733d4810af626cde978cd19e1ce42dc408376149e8f7d7959909c446d6456f"
+    "配置 lazyvim 中的 C 及 C++ 开发环境.zh-cn.md": "80733d4810af626cde978cd19e1ce42dc408376149e8f7d7959909c446d6456f",
+    "逻辑运算符和位运算符.zh-cn.md": "9d7e2b0c2dcc1c821a58041061c8968b194c1089ab0b480f68b832141a6b36ff"
   }
 }
