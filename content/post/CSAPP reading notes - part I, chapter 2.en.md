@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-12-04T20:23:55+08:00
+lastmod: 2024-12-07T10:57:47+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -87,12 +87,18 @@ The logical operators do not evaluate their second argument if the result of the
 
 ### 2.1.9 Shift Operations in C
 
-`x << k`: $x$ is shifted $k$ bits to the left, dropping off the $k$ most significant bits and filling the right end with $k$ zeros.
+Left shift `x << k`: $x$ is shifted $k$ bits to the left, dropping off the $k$ most significant bits and filling the right end with $k$ zeros.
 
-`x >> k`:
+Right shift `x >> k` has:
 - Logical. A logical right shift fills the left end with $k$ zeros.
 - Arithmetic. An arithemetic right shift fills the left end with $k$ repetitions of the most significant bit. 
-- Arithmetic is the most-used right shift for signed data. But for unsigned data it must be logical right shift.
+
+It determined by mechine structure whether right shift in c is logical or arithmetic.
+
+Here are examples:
+![](CSAPP/shift-operations-in-c.png)
+
+Arithmetic right shift is the most-used right shift for signed data. But for unsigned data it must be logical right shift.
 
 On many machines, the shift instruction consider only the lower $log_2 w$ bits of the shift amount when shifting a w-bit value, and so the shift amount is computed as `k mod w`. `w` is the bit length of the data type. For instance:
 

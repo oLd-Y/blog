@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CSAPP reading notes - part I, chapter 2.en",
+      "path": "CSAPP reading notes - part I, chapter 2.en.md"
+    },
+    {
       "basename": "逻辑运算符和位运算符.zh-cn",
       "path": "逻辑运算符和位运算符.zh-cn.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "配置 lazyvim 中的 C 及 C++ 开发环境.zh-cn",
       "path": "配置 lazyvim 中的 C 及 C++ 开发环境.zh-cn.md"
-    },
-    {
-      "basename": "CSAPP reading notes - part I, chapter 2.en",
-      "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
     {
       "basename": "_TODO",
