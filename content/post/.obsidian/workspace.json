@@ -17,7 +17,7 @@
                 "url": "https://chatgpt.com/c/6753badf-b29c-8007-9a9a-7a4b6c4a685f"
               },
               "icon": "lucide-file",
-              "title": "ChatGPT"
+              "title": "Arithmetic Right Shift Check"
             }
           }
         ]
@@ -47,12 +47,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP reading notes - part I, chapter 2.en.md",
+                "file": "虎码用法记录.zh-cn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSAPP reading notes - part I, chapter 2.en"
+              "title": "虎码用法记录.zh-cn"
             }
           },
           {
@@ -132,8 +132,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -268,8 +267,9 @@
   },
   "active": "713d3e7d4168ce94",
   "lastOpenFiles": [
-    "CSAPP reading notes - chapter 1.en.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
+    "ChatGPT.md",
+    "CSAPP reading notes - chapter 1.en.md",
     "static/CSAPP/shift-operations-in-c.png",
     "逻辑运算符和位运算符.zh-cn.md",
     "虎码用法记录.zh-cn.md",
@@ -294,7 +294,6 @@
     "_templates/archive/leetcode.md",
     "_templates/archive/new dairy template.md",
     "_templates/archive/new index template.md",
-    "_templates/archive/create diary.md",
     "static/CSAPP/2.32.png",
     "配置 C",
     "static/CSAPP/pp2.54-2.png",
