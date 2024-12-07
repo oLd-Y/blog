@@ -5,6 +5,10 @@
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
     {
+      "basename": "CSAPP reading notes - chapter 1.en",
+      "path": "CSAPP reading notes - chapter 1.en.md"
+    },
+    {
       "basename": "逻辑运算符和位运算符.zh-cn",
       "path": "逻辑运算符和位运算符.zh-cn.md"
     },
@@ -99,10 +103,6 @@
     {
       "basename": "内存存放数据的大端模式和小端模式.zh-cn",
       "path": "内存存放数据的大端模式和小端模式.zh-cn.md"
-    },
-    {
-      "basename": "CSAPP reading notes - chapter 1.en",
-      "path": "CSAPP reading notes - chapter 1.en.md"
     },
     {
       "basename": "tmux shortcuts recording.en",

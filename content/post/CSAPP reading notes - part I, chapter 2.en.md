@@ -5,7 +5,7 @@ tags:
   - foundation
   - CSAPP
 date: 2024-11-04
-lastmod: 2024-12-07T10:57:47+08:00
+lastmod: 2024-12-07T14:10:37+08:00
 draft: false
 weight: 1
 description: "Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation"
@@ -93,7 +93,9 @@ Right shift `x >> k` has:
 - Logical. A logical right shift fills the left end with $k$ zeros.
 - Arithmetic. An arithemetic right shift fills the left end with $k$ repetitions of the most significant bit. 
 
-It determined by mechine structure whether right shift in c is logical or arithmetic.
+For signed data (int, long, etc.), it determined by compiler (according to mechine structure) whether right shift in c is **logical** or **arithmetic**.
+
+While for unsigned data (unsigned int, unsigned long), it is always **logical** right shift.
 
 Here are examples:
 ![](CSAPP/shift-operations-in-c.png)
