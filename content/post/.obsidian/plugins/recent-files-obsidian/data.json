@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "《卡拉马佐夫兄弟》读书笔记.zh-cn",
+      "path": "《卡拉马佐夫兄弟》读书笔记.zh-cn.md"
+    },
+    {
+      "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
+      "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
+    },
+    {
       "basename": "CSAPP reading notes - chapter 1.en",
       "path": "CSAPP reading notes - chapter 1.en.md"
     },
@@ -167,10 +175,6 @@
     {
       "basename": "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误.zh-cn",
       "path": "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误.zh-cn.md"
-    },
-    {
-      "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
-      "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
     },
     {
       "basename": "Obsidian latex-suite usage.en",
