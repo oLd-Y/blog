@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-12-06T10:03:44+08:00
+lastmod: 2024-12-08T15:28:36+08:00
 draft: true
 ---
 - [ ] `git config --global core.editor "nvim"`
@@ -19,7 +19,8 @@ bind-key b command-prompt -p "Break pane (hidden):" \
 # Bind key to reattach the last hidden pane
 bind-key r run-shell "tmux join-pane -vs $(cat ~/.tmux_hidden_pane) && rm ~/.tmux_hidden_pane"	
 ```
-- [ ] 
+- [ ] https://github.com/stevearc/overseer.nvim
+- [ ] makefile 
 
 
 
