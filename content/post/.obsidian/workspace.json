@@ -4,31 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1a22e5a84ca8313c",
-        "type": "tabs",
-        "dimension": 50,
-        "children": [
-          {
-            "id": "98b4deefcbd6242b",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://chatgpt.com/c/6753badf-b29c-8007-9a9a-7a4b6c4a685f"
-              },
-              "icon": "lucide-file",
-              "title": "Arithmetic Right Shift Check"
-            }
-          }
-        ]
-      },
-      {
         "id": "00d221cf57eb414b",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
-            "id": "b5a07848f81a5c9f",
+            "id": "713d3e7d4168ce94",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,17 +22,17 @@
             }
           },
           {
-            "id": "713d3e7d4168ce94",
+            "id": "1edb816c841ca64b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "虎码用法记录.zh-cn.md",
+                "file": "usage of `restrict` keyword in c.en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "虎码用法记录.zh-cn"
+              "title": "usage of `restrict` keyword in c.en"
             }
           },
           {
@@ -69,8 +49,7 @@
               "title": "CSAPP practice problem and solutions-2.en"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -266,14 +245,15 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "5f807305454f16b5",
+  "active": "713d3e7d4168ce94",
   "lastOpenFiles": [
+    "usage of `restrict` keyword in c.en.md",
+    "虎码用法记录.zh-cn.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
     "ChatGPT.md",
     "CSAPP reading notes - chapter 1.en.md",
     "static/CSAPP/shift-operations-in-c.png",
     "逻辑运算符和位运算符.zh-cn.md",
-    "虎码用法记录.zh-cn.md",
     "配置 lazyvim 中的 C 及 C++ 开发环境.zh-cn.md",
     "_weread/枪炮、病菌与钢铁.md",
     "_weread/枪炮、病菌与钢铁（全新版本，重磅上市！全面增补校订书稿。作者亲笔撰写中文出版序！附赠《解读册》陈嘉映、俞敏洪、吴军、梁文道、严飞、郝景芳等15位专家倾力解读。人类大历史开山.md",
@@ -294,7 +274,6 @@
     "_templates/archive/recipe.md",
     "_templates/archive/leetcode.md",
     "_templates/archive/new dairy template.md",
-    "_templates/archive/new index template.md",
     "static/CSAPP/2.32.png",
     "配置 C",
     "static/CSAPP/pp2.54-2.png",

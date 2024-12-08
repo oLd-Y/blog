@@ -259,6 +259,7 @@
     "vim shortcuts.en.md": "8b61ed60395936c698edab49cb31c8773cc350d3f7726aed660c5343d51bd2b7",
     "learn vim command line through examples.en.md": "36acf23f1b0d0e7ca15715942406cf806fd8d909f4fe5106a74103a97b901ded",
     "配置 lazyvim 中的 C 及 C++ 开发环境.zh-cn.md": "80733d4810af626cde978cd19e1ce42dc408376149e8f7d7959909c446d6456f",
-    "逻辑运算符和位运算符.zh-cn.md": "8bcacfb012e46e88cf7d3187e1fd87e5119653451c793693294316ce812d54da"
+    "逻辑运算符和位运算符.zh-cn.md": "8bcacfb012e46e88cf7d3187e1fd87e5119653451c793693294316ce812d54da",
+    "usage of `restrict` keyword in c.en.md": "7b211a93233eac21bef0c893ed818036499872e367bf15134adc8c03b228bd6b"
   }
 }
