@@ -7,5 +7,6 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-12-09T11:36:31+08:00
+lastmod: 2024-12-09T11:44:32+08:00
 ---
+在 mykeymap.tmpl 中加入今天是个好日子
