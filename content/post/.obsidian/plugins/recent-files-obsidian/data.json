@@ -5,6 +5,10 @@
       "path": "MyKeymap 修改切换窗口按键.zh-cn.md"
     },
     {
+      "basename": "usage of `restrict` keyword in c.en",
+      "path": "usage of `restrict` keyword in c.en.md"
+    },
+    {
       "basename": "虎码用法记录.zh-cn",
       "path": "虎码用法记录.zh-cn.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "CSAPP practice problem and solutions-2.en",
       "path": "CSAPP practice problem and solutions-2.en.md"
-    },
-    {
-      "basename": "usage of `restrict` keyword in c.en",
-      "path": "usage of `restrict` keyword in c.en.md"
     },
     {
       "basename": "_TODO",
