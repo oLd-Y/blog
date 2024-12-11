@@ -7,6 +7,6 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-12-09T20:45:18+08:00
+lastmod: 2024-12-11T10:54:25+08:00
 ---
-在 mykeymap.tmpl 中找到 
+在 MyKeymap.ahk 中找到 

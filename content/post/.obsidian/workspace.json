@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
+                "file": "MyKeymap 修改切换窗口按键.zh-cn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "《卡拉马佐夫兄弟》读书笔记.zh-cn"
+              "title": "MyKeymap 修改切换窗口按键.zh-cn"
             }
           }
         ],
@@ -260,13 +260,13 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "5f807305454f16b5",
+  "active": "8e78c300a6046dd4",
   "lastOpenFiles": [
+    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
     "《枪炮、病菌与钢铁》读书笔记.zh-cn.md",
     "MyKeymap 修改切换窗口按键.zh-cn.md",
     "usage of `restrict` keyword in c.en.md",
     "虎码用法记录.zh-cn.md",
-    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
     "CSAPP reading notes - chapter 1.en.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
     "CSAPP practice problem and solutions-2.en.md",
