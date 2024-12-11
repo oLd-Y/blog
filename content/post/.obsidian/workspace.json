@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "MyKeymap 修改切换窗口按键.zh-cn"
             }
+          },
+          {
+            "id": "ec83a92487ae835a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "testaaaa.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "testaaaa"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -260,11 +274,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "8e78c300a6046dd4",
+  "active": "ec83a92487ae835a",
   "lastOpenFiles": [
+    "testaaaa.md",
+    "MyKeymap 修改切换窗口按键.zh-cn.md",
     "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
     "《枪炮、病菌与钢铁》读书笔记.zh-cn.md",
-    "MyKeymap 修改切换窗口按键.zh-cn.md",
     "usage of `restrict` keyword in c.en.md",
     "虎码用法记录.zh-cn.md",
     "CSAPP reading notes - chapter 1.en.md",
@@ -288,7 +303,6 @@
     "LazyVim for Ambitious Developers reading notes.en.md",
     "整数到浮点数的转换.zh-cn.md",
     "_templates/templater/frontmatters.md",
-    "_templates/archive/Insert Callouts.md",
     "static/CSAPP/2.32.png",
     "配置 C",
     "static/CSAPP/pp2.54-2.png",

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "testaaaa",
+      "path": "testaaaa.md"
+    },
+    {
       "basename": "MyKeymap 修改切换窗口按键.zh-cn",
       "path": "MyKeymap 修改切换窗口按键.zh-cn.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "LazyVim for Ambitious Developers reading notes.zh-cn",
       "path": "LazyVim for Ambitious Developers reading notes.zh-cn.md"
-    },
-    {
-      "basename": "好用软件名称记录.zh-cn",
-      "path": "好用软件名称记录.zh-cn.md"
     }
   ],
   "omittedPaths": []
