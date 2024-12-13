@@ -7,8 +7,8 @@ date: 2024-12-13
 description: 
 image: 
 weight: 1
-draft: false
-lastmod: 2024-12-13T14:50:59+08:00
+draft: true
+lastmod: 2024-12-13T15:09:42+08:00
 ---
 ```makefile
 # Variables
@@ -31,4 +31,4 @@ clean:
 
 - `$(wildcard ...)` means a function call `wildcard`.
 - `$(SRC_FILES:.c=)`, `:` means substitution. The expression here is to replace all `.c` in `SRC_FILES` with empty.
-- 
+- [Makefile中的%标记和系统通配符\*的区别-CSDN博客](https://blog.csdn.net/diaomei1909/article/details/102073599)
