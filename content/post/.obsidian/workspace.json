@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
+                "file": "learn makefile through example.en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "《卡拉马佐夫兄弟》读书笔记.zh-cn"
+              "title": "learn makefile through example.en"
             }
           }
         ],
@@ -248,8 +248,8 @@
   },
   "active": "a36399787b85e690",
   "lastOpenFiles": [
-    "CSAPP-odd_ones explanation.en.md",
     "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
+    "CSAPP-odd_ones explanation.en.md",
     "learn makefile through example.en.md",
     "MyKeymap 修改切换窗口按键.zh-cn.md",
     "testaaaa.md",
