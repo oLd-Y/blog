@@ -5,6 +5,10 @@
       "path": "《卡拉马佐夫兄弟》读书笔记.zh-cn.md"
     },
     {
+      "basename": "CSAPP-odd_ones explanation.en",
+      "path": "CSAPP-odd_ones explanation.en.md"
+    },
+    {
       "basename": "learn makefile through example.en",
       "path": "learn makefile through example.en.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "《刀锋》读后感.zh-cn",
       "path": "《刀锋》读后感.zh-cn.md"
-    },
-    {
-      "basename": "LazyVim for Ambitious Developers reading notes.zh-cn",
-      "path": "LazyVim for Ambitious Developers reading notes.zh-cn.md"
     }
   ],
   "omittedPaths": []
