@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "《为美好的世界献上祝福》阅读笔记.zh-cn",
+      "path": "《为美好的世界献上祝福》阅读笔记.zh-cn.md"
+    },
+    {
       "basename": "learn makefile through example.en",
       "path": "learn makefile through example.en.md"
+    },
+    {
+      "basename": "usage of `restrict` keyword in c.en",
+      "path": "usage of `restrict` keyword in c.en.md"
     },
     {
       "basename": "《卡拉马佐夫兄弟》读书笔记.zh-cn",
@@ -19,10 +27,6 @@
     {
       "basename": "《枪炮、病菌与钢铁》读书笔记.zh-cn",
       "path": "《枪炮、病菌与钢铁》读书笔记.zh-cn.md"
-    },
-    {
-      "basename": "usage of `restrict` keyword in c.en",
-      "path": "usage of `restrict` keyword in c.en.md"
     },
     {
       "basename": "虎码用法记录.zh-cn",
@@ -195,10 +199,6 @@
     {
       "basename": "围城 读后感.zh-cn",
       "path": "围城 读后感.zh-cn.md"
-    },
-    {
-      "basename": "《刀锋》读后感.zh-cn",
-      "path": "《刀锋》读后感.zh-cn.md"
     }
   ],
   "omittedPaths": []
