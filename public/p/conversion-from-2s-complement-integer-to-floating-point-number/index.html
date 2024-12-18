@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="You: procedure: c void float_eg() { int x = 3490593; float f = (float)x; printf(&ldquo;For x = %d\\n&rdquo;, x); show_int(x); show_float(f); x = 3510593; f = (float)x; printf(&ldquo;For x = %d\\n&rdquo;, x); show_int(x); show_float(f); } output: sh For x = 3490593 21 43 35 00 84 0c 55 4a For x = 3510593 41 91 35 00 04 45 56 4a please explain as well ChatGPT: The float_eg procedure demonstrates how a 32-bit integer is converted to a 32-bit floating-point value in memory (following the IEEE 754 standard for floating-point representation).">
+<title>Conversion from 2&#39;s complement integer to floating point number</title>
+
+<link rel='canonical' href='http://localhost:1313/blog/p/conversion-from-2s-complement-integer-to-floating-point-number/'>
+
+<link rel="stylesheet" href="/blog/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="Conversion from 2's complement integer to floating point number">
+<meta property='og:description' content="You: procedure: c void float_eg() { int x = 3490593; float f = (float)x; printf(&ldquo;For x = %d\\n&rdquo;, x); show_int(x); show_float(f); x = 3510593; f = (float)x; printf(&ldquo;For x = %d\\n&rdquo;, x); show_int(x); show_float(f); } output: sh For x = 3490593 21 43 35 00 84 0c 55 4a For x = 3510593 41 91 35 00 04 45 56 4a please explain as well ChatGPT: The float_eg procedure demonstrates how a 32-bit integer is converted to a 32-bit floating-point value in memory (following the IEEE 754 standard for floating-point representation).">
+<meta property='og:url' content='http://localhost:1313/blog/p/conversion-from-2s-complement-integer-to-floating-point-number/'>
+<meta property='og:site_name' content='lyao&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='base' /><meta property='article:tag' content='CSAPP' /><meta property='article:tag' content='ai-QA/chatgpt' /><meta property='article:published_time' content='2024-12-05T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-12-05T21:28:32&#43;08:00'/>
+<meta name="twitter:title" content="Conversion from 2's complement integer to floating point number">
+<meta name="twitter:description" content="You: procedure: c void float_eg() { int x = 3490593; float f = (float)x; printf(&ldquo;For x = %d\\n&rdquo;, x); show_int(x); show_float(f); x = 3510593; f = (float)x; printf(&ldquo;For x = %d\\n&rdquo;, x); show_int(x); show_float(f); } output: sh For x = 3490593 21 43 35 00 84 0c 55 4a For x = 3510593 41 91 35 00 04 45 56 4a please explain as well ChatGPT: The float_eg procedure demonstrates how a 32-bit integer is converted to a 32-bit floating-point value in memory (following the IEEE 754 standard for floating-point representation).">
+    <link rel="shortcut icon" href="/blog/favicon.ico" />
+
+  
+
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/blog/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/blog/img/avatar_hu94e2356dc7c89f996982d096d3fcd26c_12520_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">✨</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/blog">lyao&#39;s Blog</a></h1>
+            <h2 class="site-description">A faint fluorescent light has its place to shine.</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/oLd-Y'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/180272185'
+                        target="_blank"
+                        title="bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-bilibili" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="currentColor" fill="none"/>
+  <path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z" />
+  <path d="M8 3l2 3" />
+  <path d="M16 3l-2 3" />
+  <path d="M9 13v-2" />
+  <path d="M15 11v2" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://old-y.github.io/blog/index.xml'
+                        target="_blank"
+                        title="Rss"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/blog/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/blog/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/blog/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/blog/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/blog/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="http://localhost:1313/blog/" selected>English</option>
+                                
+                                    <option value="http://localhost:1313/blog/zh-cn/" >中文</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#you"><strong>You:</strong></a></li>
+    <li><a href="#chatgpt"><strong>ChatGPT:</strong></a>
+      <ol>
+        <li><a href="#key-concepts">Key Concepts</a></li>
+        <li><a href="#breakdown-of-the-output">Breakdown of the Output</a>
+          <ol>
+            <li><a href="#for-x--3490593">For <code>x = 3490593</code>:</a></li>
+            <li><a href="#for-x--3510593">For <code>x = 3510593</code>:</a></li>
+          </ol>
+        </li>
+        <li><a href="#explanation-of-differences">Explanation of Differences</a></li>
+        <li><a href="#summary">Summary</a></li>
+      </ol>
+    </li>
+    <li><a href="#you-1"><strong>You:</strong></a></li>
+    <li><a href="#chatgpt-1"><strong>ChatGPT:</strong></a>
+      <ol>
+        <li><a href="#1-the-binary-representation-of-3490593"><strong>1. The Binary Representation of <code>3490593</code></strong></a></li>
+        <li><a href="#2-normalization-in-ieee-754"><strong>2. Normalization in IEEE 754</strong></a></li>
+        <li><a href="#3-representation-of-the-mantissa"><strong>3. Representation of the Mantissa</strong></a></li>
+        <li><a href="#4-why-23-bits"><strong>4. Why 23 Bits?</strong></a></li>
+        <li><a href="#key-insight"><strong>Key Insight</strong></a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/blog/categories/cs/" >
+                CS
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/blog/p/conversion-from-2s-complement-integer-to-floating-point-number/">Conversion from 2&#39;s complement integer to floating point number</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Dec 05, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    5 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="you"><strong>You:</strong>
+</h2><p>procedure:</p>
+<p>c
+void float_eg() {
+int x = 3490593;
+float f = (float)x;
+printf(&ldquo;For x = %d\n&rdquo;, x);
+show_int(x);
+show_float(f);</p>
+<p>x = 3510593;
+f = (float)x;
+printf(&ldquo;For x = %d\n&rdquo;, x);
+show_int(x);
+show_float(f);
+}</p>
+<p>output:</p>
+<p>sh
+For x = 3490593
+21 43 35 00
+84 0c 55 4a
+For x = 3510593
+41 91 35 00
+04 45 56 4a</p>
+<p>please explain as well</p>
+<hr>
+<h2 id="chatgpt"><strong>ChatGPT:</strong>
+</h2><p>The <code>float_eg</code> procedure demonstrates how a 32-bit integer is converted to a 32-bit floating-point value in memory (following the IEEE 754 standard for floating-point representation). Let&rsquo;s break down the output and understand what is happening.</p>
+<hr>
+<h3 id="key-concepts">Key Concepts
+</h3><ol>
+<li>
+<p><strong>Integer Representation (<code>show_int</code>)</strong>:</p>
+<ul>
+<li>Integers are stored as 4 bytes (32 bits) in memory.</li>
+<li>The <code>show_int</code> function prints the raw bytes of the integer in little-endian format, where the least significant byte (LSB) is stored first.</li>
+</ul>
+</li>
+<li>
+<p><strong>Floating-Point Representation (<code>show_float</code>)</strong>:</p>
+<ul>
+<li>Floating-point numbers follow the IEEE 754 standard for single-precision (32-bit) representation:
+<ul>
+<li><strong>1 bit</strong> for the sign.</li>
+<li><strong>8 bits</strong> for the exponent (biased by 127).</li>
+<li><strong>23 bits</strong> for the fractional part (mantissa), with an implicit leading 1.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Conversion from Integer to Float</strong>:</p>
+<ul>
+<li>When an integer is converted to a float, the value is approximated in the floating-point format, which may result in rounding errors.</li>
+<li>The integer value is scaled and packed into the floating-point format.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="breakdown-of-the-output">Breakdown of the Output
+</h3><h4 id="for-x--3490593">For <code>x = 3490593</code>:
+</h4><ol>
+<li>
+<p><strong>Integer Representation (<code>show_int</code>)</strong>:</p>
+<ul>
+<li><code>3490593</code> in hexadecimal: <code>0x00354321</code>.</li>
+<li>In little-endian format: <code>21 43 35 00</code>.
+<ul>
+<li>The LSB (<code>21</code>) is stored first, followed by <code>43</code>, <code>35</code>, and <code>00</code>.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Floating-Point Representation (<code>show_float</code>)</strong>:</p>
+<ul>
+<li><code>3490593</code> is converted to floating-point:
+<ul>
+<li>Binary representation of <code>3490593</code>: <code>110101000110001000001</code> (23 significant bits).</li>
+<li>Normalize: <code>1.10101000110001000001 × 2^21</code>.</li>
+<li>IEEE 754 format:
+<ul>
+<li>Sign bit: <code>0</code> (positive).</li>
+<li>Exponent: <code>21 + 127 = 148</code> → <code>10010100</code>.</li>
+<li>Mantissa: <code>10101000110001000001000</code> (rounded to fit 23 bits).</li>
+</ul>
+</li>
+<li>Final bytes: <code>84 0c 55 4a</code>.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h4 id="for-x--3510593">For <code>x = 3510593</code>:
+</h4><ol>
+<li>
+<p><strong>Integer Representation (<code>show_int</code>)</strong>:</p>
+<ul>
+<li><code>3510593</code> in hexadecimal: <code>0x00359141</code>.</li>
+<li>In little-endian format: <code>41 91 35 00</code>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Floating-Point Representation (<code>show_float</code>)</strong>:</p>
+<ul>
+<li><code>3510593</code> is converted to floating-point:
+<ul>
+<li>Binary representation of <code>3510593</code>: <code>110101000110010100001</code> (23 significant bits).</li>
+<li>Normalize: <code>1.10101000110010100001 × 2^21</code>.</li>
+<li>IEEE 754 format:
+<ul>
+<li>Sign bit: <code>0</code> (positive).</li>
+<li>Exponent: <code>21 + 127 = 148</code> → <code>10010100</code>.</li>
+<li>Mantissa: <code>10101000110010100001000</code> (rounded to fit 23 bits).</li>
+</ul>
+</li>
+<li>Final bytes: <code>04 45 56 4a</code>.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="explanation-of-differences">Explanation of Differences
+</h3><ol>
+<li>
+<p><strong>Integer Bytes</strong>:</p>
+<ul>
+<li>The difference between the integer byte sequences (<code>21 43 35 00</code> vs. <code>41 91 35 00</code>) reflects the different values of <code>x</code>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Floating-Point Bytes</strong>:</p>
+<ul>
+<li>The difference in floating-point byte sequences (<code>84 0c 55 4a</code> vs. <code>04 45 56 4a</code>) arises because:
+<ul>
+<li>The binary representations of the integers are slightly different.</li>
+<li>The normalization step and rounding during the float conversion result in changes to the mantissa and possibly other components.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="summary">Summary
+</h3><p>The output illustrates how integers are stored and how they are converted to floating-point values. The integer byte sequences represent the exact binary values of <code>x</code>, while the floating-point sequences represent the IEEE 754 approximations. Differences in the outputs for <code>x = 3490593</code> and <code>x = 3510593</code> arise due to the changes in the integer values and the way they are normalized and rounded in the floating-point format.</p>
+<hr>
+<h2 id="you-1"><strong>You:</strong>
+</h2><p>why does the 21-bit 110101000110001000001 have 23 significant bits?</p>
+<hr>
+<h2 id="chatgpt-1"><strong>ChatGPT:</strong>
+</h2><p>The reason the 21-bit binary representation of <code>3490593</code> appears to have <strong>23 significant bits</strong> in the IEEE 754 floating-point format is due to the <strong>normalization process</strong> of floating-point numbers and the inclusion of an <strong>implicit leading 1</strong> in the representation.</p>
+<p>Let’s break it down step by step:</p>
+<hr>
+<h3 id="1-the-binary-representation-of-3490593"><strong>1. The Binary Representation of <code>3490593</code></strong>
+</h3><ul>
+<li>
+<p>The decimal number <code>3490593</code> in binary is:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">110101000110001000001
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>This representation has <strong>21 bits</strong>.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="2-normalization-in-ieee-754"><strong>2. Normalization in IEEE 754</strong>
+</h3><ul>
+<li>
+<p>To represent a floating-point number, the value is normalized into the form:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-mathematica" data-lang="mathematica"><span class="line"><span class="cl"><span class="mf">1.</span><span class="n">xxx</span><span class="err">...</span><span class="n">xxx</span><span class="w"> </span><span class="err">×</span><span class="w"> </span><span class="mi">2</span><span class="o">^</span><span class="n">E</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>
+<p>The <strong>leading 1</strong> in the significand (mantissa) is implicit in the IEEE 754 format and is <strong>not stored</strong> in the floating-point representation.</p>
+</li>
+<li>
+<p>For <code>3490593</code>, the normalized form is:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">1.10101000110001000001 × 2^21
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>The <code>1.</code> before the decimal point is implicit and not counted in the explicit bits of the stored mantissa.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="3-representation-of-the-mantissa"><strong>3. Representation of the Mantissa</strong>
+</h3><ul>
+<li>
+<p>After normalization:</p>
+<ul>
+<li>The <strong>fractional part</strong> (<code>10101000110001000001</code>) of the significand is explicitly stored in the IEEE 754 format.</li>
+<li>This fractional part has up to <strong>23 bits</strong> (for single-precision floats).</li>
+</ul>
+</li>
+<li>
+<p>For <code>3490593</code>, we only need 21 bits to represent the fractional part (<code>10101000110001000001</code>), but the IEEE 754 standard always reserves space for 23 bits in the mantissa:</p>
+<ul>
+<li>
+<p>The extra two bits are filled with <code>0</code>s, resulting in:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">10101000110001000001000
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="4-why-23-bits"><strong>4. Why 23 Bits?</strong>
+</h3><ul>
+<li>
+<p>The IEEE 754 format specifies <strong>23 bits</strong> for the mantissa to ensure precision for a wide range of numbers.</p>
+</li>
+<li>
+<p>In single-precision:</p>
+<ul>
+<li>1 bit is reserved for the sign.</li>
+<li>8 bits are reserved for the exponent.</li>
+<li>23 bits are reserved for the fractional part of the significand.</li>
+</ul>
+</li>
+<li>
+<p>Even if the original number has fewer significant bits (e.g., 21 in this case), the mantissa field will always be 23 bits, padded with <code>0</code>s if necessary.</p>
+</li>
+</ul>
+<hr>
+<h3 id="key-insight"><strong>Key Insight</strong>
+</h3><p>The <strong>23 bits</strong> of the mantissa in IEEE 754 include only the fractional part of the significand, as the leading <code>1</code> is implicit. In this case, the 21-bit binary number (<code>110101000110001000001</code>) becomes 23 bits after:</p>
+<ol>
+<li>Normalization (<code>1.10101000110001000001</code>).</li>
+<li>Storing the fractional part (<code>10101000110001000001000</code>) in the mantissa field.</li>
+</ol>
+<p>This ensures compliance with the IEEE 754 standard, even if the number&rsquo;s original binary representation is shorter than 23 bits.</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/blog/tags/base/">Base</a>
+        
+            <a href="/blog/tags/csapp/">CSAPP</a>
+        
+            <a href="/blog/tags/ai-qa/chatgpt/">Ai-QA/Chatgpt</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            Last updated on Dec 05, 2024 21:28 CST
+        </span>
+    </section></footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.body, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/blog/p/how-to-judge-whether-a-machine-is-little-endian-or-big-endian/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">how to judge whether a machine is little-endian or big-endian?</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/p/why-does-the-modula-of-x-mod-2-to-k-power-will-retain-k-bits/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">why does the modula of `x mod 2 to k power` will retain k bits</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/p/how-could-the-number-of-bigger-data-type-with-leading-1-equals-to-the-original-number/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">How could the number of bigger data type with leading 1 equals to the original number?</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/p/why-does-a-twos-complement-encoded-1-convert-to-unsigned-encoding-would-be-the-max-value-of-unsiged-number-t2u_w-1-umax_w/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">why does a two&#39;s complement encoded -1 convert to unsigned encoding would be the max value of unsiged number? ($T2U_{w}(-1) = UMax_{w}$)</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/p/why-would-int-53191-become-12345-after-truncating-to-short/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Why would int 53191 become -12345 after truncating to short</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="oLd-Y/blog"
+    data-repo-id="R_kgDOLzCoMA"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOMdwBSM4ChU46"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="zh-CN"
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark');
+            }
+        }
+    })();
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 谷栗杳
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.26.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+<script src="/blog/js/obsidian-links.js"></script>
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/blog/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

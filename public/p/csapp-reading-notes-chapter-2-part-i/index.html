@@ -10,7 +10,7 @@
 <meta property='og:description' content="Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation">
 <meta property='og:url' content='http://localhost:1313/blog/p/csapp-reading-notes-chapter-2-part-i/'>
 <meta property='og:site_name' content='lyao&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='foundation' /><meta property='article:tag' content='CSAPP' /><meta property='article:published_time' content='2024-11-04T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-11-21T13:29:32&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='foundation' /><meta property='article:tag' content='CSAPP' /><meta property='article:published_time' content='2024-11-04T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-12-07T14:10:37&#43;08:00'/>
 <meta name="twitter:title" content="CSAPP reading notes - Chapter 2 (Part I)">
 <meta name="twitter:description" content="Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation">
     <link rel="shortcut icon" href="/blog/favicon.ico" />
@@ -336,6 +336,17 @@
         <li><a href="#224-conversions-between-signed-and-unsigned">2.2.4 Conversions between Signed and Unsigned</a></li>
         <li><a href="#225-signed-versus-unsigned-in-c">2.2.5 Signed versus Unsigned in C</a></li>
         <li><a href="#226-expanding-the-bit-representation-of-a-number">2.2.6 Expanding the Bit Representation of a Number</a></li>
+        <li><a href="#227-truncating-numbers">2.2.7 Truncating Numbers</a></li>
+        <li><a href="#228-advice-on-signed-versus-unsigned">2.2.8 Advice on Signed versus Unsigned</a></li>
+        <li><a href="#23-integer-arithmetic">2.3 Integer Arithmetic</a></li>
+        <li><a href="#232-twos-complement-addition">2.3.2 Two’s-Complement Addition</a></li>
+      </ol>
+    </li>
+    <li><a href="#24-floating-point">2.4 Floating Point</a>
+      <ol>
+        <li><a href="#241-fractional-binary-numbers">2.4.1 Fractional Binary Numbers</a></li>
+        <li><a href="#242-ieee-floating-point-representation">2.4.2 IEEE Floating-Point Representation</a></li>
+        <li><a href="#244-rounding-floating-point">2.4.4 Rounding Floating-point</a></li>
       </ol>
     </li>
   </ol>
@@ -406,7 +417,7 @@
 
 
                 <time class="article-time--reading">
-                    8 minute read
+                    10 minute read
                 </time>
             </div>
         
@@ -448,11 +459,6 @@
 	
 	
 ></p>
-<p>practice problem 2.1:
-A. 0x25B9D2 to binary
-B. binary 1010111001001001 to hexadecimal
-C. 0xA8B3D to binary
-D. binary 1100100010110110010110 to hexadecimal</p>
 <p>For $x = 2,048 = 2^{11}$, we have $n = 11 = 3 + 4 \cdot 2$, giving hexdecimal representation <code>0x800</code>.</p>
 <h3 id="212-data-sizes">2.1.2 Data Sizes
 </h3><p>A 32-bit word size limits the virtual address space to 4 gigabytes(written 4 GB), that is, just over 4 x 10^9 bytes. Scaling up to a 64-bit word size leads to a virtual address space of 16 exabytes, or around 1.84 x 10^19 bytes.</p>
@@ -471,6 +477,7 @@ D. binary 1100100010110110010110 to hexadecimal</p>
 <p><code>int32_t</code> and <code>int64_t</code> have exactly 4 and 8 bytes, respectively, to avoid the vagaries of relying on &ldquo;typical&rdquo; sizes and different compiler settings.</p>
 <h3 id="213-addressing-and-byte-ordering">2.1.3 Addressing and Byte Ordering
 </h3><p>The convention where the least significant bytes comes first is referred to as <em>little endian</em>. The convention where the most sifnificant byte comes first is referred to as <em>big endian</em>.</p>
+<p>For value <code>x = 0x01234567</code>, the high-order byte has hexadecimal value <code>0x01</code>, while the low-order byte has value <code>0x67</code>.</p>
 <p><img src="/blog/CSAPP/big-little-endian.png"
 	
 	
@@ -523,13 +530,24 @@ D. binary 1100100010110110010110 to hexadecimal</p>
 </h3><p>A bitwise operation will have behavior matching that of its logical counterpart only in the special case in which the arguments are restricted to 0 or 1.</p>
 <p>The logical operators do not evaluate their second argument if the result of the expression can be determined by evaluating the first argument.</p>
 <h3 id="219-shift-operations-in-c">2.1.9 Shift Operations in C
-</h3><p><code>x &lt;&lt; k</code>: $x$ is shifted $k$ bits to the left, dropping off the $k$ most significant bits and filling the right end with $k$ zeros.</p>
-<p><code>x &gt;&gt; k</code>:</p>
+</h3><p>Left shift <code>x &lt;&lt; k</code>: $x$ is shifted $k$ bits to the left, dropping off the $k$ most significant bits and filling the right end with $k$ zeros.</p>
+<p>Right shift <code>x &gt;&gt; k</code> has:</p>
 <ul>
 <li>Logical. A logical right shift fills the left end with $k$ zeros.</li>
 <li>Arithmetic. An arithemetic right shift fills the left end with $k$ repetitions of the most significant bit.</li>
-<li>Arithmetic is the most-used right shift for signed data. But for unsigned data it must be logical right shift.</li>
 </ul>
+<p>For signed data (int, long, etc.), it determined by compiler (according to mechine structure) whether right shift in c is <strong>logical</strong> or <strong>arithmetic</strong>.</p>
+<p>While for unsigned data (unsigned int, unsigned long), it is always <strong>logical</strong> right shift.</p>
+<p>Here are examples:
+<img src="/blog/CSAPP/shift-operations-in-c.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Arithmetic right shift is the most-used right shift for signed data. But for unsigned data it must be logical right shift.</p>
 <p>On many machines, the shift instruction consider only the lower $log_2 w$ bits of the shift amount when shifting a w-bit value, and so the shift amount is computed as <code>k mod w</code>. <code>w</code> is the bit length of the data type. For instance:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -746,6 +764,83 @@ a signed decimal, an unsigned decimal, and in hexadecimal format</p>
 <h3 id="226-expanding-the-bit-representation-of-a-number">2.2.6 Expanding the Bit Representation of a Number
 </h3><p>unsigned -&gt; large data type =&gt; add leading <em>zeros</em></p>
 <p>two&rsquo;s-complement -&gt; large data type =&gt; sign extension (filled by the first bit)</p>
+<p>The key property we exploit is that $2^{w} - 2^{w-1} = 2^{w-1}$. Thus, the combined effect of adding a bit of weight $-2^{w}$ and of converting the bit having weight $-2^{w-1}$ to be one with weight $2^{w-1}$ is to preserve the original numeric value.</p>
+<p>[[How could the number of bigger data type with leading 1 equals to the original number.en |Here is the chatgpt expalanation of why bigger data type with leading 1 equals to the original number.]]</p>
+<p>When <code>short</code> cast to <code>unsigned</code>, it will first promote to <code>int</code>, result in <code>(unsigned)(int)</code> rather than <code>(unsigned)(unsigned short)</code>.</p>
+<h3 id="227-truncating-numbers">2.2.7 Truncating Numbers
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">53191</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">short</span> <span class="n">sx</span> <span class="o">=</span> <span class="p">(</span><span class="kt">short</span><span class="p">)</span><span class="n">x</span><span class="p">;</span> <span class="cm">/* -12345 */</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">y</span> <span class="o">=</span> <span class="n">sx</span><span class="p">;</span> <span class="cm">/* -12345 */</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>[[Why would int 53191 become -12345 after truncating to short.en]]</p>
+<p>truncate <code>x</code> down to k bits <code>x'</code>: $x&rsquo; = x \mod 2^{k}$</p>
+<p>[[why does  the modula of <code>x mod 2 to k power</code> will retain k bits.en]]</p>
+<h3 id="228-advice-on-signed-versus-unsigned">2.2.8 Advice on Signed versus Unsigned
+</h3><p>None</p>
+<h3 id="23-integer-arithmetic">2.3 Integer Arithmetic
+</h3><h3 id="232-twos-complement-addition">2.3.2 Two’s-Complement Addition
+</h3><p>overflow means remove the most significant bit.</p>
+<p>positive overflow: x &gt; 0 &amp; y &gt; 0 but $x +<em>{w}^{t}y \leq 0$.
+negetive overflow: x &lt; 0 &amp; y &lt; 0 but $x +</em>{w}^{t}y \geq 0$.</p>
+<p>$x *<em>{w}^{t} = U2T</em>{w}((x\cdot y)\mod 2^{w})$</p>
+<p>k bits will be left if you modula a binary x by k.</p>
+<p>we can transform multiplication into shifting, for example, x * 14:</p>
+<ol>
+<li>14 = 2^3 + 2^2 + 2^1 =&gt; (x&laquo;3) + (x&laquo;2) + (x&laquo;1)</li>
+<li>14 = 2^4 - 2^1 =&gt; (x&laquo;4) - (x&laquo;1)</li>
+</ol>
+<p>For the cases where rounding is required, adding the bias causes the upper bits to be incremented, so that the result will be rounded toward zero.</p>
+<p>$\lceil x/y \rceil=\lfloor (x + y - 1) / y\rfloor$</p>
+<p>c expression that yields x/2^k: <code>(x&lt;0 ? x+(1&lt;&lt;k)-1 : x) &gt;&gt; k</code></p>
+<h2 id="24-floating-point">2.4 Floating Point
+</h2><h3 id="241-fractional-binary-numbers">2.4.1 Fractional Binary Numbers
+</h3><p>$$
+b = \sum_{i=-n}^{m}2^{i} \times b_{i}
+$$
+it can&rsquo;t represent a very large number.</p>
+<h3 id="242-ieee-floating-point-representation">2.4.2 IEEE Floating-Point Representation
+</h3><p>The IEEE floating-point standard represents a number in a form:
+$V=(-1)^{s}\times M\times2^{E}$.</p>
+<p>V: Values
+s: sign
+M: significand
+E: exponent</p>
+<p><img src="/blog/CSAPP/2.32.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="/blog/CSAPP/2.33.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>E = e - bias</p>
+<h3 id="244-rounding-floating-point">2.4.4 Rounding Floating-point
+</h3><p>4 rounding modes:
+<img src="/blog/CSAPP/2.37.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Halfway point format: <code>XX...X.YY...Y100...</code></p>
 
 </section>
 
@@ -783,7 +878,7 @@ a signed decimal, an unsigned decimal, and in hexadecimal format</p>
 
 
         <span>
-            Last updated on Nov 21, 2024 13:29 CST
+            Last updated on Dec 07, 2024 14:10 CST
         </span>
     </section></footer>
 
@@ -839,6 +934,32 @@ a signed decimal, an unsigned decimal, and in hexadecimal format</p>
             
                 
 <article class="">
+    <a href="/blog/p/conversion-from-2s-complement-integer-to-floating-point-number/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Conversion from 2&#39;s complement integer to floating point number</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/p/why-does-the-modula-of-x-mod-2-to-k-power-will-retain-k-bits/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">why does the modula of `x mod 2 to k power` will retain k bits</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
     <a href="/blog/p/how-could-the-number-of-bigger-data-type-with-leading-1-equals-to-the-original-number/">
         
         
@@ -858,32 +979,6 @@ a signed decimal, an unsigned decimal, and in hexadecimal format</p>
 
         <div class="article-details">
             <h2 class="article-title">why does a two&#39;s complement encoded -1 convert to unsigned encoding would be the max value of unsiged number? ($T2U_{w}(-1) = UMax_{w}$)</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/blog/p/csapp-practice-problems-and-solutions/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">CSAPP practice problems and solutions</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/blog/p/extract-a-.tar.gz-file/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">extract a .tar.gz file</h2>
         </div>
     </a>
 </article>

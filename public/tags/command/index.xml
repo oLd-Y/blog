@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Command on lyao&#39;s Blog</title>
+        <link>http://localhost:1313/blog/tags/command/</link>
+        <description>Recent content in Command on lyao&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>谷栗杳</copyright>
+        <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/command/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>learn vim command line through examples</title>
+        <link>http://localhost:1313/blog/p/learn-vim-command-line-through-examples/</link>
+        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/learn-vim-command-line-through-examples/</guid>
+        <description>&lt;p&gt;&lt;code&gt;%s/^\./-/g&lt;/code&gt;, delete all the &lt;code&gt;.&lt;/code&gt; within a file at the beginning of each line.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

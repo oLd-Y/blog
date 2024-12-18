@@ -138,6 +138,10 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;h2 id=&#34;快速重复输入&#34;&gt;快速重复输入
+&lt;/h2&gt;&lt;p&gt;可以使用一些引导快速打重复的字，有这些符号：
+&lt;code&gt;z、&#39;、[、]&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;比如按 &lt;code&gt;[&lt;/code&gt; 键是在第一位，其它符号在第三位等。&lt;/p&gt;
 </description>
         </item>
         
