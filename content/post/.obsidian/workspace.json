@@ -95,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "is_little",
+                "query": "阿克娅",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,7 +127,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
