@@ -1,13 +1,16 @@
 ---
 title: CSAPP-odd_ones explanation
-categories: 
-tags: 
+categories: CS
+tags:
+  - ai-QA/chatgpt
+  - bit-operation
+  - mask
 date: 2024-12-14
 description: 
 image: 
 weight: 1
 draft: true
-lastmod: 2024-12-14T07:46:46+08:00
+lastmod: 2024-12-20T07:58:30+08:00
 ---
 **You:**
 
