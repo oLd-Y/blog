@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "虎码用法记录.zh-cn",
+      "path": "虎码用法记录.zh-cn.md"
+    },
+    {
       "basename": "CSAPP 家庭作业 2.65 odd_ones 解释.zh-cn",
       "path": "CSAPP 家庭作业 2.65 odd_ones 解释.zh-cn.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "CSAPP-odd_ones explanation.en",
       "path": "CSAPP-odd_ones explanation.en.md"
-    },
-    {
-      "basename": "虎码用法记录.zh-cn",
-      "path": "虎码用法记录.zh-cn.md"
     },
     {
       "basename": "usage of `restrict` keyword in c.en",
