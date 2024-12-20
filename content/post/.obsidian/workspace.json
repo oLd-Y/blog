@@ -63,7 +63,8 @@
               "title": "CSAPP 家庭作业 2.65 odd_ones 解释.zh-cn"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -259,13 +260,13 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "5f807305454f16b5",
+  "active": "9046b9f9c0dc50fe",
   "lastOpenFiles": [
     "CSAPP 家庭作业 2.65 odd_ones 解释.zh-cn.md",
+    "虎码用法记录.zh-cn.md",
     "《为美好的世界献上祝福》阅读笔记.zh-cn.md",
     "learn makefile through example.en.md",
     "CSAPP-odd_ones explanation.en.md",
-    "虎码用法记录.zh-cn.md",
     "usage of `restrict` keyword in c.en.md",
     "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
     "MyKeymap 修改切换窗口按键.zh-cn.md",

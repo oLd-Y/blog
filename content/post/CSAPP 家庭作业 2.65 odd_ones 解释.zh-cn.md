@@ -10,7 +10,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-12-20T09:09:25+08:00
+lastmod: 2024-12-20T11:27:28+08:00
 ---
 CSAPP 的练习题 2.65 要求判断一个无符号数 x 的二进制数中包含的 1 的个数为奇数还是偶数。
 
