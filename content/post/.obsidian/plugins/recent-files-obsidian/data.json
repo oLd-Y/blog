@@ -5,6 +5,22 @@
       "path": "《为美好的世界献上祝福》阅读笔记.zh-cn.md"
     },
     {
+      "basename": "CSAPP reading notes - part I, chapter 3.en",
+      "path": "CSAPP reading notes - part I, chapter 3.en.md"
+    },
+    {
+      "basename": "虎码用法记录.zh-cn",
+      "path": "虎码用法记录.zh-cn.md"
+    },
+    {
+      "basename": "CSAPP reading notes - part I, chapter 2.en",
+      "path": "CSAPP reading notes - part I, chapter 2.en.md"
+    },
+    {
+      "basename": "usage of `restrict` keyword in c.en",
+      "path": "usage of `restrict` keyword in c.en.md"
+    },
+    {
       "basename": "git 命令中的 fixup 参数的作用.zh-cn",
       "path": "git 命令中的 fixup 参数的作用.zh-cn.md"
     },
@@ -17,20 +33,12 @@
       "path": "CSAPP 家庭作业 2.65 odd_ones 解释.zh-cn.md"
     },
     {
-      "basename": "虎码用法记录.zh-cn",
-      "path": "虎码用法记录.zh-cn.md"
-    },
-    {
       "basename": "learn makefile through example.en",
       "path": "learn makefile through example.en.md"
     },
     {
       "basename": "CSAPP-odd_ones explanation.en",
       "path": "CSAPP-odd_ones explanation.en.md"
-    },
-    {
-      "basename": "usage of `restrict` keyword in c.en",
-      "path": "usage of `restrict` keyword in c.en.md"
     },
     {
       "basename": "《卡拉马佐夫兄弟》读书笔记.zh-cn",
@@ -47,10 +55,6 @@
     {
       "basename": "CSAPP reading notes - chapter 1.en",
       "path": "CSAPP reading notes - chapter 1.en.md"
-    },
-    {
-      "basename": "CSAPP reading notes - part I, chapter 2.en",
-      "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
     {
       "basename": "CSAPP practice problem and solutions-2.en",
