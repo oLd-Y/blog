@@ -5,6 +5,14 @@
       "path": "《为美好的世界献上祝福》阅读笔记.zh-cn.md"
     },
     {
+      "basename": "git 命令中的 fixup 参数的作用.zh-cn",
+      "path": "git 命令中的 fixup 参数的作用.zh-cn.md"
+    },
+    {
+      "basename": "reword",
+      "path": "reword.md"
+    },
+    {
       "basename": "CSAPP 家庭作业 2.65 odd_ones 解释.zh-cn",
       "path": "CSAPP 家庭作业 2.65 odd_ones 解释.zh-cn.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "extract a .tar.gz file.en",
       "path": "extract a .tar.gz file.en.md"
-    },
-    {
-      "basename": "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误.zh-cn",
-      "path": "wsl 执行 sudo apt update 时出现 Failed to fetch  Temporary failure resolving  错误.zh-cn.md"
-    },
-    {
-      "basename": "Obsidian latex-suite usage.en",
-      "path": "Obsidian latex-suite usage.en.md"
     }
   ],
   "omittedPaths": []
