@@ -112,8 +112,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -248,9 +247,10 @@
   },
   "active": "a36399787b85e690",
   "lastOpenFiles": [
+    "Untitled.md",
+    "《为美好的世界献上祝福》阅读笔记.zh-cn.md",
     "git 命令中的 fixup 参数的作用.zh-cn.md",
     "reword.md",
-    "《为美好的世界献上祝福》阅读笔记.zh-cn.md",
     "CSAPP 家庭作业 2.65 odd_ones 解释.zh-cn.md",
     "虎码用法记录.zh-cn.md",
     "learn makefile through example.en.md",
@@ -274,7 +274,6 @@
     "vim shortcuts.en.md",
     "learn vim command line through examples.en.md",
     "Learn LaTex through examples.en.md",
-    "lazyvim shortcuts.en.md",
     "static/CSAPP/2.32.png",
     "配置 C",
     "static/CSAPP/pp2.54-2.png",
