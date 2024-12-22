@@ -5,6 +5,14 @@
       "path": "《为美好的世界献上祝福》阅读笔记.zh-cn.md"
     },
     {
+      "basename": "read",
+      "path": "_templates/templater/read.md"
+    },
+    {
+      "basename": "new note",
+      "path": "_templates/templater/new note.md"
+    },
+    {
       "basename": "CSAPP reading notes - part I, chapter 3.en",
       "path": "CSAPP reading notes - part I, chapter 3.en.md"
     },
@@ -137,10 +145,6 @@
       "path": "_templates/archive/create diary.md"
     },
     {
-      "basename": "new note",
-      "path": "_templates/templater/new note.md"
-    },
-    {
       "basename": "Conversion from 2's complement integer to floating point number.en",
       "path": "Conversion from 2's complement integer to floating point number.en.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "李治军操作系统-前置知识",
       "path": "李治军操作系统-前置知识.md"
-    },
-    {
-      "basename": "15.三数之和.excalidraw",
-      "path": "_excalidraw/15.三数之和.excalidraw.md"
     }
   ],
   "omittedPaths": []
