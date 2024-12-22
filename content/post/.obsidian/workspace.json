@@ -98,7 +98,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -234,10 +235,10 @@
   "active": "a36399787b85e690",
   "lastOpenFiles": [
     "CSAPP reading notes - part I, chapter 3.en.md",
+    "《为美好的世界献上祝福》阅读笔记.zh-cn.md",
     "虎码用法记录.zh-cn.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
     "usage of `restrict` keyword in c.en.md",
-    "《为美好的世界献上祝福》阅读笔记.zh-cn.md",
     "Untitled.md",
     "git 命令中的 fixup 参数的作用.zh-cn.md",
     "reword.md",
