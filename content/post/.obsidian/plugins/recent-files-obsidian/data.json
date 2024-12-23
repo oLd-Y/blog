@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "《卡拉马佐夫兄弟》读书笔记.zh-cn",
+      "path": "《卡拉马佐夫兄弟》读书笔记.zh-cn.md"
+    },
+    {
       "basename": "《为美好的世界献上祝福》读后感.zh-cn",
       "path": "《为美好的世界献上祝福》读后感.zh-cn.md"
+    },
+    {
+      "basename": "CSAPP reading notes - part I, chapter 3.en",
+      "path": "CSAPP reading notes - part I, chapter 3.en.md"
     },
     {
       "basename": "《为美好的世界献上祝福》阅读笔记.zh-cn",
@@ -19,10 +27,6 @@
     {
       "basename": "new note",
       "path": "_templates/templater/new note.md"
-    },
-    {
-      "basename": "CSAPP reading notes - part I, chapter 3.en",
-      "path": "CSAPP reading notes - part I, chapter 3.en.md"
     },
     {
       "basename": "虎码用法记录.zh-cn",
@@ -55,10 +59,6 @@
     {
       "basename": "CSAPP-odd_ones explanation.en",
       "path": "CSAPP-odd_ones explanation.en.md"
-    },
-    {
-      "basename": "《卡拉马佐夫兄弟》读书笔记.zh-cn",
-      "path": "《卡拉马佐夫兄弟》读书笔记.zh-cn.md"
     },
     {
       "basename": "MyKeymap 修改切换窗口按键.zh-cn",
