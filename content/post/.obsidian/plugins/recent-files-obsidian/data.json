@@ -5,6 +5,10 @@
       "path": "《为美好的世界献上祝福》阅读笔记.zh-cn.md"
     },
     {
+      "basename": "Differences among `mixed`, `hard` and `soft` in `git commit reset`.en",
+      "path": "Differences among `mixed`, `hard` and `soft` in `git commit reset`.en.md"
+    },
+    {
       "basename": "read",
       "path": "_templates/templater/read.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "linux-0.11 _set_gate 宏解释",
       "path": "linux-0.11 _set_gate 宏解释.md"
-    },
-    {
-      "basename": "李治军操作系统-前置知识",
-      "path": "李治军操作系统-前置知识.md"
     }
   ],
   "omittedPaths": []

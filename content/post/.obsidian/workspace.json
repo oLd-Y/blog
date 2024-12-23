@@ -34,6 +34,20 @@
               "icon": "lucide-file",
               "title": "《为美好的世界献上祝福》阅读笔记.zh-cn"
             }
+          },
+          {
+            "id": "01fca7a6458b2aff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differences among `mixed`, `hard` and `soft` in `git commit reset`.en.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Differences among `mixed`, `hard` and `soft` in `git commit reset`.en"
+            }
           }
         ],
         "currentTab": 1
@@ -98,7 +112,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -233,9 +248,10 @@
   },
   "active": "a36399787b85e690",
   "lastOpenFiles": [
+    "Differences among `mixed`, `hard` and `soft` in `git commit reset`.en.md",
+    "《为美好的世界献上祝福》阅读笔记.zh-cn.md",
     "_templates/templater/read.md",
     "_templates/templater/new note.md",
-    "《为美好的世界献上祝福》阅读笔记.zh-cn.md",
     "CSAPP reading notes - part I, chapter 3.en.md",
     "虎码用法记录.zh-cn.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
@@ -259,7 +275,6 @@
     "配置 lazyvim 中的 C 及 C++ 开发环境.zh-cn.md",
     "_weread/枪炮、病菌与钢铁.md",
     "_weread/枪炮、病菌与钢铁（全新版本，重磅上市！全面增补校订书稿。作者亲笔撰写中文出版序！附赠《解读册》陈嘉映、俞敏洪、吴军、梁文道、严飞、郝景芳等15位专家倾力解读。人类大历史开山.md",
-    "how to judge whether a machine is little-endian or big-endian.en.md",
     "static/CSAPP/2.32.png",
     "配置 C",
     "static/CSAPP/pp2.54-2.png",
