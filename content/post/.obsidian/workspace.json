@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "6bbc7d8ff6ea4050",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "关于计算机的一些看法.zh-cn.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "关于计算机的一些看法.zh-cn"
+            }
+          },
+          {
             "id": "01fca7a6458b2aff",
             "type": "leaf",
             "state": {
@@ -35,7 +49,8 @@
               "title": "Differences among `mixed`, `hard` and `soft` in `git commit reset`.en"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -231,10 +246,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "b96a80d330cb4c22",
+  "active": "6bbc7d8ff6ea4050",
   "lastOpenFiles": [
-    "《为美好的世界献上祝福》读后感.zh-cn.md",
     "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
+    "关于计算机的一些看法.zh-cn.md",
+    "《为美好的世界献上祝福》读后感.zh-cn.md",
     "CSAPP reading notes - part I, chapter 3.en.md",
     "《为美好的世界献上祝福》阅读笔记.zh-cn.md",
     "Differences among `mixed`, `hard` and `soft` in `git commit reset`.en.md",
@@ -259,7 +275,6 @@
     "static/CSAPP/shift-operations-in-c.png",
     "逻辑运算符和位运算符.zh-cn.md",
     "配置 lazyvim 中的 C 及 C++ 开发环境.zh-cn.md",
-    "_weread/枪炮、病菌与钢铁.md",
     "static/CSAPP/2.32.png",
     "配置 C",
     "static/CSAPP/pp2.54-2.png",
