@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "潜空间 latent 讲解.zh-cn",
+      "path": "潜空间 latent 讲解.zh-cn.md"
+    },
+    {
       "basename": "ComfyUI 学习笔记.zh-cn",
       "path": "ComfyUI 学习笔记.zh-cn.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "How could the number of bigger data type with leading 1 equals to the original number.en",
       "path": "How could the number of bigger data type with leading 1 equals to the original number.en.md"
-    },
-    {
-      "basename": "why $T2U_{w}(-1) = UMax_{w}$.en",
-      "path": "why $T2U_{w}(-1) = UMax_{w}$.en.md"
     }
   ],
   "omittedPaths": []

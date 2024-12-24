@@ -36,6 +36,20 @@
             }
           },
           {
+            "id": "d0e3fd3d6fd39446",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "潜空间 latent 讲解.zh-cn.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "潜空间 latent 讲解.zh-cn"
+            }
+          },
+          {
             "id": "6bbc7d8ff6ea4050",
             "type": "leaf",
             "state": {
@@ -64,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -260,10 +274,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "dd8e05157d98bbad",
+  "active": "d0e3fd3d6fd39446",
   "lastOpenFiles": [
-    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
     "ComfyUI 学习笔记.zh-cn.md",
+    "潜空间 latent 讲解.zh-cn.md",
+    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
     "关于计算机技术的一些想法.zh-cn.md",
     "《为美好的世界献上祝福》读后感.zh-cn.md",
     "CSAPP reading notes - part I, chapter 3.en.md",
@@ -288,7 +303,6 @@
     "_TODO.md",
     "ChatGPT.md",
     "static/CSAPP/shift-operations-in-c.png",
-    "逻辑运算符和位运算符.zh-cn.md",
     "static/CSAPP/2.32.png",
     "配置 C",
     "static/CSAPP/pp2.54-2.png",
