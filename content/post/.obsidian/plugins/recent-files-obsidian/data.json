@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "stable diffusion 原理.zh-cn",
+      "path": "stable diffusion 原理.zh-cn.md"
+    },
+    {
       "basename": "潜空间 latent 讲解.zh-cn",
       "path": "潜空间 latent 讲解.zh-cn.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "why does  the modula of `x mod 2 to k power` will retain k bits.en",
       "path": "why does  the modula of `x mod 2 to k power` will retain k bits.en.md"
-    },
-    {
-      "basename": "How could the number of bigger data type with leading 1 equals to the original number.en",
-      "path": "How could the number of bigger data type with leading 1 equals to the original number.en.md"
     }
   ],
   "omittedPaths": []
