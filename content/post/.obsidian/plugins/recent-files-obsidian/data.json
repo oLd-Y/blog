@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "ComfyUI 学习笔记.zh-cn",
+      "path": "ComfyUI 学习笔记.zh-cn.md"
+    },
+    {
       "basename": "《卡拉马佐夫兄弟》读书笔记.zh-cn",
       "path": "《卡拉马佐夫兄弟》读书笔记.zh-cn.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "why $T2U_{w}(-1) = UMax_{w}$.en",
       "path": "why $T2U_{w}(-1) = UMax_{w}$.en.md"
-    },
-    {
-      "basename": "Obsidian 插件记录.zh-cn",
-      "path": "Obsidian 插件记录.zh-cn.md"
     }
   ],
   "omittedPaths": []
