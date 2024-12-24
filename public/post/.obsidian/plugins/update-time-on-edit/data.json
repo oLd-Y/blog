@@ -261,13 +261,17 @@
     "配置 lazyvim 中的 C 及 C++ 开发环境.zh-cn.md": "80733d4810af626cde978cd19e1ce42dc408376149e8f7d7959909c446d6456f",
     "逻辑运算符和位运算符.zh-cn.md": "8bcacfb012e46e88cf7d3187e1fd87e5119653451c793693294316ce812d54da",
     "usage of `restrict` keyword in c.en.md": "7b211a93233eac21bef0c893ed818036499872e367bf15134adc8c03b228bd6b",
-    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md": "ca9bdc72418e263ddd2386053c14ec2efb1d19e6a2c6ffb5c8aa464ece87dc58",
+    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md": "0b4a34eebc1c7cb8c489f35d9cf5842189a9c523825037a5bd44022dbba632c6",
     "MyKeymap 修改切换窗口按键.zh-cn.md": "58f297679912790daa537d5155a816bd13960d47f4404fbcfff1a4baf1ae025b",
     "learn makefile through example.en.md": "6fb99bb38d7518989cdd706a3c7be0cf0dcb856ac7e2922cc27b48b1a64fbcc5",
     "CSAPP-odd_ones explanation.en.md": "9c307207bc9060a3e16d184fbb81561ab66ca50f2b920022feeb0b1658f5bbce",
-    "《为美好的世界献上祝福》阅读笔记.zh-cn.md": "149c4eb4192d16f7b90ed7a22ee5cd38cd59bfc017bcaf89593128b0e46b6cc8",
+    "《为美好的世界献上祝福》阅读笔记.zh-cn.md": "058a33cce973d3c2d0fed8b1522bc91fad355b0fda85cfde4fd2820a66dbe194",
     "CSAPP 家庭作业 2.65 odd_ones 解释.zh-cn.md": "358385d3f7f6bf04902ccb3fc3db660bf6e2afa80c4ecff2f7daadef7bdf4fb0",
     "git 命令中的 fixup 参数的作用.zh-cn.md": "9d8eb1c7d7f68fb27e91ba9a7a3b7cd26a12f5c7160aca7efb5139a7907badc1",
-    "reword.md": "4012e9c2373b01d2a91dc350064fdda6daaaf46837181aa28d552b519d4a2b0a"
+    "reword.md": "4012e9c2373b01d2a91dc350064fdda6daaaf46837181aa28d552b519d4a2b0a",
+    "CSAPP reading notes - part I, chapter 3.en.md": "e1e1891cd64c44659a38de684274b64e15427c2298b86c9f73a53fccf702e93e",
+    "Differences among `mixed`, `hard` and `soft` in `git commit reset`.en.md": "412f0afc75def2c2837e0ba973cd6a8070b05637f55060b1a0762dca5c5715ad",
+    "《为美好的世界献上祝福》读后感.zh-cn.md": "e288a396897d6a781b28d128aa323b1db23dd8867f6da4c2d217d0963cba1e72",
+    "关于计算机技术的一些想法.zh-cn.md": "a2b2535a3c6434c1a45673be63530e009daeaf1a09f3f7e18e16b82e43ff5284"
   }
 }
