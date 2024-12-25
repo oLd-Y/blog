@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-12-25T11:24:36+08:00
+lastmod: 2024-12-25T12:56:00+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -29,7 +29,10 @@ S-左键：组合移动
 
 [Site Unreachable](https://stable-diffusion-art.com/how-stable-diffusion-work/)
 
-[Site Unreachable](https://zhuanlan.zhihu.com/p/673899723)
+
+## Sampler 采样器
+
+[采样器](https://zhuanlan.zhihu.com/p/673899723)
 
 
 ## IP-adapter
