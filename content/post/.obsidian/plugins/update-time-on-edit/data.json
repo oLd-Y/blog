@@ -275,6 +275,7 @@
     "关于计算机技术的一些想法.zh-cn.md": "a2b2535a3c6434c1a45673be63530e009daeaf1a09f3f7e18e16b82e43ff5284",
     "ComfyUI 学习笔记.zh-cn.md": "79582ad2bdf01b8dda03f66475ab4f8b594671fddccc232cccbcba15b87fd4a9",
     "潜空间 latent 讲解.zh-cn.md": "d69d934198b112aeb52202735d3fa6c9c58067ac3bf9fb30220027768371b7a0",
-    "stable diffusion 原理.zh-cn.md": "e93bbafa42f7af02ed636f6ec9aaff4af3533f8348706f5d5d6b7d1e967394ad"
+    "stable diffusion 原理.zh-cn.md": "23a0814bc62ee2bb75059f32c34a429bd9ebeb6aa2e7d25d5dabd62c1fbf51fc",
+    "ip-adapter.zh-cn.md": "2cd7670bf39171e4f519d926c3e7e85e17fe9a0c2292ea5e066cbaa1be7b87c0"
   }
 }

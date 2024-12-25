@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "ip-adapter.zh-cn",
+      "path": "ip-adapter.zh-cn.md"
+    },
+    {
       "basename": "stable diffusion 原理.zh-cn",
       "path": "stable diffusion 原理.zh-cn.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "CSAPP practice problem and solutions-1.en",
       "path": "CSAPP practice problem and solutions-1.en.md"
-    },
-    {
-      "basename": "why does  the modula of `x mod 2 to k power` will retain k bits.en",
-      "path": "why does  the modula of `x mod 2 to k power` will retain k bits.en.md"
     }
   ],
   "omittedPaths": []

@@ -22,7 +22,21 @@
             }
           },
           {
-            "id": "dd8e05157d98bbad",
+            "id": "cf0e4e3d6a375926",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ip-adapter.zh-cn.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ip-adapter.zh-cn"
+            }
+          },
+          {
+            "id": "62f643d27cef6bfa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,7 +50,7 @@
             }
           },
           {
-            "id": "d0e3fd3d6fd39446",
+            "id": "00de9d47ce8e1025",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,7 +64,7 @@
             }
           },
           {
-            "id": "4fdcf85e0db5c1dc",
+            "id": "6197cb069944744c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,37 +76,9 @@
               "icon": "lucide-file",
               "title": "stable diffusion 原理.zh-cn"
             }
-          },
-          {
-            "id": "6bbc7d8ff6ea4050",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "关于计算机技术的一些想法.zh-cn.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "关于计算机技术的一些想法.zh-cn"
-            }
-          },
-          {
-            "id": "01fca7a6458b2aff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differences among `mixed`, `hard` and `soft` in `git commit reset`.en.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Differences among `mixed`, `hard` and `soft` in `git commit reset`.en"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -288,11 +274,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "4fdcf85e0db5c1dc",
+  "active": "cf0e4e3d6a375926",
   "lastOpenFiles": [
-    "潜空间 latent 讲解.zh-cn.md",
     "stable diffusion 原理.zh-cn.md",
+    "潜空间 latent 讲解.zh-cn.md",
     "ComfyUI 学习笔记.zh-cn.md",
+    "ip-adapter.zh-cn.md",
     "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
     "关于计算机技术的一些想法.zh-cn.md",
     "《为美好的世界献上祝福》读后感.zh-cn.md",
@@ -315,7 +302,6 @@
     "《枪炮、病菌与钢铁》读书笔记.zh-cn.md",
     "CSAPP reading notes - chapter 1.en.md",
     "CSAPP practice problem and solutions-2.en.md",
-    "_TODO.md",
     "static/CSAPP/shift-operations-in-c.png",
     "static/CSAPP/2.32.png",
     "配置 C",
