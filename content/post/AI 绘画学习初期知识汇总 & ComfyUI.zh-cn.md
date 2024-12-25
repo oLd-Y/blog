@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-12-25T17:29:59+08:00
+lastmod: 2024-12-25T17:49:32+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -53,10 +53,12 @@ S-左键：组合移动
 
 ## ComfyUI 可做到的事以及部分需知关键字
 
-生成视频：svd
+[参考](https://www.bilibili.com/video/BV1BMkgYiEAv?spm_id_from=333.788.videopod.episodes&vd_source=75f81845b7419e2244a942c2be195d61&p=10)
 
-实时绘图，即在 PS 中画图，ComfyUI 实时将图片生成。
+生成视频：ComfyUI examples 网站中的 Stable Video Diffusion, svd
 
-将一张图片的颜色赋予另一张图片：Imitation Hue，图像对比
+实时绘图，即在 PS 中画图，ComfyUI 实时将图片生成：屏幕分享（通过在 PS 中新建一张相同的画布，把它放到新的窗口，然后监视这个窗口，可以防止只监视部分区域导致的生成问题），
+
+实时追色，即将一张图片的颜色赋予另一张图片：Imitation Hue，图像对比
 
 
