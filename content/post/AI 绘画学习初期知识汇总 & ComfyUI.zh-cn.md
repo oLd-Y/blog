@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-12-25T12:56:00+08:00
+lastmod: 2024-12-25T17:29:59+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -49,3 +49,14 @@ S-左键：组合移动
 ## Tile 平铺预处理器
 
 [让图片更加完美，Tile预处理器详解！！！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Au4y1P79U/?spm_id_from=333.337.search-card.all.click&vd_source=75f81845b7419e2244a942c2be195d61)
+
+
+## ComfyUI 可做到的事以及部分需知关键字
+
+生成视频：svd
+
+实时绘图，即在 PS 中画图，ComfyUI 实时将图片生成。
+
+将一张图片的颜色赋予另一张图片：Imitation Hue，图像对比
+
+
