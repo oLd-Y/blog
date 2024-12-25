@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-12-25T08:32:33+08:00
+lastmod: 2024-12-25T10:24:18+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -18,7 +18,7 @@ lastmod: 2024-12-25T08:32:33+08:00
 C-左键：框选
 S-左键：组合移动
 
-## 潜空间
+## 潜空间 latent
 
 [参考链接](https://zhuanlan.zhihu.com/p/666649803)
 
@@ -32,3 +32,8 @@ S-左键：组合移动
 [Site Unreachable](https://zhuanlan.zhihu.com/p/673899723)
 
 
+## IP-adapter
+
+[将图片作为提示词！！！IP-Adapter详解！！！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1op421U7Ut/?spm_id_from=333.788.top_right_bar_window_custom_collection.content.click&vd_source=75f81845b7419e2244a942c2be195d61)
+
+[【聊点硬核的: IPAdapter算法理论及在Stable Diffusion中的使用方法(一)】你真的了解IPAdapter吗?\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1aH4y127Mw/?spm_id_from=333.337.search-card.all.click&vd_source=75f81845b7419e2244a942c2be195d61)
