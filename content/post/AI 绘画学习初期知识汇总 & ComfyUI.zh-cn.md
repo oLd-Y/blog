@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-12-25T10:24:18+08:00
+lastmod: 2024-12-25T11:24:36+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -37,3 +37,12 @@ S-左键：组合移动
 [将图片作为提示词！！！IP-Adapter详解！！！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1op421U7Ut/?spm_id_from=333.788.top_right_bar_window_custom_collection.content.click&vd_source=75f81845b7419e2244a942c2be195d61)
 
 [【聊点硬核的: IPAdapter算法理论及在Stable Diffusion中的使用方法(一)】你真的了解IPAdapter吗?\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1aH4y127Mw/?spm_id_from=333.337.search-card.all.click&vd_source=75f81845b7419e2244a942c2be195d61)
+
+
+![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241225103235.png)
+
+问题：ip-adapter 加载器和 ip-adapter 模型加载器的区别。
+
+## Tile 平铺预处理器
+
+[让图片更加完美，Tile预处理器详解！！！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Au4y1P79U/?spm_id_from=333.337.search-card.all.click&vd_source=75f81845b7419e2244a942c2be195d61)
