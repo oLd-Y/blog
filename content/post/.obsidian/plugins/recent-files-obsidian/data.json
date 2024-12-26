@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "虎码用法记录.zh-cn",
+      "path": "虎码用法记录.zh-cn.md"
+    },
+    {
       "basename": "《寄生兽》看番笔记.zh-cn",
       "path": "《寄生兽》看番笔记.zh-cn.md"
     },
@@ -51,10 +55,6 @@
     {
       "basename": "new note",
       "path": "_templates/templater/new note.md"
-    },
-    {
-      "basename": "虎码用法记录.zh-cn",
-      "path": "虎码用法记录.zh-cn.md"
     },
     {
       "basename": "CSAPP reading notes - part I, chapter 2.en",
