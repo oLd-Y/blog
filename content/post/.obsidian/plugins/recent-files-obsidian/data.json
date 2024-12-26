@@ -5,12 +5,16 @@
       "path": "《寄生兽》看番笔记.zh-cn.md"
     },
     {
-      "basename": "好用软件名称记录.zh-cn",
-      "path": "好用软件名称记录.zh-cn.md"
+      "basename": "tmux shortcuts recording.en",
+      "path": "tmux shortcuts recording.en.md"
     },
     {
       "basename": "《寄生兽》人物分析.zh-cn",
       "path": "《寄生兽》人物分析.zh-cn.md"
+    },
+    {
+      "basename": "好用软件名称记录.zh-cn",
+      "path": "好用软件名称记录.zh-cn.md"
     },
     {
       "basename": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn",
@@ -179,10 +183,6 @@
     {
       "basename": "内存存放数据的大端模式和小端模式.zh-cn",
       "path": "内存存放数据的大端模式和小端模式.zh-cn.md"
-    },
-    {
-      "basename": "tmux shortcuts recording.en",
-      "path": "tmux shortcuts recording.en.md"
     },
     {
       "basename": "软链接.zh-cn",

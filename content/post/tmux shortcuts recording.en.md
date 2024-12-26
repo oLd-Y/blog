@@ -10,8 +10,10 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-12-04T16:33:16+08:00
+lastmod: 2024-12-26T11:46:02+08:00
 ---
+Default tmux config directory: `~/.tmux.conf`.
+
 `man tmux` to view the command details.
 
 Below assume that you use `C-b` as your prefix of tmux.
