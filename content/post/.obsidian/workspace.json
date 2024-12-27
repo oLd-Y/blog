@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -260,10 +260,10 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "c427edd85a5e36eb",
+  "active": "febbfbbac36a60f7",
   "lastOpenFiles": [
-    "《寄生兽》人物分析.zh-cn.md",
     "《寄生兽》看番笔记.zh-cn.md",
+    "《寄生兽》人物分析.zh-cn.md",
     "虎码用法记录.zh-cn.md",
     "tmux shortcuts recording.en.md",
     "好用软件名称记录.zh-cn.md",
