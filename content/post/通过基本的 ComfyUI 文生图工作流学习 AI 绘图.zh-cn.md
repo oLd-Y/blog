@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-12-27T15:43:52+08:00
+lastmod: 2024-12-27T16:00:13+08:00
 ---
 ![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241227152620.png)
 
@@ -21,4 +21,13 @@ lastmod: 2024-12-27T15:43:52+08:00
 - VAE 解码
 - 保存图像
 
-以下分别为
+## Checkpoint 加载器
+
+作用是将大模型加载进来。
+
+## CLIP 文本编码器
+
+作用是将文本 prompt 编码传递给大模型进行处理。
+
+## K 采样器
+
