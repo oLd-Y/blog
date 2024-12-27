@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-12-27T11:31:15+08:00
+lastmod: 2024-12-27T17:23:48+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -62,3 +62,8 @@ S-左键：组合移动
 实时追色，即将一张图片的颜色赋予另一张图片：Imitation Hue，图像对比
 
 
+## In-Context LoRA
+
+[In-Context LoRA for Diffusion Transformers](https://ali-vilab.github.io/In-Context-LoRA-Page/)
+
+制作情侣头像之类的
