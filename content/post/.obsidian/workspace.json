@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -272,8 +272,9 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "cf0e4e3d6a375926",
+  "active": "6709fca814e9ce64",
   "lastOpenFiles": [
+    "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
     "CSAPP reading notes - part I, chapter 3.en.md",
@@ -281,7 +282,6 @@
     "static/comfyui.md",
     "static/comfyui",
     "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
-    "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "《寄生兽》看番笔记.zh-cn.md",
     "《寄生兽》人物分析.zh-cn.md",
     "虎码用法记录.zh-cn.md",
