@@ -226,7 +226,7 @@
     "《红楼梦》读书笔记.zh-cn.md": "626de1332aac2e9e30fad0d015755bb8e809813c8e96521758e954063c39bf15",
     "《汇编语言》 读书笔记.zh-cn.md": "c8c37f2d5f3e164aaa7bca35c27f906367d662631c2bf90da4a8f05f7e1aa27a",
     "Learn LaTex through examples.en.md": "0e8b7cbc97a99a7353a9c5d0698a154df7087652c172f13ee29e1c4c54c26960",
-    "虎码用法记录.zh-cn.md": "3ba382553f94c5f471afb1bbdcff9d60b8569b295ce58346f561198c4f507bad",
+    "虎码用法记录.zh-cn.md": "7911aee5ca58aa742a185a0f0c04b7f477b37d956ff39a0e3a034d4bb56cde1a",
     "wsl2 安装 kitty.zh-cn.md": "a75a3a4ae8192038e6f503f297978fe561f1bf549e54f43468f2bd8def6fb874",
     "Use Vim mode on the command line in zsh.en.md": "f4ff9497f2cae7dfb8c203b2de0e28e82650a9f594025f51a15af2154361c83b",
     "通过 hugo 主题 stack 中的 menu.scss 文件学习 css 知识.zh-cn.md": "8da484c24c94038b25f480a2e680612f0e1045423ad761062202f08cbaf4365e",
@@ -238,7 +238,7 @@
     "learn x86-64 assembly through code.en.md": "62419eb78730088d0ff5d1858521e06d8cd7f86af955c3f3409f7763a24e787e",
     "learn C through code.en.md": "3c1c1cd3587ff81d0c205cdc86de1ffa8ec58759914452c3fafe0d445a64f30c",
     "获取某个网页的 cookies.zh-cn.md": "cd9209066100e54b748e913d4701a621c81a2005ea7dd63c151f233a52620493",
-    "好用软件名称记录.zh-cn.md": "fe8822500cc315325b0fa654f86356a592df4cb5e224a3ffcce94bb64e1124c8",
+    "好用软件名称记录.zh-cn.md": "c9258aac5cf6d3740324b28870461b7cf9122b6f628bbfe5095177d666620996",
     "Obsidian latex-suite usage.en.md": "e3ff21522ce9a7f80ad5619a79a293fa18e38c88542c7325ebae47275cb17b7b",
     "why $T2U_{w}(-1) = UMax_{w}$.en.md": "10932be229337674945557e28c9c809d2ee49db3ecde4bb63bfd0ade5934718a",
     "How could the number of bigger data type with leading 1 equals to the original number.en.md": "1748745c191ac27ccf2df09fd368e2b528cc7d8f8a6ed85c9e459724e4f11f6f",
@@ -248,7 +248,7 @@
     "CSAPP practice problem and solutions-2.en.md": "ae897f6c1edb5e0438269829d168bfcf55e72af2d64f0d03497723932ff9f632",
     "CSAPP practice problem and solutions-1.en.md": "0e9916eccd573330daa72f06db35f7c5c758a278e423ab6a729204977e76c01a",
     "how to judge whether a machine is little-endian or big-endian.en.md": "0a5fe5954b68df109dc646f4462e188da7eb9200261527d3421d144163ccb69b",
-    "tmux shortcuts recording.en.md": "fffffe070f96b5a033b3d67ef3eb61ec5fb6df586cacdc96ab1b8e08196674fc",
+    "tmux shortcuts recording.en.md": "108f702b6bf9c9b911e7594cde5fb1f72d31a397eabaf54b6d8e43f74d386d32",
     "lazyvim shortcuts.en.md": "dba1334db32ac35ada1b5cd139cfa296c93b29f47b408fcd0f6e3a49e16b5b5c",
     "软链接.zh-cn.md": "c6ffba72e4020a54d44f05db0a63975dd4d6444a07fe00aa126de619f0622b2b",
     "内存存放数据的大端模式和小端模式.zh-cn.md": "e3474064b130947299d210e64c5e6a3b5347734b95647096c2415763f3c417dc",
@@ -261,7 +261,7 @@
     "配置 lazyvim 中的 C 及 C++ 开发环境.zh-cn.md": "80733d4810af626cde978cd19e1ce42dc408376149e8f7d7959909c446d6456f",
     "逻辑运算符和位运算符.zh-cn.md": "8bcacfb012e46e88cf7d3187e1fd87e5119653451c793693294316ce812d54da",
     "usage of `restrict` keyword in c.en.md": "7b211a93233eac21bef0c893ed818036499872e367bf15134adc8c03b228bd6b",
-    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md": "0b4a34eebc1c7cb8c489f35d9cf5842189a9c523825037a5bd44022dbba632c6",
+    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md": "6c90678efaa624514c9bd6af4f7405f5ea1bda964270464de05560be992c59f4",
     "MyKeymap 修改切换窗口按键.zh-cn.md": "58f297679912790daa537d5155a816bd13960d47f4404fbcfff1a4baf1ae025b",
     "learn makefile through example.en.md": "6fb99bb38d7518989cdd706a3c7be0cf0dcb856ac7e2922cc27b48b1a64fbcc5",
     "CSAPP-odd_ones explanation.en.md": "9c307207bc9060a3e16d184fbb81561ab66ca50f2b920022feeb0b1658f5bbce",
@@ -272,6 +272,10 @@
     "CSAPP reading notes - part I, chapter 3.en.md": "e1e1891cd64c44659a38de684274b64e15427c2298b86c9f73a53fccf702e93e",
     "Differences among `mixed`, `hard` and `soft` in `git commit reset`.en.md": "412f0afc75def2c2837e0ba973cd6a8070b05637f55060b1a0762dca5c5715ad",
     "《为美好的世界献上祝福》读后感.zh-cn.md": "e288a396897d6a781b28d128aa323b1db23dd8867f6da4c2d217d0963cba1e72",
-    "关于计算机技术的一些想法.zh-cn.md": "a2b2535a3c6434c1a45673be63530e009daeaf1a09f3f7e18e16b82e43ff5284"
+    "关于计算机技术的一些想法.zh-cn.md": "a2b2535a3c6434c1a45673be63530e009daeaf1a09f3f7e18e16b82e43ff5284",
+    "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md": "590f5a670b9518a376c248ec8365736226c5d685bdfe4333d8e246b696c3239c",
+    "《寄生兽》看番笔记.zh-cn.md": "4312a93791d30a2229e635be344302187d26794459a5c221f0227c37d0213c38",
+    "《寄生兽》人物分析.zh-cn.md": "cb5adb20a259b7c725d4f787619dcfd6eecbffb4e808050b3b65af322b28f9d1",
+    "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md": "6e96f03d48502c86ab3f723c161da6fa49e43afc67a9adb5b649accbb7c0364d"
   }
 }

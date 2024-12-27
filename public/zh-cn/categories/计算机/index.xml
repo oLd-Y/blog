@@ -7,7 +7,25 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Sat, 21 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/zh-cn/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 27 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/zh-cn/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>通过基本的 ComfyUI 文生图工作流学习 AI 绘图</title>
+        <link>http://localhost:1313/blog/zh-cn/p/%E9%80%9A%E8%BF%87%E5%9F%BA%E6%9C%AC%E7%9A%84-comfyui-%E6%96%87%E7%94%9F%E5%9B%BE%E5%B7%A5%E4%BD%9C%E6%B5%81%E5%AD%A6%E4%B9%A0-ai-%E7%BB%98%E5%9B%BE/</link>
+        <pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/zh-cn/p/%E9%80%9A%E8%BF%87%E5%9F%BA%E6%9C%AC%E7%9A%84-comfyui-%E6%96%87%E7%94%9F%E5%9B%BE%E5%B7%A5%E4%BD%9C%E6%B5%81%E5%AD%A6%E4%B9%A0-ai-%E7%BB%98%E5%9B%BE/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/comfyui/basic-txt2img.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;基本的文生图工作流&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>git 命令中的 fixup 参数的作用</title>
         <link>http://localhost:1313/blog/zh-cn/p/git-%E5%91%BD%E4%BB%A4%E4%B8%AD%E7%9A%84-fixup-%E5%8F%82%E6%95%B0%E7%9A%84%E4%BD%9C%E7%94%A8/</link>
         <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
@@ -505,7 +523,6 @@ $$V=(-1)^{s}\times M\times2^{E}$$
 &lt;h2 id=&#34;切换&#34;&gt;切换
 &lt;/h2&gt;&lt;p&gt;Ctrl-o 切换简繁
 Ctrl-h 切换大小字集&lt;/p&gt;
-&lt;p&gt;sj&lt;/p&gt;
 </description>
         </item>
         <item>
