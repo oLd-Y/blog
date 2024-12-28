@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -272,10 +272,10 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "6709fca814e9ce64",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md",
+    "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
     "CSAPP reading notes - part I, chapter 3.en.md",
     "static/comfyui/basic-txt2img.png",

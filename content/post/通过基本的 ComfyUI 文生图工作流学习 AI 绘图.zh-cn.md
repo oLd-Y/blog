@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-12-27T21:11:53+08:00
+lastmod: 2024-12-27T22:02:09+08:00
 ---
 ![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241227152620.png)
 
@@ -33,3 +33,8 @@ lastmod: 2024-12-27T21:11:53+08:00
 
 
 ![](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241227210936.png)
+
+## 模型架构 
+
+版本：sd1.x(512\*512), sdxl(1024\*1024), sd3(1024\*1024)
+方法：lighting, hyper, turbo, LCM
