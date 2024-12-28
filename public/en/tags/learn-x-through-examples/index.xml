@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Learn-X-Through-Examples on lyao&#39;s Blog</title>
+        <link>http://localhost:1313/blog/en/tags/learn-x-through-examples/</link>
+        <description>Recent content in Learn-X-Through-Examples on lyao&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>谷栗杳</copyright>
+        <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/en/tags/learn-x-through-examples/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>learn vim command line through examples</title>
+        <link>http://localhost:1313/blog/en/p/learn-vim-command-line-through-examples/</link>
+        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/learn-vim-command-line-through-examples/</guid>
+        <description>&lt;p&gt;&lt;code&gt;%s/^\./-/g&lt;/code&gt;, delete all the &lt;code&gt;.&lt;/code&gt; within a file at the beginning of each line.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Learn LaTex through examples</title>
+        <link>http://localhost:1313/blog/en/p/learn-latex-through-examples/</link>
+        <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/learn-latex-through-examples/</guid>
+        <description>&lt;h2 id=&#34;fraction-subscript-and-greek-characters&#34;&gt;Fraction, subscript and Greek characters
+&lt;/h2&gt;&lt;p&gt;Came from CSAPP &amp;ldquo;1.9.1 Amdahl’s Law&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;$$
+T_{\text{new}} = (1-\alpha)T_{\text{old}} + (\alpha T_{\text{old}})/k = T_{\text{old}}[(1-\alpha) + \alpha/k]
+$$&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;T&lt;span class=&#34;nb&#34;&gt;_{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;new&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt; = (1-&lt;span class=&#34;k&#34;&gt;\alpha&lt;/span&gt;)T&lt;span class=&#34;nb&#34;&gt;_{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;old&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt; + (&lt;span class=&#34;k&#34;&gt;\alpha&lt;/span&gt; T&lt;span class=&#34;nb&#34;&gt;_{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;old&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;)/k = T&lt;span class=&#34;nb&#34;&gt;_{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;old&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;[(1-&lt;span class=&#34;k&#34;&gt;\alpha&lt;/span&gt;) + &lt;span class=&#34;k&#34;&gt;\alpha&lt;/span&gt;/k]
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;_&lt;/code&gt; is used for subscripts.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\alpha&lt;/code&gt; produce the Greek letter α. Other Greek letters follow similar pattern(e.g., &lt;code&gt;\beta&lt;/code&gt;, &lt;code&gt;\gamma&lt;/code&gt;, &lt;code&gt;\delta&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\text{}&lt;/code&gt; makes the text inside appear normal text font rather than math italic.&lt;/li&gt;
+&lt;li&gt;By default in LaTex math mode, every character is assumed to be its own variables, appearing in italics. &lt;code&gt;\text&lt;/code&gt; makes characters to be read together as a word, apearing in normal text style.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+S = \frac{T_{\text{old}}}{T_{\text{new}}} = \frac{1}{(1-\alpha) + \alpha/k}
+$$&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;S = &lt;span class=&#34;k&#34;&gt;\frac&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;T&lt;span class=&#34;nb&#34;&gt;_{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;old&lt;span class=&#34;nb&#34;&gt;}}}{&lt;/span&gt;T&lt;span class=&#34;nb&#34;&gt;_{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;new&lt;span class=&#34;nb&#34;&gt;}}}&lt;/span&gt; = &lt;span class=&#34;k&#34;&gt;\frac&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;1&lt;span class=&#34;nb&#34;&gt;}{&lt;/span&gt;(1-&lt;span class=&#34;k&#34;&gt;\alpha&lt;/span&gt;) + &lt;span class=&#34;k&#34;&gt;\alpha&lt;/span&gt;/k&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;\frac{numerator}{denominator}&lt;/code&gt; creates a fraction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;multiple-dot&#34;&gt;Multiple dot
+&lt;/h2&gt;&lt;p&gt;Came from Practice Problem 2.1 (solution page 179)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;n = 11 = 3 + 4 &lt;span class=&#34;k&#34;&gt;\cdot&lt;/span&gt; 2
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;$$
+n = 11 = 3 + 4 \cdot 2
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;\cdot&lt;/code&gt; means the multiplication dot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;x&lt;span class=&#34;nb&#34;&gt;^&lt;/span&gt;n
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;$$
+x^n
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;x to the nth power.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;logical-symbols&#34;&gt;Logical symbols
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;A &lt;span class=&#34;k&#34;&gt;\land&lt;/span&gt; B &lt;span class=&#34;k&#34;&gt;\lor&lt;/span&gt; C &lt;span class=&#34;k&#34;&gt;\not&lt;/span&gt; D &lt;span class=&#34;k&#34;&gt;\wedge&lt;/span&gt; C &lt;span class=&#34;k&#34;&gt;\vee&lt;/span&gt; E &lt;span class=&#34;k&#34;&gt;\neg&lt;/span&gt; F &lt;span class=&#34;k&#34;&gt;\oplus&lt;/span&gt; G &lt;span class=&#34;k&#34;&gt;\barwedge&lt;/span&gt; H &lt;span class=&#34;k&#34;&gt;\;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;\hat&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;\;&lt;/span&gt; I  &lt;span class=&#34;k&#34;&gt;\veebar&lt;/span&gt; J
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;$$
+A \land B \lor C \not D \wedge C \vee E \neg F \oplus G \barwedge H ; \hat{} ; I  \veebar J
+$$&lt;/p&gt;
+&lt;h2 id=&#34;set-operations&#34;&gt;Set operations
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;A &lt;span class=&#34;k&#34;&gt;\cap&lt;/span&gt; B &lt;span class=&#34;k&#34;&gt;\cup&lt;/span&gt; C &lt;span class=&#34;k&#34;&gt;\bigcap&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_{&lt;/span&gt;i=1&lt;span class=&#34;nb&#34;&gt;}^&lt;/span&gt;n A&lt;span class=&#34;nb&#34;&gt;_&lt;/span&gt;i
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;$$
+A \cap B \cup C \bigcap_{i=1}^n A_i
+$$&lt;/p&gt;
+&lt;h2 id=&#34;vector-sum-equation-numbering-dot-equal&#34;&gt;Vector, Sum, Equation numbering, Dot equal
+&lt;/h2&gt;&lt;p&gt;came from &amp;ldquo;CSAPP 2.2.2 Unsigned Encodings&amp;rdquo;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;B2U&lt;span class=&#34;nb&#34;&gt;_&lt;/span&gt;w(&lt;span class=&#34;k&#34;&gt;\vec&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;x&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;) &lt;span class=&#34;k&#34;&gt;\doteq&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;\sum&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_{&lt;/span&gt;i=0&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;w-1&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;x&lt;span class=&#34;nb&#34;&gt;_{&lt;/span&gt;i&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;2&lt;span class=&#34;nb&#34;&gt;^&lt;/span&gt;i &lt;span class=&#34;k&#34;&gt;\qquad&lt;/span&gt; (2.1)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;$$
+B2U_w(\vec{x}) \doteq \sum_{i=0}^{w-1}x_{i}2^i \qquad (2.1)
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;\qquad&lt;/code&gt;: &amp;ldquo;quad&amp;rdquo; refers to a unit of horizontal spacing (specifically a quadratically sized space). So &lt;code&gt;\qquad&lt;/code&gt; means &amp;ldquo;quadratic space&amp;rdquo; - it creates a wide horizontal space&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\ldots&lt;/code&gt;: &amp;ldquo;l&amp;rdquo; stands for &amp;ldquo;low&amp;rdquo; - these are dots that appear on the baseline, as opposed to &lt;code&gt;\cdots&lt;/code&gt; where &amp;ldquo;c&amp;rdquo; stands for &amp;ldquo;centered&amp;rdquo; dots that appear in the middle. So &lt;code&gt;\ldots&lt;/code&gt; means &amp;ldquo;low dots&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;$\doteq$ is commonly used in mathematics and computer science to denote a &amp;ldquo;definitional equality&amp;rdquo; - meaning it&amp;rsquo;s used when you&amp;rsquo;re defining something, rather than just stating that two things are equal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cases-curly-brace-condition-greater-and-equal-to&#34;&gt;Cases (curly brace), Condition, Greater and equal to
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;T2U&lt;span class=&#34;nb&#34;&gt;_{&lt;/span&gt;w&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\left&lt;/span&gt;( x &lt;span class=&#34;k&#34;&gt;\right&lt;/span&gt;)  = &lt;span class=&#34;k&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;cases&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;x + 2&lt;span class=&#34;nb&#34;&gt;^{&lt;/span&gt;w&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;, &lt;span class=&#34;nb&#34;&gt;&amp;amp;&lt;/span&gt; x &amp;lt; 0  &lt;span class=&#34;k&#34;&gt;\\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;x, &lt;span class=&#34;nb&#34;&gt;&amp;amp;&lt;/span&gt; x &lt;span class=&#34;k&#34;&gt;\geq&lt;/span&gt; 0
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;cases&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;\qquad&lt;/span&gt; (2.5)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;$$
+T2U_{w}\left( x \right)  = \begin{cases}
+x + 2^{w}, &amp;amp; x &amp;lt; 0  \
+x, &amp;amp; x \geq 0
+\end{cases} \qquad (2.5)
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;\\&lt;/code&gt; means newline.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;amp;&lt;/code&gt; before &lt;code&gt;x &amp;lt; 0&lt;/code&gt; is an alignment operator&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -10,7 +10,7 @@
 <meta property='og:description' content="Tutorial link: LazyVim for Ambitious Developers In keybindings, C means Ctrl. Chapter 1. Introduction and Installation Use a GPU-accelerated terminal for installing LazyVim, such as: Kitty Terminal, Alacritty, Windows Terminal, etc. For installation instructions, please refer to the official website keys: &lt;Space&gt;l, n, open the lazy.nvim plugin manager. Press S to sync the update. Chapter 2. What is Modal Editing, Anyway? In normal mode, &quot; can open available registers. :x is almost equivalent to :wq, but :x does not perform save operations when the file has not been modified.">
 <meta property='og:url' content='http://localhost:1313/blog/en/p/lazyvim-for-ambitious-developers-reading-notes/'>
 <meta property='og:site_name' content='lyao&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='neovim' /><meta property='article:tag' content='lazyvim' /><meta property='article:tag' content='reading-notes' /><meta property='article:tag' content='online-tutorial' /><meta property='article:published_time' content='2024-09-24T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-11-01T14:32:56&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='neovim' /><meta property='article:tag' content='lazyvim' /><meta property='article:tag' content='reading-notes' /><meta property='article:tag' content='online-tutorial' /><meta property='article:published_time' content='2024-09-24T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-12-02T20:36:39&#43;08:00'/>
 <meta name="twitter:title" content="LazyVim for Ambitious Developers reading notes">
 <meta name="twitter:description" content="Tutorial link: LazyVim for Ambitious Developers In keybindings, C means Ctrl. Chapter 1. Introduction and Installation Use a GPU-accelerated terminal for installing LazyVim, such as: Kitty Terminal, Alacritty, Windows Terminal, etc. For installation instructions, please refer to the official website keys: &lt;Space&gt;l, n, open the lazy.nvim plugin manager. Press S to sync the update. Chapter 2. What is Modal Editing, Anyway? In normal mode, &quot; can open available registers. :x is almost equivalent to :wq, but :x does not perform save operations when the file has not been modified.">
     <link rel="shortcut icon" href="/blog/favicon.ico" />
@@ -382,16 +382,17 @@
 </ol>
 <h2 id="chapter-4-opening-fileshttpslazyvim-ambitious-devsphillipscodescoursechapter-4_opening_files"><a class="link" href="https://lazyvim-ambitious-devs.phillips.codes/course/chapter-4/#_opening_files"  target="_blank" rel="noopener"
     >Chapter 4. Opening Files</a>
-</h2><p>keys:</p>
+</h2><ol>
+<li><code>cwd</code> is typically the directory where you enter nvim in the terminal, while <code>root dir</code> is where there is a configuration file such as <code>.git</code>, <code>package.json</code>, etc.</li>
+<li><code>:LazyExtras</code> opens the <code>mini.files</code> plugin. <code>mini.files</code> is compatible with many lazyvim text editing operations. Use <code>=</code> to save modifications. To find and disable the same plugin again, press <code>x</code>.</li>
+</ol>
+<p>keys:</p>
 <ol>
 <li><code>&lt;Space&gt; q q</code>, closes the entire nvim window and save the session.</li>
-<li><code>&lt;Space&gt;&lt;Space&gt;</code>/<code>Space&gt;ff</code>, pop up find file window of the current project, which is case insensitive and become sensitive right after there is a upper case character. <code>&lt;Space&gt;fF</code> to</li>
-<li><code>cwd</code> is typically the directory where you enter nvim in the terminal, and root directory is where there is a configuration file such as <code>.git</code>, <code>package.json</code>, etc.</li>
+<li><code>&lt;Space&gt;&lt;Space&gt;</code>/<code>Space&gt;ff</code>, find file (root dir), which is case insensitive and become sensitive right after there is a upper case character. <code>&lt;Space&gt;fF</code> to find file (cwd).</li>
 <li>Also, you can use <code>:lcd</code> to temprarily change the <code>cwd</code> for a buffer.</li>
-<li><code>s</code> to enable the seek mode.</li>
+<li><code>s</code> to enable the seek mode. Note that it will jump to the <em>first</em> character of the seeking word.</li>
 </ol>
-<p><code>:LazyExtras</code> opens the mini.files plugin. mini.files is compatible with many lazyvim text editing operations. Use <code>=</code> to save modifications.</p>
-<p>To find and disable the same plugin again, press x.</p>
 <h2 id="chapter-5-configuration-and-plugin-basicshttpslazyvim-ambitious-devsphillipscodescoursechapter-5_configuration_and_plugin_basics"><a class="link" href="https://lazyvim-ambitious-devs.phillips.codes/course/chapter-5/#_configuration_and_plugin_basics"  target="_blank" rel="noopener"
     >Chapter 5. Configuration and Plugin Basics</a>
 </h2><p><code>.config/nvim/lua/config/keymaps.lua</code> is generally used for setting key bindings in Neovim or those that come with lazyvim.</p>
@@ -626,13 +627,21 @@
 </div>
 </div><h2 id="chapter-6-basic-editinghttpslazyvim-ambitious-devsphillipscodescoursechapter-6_basic_editing"><a class="link" href="https://lazyvim-ambitious-devs.phillips.codes/course/chapter-6/#_basic_editing"  target="_blank" rel="noopener"
     >Chapter 6. Basic Editing</a>
-</h2><p><code>80i*&lt;Escape&gt;</code> will insert 80 <code>*</code> which is nifty.</p>
-<p><code>gU&lt;range&gt;</code> will convert a character of a sequence of characters into uppercase, while the <code>gu&lt;range&gt;</code> is the inverse.</p>
-<p><code>~</code> inverts the case of character under the cursor.</p>
-<p><code>q&lt;reg_name&gt;</code> will start recording a sequence of operations which called <code>macro</code>, and press <code>q</code> again will stop the recording. The fastest way to play back the latest macro is press <code>Q</code>, or you can use <code>@&lt;reg_name&gt;</code> instead.</p>
+</h2><p>keys:</p>
+<ol>
+<li><code>80i*&lt;Escape&gt;</code> will insert 80 <code>*</code> which is nifty.</li>
+<li><code>dsfoos</code>, delete from the cursor to the <strong>first character</strong> of the target word <code>foo</code>.</li>
+<li><code>X</code> delete the character before the cursor.</li>
+<li><code>J</code> to join lines.</li>
+<li><code>gU&lt;range&gt;</code> converts a sequence of characters into uppercase, while the <code>gu&lt;range&gt;</code> do the inverse.</li>
+<li><code>~</code> inverts the case of character under the cursor.</li>
+<li><code>q&lt;reg_name&gt;</code> will start recording a sequence of operations called <code>macro</code>, and press <code>q</code> again will stop the recording. The fastest way to play back the latest macro is press <code>Q</code>, or you can use <code>@&lt;reg_name&gt;</code> instead.</li>
+</ol>
 <h2 id="chapter-7-objects-and-operator-pending-modehttpslazyvim-ambitious-devsphillipscodescoursechapter-7_objects_and_operator_pending_mode"><a class="link" href="https://lazyvim-ambitious-devs.phillips.codes/course/chapter-7/#_objects_and_operator_pending_mode"  target="_blank" rel="noopener"
     >Chapter 7. Objects and Operator-Pending Mode</a>
-</h2><p><code>(</code>, <code>{</code> move the cursor to the beginning of a sentence and paragraph, while <code>)</code>, <code>}</code> to the end.</p>
+</h2><ol>
+<li><code>(</code>, <code>{</code> move the cursor to the beginning of a sentence or paragraph, while <code>)</code>, <code>}</code> to the end.</li>
+</ol>
 <p>debugger, python, time out error:</p>
 <p>possible solutions:</p>
 <ol>
@@ -691,7 +700,7 @@
 
 
         <span>
-            Last updated on Nov 01, 2024 14:32 CST
+            Last updated on Dec 02, 2024 20:36 CST
         </span>
     </section></footer>
 
@@ -747,12 +756,12 @@
             
                 
 <article class="">
-    <a href="/blog/en/p/resolving-image-insert-conflict-of-hugo-and-obsidian/">
+    <a href="/blog/en/p/differences-among-mixed-hard-and-soft-in-git-commit-reset/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">Resolving image insert conflict of Hugo and Obsidian</h2>
+            <h2 class="article-title">Differences among `mixed`, `hard` and `soft` in `git commit reset`</h2>
         </div>
     </a>
 </article>
@@ -760,12 +769,12 @@
             
                 
 <article class="">
-    <a href="/blog/en/p/csapp-reading-notes-chapter-1/">
+    <a href="/blog/en/p/csapp-reading-notes-part-i-chapter-3/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">CSAPP reading notes - chapter 1</h2>
+            <h2 class="article-title">CSAPP reading notes - part I, chapter 3</h2>
         </div>
     </a>
 </article>
@@ -773,12 +782,12 @@
             
                 
 <article class="">
-    <a href="/blog/en/p/go-installation/">
+    <a href="/blog/en/p/usage-of-restrict-keyword-in-c/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">go installation</h2>
+            <h2 class="article-title">usage of `restrict` keyword in c</h2>
         </div>
     </a>
 </article>
@@ -786,12 +795,12 @@
             
                 
 <article class="">
-    <a href="/blog/en/p/useful-prompt/">
+    <a href="/blog/en/p/conversion-from-2s-complement-integer-to-floating-point-number/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">useful prompt</h2>
+            <h2 class="article-title">Conversion from 2&#39;s complement integer to floating point number</h2>
         </div>
     </a>
 </article>

@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="1.1 Information Is Bits + Context All information in a system is represented as a bunch of bits. 1.2 Programs Are Translated by Other Programs into Different Forms The gcc compiler driver reads the source file hello.c and translated into an execuable object file hello. The translation is performed in the sequence of four phases: Preprocessing phase. Compliation phase. Assembly phase. Linking phase. The programs that perform these phases (preprocessor, compilor, assembler, and linker) is known collectively as the compliation system.">
-<title>CSAPP reading notes - chapter 1</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Chapter 1 \rA Tour of Computer Systems">
+<title>CSAPP reading notes - Chapter 1</title>
 
 <link rel='canonical' href='http://localhost:1313/blog/en/p/csapp-reading-notes-chapter-1/'>
 
-<link rel="stylesheet" href="/blog/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="CSAPP reading notes - chapter 1">
-<meta property='og:description' content="1.1 Information Is Bits + Context All information in a system is represented as a bunch of bits. 1.2 Programs Are Translated by Other Programs into Different Forms The gcc compiler driver reads the source file hello.c and translated into an execuable object file hello. The translation is performed in the sequence of four phases: Preprocessing phase. Compliation phase. Assembly phase. Linking phase. The programs that perform these phases (preprocessor, compilor, assembler, and linker) is known collectively as the compliation system.">
+<link rel="stylesheet" href="/blog/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="CSAPP reading notes - Chapter 1">
+<meta property='og:description' content="Chapter 1 \rA Tour of Computer Systems">
 <meta property='og:url' content='http://localhost:1313/blog/en/p/csapp-reading-notes-chapter-1/'>
 <meta property='og:site_name' content='lyao&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='foundation' /><meta property='article:published_time' content='2024-11-04T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-11-08T11:33:24&#43;08:00'/>
-<meta name="twitter:title" content="CSAPP reading notes - chapter 1">
-<meta name="twitter:description" content="1.1 Information Is Bits + Context All information in a system is represented as a bunch of bits. 1.2 Programs Are Translated by Other Programs into Different Forms The gcc compiler driver reads the source file hello.c and translated into an execuable object file hello. The translation is performed in the sequence of four phases: Preprocessing phase. Compliation phase. Assembly phase. Linking phase. The programs that perform these phases (preprocessor, compilor, assembler, and linker) is known collectively as the compliation system.">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='foundation' /><meta property='article:tag' content='CSAPP' /><meta property='article:published_time' content='2024-11-04T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-11-13T10:14:57&#43;08:00'/>
+<meta name="twitter:title" content="CSAPP reading notes - Chapter 1">
+<meta name="twitter:description" content="Chapter 1 \rA Tour of Computer Systems">
     <link rel="shortcut icon" href="/blog/favicon.ico" />
 
   
@@ -221,7 +221,51 @@
     <li><a href="#11-information-is-bits--context">1.1 Information Is Bits + Context</a></li>
     <li><a href="#12-programs-are-translated-by-other-programs-into-different-forms">1.2 Programs Are Translated by Other Programs into Different Forms</a></li>
     <li><a href="#13-it-pays-to-understand-how-compilation-systems-work">1.3 It Pays to Understand How Compilation Systems Work</a></li>
-    <li><a href="#14-processors-read-and-interpret-instructions-stored-in-memory">1.4 Processors Read and Interpret Instructions Stored in Memory</a></li>
+    <li><a href="#14-processors-read-and-interpret-instructions-stored-in-memory">1.4 Processors Read and Interpret Instructions Stored in Memory</a>
+      <ol>
+        <li><a href="#141-hardware-organization-of-a-system">1.4.1 Hardware Organization of a System:</a>
+          <ol>
+            <li><a href="#buses">Buses</a></li>
+            <li><a href="#io-devices">I/O Devices</a></li>
+            <li><a href="#main-memory">Main Memory</a></li>
+            <li><a href="#processor">Processor</a></li>
+          </ol>
+        </li>
+        <li><a href="#142-running-the-hello-program">1.4.2 Running the hello Program</a></li>
+      </ol>
+    </li>
+    <li><a href="#15-caches-matter">1.5 Caches Matter</a></li>
+    <li><a href="#16-storage-devices-form-a-hierarchy">1.6 Storage Devices Form a Hierarchy</a></li>
+    <li><a href="#17-the-operating-system-manages-the-hardware">1.7 The Operating System Manages the Hardware</a>
+      <ol>
+        <li>
+          <ol>
+            <li><a href="#171-processes">1.7.1 Processes</a></li>
+            <li><a href="#172-threads">1.7.2 Threads</a></li>
+            <li><a href="#173-virtual-memory">1.7.3 Virtual Memory</a></li>
+            <li><a href="#174-files">1.7.4 Files</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#18-systems-communicate-with-other-systems-using-networks">1.8 Systems Communicate with Other Systems Using Networks</a>
+      <ol>
+        <li><a href="#19-important-themes">1.9 Important Themes</a>
+          <ol>
+            <li><a href="#191-amdahls-law">1.9.1 Amdahl&rsquo;s law</a></li>
+            <li><a href="#192-concurrency-and-parallelism">1.9.2 Concurrency and Parallelism</a></li>
+          </ol>
+        </li>
+        <li><a href="#thread-level-concurrency">Thread-Level Concurrency</a></li>
+        <li><a href="#instruction-level-parallelism">Instruction-Level Parallelism</a></li>
+        <li><a href="#single-instruction-multiple-datasimd-parallelism">Single-Instruction, Multiple-Data(SIMD) Parallelism</a>
+          <ol>
+            <li><a href="#193-the-importance-of-abstractions-in-computer-systems">1.9.3 The Importance of Abstractions in Computer Systems</a></li>
+          </ol>
+        </li>
+        <li><a href="#110-summary">1.10 Summary</a></li>
+      </ol>
+    </li>
   </ol>
 </nav>
         </div>
@@ -249,9 +293,13 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/blog/en/p/csapp-reading-notes-chapter-1/">CSAPP reading notes - chapter 1</a>
+            <a href="/blog/en/p/csapp-reading-notes-chapter-1/">CSAPP reading notes - Chapter 1</a>
         </h2>
     
+        
+        <h3 class="article-subtitle">
+            Chapter 1 A Tour of Computer Systems
+        </h3>
         
     </div>
 
@@ -286,7 +334,7 @@
 
 
                 <time class="article-time--reading">
-                    1 minute read
+                    4 minute read
                 </time>
             </div>
         
@@ -301,7 +349,27 @@
     <section class="article-content">
     
     
-    <h2 id="11-information-is-bits--context">1.1 Information Is Bits + Context
+    <p><img src="/blog/CSAPP/1.1.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="The hello program"
+	
+	
+></p>
+<p><img src="/blog/CSAPP/1.2.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="The ASCII text representation of hello.c"
+	
+	
+></p>
+<h2 id="11-information-is-bits--context">1.1 Information Is Bits + Context
 </h2><p>All information in a system is represented as a bunch of bits.</p>
 <h2 id="12-programs-are-translated-by-other-programs-into-different-forms">1.2 Programs Are Translated by Other Programs into Different Forms
 </h2><p>The gcc compiler driver reads the source file hello.c and translated into an execuable object file hello. The translation is performed in the sequence of four phases:</p>
@@ -313,20 +381,20 @@
 </ul>
 <p>The programs that perform these phases (preprocessor, compilor, assembler, and linker) is known collectively as the <em>compliation system</em>.</p>
 <p>Here is the phase figure:
-<img src="/blog/_images/figure%201.3%20compliation%20system.png"
+<img src="/blog/CSAPP/1.3.png"
 	
 	
 	
 	loading="lazy"
 	
-		alt="compliation system"
+		alt="The compliation system"
 	
 	
 ></p>
 <h2 id="13-it-pays-to-understand-how-compilation-systems-work">1.3 It Pays to Understand How Compilation Systems Work
 </h2><p>None.</p>
 <h2 id="14-processors-read-and-interpret-instructions-stored-in-memory">1.4 Processors Read and Interpret Instructions Stored in Memory
-</h2><p><img src="/blog/_images/figure%201.4.png"
+</h2><p><img src="/blog/CSAPP/1.4.png"
 	
 	
 	
@@ -336,6 +404,213 @@
 	
 	
 ></p>
+<p>PC: program counter
+ALU: arithmetic/logic unit</p>
+<h3 id="141-hardware-organization-of-a-system">1.4.1 Hardware Organization of a System:
+</h3><h4 id="buses">Buses
+</h4><h4 id="io-devices">I/O Devices
+</h4><p>I/O: Input/Output</p>
+<h4 id="main-memory">Main Memory
+</h4><p>Physically, main memory consists of a collection of dynamic random access memory (DRAM).</p>
+<h4 id="processor">Processor
+</h4><h3 id="142-running-the-hello-program">1.4.2 Running the hello Program
+</h3><p><img src="/blog/CSAPP/1.5.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Reading the hello program from the keyboard"
+	
+	
+></p>
+<p>DMA: direct memory access</p>
+<p><img src="/blog/CSAPP/1.6.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="loading executable from disk into main memory"
+	
+	
+></p>
+<p><img src="/blog/1.7.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Writing the output string from the memory to the display"
+	
+	
+></p>
+<h2 id="15-caches-matter">1.5 Caches Matter
+</h2><p><img src="/blog/CSAPP/1.8.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Cache memories"
+	
+	
+></p>
+<p>The L1 and L2 caches are implemented with a hardware technology known as static random access memory (SRAM)</p>
+<h2 id="16-storage-devices-form-a-hierarchy">1.6 Storage Devices Form a Hierarchy
+</h2><p><img src="/blog/CSAPP/1.9.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="example of memory hierarchy"
+	
+	
+></p>
+<h2 id="17-the-operating-system-manages-the-hardware">1.7 The Operating System Manages the Hardware
+</h2><p><img src="/blog/CSAPP/1.10.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Layered view of a computer system"
+	
+	
+></p>
+<p>The operating system has two primary purposes:</p>
+<ol>
+<li>to protect the hardware from misuse by runaway applications</li>
+<li>to provide applications with simple and uniform mechanisms for manipulating complicated and often wildly different low-level hardware devices.</li>
+</ol>
+<p>It achieves both goal via the foundamental abstractions: processes, virtual memory, and files.</p>
+<p><img src="/blog/CSAPP/1.11.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Abstractions provided by an operating system"
+	
+	
+></p>
+<h4 id="171-processes">1.7.1 Processes
+</h4><p>When the operating system decides to transfer control from the current process to some new process, it performs a <em>context switch</em> by saving the context of the current process, restoring the context of the new process, and then passing control to the new process.</p>
+<p><img src="/blog/CSAPP/1.12.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Process context switching"
+	
+	
+></p>
+<h4 id="172-threads">1.7.2 Threads
+</h4><p>Each thread runs in the context of the process and sharing the same code and global data.</p>
+<h4 id="173-virtual-memory">1.7.3 Virtual Memory
+</h4><p>Each process has the same uniform view of memory, which is known as its <em>virtual address space</em>.</p>
+<p><img src="/blog/CSAPP/1.13.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Process virtual address"
+	
+	
+></p>
+<p>The virtual address space seen by each process consists of a number of well defined areas, starting from low to high:</p>
+<ul>
+<li>Program code and data.</li>
+<li>Heap.</li>
+<li>Shared libraries.</li>
+<li>Stack.</li>
+<li>kernel virtual memory.</li>
+</ul>
+<h4 id="174-files">1.7.4 Files
+</h4><p>A <em>file</em> is a sequence of bytes. Every I/O devices is modeled as a file. All input and output in the system is performed by reading and writing files, using a small set of system calls known as <em>Unix I/O</em>.</p>
+<h2 id="18-systems-communicate-with-other-systems-using-networks">1.8 Systems Communicate with Other Systems Using Networks
+</h2><p>The network can be viewed as just another I/O devices.</p>
+<p><img src="/blog/CSAPP/1.14.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="A network is another I/O device"
+	
+	
+></p>
+<p>The system copies a sequence of bytes from main memory to the network adapter rather than disk controller, which helps the data flow across the network to another mechine instead of a local disk drive.</p>
+<p><img src="/blog/CSAPP/1.15.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Using telnet to run hello program remotely over a network"
+	
+	
+></p>
+<h3 id="19-important-themes">1.9 Important Themes
+</h3><h4 id="191-amdahls-law">1.9.1 Amdahl&rsquo;s law
+</h4><p>The main idea of <em>Amdahl&rsquo;s law</em> is that when we speed up one part of a system effect on the overall all system performance depends on both how sigficant this part was and how much it sped up.</p>
+<p>Suppose some part of the system requires a fraction <em>α</em> of this time, and that we improve its performence by a factor of <em>k</em>.</p>
+<p>$$
+T_{new} = (1-\alpha)T_{\text{old}} + (\alpha T_{\text{old}})/k = T_{\text{old}}[(1-\alpha) + \alpha/k]
+$$</p>
+<p>$$
+S = \frac{T_{\text{old}}}{T_{\text{new}}} = \frac{1}{(1-\alpha) + \alpha/k}
+$$</p>
+<h4 id="192-concurrency-and-parallelism">1.9.2 Concurrency and Parallelism
+</h4><h3 id="thread-level-concurrency">Thread-Level Concurrency
+</h3><p>Traditionally, this concurrent execution was only <em>simulated</em>, much as a juggler keeps multiple balls flying through the air.</p>
+<p><em>Multiprocessor systems</em> have more recently become commonplace with the advent of <em>multi-core</em> processors and <em>hyperthreading</em>.</p>
+<p><img src="/blog/CSAPP/1.16.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Categorizing different processor configurations"
+	
+	
+></p>
+<p><img src="/blog/CSAPP/1.17.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Multi-core processor orgnization"
+	
+	
+></p>
+<p>Hyperthreading also called <em>simultaneous multi-threading</em>. Whereas a conventional processor requires around 20,000 clock style to shift between different threads, a hyperthreaded processor decides which of its threads to execute on a cycle-by-cycle basis.</p>
+<h3 id="instruction-level-parallelism">Instruction-Level Parallelism
+</h3><p>Processors that can sustain execution rates faster than 1 instruction per cycle are known as <em>superscalar</em> processors.</p>
+<h3 id="single-instruction-multiple-datasimd-parallelism">Single-Instruction, Multiple-Data(SIMD) Parallelism
+</h3><h4 id="193-the-importance-of-abstractions-in-computer-systems">1.9.3 The Importance of Abstractions in Computer Systems
+</h4><p><img src="/blog/CSAPP/1.18.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Some abstractions provided by a computer system"
+	
+	
+></p>
+<h3 id="110-summary">1.10 Summary
+</h3><p>Storage devices that are higher in the hierarchy serve as caches for devices that are lower in the hierarchy.</p>
+<p>The operating system kernel serves as an intermediary between the application and the hardware. It provides three fundamental abstractions:</p>
+<ol>
+<li>Files are abstractions for I/O devices.</li>
+<li>Virtual memory is an abstraction for both main memory and disk.</li>
+<li>Processes are abstractions for the processor, main memory, and I/O devices.</li>
+</ol>
 
 </section>
 
@@ -345,6 +620,8 @@
     <section class="article-tags">
         
             <a href="/blog/en/tags/foundation/">Foundation</a>
+        
+            <a href="/blog/en/tags/csapp/">CSAPP</a>
         
     </section>
 
@@ -371,7 +648,7 @@
 
 
         <span>
-            Last updated on Nov 08, 2024 11:33 CST
+            Last updated on Nov 13, 2024 10:14 CST
         </span>
     </section></footer>
 
@@ -414,12 +691,12 @@
             
                 
 <article class="">
-    <a href="/blog/en/p/resolving-image-insert-conflict-of-hugo-and-obsidian/">
+    <a href="/blog/en/p/csapp-reading-notes-chapter-2-part-i/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">Resolving image insert conflict of Hugo and Obsidian</h2>
+            <h2 class="article-title">CSAPP reading notes - Chapter 2 (Part I)</h2>
         </div>
     </a>
 </article>
@@ -427,12 +704,12 @@
             
                 
 <article class="">
-    <a href="/blog/en/p/upgrade-neovim-to-the-latest/">
+    <a href="/blog/en/p/csapp-reading-notes-part-i-chapter-3/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">Upgrade Neovim To The Latest</h2>
+            <h2 class="article-title">CSAPP reading notes - part I, chapter 3</h2>
         </div>
     </a>
 </article>
@@ -440,12 +717,12 @@
             
                 
 <article class="">
-    <a href="/blog/en/p/go-installation/">
+    <a href="/blog/en/p/conversion-from-2s-complement-integer-to-floating-point-number/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">go installation</h2>
+            <h2 class="article-title">Conversion from 2&#39;s complement integer to floating point number</h2>
         </div>
     </a>
 </article>
@@ -453,12 +730,12 @@
             
                 
 <article class="">
-    <a href="/blog/en/p/lazyvim-for-ambitious-developers-reading-notes/">
+    <a href="/blog/en/p/why-does-the-modula-of-x-mod-2-to-k-power-will-retain-k-bits/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">LazyVim for Ambitious Developers reading notes</h2>
+            <h2 class="article-title">why does the modula of `x mod 2 to k power` will retain k bits</h2>
         </div>
     </a>
 </article>
@@ -466,12 +743,12 @@
             
                 
 <article class="">
-    <a href="/blog/en/p/useful-prompt/">
+    <a href="/blog/en/p/how-could-the-number-of-bigger-data-type-with-leading-1-equals-to-the-original-number/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">useful prompt</h2>
+            <h2 class="article-title">How could the number of bigger data type with leading 1 equals to the original number?</h2>
         </div>
     </a>
 </article>

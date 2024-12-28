@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="You: 1 2 3 4 5 6 int is_little_endian() { /* $begin is-little-endian */ int x = 1; return (int)(*(char *)&amp;x); /* $end is-little-endian */ } why can these code judge whether a machine is little-endian or big-endian? ChatGPT: This code determines whether a machine uses little-endian or big-endian byte order based on how integers are stored in memory. Let’s break it down: Understanding Byte Order Little-endian: The least significant byte (LSB) of a number is stored at the lowest memory address.">
+<title>how to judge whether a machine is little-endian or big-endian?</title>
+
+<link rel='canonical' href='http://localhost:1313/blog/en/p/how-to-judge-whether-a-machine-is-little-endian-or-big-endian/'>
+
+<link rel="stylesheet" href="/blog/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="how to judge whether a machine is little-endian or big-endian?">
+<meta property='og:description' content="You: 1 2 3 4 5 6 int is_little_endian() { /* $begin is-little-endian */ int x = 1; return (int)(*(char *)&amp;x); /* $end is-little-endian */ } why can these code judge whether a machine is little-endian or big-endian? ChatGPT: This code determines whether a machine uses little-endian or big-endian byte order based on how integers are stored in memory. Let’s break it down: Understanding Byte Order Little-endian: The least significant byte (LSB) of a number is stored at the lowest memory address.">
+<meta property='og:url' content='http://localhost:1313/blog/en/p/how-to-judge-whether-a-machine-is-little-endian-or-big-endian/'>
+<meta property='og:site_name' content='lyao&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='ai-QA/chatgpt' /><meta property='article:tag' content='base' /><meta property='article:published_time' content='2024-12-03T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-12-05T21:28:32&#43;08:00'/>
+<meta name="twitter:title" content="how to judge whether a machine is little-endian or big-endian?">
+<meta name="twitter:description" content="You: 1 2 3 4 5 6 int is_little_endian() { /* $begin is-little-endian */ int x = 1; return (int)(*(char *)&amp;x); /* $end is-little-endian */ } why can these code judge whether a machine is little-endian or big-endian? ChatGPT: This code determines whether a machine uses little-endian or big-endian byte order based on how integers are stored in memory. Let’s break it down: Understanding Byte Order Little-endian: The least significant byte (LSB) of a number is stored at the lowest memory address.">
+    <link rel="shortcut icon" href="/blog/favicon.ico" />
+
+  
+
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/blog/en/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/blog/img/avatar_hu94e2356dc7c89f996982d096d3fcd26c_12520_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">✨</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/blog/en">lyao&#39;s Blog</a></h1>
+            <h2 class="site-description">A faint fluorescent light has its place to shine.</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/oLd-Y'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/180272185'
+                        target="_blank"
+                        title="bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-bilibili" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="currentColor" fill="none"/>
+  <path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z" />
+  <path d="M8 3l2 3" />
+  <path d="M16 3l-2 3" />
+  <path d="M9 13v-2" />
+  <path d="M15 11v2" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://old-y.github.io/blog/index.xml'
+                        target="_blank"
+                        title="Rss"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="http://localhost:1313/blog/en/" selected>English</option>
+                                
+                                    <option value="http://localhost:1313/blog/" >中文</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#you"><strong>You:</strong></a></li>
+    <li><a href="#chatgpt"><strong>ChatGPT:</strong></a>
+      <ol>
+        <li><a href="#understanding-byte-order">Understanding Byte Order</a></li>
+        <li><a href="#the-code-explanation">The Code Explanation</a></li>
+        <li><a href="#why-this-works">Why This Works</a></li>
+        <li><a href="#return-value">Return Value</a></li>
+        <li><a href="#visualization">Visualization</a></li>
+      </ol>
+    </li>
+    <li><a href="#you-1"><strong>You:</strong></a></li>
+    <li><a href="#chatgpt-1"><strong>ChatGPT:</strong></a>
+      <ol>
+        <li><a href="#examples-of-little-endian-vs-big-endian">Examples of Little-Endian vs Big-Endian</a></li>
+        <li><a href="#1-32-bit-integer"><strong>1. 32-bit Integer</strong></a>
+          <ol>
+            <li><a href="#number-0x12345678-hexadecimal-representation">Number: <code>0x12345678</code> (hexadecimal representation)</a></li>
+          </ol>
+        </li>
+        <li><a href="#2-16-bit-integer"><strong>2. 16-bit Integer</strong></a>
+          <ol>
+            <li><a href="#number-0xabcd">Number: <code>0xABCD</code></a></li>
+          </ol>
+        </li>
+        <li><a href="#3-floating-point-number"><strong>3. Floating-Point Number</strong></a>
+          <ol>
+            <li><a href="#number-10-ieee-754-single-precision-floating-point-format-32-bit">Number: <code>1.0</code> (IEEE 754 single-precision floating-point format, 32-bit)</a></li>
+          </ol>
+        </li>
+        <li><a href="#4-multi-byte-string"><strong>4. Multi-Byte String</strong></a>
+          <ol>
+            <li><a href="#string-abcd-4-characters-ascii-encoded">String: <code>&quot;ABCD&quot;</code> (4 characters, ASCII encoded)</a></li>
+          </ol>
+        </li>
+        <li><a href="#5-practical-use-cases"><strong>5. Practical Use Cases</strong></a>
+          <ol>
+            <li><a href="#51-network-protocols-big-endian-preferred">5.1 Network Protocols (Big-Endian Preferred)</a></li>
+            <li><a href="#52-x86-processors-little-endian-preferred">5.2 x86 Processors (Little-Endian Preferred)</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/blog/en/categories/cs/" >
+                CS
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/blog/en/p/how-to-judge-whether-a-machine-is-little-endian-or-big-endian/">how to judge whether a machine is little-endian or big-endian?</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Dec 03, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    4 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="you"><strong>You:</strong>
+</h2><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">is_little_endian</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="cm">/* $begin is-little-endian */</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="p">(</span><span class="kt">int</span><span class="p">)(</span><span class="o">*</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="p">)</span><span class="o">&amp;</span><span class="n">x</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="cm">/* $end is-little-endian */</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>why can these code judge whether a machine is little-endian or big-endian?</p>
+<hr>
+<h2 id="chatgpt"><strong>ChatGPT:</strong>
+</h2><p>This code determines whether a machine uses little-endian or big-endian byte order based on how integers are stored in memory. Let’s break it down:</p>
+<h3 id="understanding-byte-order">Understanding Byte Order
+</h3><ol>
+<li><strong>Little-endian</strong>: The least significant byte (LSB) of a number is stored at the lowest memory address.</li>
+<li><strong>Big-endian</strong>: The most significant byte (MSB) of a number is stored at the lowest memory address.</li>
+</ol>
+<p>For example, consider the integer <code>1</code> in binary:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">00000000 00000000 00000000 00000001
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>In little-endian, it is stored as: <code>01 00 00 00</code> (from low to high memory addresses).</li>
+<li>In big-endian, it is stored as: <code>00 00 00 01</code>.</li>
+</ul>
+<h3 id="the-code-explanation">The Code Explanation
+</h3><ol>
+<li>
+<p><code>int x = 1;</code></p>
+<ul>
+<li>The integer <code>x</code> is assigned the value <code>1</code>.</li>
+</ul>
+</li>
+<li>
+<p><code>(char *)&amp;x</code></p>
+<ul>
+<li>This casts the address of <code>x</code> to a <code>char*</code>, which allows access to individual bytes of <code>x</code> because <code>char</code> is 1 byte in size.</li>
+</ul>
+</li>
+<li>
+<p><code>*(char *)&amp;x</code></p>
+<ul>
+<li>Dereferencing the <code>char*</code> pointer reads the first byte of <code>x</code> (the byte stored at the lowest memory address).</li>
+</ul>
+</li>
+<li>
+<p><code>(int)(*(char *)&amp;x)</code></p>
+<ul>
+<li>The value of this byte is returned as an integer.</li>
+</ul>
+</li>
+</ol>
+<h3 id="why-this-works">Why This Works
+</h3><ul>
+<li>If the machine is <strong>little-endian</strong>, the first byte of <code>x</code> (at the lowest memory address) is <code>1</code> because the least significant byte is stored first.</li>
+<li>If the machine is <strong>big-endian</strong>, the first byte of <code>x</code> is <code>0</code> because the most significant byte is stored first.</li>
+</ul>
+<h3 id="return-value">Return Value
+</h3><ul>
+<li>On a little-endian machine: The function returns <code>1</code>.</li>
+<li>On a big-endian machine: The function returns <code>0</code>.</li>
+</ul>
+<h3 id="visualization">Visualization
+</h3><p>Memory layout for <code>x = 1</code> on a little-endian machine:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">Address</span>    <span class="nt">Value</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x1000</span>     <span class="nt">0x01</span>   <span class="o">(</span><span class="nt">LSB</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x1001</span>     <span class="nt">0x00</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x1002</span>     <span class="nt">0x00</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x1003</span>     <span class="nt">0x00</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Memory layout for <code>x = 1</code> on a big-endian machine:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">Address</span>    <span class="nt">Value</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x1000</span>     <span class="nt">0x00</span>   <span class="o">(</span><span class="nt">MSB</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x1001</span>     <span class="nt">0x00</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x1002</span>     <span class="nt">0x00</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x1003</span>     <span class="nt">0x01</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Thus, by checking the value of the first byte, the function identifies the endianness.</p>
+<hr>
+<h2 id="you-1"><strong>You:</strong>
+</h2><p>give me some examples showing the difference between little-endian and big-endian.</p>
+<hr>
+<h2 id="chatgpt-1"><strong>ChatGPT:</strong>
+</h2><h3 id="examples-of-little-endian-vs-big-endian">Examples of Little-Endian vs Big-Endian
+</h3><p>To understand the difference, let&rsquo;s consider several data representations and how they are stored in memory. Assume the memory addresses grow from left to right.</p>
+<hr>
+<h3 id="1-32-bit-integer"><strong>1. 32-bit Integer</strong>
+</h3><h4 id="number-0x12345678-hexadecimal-representation">Number: <code>0x12345678</code> (hexadecimal representation)
+</h4><ul>
+<li>
+<p><strong>Little-Endian</strong>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-mathematica" data-lang="mathematica"><span class="line"><span class="cl"><span class="n">Address</span><span class="w">    </span><span class="n">Value</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="mi">0</span><span class="n">x00</span><span class="w">       </span><span class="mi">0</span><span class="n">x78</span><span class="w">  </span><span class="p">(</span><span class="n">Least</span><span class="w"> </span><span class="n">Significant</span><span class="w"> </span><span class="n">Byte</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="mi">0</span><span class="n">x01</span><span class="w">       </span><span class="mi">0</span><span class="n">x56</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="mi">0</span><span class="n">x02</span><span class="w">       </span><span class="mi">0</span><span class="n">x34</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="mi">0</span><span class="n">x03</span><span class="w">       </span><span class="mi">0</span><span class="n">x12</span><span class="w">  </span><span class="p">(</span><span class="n">Most</span><span class="w"> </span><span class="n">Significant</span><span class="w"> </span><span class="n">Byte</span><span class="p">)</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Stored as: <code>78 56 34 12</code></p>
+</li>
+<li>
+<p><strong>Big-Endian</strong>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-mathematica" data-lang="mathematica"><span class="line"><span class="cl"><span class="n">Address</span><span class="w">    </span><span class="n">Value</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="mi">0</span><span class="n">x00</span><span class="w">       </span><span class="mi">0</span><span class="n">x12</span><span class="w">  </span><span class="p">(</span><span class="n">Most</span><span class="w"> </span><span class="n">Significant</span><span class="w"> </span><span class="n">Byte</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="mi">0</span><span class="n">x01</span><span class="w">       </span><span class="mi">0</span><span class="n">x34</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="mi">0</span><span class="n">x02</span><span class="w">       </span><span class="mi">0</span><span class="n">x56</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="mi">0</span><span class="n">x03</span><span class="w">       </span><span class="mi">0</span><span class="n">x78</span><span class="w">  </span><span class="p">(</span><span class="n">Least</span><span class="w"> </span><span class="n">Significant</span><span class="w"> </span><span class="n">Byte</span><span class="p">)</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Stored as: <code>12 34 56 78</code></p>
+</li>
+</ul>
+<hr>
+<h3 id="2-16-bit-integer"><strong>2. 16-bit Integer</strong>
+</h3><h4 id="number-0xabcd">Number: <code>0xABCD</code>
+</h4><ul>
+<li>
+<p><strong>Little-Endian</strong>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-mathematica" data-lang="mathematica"><span class="line"><span class="cl"><span class="n">Address</span><span class="w">    </span><span class="n">Value</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="mi">0</span><span class="n">x00</span><span class="w">       </span><span class="mi">0</span><span class="n">xCD</span><span class="w">  </span><span class="p">(</span><span class="n">Least</span><span class="w"> </span><span class="n">Significant</span><span class="w"> </span><span class="n">Byte</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="mi">0</span><span class="n">x01</span><span class="w">       </span><span class="mi">0</span><span class="n">xAB</span><span class="w">  </span><span class="p">(</span><span class="n">Most</span><span class="w"> </span><span class="n">Significant</span><span class="w"> </span><span class="n">Byte</span><span class="p">)</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Stored as: <code>CD AB</code></p>
+</li>
+<li>
+<p><strong>Big-Endian</strong>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-mathematica" data-lang="mathematica"><span class="line"><span class="cl"><span class="n">Address</span><span class="w">    </span><span class="n">Value</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="mi">0</span><span class="n">x00</span><span class="w">       </span><span class="mi">0</span><span class="n">xAB</span><span class="w">  </span><span class="p">(</span><span class="n">Most</span><span class="w"> </span><span class="n">Significant</span><span class="w"> </span><span class="n">Byte</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="mi">0</span><span class="n">x01</span><span class="w">       </span><span class="mi">0</span><span class="n">xCD</span><span class="w">  </span><span class="p">(</span><span class="n">Least</span><span class="w"> </span><span class="n">Significant</span><span class="w"> </span><span class="n">Byte</span><span class="p">)</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Stored as: <code>AB CD</code></p>
+</li>
+</ul>
+<hr>
+<h3 id="3-floating-point-number"><strong>3. Floating-Point Number</strong>
+</h3><h4 id="number-10-ieee-754-single-precision-floating-point-format-32-bit">Number: <code>1.0</code> (IEEE 754 single-precision floating-point format, 32-bit)
+</h4><p>Binary Representation: <code>0x3F800000</code></p>
+<ul>
+<li>
+<p><strong>Little-Endian</strong>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">Address</span>    <span class="nt">Value</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x00</span>       <span class="nt">0x00</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x01</span>       <span class="nt">0x00</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x02</span>       <span class="nt">0x80</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x03</span>       <span class="nt">0x3F</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Stored as: <code>00 00 80 3F</code></p>
+</li>
+<li>
+<p><strong>Big-Endian</strong>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">Address</span>    <span class="nt">Value</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x00</span>       <span class="nt">0x3F</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x01</span>       <span class="nt">0x80</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x02</span>       <span class="nt">0x00</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x03</span>       <span class="nt">0x00</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Stored as: <code>3F 80 00 00</code></p>
+</li>
+</ul>
+<hr>
+<h3 id="4-multi-byte-string"><strong>4. Multi-Byte String</strong>
+</h3><h4 id="string-abcd-4-characters-ascii-encoded">String: <code>&quot;ABCD&quot;</code> (4 characters, ASCII encoded)
+</h4><p>Each character in ASCII occupies 1 byte:</p>
+<ul>
+<li>
+<p><code>A = 0x41</code></p>
+</li>
+<li>
+<p><code>B = 0x42</code></p>
+</li>
+<li>
+<p><code>C = 0x43</code></p>
+</li>
+<li>
+<p><code>D = 0x44</code></p>
+</li>
+<li>
+<p><strong>Little-Endian</strong>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="nt">Address</span>    <span class="nt">Value</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x00</span>       <span class="nt">0x41</span>  <span class="o">(</span><span class="nt">A</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x01</span>       <span class="nt">0x42</span>  <span class="o">(</span><span class="nt">B</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x02</span>       <span class="nt">0x43</span>  <span class="o">(</span><span class="nt">C</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x03</span>       <span class="nt">0x44</span>  <span class="o">(</span><span class="nt">D</span><span class="o">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Strings are typically stored as they are, but since strings don&rsquo;t involve multi-byte endian concerns, the sequence remains: <code>41 42 43 44</code>.</p>
+</li>
+<li>
+<p><strong>Big-Endian</strong>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="nt">Address</span>    <span class="nt">Value</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x00</span>       <span class="nt">0x41</span>  <span class="o">(</span><span class="nt">A</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x01</span>       <span class="nt">0x42</span>  <span class="o">(</span><span class="nt">B</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x02</span>       <span class="nt">0x43</span>  <span class="o">(</span><span class="nt">C</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="nt">0x03</span>       <span class="nt">0x44</span>  <span class="o">(</span><span class="nt">D</span><span class="o">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Strings behave the same way in both formats: <code>41 42 43 44</code>.</p>
+</li>
+</ul>
+<hr>
+<h3 id="5-practical-use-cases"><strong>5. Practical Use Cases</strong>
+</h3><h4 id="51-network-protocols-big-endian-preferred">5.1 Network Protocols (Big-Endian Preferred)
+</h4><ul>
+<li>Internet protocols such as TCP/IP use <strong>big-endian</strong> order for transmitting data.</li>
+<li>Example: IP Address <code>192.0.2.1</code> in hexadecimal is <code>0xC0000201</code>:
+<ul>
+<li>Sent over the network (big-endian): <code>C0 00 02 01</code>.</li>
+</ul>
+</li>
+</ul>
+<h4 id="52-x86-processors-little-endian-preferred">5.2 x86 Processors (Little-Endian Preferred)
+</h4><ul>
+<li>Intel x86 and AMD processors store data in <strong>little-endian</strong> format.</li>
+<li>Example: Integer <code>0x1234</code> on x86:
+<ul>
+<li>Stored in memory (little-endian): <code>34 12</code>.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p>These examples demonstrate how data layout changes between little-endian and big-endian formats, particularly for multi-byte values like integers and floats.</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/blog/en/tags/ai-qa/chatgpt/">Ai-QA/Chatgpt</a>
+        
+            <a href="/blog/en/tags/base/">Base</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            Last updated on Dec 05, 2024 21:28 CST
+        </span>
+    </section></footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.body, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/blog/en/p/conversion-from-2s-complement-integer-to-floating-point-number/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Conversion from 2&#39;s complement integer to floating point number</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/en/p/differences-among-mixed-hard-and-soft-in-git-commit-reset/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Differences among `mixed`, `hard` and `soft` in `git commit reset`</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/en/p/why-would-int-53191-become-12345-after-truncating-to-short/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Why would int 53191 become -12345 after truncating to short</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/en/p/why-does-the-modula-of-x-mod-2-to-k-power-will-retain-k-bits/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">why does the modula of `x mod 2 to k power` will retain k bits</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/en/p/how-could-the-number-of-bigger-data-type-with-leading-1-equals-to-the-original-number/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">How could the number of bigger data type with leading 1 equals to the original number?</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="oLd-Y/blog"
+    data-repo-id="R_kgDOLzCoMA"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOMdwBSM4ChU46"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="zh-CN"
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark');
+            }
+        }
+    })();
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 谷栗杳
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.26.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+<script src="/blog/js/obsidian-links.js"></script>
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/blog/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

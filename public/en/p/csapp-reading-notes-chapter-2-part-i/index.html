@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation">
+<title>CSAPP reading notes - Chapter 2 (Part I)</title>
+
+<link rel='canonical' href='http://localhost:1313/blog/en/p/csapp-reading-notes-chapter-2-part-i/'>
+
+<link rel="stylesheet" href="/blog/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="CSAPP reading notes - Chapter 2 (Part I)">
+<meta property='og:description' content="Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation">
+<meta property='og:url' content='http://localhost:1313/blog/en/p/csapp-reading-notes-chapter-2-part-i/'>
+<meta property='og:site_name' content='lyao&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='foundation' /><meta property='article:tag' content='CSAPP' /><meta property='article:published_time' content='2024-11-04T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-12-07T14:10:37&#43;08:00'/>
+<meta name="twitter:title" content="CSAPP reading notes - Chapter 2 (Part I)">
+<meta name="twitter:description" content="Part I, Program Structure\r and Execution; Chapter 2 \rRepresenting and Manipulating \rInformation">
+    <link rel="shortcut icon" href="/blog/favicon.ico" />
+
+  
+
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/blog/en/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/blog/img/avatar_hu94e2356dc7c89f996982d096d3fcd26c_12520_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">✨</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/blog/en">lyao&#39;s Blog</a></h1>
+            <h2 class="site-description">A faint fluorescent light has its place to shine.</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/oLd-Y'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/180272185'
+                        target="_blank"
+                        title="bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-bilibili" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="currentColor" fill="none"/>
+  <path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z" />
+  <path d="M8 3l2 3" />
+  <path d="M16 3l-2 3" />
+  <path d="M9 13v-2" />
+  <path d="M15 11v2" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://old-y.github.io/blog/index.xml'
+                        target="_blank"
+                        title="Rss"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="http://localhost:1313/blog/en/" selected>English</option>
+                                
+                                    <option value="http://localhost:1313/blog/" >中文</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#21-information-storage">2.1 Information Storage</a>
+      <ol>
+        <li><a href="#211-hexadecimal-notation">2.1.1 Hexadecimal Notation</a></li>
+        <li><a href="#212-data-sizes">2.1.2 Data Sizes</a></li>
+        <li><a href="#213-addressing-and-byte-ordering">2.1.3 Addressing and Byte Ordering</a></li>
+        <li><a href="#214-representing-strings">2.1.4 Representing Strings</a></li>
+        <li><a href="#215-representing-code">2.1.5 Representing Code</a></li>
+        <li><a href="#216-introduction-to-boolean-algebra">2.1.6 Introduction to Boolean Algebra</a></li>
+        <li><a href="#217-bit-level-operations-in-c">2.1.7 Bit-Level Operations in C</a></li>
+        <li><a href="#218-logical-operations-in-c">2.1.8 Logical Operations in C</a></li>
+        <li><a href="#219-shift-operations-in-c">2.1.9 Shift Operations in C</a></li>
+      </ol>
+    </li>
+    <li><a href="#22-integer-representations">2.2 Integer Representations</a>
+      <ol>
+        <li><a href="#221-integral-data-types">2.2.1 Integral Data Types</a></li>
+        <li><a href="#222-unsigned-encodings">2.2.2 Unsigned Encodings</a></li>
+        <li><a href="#223-twos-complement-encodings">2.2.3 Two’s-Complement Encodings</a></li>
+        <li><a href="#224-conversions-between-signed-and-unsigned">2.2.4 Conversions between Signed and Unsigned</a></li>
+        <li><a href="#225-signed-versus-unsigned-in-c">2.2.5 Signed versus Unsigned in C</a></li>
+        <li><a href="#226-expanding-the-bit-representation-of-a-number">2.2.6 Expanding the Bit Representation of a Number</a></li>
+        <li><a href="#227-truncating-numbers">2.2.7 Truncating Numbers</a></li>
+        <li><a href="#228-advice-on-signed-versus-unsigned">2.2.8 Advice on Signed versus Unsigned</a></li>
+        <li><a href="#23-integer-arithmetic">2.3 Integer Arithmetic</a></li>
+        <li><a href="#232-twos-complement-addition">2.3.2 Two’s-Complement Addition</a></li>
+      </ol>
+    </li>
+    <li><a href="#24-floating-point">2.4 Floating Point</a>
+      <ol>
+        <li><a href="#241-fractional-binary-numbers">2.4.1 Fractional Binary Numbers</a></li>
+        <li><a href="#242-ieee-floating-point-representation">2.4.2 IEEE Floating-Point Representation</a></li>
+        <li><a href="#244-rounding-floating-point">2.4.4 Rounding Floating-point</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/blog/en/categories/cs/" >
+                CS
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/blog/en/p/csapp-reading-notes-chapter-2-part-i/">CSAPP reading notes - Chapter 2 (Part I)</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            Part I, Program Structure and Execution; Chapter 2 Representing and Manipulating Information
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Nov 04, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    10 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="21-information-storage">2.1 Information Storage
+</h2><p>Most computers use block of 8 bits, or <em>bytes</em>, as the smallest unit of memory.</p>
+<p>A mechine-level program views memory as a very large array of bytes, referred to as <em>virtual memory</em>. Every byte of memory is identified by a unique nubmer, known as <em>address</em>, and the set of all possible addresses is known as the <em>virtual address space</em>.</p>
+<p>Virtual address space is just a conceptual image presented to mechine-level program. The actual implementation uses a combination of DRAM, flash memory, disk storage,special hardware, and operating system software to provide the program with what apears to be a monolithic byte array.</p>
+<p>The GNU Compiler Collection (GCC) can compile programs according to the conventions of several different version of the C language, based on different command-line options.</p>
+<p><img src="/blog/CSAPP/2.1.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Specifying different versions of C to gcc"
+	
+	
+></p>
+<h3 id="211-hexadecimal-notation">2.1.1 Hexadecimal Notation
+</h3><p>Decimal and binary values associated with the hexadecimal digits:</p>
+<p><img src="/blog/CSAPP/2.2.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Hexadecimal notation"
+	
+	
+></p>
+<p>For $x = 2,048 = 2^{11}$, we have $n = 11 = 3 + 4 \cdot 2$, giving hexdecimal representation <code>0x800</code>.</p>
+<h3 id="212-data-sizes">2.1.2 Data Sizes
+</h3><p>A 32-bit word size limits the virtual address space to 4 gigabytes(written 4 GB), that is, just over 4 x 10^9 bytes. Scaling up to a 64-bit word size leads to a virtual address space of 16 exabytes, or around 1.84 x 10^19 bytes.</p>
+<p>The distinction referring to programs as being either &ldquo;32-bit programs&rdquo; or &ldquo;64-bit programs&rdquo; lies in how a program is compiled, rather than the type of machine on which it runs.</p>
+<p>The C language supports multiple data formats for both integer and floating-piont data.</p>
+<p><img src="/blog/CSAPP/2.3.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Typical sizes (in bytes) of basic C data types"
+	
+	
+></p>
+<p><code>int32_t</code> and <code>int64_t</code> have exactly 4 and 8 bytes, respectively, to avoid the vagaries of relying on &ldquo;typical&rdquo; sizes and different compiler settings.</p>
+<h3 id="213-addressing-and-byte-ordering">2.1.3 Addressing and Byte Ordering
+</h3><p>The convention where the least significant bytes comes first is referred to as <em>little endian</em>. The convention where the most sifnificant byte comes first is referred to as <em>big endian</em>.</p>
+<p>For value <code>x = 0x01234567</code>, the high-order byte has hexadecimal value <code>0x01</code>, while the low-order byte has value <code>0x67</code>.</p>
+<p><img src="/blog/CSAPP/big-little-endian.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="/blog/CSAPP/2.5-2.6.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Byte representations of different data values among different machines"
+	
+	
+></p>
+<p>Although the floating-pint and the integer data both encode the numeric value 12,345, they have very different byte patterns: 0x00003039 for the integer and 0x4640E400 for floating point. In general, these two formats use different encoding shemes. If we expand these hexadecimal patterns into binary form and shift them appropriately, we find a sequence of 13 matching bits, indicated by a sequence of asterisks, as follows:</p>
+<p><img src="/blog/CSAPP/mathcing-bits-of-floating-point-and-integer.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h3 id="214-representing-strings">2.1.4 Representing Strings
+</h3><p>None</p>
+<h3 id="215-representing-code">2.1.5 Representing Code
+</h3><p>None</p>
+<h3 id="216-introduction-to-boolean-algebra">2.1.6 Introduction to Boolean Algebra
+</h3><p><img src="/blog/CSAPP/2.7.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Operations of Boolean algebra"
+	
+	
+></p>
+<p>When we consider operations ^, &amp; and ~ operating on bit vectors of length w, we get a different mathematical form, known as a Boolean ring.</p>
+<p><code>a ^ a = 0</code> for any value a, so <code>(a ^ b) ^ a = b</code>.</p>
+<p>According to the position of 1 from right to left, bit vector a = [01101001] encodes the set A = {0, 3, 5, 6}, while bit vector b = [01010101] encodes the set B = {0, 2, 4, 6}. Then the operation a &amp; b yields bit vector [01000001], while $A \cap B$ = {0, 6}.</p>
+<h3 id="217-bit-level-operations-in-c">2.1.7 Bit-Level Operations in C
+</h3><p>The best way to determin the effect of a bit-level expression is to extend the hexadecimal arguments to their binary representations, perform the operations in binary, and then convert back to the hexadecimal.</p>
+<p>A mask is a bit pattern that indicates a selected set of bits within a word. The expression <code>~0</code> will yield a mask of all ones.</p>
+<h3 id="218-logical-operations-in-c">2.1.8 Logical Operations in C
+</h3><p>A bitwise operation will have behavior matching that of its logical counterpart only in the special case in which the arguments are restricted to 0 or 1.</p>
+<p>The logical operators do not evaluate their second argument if the result of the expression can be determined by evaluating the first argument.</p>
+<h3 id="219-shift-operations-in-c">2.1.9 Shift Operations in C
+</h3><p>Left shift <code>x &lt;&lt; k</code>: $x$ is shifted $k$ bits to the left, dropping off the $k$ most significant bits and filling the right end with $k$ zeros.</p>
+<p>Right shift <code>x &gt;&gt; k</code> has:</p>
+<ul>
+<li>Logical. A logical right shift fills the left end with $k$ zeros.</li>
+<li>Arithmetic. An arithemetic right shift fills the left end with $k$ repetitions of the most significant bit.</li>
+</ul>
+<p>For signed data (int, long, etc.), it determined by compiler (according to mechine structure) whether right shift in c is <strong>logical</strong> or <strong>arithmetic</strong>.</p>
+<p>While for unsigned data (unsigned int, unsigned long), it is always <strong>logical</strong> right shift.</p>
+<p>Here are examples:
+<img src="/blog/CSAPP/shift-operations-in-c.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Arithmetic right shift is the most-used right shift for signed data. But for unsigned data it must be logical right shift.</p>
+<p>On many machines, the shift instruction consider only the lower $log_2 w$ bits of the shift amount when shifting a w-bit value, and so the shift amount is computed as <code>k mod w</code>. <code>w</code> is the bit length of the data type. For instance:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">w</span> <span class="o">=</span> <span class="mi">32</span><span class="p">;</span>  <span class="c1">// 32-bit integer
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">// These will give identical results:
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">x</span> <span class="o">&lt;&lt;</span> <span class="mi">3</span>       <span class="c1">// shift by 3
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">x</span> <span class="o">&lt;&lt;</span> <span class="mi">35</span>      <span class="c1">// shift by 35 (35 mod 32 = 3)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">x</span> <span class="o">&lt;&lt;</span> <span class="mi">67</span>      <span class="c1">// shift by 67 (67 mod 32 = 3)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">// Because:
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="mi">3</span>  <span class="n">in</span> <span class="n">binary</span> <span class="o">=</span> <span class="mo">00011</span>  <span class="p">(</span><span class="n">lowest</span> <span class="mi">5</span> <span class="n">bits</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="mi">35</span> <span class="n">in</span> <span class="n">binary</span> <span class="o">=</span> <span class="mi">100011</span> <span class="p">(</span><span class="n">lowest</span> <span class="mi">5</span> <span class="n">bits</span> <span class="o">=</span> <span class="mo">00011</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="mi">67</span> <span class="n">in</span> <span class="n">binary</span> <span class="o">=</span> <span class="mi">1000011</span> <span class="p">(</span><span class="n">lowest</span> <span class="mi">5</span> <span class="n">bits</span> <span class="o">=</span> <span class="mo">00011</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="22-integer-representations">2.2 Integer Representations
+</h2><p><img src="/blog/CSAPP/2.8.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Terminology for integer data and arithmetic operations"
+	
+	
+></p>
+<h3 id="221-integral-data-types">2.2.1 Integral Data Types
+</h3><p><img src="/blog/CSAPP/2.9.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Typical ranges for C integral data types for 32-bit programs"
+	
+	
+></p>
+<p><img src="/blog/CSAPP/2.10.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Typical ranges for C integral data types for 64-bit programs"
+	
+	
+></p>
+<p><img src="/blog/CSAPP/2.11.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Guaranteed ranges for C integral data types"
+	
+	
+></p>
+<h3 id="222-unsigned-encodings">2.2.2 Unsigned Encodings
+</h3><p><img src="/blog/CSAPP/2.12.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Unsigned number examples for w = 4."
+	
+	
+></p>
+<p>principle: Definition of unsigned encoding</p>
+<p>For vector $\vec{x} = [x_{w-1}, x_{w-2}, \ldots, x_{0}$:
+$$
+B2U_{w}(\vec{x}) = \sum_{i=0}^{w-1}x_{i}2^i \qquad (2.1)
+$$</p>
+<p>The least value is given by bit vector $[00 \cdots 0]$ having integer value 0, and the greatest value is given by bit vector $[11 \cdots 1]$ having integer value $UMax_{w} \doteq \sum_{i=0}^{w-1}2^i = 2^w - 1$.</p>
+<p>principle: Uniqueness of unsigned encoding</p>
+<p>Function $B2U_{w}$ is a bijection.</p>
+<h3 id="223-twos-complement-encodings">2.2.3 Two’s-Complement Encodings
+</h3><p>principle: Definition of two’s-complement encoding</p>
+<p>For vector $\vec{x} = [x_{w-1},x_{w-2},\cdots x_{0}]$:
+$$
+B2T_{w}(\vec{x}) \doteq -x_{w-1}2^{w-1} + \sum_{i=0}^{w-2}x_{i}2^{i} \qquad (2.3)
+$$</p>
+<p>The MSB (most significant bit) has its dual role as both the sign and a weighted bit.</p>
+<p><img src="/blog/CSAPP/2.13.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Two&rsquo;s-complement number examples forw = 4"
+	
+	
+></p>
+<p>The least representable value is given by bitvector <code>[10 ... 0]</code> (set the bit with negative weight but clear all others),having integer value $TMin_{w} \doteq - 2^{w-1}$.The greatest value is given by bitvector <code>[01 ... 1]</code> (clear the bit with negative weight but set all others),having integer value $Tmax_{w} \doteq \sum_{i=0}^{w-2}2^i = 2^{w} - 1$.</p>
+<p>principle: Uniqueness of two’s-complement encoding</p>
+<p>Function $B2T_{w}$ is a bijection.</p>
+<p>$\left| TMin \right| = \left| TMax \right| + 1$</p>
+<p>Since 0 is nonnegative, this means that it can represent one less positive number than negative.</p>
+<p><img src="/blog/CSAPP/2.14.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Important numbers"
+	
+	
+></p>
+<p>Two other standard representations for signed numbers:
+$$
+B2O_{w}(\vec{x}) \doteq -x_{w-1}(2^{w-1} - 1) + \sum <em>{i=0}^{w-2}x</em>{i}2^{i}
+$$
+$$
+B2S_{w}(\vec{x}) \doteq (-1)^{x_{w-1}} \cdot \left( \sum <em>{i = 0}^{w-2}x</em>{i}2^{i} \right)
+$$</p>
+<h3 id="224-conversions-between-signed-and-unsigned">2.2.4 Conversions between Signed and Unsigned
+</h3><p><img src="/blog/CSAPP/2.15.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Two’s-complement representations of 12,345 and ?12,345, and unsigned representation of 53,191. Note that the latter two have identical bit representations"
+	
+	
+></p>
+<p>$$
+T2U_{w}\left( \vec{x} \right) \doteq B2U_{w}\left( T2B_{w} \right)
+$$
+$$
+U2T_{w}\left( \vec{x} \right) \doteq B2T_{w}\left( U2B_{w} \right)
+$$</p>
+<p>principle: Conversion from two’s complement to unsigned</p>
+<p>For x such that $TMinw ≤ x ≤ TMaxw$:
+$$
+T2U_{w}\left( x \right)  = \begin{cases}
+x + 2^{w}, &amp; x &lt; 0  \
+x, &amp; x \geq 0
+\end{cases} \qquad (2.5)
+$$</p>
+<p>derivation: Conversion from two’s complement to unsigned</p>
+<p>Comparing Equations 2.1 and 2.3, we can see that for bit pattern $\vec{x}$, if we compute the difference $B2U_{w}(\vec{x}) - B2T_{w}(\vec{x})$, the weighted sums for bits from <code>0</code> to <code>w - 2</code> will cancel each other, leaving a value $B2U_{w}(\vec{x}) - B2T_{w}(\vec{x}) = x_{w-1} (2^{w-1} - -2^{w-1}) = x_{w-1}2^{w}$. This gives a relationship $B2U_{w}(\vec{x}) = B2T_{w}(\vec{x}) + x_{w-1}2^{w}$. We therefore have
+$$
+B2U_{w}(T2B_{w}(x)) = T2U_{w}(x) = x ;+;x_{w-1}2^{w} \qquad (2.6)
+$$</p>
+<p>For the two’s-complement case, the most significant bit serves as the sign bit, which we diagram as a leftward-pointing gray bar. For the unsigned case, this bit has positive weight, which we show as a rightward-pointing black bar.</p>
+<p><img src="/blog/CSAPP/2.16.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Comparing unsigned and two’s-complement representations for w = 4."
+	
+	
+></p>
+<p><img src="/blog/CSAPP/2.17.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Conversion from two’s complement to unsigned."
+	
+	
+></p>
+<p><img src="/blog/CSAPP/2.18.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Conversion from unsigned to two’s complement."
+	
+	
+></p>
+<p>principle: Unsigned to two’s-complement conversion
+For u such that $0 \leq u \leq UMax_{w}$:
+$$
+U2T_{w}(u) = \begin{cases}
+u, &amp; u \leq TMax_{w} \
+u - 2^{w}, &amp; u &gt; Tmax_{w}
+\end{cases} \qquad (2.7)
+$$</p>
+<p>derivation: Unsigned to two’s-complement conversion
+Let $\vec{u} = U2B_{w}(u)$. This bit vector will also be the two’s-complement representation of $U2T_{w}(u)$. Equations 2.1 and 2.3 can be combined to give
+$$
+U2T_{w}(u) = -u_{w-1}2^{w} + u \qquad (2.8)
+$$</p>
+<p>To summarize, we considered the effects of converting in both directions between unsigned and two’s-complement representations. For values x in the range $0 \leq x \leq TMax_{w}$, we have $T2U_{w}(x) = x$ and $U2T_{w}(x) = x$. That is, numbers in this range have identical unsigned and two’s-complement representations. For values outside of this range, the conversions either add or subtract $2^{w}$. For example, we have $T2U_{w}(-1) = -1 + 2^{w}$ -the negative number closest to zero maps to the largest unsigned number. At the other extreme, one can see that $T2U_{w}(TMin_{w}) = -2^{w-1} + 2^{w} = 2^{w-1} = TMax_{w} - 1$ —the most negative number maps to an unsigned number just outside the range of positive two’s-complement numbers. Using the example of Figure 2.15, we can see that $T2U_{16}(-12345) = 65536 + -12345 = 53191$.</p>
+<h3 id="225-signed-versus-unsigned-in-c">2.2.5 Signed versus Unsigned in C
+</h3><p>From here on, since repeatedly taking screenshots and copying key words is very troublesome, I will only record key words that help with memory as summarized by myself, which also serves as an index.</p>
+<p>most signed by default, suffix <code>u</code> for unsigned</p>
+<p>%d, %u, and %x
+a signed decimal, an unsigned decimal, and in hexadecimal format</p>
+<p>possible, print, int with %u, unsigned with %d</p>
+<p>result of the expression <code>-1 &lt; 0U</code> is <em>0 and unsigned</em>, since <code>0U</code> is unsigned, <code>-1</code> is implicitly cast to unsigned, which is $T2U_{w}(-1) = UMax_{w} = 4294967295U$.</p>
+<h3 id="226-expanding-the-bit-representation-of-a-number">2.2.6 Expanding the Bit Representation of a Number
+</h3><p>unsigned -&gt; large data type =&gt; add leading <em>zeros</em></p>
+<p>two&rsquo;s-complement -&gt; large data type =&gt; sign extension (filled by the first bit)</p>
+<p>The key property we exploit is that $2^{w} - 2^{w-1} = 2^{w-1}$. Thus, the combined effect of adding a bit of weight $-2^{w}$ and of converting the bit having weight $-2^{w-1}$ to be one with weight $2^{w-1}$ is to preserve the original numeric value.</p>
+<p>[[How could the number of bigger data type with leading 1 equals to the original number.en |Here is the chatgpt expalanation of why bigger data type with leading 1 equals to the original number.]]</p>
+<p>When <code>short</code> cast to <code>unsigned</code>, it will first promote to <code>int</code>, result in <code>(unsigned)(int)</code> rather than <code>(unsigned)(unsigned short)</code>.</p>
+<h3 id="227-truncating-numbers">2.2.7 Truncating Numbers
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">53191</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">short</span> <span class="n">sx</span> <span class="o">=</span> <span class="p">(</span><span class="kt">short</span><span class="p">)</span><span class="n">x</span><span class="p">;</span> <span class="cm">/* -12345 */</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">y</span> <span class="o">=</span> <span class="n">sx</span><span class="p">;</span> <span class="cm">/* -12345 */</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>[[Why would int 53191 become -12345 after truncating to short.en]]</p>
+<p>truncate <code>x</code> down to k bits <code>x'</code>: $x&rsquo; = x \mod 2^{k}$</p>
+<p>[[why does  the modula of <code>x mod 2 to k power</code> will retain k bits.en]]</p>
+<h3 id="228-advice-on-signed-versus-unsigned">2.2.8 Advice on Signed versus Unsigned
+</h3><p>None</p>
+<h3 id="23-integer-arithmetic">2.3 Integer Arithmetic
+</h3><h3 id="232-twos-complement-addition">2.3.2 Two’s-Complement Addition
+</h3><p>overflow means remove the most significant bit.</p>
+<p>positive overflow: x &gt; 0 &amp; y &gt; 0 but $x +<em>{w}^{t}y \leq 0$.
+negetive overflow: x &lt; 0 &amp; y &lt; 0 but $x +</em>{w}^{t}y \geq 0$.</p>
+<p>$x *<em>{w}^{t} = U2T</em>{w}((x\cdot y)\mod 2^{w})$</p>
+<p>k bits will be left if you modula a binary x by k.</p>
+<p>we can transform multiplication into shifting, for example, x * 14:</p>
+<ol>
+<li>14 = 2^3 + 2^2 + 2^1 =&gt; (x&laquo;3) + (x&laquo;2) + (x&laquo;1)</li>
+<li>14 = 2^4 - 2^1 =&gt; (x&laquo;4) - (x&laquo;1)</li>
+</ol>
+<p>For the cases where rounding is required, adding the bias causes the upper bits to be incremented, so that the result will be rounded toward zero.</p>
+<p>$\lceil x/y \rceil=\lfloor (x + y - 1) / y\rfloor$</p>
+<p>c expression that yields x/2^k: <code>(x&lt;0 ? x+(1&lt;&lt;k)-1 : x) &gt;&gt; k</code></p>
+<h2 id="24-floating-point">2.4 Floating Point
+</h2><h3 id="241-fractional-binary-numbers">2.4.1 Fractional Binary Numbers
+</h3><p>$$
+b = \sum_{i=-n}^{m}2^{i} \times b_{i}
+$$
+it can&rsquo;t represent a very large number.</p>
+<h3 id="242-ieee-floating-point-representation">2.4.2 IEEE Floating-Point Representation
+</h3><p>The IEEE floating-point standard represents a number in a form:
+$V=(-1)^{s}\times M\times2^{E}$.</p>
+<p>V: Values
+s: sign
+M: significand
+E: exponent</p>
+<p><img src="/blog/CSAPP/2.32.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="/blog/CSAPP/2.33.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>E = e - bias</p>
+<h3 id="244-rounding-floating-point">2.4.4 Rounding Floating-point
+</h3><p>4 rounding modes:
+<img src="/blog/CSAPP/2.37.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Halfway point format: <code>XX...X.YY...Y100...</code></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/blog/en/tags/foundation/">Foundation</a>
+        
+            <a href="/blog/en/tags/csapp/">CSAPP</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            Last updated on Dec 07, 2024 14:10 CST
+        </span>
+    </section></footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.body, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/blog/en/p/csapp-reading-notes-chapter-1/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">CSAPP reading notes - Chapter 1</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/en/p/csapp-reading-notes-part-i-chapter-3/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">CSAPP reading notes - part I, chapter 3</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/en/p/conversion-from-2s-complement-integer-to-floating-point-number/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Conversion from 2&#39;s complement integer to floating point number</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/en/p/why-does-the-modula-of-x-mod-2-to-k-power-will-retain-k-bits/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">why does the modula of `x mod 2 to k power` will retain k bits</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/en/p/how-could-the-number-of-bigger-data-type-with-leading-1-equals-to-the-original-number/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">How could the number of bigger data type with leading 1 equals to the original number?</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="oLd-Y/blog"
+    data-repo-id="R_kgDOLzCoMA"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOMdwBSM4ChU46"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="zh-CN"
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark');
+            }
+        }
+    })();
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 谷栗杳
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.26.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+<script src="/blog/js/obsidian-links.js"></script>
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/blog/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

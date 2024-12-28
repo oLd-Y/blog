@@ -7,7 +7,2110 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Wed, 06 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 23 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Differences among `mixed`, `hard` and `soft` in `git commit reset`</title>
+        <link>http://localhost:1313/blog/en/p/differences-among-mixed-hard-and-soft-in-git-commit-reset/</link>
+        <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/differences-among-mixed-hard-and-soft-in-git-commit-reset/</guid>
+        <description>&lt;h2 id=&#34;you&#34;&gt;&lt;strong&gt;You:&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;what is the difference among hard, soft, and mixed reset in git commit ?&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;chatgpt&#34;&gt;&lt;strong&gt;ChatGPT:&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;In Git, the terms &lt;strong&gt;hard reset&lt;/strong&gt;, &lt;strong&gt;soft reset&lt;/strong&gt;, and &lt;strong&gt;mixed reset&lt;/strong&gt; refer to different types of actions when resetting the state of your repository. These actions affect the commit history, the staging area (index), and the working directory differently.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;1-hard-reset&#34;&gt;1. &lt;strong&gt;Hard Reset&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Command:&lt;/strong&gt; &lt;code&gt;git reset --hard &amp;lt;commit&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Effect:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Moves the current branch pointer (HEAD) to the specified commit.&lt;/li&gt;
+&lt;li&gt;Resets the staging area (index) to match the specified commit.&lt;/li&gt;
+&lt;li&gt;Resets the working directory to match the specified commit (overwrites any changes in tracked files).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use Case:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;When you want to completely discard changes in the working directory and staging area, making the repository state exactly like the specified commit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Caution:&lt;/strong&gt; Irreversible if the discarded changes aren&amp;rsquo;t saved elsewhere (e.g., uncommitted changes or commits are not recoverable unless backed up).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;2-soft-reset&#34;&gt;2. &lt;strong&gt;Soft Reset&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Command:&lt;/strong&gt; &lt;code&gt;git reset --soft &amp;lt;commit&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Effect:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Moves the current branch pointer (HEAD) to the specified commit.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Does not reset the staging area (index)&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Does not reset the working directory&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use Case:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;When you want to undo commits but keep the changes in the staging area so you can edit or re-commit them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Example:
+&lt;ul&gt;
+&lt;li&gt;Use this if you realize that the last commit message is incorrect and want to modify it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;3-mixed-reset-default&#34;&gt;3. &lt;strong&gt;Mixed Reset (Default)&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Command:&lt;/strong&gt; &lt;code&gt;git reset --mixed &amp;lt;commit&amp;gt;&lt;/code&gt; or &lt;code&gt;git reset &amp;lt;commit&amp;gt;&lt;/code&gt; (default behavior).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Effect:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Moves the current branch pointer (HEAD) to the specified commit.&lt;/li&gt;
+&lt;li&gt;Resets the staging area (index) to match the specified commit.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Does not reset the working directory&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use Case:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;When you want to undo commits and unstage changes (but keep them in the working directory) for further modifications or staging.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Example:
+&lt;ul&gt;
+&lt;li&gt;Use this if you mistakenly committed changes and want to refine or split them into different commits.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;summary-table&#34;&gt;Summary Table:
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Action&lt;/th&gt;
+&lt;th&gt;HEAD (Commit Pointer)&lt;/th&gt;
+&lt;th&gt;Staging Area (Index)&lt;/th&gt;
+&lt;th&gt;Working Directory&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Hard Reset&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Moves&lt;/td&gt;
+&lt;td&gt;Resets&lt;/td&gt;
+&lt;td&gt;Resets (Overwrites)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Soft Reset&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Moves&lt;/td&gt;
+&lt;td&gt;Unchanged&lt;/td&gt;
+&lt;td&gt;Unchanged&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Mixed Reset&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Moves&lt;/td&gt;
+&lt;td&gt;Resets&lt;/td&gt;
+&lt;td&gt;Unchanged&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;example-usage&#34;&gt;Example Usage
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Hard reset (dangerous):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git reset --hard HEAD~1   &lt;span class=&#34;c1&#34;&gt;# Undo the last commit completely.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Soft reset:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git reset --soft HEAD~1   &lt;span class=&#34;c1&#34;&gt;# Undo the last commit, keep changes staged.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Mixed reset (default):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git reset HEAD~1          &lt;span class=&#34;c1&#34;&gt;# Undo the last commit, unstage changes, keep them in the working directory.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Each type of reset is useful in different scenarios, so choose based on your needs and whether you want to preserve or discard changes.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>CSAPP reading notes - part I, chapter 3</title>
+        <link>http://localhost:1313/blog/en/p/csapp-reading-notes-part-i-chapter-3/</link>
+        <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/csapp-reading-notes-part-i-chapter-3/</guid>
+        <description>&lt;h2 id=&#34;31-a-historical-perspective&#34;&gt;3.1 A Historical Perspective
+&lt;/h2&gt;&lt;p&gt;Introduced a list of Intel processor models.&lt;/p&gt;
+&lt;h2 id=&#34;32-program-encodings&#34;&gt;3.2 Program Encodings
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>usage of `restrict` keyword in c</title>
+        <link>http://localhost:1313/blog/en/p/usage-of-restrict-keyword-in-c/</link>
+        <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/usage-of-restrict-keyword-in-c/</guid>
+        <description>&lt;p&gt;&lt;strong&gt;You:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;what is the usage of restrict keyword in C?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;ChatGPT:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;restrict&lt;/code&gt; keyword in C is used to inform the compiler that for the lifetime of the pointer, only it or a value directly derived from it will be used to access the object it points to. This allows the compiler to make optimizations, as it assumes no other pointer will access or modify the memory that &lt;code&gt;restrict&lt;/code&gt; points to.&lt;/p&gt;
+&lt;p&gt;This keyword is particularly useful in performance-critical applications such as numerical computing or multimedia processing. Here&amp;rsquo;s an explanation and example:&lt;/p&gt;
+&lt;h3 id=&#34;key-features-of-restrict&#34;&gt;Key Features of &lt;code&gt;restrict&lt;/code&gt;:
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Single Ownership&lt;/strong&gt;: The pointer marked as &lt;code&gt;restrict&lt;/code&gt; is the sole reference to the object it points to.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Optimization&lt;/strong&gt;: By guaranteeing that no aliasing occurs, the compiler can optimize memory access more aggressively, e.g., by reordering reads and writes or avoiding unnecessary loads/stores.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;example-without-restrict&#34;&gt;Example Without &lt;code&gt;restrict&lt;/code&gt;:
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;add_arrays&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Here, the compiler cannot assume that the memory regions pointed to by &lt;code&gt;a&lt;/code&gt;, &lt;code&gt;b&lt;/code&gt;, and &lt;code&gt;c&lt;/code&gt; do not overlap. Therefore, it must handle memory accesses conservatively.&lt;/p&gt;
+&lt;h3 id=&#34;example-with-restrict&#34;&gt;Example With &lt;code&gt;restrict&lt;/code&gt;:
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;add_arrays&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;kr&#34;&gt;restrict&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;kr&#34;&gt;restrict&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;kr&#34;&gt;restrict&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;By adding &lt;code&gt;restrict&lt;/code&gt;, you inform the compiler that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;a&lt;/code&gt;, &lt;code&gt;b&lt;/code&gt;, and &lt;code&gt;c&lt;/code&gt; point to non-overlapping regions of memory. This allows the compiler to make optimizations such as unrolling loops or using SIMD instructions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;key-points-to-remember&#34;&gt;Key Points to Remember:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Responsibility&lt;/strong&gt;: It is the programmer&amp;rsquo;s responsibility to ensure that no aliasing occurs when using &lt;code&gt;restrict&lt;/code&gt;. Violating this assumption results in undefined behavior.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scope&lt;/strong&gt;: The &lt;code&gt;restrict&lt;/code&gt; qualifier applies only to the lifetime of the pointer. If the pointer is reassigned, the restriction no longer applies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;practical-use&#34;&gt;Practical Use:
+&lt;/h3&gt;&lt;p&gt;&lt;code&gt;restrict&lt;/code&gt; is often used in performance-critical code and library implementations where aliasing can inhibit compiler optimizations, such as in matrix operations, image processing, and signal processing.&lt;/p&gt;
+&lt;h3 id=&#34;example-with-potential-aliasing-problem&#34;&gt;Example with Potential Aliasing Problem:
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;example&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;b&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;b&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;// Without `restrict`, the compiler assumes `a` might alias `b`.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;By marking the pointers as &lt;code&gt;restrict&lt;/code&gt;, you assure the compiler that &lt;code&gt;a&lt;/code&gt; and &lt;code&gt;b&lt;/code&gt; refer to distinct objects, enabling better optimizations.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>learn vim command line through examples</title>
+        <link>http://localhost:1313/blog/en/p/learn-vim-command-line-through-examples/</link>
+        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/learn-vim-command-line-through-examples/</guid>
+        <description>&lt;p&gt;&lt;code&gt;%s/^\./-/g&lt;/code&gt;, delete all the &lt;code&gt;.&lt;/code&gt; within a file at the beginning of each line.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Conversion from 2&#39;s complement integer to floating point number</title>
+        <link>http://localhost:1313/blog/en/p/conversion-from-2s-complement-integer-to-floating-point-number/</link>
+        <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/conversion-from-2s-complement-integer-to-floating-point-number/</guid>
+        <description>&lt;h2 id=&#34;you&#34;&gt;&lt;strong&gt;You:&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;procedure:&lt;/p&gt;
+&lt;p&gt;c
+void float_eg() {
+int x = 3490593;
+float f = (float)x;
+printf(&amp;ldquo;For x = %d\n&amp;rdquo;, x);
+show_int(x);
+show_float(f);&lt;/p&gt;
+&lt;p&gt;x = 3510593;
+f = (float)x;
+printf(&amp;ldquo;For x = %d\n&amp;rdquo;, x);
+show_int(x);
+show_float(f);
+}&lt;/p&gt;
+&lt;p&gt;output:&lt;/p&gt;
+&lt;p&gt;sh
+For x = 3490593
+21 43 35 00
+84 0c 55 4a
+For x = 3510593
+41 91 35 00
+04 45 56 4a&lt;/p&gt;
+&lt;p&gt;please explain as well&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;chatgpt&#34;&gt;&lt;strong&gt;ChatGPT:&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;The &lt;code&gt;float_eg&lt;/code&gt; procedure demonstrates how a 32-bit integer is converted to a 32-bit floating-point value in memory (following the IEEE 754 standard for floating-point representation). Let&amp;rsquo;s break down the output and understand what is happening.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;key-concepts&#34;&gt;Key Concepts
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Integer Representation (&lt;code&gt;show_int&lt;/code&gt;)&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Integers are stored as 4 bytes (32 bits) in memory.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;show_int&lt;/code&gt; function prints the raw bytes of the integer in little-endian format, where the least significant byte (LSB) is stored first.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Floating-Point Representation (&lt;code&gt;show_float&lt;/code&gt;)&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Floating-point numbers follow the IEEE 754 standard for single-precision (32-bit) representation:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1 bit&lt;/strong&gt; for the sign.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;8 bits&lt;/strong&gt; for the exponent (biased by 127).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;23 bits&lt;/strong&gt; for the fractional part (mantissa), with an implicit leading 1.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Conversion from Integer to Float&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When an integer is converted to a float, the value is approximated in the floating-point format, which may result in rounding errors.&lt;/li&gt;
+&lt;li&gt;The integer value is scaled and packed into the floating-point format.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;breakdown-of-the-output&#34;&gt;Breakdown of the Output
+&lt;/h3&gt;&lt;h4 id=&#34;for-x--3490593&#34;&gt;For &lt;code&gt;x = 3490593&lt;/code&gt;:
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Integer Representation (&lt;code&gt;show_int&lt;/code&gt;)&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;3490593&lt;/code&gt; in hexadecimal: &lt;code&gt;0x00354321&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;In little-endian format: &lt;code&gt;21 43 35 00&lt;/code&gt;.
+&lt;ul&gt;
+&lt;li&gt;The LSB (&lt;code&gt;21&lt;/code&gt;) is stored first, followed by &lt;code&gt;43&lt;/code&gt;, &lt;code&gt;35&lt;/code&gt;, and &lt;code&gt;00&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Floating-Point Representation (&lt;code&gt;show_float&lt;/code&gt;)&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;3490593&lt;/code&gt; is converted to floating-point:
+&lt;ul&gt;
+&lt;li&gt;Binary representation of &lt;code&gt;3490593&lt;/code&gt;: &lt;code&gt;110101000110001000001&lt;/code&gt; (23 significant bits).&lt;/li&gt;
+&lt;li&gt;Normalize: &lt;code&gt;1.10101000110001000001 × 2^21&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;IEEE 754 format:
+&lt;ul&gt;
+&lt;li&gt;Sign bit: &lt;code&gt;0&lt;/code&gt; (positive).&lt;/li&gt;
+&lt;li&gt;Exponent: &lt;code&gt;21 + 127 = 148&lt;/code&gt; → &lt;code&gt;10010100&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Mantissa: &lt;code&gt;10101000110001000001000&lt;/code&gt; (rounded to fit 23 bits).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Final bytes: &lt;code&gt;84 0c 55 4a&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;for-x--3510593&#34;&gt;For &lt;code&gt;x = 3510593&lt;/code&gt;:
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Integer Representation (&lt;code&gt;show_int&lt;/code&gt;)&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;3510593&lt;/code&gt; in hexadecimal: &lt;code&gt;0x00359141&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;In little-endian format: &lt;code&gt;41 91 35 00&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Floating-Point Representation (&lt;code&gt;show_float&lt;/code&gt;)&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;3510593&lt;/code&gt; is converted to floating-point:
+&lt;ul&gt;
+&lt;li&gt;Binary representation of &lt;code&gt;3510593&lt;/code&gt;: &lt;code&gt;110101000110010100001&lt;/code&gt; (23 significant bits).&lt;/li&gt;
+&lt;li&gt;Normalize: &lt;code&gt;1.10101000110010100001 × 2^21&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;IEEE 754 format:
+&lt;ul&gt;
+&lt;li&gt;Sign bit: &lt;code&gt;0&lt;/code&gt; (positive).&lt;/li&gt;
+&lt;li&gt;Exponent: &lt;code&gt;21 + 127 = 148&lt;/code&gt; → &lt;code&gt;10010100&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Mantissa: &lt;code&gt;10101000110010100001000&lt;/code&gt; (rounded to fit 23 bits).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Final bytes: &lt;code&gt;04 45 56 4a&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;explanation-of-differences&#34;&gt;Explanation of Differences
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Integer Bytes&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The difference between the integer byte sequences (&lt;code&gt;21 43 35 00&lt;/code&gt; vs. &lt;code&gt;41 91 35 00&lt;/code&gt;) reflects the different values of &lt;code&gt;x&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Floating-Point Bytes&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The difference in floating-point byte sequences (&lt;code&gt;84 0c 55 4a&lt;/code&gt; vs. &lt;code&gt;04 45 56 4a&lt;/code&gt;) arises because:
+&lt;ul&gt;
+&lt;li&gt;The binary representations of the integers are slightly different.&lt;/li&gt;
+&lt;li&gt;The normalization step and rounding during the float conversion result in changes to the mantissa and possibly other components.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;summary&#34;&gt;Summary
+&lt;/h3&gt;&lt;p&gt;The output illustrates how integers are stored and how they are converted to floating-point values. The integer byte sequences represent the exact binary values of &lt;code&gt;x&lt;/code&gt;, while the floating-point sequences represent the IEEE 754 approximations. Differences in the outputs for &lt;code&gt;x = 3490593&lt;/code&gt; and &lt;code&gt;x = 3510593&lt;/code&gt; arise due to the changes in the integer values and the way they are normalized and rounded in the floating-point format.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;you-1&#34;&gt;&lt;strong&gt;You:&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;why does the 21-bit 110101000110001000001 have 23 significant bits?&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;chatgpt-1&#34;&gt;&lt;strong&gt;ChatGPT:&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;The reason the 21-bit binary representation of &lt;code&gt;3490593&lt;/code&gt; appears to have &lt;strong&gt;23 significant bits&lt;/strong&gt; in the IEEE 754 floating-point format is due to the &lt;strong&gt;normalization process&lt;/strong&gt; of floating-point numbers and the inclusion of an &lt;strong&gt;implicit leading 1&lt;/strong&gt; in the representation.&lt;/p&gt;
+&lt;p&gt;Let’s break it down step by step:&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;1-the-binary-representation-of-3490593&#34;&gt;&lt;strong&gt;1. The Binary Representation of &lt;code&gt;3490593&lt;/code&gt;&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The decimal number &lt;code&gt;3490593&lt;/code&gt; in binary is:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;110101000110001000001
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;This representation has &lt;strong&gt;21 bits&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;2-normalization-in-ieee-754&#34;&gt;&lt;strong&gt;2. Normalization in IEEE 754&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;To represent a floating-point number, the value is normalized into the form:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-mathematica&#34; data-lang=&#34;mathematica&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;mf&#34;&gt;1.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xxx&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;...&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xxx&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;err&#34;&gt;×&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;E&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;strong&gt;leading 1&lt;/strong&gt; in the significand (mantissa) is implicit in the IEEE 754 format and is &lt;strong&gt;not stored&lt;/strong&gt; in the floating-point representation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For &lt;code&gt;3490593&lt;/code&gt;, the normalized form is:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;1.10101000110001000001 × 2^21
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;1.&lt;/code&gt; before the decimal point is implicit and not counted in the explicit bits of the stored mantissa.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;3-representation-of-the-mantissa&#34;&gt;&lt;strong&gt;3. Representation of the Mantissa&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;After normalization:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;strong&gt;fractional part&lt;/strong&gt; (&lt;code&gt;10101000110001000001&lt;/code&gt;) of the significand is explicitly stored in the IEEE 754 format.&lt;/li&gt;
+&lt;li&gt;This fractional part has up to &lt;strong&gt;23 bits&lt;/strong&gt; (for single-precision floats).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For &lt;code&gt;3490593&lt;/code&gt;, we only need 21 bits to represent the fractional part (&lt;code&gt;10101000110001000001&lt;/code&gt;), but the IEEE 754 standard always reserves space for 23 bits in the mantissa:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The extra two bits are filled with &lt;code&gt;0&lt;/code&gt;s, resulting in:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;10101000110001000001000
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;4-why-23-bits&#34;&gt;&lt;strong&gt;4. Why 23 Bits?&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The IEEE 754 format specifies &lt;strong&gt;23 bits&lt;/strong&gt; for the mantissa to ensure precision for a wide range of numbers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In single-precision:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1 bit is reserved for the sign.&lt;/li&gt;
+&lt;li&gt;8 bits are reserved for the exponent.&lt;/li&gt;
+&lt;li&gt;23 bits are reserved for the fractional part of the significand.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Even if the original number has fewer significant bits (e.g., 21 in this case), the mantissa field will always be 23 bits, padded with &lt;code&gt;0&lt;/code&gt;s if necessary.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;key-insight&#34;&gt;&lt;strong&gt;Key Insight&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;The &lt;strong&gt;23 bits&lt;/strong&gt; of the mantissa in IEEE 754 include only the fractional part of the significand, as the leading &lt;code&gt;1&lt;/code&gt; is implicit. In this case, the 21-bit binary number (&lt;code&gt;110101000110001000001&lt;/code&gt;) becomes 23 bits after:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Normalization (&lt;code&gt;1.10101000110001000001&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Storing the fractional part (&lt;code&gt;10101000110001000001000&lt;/code&gt;) in the mantissa field.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This ensures compliance with the IEEE 754 standard, even if the number&amp;rsquo;s original binary representation is shorter than 23 bits.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>how to judge whether a machine is little-endian or big-endian?</title>
+        <link>http://localhost:1313/blog/en/p/how-to-judge-whether-a-machine-is-little-endian-or-big-endian/</link>
+        <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/how-to-judge-whether-a-machine-is-little-endian-or-big-endian/</guid>
+        <description>&lt;h2 id=&#34;you&#34;&gt;&lt;strong&gt;You:&lt;/strong&gt;
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;is_little_endian&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;cm&#34;&gt;/* $begin is-little-endian */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;char&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;cm&#34;&gt;/* $end is-little-endian */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;why can these code judge whether a machine is little-endian or big-endian?&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;chatgpt&#34;&gt;&lt;strong&gt;ChatGPT:&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;This code determines whether a machine uses little-endian or big-endian byte order based on how integers are stored in memory. Let’s break it down:&lt;/p&gt;
+&lt;h3 id=&#34;understanding-byte-order&#34;&gt;Understanding Byte Order
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Little-endian&lt;/strong&gt;: The least significant byte (LSB) of a number is stored at the lowest memory address.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Big-endian&lt;/strong&gt;: The most significant byte (MSB) of a number is stored at the lowest memory address.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For example, consider the integer &lt;code&gt;1&lt;/code&gt; in binary:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;00000000 00000000 00000000 00000001
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;In little-endian, it is stored as: &lt;code&gt;01 00 00 00&lt;/code&gt; (from low to high memory addresses).&lt;/li&gt;
+&lt;li&gt;In big-endian, it is stored as: &lt;code&gt;00 00 00 01&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;the-code-explanation&#34;&gt;The Code Explanation
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;int x = 1;&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The integer &lt;code&gt;x&lt;/code&gt; is assigned the value &lt;code&gt;1&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;(char *)&amp;amp;x&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This casts the address of &lt;code&gt;x&lt;/code&gt; to a &lt;code&gt;char*&lt;/code&gt;, which allows access to individual bytes of &lt;code&gt;x&lt;/code&gt; because &lt;code&gt;char&lt;/code&gt; is 1 byte in size.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;*(char *)&amp;amp;x&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dereferencing the &lt;code&gt;char*&lt;/code&gt; pointer reads the first byte of &lt;code&gt;x&lt;/code&gt; (the byte stored at the lowest memory address).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;(int)(*(char *)&amp;amp;x)&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The value of this byte is returned as an integer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;why-this-works&#34;&gt;Why This Works
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;If the machine is &lt;strong&gt;little-endian&lt;/strong&gt;, the first byte of &lt;code&gt;x&lt;/code&gt; (at the lowest memory address) is &lt;code&gt;1&lt;/code&gt; because the least significant byte is stored first.&lt;/li&gt;
+&lt;li&gt;If the machine is &lt;strong&gt;big-endian&lt;/strong&gt;, the first byte of &lt;code&gt;x&lt;/code&gt; is &lt;code&gt;0&lt;/code&gt; because the most significant byte is stored first.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;return-value&#34;&gt;Return Value
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;On a little-endian machine: The function returns &lt;code&gt;1&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;On a big-endian machine: The function returns &lt;code&gt;0&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;visualization&#34;&gt;Visualization
+&lt;/h3&gt;&lt;p&gt;Memory layout for &lt;code&gt;x = 1&lt;/code&gt; on a little-endian machine:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;Address&lt;/span&gt;    &lt;span class=&#34;nt&#34;&gt;Value&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x1000&lt;/span&gt;     &lt;span class=&#34;nt&#34;&gt;0x01&lt;/span&gt;   &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;LSB&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x1001&lt;/span&gt;     &lt;span class=&#34;nt&#34;&gt;0x00&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x1002&lt;/span&gt;     &lt;span class=&#34;nt&#34;&gt;0x00&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x1003&lt;/span&gt;     &lt;span class=&#34;nt&#34;&gt;0x00&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Memory layout for &lt;code&gt;x = 1&lt;/code&gt; on a big-endian machine:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;Address&lt;/span&gt;    &lt;span class=&#34;nt&#34;&gt;Value&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x1000&lt;/span&gt;     &lt;span class=&#34;nt&#34;&gt;0x00&lt;/span&gt;   &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;MSB&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x1001&lt;/span&gt;     &lt;span class=&#34;nt&#34;&gt;0x00&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x1002&lt;/span&gt;     &lt;span class=&#34;nt&#34;&gt;0x00&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x1003&lt;/span&gt;     &lt;span class=&#34;nt&#34;&gt;0x01&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Thus, by checking the value of the first byte, the function identifies the endianness.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;you-1&#34;&gt;&lt;strong&gt;You:&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;give me some examples showing the difference between little-endian and big-endian.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;chatgpt-1&#34;&gt;&lt;strong&gt;ChatGPT:&lt;/strong&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;examples-of-little-endian-vs-big-endian&#34;&gt;Examples of Little-Endian vs Big-Endian
+&lt;/h3&gt;&lt;p&gt;To understand the difference, let&amp;rsquo;s consider several data representations and how they are stored in memory. Assume the memory addresses grow from left to right.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;1-32-bit-integer&#34;&gt;&lt;strong&gt;1. 32-bit Integer&lt;/strong&gt;
+&lt;/h3&gt;&lt;h4 id=&#34;number-0x12345678-hexadecimal-representation&#34;&gt;Number: &lt;code&gt;0x12345678&lt;/code&gt; (hexadecimal representation)
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Little-Endian&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-mathematica&#34; data-lang=&#34;mathematica&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Address&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Value&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x00&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x78&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Least&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Significant&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Byte&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x01&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x56&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x02&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x34&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x03&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x12&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Most&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Significant&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Byte&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Stored as: &lt;code&gt;78 56 34 12&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Big-Endian&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-mathematica&#34; data-lang=&#34;mathematica&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Address&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Value&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x00&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x12&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Most&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Significant&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Byte&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x01&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x34&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x02&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x56&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x03&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x78&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Least&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Significant&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Byte&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Stored as: &lt;code&gt;12 34 56 78&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;2-16-bit-integer&#34;&gt;&lt;strong&gt;2. 16-bit Integer&lt;/strong&gt;
+&lt;/h3&gt;&lt;h4 id=&#34;number-0xabcd&#34;&gt;Number: &lt;code&gt;0xABCD&lt;/code&gt;
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Little-Endian&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-mathematica&#34; data-lang=&#34;mathematica&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Address&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Value&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x00&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xCD&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Least&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Significant&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Byte&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x01&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xAB&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Most&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Significant&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Byte&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Stored as: &lt;code&gt;CD AB&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Big-Endian&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-mathematica&#34; data-lang=&#34;mathematica&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Address&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Value&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x00&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xAB&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Most&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Significant&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Byte&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x01&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xCD&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Least&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Significant&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Byte&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Stored as: &lt;code&gt;AB CD&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;3-floating-point-number&#34;&gt;&lt;strong&gt;3. Floating-Point Number&lt;/strong&gt;
+&lt;/h3&gt;&lt;h4 id=&#34;number-10-ieee-754-single-precision-floating-point-format-32-bit&#34;&gt;Number: &lt;code&gt;1.0&lt;/code&gt; (IEEE 754 single-precision floating-point format, 32-bit)
+&lt;/h4&gt;&lt;p&gt;Binary Representation: &lt;code&gt;0x3F800000&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Little-Endian&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;Address&lt;/span&gt;    &lt;span class=&#34;nt&#34;&gt;Value&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x00&lt;/span&gt;       &lt;span class=&#34;nt&#34;&gt;0x00&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x01&lt;/span&gt;       &lt;span class=&#34;nt&#34;&gt;0x00&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x02&lt;/span&gt;       &lt;span class=&#34;nt&#34;&gt;0x80&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x03&lt;/span&gt;       &lt;span class=&#34;nt&#34;&gt;0x3F&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Stored as: &lt;code&gt;00 00 80 3F&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Big-Endian&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;Address&lt;/span&gt;    &lt;span class=&#34;nt&#34;&gt;Value&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x00&lt;/span&gt;       &lt;span class=&#34;nt&#34;&gt;0x3F&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x01&lt;/span&gt;       &lt;span class=&#34;nt&#34;&gt;0x80&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x02&lt;/span&gt;       &lt;span class=&#34;nt&#34;&gt;0x00&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x03&lt;/span&gt;       &lt;span class=&#34;nt&#34;&gt;0x00&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Stored as: &lt;code&gt;3F 80 00 00&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;4-multi-byte-string&#34;&gt;&lt;strong&gt;4. Multi-Byte String&lt;/strong&gt;
+&lt;/h3&gt;&lt;h4 id=&#34;string-abcd-4-characters-ascii-encoded&#34;&gt;String: &lt;code&gt;&amp;quot;ABCD&amp;quot;&lt;/code&gt; (4 characters, ASCII encoded)
+&lt;/h4&gt;&lt;p&gt;Each character in ASCII occupies 1 byte:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;A = 0x41&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;B = 0x42&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;C = 0x43&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;D = 0x44&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Little-Endian&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;Address&lt;/span&gt;    &lt;span class=&#34;nt&#34;&gt;Value&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x00&lt;/span&gt;       &lt;span class=&#34;nt&#34;&gt;0x41&lt;/span&gt;  &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;A&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x01&lt;/span&gt;       &lt;span class=&#34;nt&#34;&gt;0x42&lt;/span&gt;  &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;B&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x02&lt;/span&gt;       &lt;span class=&#34;nt&#34;&gt;0x43&lt;/span&gt;  &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;C&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x03&lt;/span&gt;       &lt;span class=&#34;nt&#34;&gt;0x44&lt;/span&gt;  &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;D&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Strings are typically stored as they are, but since strings don&amp;rsquo;t involve multi-byte endian concerns, the sequence remains: &lt;code&gt;41 42 43 44&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Big-Endian&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;Address&lt;/span&gt;    &lt;span class=&#34;nt&#34;&gt;Value&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x00&lt;/span&gt;       &lt;span class=&#34;nt&#34;&gt;0x41&lt;/span&gt;  &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;A&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x01&lt;/span&gt;       &lt;span class=&#34;nt&#34;&gt;0x42&lt;/span&gt;  &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;B&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x02&lt;/span&gt;       &lt;span class=&#34;nt&#34;&gt;0x43&lt;/span&gt;  &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;C&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;0x03&lt;/span&gt;       &lt;span class=&#34;nt&#34;&gt;0x44&lt;/span&gt;  &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;D&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Strings behave the same way in both formats: &lt;code&gt;41 42 43 44&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;5-practical-use-cases&#34;&gt;&lt;strong&gt;5. Practical Use Cases&lt;/strong&gt;
+&lt;/h3&gt;&lt;h4 id=&#34;51-network-protocols-big-endian-preferred&#34;&gt;5.1 Network Protocols (Big-Endian Preferred)
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Internet protocols such as TCP/IP use &lt;strong&gt;big-endian&lt;/strong&gt; order for transmitting data.&lt;/li&gt;
+&lt;li&gt;Example: IP Address &lt;code&gt;192.0.2.1&lt;/code&gt; in hexadecimal is &lt;code&gt;0xC0000201&lt;/code&gt;:
+&lt;ul&gt;
+&lt;li&gt;Sent over the network (big-endian): &lt;code&gt;C0 00 02 01&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;52-x86-processors-little-endian-preferred&#34;&gt;5.2 x86 Processors (Little-Endian Preferred)
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Intel x86 and AMD processors store data in &lt;strong&gt;little-endian&lt;/strong&gt; format.&lt;/li&gt;
+&lt;li&gt;Example: Integer &lt;code&gt;0x1234&lt;/code&gt; on x86:
+&lt;ul&gt;
+&lt;li&gt;Stored in memory (little-endian): &lt;code&gt;34 12&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;These examples demonstrate how data layout changes between little-endian and big-endian formats, particularly for multi-byte values like integers and floats.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>why does the modula of `x mod 2 to k power` will retain k bits</title>
+        <link>http://localhost:1313/blog/en/p/why-does-the-modula-of-x-mod-2-to-k-power-will-retain-k-bits/</link>
+        <pubDate>Sat, 23 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/why-does-the-modula-of-x-mod-2-to-k-power-will-retain-k-bits/</guid>
+        <description>&lt;h2 id=&#34;chatgpt&#34;&gt;&lt;strong&gt;ChatGPT:&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;The formula $x&amp;rsquo; = x \mod 2^k$ describes the process of truncating a larger bit vector $x$ (with $w$ bits) down to $k$ bits. Let&amp;rsquo;s break it down step by step to understand how and why this works.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;1-bit-vector-representation&#34;&gt;1. &lt;strong&gt;Bit Vector Representation&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Let $x$ be a $w$-bit binary number, represented as:&lt;/p&gt;
+&lt;p&gt;$$x = [X_{w-1}, X_{w-2}, \dots, X_0]$$&lt;/p&gt;
+&lt;p&gt;Here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$X_{w-1}$ is the most significant bit (MSB).&lt;/li&gt;
+&lt;li&gt;$X_0$ is the least significant bit (LSB).&lt;/li&gt;
+&lt;li&gt;Each bit $X_i$ represents a binary digit (0 or 1).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The numerical value of $x$ in base 10 (assuming it is unsigned) is:&lt;/p&gt;
+&lt;p&gt;$$x = X_{w-1} \cdot 2^{w-1} + X_{w-2} \cdot 2^{w-2} + \dots + X_0 \cdot 2^0$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-truncating-to-k-bits&#34;&gt;2. &lt;strong&gt;Truncating to $k$-Bits&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Truncating $x$ to $k$-bits means keeping only the lower $k$ bits of the bit vector:&lt;/p&gt;
+&lt;p&gt;$$x&amp;rsquo; = [X_{k-1}, X_{k-2}, \dots, X_0]$$&lt;/p&gt;
+&lt;p&gt;The higher-order bits $[X_{w-1}, \dots, X_k]$ are discarded.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The value of $x&amp;rsquo;$ in base 10 is:&lt;/p&gt;
+&lt;p&gt;$$x&amp;rsquo; = X_{k-1} \cdot 2^{k-1} + X_{k-2} \cdot 2^{k-2} + \dots + X_0 \cdot 2^0$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-understanding-x--x-mod-2k&#34;&gt;3. &lt;strong&gt;Understanding $x&amp;rsquo; = x \mod 2^k$&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;The modulus operation $x \mod 2^k$ keeps only the remainder when $x$ is divided by $2^k$. In binary terms, this is equivalent to ignoring all bits above the $k$-th bit.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The higher-order bits of $x$ (those with weights $2^i$ for $i \geq k$) do not contribute to the result because their weights are multiples of $2^k$, and:&lt;/p&gt;
+&lt;p&gt;$$(2^i) \mod 2^k = 0 \quad \text{for all } i \geq k$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Therefore, $x \mod 2^k$ retains only the lower $k$ bits of $x$, which is exactly what $x&amp;rsquo;$ represents after truncation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;4-intuition-with-an-example&#34;&gt;4. &lt;strong&gt;Intuition with an Example&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;Suppose:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$x = 27$ (in decimal) or $11011_2$ (5 bits).&lt;/li&gt;
+&lt;li&gt;We want to truncate $x$ to $k = 3$ bits.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;step-1-truncate-to-3-bits&#34;&gt;Step 1: Truncate to 3 bits
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Retain only the lower 3 bits: $x&amp;rsquo; = 011_2$, which is $3$ in decimal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;step-2-compute-x-mod-23&#34;&gt;Step 2: Compute $x \mod 2^3$
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;$2^3 = 8$.&lt;/li&gt;
+&lt;li&gt;$x \mod 8 = 27 \mod 8 = 3$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;result&#34;&gt;Result:
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;The truncated value $x&amp;rsquo; = 3$ matches $x \mod 2^k$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;5-why-this-works&#34;&gt;5. &lt;strong&gt;Why This Works&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;The principle works because in binary arithmetic:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Modulus by $2^k$ eliminates all bits at positions $k$ and higher, leaving only the lower $k$ bits.&lt;/li&gt;
+&lt;li&gt;Truncating a bit vector to $k$ bits achieves the exact same result by simply discarding the higher-order bits.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is why the truncated value $x&amp;rsquo;$ is equivalent to $x \mod 2^k$.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Why would int 53191 become -12345 after truncating to short</title>
+        <link>http://localhost:1313/blog/en/p/why-would-int-53191-become-12345-after-truncating-to-short/</link>
+        <pubDate>Sat, 23 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/why-would-int-53191-become-12345-after-truncating-to-short/</guid>
+        <description>&lt;h2 id=&#34;you&#34;&gt;&lt;strong&gt;You:&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;explain the truncation more detailed&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;chatgpt&#34;&gt;&lt;strong&gt;ChatGPT:&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;Let’s dive deeper into what happens when an &lt;code&gt;int&lt;/code&gt; is &lt;strong&gt;truncated&lt;/strong&gt; to a &lt;code&gt;short&lt;/code&gt; in your program.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;key-background-concepts&#34;&gt;Key Background Concepts
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Size of Data Types&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;int&lt;/code&gt;: Typically 4 bytes (32 bits) on most modern platforms.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;short&lt;/code&gt;: Typically 2 bytes (16 bits).&lt;/li&gt;
+&lt;li&gt;The exact sizes depend on the platform and compiler but follow the standard: &lt;code&gt;sizeof(short) ≤ sizeof(int)&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Truncation&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When you cast a larger data type (&lt;code&gt;int&lt;/code&gt;, 32 bits) to a smaller data type (&lt;code&gt;short&lt;/code&gt;, 16 bits), &lt;strong&gt;only the least significant bits (LSBs)&lt;/strong&gt; that fit into the smaller type are retained.&lt;/li&gt;
+&lt;li&gt;Any bits beyond the size of the smaller type (the most significant bits, MSBs) are discarded.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Signed Representation&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;short&lt;/code&gt; is a signed type, meaning it uses the &lt;strong&gt;most significant bit (MSB)&lt;/strong&gt; as the &lt;strong&gt;sign bit&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;0&lt;/code&gt;: Positive number.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;1&lt;/code&gt;: Negative number (two&amp;rsquo;s complement representation).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;detailed-step-by-step-analysis-of-truncation&#34;&gt;Detailed Step-by-Step Analysis of Truncation
+&lt;/h3&gt;&lt;h4 id=&#34;step-1-initial-value-of-x&#34;&gt;Step 1: Initial Value of &lt;code&gt;x&lt;/code&gt;
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;x = 53191&lt;/code&gt; (in decimal).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In hexadecimal, &lt;code&gt;53191&lt;/code&gt; is represented as:&lt;br&gt;
+&lt;strong&gt;&lt;code&gt;0x0000CF47&lt;/code&gt;&lt;/strong&gt; (32 bits).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;0000&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0000&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1100&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1111&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0100&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0111&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;(binary)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;step-2-casting-x-to-short-sx&#34;&gt;Step 2: Casting &lt;code&gt;x&lt;/code&gt; to &lt;code&gt;short&lt;/code&gt; (&lt;code&gt;sx&lt;/code&gt;)
+&lt;/h4&gt;&lt;p&gt;When &lt;code&gt;x&lt;/code&gt; is cast to a &lt;code&gt;short&lt;/code&gt;, &lt;strong&gt;only the least significant 16 bits&lt;/strong&gt; are kept:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;1100&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1111&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0100&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0111&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;(binary)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;This corresponds to &lt;strong&gt;&lt;code&gt;0xCF47&lt;/code&gt;&lt;/strong&gt; in hexadecimal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now, the value is interpreted as a 16-bit signed number:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The MSB (&lt;code&gt;1&lt;/code&gt;) indicates that the value is negative (two&amp;rsquo;s complement).&lt;/li&gt;
+&lt;li&gt;To find the value of a negative number in two&amp;rsquo;s complement:
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Invert the bits:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;0011&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0000&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1011&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1000&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add 1 to the result:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;0011&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0000&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1011&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1001&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;(binary) = 12345 (decimal)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The result is &lt;code&gt;-12345&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So, &lt;code&gt;sx&lt;/code&gt; becomes &lt;code&gt;-12345&lt;/code&gt; after truncation.&lt;/p&gt;
+&lt;h4 id=&#34;step-3-assigning-sx-to-y&#34;&gt;Step 3: Assigning &lt;code&gt;sx&lt;/code&gt; to &lt;code&gt;y&lt;/code&gt;
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;When &lt;code&gt;sx&lt;/code&gt; is assigned to &lt;code&gt;y&lt;/code&gt; (an &lt;code&gt;int&lt;/code&gt;), no truncation occurs because &lt;code&gt;int&lt;/code&gt; can hold all the values of &lt;code&gt;short&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The value of &lt;code&gt;sx&lt;/code&gt; (&lt;code&gt;-12345&lt;/code&gt;) is preserved, so &lt;code&gt;y = -12345&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;summary-of-truncation&#34;&gt;Summary of Truncation
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Before Truncation&lt;/strong&gt;: &lt;code&gt;x = 53191&lt;/code&gt; (&lt;code&gt;0x0000CF47&lt;/code&gt; in 32 bits).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;After Truncation to &lt;code&gt;short&lt;/code&gt;&lt;/strong&gt;: Only the lower 16 bits are kept: &lt;code&gt;0xCF47&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interpretation as a Signed 16-bit Integer&lt;/strong&gt;: &lt;code&gt;0xCF47&lt;/code&gt; is &lt;code&gt;-12345&lt;/code&gt; in two&amp;rsquo;s complement.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Value in &lt;code&gt;y&lt;/code&gt;&lt;/strong&gt;: The value &lt;code&gt;-12345&lt;/code&gt; is preserved when expanded back to 32-bit &lt;code&gt;int&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This truncation occurs because casting between different data types in C operates at the bit level without considering the original value&amp;rsquo;s &amp;ldquo;semantic&amp;rdquo; meaning.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>How could the number of bigger data type with leading 1 equals to the original number?</title>
+        <link>http://localhost:1313/blog/en/p/how-could-the-number-of-bigger-data-type-with-leading-1-equals-to-the-original-number/</link>
+        <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/how-could-the-number-of-bigger-data-type-with-leading-1-equals-to-the-original-number/</guid>
+        <description>&lt;h2 id=&#34;you&#34;&gt;&lt;strong&gt;You:&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;here is a statement in csapp (provided by the image). How could the number of bigger data type with leading 1 equals to the original number? explain it a bit.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241121104304.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;chatgpt&#34;&gt;&lt;strong&gt;ChatGPT:&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;This statement refers to the &lt;em&gt;sign extension&lt;/em&gt; process in two&amp;rsquo;s-complement representation, which ensures that the value of a number remains the same when its bit-width is expanded.&lt;/p&gt;
+&lt;h3 id=&#34;key-idea-of-twos-complement-sign-extension&#34;&gt;Key Idea of Two&amp;rsquo;s-Complement Sign Extension
+&lt;/h3&gt;&lt;p&gt;In two&amp;rsquo;s-complement notation, the &lt;strong&gt;most significant bit (MSB)&lt;/strong&gt; is the &lt;strong&gt;sign bit&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;0&lt;/code&gt; indicates a non-negative number.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;1&lt;/code&gt; indicates a negative number.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When extending a two&amp;rsquo;s-complement number to a larger bit-width, &lt;strong&gt;the sign bit is replicated (copied)&lt;/strong&gt; into the additional higher-order bits. This preserves the number&amp;rsquo;s original value because:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For positive numbers (&lt;code&gt;MSB = 0&lt;/code&gt;), adding leading &lt;code&gt;0&lt;/code&gt;s does not change the magnitude.&lt;/li&gt;
+&lt;li&gt;For negative numbers (&lt;code&gt;MSB = 1&lt;/code&gt;), adding leading &lt;code&gt;1&lt;/code&gt;s preserves the negative value by maintaining the two&amp;rsquo;s-complement encoding.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;why-does-this-work&#34;&gt;Why Does This Work?
+&lt;/h3&gt;&lt;p&gt;The key is in how two&amp;rsquo;s-complement numbers are interpreted:&lt;/p&gt;
+&lt;p&gt;$$B2T_w(\mathbf{x}) = -x_{w-1} \cdot 2^{w-1} + \sum_{i=0}^{w-2} x_i \cdot 2^i$$&lt;/p&gt;
+&lt;p&gt;Here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$x_{w-1}$ is the sign bit.&lt;/li&gt;
+&lt;li&gt;$x_i$ are the other bits of the number.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When sign-extending to a new width $w&amp;rsquo; &amp;gt; w$, the replicated bits do not alter the value because:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For positive numbers ($x_{w-1} = 0$), adding leading &lt;code&gt;0&lt;/code&gt;s contributes nothing to the sum.&lt;/li&gt;
+&lt;li&gt;For negative numbers ($x_{w-1} = 1$), adding leading &lt;code&gt;1&lt;/code&gt;s adds a negative offset equivalent to what would be added if the value were represented at the original width $w$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;example-4-bit-to-8-bit&#34;&gt;Example: 4-bit to 8-bit
+&lt;/h3&gt;&lt;p&gt;Let’s see an example.&lt;/p&gt;
+&lt;h4 id=&#34;case-1-positive-number&#34;&gt;Case 1: Positive Number
+&lt;/h4&gt;&lt;p&gt;Consider the 4-bit number $0110$ (6 in decimal). When expanded to 8 bits:&lt;/p&gt;
+&lt;p&gt;$$0110 \rightarrow 00000110$$&lt;/p&gt;
+&lt;p&gt;The value is unchanged, as the leading &lt;code&gt;0&lt;/code&gt;s contribute nothing.&lt;/p&gt;
+&lt;h4 id=&#34;case-2-negative-number&#34;&gt;Case 2: Negative Number
+&lt;/h4&gt;&lt;p&gt;Consider the 4-bit number $1010$ (-6 in decimal). When expanded to 8 bits:&lt;/p&gt;
+&lt;p&gt;$$1010 \rightarrow 11111010$$&lt;/p&gt;
+&lt;p&gt;The leading &lt;code&gt;1&lt;/code&gt;s preserve the negative value in two&amp;rsquo;s-complement, keeping it as -6.&lt;/p&gt;
+&lt;p&gt;This process guarantees that the number&amp;rsquo;s value remains consistent regardless of its width.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>why does a two&#39;s complement encoded -1 convert to unsigned encoding would be the max value of unsiged number? ($T2U_{w}(-1) = UMax_{w}$)</title>
+        <link>http://localhost:1313/blog/en/p/why-does-a-twos-complement-encoded-1-convert-to-unsigned-encoding-would-be-the-max-value-of-unsiged-number-t2u_w-1-umax_w/</link>
+        <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/why-does-a-twos-complement-encoded-1-convert-to-unsigned-encoding-would-be-the-max-value-of-unsiged-number-t2u_w-1-umax_w/</guid>
+        <description>&lt;p&gt;&lt;strong&gt;You:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m learning csapp, please explain me why $T2U_{w}(-1) = UMax_{w}$.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;ChatGPT:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The equation $T2U_w(-1) = UMax_w$ comes from the relationship between signed and unsigned integer representations in two&amp;rsquo;s complement arithmetic.&lt;/p&gt;
+&lt;p&gt;Here’s why it holds:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Two&amp;rsquo;s Complement Representation&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In $w$-bit two&amp;rsquo;s complement representation, the signed integer $-1$ is represented as a bit pattern where all $w$ bits are $1$. For example, in 4 bits, $-1$ is $1111_2$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Interpreting the Bit Pattern as Unsigned&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When interpreted as an unsigned number, the bit pattern $1111_2$ corresponds to the maximum unsigned value for $w$ bits, which is $2^w - 1$. This is because all $w$ bits contribute their maximum weight to the value.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In 4 bits: $1111_2 = 2^4 - 1 = 15$.&lt;/li&gt;
+&lt;li&gt;In 8 bits: $11111111_2 = 2^8 - 1 = 255$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Generalization&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The function $T2U_w(x)$ takes a signed integer $x$ and converts its two&amp;rsquo;s complement representation to an unsigned integer interpretation.&lt;/li&gt;
+&lt;li&gt;For $x = -1$, the bit pattern is all $1$&amp;rsquo;s, so $T2U_w(-1) = UMax_w$, where $UMax_w = 2^w - 1$ is the maximum unsigned value for $w$ bits.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion
+&lt;/h3&gt;&lt;p&gt;The equation $T2U_w(-1) = UMax_w$ reflects the dual interpretation of the same bit pattern under two&amp;rsquo;s complement (signed) and unsigned interpretations. The bit pattern for $-1$ in two&amp;rsquo;s complement is always the largest possible value in unsigned representation.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;You:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;if -1 in two&amp;rsquo;s complement is represented by $1111_2$, how is the $TMin_2$ represented?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;ChatGPT:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In two&amp;rsquo;s complement representation, the minimum signed value ($TMin_w$) for $w$-bit integers is represented by a bit pattern where the most significant bit (MSB) is $1$ and all other bits are $0$.&lt;/p&gt;
+&lt;p&gt;For $w = 2$, the minimum value ($TMin_2$) is represented as:&lt;/p&gt;
+&lt;p&gt;$$10_2$$&lt;/p&gt;
+&lt;h3 id=&#34;explanation&#34;&gt;Explanation:
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Range of Two&amp;rsquo;s Complement Values&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For $w$-bit two&amp;rsquo;s complement, the range of values is: $$TMin_w = -2^{w-1} \quad \text{to} \quad TMax_w = 2^{w-1} - 1$$&lt;/li&gt;
+&lt;li&gt;For $w = 2$, this range is: $$TMin_2 = -2^{2-1} = -2, \quad TMax_2 = 2^{2-1} - 1 = 1$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Bit Pattern for $TMin_2$&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The MSB in two&amp;rsquo;s complement indicates the sign of the number:
+&lt;ul&gt;
+&lt;li&gt;$0$: Non-negative.&lt;/li&gt;
+&lt;li&gt;$1$: Negative.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;$TMin_w$ is the most negative number, so its MSB is $1$, and all other bits are $0$.&lt;/li&gt;
+&lt;li&gt;For $w = 2$, $TMin_2$ is: $$10_2$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Verification&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The bit pattern $10_2$ represents: $$-2^{1} + 0 \cdot 2^{0} = -2$$&lt;/li&gt;
+&lt;li&gt;This matches $TMin_2$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;summary&#34;&gt;Summary:
+&lt;/h3&gt;&lt;p&gt;For $w = 2$, $TMin_2$ ($-2$) is represented by the bit pattern $10_2$.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;You:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If the MSB is represent for a &lt;em&gt;sign&lt;/em&gt;, how can it also be a counted number and involve in the calculation of its value?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;ChatGPT:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Great question! This is a key insight into how two&amp;rsquo;s complement works—it combines the sign and value representation in a single system, allowing arithmetic operations to proceed uniformly without special handling for positive and negative numbers.&lt;/p&gt;
+&lt;p&gt;Here’s how it works:&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;1-the-role-of-the-msb-in-twos-complement&#34;&gt;&lt;strong&gt;1. The Role of the MSB in Two&amp;rsquo;s Complement&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;In $w$-bit two&amp;rsquo;s complement representation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The most significant bit (MSB) is indeed the &lt;em&gt;sign bit&lt;/em&gt;:
+&lt;ul&gt;
+&lt;li&gt;$0$: Non-negative.&lt;/li&gt;
+&lt;li&gt;$1$: Negative.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;However, the MSB also contributes to the &lt;em&gt;numerical value&lt;/em&gt; of the number. This is achieved by assigning the MSB a negative weight, making it part of the number&amp;rsquo;s representation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;2-signed-value-calculation-in-twos-complement&#34;&gt;&lt;strong&gt;2. Signed Value Calculation in Two&amp;rsquo;s Complement&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;The value of a $w$-bit number in two&amp;rsquo;s complement is computed as:&lt;/p&gt;
+&lt;p&gt;$$\text{Value} = -2^{w-1} \cdot \text{MSB} + \sum_{i=0}^{w-2} 2^i \cdot \text{bit}[i]$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The MSB contributes $-2^{w-1}$ if it is $1$, which gives the number its negative weight.&lt;/li&gt;
+&lt;li&gt;All other bits ($\text{bit}[i]$) contribute their usual positive weights.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;3-example-4-bit-twos-complement&#34;&gt;&lt;strong&gt;3. Example: 4-Bit Two&amp;rsquo;s Complement&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;Let’s illustrate with $w = 4$:&lt;/p&gt;
+&lt;h4 id=&#34;positive-number-0101_2&#34;&gt;&lt;strong&gt;Positive Number ($0101_2$):&lt;/strong&gt;
+&lt;/h4&gt;&lt;p&gt;$$\text{MSB} = 0 \quad \Rightarrow \quad \text{Value} = 0 \cdot (-2^3) + 2^2 + 0 \cdot 2^1 + 2^0 = 4 + 0 + 1 = 5$$&lt;/p&gt;
+&lt;h4 id=&#34;negative-number-1011_2&#34;&gt;&lt;strong&gt;Negative Number ($1011_2$):&lt;/strong&gt;
+&lt;/h4&gt;&lt;p&gt;$$\text{MSB} = 1 \quad \Rightarrow \quad \text{Value} = 1 \cdot (-2^3) + 0 \cdot 2^2 + 2^1 + 2^0 = -8 + 0 + 2 + 1 = -5$$&lt;/p&gt;
+&lt;p&gt;Notice how the MSB flips the numerical value into the negative range when it is $1$.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;4-why-this-works-for-arithmetic&#34;&gt;&lt;strong&gt;4. Why This Works for Arithmetic&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;By interpreting the MSB as $-2^{w-1}$, two&amp;rsquo;s complement ensures:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Arithmetic (addition and subtraction) can be performed without special handling for signed and unsigned numbers.&lt;/li&gt;
+&lt;li&gt;Overflow detection and handling become consistent with bit manipulation rules.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For instance:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adding $0101_2$ ($+5$) and $1011_2$ ($-5$) in two&amp;rsquo;s complement directly gives $0000_2$ ($0$).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;5-intuition&#34;&gt;&lt;strong&gt;5. Intuition&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;The MSB’s dual role as both the sign and a weighted bit is the magic of two&amp;rsquo;s complement. It ensures that the entire binary number encodes both the magnitude and the sign seamlessly, allowing all bits—including the MSB—to be treated consistently in calculations.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>extract a .tar.gz file</title>
+        <link>http://localhost:1313/blog/en/p/extract-a-.tar.gz-file/</link>
+        <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/extract-a-.tar.gz-file/</guid>
+        <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tar -xvzf test.tar.gz
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;code&gt;tar&lt;/code&gt; collected all the files into one package &lt;code&gt;test.tar&lt;/code&gt;. The gzip program applied compression, hence the &lt;code&gt;gz&lt;/code&gt; extension. So the command does a couple things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;f&lt;/code&gt;: this must be the last flag of the command, and the tar &lt;strong&gt;f&lt;/strong&gt;ile must be immediately after. It tells tar the name and path of the compressed file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;z&lt;/code&gt;: tells tar to decompress the archive using g&lt;strong&gt;z&lt;/strong&gt;ip&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;x&lt;/code&gt;: tar can collect files or e&lt;strong&gt;x&lt;/strong&gt;tract them. &lt;code&gt;x&lt;/code&gt; does the latter.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;v&lt;/code&gt;: makes tar talk a lot. &lt;strong&gt;V&lt;/strong&gt;erbose output shows you all the files being extracted.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To extract into a &lt;strong&gt;c&lt;/strong&gt;ustom folder, add the &lt;code&gt;-C&lt;/code&gt; option with a folder name of your choice:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tar -xvzf test.tar.gz -C some_custom_folder_name
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://askubuntu.com/questions/25347/what-command-do-i-need-to-unzip-extract-a-tar-gz-file&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;reference&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>CSAPP practice problems and solutions-1</title>
+        <link>http://localhost:1313/blog/en/p/csapp-practice-problems-and-solutions-1/</link>
+        <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/csapp-practice-problems-and-solutions-1/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp1.1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp1.1-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp1.2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>CSAPP practice problems and solutions-2</title>
+        <link>http://localhost:1313/blog/en/p/csapp-practice-problems-and-solutions-2/</link>
+        <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/csapp-practice-problems-and-solutions-2/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.2-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.3.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.3-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.4.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;25&#34;&gt;2.5
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.5.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;214-representing-strings&#34;&gt;2.1.4 Representing Strings
+&lt;/h2&gt;&lt;h3 id=&#34;27&#34;&gt;2.7
+&lt;/h3&gt;&lt;h4 id=&#34;problem&#34;&gt;problem
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;What would be printed as a result of the following call to show_bytes?&lt;br&gt;
+const char *m = &amp;ldquo;mnopqr&amp;rdquo;;&lt;br&gt;
+show_bytes((byte_pointer) m, strlen(m));&lt;br&gt;
+Note that letters ‘a’ through ‘z’ have ASCII codes 0x61 through 0x7A.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;solution&#34;&gt;solution
+&lt;/h4&gt;&lt;h2 id=&#34;216-introduction-to-boolean-algebra&#34;&gt;2.1.6 Introduction to Boolean Algebra
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.8-1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.8-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;217-bit-level-operations-in-c&#34;&gt;2.1.7 Bit-Level Operations in C
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.9.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.11.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.12-1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.12-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.13.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;218-logical-operations-in-c&#34;&gt;2.1.8 Logical Operations in C
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.14.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.15.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+!(x ^ y)&lt;/p&gt;
+&lt;h2 id=&#34;219-shift-operations-in-c&#34;&gt;2.1.9 Shift Operations in C
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.16.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.17-1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.17-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.18-1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.18-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.19-1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.19-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.20.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.21.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.22.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.23.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.24.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.25.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.26-1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.26-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.27.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.28-1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.28-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.29-1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.29-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.30.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.31.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.32.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.32-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.33.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.34.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.34-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.35.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.36.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.37.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.37-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.38.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.39.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.40.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.41.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.42.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.43.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;238&#34;&gt;2.3.8
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.44.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.45.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.46.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.46-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.47.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.47-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.48.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.49.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.50.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.51.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.52.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;246-floating-point-in-c&#34;&gt;2.4.6 Floating Point in C
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.53.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.54.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/pp2.54-2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>learn C through code</title>
+        <link>http://localhost:1313/blog/en/p/learn-c-through-code/</link>
+        <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/learn-c-through-code/</guid>
+        <description>&lt;h2 id=&#34;came-from-csapp-figure-24&#34;&gt;Came from CSAPP &amp;ldquo;Figure 2.4&amp;rdquo;
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-C&#34; data-lang=&#34;C&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;typedef&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;unsigned&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;char&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;byte_pointer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;show_bytes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;byte_pointer&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;start&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;size_t&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;len&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;len&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		&lt;span class=&#34;nf&#34;&gt;printf&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34; %.2x&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;start&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nf&#34;&gt;printf&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\n&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;show_int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nf&#34;&gt;show_bytes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;byte_pointer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;sizeof&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;));&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;show_float&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;float&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nf&#34;&gt;show_bytes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;byte_pointer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;sizeof&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;float&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;));&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;show_pointer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nf&#34;&gt;show_bytes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;byte_pointer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;sizeof&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;));&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;After &lt;code&gt;typedef unsigned char *byte_pointer;&lt;/code&gt;, the type &lt;code&gt;byte_pointer&lt;/code&gt; has the same functionality of &lt;code&gt;unsigned char *&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;%&lt;/code&gt; starts the format, &lt;code&gt;.2&lt;/code&gt; means minimum 2 digits, pad with zeros if needed.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;start[i]&lt;/code&gt; = &lt;code&gt;*(start + i)&lt;/code&gt; = $*(start + i \cdot sizeof(byte_pointer)$.&lt;/li&gt;
+&lt;li&gt;The expression &lt;code&gt;&amp;amp;x&lt;/code&gt; creates a pointer to the location holding the object indicated by variable x.&lt;/li&gt;
+&lt;li&gt;The cast &lt;code&gt;(byte_pointer) &amp;amp;x&lt;/code&gt; indicates that whatever type the pointer &lt;code&gt;&amp;amp;x&lt;/code&gt; had before, the program will now reference a pointer to data of type &lt;code&gt;unsigned char&lt;/code&gt;. The casts do not change the actual pointer; they simply direct the comiler to refer to tha data being pointed to according to the new data type.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>learn x86-64 assembly through code</title>
+        <link>http://localhost:1313/blog/en/p/learn-x86-64-assembly-through-code/</link>
+        <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/learn-x86-64-assembly-through-code/</guid>
+        <description>&lt;h2 id=&#34;came-from-213-addressing-and-byte-ordering&#34;&gt;Came from &amp;ldquo;2.1.3 Addressing and Byte Ordering&amp;rdquo;
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;4004d3: 01 05 43 0b 20 00 add %eax,0x200b43(%rip)&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;4004d3&lt;/code&gt; is the memory address where this instruction is located (in hexadecimal).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;01 05 43 0b 20 00&lt;/code&gt;, is the mechine code (raw bytes) of the instruction.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;0x200b43(%rip)&lt;/code&gt; means relative address. &lt;code&gt;add %eax,0x200b43(%rip)&lt;/code&gt; adds the value in the EAX to the 32-bit value stored at the memory location that&amp;rsquo;s &lt;code&gt;0x200b43&lt;/code&gt; bytes after RIP (program counter).&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Learn LaTex through examples</title>
+        <link>http://localhost:1313/blog/en/p/learn-latex-through-examples/</link>
+        <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/learn-latex-through-examples/</guid>
+        <description>&lt;h2 id=&#34;fraction-subscript-and-greek-characters&#34;&gt;Fraction, subscript and Greek characters
+&lt;/h2&gt;&lt;p&gt;Came from CSAPP &amp;ldquo;1.9.1 Amdahl’s Law&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;$$
+T_{\text{new}} = (1-\alpha)T_{\text{old}} + (\alpha T_{\text{old}})/k = T_{\text{old}}[(1-\alpha) + \alpha/k]
+$$&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;T&lt;span class=&#34;nb&#34;&gt;_{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;new&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt; = (1-&lt;span class=&#34;k&#34;&gt;\alpha&lt;/span&gt;)T&lt;span class=&#34;nb&#34;&gt;_{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;old&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt; + (&lt;span class=&#34;k&#34;&gt;\alpha&lt;/span&gt; T&lt;span class=&#34;nb&#34;&gt;_{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;old&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;)/k = T&lt;span class=&#34;nb&#34;&gt;_{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;old&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;[(1-&lt;span class=&#34;k&#34;&gt;\alpha&lt;/span&gt;) + &lt;span class=&#34;k&#34;&gt;\alpha&lt;/span&gt;/k]
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;_&lt;/code&gt; is used for subscripts.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\alpha&lt;/code&gt; produce the Greek letter α. Other Greek letters follow similar pattern(e.g., &lt;code&gt;\beta&lt;/code&gt;, &lt;code&gt;\gamma&lt;/code&gt;, &lt;code&gt;\delta&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\text{}&lt;/code&gt; makes the text inside appear normal text font rather than math italic.&lt;/li&gt;
+&lt;li&gt;By default in LaTex math mode, every character is assumed to be its own variables, appearing in italics. &lt;code&gt;\text&lt;/code&gt; makes characters to be read together as a word, apearing in normal text style.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+S = \frac{T_{\text{old}}}{T_{\text{new}}} = \frac{1}{(1-\alpha) + \alpha/k}
+$$&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;S = &lt;span class=&#34;k&#34;&gt;\frac&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;T&lt;span class=&#34;nb&#34;&gt;_{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;old&lt;span class=&#34;nb&#34;&gt;}}}{&lt;/span&gt;T&lt;span class=&#34;nb&#34;&gt;_{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;new&lt;span class=&#34;nb&#34;&gt;}}}&lt;/span&gt; = &lt;span class=&#34;k&#34;&gt;\frac&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;1&lt;span class=&#34;nb&#34;&gt;}{&lt;/span&gt;(1-&lt;span class=&#34;k&#34;&gt;\alpha&lt;/span&gt;) + &lt;span class=&#34;k&#34;&gt;\alpha&lt;/span&gt;/k&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;\frac{numerator}{denominator}&lt;/code&gt; creates a fraction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;multiple-dot&#34;&gt;Multiple dot
+&lt;/h2&gt;&lt;p&gt;Came from Practice Problem 2.1 (solution page 179)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;n = 11 = 3 + 4 &lt;span class=&#34;k&#34;&gt;\cdot&lt;/span&gt; 2
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;$$
+n = 11 = 3 + 4 \cdot 2
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;\cdot&lt;/code&gt; means the multiplication dot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;x&lt;span class=&#34;nb&#34;&gt;^&lt;/span&gt;n
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;$$
+x^n
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;x to the nth power.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;logical-symbols&#34;&gt;Logical symbols
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;A &lt;span class=&#34;k&#34;&gt;\land&lt;/span&gt; B &lt;span class=&#34;k&#34;&gt;\lor&lt;/span&gt; C &lt;span class=&#34;k&#34;&gt;\not&lt;/span&gt; D &lt;span class=&#34;k&#34;&gt;\wedge&lt;/span&gt; C &lt;span class=&#34;k&#34;&gt;\vee&lt;/span&gt; E &lt;span class=&#34;k&#34;&gt;\neg&lt;/span&gt; F &lt;span class=&#34;k&#34;&gt;\oplus&lt;/span&gt; G &lt;span class=&#34;k&#34;&gt;\barwedge&lt;/span&gt; H &lt;span class=&#34;k&#34;&gt;\;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;\hat&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;\;&lt;/span&gt; I  &lt;span class=&#34;k&#34;&gt;\veebar&lt;/span&gt; J
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;$$
+A \land B \lor C \not D \wedge C \vee E \neg F \oplus G \barwedge H ; \hat{} ; I  \veebar J
+$$&lt;/p&gt;
+&lt;h2 id=&#34;set-operations&#34;&gt;Set operations
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;A &lt;span class=&#34;k&#34;&gt;\cap&lt;/span&gt; B &lt;span class=&#34;k&#34;&gt;\cup&lt;/span&gt; C &lt;span class=&#34;k&#34;&gt;\bigcap&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_{&lt;/span&gt;i=1&lt;span class=&#34;nb&#34;&gt;}^&lt;/span&gt;n A&lt;span class=&#34;nb&#34;&gt;_&lt;/span&gt;i
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;$$
+A \cap B \cup C \bigcap_{i=1}^n A_i
+$$&lt;/p&gt;
+&lt;h2 id=&#34;vector-sum-equation-numbering-dot-equal&#34;&gt;Vector, Sum, Equation numbering, Dot equal
+&lt;/h2&gt;&lt;p&gt;came from &amp;ldquo;CSAPP 2.2.2 Unsigned Encodings&amp;rdquo;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;B2U&lt;span class=&#34;nb&#34;&gt;_&lt;/span&gt;w(&lt;span class=&#34;k&#34;&gt;\vec&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;x&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;) &lt;span class=&#34;k&#34;&gt;\doteq&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;\sum&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_{&lt;/span&gt;i=0&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;w-1&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;x&lt;span class=&#34;nb&#34;&gt;_{&lt;/span&gt;i&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;2&lt;span class=&#34;nb&#34;&gt;^&lt;/span&gt;i &lt;span class=&#34;k&#34;&gt;\qquad&lt;/span&gt; (2.1)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;$$
+B2U_w(\vec{x}) \doteq \sum_{i=0}^{w-1}x_{i}2^i \qquad (2.1)
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;\qquad&lt;/code&gt;: &amp;ldquo;quad&amp;rdquo; refers to a unit of horizontal spacing (specifically a quadratically sized space). So &lt;code&gt;\qquad&lt;/code&gt; means &amp;ldquo;quadratic space&amp;rdquo; - it creates a wide horizontal space&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\ldots&lt;/code&gt;: &amp;ldquo;l&amp;rdquo; stands for &amp;ldquo;low&amp;rdquo; - these are dots that appear on the baseline, as opposed to &lt;code&gt;\cdots&lt;/code&gt; where &amp;ldquo;c&amp;rdquo; stands for &amp;ldquo;centered&amp;rdquo; dots that appear in the middle. So &lt;code&gt;\ldots&lt;/code&gt; means &amp;ldquo;low dots&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;$\doteq$ is commonly used in mathematics and computer science to denote a &amp;ldquo;definitional equality&amp;rdquo; - meaning it&amp;rsquo;s used when you&amp;rsquo;re defining something, rather than just stating that two things are equal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cases-curly-brace-condition-greater-and-equal-to&#34;&gt;Cases (curly brace), Condition, Greater and equal to
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;T2U&lt;span class=&#34;nb&#34;&gt;_{&lt;/span&gt;w&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\left&lt;/span&gt;( x &lt;span class=&#34;k&#34;&gt;\right&lt;/span&gt;)  = &lt;span class=&#34;k&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;cases&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;x + 2&lt;span class=&#34;nb&#34;&gt;^{&lt;/span&gt;w&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;, &lt;span class=&#34;nb&#34;&gt;&amp;amp;&lt;/span&gt; x &amp;lt; 0  &lt;span class=&#34;k&#34;&gt;\\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;x, &lt;span class=&#34;nb&#34;&gt;&amp;amp;&lt;/span&gt; x &lt;span class=&#34;k&#34;&gt;\geq&lt;/span&gt; 0
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;cases&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;\qquad&lt;/span&gt; (2.5)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;$$
+T2U_{w}\left( x \right)  = \begin{cases}
+x + 2^{w}, &amp;amp; x &amp;lt; 0  \
+x, &amp;amp; x \geq 0
+\end{cases} \qquad (2.5)
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;\\&lt;/code&gt; means newline.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;amp;&lt;/code&gt; before &lt;code&gt;x &amp;lt; 0&lt;/code&gt; is an alignment operator&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Make a window always on top through AHK</title>
+        <link>http://localhost:1313/blog/en/p/make-a-window-always-on-top-through-ahk/</link>
+        <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/make-a-window-always-on-top-through-ahk/</guid>
+        <description>&lt;p&gt;Have you ever found yourself reading a document while using a note-taking app, wishing you could keep the app window floating? It could be frustrating when the window disappears as soon as you click outside of it.&lt;/p&gt;
+&lt;p&gt;Fortunately, there&amp;rsquo;s a simple solution using AutoHotKey(AHK). While you can find installation instructions elsewhere, I&amp;rsquo;ll share the script that solves this problem.&lt;/p&gt;
+&lt;p&gt;Create an AHK script and write following code:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-AHK&#34; data-lang=&#34;AHK&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;space&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;WinSetAlwaysOnTop&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;A&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Once you save and run the script, you can &amp;ldquo;pin&amp;rdquo; any active window by pressing &lt;code&gt;Ctrl+Space&lt;/code&gt;. Using the same keyboard shortcut will toggle the window between pinned and unpinned states.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.howtogeek.com/196958/ways-to-make-a-window-always-on-top-on-windows/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;reference&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Resolving image insert conflict of Hugo and Obsidian</title>
         <link>http://localhost:1313/blog/en/p/resolving-image-insert-conflict-of-hugo-and-obsidian/</link>
         <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
@@ -198,12 +2301,32 @@
 &lt;/div&gt;</description>
         </item>
         <item>
-        <title>CSAPP reading notes - chapter 1</title>
+        <title>CSAPP reading notes - Chapter 1</title>
         <link>http://localhost:1313/blog/en/p/csapp-reading-notes-chapter-1/</link>
         <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/en/p/csapp-reading-notes-chapter-1/</guid>
-        <description>&lt;h2 id=&#34;11-information-is-bits--context&#34;&gt;1.1 Information Is Bits + Context
+        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The hello program&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The ASCII text representation of hello.c&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;11-information-is-bits--context&#34;&gt;1.1 Information Is Bits + Context
 &lt;/h2&gt;&lt;p&gt;All information in a system is represented as a bunch of bits.&lt;/p&gt;
 &lt;h2 id=&#34;12-programs-are-translated-by-other-programs-into-different-forms&#34;&gt;1.2 Programs Are Translated by Other Programs into Different Forms
 &lt;/h2&gt;&lt;p&gt;The gcc compiler driver reads the source file hello.c and translated into an execuable object file hello. The translation is performed in the sequence of four phases:&lt;/p&gt;
@@ -215,20 +2338,20 @@
 &lt;/ul&gt;
 &lt;p&gt;The programs that perform these phases (preprocessor, compilor, assembler, and linker) is known collectively as the &lt;em&gt;compliation system&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Here is the phase figure:
-&lt;img src=&#34;http://localhost:1313/blog/blog/_images/figure%201.3%20compliation%20system.png&#34;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.3.png&#34;
 	
 	
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;compliation system&#34;
+		alt=&#34;The compliation system&#34;
 	
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;13-it-pays-to-understand-how-compilation-systems-work&#34;&gt;1.3 It Pays to Understand How Compilation Systems Work
 &lt;/h2&gt;&lt;p&gt;None.&lt;/p&gt;
 &lt;h2 id=&#34;14-processors-read-and-interpret-instructions-stored-in-memory&#34;&gt;1.4 Processors Read and Interpret Instructions Stored in Memory
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/_images/figure%201.4.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.4.png&#34;
 	
 	
 	
@@ -238,6 +2361,630 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;PC: program counter
+ALU: arithmetic/logic unit&lt;/p&gt;
+&lt;h3 id=&#34;141-hardware-organization-of-a-system&#34;&gt;1.4.1 Hardware Organization of a System:
+&lt;/h3&gt;&lt;h4 id=&#34;buses&#34;&gt;Buses
+&lt;/h4&gt;&lt;h4 id=&#34;io-devices&#34;&gt;I/O Devices
+&lt;/h4&gt;&lt;p&gt;I/O: Input/Output&lt;/p&gt;
+&lt;h4 id=&#34;main-memory&#34;&gt;Main Memory
+&lt;/h4&gt;&lt;p&gt;Physically, main memory consists of a collection of dynamic random access memory (DRAM).&lt;/p&gt;
+&lt;h4 id=&#34;processor&#34;&gt;Processor
+&lt;/h4&gt;&lt;h3 id=&#34;142-running-the-hello-program&#34;&gt;1.4.2 Running the hello Program
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.5.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Reading the hello program from the keyboard&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;DMA: direct memory access&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.6.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;loading executable from disk into main memory&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/1.7.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Writing the output string from the memory to the display&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;15-caches-matter&#34;&gt;1.5 Caches Matter
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.8.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Cache memories&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The L1 and L2 caches are implemented with a hardware technology known as static random access memory (SRAM)&lt;/p&gt;
+&lt;h2 id=&#34;16-storage-devices-form-a-hierarchy&#34;&gt;1.6 Storage Devices Form a Hierarchy
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.9.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;example of memory hierarchy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;17-the-operating-system-manages-the-hardware&#34;&gt;1.7 The Operating System Manages the Hardware
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.10.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Layered view of a computer system&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The operating system has two primary purposes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;to protect the hardware from misuse by runaway applications&lt;/li&gt;
+&lt;li&gt;to provide applications with simple and uniform mechanisms for manipulating complicated and often wildly different low-level hardware devices.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It achieves both goal via the foundamental abstractions: processes, virtual memory, and files.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.11.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Abstractions provided by an operating system&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;171-processes&#34;&gt;1.7.1 Processes
+&lt;/h4&gt;&lt;p&gt;When the operating system decides to transfer control from the current process to some new process, it performs a &lt;em&gt;context switch&lt;/em&gt; by saving the context of the current process, restoring the context of the new process, and then passing control to the new process.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.12.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Process context switching&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;172-threads&#34;&gt;1.7.2 Threads
+&lt;/h4&gt;&lt;p&gt;Each thread runs in the context of the process and sharing the same code and global data.&lt;/p&gt;
+&lt;h4 id=&#34;173-virtual-memory&#34;&gt;1.7.3 Virtual Memory
+&lt;/h4&gt;&lt;p&gt;Each process has the same uniform view of memory, which is known as its &lt;em&gt;virtual address space&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.13.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Process virtual address&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The virtual address space seen by each process consists of a number of well defined areas, starting from low to high:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Program code and data.&lt;/li&gt;
+&lt;li&gt;Heap.&lt;/li&gt;
+&lt;li&gt;Shared libraries.&lt;/li&gt;
+&lt;li&gt;Stack.&lt;/li&gt;
+&lt;li&gt;kernel virtual memory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;174-files&#34;&gt;1.7.4 Files
+&lt;/h4&gt;&lt;p&gt;A &lt;em&gt;file&lt;/em&gt; is a sequence of bytes. Every I/O devices is modeled as a file. All input and output in the system is performed by reading and writing files, using a small set of system calls known as &lt;em&gt;Unix I/O&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;18-systems-communicate-with-other-systems-using-networks&#34;&gt;1.8 Systems Communicate with Other Systems Using Networks
+&lt;/h2&gt;&lt;p&gt;The network can be viewed as just another I/O devices.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.14.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;A network is another I/O device&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The system copies a sequence of bytes from main memory to the network adapter rather than disk controller, which helps the data flow across the network to another mechine instead of a local disk drive.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.15.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Using telnet to run hello program remotely over a network&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;19-important-themes&#34;&gt;1.9 Important Themes
+&lt;/h3&gt;&lt;h4 id=&#34;191-amdahls-law&#34;&gt;1.9.1 Amdahl&amp;rsquo;s law
+&lt;/h4&gt;&lt;p&gt;The main idea of &lt;em&gt;Amdahl&amp;rsquo;s law&lt;/em&gt; is that when we speed up one part of a system effect on the overall all system performance depends on both how sigficant this part was and how much it sped up.&lt;/p&gt;
+&lt;p&gt;Suppose some part of the system requires a fraction &lt;em&gt;α&lt;/em&gt; of this time, and that we improve its performence by a factor of &lt;em&gt;k&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;$$
+T_{new} = (1-\alpha)T_{\text{old}} + (\alpha T_{\text{old}})/k = T_{\text{old}}[(1-\alpha) + \alpha/k]
+$$&lt;/p&gt;
+&lt;p&gt;$$
+S = \frac{T_{\text{old}}}{T_{\text{new}}} = \frac{1}{(1-\alpha) + \alpha/k}
+$$&lt;/p&gt;
+&lt;h4 id=&#34;192-concurrency-and-parallelism&#34;&gt;1.9.2 Concurrency and Parallelism
+&lt;/h4&gt;&lt;h3 id=&#34;thread-level-concurrency&#34;&gt;Thread-Level Concurrency
+&lt;/h3&gt;&lt;p&gt;Traditionally, this concurrent execution was only &lt;em&gt;simulated&lt;/em&gt;, much as a juggler keeps multiple balls flying through the air.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Multiprocessor systems&lt;/em&gt; have more recently become commonplace with the advent of &lt;em&gt;multi-core&lt;/em&gt; processors and &lt;em&gt;hyperthreading&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.16.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Categorizing different processor configurations&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.17.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Multi-core processor orgnization&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Hyperthreading also called &lt;em&gt;simultaneous multi-threading&lt;/em&gt;. Whereas a conventional processor requires around 20,000 clock style to shift between different threads, a hyperthreaded processor decides which of its threads to execute on a cycle-by-cycle basis.&lt;/p&gt;
+&lt;h3 id=&#34;instruction-level-parallelism&#34;&gt;Instruction-Level Parallelism
+&lt;/h3&gt;&lt;p&gt;Processors that can sustain execution rates faster than 1 instruction per cycle are known as &lt;em&gt;superscalar&lt;/em&gt; processors.&lt;/p&gt;
+&lt;h3 id=&#34;single-instruction-multiple-datasimd-parallelism&#34;&gt;Single-Instruction, Multiple-Data(SIMD) Parallelism
+&lt;/h3&gt;&lt;h4 id=&#34;193-the-importance-of-abstractions-in-computer-systems&#34;&gt;1.9.3 The Importance of Abstractions in Computer Systems
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.18.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Some abstractions provided by a computer system&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;110-summary&#34;&gt;1.10 Summary
+&lt;/h3&gt;&lt;p&gt;Storage devices that are higher in the hierarchy serve as caches for devices that are lower in the hierarchy.&lt;/p&gt;
+&lt;p&gt;The operating system kernel serves as an intermediary between the application and the hardware. It provides three fundamental abstractions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Files are abstractions for I/O devices.&lt;/li&gt;
+&lt;li&gt;Virtual memory is an abstraction for both main memory and disk.&lt;/li&gt;
+&lt;li&gt;Processes are abstractions for the processor, main memory, and I/O devices.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
+        <title>CSAPP reading notes - Chapter 2 (Part I)</title>
+        <link>http://localhost:1313/blog/en/p/csapp-reading-notes-chapter-2-part-i/</link>
+        <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/csapp-reading-notes-chapter-2-part-i/</guid>
+        <description>&lt;h2 id=&#34;21-information-storage&#34;&gt;2.1 Information Storage
+&lt;/h2&gt;&lt;p&gt;Most computers use block of 8 bits, or &lt;em&gt;bytes&lt;/em&gt;, as the smallest unit of memory.&lt;/p&gt;
+&lt;p&gt;A mechine-level program views memory as a very large array of bytes, referred to as &lt;em&gt;virtual memory&lt;/em&gt;. Every byte of memory is identified by a unique nubmer, known as &lt;em&gt;address&lt;/em&gt;, and the set of all possible addresses is known as the &lt;em&gt;virtual address space&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Virtual address space is just a conceptual image presented to mechine-level program. The actual implementation uses a combination of DRAM, flash memory, disk storage,special hardware, and operating system software to provide the program with what apears to be a monolithic byte array.&lt;/p&gt;
+&lt;p&gt;The GNU Compiler Collection (GCC) can compile programs according to the conventions of several different version of the C language, based on different command-line options.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Specifying different versions of C to gcc&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;211-hexadecimal-notation&#34;&gt;2.1.1 Hexadecimal Notation
+&lt;/h3&gt;&lt;p&gt;Decimal and binary values associated with the hexadecimal digits:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Hexadecimal notation&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;For $x = 2,048 = 2^{11}$, we have $n = 11 = 3 + 4 \cdot 2$, giving hexdecimal representation &lt;code&gt;0x800&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;212-data-sizes&#34;&gt;2.1.2 Data Sizes
+&lt;/h3&gt;&lt;p&gt;A 32-bit word size limits the virtual address space to 4 gigabytes(written 4 GB), that is, just over 4 x 10^9 bytes. Scaling up to a 64-bit word size leads to a virtual address space of 16 exabytes, or around 1.84 x 10^19 bytes.&lt;/p&gt;
+&lt;p&gt;The distinction referring to programs as being either &amp;ldquo;32-bit programs&amp;rdquo; or &amp;ldquo;64-bit programs&amp;rdquo; lies in how a program is compiled, rather than the type of machine on which it runs.&lt;/p&gt;
+&lt;p&gt;The C language supports multiple data formats for both integer and floating-piont data.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.3.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Typical sizes (in bytes) of basic C data types&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;int32_t&lt;/code&gt; and &lt;code&gt;int64_t&lt;/code&gt; have exactly 4 and 8 bytes, respectively, to avoid the vagaries of relying on &amp;ldquo;typical&amp;rdquo; sizes and different compiler settings.&lt;/p&gt;
+&lt;h3 id=&#34;213-addressing-and-byte-ordering&#34;&gt;2.1.3 Addressing and Byte Ordering
+&lt;/h3&gt;&lt;p&gt;The convention where the least significant bytes comes first is referred to as &lt;em&gt;little endian&lt;/em&gt;. The convention where the most sifnificant byte comes first is referred to as &lt;em&gt;big endian&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;For value &lt;code&gt;x = 0x01234567&lt;/code&gt;, the high-order byte has hexadecimal value &lt;code&gt;0x01&lt;/code&gt;, while the low-order byte has value &lt;code&gt;0x67&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/big-little-endian.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.5-2.6.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Byte representations of different data values among different machines&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Although the floating-pint and the integer data both encode the numeric value 12,345, they have very different byte patterns: 0x00003039 for the integer and 0x4640E400 for floating point. In general, these two formats use different encoding shemes. If we expand these hexadecimal patterns into binary form and shift them appropriately, we find a sequence of 13 matching bits, indicated by a sequence of asterisks, as follows:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/mathcing-bits-of-floating-point-and-integer.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;214-representing-strings&#34;&gt;2.1.4 Representing Strings
+&lt;/h3&gt;&lt;p&gt;None&lt;/p&gt;
+&lt;h3 id=&#34;215-representing-code&#34;&gt;2.1.5 Representing Code
+&lt;/h3&gt;&lt;p&gt;None&lt;/p&gt;
+&lt;h3 id=&#34;216-introduction-to-boolean-algebra&#34;&gt;2.1.6 Introduction to Boolean Algebra
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.7.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Operations of Boolean algebra&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;When we consider operations ^, &amp;amp; and ~ operating on bit vectors of length w, we get a different mathematical form, known as a Boolean ring.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;a ^ a = 0&lt;/code&gt; for any value a, so &lt;code&gt;(a ^ b) ^ a = b&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;According to the position of 1 from right to left, bit vector a = [01101001] encodes the set A = {0, 3, 5, 6}, while bit vector b = [01010101] encodes the set B = {0, 2, 4, 6}. Then the operation a &amp;amp; b yields bit vector [01000001], while $A \cap B$ = {0, 6}.&lt;/p&gt;
+&lt;h3 id=&#34;217-bit-level-operations-in-c&#34;&gt;2.1.7 Bit-Level Operations in C
+&lt;/h3&gt;&lt;p&gt;The best way to determin the effect of a bit-level expression is to extend the hexadecimal arguments to their binary representations, perform the operations in binary, and then convert back to the hexadecimal.&lt;/p&gt;
+&lt;p&gt;A mask is a bit pattern that indicates a selected set of bits within a word. The expression &lt;code&gt;~0&lt;/code&gt; will yield a mask of all ones.&lt;/p&gt;
+&lt;h3 id=&#34;218-logical-operations-in-c&#34;&gt;2.1.8 Logical Operations in C
+&lt;/h3&gt;&lt;p&gt;A bitwise operation will have behavior matching that of its logical counterpart only in the special case in which the arguments are restricted to 0 or 1.&lt;/p&gt;
+&lt;p&gt;The logical operators do not evaluate their second argument if the result of the expression can be determined by evaluating the first argument.&lt;/p&gt;
+&lt;h3 id=&#34;219-shift-operations-in-c&#34;&gt;2.1.9 Shift Operations in C
+&lt;/h3&gt;&lt;p&gt;Left shift &lt;code&gt;x &amp;lt;&amp;lt; k&lt;/code&gt;: $x$ is shifted $k$ bits to the left, dropping off the $k$ most significant bits and filling the right end with $k$ zeros.&lt;/p&gt;
+&lt;p&gt;Right shift &lt;code&gt;x &amp;gt;&amp;gt; k&lt;/code&gt; has:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Logical. A logical right shift fills the left end with $k$ zeros.&lt;/li&gt;
+&lt;li&gt;Arithmetic. An arithemetic right shift fills the left end with $k$ repetitions of the most significant bit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For signed data (int, long, etc.), it determined by compiler (according to mechine structure) whether right shift in c is &lt;strong&gt;logical&lt;/strong&gt; or &lt;strong&gt;arithmetic&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;While for unsigned data (unsigned int, unsigned long), it is always &lt;strong&gt;logical&lt;/strong&gt; right shift.&lt;/p&gt;
+&lt;p&gt;Here are examples:
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/shift-operations-in-c.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Arithmetic right shift is the most-used right shift for signed data. But for unsigned data it must be logical right shift.&lt;/p&gt;
+&lt;p&gt;On many machines, the shift instruction consider only the lower $log_2 w$ bits of the shift amount when shifting a w-bit value, and so the shift amount is computed as &lt;code&gt;k mod w&lt;/code&gt;. &lt;code&gt;w&lt;/code&gt; is the bit length of the data type. For instance:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;w&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;32&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;// 32-bit integer
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// These will give identical results:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;       &lt;span class=&#34;c1&#34;&gt;// shift by 3
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;35&lt;/span&gt;      &lt;span class=&#34;c1&#34;&gt;// shift by 35 (35 mod 32 = 3)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;67&lt;/span&gt;      &lt;span class=&#34;c1&#34;&gt;// shift by 67 (67 mod 32 = 3)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Because:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;  &lt;span class=&#34;n&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;binary&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mo&#34;&gt;00011&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;lowest&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bits&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;mi&#34;&gt;35&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;binary&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;100011&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;lowest&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bits&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mo&#34;&gt;00011&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;mi&#34;&gt;67&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;binary&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1000011&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;lowest&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bits&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mo&#34;&gt;00011&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;22-integer-representations&#34;&gt;2.2 Integer Representations
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.8.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Terminology for integer data and arithmetic operations&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;221-integral-data-types&#34;&gt;2.2.1 Integral Data Types
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.9.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Typical ranges for C integral data types for 32-bit programs&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.10.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Typical ranges for C integral data types for 64-bit programs&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.11.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Guaranteed ranges for C integral data types&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;222-unsigned-encodings&#34;&gt;2.2.2 Unsigned Encodings
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.12.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Unsigned number examples for w = 4.&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;principle: Definition of unsigned encoding&lt;/p&gt;
+&lt;p&gt;For vector $\vec{x} = [x_{w-1}, x_{w-2}, \ldots, x_{0}$:
+$$
+B2U_{w}(\vec{x}) = \sum_{i=0}^{w-1}x_{i}2^i \qquad (2.1)
+$$&lt;/p&gt;
+&lt;p&gt;The least value is given by bit vector $[00 \cdots 0]$ having integer value 0, and the greatest value is given by bit vector $[11 \cdots 1]$ having integer value $UMax_{w} \doteq \sum_{i=0}^{w-1}2^i = 2^w - 1$.&lt;/p&gt;
+&lt;p&gt;principle: Uniqueness of unsigned encoding&lt;/p&gt;
+&lt;p&gt;Function $B2U_{w}$ is a bijection.&lt;/p&gt;
+&lt;h3 id=&#34;223-twos-complement-encodings&#34;&gt;2.2.3 Two’s-Complement Encodings
+&lt;/h3&gt;&lt;p&gt;principle: Definition of two’s-complement encoding&lt;/p&gt;
+&lt;p&gt;For vector $\vec{x} = [x_{w-1},x_{w-2},\cdots x_{0}]$:
+$$
+B2T_{w}(\vec{x}) \doteq -x_{w-1}2^{w-1} + \sum_{i=0}^{w-2}x_{i}2^{i} \qquad (2.3)
+$$&lt;/p&gt;
+&lt;p&gt;The MSB (most significant bit) has its dual role as both the sign and a weighted bit.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.13.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Two&amp;rsquo;s-complement number examples forw = 4&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The least representable value is given by bitvector &lt;code&gt;[10 ... 0]&lt;/code&gt; (set the bit with negative weight but clear all others),having integer value $TMin_{w} \doteq - 2^{w-1}$.The greatest value is given by bitvector &lt;code&gt;[01 ... 1]&lt;/code&gt; (clear the bit with negative weight but set all others),having integer value $Tmax_{w} \doteq \sum_{i=0}^{w-2}2^i = 2^{w} - 1$.&lt;/p&gt;
+&lt;p&gt;principle: Uniqueness of two’s-complement encoding&lt;/p&gt;
+&lt;p&gt;Function $B2T_{w}$ is a bijection.&lt;/p&gt;
+&lt;p&gt;$\left| TMin \right| = \left| TMax \right| + 1$&lt;/p&gt;
+&lt;p&gt;Since 0 is nonnegative, this means that it can represent one less positive number than negative.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.14.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Important numbers&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Two other standard representations for signed numbers:
+$$
+B2O_{w}(\vec{x}) \doteq -x_{w-1}(2^{w-1} - 1) + \sum &lt;em&gt;{i=0}^{w-2}x&lt;/em&gt;{i}2^{i}
+$$
+$$
+B2S_{w}(\vec{x}) \doteq (-1)^{x_{w-1}} \cdot \left( \sum &lt;em&gt;{i = 0}^{w-2}x&lt;/em&gt;{i}2^{i} \right)
+$$&lt;/p&gt;
+&lt;h3 id=&#34;224-conversions-between-signed-and-unsigned&#34;&gt;2.2.4 Conversions between Signed and Unsigned
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.15.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Two’s-complement representations of 12,345 and ?12,345, and unsigned representation of 53,191. Note that the latter two have identical bit representations&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;$$
+T2U_{w}\left( \vec{x} \right) \doteq B2U_{w}\left( T2B_{w} \right)
+$$
+$$
+U2T_{w}\left( \vec{x} \right) \doteq B2T_{w}\left( U2B_{w} \right)
+$$&lt;/p&gt;
+&lt;p&gt;principle: Conversion from two’s complement to unsigned&lt;/p&gt;
+&lt;p&gt;For x such that $TMinw ≤ x ≤ TMaxw$:
+$$
+T2U_{w}\left( x \right)  = \begin{cases}
+x + 2^{w}, &amp;amp; x &amp;lt; 0  \
+x, &amp;amp; x \geq 0
+\end{cases} \qquad (2.5)
+$$&lt;/p&gt;
+&lt;p&gt;derivation: Conversion from two’s complement to unsigned&lt;/p&gt;
+&lt;p&gt;Comparing Equations 2.1 and 2.3, we can see that for bit pattern $\vec{x}$, if we compute the difference $B2U_{w}(\vec{x}) - B2T_{w}(\vec{x})$, the weighted sums for bits from &lt;code&gt;0&lt;/code&gt; to &lt;code&gt;w - 2&lt;/code&gt; will cancel each other, leaving a value $B2U_{w}(\vec{x}) - B2T_{w}(\vec{x}) = x_{w-1} (2^{w-1} - -2^{w-1}) = x_{w-1}2^{w}$. This gives a relationship $B2U_{w}(\vec{x}) = B2T_{w}(\vec{x}) + x_{w-1}2^{w}$. We therefore have
+$$
+B2U_{w}(T2B_{w}(x)) = T2U_{w}(x) = x ;+;x_{w-1}2^{w} \qquad (2.6)
+$$&lt;/p&gt;
+&lt;p&gt;For the two’s-complement case, the most significant bit serves as the sign bit, which we diagram as a leftward-pointing gray bar. For the unsigned case, this bit has positive weight, which we show as a rightward-pointing black bar.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.16.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Comparing unsigned and two’s-complement representations for w = 4.&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.17.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Conversion from two’s complement to unsigned.&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.18.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Conversion from unsigned to two’s complement.&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;principle: Unsigned to two’s-complement conversion
+For u such that $0 \leq u \leq UMax_{w}$:
+$$
+U2T_{w}(u) = \begin{cases}
+u, &amp;amp; u \leq TMax_{w} \
+u - 2^{w}, &amp;amp; u &amp;gt; Tmax_{w}
+\end{cases} \qquad (2.7)
+$$&lt;/p&gt;
+&lt;p&gt;derivation: Unsigned to two’s-complement conversion
+Let $\vec{u} = U2B_{w}(u)$. This bit vector will also be the two’s-complement representation of $U2T_{w}(u)$. Equations 2.1 and 2.3 can be combined to give
+$$
+U2T_{w}(u) = -u_{w-1}2^{w} + u \qquad (2.8)
+$$&lt;/p&gt;
+&lt;p&gt;To summarize, we considered the effects of converting in both directions between unsigned and two’s-complement representations. For values x in the range $0 \leq x \leq TMax_{w}$, we have $T2U_{w}(x) = x$ and $U2T_{w}(x) = x$. That is, numbers in this range have identical unsigned and two’s-complement representations. For values outside of this range, the conversions either add or subtract $2^{w}$. For example, we have $T2U_{w}(-1) = -1 + 2^{w}$ -the negative number closest to zero maps to the largest unsigned number. At the other extreme, one can see that $T2U_{w}(TMin_{w}) = -2^{w-1} + 2^{w} = 2^{w-1} = TMax_{w} - 1$ —the most negative number maps to an unsigned number just outside the range of positive two’s-complement numbers. Using the example of Figure 2.15, we can see that $T2U_{16}(-12345) = 65536 + -12345 = 53191$.&lt;/p&gt;
+&lt;h3 id=&#34;225-signed-versus-unsigned-in-c&#34;&gt;2.2.5 Signed versus Unsigned in C
+&lt;/h3&gt;&lt;p&gt;From here on, since repeatedly taking screenshots and copying key words is very troublesome, I will only record key words that help with memory as summarized by myself, which also serves as an index.&lt;/p&gt;
+&lt;p&gt;most signed by default, suffix &lt;code&gt;u&lt;/code&gt; for unsigned&lt;/p&gt;
+&lt;p&gt;%d, %u, and %x
+a signed decimal, an unsigned decimal, and in hexadecimal format&lt;/p&gt;
+&lt;p&gt;possible, print, int with %u, unsigned with %d&lt;/p&gt;
+&lt;p&gt;result of the expression &lt;code&gt;-1 &amp;lt; 0U&lt;/code&gt; is &lt;em&gt;0 and unsigned&lt;/em&gt;, since &lt;code&gt;0U&lt;/code&gt; is unsigned, &lt;code&gt;-1&lt;/code&gt; is implicitly cast to unsigned, which is $T2U_{w}(-1) = UMax_{w} = 4294967295U$.&lt;/p&gt;
+&lt;h3 id=&#34;226-expanding-the-bit-representation-of-a-number&#34;&gt;2.2.6 Expanding the Bit Representation of a Number
+&lt;/h3&gt;&lt;p&gt;unsigned -&amp;gt; large data type =&amp;gt; add leading &lt;em&gt;zeros&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;two&amp;rsquo;s-complement -&amp;gt; large data type =&amp;gt; sign extension (filled by the first bit)&lt;/p&gt;
+&lt;p&gt;The key property we exploit is that $2^{w} - 2^{w-1} = 2^{w-1}$. Thus, the combined effect of adding a bit of weight $-2^{w}$ and of converting the bit having weight $-2^{w-1}$ to be one with weight $2^{w-1}$ is to preserve the original numeric value.&lt;/p&gt;
+&lt;p&gt;[[How could the number of bigger data type with leading 1 equals to the original number.en |Here is the chatgpt expalanation of why bigger data type with leading 1 equals to the original number.]]&lt;/p&gt;
+&lt;p&gt;When &lt;code&gt;short&lt;/code&gt; cast to &lt;code&gt;unsigned&lt;/code&gt;, it will first promote to &lt;code&gt;int&lt;/code&gt;, result in &lt;code&gt;(unsigned)(int)&lt;/code&gt; rather than &lt;code&gt;(unsigned)(unsigned short)&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;227-truncating-numbers&#34;&gt;2.2.7 Truncating Numbers
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;53191&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;kt&#34;&gt;short&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;sx&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;short&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;cm&#34;&gt;/* -12345 */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;sx&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;cm&#34;&gt;/* -12345 */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;[[Why would int 53191 become -12345 after truncating to short.en]]&lt;/p&gt;
+&lt;p&gt;truncate &lt;code&gt;x&lt;/code&gt; down to k bits &lt;code&gt;x&#39;&lt;/code&gt;: $x&amp;rsquo; = x \mod 2^{k}$&lt;/p&gt;
+&lt;p&gt;[[why does  the modula of &lt;code&gt;x mod 2 to k power&lt;/code&gt; will retain k bits.en]]&lt;/p&gt;
+&lt;h3 id=&#34;228-advice-on-signed-versus-unsigned&#34;&gt;2.2.8 Advice on Signed versus Unsigned
+&lt;/h3&gt;&lt;p&gt;None&lt;/p&gt;
+&lt;h3 id=&#34;23-integer-arithmetic&#34;&gt;2.3 Integer Arithmetic
+&lt;/h3&gt;&lt;h3 id=&#34;232-twos-complement-addition&#34;&gt;2.3.2 Two’s-Complement Addition
+&lt;/h3&gt;&lt;p&gt;overflow means remove the most significant bit.&lt;/p&gt;
+&lt;p&gt;positive overflow: x &amp;gt; 0 &amp;amp; y &amp;gt; 0 but $x +&lt;em&gt;{w}^{t}y \leq 0$.
+negetive overflow: x &amp;lt; 0 &amp;amp; y &amp;lt; 0 but $x +&lt;/em&gt;{w}^{t}y \geq 0$.&lt;/p&gt;
+&lt;p&gt;$x *&lt;em&gt;{w}^{t} = U2T&lt;/em&gt;{w}((x\cdot y)\mod 2^{w})$&lt;/p&gt;
+&lt;p&gt;k bits will be left if you modula a binary x by k.&lt;/p&gt;
+&lt;p&gt;we can transform multiplication into shifting, for example, x * 14:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;14 = 2^3 + 2^2 + 2^1 =&amp;gt; (x&amp;laquo;3) + (x&amp;laquo;2) + (x&amp;laquo;1)&lt;/li&gt;
+&lt;li&gt;14 = 2^4 - 2^1 =&amp;gt; (x&amp;laquo;4) - (x&amp;laquo;1)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For the cases where rounding is required, adding the bias causes the upper bits to be incremented, so that the result will be rounded toward zero.&lt;/p&gt;
+&lt;p&gt;$\lceil x/y \rceil=\lfloor (x + y - 1) / y\rfloor$&lt;/p&gt;
+&lt;p&gt;c expression that yields x/2^k: &lt;code&gt;(x&amp;lt;0 ? x+(1&amp;lt;&amp;lt;k)-1 : x) &amp;gt;&amp;gt; k&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;24-floating-point&#34;&gt;2.4 Floating Point
+&lt;/h2&gt;&lt;h3 id=&#34;241-fractional-binary-numbers&#34;&gt;2.4.1 Fractional Binary Numbers
+&lt;/h3&gt;&lt;p&gt;$$
+b = \sum_{i=-n}^{m}2^{i} \times b_{i}
+$$
+it can&amp;rsquo;t represent a very large number.&lt;/p&gt;
+&lt;h3 id=&#34;242-ieee-floating-point-representation&#34;&gt;2.4.2 IEEE Floating-Point Representation
+&lt;/h3&gt;&lt;p&gt;The IEEE floating-point standard represents a number in a form:
+$V=(-1)^{s}\times M\times2^{E}$.&lt;/p&gt;
+&lt;p&gt;V: Values
+s: sign
+M: significand
+E: exponent&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.32.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.33.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;E = e - bias&lt;/p&gt;
+&lt;h3 id=&#34;244-rounding-floating-point&#34;&gt;2.4.4 Rounding Floating-point
+&lt;/h3&gt;&lt;p&gt;4 rounding modes:
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.37.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Halfway point format: &lt;code&gt;XX...X.YY...Y100...&lt;/code&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -355,16 +3102,17 @@
 &lt;/ol&gt;
 &lt;h2 id=&#34;chapter-4-opening-fileshttpslazyvim-ambitious-devsphillipscodescoursechapter-4_opening_files&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-4/#_opening_files&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Chapter 4. Opening Files&lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;keys:&lt;/p&gt;
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;cwd&lt;/code&gt; is typically the directory where you enter nvim in the terminal, while &lt;code&gt;root dir&lt;/code&gt; is where there is a configuration file such as &lt;code&gt;.git&lt;/code&gt;, &lt;code&gt;package.json&lt;/code&gt;, etc.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:LazyExtras&lt;/code&gt; opens the &lt;code&gt;mini.files&lt;/code&gt; plugin. &lt;code&gt;mini.files&lt;/code&gt; is compatible with many lazyvim text editing operations. Use &lt;code&gt;=&lt;/code&gt; to save modifications. To find and disable the same plugin again, press &lt;code&gt;x&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;keys:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;code&gt;&amp;lt;Space&amp;gt; q q&lt;/code&gt;, closes the entire nvim window and save the session.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;&amp;lt;Space&amp;gt;&amp;lt;Space&amp;gt;&lt;/code&gt;/&lt;code&gt;Space&amp;gt;ff&lt;/code&gt;, pop up find file window of the current project, which is case insensitive and become sensitive right after there is a upper case character. &lt;code&gt;&amp;lt;Space&amp;gt;fF&lt;/code&gt; to&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;cwd&lt;/code&gt; is typically the directory where you enter nvim in the terminal, and root directory is where there is a configuration file such as &lt;code&gt;.git&lt;/code&gt;, &lt;code&gt;package.json&lt;/code&gt;, etc.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;Space&amp;gt;&amp;lt;Space&amp;gt;&lt;/code&gt;/&lt;code&gt;Space&amp;gt;ff&lt;/code&gt;, find file (root dir), which is case insensitive and become sensitive right after there is a upper case character. &lt;code&gt;&amp;lt;Space&amp;gt;fF&lt;/code&gt; to find file (cwd).&lt;/li&gt;
 &lt;li&gt;Also, you can use &lt;code&gt;:lcd&lt;/code&gt; to temprarily change the &lt;code&gt;cwd&lt;/code&gt; for a buffer.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;s&lt;/code&gt; to enable the seek mode.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;s&lt;/code&gt; to enable the seek mode. Note that it will jump to the &lt;em&gt;first&lt;/em&gt; character of the seeking word.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;code&gt;:LazyExtras&lt;/code&gt; opens the mini.files plugin. mini.files is compatible with many lazyvim text editing operations. Use &lt;code&gt;=&lt;/code&gt; to save modifications.&lt;/p&gt;
-&lt;p&gt;To find and disable the same plugin again, press x.&lt;/p&gt;
 &lt;h2 id=&#34;chapter-5-configuration-and-plugin-basicshttpslazyvim-ambitious-devsphillipscodescoursechapter-5_configuration_and_plugin_basics&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-5/#_configuration_and_plugin_basics&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Chapter 5. Configuration and Plugin Basics&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;&lt;code&gt;.config/nvim/lua/config/keymaps.lua&lt;/code&gt; is generally used for setting key bindings in Neovim or those that come with lazyvim.&lt;/p&gt;
@@ -599,13 +3347,21 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;chapter-6-basic-editinghttpslazyvim-ambitious-devsphillipscodescoursechapter-6_basic_editing&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-6/#_basic_editing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Chapter 6. Basic Editing&lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;&lt;code&gt;80i*&amp;lt;Escape&amp;gt;&lt;/code&gt; will insert 80 &lt;code&gt;*&lt;/code&gt; which is nifty.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;gU&amp;lt;range&amp;gt;&lt;/code&gt; will convert a character of a sequence of characters into uppercase, while the &lt;code&gt;gu&amp;lt;range&amp;gt;&lt;/code&gt; is the inverse.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;~&lt;/code&gt; inverts the case of character under the cursor.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;q&amp;lt;reg_name&amp;gt;&lt;/code&gt; will start recording a sequence of operations which called &lt;code&gt;macro&lt;/code&gt;, and press &lt;code&gt;q&lt;/code&gt; again will stop the recording. The fastest way to play back the latest macro is press &lt;code&gt;Q&lt;/code&gt;, or you can use &lt;code&gt;@&amp;lt;reg_name&amp;gt;&lt;/code&gt; instead.&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;keys:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;80i*&amp;lt;Escape&amp;gt;&lt;/code&gt; will insert 80 &lt;code&gt;*&lt;/code&gt; which is nifty.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dsfoos&lt;/code&gt;, delete from the cursor to the &lt;strong&gt;first character&lt;/strong&gt; of the target word &lt;code&gt;foo&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;X&lt;/code&gt; delete the character before the cursor.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;J&lt;/code&gt; to join lines.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gU&amp;lt;range&amp;gt;&lt;/code&gt; converts a sequence of characters into uppercase, while the &lt;code&gt;gu&amp;lt;range&amp;gt;&lt;/code&gt; do the inverse.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;~&lt;/code&gt; inverts the case of character under the cursor.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;q&amp;lt;reg_name&amp;gt;&lt;/code&gt; will start recording a sequence of operations called &lt;code&gt;macro&lt;/code&gt;, and press &lt;code&gt;q&lt;/code&gt; again will stop the recording. The fastest way to play back the latest macro is press &lt;code&gt;Q&lt;/code&gt;, or you can use &lt;code&gt;@&amp;lt;reg_name&amp;gt;&lt;/code&gt; instead.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2 id=&#34;chapter-7-objects-and-operator-pending-modehttpslazyvim-ambitious-devsphillipscodescoursechapter-7_objects_and_operator_pending_mode&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-7/#_objects_and_operator_pending_mode&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Chapter 7. Objects and Operator-Pending Mode&lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;&lt;code&gt;(&lt;/code&gt;, &lt;code&gt;{&lt;/code&gt; move the cursor to the beginning of a sentence and paragraph, while &lt;code&gt;)&lt;/code&gt;, &lt;code&gt;}&lt;/code&gt; to the end.&lt;/p&gt;
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;(&lt;/code&gt;, &lt;code&gt;{&lt;/code&gt; move the cursor to the beginning of a sentence or paragraph, while &lt;code&gt;)&lt;/code&gt;, &lt;code&gt;}&lt;/code&gt; to the end.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p&gt;debugger, python, time out error:&lt;/p&gt;
 &lt;p&gt;possible solutions:&lt;/p&gt;
 &lt;ol&gt;

@@ -8,12 +8,32 @@
         <language>en</language>
         <copyright>谷栗杳</copyright>
         <lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/en/tags/foundation/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>CSAPP reading notes - chapter 1</title>
+        <title>CSAPP reading notes - Chapter 1</title>
         <link>http://localhost:1313/blog/en/p/csapp-reading-notes-chapter-1/</link>
         <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/en/p/csapp-reading-notes-chapter-1/</guid>
-        <description>&lt;h2 id=&#34;11-information-is-bits--context&#34;&gt;1.1 Information Is Bits + Context
+        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The hello program&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The ASCII text representation of hello.c&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;11-information-is-bits--context&#34;&gt;1.1 Information Is Bits + Context
 &lt;/h2&gt;&lt;p&gt;All information in a system is represented as a bunch of bits.&lt;/p&gt;
 &lt;h2 id=&#34;12-programs-are-translated-by-other-programs-into-different-forms&#34;&gt;1.2 Programs Are Translated by Other Programs into Different Forms
 &lt;/h2&gt;&lt;p&gt;The gcc compiler driver reads the source file hello.c and translated into an execuable object file hello. The translation is performed in the sequence of four phases:&lt;/p&gt;
@@ -25,20 +45,20 @@
 &lt;/ul&gt;
 &lt;p&gt;The programs that perform these phases (preprocessor, compilor, assembler, and linker) is known collectively as the &lt;em&gt;compliation system&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Here is the phase figure:
-&lt;img src=&#34;http://localhost:1313/blog/blog/figure%201.3%20compliation%20system.png&#34;
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.3.png&#34;
 	
 	
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;compliation system&#34;
+		alt=&#34;The compliation system&#34;
 	
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;13-it-pays-to-understand-how-compilation-systems-work&#34;&gt;1.3 It Pays to Understand How Compilation Systems Work
 &lt;/h2&gt;&lt;p&gt;None.&lt;/p&gt;
 &lt;h2 id=&#34;14-processors-read-and-interpret-instructions-stored-in-memory&#34;&gt;1.4 Processors Read and Interpret Instructions Stored in Memory
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/figure%201.4.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.4.png&#34;
 	
 	
 	
@@ -48,6 +68,630 @@
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;PC: program counter
+ALU: arithmetic/logic unit&lt;/p&gt;
+&lt;h3 id=&#34;141-hardware-organization-of-a-system&#34;&gt;1.4.1 Hardware Organization of a System:
+&lt;/h3&gt;&lt;h4 id=&#34;buses&#34;&gt;Buses
+&lt;/h4&gt;&lt;h4 id=&#34;io-devices&#34;&gt;I/O Devices
+&lt;/h4&gt;&lt;p&gt;I/O: Input/Output&lt;/p&gt;
+&lt;h4 id=&#34;main-memory&#34;&gt;Main Memory
+&lt;/h4&gt;&lt;p&gt;Physically, main memory consists of a collection of dynamic random access memory (DRAM).&lt;/p&gt;
+&lt;h4 id=&#34;processor&#34;&gt;Processor
+&lt;/h4&gt;&lt;h3 id=&#34;142-running-the-hello-program&#34;&gt;1.4.2 Running the hello Program
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.5.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Reading the hello program from the keyboard&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;DMA: direct memory access&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.6.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;loading executable from disk into main memory&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/1.7.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Writing the output string from the memory to the display&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;15-caches-matter&#34;&gt;1.5 Caches Matter
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.8.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Cache memories&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The L1 and L2 caches are implemented with a hardware technology known as static random access memory (SRAM)&lt;/p&gt;
+&lt;h2 id=&#34;16-storage-devices-form-a-hierarchy&#34;&gt;1.6 Storage Devices Form a Hierarchy
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.9.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;example of memory hierarchy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;17-the-operating-system-manages-the-hardware&#34;&gt;1.7 The Operating System Manages the Hardware
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.10.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Layered view of a computer system&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The operating system has two primary purposes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;to protect the hardware from misuse by runaway applications&lt;/li&gt;
+&lt;li&gt;to provide applications with simple and uniform mechanisms for manipulating complicated and often wildly different low-level hardware devices.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It achieves both goal via the foundamental abstractions: processes, virtual memory, and files.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.11.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Abstractions provided by an operating system&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;171-processes&#34;&gt;1.7.1 Processes
+&lt;/h4&gt;&lt;p&gt;When the operating system decides to transfer control from the current process to some new process, it performs a &lt;em&gt;context switch&lt;/em&gt; by saving the context of the current process, restoring the context of the new process, and then passing control to the new process.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.12.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Process context switching&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;172-threads&#34;&gt;1.7.2 Threads
+&lt;/h4&gt;&lt;p&gt;Each thread runs in the context of the process and sharing the same code and global data.&lt;/p&gt;
+&lt;h4 id=&#34;173-virtual-memory&#34;&gt;1.7.3 Virtual Memory
+&lt;/h4&gt;&lt;p&gt;Each process has the same uniform view of memory, which is known as its &lt;em&gt;virtual address space&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.13.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Process virtual address&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The virtual address space seen by each process consists of a number of well defined areas, starting from low to high:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Program code and data.&lt;/li&gt;
+&lt;li&gt;Heap.&lt;/li&gt;
+&lt;li&gt;Shared libraries.&lt;/li&gt;
+&lt;li&gt;Stack.&lt;/li&gt;
+&lt;li&gt;kernel virtual memory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;174-files&#34;&gt;1.7.4 Files
+&lt;/h4&gt;&lt;p&gt;A &lt;em&gt;file&lt;/em&gt; is a sequence of bytes. Every I/O devices is modeled as a file. All input and output in the system is performed by reading and writing files, using a small set of system calls known as &lt;em&gt;Unix I/O&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;18-systems-communicate-with-other-systems-using-networks&#34;&gt;1.8 Systems Communicate with Other Systems Using Networks
+&lt;/h2&gt;&lt;p&gt;The network can be viewed as just another I/O devices.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.14.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;A network is another I/O device&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The system copies a sequence of bytes from main memory to the network adapter rather than disk controller, which helps the data flow across the network to another mechine instead of a local disk drive.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.15.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Using telnet to run hello program remotely over a network&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;19-important-themes&#34;&gt;1.9 Important Themes
+&lt;/h3&gt;&lt;h4 id=&#34;191-amdahls-law&#34;&gt;1.9.1 Amdahl&amp;rsquo;s law
+&lt;/h4&gt;&lt;p&gt;The main idea of &lt;em&gt;Amdahl&amp;rsquo;s law&lt;/em&gt; is that when we speed up one part of a system effect on the overall all system performance depends on both how sigficant this part was and how much it sped up.&lt;/p&gt;
+&lt;p&gt;Suppose some part of the system requires a fraction &lt;em&gt;α&lt;/em&gt; of this time, and that we improve its performence by a factor of &lt;em&gt;k&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;$$
+T_{new} = (1-\alpha)T_{\text{old}} + (\alpha T_{\text{old}})/k = T_{\text{old}}[(1-\alpha) + \alpha/k]
+$$&lt;/p&gt;
+&lt;p&gt;$$
+S = \frac{T_{\text{old}}}{T_{\text{new}}} = \frac{1}{(1-\alpha) + \alpha/k}
+$$&lt;/p&gt;
+&lt;h4 id=&#34;192-concurrency-and-parallelism&#34;&gt;1.9.2 Concurrency and Parallelism
+&lt;/h4&gt;&lt;h3 id=&#34;thread-level-concurrency&#34;&gt;Thread-Level Concurrency
+&lt;/h3&gt;&lt;p&gt;Traditionally, this concurrent execution was only &lt;em&gt;simulated&lt;/em&gt;, much as a juggler keeps multiple balls flying through the air.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Multiprocessor systems&lt;/em&gt; have more recently become commonplace with the advent of &lt;em&gt;multi-core&lt;/em&gt; processors and &lt;em&gt;hyperthreading&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.16.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Categorizing different processor configurations&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.17.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Multi-core processor orgnization&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Hyperthreading also called &lt;em&gt;simultaneous multi-threading&lt;/em&gt;. Whereas a conventional processor requires around 20,000 clock style to shift between different threads, a hyperthreaded processor decides which of its threads to execute on a cycle-by-cycle basis.&lt;/p&gt;
+&lt;h3 id=&#34;instruction-level-parallelism&#34;&gt;Instruction-Level Parallelism
+&lt;/h3&gt;&lt;p&gt;Processors that can sustain execution rates faster than 1 instruction per cycle are known as &lt;em&gt;superscalar&lt;/em&gt; processors.&lt;/p&gt;
+&lt;h3 id=&#34;single-instruction-multiple-datasimd-parallelism&#34;&gt;Single-Instruction, Multiple-Data(SIMD) Parallelism
+&lt;/h3&gt;&lt;h4 id=&#34;193-the-importance-of-abstractions-in-computer-systems&#34;&gt;1.9.3 The Importance of Abstractions in Computer Systems
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/1.18.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Some abstractions provided by a computer system&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;110-summary&#34;&gt;1.10 Summary
+&lt;/h3&gt;&lt;p&gt;Storage devices that are higher in the hierarchy serve as caches for devices that are lower in the hierarchy.&lt;/p&gt;
+&lt;p&gt;The operating system kernel serves as an intermediary between the application and the hardware. It provides three fundamental abstractions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Files are abstractions for I/O devices.&lt;/li&gt;
+&lt;li&gt;Virtual memory is an abstraction for both main memory and disk.&lt;/li&gt;
+&lt;li&gt;Processes are abstractions for the processor, main memory, and I/O devices.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
+        <title>CSAPP reading notes - Chapter 2 (Part I)</title>
+        <link>http://localhost:1313/blog/en/p/csapp-reading-notes-chapter-2-part-i/</link>
+        <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/csapp-reading-notes-chapter-2-part-i/</guid>
+        <description>&lt;h2 id=&#34;21-information-storage&#34;&gt;2.1 Information Storage
+&lt;/h2&gt;&lt;p&gt;Most computers use block of 8 bits, or &lt;em&gt;bytes&lt;/em&gt;, as the smallest unit of memory.&lt;/p&gt;
+&lt;p&gt;A mechine-level program views memory as a very large array of bytes, referred to as &lt;em&gt;virtual memory&lt;/em&gt;. Every byte of memory is identified by a unique nubmer, known as &lt;em&gt;address&lt;/em&gt;, and the set of all possible addresses is known as the &lt;em&gt;virtual address space&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Virtual address space is just a conceptual image presented to mechine-level program. The actual implementation uses a combination of DRAM, flash memory, disk storage,special hardware, and operating system software to provide the program with what apears to be a monolithic byte array.&lt;/p&gt;
+&lt;p&gt;The GNU Compiler Collection (GCC) can compile programs according to the conventions of several different version of the C language, based on different command-line options.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Specifying different versions of C to gcc&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;211-hexadecimal-notation&#34;&gt;2.1.1 Hexadecimal Notation
+&lt;/h3&gt;&lt;p&gt;Decimal and binary values associated with the hexadecimal digits:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Hexadecimal notation&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;For $x = 2,048 = 2^{11}$, we have $n = 11 = 3 + 4 \cdot 2$, giving hexdecimal representation &lt;code&gt;0x800&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;212-data-sizes&#34;&gt;2.1.2 Data Sizes
+&lt;/h3&gt;&lt;p&gt;A 32-bit word size limits the virtual address space to 4 gigabytes(written 4 GB), that is, just over 4 x 10^9 bytes. Scaling up to a 64-bit word size leads to a virtual address space of 16 exabytes, or around 1.84 x 10^19 bytes.&lt;/p&gt;
+&lt;p&gt;The distinction referring to programs as being either &amp;ldquo;32-bit programs&amp;rdquo; or &amp;ldquo;64-bit programs&amp;rdquo; lies in how a program is compiled, rather than the type of machine on which it runs.&lt;/p&gt;
+&lt;p&gt;The C language supports multiple data formats for both integer and floating-piont data.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.3.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Typical sizes (in bytes) of basic C data types&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;int32_t&lt;/code&gt; and &lt;code&gt;int64_t&lt;/code&gt; have exactly 4 and 8 bytes, respectively, to avoid the vagaries of relying on &amp;ldquo;typical&amp;rdquo; sizes and different compiler settings.&lt;/p&gt;
+&lt;h3 id=&#34;213-addressing-and-byte-ordering&#34;&gt;2.1.3 Addressing and Byte Ordering
+&lt;/h3&gt;&lt;p&gt;The convention where the least significant bytes comes first is referred to as &lt;em&gt;little endian&lt;/em&gt;. The convention where the most sifnificant byte comes first is referred to as &lt;em&gt;big endian&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;For value &lt;code&gt;x = 0x01234567&lt;/code&gt;, the high-order byte has hexadecimal value &lt;code&gt;0x01&lt;/code&gt;, while the low-order byte has value &lt;code&gt;0x67&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/big-little-endian.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.5-2.6.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Byte representations of different data values among different machines&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Although the floating-pint and the integer data both encode the numeric value 12,345, they have very different byte patterns: 0x00003039 for the integer and 0x4640E400 for floating point. In general, these two formats use different encoding shemes. If we expand these hexadecimal patterns into binary form and shift them appropriately, we find a sequence of 13 matching bits, indicated by a sequence of asterisks, as follows:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/mathcing-bits-of-floating-point-and-integer.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;214-representing-strings&#34;&gt;2.1.4 Representing Strings
+&lt;/h3&gt;&lt;p&gt;None&lt;/p&gt;
+&lt;h3 id=&#34;215-representing-code&#34;&gt;2.1.5 Representing Code
+&lt;/h3&gt;&lt;p&gt;None&lt;/p&gt;
+&lt;h3 id=&#34;216-introduction-to-boolean-algebra&#34;&gt;2.1.6 Introduction to Boolean Algebra
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.7.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Operations of Boolean algebra&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;When we consider operations ^, &amp;amp; and ~ operating on bit vectors of length w, we get a different mathematical form, known as a Boolean ring.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;a ^ a = 0&lt;/code&gt; for any value a, so &lt;code&gt;(a ^ b) ^ a = b&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;According to the position of 1 from right to left, bit vector a = [01101001] encodes the set A = {0, 3, 5, 6}, while bit vector b = [01010101] encodes the set B = {0, 2, 4, 6}. Then the operation a &amp;amp; b yields bit vector [01000001], while $A \cap B$ = {0, 6}.&lt;/p&gt;
+&lt;h3 id=&#34;217-bit-level-operations-in-c&#34;&gt;2.1.7 Bit-Level Operations in C
+&lt;/h3&gt;&lt;p&gt;The best way to determin the effect of a bit-level expression is to extend the hexadecimal arguments to their binary representations, perform the operations in binary, and then convert back to the hexadecimal.&lt;/p&gt;
+&lt;p&gt;A mask is a bit pattern that indicates a selected set of bits within a word. The expression &lt;code&gt;~0&lt;/code&gt; will yield a mask of all ones.&lt;/p&gt;
+&lt;h3 id=&#34;218-logical-operations-in-c&#34;&gt;2.1.8 Logical Operations in C
+&lt;/h3&gt;&lt;p&gt;A bitwise operation will have behavior matching that of its logical counterpart only in the special case in which the arguments are restricted to 0 or 1.&lt;/p&gt;
+&lt;p&gt;The logical operators do not evaluate their second argument if the result of the expression can be determined by evaluating the first argument.&lt;/p&gt;
+&lt;h3 id=&#34;219-shift-operations-in-c&#34;&gt;2.1.9 Shift Operations in C
+&lt;/h3&gt;&lt;p&gt;Left shift &lt;code&gt;x &amp;lt;&amp;lt; k&lt;/code&gt;: $x$ is shifted $k$ bits to the left, dropping off the $k$ most significant bits and filling the right end with $k$ zeros.&lt;/p&gt;
+&lt;p&gt;Right shift &lt;code&gt;x &amp;gt;&amp;gt; k&lt;/code&gt; has:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Logical. A logical right shift fills the left end with $k$ zeros.&lt;/li&gt;
+&lt;li&gt;Arithmetic. An arithemetic right shift fills the left end with $k$ repetitions of the most significant bit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For signed data (int, long, etc.), it determined by compiler (according to mechine structure) whether right shift in c is &lt;strong&gt;logical&lt;/strong&gt; or &lt;strong&gt;arithmetic&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;While for unsigned data (unsigned int, unsigned long), it is always &lt;strong&gt;logical&lt;/strong&gt; right shift.&lt;/p&gt;
+&lt;p&gt;Here are examples:
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/shift-operations-in-c.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Arithmetic right shift is the most-used right shift for signed data. But for unsigned data it must be logical right shift.&lt;/p&gt;
+&lt;p&gt;On many machines, the shift instruction consider only the lower $log_2 w$ bits of the shift amount when shifting a w-bit value, and so the shift amount is computed as &lt;code&gt;k mod w&lt;/code&gt;. &lt;code&gt;w&lt;/code&gt; is the bit length of the data type. For instance:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;w&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;32&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;// 32-bit integer
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// These will give identical results:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;       &lt;span class=&#34;c1&#34;&gt;// shift by 3
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;35&lt;/span&gt;      &lt;span class=&#34;c1&#34;&gt;// shift by 35 (35 mod 32 = 3)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;67&lt;/span&gt;      &lt;span class=&#34;c1&#34;&gt;// shift by 67 (67 mod 32 = 3)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Because:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;  &lt;span class=&#34;n&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;binary&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mo&#34;&gt;00011&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;lowest&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bits&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;mi&#34;&gt;35&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;binary&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;100011&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;lowest&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bits&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mo&#34;&gt;00011&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;mi&#34;&gt;67&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;binary&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1000011&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;lowest&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bits&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mo&#34;&gt;00011&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;22-integer-representations&#34;&gt;2.2 Integer Representations
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.8.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Terminology for integer data and arithmetic operations&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;221-integral-data-types&#34;&gt;2.2.1 Integral Data Types
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.9.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Typical ranges for C integral data types for 32-bit programs&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.10.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Typical ranges for C integral data types for 64-bit programs&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.11.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Guaranteed ranges for C integral data types&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;222-unsigned-encodings&#34;&gt;2.2.2 Unsigned Encodings
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.12.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Unsigned number examples for w = 4.&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;principle: Definition of unsigned encoding&lt;/p&gt;
+&lt;p&gt;For vector $\vec{x} = [x_{w-1}, x_{w-2}, \ldots, x_{0}$:
+$$
+B2U_{w}(\vec{x}) = \sum_{i=0}^{w-1}x_{i}2^i \qquad (2.1)
+$$&lt;/p&gt;
+&lt;p&gt;The least value is given by bit vector $[00 \cdots 0]$ having integer value 0, and the greatest value is given by bit vector $[11 \cdots 1]$ having integer value $UMax_{w} \doteq \sum_{i=0}^{w-1}2^i = 2^w - 1$.&lt;/p&gt;
+&lt;p&gt;principle: Uniqueness of unsigned encoding&lt;/p&gt;
+&lt;p&gt;Function $B2U_{w}$ is a bijection.&lt;/p&gt;
+&lt;h3 id=&#34;223-twos-complement-encodings&#34;&gt;2.2.3 Two’s-Complement Encodings
+&lt;/h3&gt;&lt;p&gt;principle: Definition of two’s-complement encoding&lt;/p&gt;
+&lt;p&gt;For vector $\vec{x} = [x_{w-1},x_{w-2},\cdots x_{0}]$:
+$$
+B2T_{w}(\vec{x}) \doteq -x_{w-1}2^{w-1} + \sum_{i=0}^{w-2}x_{i}2^{i} \qquad (2.3)
+$$&lt;/p&gt;
+&lt;p&gt;The MSB (most significant bit) has its dual role as both the sign and a weighted bit.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.13.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Two&amp;rsquo;s-complement number examples forw = 4&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The least representable value is given by bitvector &lt;code&gt;[10 ... 0]&lt;/code&gt; (set the bit with negative weight but clear all others),having integer value $TMin_{w} \doteq - 2^{w-1}$.The greatest value is given by bitvector &lt;code&gt;[01 ... 1]&lt;/code&gt; (clear the bit with negative weight but set all others),having integer value $Tmax_{w} \doteq \sum_{i=0}^{w-2}2^i = 2^{w} - 1$.&lt;/p&gt;
+&lt;p&gt;principle: Uniqueness of two’s-complement encoding&lt;/p&gt;
+&lt;p&gt;Function $B2T_{w}$ is a bijection.&lt;/p&gt;
+&lt;p&gt;$\left| TMin \right| = \left| TMax \right| + 1$&lt;/p&gt;
+&lt;p&gt;Since 0 is nonnegative, this means that it can represent one less positive number than negative.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.14.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Important numbers&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Two other standard representations for signed numbers:
+$$
+B2O_{w}(\vec{x}) \doteq -x_{w-1}(2^{w-1} - 1) + \sum &lt;em&gt;{i=0}^{w-2}x&lt;/em&gt;{i}2^{i}
+$$
+$$
+B2S_{w}(\vec{x}) \doteq (-1)^{x_{w-1}} \cdot \left( \sum &lt;em&gt;{i = 0}^{w-2}x&lt;/em&gt;{i}2^{i} \right)
+$$&lt;/p&gt;
+&lt;h3 id=&#34;224-conversions-between-signed-and-unsigned&#34;&gt;2.2.4 Conversions between Signed and Unsigned
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.15.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Two’s-complement representations of 12,345 and ?12,345, and unsigned representation of 53,191. Note that the latter two have identical bit representations&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;$$
+T2U_{w}\left( \vec{x} \right) \doteq B2U_{w}\left( T2B_{w} \right)
+$$
+$$
+U2T_{w}\left( \vec{x} \right) \doteq B2T_{w}\left( U2B_{w} \right)
+$$&lt;/p&gt;
+&lt;p&gt;principle: Conversion from two’s complement to unsigned&lt;/p&gt;
+&lt;p&gt;For x such that $TMinw ≤ x ≤ TMaxw$:
+$$
+T2U_{w}\left( x \right)  = \begin{cases}
+x + 2^{w}, &amp;amp; x &amp;lt; 0  \
+x, &amp;amp; x \geq 0
+\end{cases} \qquad (2.5)
+$$&lt;/p&gt;
+&lt;p&gt;derivation: Conversion from two’s complement to unsigned&lt;/p&gt;
+&lt;p&gt;Comparing Equations 2.1 and 2.3, we can see that for bit pattern $\vec{x}$, if we compute the difference $B2U_{w}(\vec{x}) - B2T_{w}(\vec{x})$, the weighted sums for bits from &lt;code&gt;0&lt;/code&gt; to &lt;code&gt;w - 2&lt;/code&gt; will cancel each other, leaving a value $B2U_{w}(\vec{x}) - B2T_{w}(\vec{x}) = x_{w-1} (2^{w-1} - -2^{w-1}) = x_{w-1}2^{w}$. This gives a relationship $B2U_{w}(\vec{x}) = B2T_{w}(\vec{x}) + x_{w-1}2^{w}$. We therefore have
+$$
+B2U_{w}(T2B_{w}(x)) = T2U_{w}(x) = x ;+;x_{w-1}2^{w} \qquad (2.6)
+$$&lt;/p&gt;
+&lt;p&gt;For the two’s-complement case, the most significant bit serves as the sign bit, which we diagram as a leftward-pointing gray bar. For the unsigned case, this bit has positive weight, which we show as a rightward-pointing black bar.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.16.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Comparing unsigned and two’s-complement representations for w = 4.&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.17.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Conversion from two’s complement to unsigned.&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.18.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Conversion from unsigned to two’s complement.&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;principle: Unsigned to two’s-complement conversion
+For u such that $0 \leq u \leq UMax_{w}$:
+$$
+U2T_{w}(u) = \begin{cases}
+u, &amp;amp; u \leq TMax_{w} \
+u - 2^{w}, &amp;amp; u &amp;gt; Tmax_{w}
+\end{cases} \qquad (2.7)
+$$&lt;/p&gt;
+&lt;p&gt;derivation: Unsigned to two’s-complement conversion
+Let $\vec{u} = U2B_{w}(u)$. This bit vector will also be the two’s-complement representation of $U2T_{w}(u)$. Equations 2.1 and 2.3 can be combined to give
+$$
+U2T_{w}(u) = -u_{w-1}2^{w} + u \qquad (2.8)
+$$&lt;/p&gt;
+&lt;p&gt;To summarize, we considered the effects of converting in both directions between unsigned and two’s-complement representations. For values x in the range $0 \leq x \leq TMax_{w}$, we have $T2U_{w}(x) = x$ and $U2T_{w}(x) = x$. That is, numbers in this range have identical unsigned and two’s-complement representations. For values outside of this range, the conversions either add or subtract $2^{w}$. For example, we have $T2U_{w}(-1) = -1 + 2^{w}$ -the negative number closest to zero maps to the largest unsigned number. At the other extreme, one can see that $T2U_{w}(TMin_{w}) = -2^{w-1} + 2^{w} = 2^{w-1} = TMax_{w} - 1$ —the most negative number maps to an unsigned number just outside the range of positive two’s-complement numbers. Using the example of Figure 2.15, we can see that $T2U_{16}(-12345) = 65536 + -12345 = 53191$.&lt;/p&gt;
+&lt;h3 id=&#34;225-signed-versus-unsigned-in-c&#34;&gt;2.2.5 Signed versus Unsigned in C
+&lt;/h3&gt;&lt;p&gt;From here on, since repeatedly taking screenshots and copying key words is very troublesome, I will only record key words that help with memory as summarized by myself, which also serves as an index.&lt;/p&gt;
+&lt;p&gt;most signed by default, suffix &lt;code&gt;u&lt;/code&gt; for unsigned&lt;/p&gt;
+&lt;p&gt;%d, %u, and %x
+a signed decimal, an unsigned decimal, and in hexadecimal format&lt;/p&gt;
+&lt;p&gt;possible, print, int with %u, unsigned with %d&lt;/p&gt;
+&lt;p&gt;result of the expression &lt;code&gt;-1 &amp;lt; 0U&lt;/code&gt; is &lt;em&gt;0 and unsigned&lt;/em&gt;, since &lt;code&gt;0U&lt;/code&gt; is unsigned, &lt;code&gt;-1&lt;/code&gt; is implicitly cast to unsigned, which is $T2U_{w}(-1) = UMax_{w} = 4294967295U$.&lt;/p&gt;
+&lt;h3 id=&#34;226-expanding-the-bit-representation-of-a-number&#34;&gt;2.2.6 Expanding the Bit Representation of a Number
+&lt;/h3&gt;&lt;p&gt;unsigned -&amp;gt; large data type =&amp;gt; add leading &lt;em&gt;zeros&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;two&amp;rsquo;s-complement -&amp;gt; large data type =&amp;gt; sign extension (filled by the first bit)&lt;/p&gt;
+&lt;p&gt;The key property we exploit is that $2^{w} - 2^{w-1} = 2^{w-1}$. Thus, the combined effect of adding a bit of weight $-2^{w}$ and of converting the bit having weight $-2^{w-1}$ to be one with weight $2^{w-1}$ is to preserve the original numeric value.&lt;/p&gt;
+&lt;p&gt;[[How could the number of bigger data type with leading 1 equals to the original number.en |Here is the chatgpt expalanation of why bigger data type with leading 1 equals to the original number.]]&lt;/p&gt;
+&lt;p&gt;When &lt;code&gt;short&lt;/code&gt; cast to &lt;code&gt;unsigned&lt;/code&gt;, it will first promote to &lt;code&gt;int&lt;/code&gt;, result in &lt;code&gt;(unsigned)(int)&lt;/code&gt; rather than &lt;code&gt;(unsigned)(unsigned short)&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;227-truncating-numbers&#34;&gt;2.2.7 Truncating Numbers
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;53191&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;kt&#34;&gt;short&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;sx&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;short&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;cm&#34;&gt;/* -12345 */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;sx&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;cm&#34;&gt;/* -12345 */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;[[Why would int 53191 become -12345 after truncating to short.en]]&lt;/p&gt;
+&lt;p&gt;truncate &lt;code&gt;x&lt;/code&gt; down to k bits &lt;code&gt;x&#39;&lt;/code&gt;: $x&amp;rsquo; = x \mod 2^{k}$&lt;/p&gt;
+&lt;p&gt;[[why does  the modula of &lt;code&gt;x mod 2 to k power&lt;/code&gt; will retain k bits.en]]&lt;/p&gt;
+&lt;h3 id=&#34;228-advice-on-signed-versus-unsigned&#34;&gt;2.2.8 Advice on Signed versus Unsigned
+&lt;/h3&gt;&lt;p&gt;None&lt;/p&gt;
+&lt;h3 id=&#34;23-integer-arithmetic&#34;&gt;2.3 Integer Arithmetic
+&lt;/h3&gt;&lt;h3 id=&#34;232-twos-complement-addition&#34;&gt;2.3.2 Two’s-Complement Addition
+&lt;/h3&gt;&lt;p&gt;overflow means remove the most significant bit.&lt;/p&gt;
+&lt;p&gt;positive overflow: x &amp;gt; 0 &amp;amp; y &amp;gt; 0 but $x +&lt;em&gt;{w}^{t}y \leq 0$.
+negetive overflow: x &amp;lt; 0 &amp;amp; y &amp;lt; 0 but $x +&lt;/em&gt;{w}^{t}y \geq 0$.&lt;/p&gt;
+&lt;p&gt;$x *&lt;em&gt;{w}^{t} = U2T&lt;/em&gt;{w}((x\cdot y)\mod 2^{w})$&lt;/p&gt;
+&lt;p&gt;k bits will be left if you modula a binary x by k.&lt;/p&gt;
+&lt;p&gt;we can transform multiplication into shifting, for example, x * 14:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;14 = 2^3 + 2^2 + 2^1 =&amp;gt; (x&amp;laquo;3) + (x&amp;laquo;2) + (x&amp;laquo;1)&lt;/li&gt;
+&lt;li&gt;14 = 2^4 - 2^1 =&amp;gt; (x&amp;laquo;4) - (x&amp;laquo;1)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For the cases where rounding is required, adding the bias causes the upper bits to be incremented, so that the result will be rounded toward zero.&lt;/p&gt;
+&lt;p&gt;$\lceil x/y \rceil=\lfloor (x + y - 1) / y\rfloor$&lt;/p&gt;
+&lt;p&gt;c expression that yields x/2^k: &lt;code&gt;(x&amp;lt;0 ? x+(1&amp;lt;&amp;lt;k)-1 : x) &amp;gt;&amp;gt; k&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;24-floating-point&#34;&gt;2.4 Floating Point
+&lt;/h2&gt;&lt;h3 id=&#34;241-fractional-binary-numbers&#34;&gt;2.4.1 Fractional Binary Numbers
+&lt;/h3&gt;&lt;p&gt;$$
+b = \sum_{i=-n}^{m}2^{i} \times b_{i}
+$$
+it can&amp;rsquo;t represent a very large number.&lt;/p&gt;
+&lt;h3 id=&#34;242-ieee-floating-point-representation&#34;&gt;2.4.2 IEEE Floating-Point Representation
+&lt;/h3&gt;&lt;p&gt;The IEEE floating-point standard represents a number in a form:
+$V=(-1)^{s}\times M\times2^{E}$.&lt;/p&gt;
+&lt;p&gt;V: Values
+s: sign
+M: significand
+E: exponent&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.32.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.33.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;E = e - bias&lt;/p&gt;
+&lt;h3 id=&#34;244-rounding-floating-point&#34;&gt;2.4.4 Rounding Floating-point
+&lt;/h3&gt;&lt;p&gt;4 rounding modes:
+&lt;img src=&#34;http://localhost:1313/blog/blog/CSAPP/2.37.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Halfway point format: &lt;code&gt;XX...X.YY...Y100...&lt;/code&gt;&lt;/p&gt;
 </description>
         </item>
         

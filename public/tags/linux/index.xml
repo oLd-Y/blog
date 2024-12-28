@@ -1,44 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Linux on lyao&#39;s Blog</title>
+        <title>Linux on 谷栗杳</title>
         <link>http://localhost:1313/blog/tags/linux/</link>
-        <description>Recent content in Linux on lyao&#39;s Blog</description>
+        <description>Recent content in Linux on 谷栗杳</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language>
+        <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Sat, 16 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/linux/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>extract a .tar.gz file</title>
-        <link>http://localhost:1313/blog/p/extract-a-.tar.gz-file/</link>
-        <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
+        <lastBuildDate>Wed, 04 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/linux/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>在 linux 中创建软链接</title>
+        <link>http://localhost:1313/blog/p/%E5%9C%A8-linux-%E4%B8%AD%E5%88%9B%E5%BB%BA%E8%BD%AF%E9%93%BE%E6%8E%A5/</link>
+        <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/p/extract-a-.tar.gz-file/</guid>
-        <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tar -xvzf test.tar.gz
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;code&gt;tar&lt;/code&gt; collected all the files into one package &lt;code&gt;test.tar&lt;/code&gt;. The gzip program applied compression, hence the &lt;code&gt;gz&lt;/code&gt; extension. So the command does a couple things:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;f&lt;/code&gt;: this must be the last flag of the command, and the tar &lt;strong&gt;f&lt;/strong&gt;ile must be immediately after. It tells tar the name and path of the compressed file.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;z&lt;/code&gt;: tells tar to decompress the archive using g&lt;strong&gt;z&lt;/strong&gt;ip&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;x&lt;/code&gt;: tar can collect files or e&lt;strong&gt;x&lt;/strong&gt;tract them. &lt;code&gt;x&lt;/code&gt; does the latter.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;v&lt;/code&gt;: makes tar talk a lot. &lt;strong&gt;V&lt;/strong&gt;erbose output shows you all the files being extracted.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;To extract into a &lt;strong&gt;c&lt;/strong&gt;ustom folder, add the &lt;code&gt;-C&lt;/code&gt; option with a folder name of your choice:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tar -xvzf test.tar.gz -C some_custom_folder_name
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://askubuntu.com/questions/25347/what-command-do-i-need-to-unzip-extract-a-tar-gz-file&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;reference&lt;/a&gt;&lt;/p&gt;
+        <guid>http://localhost:1313/blog/p/%E5%9C%A8-linux-%E4%B8%AD%E5%88%9B%E5%BB%BA%E8%BD%AF%E9%93%BE%E6%8E%A5/</guid>
+        <description>&lt;p&gt;&lt;code&gt;ln -s &amp;lt;source&amp;gt; &amp;lt;target&amp;gt;&lt;/code&gt;, 该命令会在当前目录下创建一个 target 文件，该文件会链接到 source 文件。&lt;/p&gt;
 </description>
         </item>
         

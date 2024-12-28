@@ -1,13 +1,153 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>输入法 on lyao&#39;s Blog</title>
+        <title>输入法 on 谷栗杳</title>
         <link>http://localhost:1313/blog/tags/%E8%BE%93%E5%85%A5%E6%B3%95/</link>
-        <description>Recent content in 输入法 on lyao&#39;s Blog</description>
+        <description>Recent content in 输入法 on 谷栗杳</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language>
+        <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Tue, 05 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/%E8%BE%93%E5%85%A5%E6%B3%95/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 11 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/%E8%BE%93%E5%85%A5%E6%B3%95/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>虎码用法记录</title>
+        <link>http://localhost:1313/blog/p/%E8%99%8E%E7%A0%81%E7%94%A8%E6%B3%95%E8%AE%B0%E5%BD%95/</link>
+        <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/%E8%99%8E%E7%A0%81%E7%94%A8%E6%B3%95%E8%AE%B0%E5%BD%95/</guid>
+        <description>&lt;h2 id=&#34;rime-输入特殊字符&#34;&gt;Rime 输入特殊字符
+&lt;/h2&gt;&lt;p&gt;如果你使用的是 Rime 输入法，可以使用 &lt;code&gt;/&lt;/code&gt; 加一些引导输入一些特殊字符，例如 &lt;code&gt;/xl&lt;/code&gt; 输入希腊字符。&lt;/p&gt;
+&lt;p&gt;更加具体的可以查看配置文件中的 &lt;code&gt;symbol.yaml&lt;/code&gt; 文件中的 &lt;code&gt;symbols&lt;/code&gt; 属性。&lt;/p&gt;
+&lt;h2 id=&#34;添加四码上屏功能&#34;&gt;添加四码上屏功能
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;tiger.schema.yaml, 虎码单字输入&lt;/li&gt;
+&lt;li&gt;tigress.schema.yaml, 虎码官方词库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在 &lt;code&gt;tigeress.schema.yaml&lt;/code&gt; 文件中找到 &lt;code&gt;auto_select_pattern&lt;/code&gt; 属性，将其值改为 &lt;code&gt;^;\w+|^\w{4}$&lt;/code&gt; 即可。&lt;/p&gt;
+&lt;h2 id=&#34;快速输入标点符号&#34;&gt;快速输入标点符号
+&lt;/h2&gt;&lt;p&gt;以 &lt;code&gt;;&lt;/code&gt; 键开头，加上字母键，可以快速打出一些标点符号。以下为默认标点的表格（按照键盘顺序）：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;字母&lt;/th&gt;
+&lt;th&gt;标点&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;;q&lt;/td&gt;
+&lt;td&gt;：“&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;w&lt;/td&gt;
+&lt;td&gt;？&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;e&lt;/td&gt;
+&lt;td&gt;（&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;r&lt;/td&gt;
+&lt;td&gt;）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;t&lt;/td&gt;
+&lt;td&gt;→&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;y&lt;/td&gt;
+&lt;td&gt;·&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;u&lt;/td&gt;
+&lt;td&gt;~&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;i&lt;/td&gt;
+&lt;td&gt;——&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;o&lt;/td&gt;
+&lt;td&gt;〖&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;p&lt;/td&gt;
+&lt;td&gt;〗&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;a&lt;/td&gt;
+&lt;td&gt;！&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;s&lt;/td&gt;
+&lt;td&gt;……&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;d&lt;/td&gt;
+&lt;td&gt;、&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;f&lt;/td&gt;
+&lt;td&gt;“&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;g&lt;/td&gt;
+&lt;td&gt;”&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;h&lt;/td&gt;
+&lt;td&gt;『&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;j&lt;/td&gt;
+&lt;td&gt;』&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;k&lt;/td&gt;
+&lt;td&gt;￥&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;l&lt;/td&gt;
+&lt;td&gt;%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;z&lt;/td&gt;
+&lt;td&gt;|&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;x&lt;/td&gt;
+&lt;td&gt;【&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;c&lt;/td&gt;
+&lt;td&gt;】&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;v&lt;/td&gt;
+&lt;td&gt;《&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;b&lt;/td&gt;
+&lt;td&gt;》&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;n&lt;/td&gt;
+&lt;td&gt;「&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;;m&lt;/td&gt;
+&lt;td&gt;」&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;快速重复输入&#34;&gt;快速重复输入
+&lt;/h2&gt;&lt;p&gt;可以使用一些引导快速打重复的字，有这些符号：
+&lt;code&gt;z、&#39;、[、]&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;比如按 &lt;code&gt;[&lt;/code&gt; 键是在第一位，其它符号在第三位等。&lt;/p&gt;
+&lt;h2 id=&#34;切换&#34;&gt;切换
+&lt;/h2&gt;&lt;p&gt;Ctrl-o 切换简繁
+Ctrl-h 切换大小字集&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>wsl neovim 自动切换输入法</title>
         <link>http://localhost:1313/blog/p/wsl-neovim-%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E8%BE%93%E5%85%A5%E6%B3%95/</link>
         <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>

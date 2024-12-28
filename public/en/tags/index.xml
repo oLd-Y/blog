@@ -7,12 +7,180 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Wed, 06 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/en/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 23 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/en/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Ai-QA</title>
+        <link>http://localhost:1313/blog/en/tags/ai-qa/</link>
+        <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/tags/ai-qa/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Ai-QA/Chatgpt</title>
+        <link>http://localhost:1313/blog/en/tags/ai-qa/chatgpt/</link>
+        <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/tags/ai-qa/chatgpt/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Git</title>
+        <link>http://localhost:1313/blog/en/tags/git/</link>
+        <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/tags/git/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>CSAPP</title>
+        <link>http://localhost:1313/blog/en/tags/csapp/</link>
+        <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/tags/csapp/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>C</title>
+        <link>http://localhost:1313/blog/en/tags/c/</link>
+        <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/tags/c/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Grammar</title>
+        <link>http://localhost:1313/blog/en/tags/grammar/</link>
+        <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/tags/grammar/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Command</title>
+        <link>http://localhost:1313/blog/en/tags/command/</link>
+        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/tags/command/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Learn-X-Through-Examples</title>
+        <link>http://localhost:1313/blog/en/tags/learn-x-through-examples/</link>
+        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/tags/learn-x-through-examples/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Vim</title>
+        <link>http://localhost:1313/blog/en/tags/vim/</link>
+        <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/tags/vim/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Base</title>
+        <link>http://localhost:1313/blog/en/tags/base/</link>
+        <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/tags/base/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Data-Type-Casting</title>
+        <link>http://localhost:1313/blog/en/tags/data-type-casting/</link>
+        <pubDate>Sat, 23 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/tags/data-type-casting/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Gzip</title>
+        <link>http://localhost:1313/blog/en/tags/gzip/</link>
+        <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/tags/gzip/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Linux</title>
+        <link>http://localhost:1313/blog/en/tags/linux/</link>
+        <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/tags/linux/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Tar</title>
+        <link>http://localhost:1313/blog/en/tags/tar/</link>
+        <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/tags/tar/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Learn-X-Through-Code</title>
+        <link>http://localhost:1313/blog/en/tags/learn-x-through-code/</link>
+        <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/tags/learn-x-through-code/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Practice</title>
+        <link>http://localhost:1313/blog/en/tags/practice/</link>
+        <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/tags/practice/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Latex</title>
+        <link>http://localhost:1313/blog/en/tags/latex/</link>
+        <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/tags/latex/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Math</title>
+        <link>http://localhost:1313/blog/en/tags/math/</link>
+        <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/tags/math/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Ahk</title>
+        <link>http://localhost:1313/blog/en/tags/ahk/</link>
+        <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/tags/ahk/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Tool</title>
         <link>http://localhost:1313/blog/en/tags/tool/</link>
-        <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/en/tags/tool/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Trick</title>
+        <link>http://localhost:1313/blog/en/tags/trick/</link>
+        <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/tags/trick/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Windows</title>
+        <link>http://localhost:1313/blog/en/tags/windows/</link>
+        <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/tags/windows/</guid>
         <description></description>
         </item>
         <item>

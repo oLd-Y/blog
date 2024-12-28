@@ -1,96 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Lazyvim on lyao&#39;s Blog</title>
+        <title>Lazyvim on 谷栗杳</title>
         <link>http://localhost:1313/blog/tags/lazyvim/</link>
-        <description>Recent content in Lazyvim on lyao&#39;s Blog</description>
+        <description>Recent content in Lazyvim on 谷栗杳</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language>
+        <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Tue, 24 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/lazyvim/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>LazyVim for Ambitious Developers reading notes</title>
-        <link>http://localhost:1313/blog/p/lazyvim-for-ambitious-developers-reading-notes/</link>
-        <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+        <lastBuildDate>Thu, 05 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/lazyvim/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>lazyvim 超出屏幕的一行不会自动换行</title>
+        <link>http://localhost:1313/blog/p/lazyvim-%E8%B6%85%E5%87%BA%E5%B1%8F%E5%B9%95%E7%9A%84%E4%B8%80%E8%A1%8C%E4%B8%8D%E4%BC%9A%E8%87%AA%E5%8A%A8%E6%8D%A2%E8%A1%8C/</link>
+        <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/p/lazyvim-for-ambitious-developers-reading-notes/</guid>
-        <description>&lt;p&gt;Tutorial link: &lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;LazyVim for Ambitious Developers&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;In keybindings, &lt;code&gt;C&lt;/code&gt; means &lt;code&gt;Ctrl&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;chapter-1-introduction-and-installationhttpslazyvim-ambitious-devsphillipscodescoursechapter-1_introduction_and_installation&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-1/#_introduction_and_installation&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Chapter 1. Introduction and Installation&lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;Use a GPU-accelerated terminal for installing LazyVim, such as: &lt;a class=&#34;link&#34; href=&#34;https://sw.kovidgoyal.net/kitty/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Kitty Terminal&lt;/a&gt;, &lt;a class=&#34;link&#34; href=&#34;https://alacritty.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Alacritty&lt;/a&gt;, &lt;a class=&#34;link&#34; href=&#34;https://github.com/microsoft/terminal?tab=readme-ov-file&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Windows Terminal&lt;/a&gt;, etc.&lt;/p&gt;
-&lt;p&gt;For installation instructions, please refer to the &lt;a class=&#34;link&#34; href=&#34;https://www.lazyvim.org/installation&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;official website&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;keys:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;&amp;lt;Space&amp;gt;l&lt;/code&gt;, n, open the lazy.nvim plugin manager. Press &lt;code&gt;S&lt;/code&gt; to sync the update.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;chapter-2-what-is-modal-editing-anywayhttpslazyvim-ambitious-devsphillipscodescoursechapter-2_what_is_modal_editing_anyway&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-2/#_what_is_modal_editing_anyway&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Chapter 2. What is Modal Editing, Anyway?&lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;In normal mode, &lt;code&gt;&amp;quot;&lt;/code&gt; can open available registers.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;:x&lt;/code&gt; is almost equivalent to &lt;code&gt;:wq&lt;/code&gt;, but &lt;code&gt;:x&lt;/code&gt; does not perform save operations when the file has not been modified.&lt;/p&gt;
-&lt;p&gt;keys:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;C-R&lt;/code&gt;, i, pop up the register menu.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;&amp;quot;&lt;/code&gt;, n, pop up the register menu.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;C-c&lt;/code&gt;, can also exit the insert mode and enter the normal mode.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;:q!&lt;/code&gt;, force to quit neovim without saving.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;:x&lt;/code&gt; nearly equals to &lt;code&gt;:wq&lt;/code&gt;, except that &lt;code&gt;:x&lt;/code&gt; won&amp;rsquo;t execute the &amp;ldquo;save&amp;rdquo; operation if there is no modifications.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;:e &amp;lt;path&amp;gt;&lt;/code&gt; to edit a new file, &lt;code&gt;&amp;lt;Tab&amp;gt;&lt;/code&gt; to cicyle through the available directories, &lt;code&gt;C-y&lt;/code&gt; to accept the current directory, &lt;code&gt;&amp;lt;Down&amp;gt;&lt;/code&gt; to enter the selected directory.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;chapter-3-getting-aroundhttpslazyvim-ambitious-devsphillipscodescoursechapter-3_getting_around&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-3/#_getting_around&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Chapter 3. Getting Around&lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;keys:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;s&lt;/code&gt; to enable the seek mode of &lt;code&gt;flash&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;C-&amp;lt;Up&amp;gt;&lt;/code&gt;, &lt;code&gt;C-&amp;lt;Down&amp;gt;&lt;/code&gt;, &lt;code&gt;C-y&lt;/code&gt;, &lt;code&gt;C-e&lt;/code&gt; to scroll the screen.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;&amp;lt;Space&amp;gt;fc&lt;/code&gt;, open the configuration directory of lazyvim.&lt;/li&gt;
-&lt;li&gt;set vim options in &lt;code&gt;lua/option.lua&lt;/code&gt; file:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;vim.opt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;number&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;vim.opt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;relativenumber&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;&lt;code&gt;f&lt;/code&gt;/&lt;code&gt;F&lt;/code&gt; to find next/previous character, press again to continously forward/backward. &lt;code&gt;;&lt;/code&gt; is set to repeat the operation by default. Or you can use &lt;code&gt;f&lt;/code&gt; to jump to the third character after the current cursor.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;t&lt;/code&gt;/&lt;code&gt;T&lt;/code&gt; is same like &lt;code&gt;f&lt;/code&gt;/&lt;code&gt;F&lt;/code&gt; , but &lt;code&gt;t&lt;/code&gt;/&lt;code&gt;T&lt;/code&gt; arrive right before the target character.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;w&lt;/code&gt;,&lt;code&gt;e&lt;/code&gt;,&lt;code&gt;b&lt;/code&gt; to go to &amp;ldquo;beginning of the next word&amp;rdquo;, &amp;ldquo;end of the next word&amp;rdquo;, &amp;ldquo;beginning of the previous word&amp;rdquo;. &lt;code&gt;W&lt;/code&gt;, &lt;code&gt;E&lt;/code&gt;, &lt;code&gt;B&lt;/code&gt; move a little bigger, which omit punctuation.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;be&lt;/code&gt;/&lt;code&gt;ge&lt;/code&gt; to go to the end of previous word.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;A&lt;/code&gt;/&lt;code&gt;I&lt;/code&gt; to move to the end/beginning of a line and enter insert mode.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;^&lt;/code&gt;/&lt;code&gt;$&lt;/code&gt;/&lt;code&gt;0&lt;/code&gt; to move to the beginning/end/beginning of the line in normal mode.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;gg&lt;/code&gt;/&lt;code&gt;G&lt;/code&gt; to move to the beginning/end of the file. &lt;code&gt;100G&lt;/code&gt;/&lt;code&gt;100gg&lt;/code&gt;/&lt;code&gt;:100&lt;/code&gt; to move to line 100.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;C-o&lt;/code&gt;/&lt;code&gt;C-i&lt;/code&gt; to jump backward/farward in jump history.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;chapter-4-opening-fileshttpslazyvim-ambitious-devsphillipscodescoursechapter-4_opening_files&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-4/#_opening_files&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Chapter 4. Opening Files&lt;/a&gt;
-&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;cwd&lt;/code&gt; is typically the directory where you enter nvim in the terminal, while &lt;code&gt;root dir&lt;/code&gt; is where there is a configuration file such as &lt;code&gt;.git&lt;/code&gt;, &lt;code&gt;package.json&lt;/code&gt;, etc.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;:LazyExtras&lt;/code&gt; opens the &lt;code&gt;mini.files&lt;/code&gt; plugin. &lt;code&gt;mini.files&lt;/code&gt; is compatible with many lazyvim text editing operations. Use &lt;code&gt;=&lt;/code&gt; to save modifications. To find and disable the same plugin again, press &lt;code&gt;x&lt;/code&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;keys:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;&amp;lt;Space&amp;gt; q q&lt;/code&gt;, closes the entire nvim window and save the session.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;&amp;lt;Space&amp;gt;&amp;lt;Space&amp;gt;&lt;/code&gt;/&lt;code&gt;Space&amp;gt;ff&lt;/code&gt;, find file (root dir), which is case insensitive and become sensitive right after there is a upper case character. &lt;code&gt;&amp;lt;Space&amp;gt;fF&lt;/code&gt; to find file (cwd).&lt;/li&gt;
-&lt;li&gt;Also, you can use &lt;code&gt;:lcd&lt;/code&gt; to temprarily change the &lt;code&gt;cwd&lt;/code&gt; for a buffer.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;s&lt;/code&gt; to enable the seek mode. Note that it will jump to the &lt;em&gt;first&lt;/em&gt; character of the seeking word.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;chapter-5-configuration-and-plugin-basicshttpslazyvim-ambitious-devsphillipscodescoursechapter-5_configuration_and_plugin_basics&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-5/#_configuration_and_plugin_basics&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Chapter 5. Configuration and Plugin Basics&lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;&lt;code&gt;.config/nvim/lua/config/keymaps.lua&lt;/code&gt; is generally used for setting key bindings in Neovim or those that come with lazyvim.&lt;/p&gt;
-&lt;p&gt;In plugin configuration parameters, keys set key bindings, and opts sets plugin-related option configurations.&lt;/p&gt;
-&lt;p&gt;Reference examples for various configurations:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Disable a certain feature:&lt;/li&gt;
-&lt;/ol&gt;
+        <guid>http://localhost:1313/blog/p/lazyvim-%E8%B6%85%E5%87%BA%E5%B1%8F%E5%B9%95%E7%9A%84%E4%B8%80%E8%A1%8C%E4%B8%8D%E4%BC%9A%E8%87%AA%E5%8A%A8%E6%8D%A2%E8%A1%8C/</guid>
+        <description>&lt;p&gt;如题，在 lazyvim 的配置文件中加入如下代码即可：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -98,105 +21,58 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;nvim-neo-tree/neo-tree.nvim&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;enabled&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;vim.opt_local&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;wrap&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;vim.opt_local&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;linebreak&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;-- 避免单词被拆开折叠&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;vim.opt_local&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;breakindent&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;-- 为折叠行添加缩进&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Modiry a certain built-in plugin &lt;code&gt;mini.files&lt;/code&gt;:&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>配置 lazyvim 中的 C 及 C&#43;&#43; 开发环境</title>
+        <link>http://localhost:1313/blog/p/%E9%85%8D%E7%BD%AE-lazyvim-%E4%B8%AD%E7%9A%84-c-%E5%8F%8A-c-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</link>
+        <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/%E9%85%8D%E7%BD%AE-lazyvim-%E4%B8%AD%E7%9A%84-c-%E5%8F%8A-c-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</guid>
+        <description>&lt;h3 id=&#34;lspclangd配置&#34;&gt;LSP（Clangd）配置
+&lt;/h3&gt;&lt;p&gt;在 &lt;code&gt;:LazyExtras&lt;/code&gt; 中打开 &lt;code&gt;langd.clangd&lt;/code&gt; 即可。此时关闭项目，任意打开一个项目，发现还是会有很多不应该的报错。这是因为缺少项目中缺少一个 &lt;code&gt;compile_commands.json&lt;/code&gt; 帮助 lsp server 理解代码。&lt;/p&gt;
+&lt;p&gt;lsp 的原理是将当前代码发给正在运行的 lsp server，lsp server 解析之后将分析结果返回，再展示到编辑器中。对于有包管理器的一些语言，可以借助其包管理器进行分析；而对于 C、C++这种比较古老的语言，没有包管理器，就需要用额外的文件来展示结构。这个文件就是 &lt;code&gt;compile_commands.json&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;理论上直接把你的项目结构按照一定的格式写入该文件然后放在项目的根目录即可。但很显然，有工具可以帮助我们完成这件事，即 &lt;a class=&#34;link&#34; href=&#34;https://github.com/rizsotto/Bear&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;bear&lt;/a&gt; 或者 &lt;a class=&#34;link&#34; href=&#34;https://github.com/nickdiego/compiledb&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;compiledb&lt;/a&gt;。bear 是用 C++ 编写的，compiledb 是用 Python 编写的。&lt;/p&gt;
+&lt;p&gt;由于 bear 只能在 linux 平台上使用，这里我们选择跨平台的 compiledb。&lt;/p&gt;
+&lt;p&gt;首先确保系统中安装了 python。执行 &lt;code&gt;pip install compiledb&lt;/code&gt; 安装 compiledb。ubuntu 系统如果没有 pip 可以先用 &lt;code&gt;sudo apt install python3-pip&lt;/code&gt; 安装一下 pip（pip3）。&lt;/p&gt;
+&lt;p&gt;如果安装完 compiledb 之后无法直接使用 compiledb 命令，可能是因为其路径没有加入到环境变量中。&lt;/p&gt;
+&lt;p&gt;在 &lt;code&gt;~/.bashrc&lt;/code&gt; 或者 &lt;code&gt;~/.zshrc&lt;/code&gt; 中加入如下代码：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;33
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;34
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;35
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;36
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;37
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;38
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;39
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;40
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;41
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;s2&#34;&gt;&amp;#34;echasnovski/mini.files&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;keys&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;leader&amp;gt;e&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;kr&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;require&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;mini.files&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;open&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;vim.api&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;nvim_buf_get_name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;kr&#34;&gt;end&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;desc&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Open mini.files (directory of current file)&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;leader&amp;gt;E&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;kr&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;require&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;mini.files&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;open&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;vim.uv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cwd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;kr&#34;&gt;end&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;desc&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Open mini.files (cwd)&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;leader&amp;gt;fm&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;kr&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;require&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;mini.files&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;open&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;LazyVim.root&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;kr&#34;&gt;end&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;desc&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Open mini.files (root)&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;opts&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;-- mappings = {&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;--   go_in = &amp;#34;&amp;lt;Right&amp;gt;&amp;#34;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;--   go_out = &amp;#34;&amp;lt;Left&amp;gt;&amp;#34;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;-- },&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;windows&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;width_nofocus&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;width_focus&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;40&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;width_preview&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;80&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;options&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;use_as_default_explorer&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;PATH&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$PATH&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;:/home/&amp;lt;username&amp;gt;/.local/bin&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;eval&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;_COMPILEDB_COMPLETE&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;source&lt;/span&gt; compiledb&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;Modify &lt;code&gt;nvim-cmp&lt;/code&gt;:&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/div&gt;&lt;p&gt;下面那行代码用于开启 compiledb 在命令行中的补全功能。&lt;/p&gt;
+&lt;p&gt;配置完成之后，我们只需要在项目的编译命令之前加上 &lt;code&gt;compiledb&lt;/code&gt;，就可以为这个项目加上 &lt;code&gt;compile_commands.json&lt;/code&gt; 文件。&lt;/p&gt;
+&lt;p&gt;例如我有一个 linux-0.11 的源码项目，在根目录下执行 &lt;code&gt;compiledb make all&lt;/code&gt;，只要编译成功，就可以为其添加 &lt;code&gt;compile_commands.json&lt;/code&gt; 文件了。&lt;/p&gt;
+&lt;h3 id=&#34;参考链接&#34;&gt;参考链接
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://ttys3.dev/blog/neovim-c-cpp-lsp-integration-tips&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Neovim C Cpp Lsp Integration Tips | /dev/ttyS3 Blog&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>wsl neovim 自动切换输入法</title>
+        <link>http://localhost:1313/blog/p/wsl-neovim-%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E8%BE%93%E5%85%A5%E6%B3%95/</link>
+        <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/wsl-neovim-%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E8%BE%93%E5%85%A5%E6%B3%95/</guid>
+        <description>&lt;p&gt;使用 im-select 可以自动设置中英文输入法的切换。本文介绍一下在 lazyvim 下这个软件的使用方法。&lt;/p&gt;
+&lt;p&gt;首先在&lt;a class=&#34;link&#34; href=&#34;https://github.com/daipeihust/im-select/raw/master/win/out/x64/im-select.exe&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这个页面&lt;/a&gt;下载 im-select，放到一个目录中，并将其所在目录添加到环境变量中。&lt;/p&gt;
+&lt;p&gt;然后我们需要安装一个使用 im-select 的 nvim 插件。&lt;/p&gt;
+&lt;p&gt;在 &lt;code&gt;~/.config/nvim/lua/plugins&lt;/code&gt; 目录下创建一个文件 im-select.lua（任意取名），写下如下代码：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -212,55 +88,87 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;s2&#34;&gt;&amp;#34;hrsh7th/nvim-cmp&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;opts&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;opts&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;kd&#34;&gt;local&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cmp&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;require&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;cmp&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;opts.mapping&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;vim.tbl_extend&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;force&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;opts.mapping&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;Right&amp;gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cmp.mapping&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;confirm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;select&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}),&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;CR&amp;gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fallback&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cmp.abort&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;fallback&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;end&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;s2&#34;&gt;&amp;#34;keaising/im-select.nvim&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;lazy&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;config&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;require&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;im_select&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;setup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;default_im_select&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1033&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;default_command&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;im-select.exe&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;})&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kr&#34;&gt;end&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;Configure &lt;code&gt;guess-indent&lt;/code&gt;:&lt;/li&gt;
+&lt;/div&gt;&lt;p&gt;重启 lazyvim 即可。&lt;/p&gt;
+&lt;p&gt;注意事项：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;im-select 需要电脑中同时拥有中文和英文的语言包。具体地看 Windows 设置中的“时间和语言 &amp;gt; 语言和区域”中看是否有两个语言，以及两个语言的语言包是否都已经下载了。&lt;/li&gt;
+&lt;li&gt;其用法是切换不同的输入法，而非切换输入法中的中英文状态。关于如何直接切换中英文状态，暂时没有找到比较好用的解决方案，只能习惯使用 &lt;code&gt;win + &amp;lt;space&amp;gt;&lt;/code&gt; 切换输入法状态了。&lt;/li&gt;
+&lt;li&gt;1033 是英文（美国）的输入法句柄码，2052 为中文输入法的句柄码。&lt;/li&gt;
+&lt;li&gt;im-select 会记忆上次进入 normal 之前的输入法。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;s2&#34;&gt;&amp;#34;nmac427/guess-indent.nvim&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;opts&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;auto_cmd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;override_editorconfig&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;Configure &lt;code&gt;nvim-spider&lt;/code&gt;:&lt;/li&gt;
+</description>
+        </item>
+        <item>
+        <title>LazyVim for Ambitious Developers 阅读笔记</title>
+        <link>http://localhost:1313/blog/p/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</link>
+        <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/lazyvim-for-ambitious-developers-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</guid>
+        <description>&lt;p&gt;教程链接：&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LazyVim for Ambitious Developers&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;chapter-1-introduction-and-installationhttpslazyvim-ambitious-devsphillipscodescoursechapter-1_introduction_and_installation&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-1/#_introduction_and_installation&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chapter 1. Introduction and Installation&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;使用 GUI 加速的 terminal 来进行 Lazyvim 的安装，例如：&lt;a class=&#34;link&#34; href=&#34;https://sw.kovidgoyal.net/kitty/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kitty Terminal&lt;/a&gt;、&lt;a class=&#34;link&#34; href=&#34;https://alacritty.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Alacritty&lt;/a&gt;、&lt;a class=&#34;link&#34; href=&#34;https://github.com/microsoft/terminal?tab=readme-ov-file&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Windows Terminal&lt;/a&gt; 等。&lt;/p&gt;
+&lt;p&gt;安装教程请查看&lt;a class=&#34;link&#34; href=&#34;https://www.lazyvim.org/installation&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官网&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;chapter-2-what-is-modal-editing-anywayhttpslazyvim-ambitious-devsphillipscodescoursechapter-2_what_is_modal_editing_anyway&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-2/#_what_is_modal_editing_anyway&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chapter 2. What is Modal Editing, Anyway?&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;在 normal mode 下 &lt;code&gt;&amp;quot;&lt;/code&gt; 可以打开可用的寄存器。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;:x&lt;/code&gt; 几乎等于 &lt;code&gt;:wq&lt;/code&gt;，但 &lt;code&gt;:x&lt;/code&gt; 在文件未第修改的时候不会执行保存操作。&lt;/p&gt;
+&lt;h2 id=&#34;chapter-3-getting-aroundhttpslazyvim-ambitious-devsphillipscodescoursechapter-3_getting_around&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-3/#_getting_around&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chapter 3. Getting Around&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;无&lt;/p&gt;
+&lt;h2 id=&#34;chapter-4-opening-fileshttpslazyvim-ambitious-devsphillipscodescoursechapter-4_opening_files&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-4/#_opening_files&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chapter 4. Opening Files&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Space q q 关闭整个 nvim 窗口&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;:LazyExtras&lt;/code&gt; 打开 mini.files 插件。mini.files 兼容许多 lazyvim 的文本编辑操作。使用 &lt;code&gt;=&lt;/code&gt; 进行修改的保存。&lt;/p&gt;
+&lt;p&gt;再次找到同一个插件按 x 就可以禁用这个插件。&lt;/p&gt;
+&lt;h2 id=&#34;chapter-5-configuration-and-plugin-basicshttpslazyvim-ambitious-devsphillipscodescoursechapter-5_configuration_and_plugin_basics&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-5/#_configuration_and_plugin_basics&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chapter 5. Configuration and Plugin Basics&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;.config/nvim/lua/config/keymaps.lua&lt;/code&gt; 中一般用于设置 neovim 或者 lazyvim 中自带的按键设置。&lt;/p&gt;
+&lt;p&gt;插件配置参数中的 keys 设置按键，opts 设置与这个插件相关的选项配置。&lt;/p&gt;
+&lt;p&gt;各项配置参考示例：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;禁用某项功能：&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
+</description>
+        </item>
+        <item>
+        <title>lazyvim 配置记录</title>
+        <link>http://localhost:1313/blog/p/lazyvim-%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/</link>
+        <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/lazyvim-%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/</guid>
+        <description>&lt;p&gt;正在上手 neovim，首先使用 lazyvim 进行过渡。可以预见的是，在较长的时间内我使用的应该都是 neovim 的发行版而非自已进行配置（也可能不配置了hh），所以在此帖记录一些折腾 lazyvim 的过程，也防止自己长时间不用之后忘记了。&lt;/p&gt;
+&lt;h2 id=&#34;配置-java-开发环境&#34;&gt;配置 java 开发环境
+&lt;/h2&gt;&lt;p&gt;插件：&lt;a class=&#34;link&#34; href=&#34;https://github.com/nvim-java/nvim-java/wiki/Lazyvim&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;nvim-java&lt;/a&gt;，&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=CXv0WUX_E_Q&amp;amp;list=PL-8OUPYQITXYBtr76njke25F452xJWcQT&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;视频链接&lt;/a&gt;，&lt;a class=&#34;link&#34; href=&#34;https://github.com/nvim-java/nvim-java/wiki/Q-&amp;amp;-A&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Q &amp;amp; A&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;初始化教程&#34;&gt;初始化教程
+&lt;/h3&gt;&lt;p&gt;在 lazyvim 中输入 &lt;code&gt;:LazyExtras&lt;/code&gt;，找到 &lt;code&gt;dap-core&lt;/code&gt; 插件，按 &lt;code&gt;x&lt;/code&gt; 进行下载。&lt;/p&gt;
+&lt;p&gt;然后在 &lt;code&gt;~/.config/nvim/lua/plugins/java/init.lua&lt;/code&gt; 目录下放入如下代码：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -286,69 +194,97 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;s2&#34;&gt;&amp;#34;chrisgrieser/nvim-spider&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;opts&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{},&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;keys&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;s1&#34;&gt;&amp;#39;nvim-java/nvim-java&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;config&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;dependencies&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;s2&#34;&gt;&amp;#34;w&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;cmd&amp;gt;lua require(&amp;#39;spider&amp;#39;).motion(&amp;#39;w&amp;#39;)&amp;lt;CR&amp;gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;mode&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;n&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;o&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;x&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;desc&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Move to start of next of word&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;s2&#34;&gt;&amp;#34;e&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;cmd&amp;gt;lua require(&amp;#39;spider&amp;#39;).motion(&amp;#39;e&amp;#39;)&amp;lt;CR&amp;gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;mode&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;n&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;o&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;x&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;desc&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Move to end of word&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;s2&#34;&gt;&amp;#34;b&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;cmd&amp;gt;lua require(&amp;#39;spider&amp;#39;).motion(&amp;#39;b&amp;#39;)&amp;lt;CR&amp;gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;mode&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;n&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;o&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;x&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;desc&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Move to start of previous word&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;s1&#34;&gt;&amp;#39;neovim/nvim-lspconfig&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;n&#34;&gt;opts&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;servers&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;n&#34;&gt;jdtls&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;c1&#34;&gt;-- Your custom jdtls settings goes here&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;setup&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;n&#34;&gt;jdtls&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;require&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;java&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;setup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;              &lt;span class=&#34;c1&#34;&gt;-- Your custom nvim-java configuration goes here&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;p&#34;&gt;})&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;kr&#34;&gt;end&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;chapter-6-basic-editinghttpslazyvim-ambitious-devsphillipscodescoursechapter-6_basic_editing&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-6/#_basic_editing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Chapter 6. Basic Editing&lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;keys:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;80i*&amp;lt;Escape&amp;gt;&lt;/code&gt; will insert 80 &lt;code&gt;*&lt;/code&gt; which is nifty.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;dsfoos&lt;/code&gt;, delete from the cursor to the &lt;strong&gt;first character&lt;/strong&gt; of the target word &lt;code&gt;foo&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;X&lt;/code&gt; delete the character before the cursor.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;J&lt;/code&gt; to join lines.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;gU&amp;lt;range&amp;gt;&lt;/code&gt; converts a sequence of characters into uppercase, while the &lt;code&gt;gu&amp;lt;range&amp;gt;&lt;/code&gt; do the inverse.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;~&lt;/code&gt; inverts the case of character under the cursor.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;q&amp;lt;reg_name&amp;gt;&lt;/code&gt; will start recording a sequence of operations called &lt;code&gt;macro&lt;/code&gt;, and press &lt;code&gt;q&lt;/code&gt; again will stop the recording. The fastest way to play back the latest macro is press &lt;code&gt;Q&lt;/code&gt;, or you can use &lt;code&gt;@&amp;lt;reg_name&amp;gt;&lt;/code&gt; instead.&lt;/li&gt;
+&lt;/div&gt;&lt;p&gt;接着关闭 nvim，打开任意一个 java 项目等待插件安装完成即可。&lt;/p&gt;
+&lt;p&gt;这里需要注意的是，如果是一个 maven 项目，首次打开的时候 lsp 可能无法生效，因此需要在项目根目录中使用 &lt;code&gt;mvn -o eclipse:clean eclipse:eclipse&lt;/code&gt; 下载一些 eclipse 的依赖以供 nvim-jdtls 识别。网络不好有可能卡住， &lt;code&gt;-o&lt;/code&gt; 参数用于跳过本地已有依赖的下载。&lt;/p&gt;
+&lt;p&gt;一些快捷键：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;快捷键&lt;/th&gt;
+&lt;th&gt;作用&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;C-s&lt;/td&gt;
+&lt;td&gt;快速格式化&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SPC d b&lt;/td&gt;
+&lt;td&gt;打断点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SPC d c&lt;/td&gt;
+&lt;td&gt;跳到下个断点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:JavaTestDebugCurrentClass&lt;/td&gt;
+&lt;td&gt;对当前类进行断点调试&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:JavaTestViewLastReport&lt;/td&gt;
+&lt;td&gt;查看上一个测试结果&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;其它参考链接&#34;&gt;其它参考链接
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=C7juSZsM2Fg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Configure Neovim for Java Development - YouTube&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://andrewcourter.substack.com/p/configure-neovim-for-java-development&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Configure Neovim for Java Development - by Andrew Courter&lt;/a&gt;import org.springframework.aop.&lt;em&gt;;&lt;/em&gt;;&lt;em&gt;;&lt;/em&gt;;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.reddit.com/r/neovim/comments/11k3zuv/jdtls_and_lazyvim/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;reddit.com/r/neovim/comments/11k3zuv/jdtls_and_lazyvim/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;遗留问题&#34;&gt;遗留问题
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;在对 ruoyi-vue-pro 这个项目使用 &lt;code&gt;SPC d c&lt;/code&gt; 进行 debug 的时候，会出现以下问题：&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;chapter-7-objects-and-operator-pending-modehttpslazyvim-ambitious-devsphillipscodescoursechapter-7_objects_and_operator_pending_mode&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://lazyvim-ambitious-devs.phillips.codes/course/chapter-7/#_objects_and_operator_pending_mode&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Chapter 7. Objects and Operator-Pending Mode&lt;/a&gt;
-&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;(&lt;/code&gt;, &lt;code&gt;{&lt;/code&gt; move the cursor to the beginning of a sentence or paragraph, while &lt;code&gt;)&lt;/code&gt;, &lt;code&gt;}&lt;/code&gt; to the end.&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20240720173703.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;不知道是否是因为执行 &lt;code&gt;mvn clean install -DskipTests=true&lt;/code&gt; 跳过了测试模块的原因，还是 eclipse 之类的没下好，总之就是无法使用 dap 进行 debug。如果有谁知道原因的话可以在评论区告诉我。&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;maven 没配置好，网络太慢了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在打开任意一个文件加载 lsp 的配置的时候非常慢。&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;debugger, python, time out error:&lt;/p&gt;
-&lt;p&gt;possible solutions:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;venv-selector nvim plugin should be installed.&lt;/li&gt;
-&lt;li&gt;enable a venv for a project before starting debugging for python.&lt;/li&gt;
-&lt;li&gt;make sure your python3.exe could be properly recognized. user/global.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;:DapShowLog&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;related plugin: nvim-dap&lt;/li&gt;
-&lt;li&gt;related keywords: nvim-dap-python&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;possible references:
-&lt;a class=&#34;link&#34; href=&#34;https://github.com/mfussenegger/nvim-dap-python/issues/118&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Debugpy - Windows · Issue #118 · mfussenegger/nvim-dap-python · GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mfussenegger/nvim-dap/discussions/846&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Attach to debugpy · mfussenegger/nvim-dap · Discussion #846 · GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.reddit.com/r/neovim/comments/199jt2c/nvimdap_debugpy_cant_work_in_windows/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;reddit.com/r/neovim/comments/199jt2c/nvimdap_debugpy_cant_work_in_windows/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;综上，暂时不搞 用 nvim-java 的开发环境的配置了，以后有时间再看看。&lt;/p&gt;
 </description>
         </item>
         

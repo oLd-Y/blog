@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Git on lyao&#39;s Blog</title>
+        <link>http://localhost:1313/blog/en/tags/git/</link>
+        <description>Recent content in Git on lyao&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>谷栗杳</copyright>
+        <lastBuildDate>Mon, 23 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/en/tags/git/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Differences among `mixed`, `hard` and `soft` in `git commit reset`</title>
+        <link>http://localhost:1313/blog/en/p/differences-among-mixed-hard-and-soft-in-git-commit-reset/</link>
+        <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/en/p/differences-among-mixed-hard-and-soft-in-git-commit-reset/</guid>
+        <description>&lt;h2 id=&#34;you&#34;&gt;&lt;strong&gt;You:&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;what is the difference among hard, soft, and mixed reset in git commit ?&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;chatgpt&#34;&gt;&lt;strong&gt;ChatGPT:&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;In Git, the terms &lt;strong&gt;hard reset&lt;/strong&gt;, &lt;strong&gt;soft reset&lt;/strong&gt;, and &lt;strong&gt;mixed reset&lt;/strong&gt; refer to different types of actions when resetting the state of your repository. These actions affect the commit history, the staging area (index), and the working directory differently.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;1-hard-reset&#34;&gt;1. &lt;strong&gt;Hard Reset&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Command:&lt;/strong&gt; &lt;code&gt;git reset --hard &amp;lt;commit&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Effect:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Moves the current branch pointer (HEAD) to the specified commit.&lt;/li&gt;
+&lt;li&gt;Resets the staging area (index) to match the specified commit.&lt;/li&gt;
+&lt;li&gt;Resets the working directory to match the specified commit (overwrites any changes in tracked files).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use Case:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;When you want to completely discard changes in the working directory and staging area, making the repository state exactly like the specified commit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Caution:&lt;/strong&gt; Irreversible if the discarded changes aren&amp;rsquo;t saved elsewhere (e.g., uncommitted changes or commits are not recoverable unless backed up).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;2-soft-reset&#34;&gt;2. &lt;strong&gt;Soft Reset&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Command:&lt;/strong&gt; &lt;code&gt;git reset --soft &amp;lt;commit&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Effect:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Moves the current branch pointer (HEAD) to the specified commit.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Does not reset the staging area (index)&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Does not reset the working directory&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use Case:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;When you want to undo commits but keep the changes in the staging area so you can edit or re-commit them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Example:
+&lt;ul&gt;
+&lt;li&gt;Use this if you realize that the last commit message is incorrect and want to modify it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;3-mixed-reset-default&#34;&gt;3. &lt;strong&gt;Mixed Reset (Default)&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Command:&lt;/strong&gt; &lt;code&gt;git reset --mixed &amp;lt;commit&amp;gt;&lt;/code&gt; or &lt;code&gt;git reset &amp;lt;commit&amp;gt;&lt;/code&gt; (default behavior).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Effect:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Moves the current branch pointer (HEAD) to the specified commit.&lt;/li&gt;
+&lt;li&gt;Resets the staging area (index) to match the specified commit.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Does not reset the working directory&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use Case:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;When you want to undo commits and unstage changes (but keep them in the working directory) for further modifications or staging.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Example:
+&lt;ul&gt;
+&lt;li&gt;Use this if you mistakenly committed changes and want to refine or split them into different commits.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;summary-table&#34;&gt;Summary Table:
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Action&lt;/th&gt;
+&lt;th&gt;HEAD (Commit Pointer)&lt;/th&gt;
+&lt;th&gt;Staging Area (Index)&lt;/th&gt;
+&lt;th&gt;Working Directory&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Hard Reset&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Moves&lt;/td&gt;
+&lt;td&gt;Resets&lt;/td&gt;
+&lt;td&gt;Resets (Overwrites)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Soft Reset&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Moves&lt;/td&gt;
+&lt;td&gt;Unchanged&lt;/td&gt;
+&lt;td&gt;Unchanged&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Mixed Reset&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Moves&lt;/td&gt;
+&lt;td&gt;Resets&lt;/td&gt;
+&lt;td&gt;Unchanged&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;example-usage&#34;&gt;Example Usage
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Hard reset (dangerous):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git reset --hard HEAD~1   &lt;span class=&#34;c1&#34;&gt;# Undo the last commit completely.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Soft reset:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git reset --soft HEAD~1   &lt;span class=&#34;c1&#34;&gt;# Undo the last commit, keep changes staged.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Mixed reset (default):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git reset HEAD~1          &lt;span class=&#34;c1&#34;&gt;# Undo the last commit, unstage changes, keep them in the working directory.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Each type of reset is useful in different scenarios, so choose based on your needs and whether you want to preserve or discard changes.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
