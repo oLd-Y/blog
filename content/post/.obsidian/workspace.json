@@ -36,24 +36,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "81a260f095c3117c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "35ef8c5947431f4c",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://weread.qq.com/web/reader/c653236071e55adbc6552fek9b832a602829b86192511b5"
-              },
-              "icon": "lucide-file",
-              "title": "卡拉马佐夫兄弟（套装上下册）（陀思妥耶夫斯基文集2015） - 第七卷 阿辽沙 - 陀思妥耶夫斯基 - 微信读书"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -249,7 +231,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "35ef8c5947431f4c",
+  "active": "b96a80d330cb4c22",
   "lastOpenFiles": [
     "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
     "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md",
