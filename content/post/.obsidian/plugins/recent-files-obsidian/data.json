@@ -5,6 +5,10 @@
       "path": "《卡拉马佐夫兄弟》读书笔记.zh-cn.md"
     },
     {
+      "basename": "read",
+      "path": "_templates/templater/read.md"
+    },
+    {
       "basename": "useful prompt.zh-cn",
       "path": "useful prompt.zh-cn.md"
     },
@@ -59,10 +63,6 @@
     {
       "basename": "Differences among `mixed`, `hard` and `soft` in `git commit reset`.en",
       "path": "Differences among `mixed`, `hard` and `soft` in `git commit reset`.en.md"
-    },
-    {
-      "basename": "read",
-      "path": "_templates/templater/read.md"
     },
     {
       "basename": "new note",
