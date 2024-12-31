@@ -164,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md"
+                "file": "《卡拉马佐夫兄弟》读书笔记.zh-cn.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of index.zh-cn"
+              "title": "Outline of 《卡拉马佐夫兄弟》读书笔记.zh-cn"
             }
           },
           {
@@ -211,12 +211,11 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 245.5
   },
   "left-ribbon": {
     "hiddenItems": {
