@@ -9,6 +9,10 @@
       "path": "《卡拉马佐夫兄弟》读书笔记.zh-cn.md"
     },
     {
+      "basename": "《卡拉马佐夫兄弟》人物表.zh-cn",
+      "path": "《卡拉马佐夫兄弟》人物表.zh-cn.md"
+    },
+    {
       "basename": "read",
       "path": "_templates/templater/read.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "软链接.zh-cn",
       "path": "软链接.zh-cn.md"
-    },
-    {
-      "basename": "获取某个网页的 cookies.zh-cn",
-      "path": "获取某个网页的 cookies.zh-cn.md"
     }
   ],
   "omittedPaths": []

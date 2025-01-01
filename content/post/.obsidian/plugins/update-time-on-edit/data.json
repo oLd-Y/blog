@@ -174,7 +174,7 @@
     "Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）.zh-cn.md": "423413c20b639cc8f183832ff5e8c690c9405cac368c845a33e474bdae3b8f79",
     "Ubuntu 命令行启动 Vue3 项目（以 ruoyi-ui-admin-vue3 为例）.zh-cn.md": "3efbc6369da18c93e3e4de8143d22291f0832724397e5183f5c9622722e4a1f6",
     "useful prompt.en.md": "7ef1fde5678daa1743b5c592d48fa50d06cb21256d56b5f97e73489d2bb05ed5",
-    "useful prompt.zh-cn.md": "1e740fd9376cae05b156f70fe25c478cdf330c6a7563bf79f3100bb857465647",
+    "useful prompt.zh-cn.md": "8caa7140173733761dd981686d16a872be561ec89a0c7c55db2e511fe5a58ce7",
     "cargo installation.en.md": "327361df95c42a7a4e97ba07e439485a7a9531732c434d73c70e019f0dbd5f69",
     "Windows 布局和工作区.md": "7432180f88a8cc4547b5e4b4d8b27372d480e77f02b2dbaf0aa9d5c7de56dbdc",
     "160. 相交链表.zh-cn.md": "4e6572016c02777127a219ed4f65b8a1ed019b9d89414e2b91c80009e7da8810",
@@ -261,7 +261,7 @@
     "配置 lazyvim 中的 C 及 C++ 开发环境.zh-cn.md": "80733d4810af626cde978cd19e1ce42dc408376149e8f7d7959909c446d6456f",
     "逻辑运算符和位运算符.zh-cn.md": "8bcacfb012e46e88cf7d3187e1fd87e5119653451c793693294316ce812d54da",
     "usage of `restrict` keyword in c.en.md": "7b211a93233eac21bef0c893ed818036499872e367bf15134adc8c03b228bd6b",
-    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md": "a2022bbee22541957139ba2d04712eab86b8e67770152b593f58466c9ce4bc5d",
+    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md": "d977e0c6f60566404209ab81923e5413fcc991c53bfd8be7c3549e90421bed9f",
     "MyKeymap 修改切换窗口按键.zh-cn.md": "58f297679912790daa537d5155a816bd13960d47f4404fbcfff1a4baf1ae025b",
     "learn makefile through example.en.md": "6fb99bb38d7518989cdd706a3c7be0cf0dcb856ac7e2922cc27b48b1a64fbcc5",
     "CSAPP-odd_ones explanation.en.md": "9c307207bc9060a3e16d184fbb81561ab66ca50f2b920022feeb0b1658f5bbce",
@@ -276,6 +276,7 @@
     "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md": "1569bfa9878b60f71de27d2fac585c9e567cb9f647fc6a890dd8a69107163fd0",
     "《寄生兽》看番笔记.zh-cn.md": "4312a93791d30a2229e635be344302187d26794459a5c221f0227c37d0213c38",
     "《寄生兽》人物分析.zh-cn.md": "cb5adb20a259b7c725d4f787619dcfd6eecbffb4e808050b3b65af322b28f9d1",
-    "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md": "1b28ac3436551c0be476ba29592b6dd6a5608fbbc026289c473ef3a753ee1464"
+    "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md": "1b28ac3436551c0be476ba29592b6dd6a5608fbbc026289c473ef3a753ee1464",
+    "《卡拉马佐夫兄弟》人物表.zh-cn.md": "50ccb2151593363d4cf8564c6d709feda53f4c3b60eee941d166b870591cf1ef"
   }
 }
