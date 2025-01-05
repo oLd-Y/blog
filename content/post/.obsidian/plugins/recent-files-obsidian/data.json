@@ -9,16 +9,20 @@
       "path": "《卡拉马佐夫兄弟》读书笔记.zh-cn.md"
     },
     {
+      "basename": "《卡拉马佐夫兄弟》全文-第一卷.zh-cn",
+      "path": "《卡拉马佐夫兄弟》全文-第一卷.zh-cn.md"
+    },
+    {
+      "basename": "《为美好的世界献上祝福》阅读笔记.zh-cn",
+      "path": "《为美好的世界献上祝福》阅读笔记.zh-cn.md"
+    },
+    {
       "basename": "pp2.53",
       "path": "static/CSAPP/pp2.53.png"
     },
     {
       "basename": "Drawing 2025-01-05 16.26.41.excalidraw",
       "path": "_excalidraw/Drawing 2025-01-05 16.26.41.excalidraw.md"
-    },
-    {
-      "basename": "《卡拉马佐夫兄弟》全文-第一卷.zh-cn",
-      "path": "《卡拉马佐夫兄弟》全文-第一卷.zh-cn.md"
     },
     {
       "basename": "《寄生兽》看番笔记.zh-cn",
@@ -83,10 +87,6 @@
     {
       "basename": "《为美好的世界献上祝福》读后感.zh-cn",
       "path": "《为美好的世界献上祝福》读后感.zh-cn.md"
-    },
-    {
-      "basename": "《为美好的世界献上祝福》阅读笔记.zh-cn",
-      "path": "《为美好的世界献上祝福》阅读笔记.zh-cn.md"
     },
     {
       "basename": "Differences among `mixed`, `hard` and `soft` in `git commit reset`.en",
