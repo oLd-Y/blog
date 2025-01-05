@@ -100,7 +100,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -215,7 +216,8 @@
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "workspaces:Manage workspace layouts": false,
-      "canvas:Create new canvas": false
+      "canvas:Create new canvas": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "floating": {
@@ -223,24 +225,24 @@
     "type": "floating",
     "children": [
       {
-        "id": "23104962074cb1fc",
+        "id": "73de012583a72939",
         "type": "window",
         "children": [
           {
-            "id": "37222308b95a0d7e",
+            "id": "146eda9f5f6acadf",
             "type": "tabs",
             "children": [
               {
-                "id": "3846bd759c6d2c67",
+                "id": "deed2a6c4675bbd3",
                 "type": "leaf",
                 "state": {
                   "type": "canvas",
                   "state": {
                     "file": "Untitled.canvas",
                     "viewState": {
-                      "x": -235.82800416657233,
-                      "y": -200.10606460979096,
-                      "zoom": -0.23166690642208304
+                      "x": -262.5,
+                      "y": -334,
+                      "zoom": -1.1105099191626537
                     }
                   },
                   "icon": "lucide-layout-dashboard",
@@ -260,11 +262,12 @@
       }
     ]
   },
-  "active": "3846bd759c6d2c67",
+  "active": "deed2a6c4675bbd3",
   "lastOpenFiles": [
     "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
-    "Untitled.canvas",
     "《卡拉马佐夫兄弟》全文-第一卷.zh-cn.md",
+    "Untitled.canvas",
+    "_excalidraw/Drawing 2025-01-05 18.17.01.excalidraw.md",
     "《为美好的世界献上祝福》阅读笔记.zh-cn.md",
     "Untitled mindmap.md",
     "_excalidraw/Drawing 2025-01-05 16.26.41.excalidraw.md",
@@ -293,7 +296,6 @@
     "CSAPP reading notes - part I, chapter 3.en.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
     "static/comfyui/basic-txt2img.png",
-    "static/comfyui.md",
     "static/comfyui",
     "static/CSAPP/shift-operations-in-c.png",
     "static/CSAPP/2.32.png",

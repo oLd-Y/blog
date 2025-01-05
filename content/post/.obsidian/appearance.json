@@ -6,5 +6,8 @@
   "theme": "system",
   "textFontFamily": "Maple Mono SC NF",
   "baseFontSizeAction": false,
-  "monospaceFontFamily": "Big Caslon"
+  "monospaceFontFamily": "Big Caslon",
+  "enabledCssSnippets": [
+    "canvas"
+  ]
 }
