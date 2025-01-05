@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "阿克娅",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -227,13 +227,14 @@
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
   "active": "b96a80d330cb4c22",
   "lastOpenFiles": [
-    "useful prompt.zh-cn.md",
     "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
+    "useful prompt.zh-cn.md",
     "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md",
     "《卡拉马佐夫兄弟》人物表.zh-cn.md",
     "_templates/templater/read.md",
