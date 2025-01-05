@@ -5,6 +5,14 @@
       "path": "《卡拉马佐夫兄弟》读书笔记.zh-cn.md"
     },
     {
+      "basename": "read",
+      "path": "_templates/templater/read.md"
+    },
+    {
+      "basename": "《寄生兽》人物分析.zh-cn",
+      "path": "《寄生兽》人物分析.zh-cn.md"
+    },
+    {
       "basename": "useful prompt.en",
       "path": "useful prompt.en.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "ox-hugo org-template 理解",
       "path": "ox-hugo org-template 理解.md"
-    },
-    {
-      "basename": "read",
-      "path": "_templates/templater/read.md"
     },
     {
       "basename": "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn",
@@ -39,10 +43,6 @@
     {
       "basename": "《寄生兽》看番笔记.zh-cn",
       "path": "《寄生兽》看番笔记.zh-cn.md"
-    },
-    {
-      "basename": "《寄生兽》人物分析.zh-cn",
-      "path": "《寄生兽》人物分析.zh-cn.md"
     },
     {
       "basename": "虎码用法记录.zh-cn",
