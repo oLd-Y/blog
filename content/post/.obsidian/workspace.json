@@ -23,13 +23,18 @@
             }
           },
           {
-            "id": "dd68793333803b8e",
+            "id": "b52e5a7e313799f6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "useful prompt.en.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "useful prompt.en"
             }
           }
         ]
@@ -110,13 +115,25 @@
         "type": "tabs",
         "children": [
           {
+            "id": "7648983be24237ba",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "《卡拉马佐夫兄弟》读书笔记.zh-cn.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 《卡拉马佐夫兄弟》读书笔记.zh-cn"
+            }
+          },
+          {
             "id": "efbabfc5ae4ea0ea",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
                 "file": "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -134,12 +151,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《刀锋》读书笔记/index.zh-cn.md",
+                "file": "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index.zh-cn"
+              "title": "Outgoing links from 《卡拉马佐夫兄弟》读书笔记.zh-cn"
             }
           },
           {
@@ -156,35 +173,13 @@
             }
           },
           {
-            "id": "7648983be24237ba",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "《卡拉马佐夫兄弟》读书笔记.zh-cn.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of 《卡拉马佐夫兄弟》读书笔记.zh-cn"
-            }
-          },
-          {
-            "id": "b2d04053317a6ff7",
-            "type": "leaf",
-            "state": {
-              "type": "dictionary-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
             "id": "a92044cadf739144",
             "type": "leaf",
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -195,16 +190,6 @@
               "state": {},
               "icon": "spreadsheet",
               "title": "Advanced Tables"
-            }
-          },
-          {
-            "id": "6e58f2567720b857",
-            "type": "leaf",
-            "state": {
-              "type": "Strange New Worlds",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
             }
           }
         ]
@@ -226,16 +211,18 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "b96a80d330cb4c22",
+  "active": "7648983be24237ba",
   "lastOpenFiles": [
     "伊波里特·基里洛维奇.md",
     "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
-    "卡拉马佐夫.md",
+    "useful prompt.en.md",
     "useful prompt.zh-cn.md",
+    "ox-hugo org-template 理解.md",
+    "_templates/templater/read.md",
+    "卡拉马佐夫.md",
     "test.md",
     "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md",
     "《卡拉马佐夫兄弟》人物表.zh-cn.md",
-    "_templates/templater/read.md",
     "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "CSAPP reading notes - part I, chapter 3.en.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
@@ -254,8 +241,6 @@
     "《为美好的世界献上祝福》读后感.zh-cn.md",
     "《为美好的世界献上祝福》阅读笔记.zh-cn.md",
     "Differences among `mixed`, `hard` and `soft` in `git commit reset`.en.md",
-    "_templates/templater/new note.md",
-    "usage of `restrict` keyword in c.en.md",
     "static/CSAPP/shift-operations-in-c.png",
     "static/CSAPP/2.32.png",
     "配置 C",

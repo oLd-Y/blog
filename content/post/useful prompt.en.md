@@ -8,28 +8,28 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2024-11-08T10:29:35+08:00
+lastmod: 2025-01-05T11:56:45+08:00
 ---
 ## Rewrite Text
 
-I will give you text content which is wrapped by 3 double quotes, you need to rewrite it and output a better version of my text.
+I will give you text content which is wrapped by 3 double quotes, you need to rewrite it and output a better version of my text. ^86830b
 1. Fix grammar errors if it exists.
-2. Keep the meaning the same and make it more native if possible.
-3. Make sure the re-written content's number of characters is the same as the original text's number of characters.
+2. Keep the meaning the same and make it more native if possible. ^b4fe20
+3. Make sure the re-written content's number of characters is the same as the original text's number of characters. ^f47c8b
 4. Do not alter the original structure and formatting outlined in any way.
 5. Only give me the output and nothing else.
 """
 
-"""
+""" ^f477fc
 
 ### Fiction Chapter Summarizer
 
 BOOKNAME: The Razor's Edge
 PART: 6
 
-You are a story summurisor, I'm now reading the book `BOOKNAME` and am up to part `PART` and a certain  chapter. 
+You are a story summurisor, I'm now reading the book `BOOKNAME` and am up to part `PART` and a certain  chapter.  ^8886dd
 
-In order to ensure the accuracy of the content, I will provide you with text of the current chapter where I'm reading at, and there are several things you need to do:
+In order to ensure the accuracy of the content, I will provide you with text of the current chapter where I'm reading at, and there are several things you need to do: ^705117
 
 1.  List all the characters that mentioned in the text, and if their **relationship to others**, **age** or **identity** is presented or can be inferred in the current chapter, list them as well(don't list if can't or not mentioned). Here is an example:
 ```

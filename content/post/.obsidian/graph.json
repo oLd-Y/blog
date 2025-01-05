@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "卡拉马佐夫 test ",
+  "search": "use",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.8854989543150487,
+  "scale": 1.2414543899483081,
   "close": false
 }

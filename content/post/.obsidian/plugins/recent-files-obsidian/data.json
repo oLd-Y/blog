@@ -5,20 +5,24 @@
       "path": "《卡拉马佐夫兄弟》读书笔记.zh-cn.md"
     },
     {
-      "basename": "伊波里特·基里洛维奇",
-      "path": "伊波里特·基里洛维奇.md"
+      "basename": "useful prompt.en",
+      "path": "useful prompt.en.md"
     },
     {
       "basename": "useful prompt.zh-cn",
       "path": "useful prompt.zh-cn.md"
     },
     {
-      "basename": "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn",
-      "path": "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md"
+      "basename": "ox-hugo org-template 理解",
+      "path": "ox-hugo org-template 理解.md"
     },
     {
       "basename": "read",
       "path": "_templates/templater/read.md"
+    },
+    {
+      "basename": "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn",
+      "path": "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md"
     },
     {
       "basename": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn",
@@ -191,10 +195,6 @@
     {
       "basename": "Conversion from 2's complement integer to floating point number.en",
       "path": "Conversion from 2's complement integer to floating point number.en.md"
-    },
-    {
-      "basename": "内存存放数据的大端模式和小端模式.zh-cn",
-      "path": "内存存放数据的大端模式和小端模式.zh-cn.md"
     }
   ],
   "omittedPaths": []
