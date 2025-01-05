@@ -36,9 +36,26 @@
               "icon": "lucide-file",
               "title": "《卡拉马佐夫兄弟》读书笔记.zh-cn"
             }
+          },
+          {
+            "id": "deed2a6c4675bbd3",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "《卡拉马佐夫兄弟》第十二卷.canvas",
+                "viewState": {
+                  "x": 150.6611982287921,
+                  "y": 257.0610564157025,
+                  "zoom": -1.0945028871349087
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "《卡拉马佐夫兄弟》第十二卷"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -205,7 +222,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 245.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,48 +237,6 @@
       "canvas:Create new canvas": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
-  },
-  "floating": {
-    "id": "4e96cd0cc2a5ffd9",
-    "type": "floating",
-    "children": [
-      {
-        "id": "73de012583a72939",
-        "type": "window",
-        "children": [
-          {
-            "id": "146eda9f5f6acadf",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "deed2a6c4675bbd3",
-                "type": "leaf",
-                "state": {
-                  "type": "canvas",
-                  "state": {
-                    "file": "《卡拉马佐夫兄弟》第十二卷.canvas",
-                    "viewState": {
-                      "x": -260,
-                      "y": -110,
-                      "zoom": -0.1598713367783894
-                    }
-                  },
-                  "icon": "lucide-layout-dashboard",
-                  "title": "《卡拉马佐夫兄弟》第十二卷"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 0,
-        "width": 1024,
-        "height": 1104,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
   },
   "active": "deed2a6c4675bbd3",
   "lastOpenFiles": [
