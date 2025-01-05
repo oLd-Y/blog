@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Untitled 1",
-      "path": "Untitled 1.canvas"
-    },
-    {
-      "basename": "《卡拉马佐夫兄弟》全文-第一卷.zh-cn",
-      "path": "《卡拉马佐夫兄弟》全文-第一卷.zh-cn.md"
+      "basename": "Untitled",
+      "path": "Untitled.canvas"
     },
     {
       "basename": "《卡拉马佐夫兄弟》读书笔记.zh-cn",
       "path": "《卡拉马佐夫兄弟》读书笔记.zh-cn.md"
     },
     {
-      "basename": "Untitled",
-      "path": "Untitled.canvas"
+      "basename": "Drawing 2025-01-05 16.26.41.excalidraw",
+      "path": "_excalidraw/Drawing 2025-01-05 16.26.41.excalidraw.md"
+    },
+    {
+      "basename": "《卡拉马佐夫兄弟》全文-第一卷.zh-cn",
+      "path": "《卡拉马佐夫兄弟》全文-第一卷.zh-cn.md"
+    },
+    {
+      "basename": "《寄生兽》看番笔记.zh-cn",
+      "path": "《寄生兽》看番笔记.zh-cn.md"
+    },
+    {
+      "basename": "关于计算机技术的一些想法.zh-cn",
+      "path": "关于计算机技术的一些想法.zh-cn.md"
+    },
+    {
+      "basename": "Drawing 2025-01-05 16.15.47.excalidraw",
+      "path": "_excalidraw/Drawing 2025-01-05 16.15.47.excalidraw.md"
     },
     {
       "basename": "useful prompt.zh-cn",
@@ -53,10 +65,6 @@
       "path": "CSAPP reading notes - part I, chapter 2.en.md"
     },
     {
-      "basename": "《寄生兽》看番笔记.zh-cn",
-      "path": "《寄生兽》看番笔记.zh-cn.md"
-    },
-    {
       "basename": "虎码用法记录.zh-cn",
       "path": "虎码用法记录.zh-cn.md"
     },
@@ -67,10 +75,6 @@
     {
       "basename": "好用软件名称记录.zh-cn",
       "path": "好用软件名称记录.zh-cn.md"
-    },
-    {
-      "basename": "关于计算机技术的一些想法.zh-cn",
-      "path": "关于计算机技术的一些想法.zh-cn.md"
     },
     {
       "basename": "《为美好的世界献上祝福》读后感.zh-cn",
@@ -183,22 +187,6 @@
     {
       "basename": "Insert Callouts",
       "path": "_templates/archive/Insert Callouts.md"
-    },
-    {
-      "basename": "recipe",
-      "path": "_templates/archive/recipe.md"
-    },
-    {
-      "basename": "leetcode",
-      "path": "_templates/archive/leetcode.md"
-    },
-    {
-      "basename": "new dairy template",
-      "path": "_templates/archive/new dairy template.md"
-    },
-    {
-      "basename": "new index template",
-      "path": "_templates/archive/new index template.md"
     }
   ],
   "omittedPaths": []
