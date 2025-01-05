@@ -122,10 +122,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas"
+                "file": "《卡拉马佐夫兄弟》第十二卷.canvas"
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of 《卡拉马佐夫兄弟》第十二卷"
             }
           },
           {
@@ -192,12 +192,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "《卡拉马佐夫兄弟》第十二卷.canvas",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links from 《卡拉马佐夫兄弟》第十二卷"
             }
           }
         ],
@@ -238,15 +238,15 @@
                 "state": {
                   "type": "canvas",
                   "state": {
-                    "file": "Untitled.canvas",
+                    "file": "《卡拉马佐夫兄弟》第十二卷.canvas",
                     "viewState": {
-                      "x": -262.5,
-                      "y": -334,
-                      "zoom": -1.1105099191626537
+                      "x": -260,
+                      "y": -1640.78125,
+                      "zoom": -0.1598713367783894
                     }
                   },
                   "icon": "lucide-layout-dashboard",
-                  "title": "Untitled"
+                  "title": "《卡拉马佐夫兄弟》第十二卷"
                 }
               }
             ]
@@ -265,8 +265,8 @@
   "active": "deed2a6c4675bbd3",
   "lastOpenFiles": [
     "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
+    "《卡拉马佐夫兄弟》第十二卷.canvas",
     "《卡拉马佐夫兄弟》全文-第一卷.zh-cn.md",
-    "Untitled.canvas",
     "_excalidraw/Drawing 2025-01-05 18.17.01.excalidraw.md",
     "《为美好的世界献上祝福》阅读笔记.zh-cn.md",
     "Untitled mindmap.md",
