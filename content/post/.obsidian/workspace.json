@@ -100,7 +100,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -121,10 +122,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《卡拉马佐夫兄弟》全文-第一卷.zh-cn.md"
+                "file": "_excalidraw/Drawing 2025-01-05 16.15.47.excalidraw.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 《卡拉马佐夫兄弟》全文-第一卷.zh-cn"
+              "title": "Outline of Drawing 2025-01-05 16.15.47.excalidraw"
             }
           },
           {
@@ -172,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "《卡拉马佐夫兄弟》全文-第一卷.zh-cn.md",
+                "file": "_excalidraw/Drawing 2025-01-05 16.15.47.excalidraw.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +183,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 《卡拉马佐夫兄弟》全文-第一卷.zh-cn"
+              "title": "Backlinks for Drawing 2025-01-05 16.15.47.excalidraw"
             }
           },
           {
@@ -191,16 +192,15 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《卡拉马佐夫兄弟》全文-第一卷.zh-cn.md",
+                "file": "_excalidraw/Drawing 2025-01-05 16.15.47.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 《卡拉马佐夫兄弟》全文-第一卷.zh-cn"
+              "title": "Outgoing links from Drawing 2025-01-05 16.15.47.excalidraw"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -216,13 +216,101 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "canvas:Create new canvas": false
     }
   },
-  "active": "bff056f26e561551",
+  "floating": {
+    "id": "4e96cd0cc2a5ffd9",
+    "type": "floating",
+    "children": [
+      {
+        "id": "77c4ac2f59351584",
+        "type": "window",
+        "children": [
+          {
+            "id": "bea2aa3a36f1b911",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1ad139cd9344409b",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 589,
+        "y": 14,
+        "width": 739,
+        "height": 1036,
+        "maximize": true,
+        "zoom": 0
+      },
+      {
+        "id": "82ff4b2407a20866",
+        "type": "window",
+        "children": [
+          {
+            "id": "33316885871e2bde",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "afb3287ec91310cf",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "Untitled 1.canvas",
+                    "viewState": {
+                      "x": -353.4000244140625,
+                      "y": -184.79995727539062,
+                      "zoom": 0
+                    }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "Untitled 1"
+                }
+              },
+              {
+                "id": "8794529b689acb64",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "_excalidraw/Drawing 2025-01-05 16.15.47.excalidraw.md"
+                  },
+                  "icon": "excalidraw-icon",
+                  "title": "Drawing 2025-01-05 16.15.47.excalidraw"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical",
+        "x": 193,
+        "y": 104,
+        "width": 739,
+        "height": 959,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "8794529b689acb64",
   "lastOpenFiles": [
-    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
+    "Untitled 1.canvas",
+    "_excalidraw/Drawing 2025-01-05 16.15.47.excalidraw.md",
     "《卡拉马佐夫兄弟》全文-第一卷.zh-cn.md",
+    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
+    "Pasted image 20250105160923.png",
+    "Untitled.canvas",
     "useful prompt.zh-cn.md",
     "_templates/templater/read.md",
     "卡拉马佐夫兄弟摘抄.zh-cn.md",
@@ -247,8 +335,6 @@
     "stable diffusion 原理.zh-cn.md",
     "潜空间 latent 讲解.zh-cn.md",
     "ComfyUI 学习笔记.zh-cn.md",
-    "关于计算机技术的一些想法.zh-cn.md",
-    "《为美好的世界献上祝福》读后感.zh-cn.md",
     "static/CSAPP/shift-operations-in-c.png",
     "static/CSAPP/2.32.png",
     "配置 C",
@@ -258,7 +344,6 @@
     "static/CSAPP/pp2.52.png",
     "static/CSAPP/pp2.51.png",
     "static/CSAPP/pp2.50.png",
-    "static/CSAPP/2.37.png",
     "_ebooks/Computer Systems A Programmers Perspective by Ran.pdf",
     "_ebooks/Computer Systems A Programmers Perspective by Ran.pdf.lnk",
     "_ebooks",
@@ -266,8 +351,6 @@
     "static/ChatGPT",
     "static/新建文件夹",
     "_weread",
-    "_weread",
-    "Untitled 1.canvas",
-    "Untitled.canvas"
+    "_weread"
   ]
 }

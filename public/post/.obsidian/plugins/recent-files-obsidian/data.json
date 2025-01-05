@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled 1",
+      "path": "Untitled 1.canvas"
+    },
+    {
       "basename": "《卡拉马佐夫兄弟》全文-第一卷.zh-cn",
       "path": "《卡拉马佐夫兄弟》全文-第一卷.zh-cn.md"
     },
     {
       "basename": "《卡拉马佐夫兄弟》读书笔记.zh-cn",
       "path": "《卡拉马佐夫兄弟》读书笔记.zh-cn.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.canvas"
     },
     {
       "basename": "useful prompt.zh-cn",
@@ -191,14 +199,6 @@
     {
       "basename": "new index template",
       "path": "_templates/archive/new index template.md"
-    },
-    {
-      "basename": "create diary",
-      "path": "_templates/archive/create diary.md"
-    },
-    {
-      "basename": "Conversion from 2's complement integer to floating point number.en",
-      "path": "Conversion from 2's complement integer to floating point number.en.md"
     }
   ],
   "omittedPaths": []

@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"20e3a22361fb3939","x":-140,"y":-20,"width":250,"height":60,"type":"text","text":""},
+		{"id":"0bf071af8e4b3906","x":-220,"y":-320,"width":250,"height":60,"type":"text","text":""},
+		{"id":"3c82210313de05f6","x":-1040,"y":-290,"width":680,"height":400,"type":"file","file":"《卡拉马佐夫兄弟》全文-第一卷.zh-cn.md"}
+	],
+	"edges":[]
+}
