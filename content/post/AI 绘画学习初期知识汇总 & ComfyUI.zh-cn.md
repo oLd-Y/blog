@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-06T21:29:45+08:00
+lastmod: 2025-01-06T21:58:46+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -42,6 +42,7 @@ S-左键：组合移动
 
 [【聊点硬核的: IPAdapter算法理论及在Stable Diffusion中的使用方法(一)】你真的了解IPAdapter吗?\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1aH4y127Mw/?spm_id_from=333.337.search-card.all.click&vd_source=75f81845b7419e2244a942c2be195d61)
 
+[Site Unreachable](https://zhuanlan.zhihu.com/p/671457347)
 
 ![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241225103235.png)
 
@@ -69,6 +70,8 @@ S-左键：组合移动
 - hypernetwork
 [Site Unreachable](https://zhuanlan.zhihu.com/p/669895990)
 
+[玩一玩ComfyUI - 文档共建 - LINUX DO](https://linux.do/t/topic/168312)
+
 ## LoRA: Low-Rank Adaption
 
 ## In-Context LoRA
@@ -92,5 +95,8 @@ S-左键：组合移动
 - Inpaint
 - Tile
 - Reference Only
+- Normal Map：法线贴图
 
 [StableDiffusion ControlNet是什么，怎么安装和使用\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV12N4y1o7vC?spm_id_from=333.788.videopod.sections&vd_source=75f81845b7419e2244a942c2be195d61)
+
+## Animatediff
