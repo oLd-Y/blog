@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "《卡拉马佐夫兄弟》全文-第一卷.zh-cn.md",
+                "file": "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "《卡拉马佐夫兄弟》全文-第一卷.zh-cn"
+              "title": "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn"
             }
           },
           {
@@ -53,9 +53,18 @@
               "icon": "lucide-layout-dashboard",
               "title": "《卡拉马佐夫兄弟》第十二卷"
             }
+          },
+          {
+            "id": "8cd7b3b9a6e6e8d5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -237,12 +246,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "deed2a6c4675bbd3",
+  "active": "b95391682c47db21",
   "lastOpenFiles": [
-    "Untitled.md",
-    "《卡拉马佐夫兄弟》第十二卷.canvas",
-    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
+    "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "《卡拉马佐夫兄弟》全文-第一卷.zh-cn.md",
+    "《卡拉马佐夫兄弟》第十二卷.canvas",
+    "Untitled.md",
+    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
     "_excalidraw/Drawing 2025-01-05 18.17.01.excalidraw.md",
     "《为美好的世界献上祝福》阅读笔记.zh-cn.md",
     "Untitled mindmap.md",
@@ -267,7 +277,6 @@
     "test.md",
     "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md",
     "《卡拉马佐夫兄弟》人物表.zh-cn.md",
-    "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "CSAPP reading notes - part I, chapter 3.en.md",
     "CSAPP reading notes - part I, chapter 2.en.md",
     "static/comfyui/basic-txt2img.png",
