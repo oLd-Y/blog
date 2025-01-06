@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-06T20:43:16+08:00
+lastmod: 2025-01-06T21:29:45+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -34,6 +34,7 @@ S-左键：组合移动
 
 [采样器](https://zhuanlan.zhihu.com/p/673899723)
 
+[一文讲明ComfyUI Ksampler-CSDN博客](https://blog.csdn.net/sleepless8/article/details/142305153)
 
 ## IP-adapter
 
@@ -83,11 +84,13 @@ S-左键：组合移动
 ## Controlnet 
 
 - Openpose
-- Depth
-- Canny
-- Lineart
+- Depth：深度图 [comfyui Depth map 最强深度图全解析 细节拉满 带你真正了解深度图的奥秘\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Cr421G73g/?spm_id_from=333.1391.0.0&vd_source=75f81845b7419e2244a942c2be195d61)
+- Canny：线稿
+- Lineart：线稿
 - Holistically-nested Edge Detectio (Soft Edge)
 - Scribble
 - Inpaint
 - Tile
 - Reference Only
+
+[StableDiffusion ControlNet是什么，怎么安装和使用\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV12N4y1o7vC?spm_id_from=333.788.videopod.sections&vd_source=75f81845b7419e2244a942c2be195d61)
