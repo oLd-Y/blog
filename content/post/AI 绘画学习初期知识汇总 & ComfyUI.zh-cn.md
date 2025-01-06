@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-06T16:37:20+08:00
+lastmod: 2025-01-06T20:43:16+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -61,6 +61,14 @@ S-左键：组合移动
 
 实时追色，即将一张图片的颜色赋予另一张图片：Imitation Hue，图像对比
 
+## 小模型
+
+- embeddings
+- lora
+- hypernetwork
+[Site Unreachable](https://zhuanlan.zhihu.com/p/669895990)
+
+## LoRA: Low-Rank Adaption
 
 ## In-Context LoRA
 
@@ -71,3 +79,15 @@ S-左键：组合移动
 ## Deep Anything 深度图
 
 深度预估器
+
+## Controlnet 
+
+- Openpose
+- Depth
+- Canny
+- Lineart
+- Holistically-nested Edge Detectio (Soft Edge)
+- Scribble
+- Inpaint
+- Tile
+- Reference Only
