@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-12-27T20:35:40+08:00
+lastmod: 2025-01-06T16:37:20+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -67,3 +67,7 @@ S-左键：组合移动
 [In-Context LoRA for Diffusion Transformers](https://ali-vilab.github.io/In-Context-LoRA-Page/)
 
 制作情侣头像之类的
+
+## Deep Anything 深度图
+
+深度预估器
