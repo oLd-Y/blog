@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-07T12:47:28+08:00
+lastmod: 2025-01-07T13:15:35+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -100,6 +100,8 @@ C-m：静音（使失效）
 
 [StableDiffusion ControlNet是什么，怎么安装和使用\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV12N4y1o7vC?spm_id_from=333.788.videopod.sections&vd_source=75f81845b7419e2244a942c2be195d61)
 
+[掌握ComfyUI ControlNet：完整指南](https://www.runcomfy.com/zh-CN/tutorials/mastering-controlnet-in-comfyui)
+
 ## Animatediff
 
 ## 常用提示词
@@ -116,3 +118,4 @@ requirement.txt 中的 `torch` 和 `xformer` 库直接删掉，不要装，因�
 
 
 
+sdxl controlnet: [NoobAI-SDXL-controlnet - a Laxhar Collection](https://huggingface.co/collections/Laxhar/noobai-sdxl-controlnet-67342fca03831b10647d7910)
