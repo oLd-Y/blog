@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-07T14:47:55+08:00
+lastmod: 2025-01-07T15:19:16+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -97,6 +97,9 @@ C-m：静音（使失效）
 - Tile
 - Reference Only
 - Normal Map：法线贴图
+### sdxl MistoLine 
+
+线稿上色
 
 [StableDiffusion ControlNet是什么，怎么安装和使用\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV12N4y1o7vC?spm_id_from=333.788.videopod.sections&vd_source=75f81845b7419e2244a942c2be195d61)
 
@@ -123,3 +126,7 @@ sdxl controlnet: [NoobAI-SDXL-controlnet - a Laxhar Collection](https://huggingf
 ## flowedit
 
 光影、风格、构图一致构图
+
+## 不同放大图片方法探究
+
+[\[ComfyUI教程\]多种放大方法横向对比，从原理掌握参数调整以及适用场景\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1kqCNYNE3y?spm_id_from=333.788.videopod.sections&vd_source=75f81845b7419e2244a942c2be195d61)
