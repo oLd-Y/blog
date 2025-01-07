@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-07T11:35:42+08:00
+lastmod: 2025-01-07T12:47:28+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -87,7 +87,7 @@ C-m：静音（使失效）
 
 ## Controlnet 
 
-- Openpose
+- Openpose：姿势。DW Openpose 是升级版。
 - Depth：深度图 [comfyui Depth map 最强深度图全解析 细节拉满 带你真正了解深度图的奥秘\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Cr421G73g/?spm_id_from=333.1391.0.0&vd_source=75f81845b7419e2244a942c2be195d61)
 - Canny：线稿
 - Lineart：线稿
