@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-07T13:15:35+08:00
+lastmod: 2025-01-07T14:47:55+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -119,3 +119,7 @@ requirement.txt 中的 `torch` 和 `xformer` 库直接删掉，不要装，因�
 
 
 sdxl controlnet: [NoobAI-SDXL-controlnet - a Laxhar Collection](https://huggingface.co/collections/Laxhar/noobai-sdxl-controlnet-67342fca03831b10647d7910)
+
+## flowedit
+
+光影、风格、构图一致构图
