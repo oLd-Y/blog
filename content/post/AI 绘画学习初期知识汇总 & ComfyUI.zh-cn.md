@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-06T21:58:46+08:00
+lastmod: 2025-01-07T09:16:00+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -17,6 +17,7 @@ lastmod: 2025-01-06T21:58:46+08:00
 
 C-左键：框选
 S-左键：组合移动
+C-m：静音（使失效）
 
 ## 潜空间 latent
 
@@ -100,3 +101,8 @@ S-左键：组合移动
 [StableDiffusion ControlNet是什么，怎么安装和使用\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV12N4y1o7vC?spm_id_from=333.788.videopod.sections&vd_source=75f81845b7419e2244a942c2be195d61)
 
 ## Animatediff
+
+## 常用提示词
+
+8k, hdr, raw photo, high quality
+
