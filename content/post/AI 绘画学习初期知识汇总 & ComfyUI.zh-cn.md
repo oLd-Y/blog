@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-07T15:19:16+08:00
+lastmod: 2025-01-07T17:38:21+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -130,3 +130,7 @@ sdxl controlnet: [NoobAI-SDXL-controlnet - a Laxhar Collection](https://huggingf
 ## 不同放大图片方法探究
 
 [\[ComfyUI教程\]多种放大方法横向对比，从原理掌握参数调整以及适用场景\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1kqCNYNE3y?spm_id_from=333.788.videopod.sections&vd_source=75f81845b7419e2244a942c2be195d61)
+
+## illustrious 类的模型和 noobai 用的是同一个 controlnet
+
+## noob, obsession，光辉系（illustrious） 是什么 todo
