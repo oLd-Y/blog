@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2024-12-27T22:02:09+08:00
+lastmod: 2025-01-07T11:50:09+08:00
 ---
 ![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241227152620.png)
 
@@ -33,6 +33,8 @@ lastmod: 2024-12-27T22:02:09+08:00
 
 
 ![](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241227210936.png)
+
+- cfg scale: classifier-free guidance scale
 
 ## 模型架构 
 

@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-07T09:16:00+08:00
+lastmod: 2025-01-07T11:35:42+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -104,5 +104,15 @@ C-m：静音（使失效）
 
 ## 常用提示词
 
-8k, hdr, raw photo, high quality
+
+## 环境
+
+requirement.txt 中的 `torch` 和 `xformer` 库直接删掉，不要装，因为要和你的 `cuda` 版本对应。
+
+
+## SDXL 原理讲解
+
+[Site Unreachable](https://zhuanlan.zhihu.com/p/643420260)
+
+
 
