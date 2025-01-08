@@ -53,16 +53,6 @@
               "icon": "lucide-layout-dashboard",
               "title": "《卡拉马佐夫兄弟》第十二卷"
             }
-          },
-          {
-            "id": "8cd7b3b9a6e6e8d5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
           }
         ]
       }
@@ -131,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 354.5,
+    "collapsed": true
   },
   "right": {
     "id": "3dd1f0e1b777ab09",

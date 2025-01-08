@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-07T17:38:21+08:00
+lastmod: 2025-01-08T10:19:45+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -134,3 +134,12 @@ sdxl controlnet: [NoobAI-SDXL-controlnet - a Laxhar Collection](https://huggingf
 ## illustrious 类的模型和 noobai 用的是同一个 controlnet
 
 ## noob, obsession，光辉系（illustrious） 是什么 todo
+
+
+## Flux 1.
+
+Black Forest: 
+
+Comfy org: 
+
+kijai:
