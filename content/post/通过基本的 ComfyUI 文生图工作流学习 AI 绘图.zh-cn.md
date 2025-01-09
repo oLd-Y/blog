@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-09T11:09:05+08:00
+lastmod: 2025-01-09T17:24:27+08:00
 ---
 ![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241227152620.png)
 
@@ -37,6 +37,8 @@ lastmod: 2025-01-09T11:09:05+08:00
 ![](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241227210936.png)
 
 - cfg scale: classifier-free guidance scale
+
+池子
 
 ## 模型架构 
 
