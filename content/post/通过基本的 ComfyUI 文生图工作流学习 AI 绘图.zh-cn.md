@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-07T11:50:09+08:00
+lastmod: 2025-01-09T11:09:05+08:00
 ---
 ![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241227152620.png)
 
@@ -30,6 +30,8 @@ lastmod: 2025-01-07T11:50:09+08:00
 作用是将文本 prompt 编码传递给大模型进行处理。
 
 ## K 采样器
+
+![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20250109110849.png)
 
 
 ![](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241227210936.png)
