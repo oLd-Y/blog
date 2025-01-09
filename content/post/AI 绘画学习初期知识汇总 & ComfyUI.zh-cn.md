@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-08T10:19:45+08:00
+lastmod: 2025-01-09T10:25:41+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -143,3 +143,5 @@ Black Forest:
 Comfy org: 
 
 kijai:
+
+安装
