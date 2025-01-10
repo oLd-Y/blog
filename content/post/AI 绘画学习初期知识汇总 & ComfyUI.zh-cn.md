@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-10T08:30:49+08:00
+lastmod: 2025-01-10T08:42:26+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -152,3 +152,4 @@ kijai:
 
 ### 挂 lora
 
+[Flux超千图测试，15分钟全面系统梳理，零基础小白新手快速上手指南！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1k2qBY1EzY/?spm_id_from=333.337.search-card.all.click&vd_source=75f81845b7419e2244a942c2be195d61) 9 分钟左右
