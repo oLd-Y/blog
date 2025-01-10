@@ -76,7 +76,7 @@
                 "file": "《卡拉马佐夫兄弟》第十二卷.canvas",
                 "viewState": {
                   "x": -260,
-                  "y": 570,
+                  "y": 787.1265306122448,
                   "zoom": -0.2232333977758188
                 }
               },
@@ -85,7 +85,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -268,17 +268,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "87dc8931d4cf1fa4",
+  "active": "deed2a6c4675bbd3",
   "lastOpenFiles": [
+    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
+    "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "controlnet.md",
     "ai 绘图模型汇总.zh-cn.md",
     "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md",
     "flux 原理.zh-cn.md",
-    "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "《卡拉马佐夫兄弟》全文-第一卷.zh-cn.md",
     "《卡拉马佐夫兄弟》第十二卷.canvas",
     "Untitled.md",
-    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
     "_excalidraw/Drawing 2025-01-05 18.17.01.excalidraw.md",
     "《为美好的世界献上祝福》阅读笔记.zh-cn.md",
     "Untitled mindmap.md",
