@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "useful prompt.zh-cn",
+      "path": "useful prompt.zh-cn.md"
+    },
+    {
+      "basename": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn",
+      "path": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md"
+    },
+    {
       "basename": "《卡拉马佐夫兄弟》第十二卷",
       "path": "《卡拉马佐夫兄弟》第十二卷.canvas"
     },
     {
       "basename": "《卡拉马佐夫兄弟》读书笔记.zh-cn",
       "path": "《卡拉马佐夫兄弟》读书笔记.zh-cn.md"
-    },
-    {
-      "basename": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn",
-      "path": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md"
     },
     {
       "basename": "ai 绘图模型汇总.zh-cn",
@@ -55,10 +59,6 @@
     {
       "basename": "Drawing 2025-01-05 16.15.47.excalidraw",
       "path": "_excalidraw/Drawing 2025-01-05 16.15.47.excalidraw.md"
-    },
-    {
-      "basename": "useful prompt.zh-cn",
-      "path": "useful prompt.zh-cn.md"
     },
     {
       "basename": "read",

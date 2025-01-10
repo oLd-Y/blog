@@ -23,33 +23,18 @@
             }
           },
           {
-            "id": "24be0420823e6cd1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "flux 原理.zh-cn.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "flux 原理.zh-cn"
-            }
-          },
-          {
             "id": "87dc8931d4cf1fa4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
+                "file": "useful prompt.zh-cn.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn"
+              "title": "useful prompt.zh-cn"
             }
           },
           {
@@ -85,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -268,16 +253,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "deed2a6c4675bbd3",
+  "active": "87dc8931d4cf1fa4",
   "lastOpenFiles": [
-    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
     "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
+    "《卡拉马佐夫兄弟》第十二卷.canvas",
+    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
     "controlnet.md",
     "ai 绘图模型汇总.zh-cn.md",
     "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md",
     "flux 原理.zh-cn.md",
     "《卡拉马佐夫兄弟》全文-第一卷.zh-cn.md",
-    "《卡拉马佐夫兄弟》第十二卷.canvas",
     "Untitled.md",
     "_excalidraw/Drawing 2025-01-05 18.17.01.excalidraw.md",
     "《为美好的世界献上祝福》阅读笔记.zh-cn.md",
@@ -301,7 +286,6 @@
     "ox-hugo org-template 理解.md",
     "卡拉马佐夫.md",
     "test.md",
-    "《卡拉马佐夫兄弟》人物表.zh-cn.md",
     "static/comfyui/basic-txt2img.png",
     "static/comfyui",
     "static/CSAPP/shift-operations-in-c.png",
