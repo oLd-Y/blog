@@ -46,7 +46,7 @@
                 "file": "《卡拉马佐夫兄弟》第十二卷.canvas",
                 "viewState": {
                   "x": -280,
-                  "y": 2570,
+                  "y": 2352.873469387755,
                   "zoom": -0.2232333977758188
                 }
               },
@@ -60,13 +60,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "洛雪音乐音源.zh-cn.md",
+                "file": "useful prompt.zh-cn.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "洛雪音乐音源.zh-cn"
+              "title": "useful prompt.zh-cn"
             }
           }
         ],
@@ -256,10 +256,10 @@
   "active": "29b88f3413e226a5",
   "lastOpenFiles": [
     "《卡拉马佐夫兄弟》第十二卷.canvas",
-    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
-    "洛雪音乐音源.zh-cn.md",
-    "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md",
     "useful prompt.zh-cn.md",
+    "洛雪音乐音源.zh-cn.md",
+    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
+    "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md",
     "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "controlnet.md",
     "ai 绘图模型汇总.zh-cn.md",
