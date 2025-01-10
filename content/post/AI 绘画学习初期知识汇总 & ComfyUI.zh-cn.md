@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-09T10:25:41+08:00
+lastmod: 2025-01-10T08:30:49+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -145,3 +145,10 @@ Comfy org:
 kijai:
 
 安装
+
+### 采样器分类
+
+![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20250110081511.png)
+
+### 挂 lora
+

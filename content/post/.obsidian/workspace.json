@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai 绘图模型汇总.zh-cn.md",
+                "file": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ai 绘图模型汇总.zh-cn"
+              "title": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn"
             }
           },
           {
@@ -84,7 +84,8 @@
               "title": "《卡拉马佐夫兄弟》第十二卷"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -267,12 +268,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5f807305454f16b5",
+  "active": "87dc8931d4cf1fa4",
   "lastOpenFiles": [
-    "flux 原理.zh-cn.md",
-    "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md",
-    "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "ai 绘图模型汇总.zh-cn.md",
+    "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md",
+    "flux 原理.zh-cn.md",
+    "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "《卡拉马佐夫兄弟》全文-第一卷.zh-cn.md",
     "《卡拉马佐夫兄弟》第十二卷.canvas",
     "Untitled.md",
