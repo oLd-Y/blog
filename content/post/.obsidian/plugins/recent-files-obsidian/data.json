@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "洛雪音乐音源.zh-cn",
+      "path": "洛雪音乐音源.zh-cn.md"
+    },
+    {
       "basename": "《卡拉马佐夫兄弟》第十二卷",
       "path": "《卡拉马佐夫兄弟》第十二卷.canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "整数到浮点数的转换.zh-cn",
       "path": "整数到浮点数的转换.zh-cn.md"
-    },
-    {
-      "basename": "frontmatters",
-      "path": "_templates/templater/frontmatters.md"
     }
   ],
   "omittedPaths": []
