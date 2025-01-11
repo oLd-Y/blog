@@ -9,6 +9,30 @@
       "path": "《卡拉马佐夫兄弟》第十二卷.canvas"
     },
     {
+      "basename": "useful prompt.zh-cn",
+      "path": "useful prompt.zh-cn.md"
+    },
+    {
+      "basename": "洛雪音乐音源.zh-cn",
+      "path": "洛雪音乐音源.zh-cn.md"
+    },
+    {
+      "basename": "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn",
+      "path": "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md"
+    },
+    {
+      "basename": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn",
+      "path": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md"
+    },
+    {
+      "basename": "ai 绘图模型汇总.zh-cn",
+      "path": "ai 绘图模型汇总.zh-cn.md"
+    },
+    {
+      "basename": "flux 原理.zh-cn",
+      "path": "flux 原理.zh-cn.md"
+    },
+    {
       "basename": "《卡拉马佐夫兄弟》全文-第一卷.zh-cn",
       "path": "《卡拉马佐夫兄弟》全文-第一卷.zh-cn.md"
     },
@@ -41,10 +65,6 @@
       "path": "_excalidraw/Drawing 2025-01-05 16.15.47.excalidraw.md"
     },
     {
-      "basename": "useful prompt.zh-cn",
-      "path": "useful prompt.zh-cn.md"
-    },
-    {
       "basename": "read",
       "path": "_templates/templater/read.md"
     },
@@ -59,14 +79,6 @@
     {
       "basename": "ox-hugo org-template 理解",
       "path": "ox-hugo org-template 理解.md"
-    },
-    {
-      "basename": "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn",
-      "path": "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md"
-    },
-    {
-      "basename": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn",
-      "path": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md"
     },
     {
       "basename": "CSAPP reading notes - part I, chapter 3.en",
@@ -187,14 +199,6 @@
     {
       "basename": "整数到浮点数的转换.zh-cn",
       "path": "整数到浮点数的转换.zh-cn.md"
-    },
-    {
-      "basename": "frontmatters",
-      "path": "_templates/templater/frontmatters.md"
-    },
-    {
-      "basename": "Insert Callouts",
-      "path": "_templates/archive/Insert Callouts.md"
     }
   ],
   "omittedPaths": []
