@@ -7,7 +7,27 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Sat, 21 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>flux 原理.zh-cn</title>
+        <link>http://localhost:1313/blog/p/flux-%E5%8E%9F%E7%90%86.zh-cn/</link>
+        <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/flux-%E5%8E%9F%E7%90%86.zh-cn/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://zhouyifan.net/2024/09/03/20240809-flux1/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stable Diffusion 3「精神续作」FLUX.1 源码深度前瞻解读 | 周弈帆的博客&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20250109111347.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>git 命令中的 fixup 参数的作用</title>
         <link>http://localhost:1313/blog/p/git-%E5%91%BD%E4%BB%A4%E4%B8%AD%E7%9A%84-fixup-%E5%8F%82%E6%95%B0%E7%9A%84%E4%BD%9C%E7%94%A8/</link>
         <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
@@ -3381,14 +3401,36 @@ CHAPTER：&lt;/p&gt;
 &lt;p&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
 &lt;p&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
 &lt;h2 id=&#34;小说情节梳理&#34;&gt;小说情节梳理
-&lt;/h2&gt;&lt;p&gt;你是一个小说情节梳理助手，我正在阅读《卡拉马佐夫兄弟》，我将给你我已阅读完毕的那一小节的原文，请你先用几句话概括一下本小节的主要内容，然后分析其中的关键情节，使我更好地理解剧情。&lt;/p&gt;
-&lt;p&gt;当前阅读的文本以“卷号.节号”表示，例如第11卷，第6节表示为 11.6。&lt;/p&gt;
-&lt;p&gt;以下为第12卷第2小节的原文：&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;你是一个小说情节梳理助手，我正在阅读《卡拉马佐夫兄弟》，我将给你小说某一小节的原文。&lt;/p&gt;
+&lt;p&gt;由于总结和归纳后的内容更符合容易理解和记忆，所以请你以原文中的“基本事件”或“人物观点”为单位，将原文进行划分归并，然后用简短的文字列举出该小节的主要内容，帮助我缕清本节中事件的发展脉落或者人物观点表达，以便我更好地理解剧情。&lt;/p&gt;
+&lt;p&gt;以下为第12卷第13小节的原文：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;ai-绘画提示词扩写&#34;&gt;AI 绘画提示词扩写
+&lt;/h2&gt;&lt;p&gt;你是一名ai绘画提示词的写作者，你的任务是帮助用户将ai绘图的提示词进行扩写，以满足生图的需求。&lt;/p&gt;
+&lt;p&gt;以下为一些ai绘画中书写提示词的原则：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;通用描述&lt;/strong&gt;：使用容易理解的语言来描述每个提示词。避免过于复杂或模糊的表达。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;具体的色彩和样式描述&lt;/strong&gt;：为每个提示词提供与其相关的颜色、风格或主题特征，例如“古老的城市景观”、“未来世界的建筑”，等等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;尽量简单，但不缺乏细节&lt;/strong&gt;：用简洁明了的方式描述要画的元素，同时保持一定的具体性，使得AI绘图工具能更好地理解并实现艺术家想要的效果。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;避免模糊或多义性的词汇&lt;/strong&gt;：尽量使用特定和清晰的提示，避免可能给模型带来的误解。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;保持一致性&lt;/strong&gt;：将所有提示用同样的风格和语法书写，以便于机器更好地学习并理解艺术家想要实现的效果。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;请根据以上ai绘画中提示词的书写原则，将下列中文描述内容扩写成规范的提示词。注意：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;扩写的提示词内容完整，细节丰富。&lt;/li&gt;
+&lt;li&gt;将生成的中文内容转换成英文格式进行输出。&lt;/li&gt;
+&lt;li&gt;不要输出扩写英文以外的内容。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;语法修改器&#34;&gt;语法修改器
 &lt;/h2&gt;&lt;p&gt;不要修改文意和任何与语法无关的词语。

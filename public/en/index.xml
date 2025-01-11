@@ -3420,21 +3420,21 @@ E: exponent&lt;/p&gt;
         
         <guid>http://localhost:1313/blog/en/p/useful-prompt/</guid>
         <description>&lt;h2 id=&#34;rewrite-text&#34;&gt;Rewrite Text
-&lt;/h2&gt;&lt;p&gt;I will give you text content which is wrapped by 3 double quotes, you need to rewrite it and output a better version of my text.&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;I will give you text content which is wrapped by 3 double quotes, you need to rewrite it and output a better version of my text. ^86830b&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Fix grammar errors if it exists.&lt;/li&gt;
-&lt;li&gt;Keep the meaning the same and make it more native if possible.&lt;/li&gt;
-&lt;li&gt;Make sure the re-written content&amp;rsquo;s number of characters is the same as the original text&amp;rsquo;s number of characters.&lt;/li&gt;
+&lt;li&gt;Keep the meaning the same and make it more native if possible. ^b4fe20&lt;/li&gt;
+&lt;li&gt;Make sure the re-written content&amp;rsquo;s number of characters is the same as the original text&amp;rsquo;s number of characters. ^f47c8b&lt;/li&gt;
 &lt;li&gt;Do not alter the original structure and formatting outlined in any way.&lt;/li&gt;
 &lt;li&gt;Only give me the output and nothing else.
 &amp;quot;&amp;quot;&amp;quot;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/p&gt;
+&lt;p&gt;&amp;quot;&amp;quot;&amp;quot; ^f477fc&lt;/p&gt;
 &lt;h3 id=&#34;fiction-chapter-summarizer&#34;&gt;Fiction Chapter Summarizer
 &lt;/h3&gt;&lt;p&gt;BOOKNAME: The Razor&amp;rsquo;s Edge
 PART: 6&lt;/p&gt;
-&lt;p&gt;You are a story summurisor, I&amp;rsquo;m now reading the book &lt;code&gt;BOOKNAME&lt;/code&gt; and am up to part &lt;code&gt;PART&lt;/code&gt; and a certain  chapter.&lt;/p&gt;
-&lt;p&gt;In order to ensure the accuracy of the content, I will provide you with text of the current chapter where I&amp;rsquo;m reading at, and there are several things you need to do:&lt;/p&gt;
+&lt;p&gt;You are a story summurisor, I&amp;rsquo;m now reading the book &lt;code&gt;BOOKNAME&lt;/code&gt; and am up to part &lt;code&gt;PART&lt;/code&gt; and a certain  chapter.  ^8886dd&lt;/p&gt;
+&lt;p&gt;In order to ensure the accuracy of the content, I will provide you with text of the current chapter where I&amp;rsquo;m reading at, and there are several things you need to do: ^705117&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;List all the characters that mentioned in the text, and if their &lt;strong&gt;relationship to others&lt;/strong&gt;, &lt;strong&gt;age&lt;/strong&gt; or &lt;strong&gt;identity&lt;/strong&gt; is presented or can be inferred in the current chapter, list them as well(don&amp;rsquo;t list if can&amp;rsquo;t or not mentioned). Here is an example:&lt;/li&gt;
 &lt;/ol&gt;

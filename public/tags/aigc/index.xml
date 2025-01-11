@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Aigc on 谷栗杳</title>
+        <link>http://localhost:1313/blog/tags/aigc/</link>
+        <description>Recent content in Aigc on 谷栗杳</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>谷栗杳</copyright>
+        <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/aigc/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>flux 原理.zh-cn</title>
+        <link>http://localhost:1313/blog/p/flux-%E5%8E%9F%E7%90%86.zh-cn/</link>
+        <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/p/flux-%E5%8E%9F%E7%90%86.zh-cn/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://zhouyifan.net/2024/09/03/20240809-flux1/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stable Diffusion 3「精神续作」FLUX.1 源码深度前瞻解读 | 周弈帆的博客&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20250109111347.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

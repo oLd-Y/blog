@@ -174,7 +174,7 @@
     "Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）.zh-cn.md": "423413c20b639cc8f183832ff5e8c690c9405cac368c845a33e474bdae3b8f79",
     "Ubuntu 命令行启动 Vue3 项目（以 ruoyi-ui-admin-vue3 为例）.zh-cn.md": "3efbc6369da18c93e3e4de8143d22291f0832724397e5183f5c9622722e4a1f6",
     "useful prompt.en.md": "34228045f515194b1f6ccc01472c9f67d15100d816e353154d9a58eb22e53225",
-    "useful prompt.zh-cn.md": "ae438689f452e3ee9cbb98fb7c010a5c3c0c8f0a29402867d58374104a1fa35e",
+    "useful prompt.zh-cn.md": "081ea6ebb72af4d879edb1730fa704e6d147c64de3e127c9b512cc4cb2917742",
     "cargo installation.en.md": "327361df95c42a7a4e97ba07e439485a7a9531732c434d73c70e019f0dbd5f69",
     "Windows 布局和工作区.md": "7432180f88a8cc4547b5e4b4d8b27372d480e77f02b2dbaf0aa9d5c7de56dbdc",
     "160. 相交链表.zh-cn.md": "4e6572016c02777127a219ed4f65b8a1ed019b9d89414e2b91c80009e7da8810",
@@ -261,7 +261,7 @@
     "配置 lazyvim 中的 C 及 C++ 开发环境.zh-cn.md": "80733d4810af626cde978cd19e1ce42dc408376149e8f7d7959909c446d6456f",
     "逻辑运算符和位运算符.zh-cn.md": "8bcacfb012e46e88cf7d3187e1fd87e5119653451c793693294316ce812d54da",
     "usage of `restrict` keyword in c.en.md": "7b211a93233eac21bef0c893ed818036499872e367bf15134adc8c03b228bd6b",
-    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md": "40bef684bce312cfde6babe5d34ce9050d6ee6f9d7638badff151497b4347322",
+    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md": "dcdf11e38064cbc194edf55dc3c8016bff010314db64b1718df5d0942678d3d2",
     "MyKeymap 修改切换窗口按键.zh-cn.md": "58f297679912790daa537d5155a816bd13960d47f4404fbcfff1a4baf1ae025b",
     "learn makefile through example.en.md": "6fb99bb38d7518989cdd706a3c7be0cf0dcb856ac7e2922cc27b48b1a64fbcc5",
     "CSAPP-odd_ones explanation.en.md": "9c307207bc9060a3e16d184fbb81561ab66ca50f2b920022feeb0b1658f5bbce",
@@ -273,10 +273,13 @@
     "Differences among `mixed`, `hard` and `soft` in `git commit reset`.en.md": "412f0afc75def2c2837e0ba973cd6a8070b05637f55060b1a0762dca5c5715ad",
     "《为美好的世界献上祝福》读后感.zh-cn.md": "e288a396897d6a781b28d128aa323b1db23dd8867f6da4c2d217d0963cba1e72",
     "关于计算机技术的一些想法.zh-cn.md": "a2b2535a3c6434c1a45673be63530e009daeaf1a09f3f7e18e16b82e43ff5284",
-    "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md": "1569bfa9878b60f71de27d2fac585c9e567cb9f647fc6a890dd8a69107163fd0",
+    "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md": "552bcaa4559bdc548cecc3a70d61f93d731823c17b3ebd742e30483bd42c8439",
     "《寄生兽》看番笔记.zh-cn.md": "4312a93791d30a2229e635be344302187d26794459a5c221f0227c37d0213c38",
     "《寄生兽》人物分析.zh-cn.md": "2dd07b33c151a7f7a9a6a003d77c2809f22f94ac8a74d9189fb57bd320cc55e3",
-    "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md": "1b28ac3436551c0be476ba29592b6dd6a5608fbbc026289c473ef3a753ee1464",
-    "《卡拉马佐夫兄弟》全文-第一卷.zh-cn.md": "496247df4fb057627ed09b680eff6ef0e7f47ea528f31b55c357c9df638e63e4"
+    "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md": "ffdbc636c12eac471eeedc5d8bdd99e6870d833c57a0e9f49f4ed1468d975cfa",
+    "《卡拉马佐夫兄弟》全文-第一卷.zh-cn.md": "496247df4fb057627ed09b680eff6ef0e7f47ea528f31b55c357c9df638e63e4",
+    "ai 绘图模型汇总.zh-cn.md": "67a14b321203243ce9a527a13be7ee43f859a21183cae8dfe4b3ccf16a1f9559",
+    "flux 原理.zh-cn.md": "7ed362b4e756ba81c9e8530cfe3f9c26c28026c1fbd3baf028cc460124801f5c",
+    "洛雪音乐音源.zh-cn.md": "340ce9d8ffd0864360eebe443c2b873d4428d345c6372eff5eef1f6073b9c88b"
   }
 }
