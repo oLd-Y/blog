@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "《哈利波特》人物、地点及重要时间线.zh-cn",
+      "path": "《哈利波特》人物、地点及重要时间线.zh-cn.md"
+    },
+    {
+      "basename": "《哈利波特》摘抄.zh-cn",
+      "path": "《哈利波特》摘抄.zh-cn.md"
+    },
+    {
+      "basename": "《哈利波特》情节梳理.zh-cn",
+      "path": "《哈利波特》情节梳理.zh-cn.md"
+    },
+    {
       "basename": "useful prompt.en",
       "path": "useful prompt.en.md"
     },
@@ -183,22 +195,6 @@
     {
       "basename": "learn vim command line through examples.en",
       "path": "learn vim command line through examples.en.md"
-    },
-    {
-      "basename": "Learn LaTex through examples.en",
-      "path": "Learn LaTex through examples.en.md"
-    },
-    {
-      "basename": "lazyvim shortcuts.en",
-      "path": "lazyvim shortcuts.en.md"
-    },
-    {
-      "basename": "lazyvim 超出屏幕的一行不会自动换行.zh-cn",
-      "path": "lazyvim 超出屏幕的一行不会自动换行.zh-cn.md"
-    },
-    {
-      "basename": "原码、反码、补码的定义及求值.zh-cn",
-      "path": "原码、反码、补码的定义及求值.zh-cn.md"
     }
   ],
   "omittedPaths": []

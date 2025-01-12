@@ -8,18 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b95391682c47db21",
+            "id": "3c793811b0adf47c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "useful prompt.en.md",
+                "file": "《哈利波特》摘抄.zh-cn.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "useful prompt.en"
+              "title": "《哈利波特》摘抄.zh-cn"
             }
           }
         ]
@@ -84,12 +84,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 354.5,
+    "collapsed": true
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -204,8 +204,86 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b95391682c47db21",
+  "floating": {
+    "id": "28edf0a0fa0a831a",
+    "type": "floating",
+    "children": [
+      {
+        "id": "144670dad97542d4",
+        "type": "window",
+        "children": [
+          {
+            "id": "f2a80c3d10d33b27",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "05841c85113e68ae",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "《哈利波特》人物、地点及重要时间线.zh-cn.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "《哈利波特》人物、地点及重要时间线.zh-cn"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 1104,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "fd9ba8d9f2ea9c49",
+        "type": "window",
+        "children": [
+          {
+            "id": "47278f52dc4104d2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3cbfb8ba2f763bac",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "《哈利波特》情节梳理.zh-cn.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "《哈利波特》情节梳理.zh-cn"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 1104,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "05841c85113e68ae",
   "lastOpenFiles": [
+    "《哈利波特》摘抄.zh-cn.md",
+    "《哈利波特》人物、地点及重要时间线.zh-cn.md",
+    "《哈利波特》情节梳理.zh-cn.md",
+    "useful prompt.en.md",
     "useful prompt.zh-cn.md",
     "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md",
     "《卡拉马佐夫兄弟》人物地点表.zh-cn.md",
@@ -233,11 +311,6 @@
     "Pasted image 20250105160923.png",
     "_excalidraw/Drawing 2025-01-05 16.15.47.excalidraw.md",
     "_templates/templater/read.md",
-    "卡拉马佐夫兄弟摘抄.zh-cn.md",
-    "《寄生兽》人物分析.zh-cn.md",
-    "useful prompt.en.md",
-    "伊波里特·基里洛维奇.md",
-    "ox-hugo org-template 理解.md",
     "static/comfyui/basic-txt2img.png",
     "static/comfyui",
     "static/CSAPP/shift-operations-in-c.png",
