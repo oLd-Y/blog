@@ -174,7 +174,7 @@
     "Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）.zh-cn.md": "423413c20b639cc8f183832ff5e8c690c9405cac368c845a33e474bdae3b8f79",
     "Ubuntu 命令行启动 Vue3 项目（以 ruoyi-ui-admin-vue3 为例）.zh-cn.md": "3efbc6369da18c93e3e4de8143d22291f0832724397e5183f5c9622722e4a1f6",
     "useful prompt.en.md": "3cf3d08dfaa13cfd7f69d5b683c78f57bf41c01a65ad694d494f0ed508eaecc7",
-    "useful prompt.zh-cn.md": "9b118777da3bb8761853f9f1beedd19e3c0d583a7e9a31c335625de720d1b475",
+    "useful prompt.zh-cn.md": "dd6d1a40e27d5b7a3c822317099cad8a61d969188b65d924fa9980fb2bf44501",
     "cargo installation.en.md": "327361df95c42a7a4e97ba07e439485a7a9531732c434d73c70e019f0dbd5f69",
     "Windows 布局和工作区.md": "7432180f88a8cc4547b5e4b4d8b27372d480e77f02b2dbaf0aa9d5c7de56dbdc",
     "160. 相交链表.zh-cn.md": "4e6572016c02777127a219ed4f65b8a1ed019b9d89414e2b91c80009e7da8810",
@@ -261,7 +261,7 @@
     "配置 lazyvim 中的 C 及 C++ 开发环境.zh-cn.md": "80733d4810af626cde978cd19e1ce42dc408376149e8f7d7959909c446d6456f",
     "逻辑运算符和位运算符.zh-cn.md": "8bcacfb012e46e88cf7d3187e1fd87e5119653451c793693294316ce812d54da",
     "usage of `restrict` keyword in c.en.md": "7b211a93233eac21bef0c893ed818036499872e367bf15134adc8c03b228bd6b",
-    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md": "791d987debd8ca5fdc07824a3bdf61bfc4895c2863890c747c994ee67fd39a32",
+    "《卡拉马佐夫兄弟》读书笔记.zh-cn.md": "9c99cc63b5e9a1a1373cad6f2a99acac365572d1ca5a4537de1ca549b0846ad1",
     "MyKeymap 修改切换窗口按键.zh-cn.md": "58f297679912790daa537d5155a816bd13960d47f4404fbcfff1a4baf1ae025b",
     "learn makefile through example.en.md": "6fb99bb38d7518989cdd706a3c7be0cf0dcb856ac7e2922cc27b48b1a64fbcc5",
     "CSAPP-odd_ones explanation.en.md": "9c307207bc9060a3e16d184fbb81561ab66ca50f2b920022feeb0b1658f5bbce",
@@ -281,10 +281,10 @@
     "ai 绘图模型汇总.zh-cn.md": "67a14b321203243ce9a527a13be7ee43f859a21183cae8dfe4b3ccf16a1f9559",
     "flux 原理.zh-cn.md": "7ed362b4e756ba81c9e8530cfe3f9c26c28026c1fbd3baf028cc460124801f5c",
     "洛雪音乐音源.zh-cn.md": "340ce9d8ffd0864360eebe443c2b873d4428d345c6372eff5eef1f6073b9c88b",
-    "《卡拉马佐夫兄弟》摘抄.zh-cn.md": "c4b10f7f1fd1e6bc5aa669c313311b41a9ff94b4c4d7e01d3db6922d5e99c5e4",
-    "《卡拉马佐夫兄弟》人物地点表.zh-cn.md": "98841315bc844f13a78a85723b7f0f104eeaba6bad9eae43ccf7264e3db51666",
+    "《卡拉马佐夫兄弟》摘抄.zh-cn.md": "720dc318a3f27798bb21e99d1a3a0e1e16daedc0ec04947bded8751fc5ad240d",
+    "《卡拉马佐夫兄弟》人物地点表.zh-cn.md": "f8f90d8e220ad8151f66dfd444de5bda8246c2610ae5d6959037acdf21943369",
     "《哈利波特》摘抄.zh-cn.md": "876ded91bc82aa8bb7382a1f8b39fcd4a20e27aa390962dfa13463f8c481e7ca",
     "《哈利波特》情节梳理.zh-cn.md": "595ad39d739e42aafb50ecb1033acab13c360daaf100f21482912e11b3635fd2",
-    "《哈利波特》人物、地点及重要时间线.zh-cn.md": "79b889e51337eaf1acfa65ed88390346ebca0afd93fde75a8c3f821e9ea3ce4e"
+    "《哈利波特》人物、地点及重要时间线.zh-cn.md": "55456b2d4f92bd67b9658f1e4794236aba130024a19a65002cf970c4730d5a96"
   }
 }
