@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn",
+      "path": "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md"
+    },
+    {
+      "basename": "《卡拉马佐夫兄弟》人物地点表.zh-cn",
+      "path": "《卡拉马佐夫兄弟》人物地点表.zh-cn.md"
+    },
+    {
       "basename": "《卡拉马佐夫兄弟》摘抄.zh-cn",
       "path": "《卡拉马佐夫兄弟》摘抄.zh-cn.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "《卡拉马佐夫兄弟》第十二卷",
       "path": "《卡拉马佐夫兄弟》第十二卷.canvas"
-    },
-    {
-      "basename": "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn",
-      "path": "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md"
     },
     {
       "basename": "洛雪音乐音源.zh-cn",
@@ -195,10 +199,6 @@
     {
       "basename": "原码、反码、补码的定义及求值.zh-cn",
       "path": "原码、反码、补码的定义及求值.zh-cn.md"
-    },
-    {
-      "basename": "LazyVim for Ambitious Developers reading notes.en",
-      "path": "LazyVim for Ambitious Developers reading notes.en.md"
     }
   ],
   "omittedPaths": []
