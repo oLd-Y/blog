@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="News: A nightly version of ControlNet 1.1 is released! ControlNet 1.1 is released. Those new models will be merged to this repo after we make sure that everything is good. Below is ControlNet 1.0 Official implementation of Adding Conditional Control to Text-to-Image Diffusion Models. ControlNet is a neural network structure to control diffusion models by adding extra conditions. It copys the weights of neural network blocks into a &ldquo;locked&rdquo; copy and a &ldquo;trainable&rdquo; copy.">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="八 斯乜尔加科夫论 “首先，这种怀疑缘何而起？\u200b”伊波里特·基里洛维奇从这个问题说起，\u200b“第一个叫嚷凶手是斯乜尔加科夫的，便是被告本人，在他被捕">
 <title></title>
 
 <link rel='canonical' href='http://localhost:1313/blog/p/'>
 
 <link rel="stylesheet" href="/blog/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="">
-<meta property='og:description' content="News: A nightly version of ControlNet 1.1 is released! ControlNet 1.1 is released. Those new models will be merged to this repo after we make sure that everything is good. Below is ControlNet 1.0 Official implementation of Adding Conditional Control to Text-to-Image Diffusion Models. ControlNet is a neural network structure to control diffusion models by adding extra conditions. It copys the weights of neural network blocks into a &ldquo;locked&rdquo; copy and a &ldquo;trainable&rdquo; copy.">
+<meta property='og:description' content="八 斯乜尔加科夫论 “首先，这种怀疑缘何而起？\u200b”伊波里特·基里洛维奇从这个问题说起，\u200b“第一个叫嚷凶手是斯乜尔加科夫的，便是被告本人，在他被捕">
 <meta property='og:url' content='http://localhost:1313/blog/p/'>
 <meta property='og:site_name' content='谷栗杳'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-01-05T18:16:27&#43;08:00'/><meta property='article:modified_time' content='2025-01-05T18:16:27&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' />
 <meta name="twitter:title" content="">
-<meta name="twitter:description" content="News: A nightly version of ControlNet 1.1 is released! ControlNet 1.1 is released. Those new models will be merged to this repo after we make sure that everything is good. Below is ControlNet 1.0 Official implementation of Adding Conditional Control to Text-to-Image Diffusion Models. ControlNet is a neural network structure to control diffusion models by adding extra conditions. It copys the weights of neural network blocks into a &ldquo;locked&rdquo; copy and a &ldquo;trainable&rdquo; copy.">
+<meta name="twitter:description" content="八 斯乜尔加科夫论 “首先，这种怀疑缘何而起？\u200b”伊波里特·基里洛维奇从这个问题说起，\u200b“第一个叫嚷凶手是斯乜尔加科夫的，便是被告本人，在他被捕">
     <link rel="shortcut icon" href="/blog/favicon.ico" />
 
   
@@ -318,9 +318,26 @@
   <ol>
     <li>
       <ol>
-        <li><a href="#八斯乜尔加科夫论">八　斯乜尔加科夫论</a></li>
+        <li><a href="#faq">FAQ</a></li>
       </ol>
     </li>
+  </ol>
+
+  <ol>
+    <li><a href="#controlnet-with-canny-edge">ControlNet with Canny Edge</a></li>
+    <li><a href="#controlnet-with-m-lsd-lines">ControlNet with M-LSD Lines</a></li>
+    <li><a href="#controlnet-with-hed-boundary">ControlNet with HED Boundary</a></li>
+    <li><a href="#controlnet-with-user-scribbles">ControlNet with User Scribbles</a>
+      <ol>
+        <li><a href="#interactive-interface">Interactive Interface</a></li>
+      </ol>
+    </li>
+    <li><a href="#controlnet-with-fake-scribbles">ControlNet with Fake Scribbles</a></li>
+    <li><a href="#controlnet-with-human-pose">ControlNet with Human Pose</a></li>
+    <li><a href="#controlnet-with-semantic-segmentation">ControlNet with Semantic Segmentation</a></li>
+    <li><a href="#controlnet-with-depth">ControlNet with Depth</a></li>
+    <li><a href="#controlnet-with-normal-map">ControlNet with Normal Map</a></li>
+    <li><a href="#controlnet-with-anime-line-drawing">ControlNet with Anime Line Drawing</a></li>
   </ol>
 </nav>
         </div>
@@ -352,6 +369,19 @@
     
     <footer class="article-time">
         
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 12, 2025</time>
+            </div>
+        
 
         
             <div>
@@ -364,7 +394,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 10 分钟
+                    阅读时长: 1 分钟
                 </time>
             </div>
         
@@ -379,30 +409,550 @@
     <section class="article-content">
     
     
-    <h3 id="八斯乜尔加科夫论">八　斯乜尔加科夫论
-</h3><p>“首先，这种怀疑缘何而起？​”伊波里特·基里洛维奇从这个问题说起，​“第一个叫嚷凶手是斯乜尔加科夫的，便是被告本人，在他被捕的时候；然而从他发出第一声叫嚷一直到开庭审理的此时此刻，被告提不出一件事实可为他的指控佐证——别说事实，哪怕是多多少少说得过去的一点点近乎事实的影子也提不出来。此后附和这一指控的只有三人：被告的两个弟弟以及斯维特洛娃女士。其中被告的二弟仅在今天声称自己持这种看法，但他今天有病，显然处在精神狂乱和谵妄症发作的状态之中，而在过去两个月内，他完全相信兄长有罪，甚至不想提出任何异议，这一点我们了解得很确切。这个问题我们以后再谈。
-“其次，被告的三弟刚才自己也说，他没有任何事实可为自己所持斯乜尔加科夫有罪的观点佐证，连最起码的事实也没有，他只是听被告自己这样说，并且‘根据他脸上的表情’得出这一结论——是的，这句令人难以置信的证词刚才由他的三弟说了两遍。
-“斯维特洛娃女士的说法也许更加难以置信。‘被告对你们说什么，你们就相信什么，他不是那种撒谎的人。’
-“以上便是这三个人指控斯乜尔加科夫的全部事实依据，他们都与被告的命运有太深的牵连。然而对斯乜尔加科夫的指控曾有过市场，至今仍未绝迹。那么，这种说法是否可信？是否可以想象呢？​” ^727c95</p>
-<p>说到这里，伊波里特·基里洛维奇认为有必要勾勒一下已故的斯乜尔加科夫的性格。他把这个“因精神病发作而结束自己生命的疯子”想象成一个弱智人，一知半解地读过一些书，被非他所能理解的哲学思想搅乱了头脑，又被某些有关义务和责任的现代学说吓得惶惶不可终日。他接受这些思想影响有两条渠道：实际渠道乃是他的老爷、可能还是他父亲的费奥多尔·巴甫洛维奇花天酒地的生活；理论渠道则是他与老爷的次子伊万·费奥多罗维奇经常就各种题目作奇怪的哲学交谈，这位二少爷也乐意借此消遣解闷——想必是闲得无聊或找不到更好的嘲弄对象。​“斯乜尔加科夫自己曾向我讲述他在老爷宅内最后一些日子的心态，​”伊波里特·基里洛维奇解释道，​“上述情况别人也可证明：被告本人、被告的二弟乃至老仆格里果利，也就是应该对他最了解的那些人。
-“此外，在羊痫风的精神重压下，斯乜尔加科夫胆小如鼠。‘他会趴倒在我跟前吻我的脚，’被告本人有一次告诉我，那时他还没有意识到，这样的供述在某种意义上是对他不利的，‘这是一只患癫痫病的耗子，’被告用自己独特的语言对他作出这样的评价。被告偏偏挑选他作自己的心腹（被告自己也可证实）​，用威胁手段吓得他只好答应充当刺探动静和通风报信的细作。他扮演家中探子的角色，背叛自己的老爷，既向被告泄露了信封里装钱这回事，又把可以进入老爷居室的暗号告诉被告，——他是多么希望可以不做这种背主泄密的昧心事！‘他会杀了我的，我看得很清楚，他非杀了我不可，’预审中他在我们面前说话也哆嗦不已，尽管那时把他吓成这样的被告自己已锒铛入狱，不可能再加害于他。‘他每时每刻都怀疑我，我老是心惊胆战，为了让他息怒，我一发现什么秘密赶紧向他报告，好让他看到我决没有什么地方蒙骗他，然后让我松一口气。’这都是他的原话，我做了记录，现在还想得起来：‘他只要冲我大喝一声，我立刻向他跪下。’
-“除此以外，他强烈地预感到，根据他看在眼里的种种迹象推测，可能会出大乱子。当费奥多尔·巴甫洛维奇的次子伊万·费奥多罗维奇在惨剧即将发生之前要去莫斯科时，斯乜尔加科夫曾恳求他留下来，不过由于胆怯成性不敢断然明说自己的担忧。他仅仅作一些旁敲侧击的暗示，而这些暗示并没有被理解。
-“必须指出，他把伊万·费奥多罗维奇看成自己的保护神，认为只要二少爷在家，就不会出乱子。请回忆德米特里·卡拉马佐夫醉后所写书信中的一句话，他要杀死父亲，‘但愿伊万走了就好’；可见大家都觉得，只要伊万·费奥多罗维奇在，就能保证家里太平无事。
-“可是他偏偏走了，而斯乜尔加科夫几乎在二少爷走后仅一个小时马上就发癫痫病摔倒在地窖里。这是完全可以理解的。这里有必要提一下，在恐惧和某种程度的绝望夹击下，斯乜尔加科夫最近几天觉得癫痫病在近期可能发作，因为以前他在精神紧张和受到强烈刺激的时候，也发生过这种情况。这种病发作的日期和时间当然不可能预测，但每一个癫痫患者事先都可能感觉到自己有发作的趋势。这是医学告诉我们的。于是，伊万·费奥多罗维奇坐的马车刚从院子里出发，斯乜尔加科夫在失去怙恃和无人保护的情绪支配下到地窖里去干家里的活。他一边踏着梯阶往下走，一边在想：‘不知会不会发病？万一马上发作起来怎么办？’正是由于这种情绪的影响，正是由于疑虑重重，他的喉头起了一阵痉挛——这肯定是癫痫病发作的前驱征兆，——接着他便飞快地一直摔到窖底，失去知觉。对于这一十分自然的偶发事件，却有人挖空心思认为可疑，认为他是故意装病！如果是故意的，接下来马上要问：为什么要装病？出于什么考虑？有什么目的？我不想援引医生的见解，因为有人认为：科学也会撒谎，也会出纰漏，医生分不清真病和装病。就算如此，就算如此，但是请回答我一个问题：他为什么要作假？难道说他构想了谋杀的计划，企图通过发病尽早和尽快地把宅内人的注意力吸引到他身上来？ ^48b640</p>
-<p>“事情是这样的，诸位陪审员先生，案发那天夜里，住在或到过费奥多尔·巴甫洛维奇家宅院内的共有五人：第一个是费奥多尔·巴甫洛维奇本人，他不是自杀的，这一点很清楚；第二个是他家的老仆格里果利，他也差点儿被砸死；第三个是格里果利的妻子、女仆玛尔法·伊格纳启耶夫娜，如果设想她会谋杀老爷——那简直不知羞耻。这样剩下的只有两个人：被告和斯乜尔加科夫。被告声称凶手不是他，那么就一定是斯乜尔加科夫，没有别的办法，因为再也找不到其他人，此外没有任何人可以拉来充当凶手。由此可见，对昨天自杀的那个不幸的白痴之所以会提出如此‘别出心裁’、耸人听闻的指控，原因只有一个：找不到别的替罪羊！如果有一点点疑云罩在另一个人、也就是第六个某某人头上，那么，我确信连被告自己也会耻于把矛头指向斯乜尔加科夫，而会把矛头指向那第六个人，因为指控斯乜尔加科夫干了这桩谋杀案，实在荒诞不经。
-“诸位，让我们搁下心理学，搁下医学，甚至把逻辑学也暂且搁下，仅仅面对事实，看看事实会告诉我们些什么。就算人是斯乜尔加科夫杀的，但他怎么杀人？是一个人干的，还是与被告合谋的？我们先分析第一种情况，即假定杀人的事为斯乜尔加科夫一人所干。当然，杀人必有目的，必有所图。由于斯乜尔加科夫不具备被告所具有的那种杀人动机，如仇恨、忌妒等等，他当然只能为了钱财而杀人，为的是把他亲眼看到老爷装在信封里的那三千卢布据为己有。在定下谋杀的主意后，他居然预先告知另一个人——而且是有最直接利害关系的人即被告——有关钱和暗号的全部情况：信封藏在何处，信封上写些什么，用什么扎起来，最最重要的是说出可以进入老爷居室的暗号。他这样做岂不是在暴露自己！或者说，岂不是在为自己找一个竞争对手，那人或许自己也想进屋去，把那个信封弄到手呢！
-“不错，会有人向我指出，他是因为害怕才泄密的。但这又怎么说得通呢？一个不费吹灰之力设计出如此心狠手辣的作案手段、尔后付诸行动的人，竟会把整个世界上只有他一人知道的事说出去？这些秘密如果他不说，世上任何人任何时候都休想猜到。
-“我认为，一个人无论多么胆怯，既然他想要作案，至少信封和暗号的事他决计不会告诉任何人，因为这意味着预先就把自己彻底暴露。如果被告定要逼他报告消息，他可以胡诌些什么，可以瞎说些旁的事情，而断乎不会吐露这样的秘密！
-“我还要重申，反过来说，只要他瞒过钱的事，然后杀了人，把钱据为己有，那么至少世上永远没人能指控他谋财害命，因为除了他，谁也没见过那笔钱，谁也不知道屋里有这样一笔钱。即使对他提出指控，那一定认为他杀人是出于别的什么动机。但由于事前谁也没有觉察到，他能有别的什么动机，相反，人人都看到，老爷喜欢他，什么都信得过他，那么，他成为怀疑对象的可能当然比谁都小，而嫌疑最大的首先是有这种动机的人，何况此人自己叫嚷有这样的动机，非但不隐瞒，还在大庭广众前公开扬言，总而言之，嫌疑最大的肯定是死者的长子德米特里·费奥多罗维奇。斯乜尔加科夫杀人劫财，而受指控的却是死者的儿子——这样当然对凶手斯乜尔加科夫有利，难道不是吗？可是，蓄谋杀人的斯乜尔加科夫偏偏把钱的事、信封的事、暗号的事通通预先告知那个嫌疑最大的儿子德米特里，——这合乎逻辑吗？！这能叫人明白吗？！
-“到了斯乜尔加科夫预谋杀人的那天，他假装羊痫风发作摔倒了，这能起什么作用？当然，首先是本想用土方治腰痛病的老仆格里果利见宅院无人看守，也许会推迟治疗，自己替他值夜。其次，当然是老爷见无人为他守夜，生怕儿子闯进来（这一点他并不掩饰）​，必然会加强防范，格外小心。末了，如下一点乃是最主要的：发病倒下的斯乜尔加科夫，当然会从他夜间独住、进出正屋都有通道的厨房立刻被搬到侧屋另一端、格里果利老两口隔壁的斗室中去，与他们的床铺相距只有三步，——这是老爷和慈悲心肠的玛尔法·伊格纳启耶夫娜定下不知多少年的老规矩了，每次他的癫痫症发作，都是这样安排的。他躺在板壁后面，极可能为了装得更像一点，当然会开始呻吟，也就是把老两口闹得整夜睡不好觉（据格里果利和他妻子所说，实际上正是这样）​，——难道要我们相信，这一切都是为了便于突然从床上爬起来，然后去把老爷杀死？！
-“但有人会对我说：他作假也许正是为了不让人怀疑到他这么个病人身上；而他向被告泄露钱和暗号的秘密，也许正是为了诱使被告来杀人，等到被告杀了人，把钱带走，与此同时可能会发出很大的响声，惊动许多证人，那时斯乜尔加科夫便从床上爬起来，去——去做什么？难道要我们相信他要去再一次杀死老爷，再一次取走已经被取走的钱吗？
-“诸位，你们觉得可笑，是不是？把这样的假设说出口我自己都觉得不好意思。然而，不管在你们听来有多么荒唐，被告坚持的正是这样的说法：他离开宅院前击倒了格里果利，惊动了宅内的人，这时斯乜尔加科夫从床上起来，到上房去杀了人，盗走了钱。且不说斯乜尔加科夫怎么可能料事如神，也就是说，他怎么可能预先知道，狂怒的儿子来到宅内只是规规矩矩向窗内张望一下，然后在掌握暗号的情况下打退堂鼓，拱手把战利品全部让给斯乜尔加科夫！诸位，我要严肃地提出一个问题：斯乜尔加科夫在什么时间作案？必须把时间指出来，否则指控无法成立。
-“那么能不能这样假设：癫痫发作可能是真的。病人听到叫喊声突然醒来，于是走出屋子，——走出屋子又怎样呢？他看看四周，对自己说：我去把老爷杀了——是不是这样？他怎么知道当时出了什么事，他不是一直躺着不省人事吗？不过，诸位，再丰富的想象力也得有个限度。
-“精细的人可能会说：‘那么会不会是两个人合谋？也许他们俩一起杀人分赃，那又该如何说法？’
-“这的确是一种有分量的猜测。然而，首先遇到的问题是——要使这种猜测得以成立的证据不免令人瞠目：其中一个共谋犯负责杀人并且把所有的麻烦都揽到自己身上，另一个共谋犯则假装发羊痫风躺在床上，——所起的作用恰恰是引起老爷的警觉，导致格里果利睡不安稳。试问：这两个共谋犯出于什么动机会想出这样一个疯狂的计划来？
-“也许，从斯乜尔加科夫这方面来说，完全不是积极参与，而是所谓被动胁从；也许受到恫吓的斯乜尔加科夫只答应不反抗凶手而已，而他预感到自己将因听任别人杀死老爷、没有叫喊、没有反抗而受指控，于是预先求得德米特里·费奥多罗维奇的同意，在这段时间内躺在床上装病，‘你爱杀人你就去杀，反正与我不相干。’倘若如此，那么，还是由于羊痫风发作必然会引起宅内乱作一团，德米特里·费奥多罗维奇预见到这种局面，决不会同意这样的请求。但我可以让步，就算他会同意，那么仍将出现这样的结果：德米特里·卡拉马佐夫是凶手、直接杀人者和主犯，而斯乜尔加科夫只是被动从犯，甚至算不上从犯，只不过由于害怕才违心地听任主犯作案罢了，反正法庭定能加以区分。 ^TINaFfLo</p>
-<p>“可是我们看到的实际情形又是怎样的呢？被告刚遭逮捕，他马上把一切都推到斯乜尔加科夫一人身上，单单指控他一人。被告并非指控他与自己合谋，而是指控他一人，说全是他一人所为，是他杀了人，劫了财，肯定是他干的！这算什么共谋犯？案发后马上就互相嫁祸于对方，——决计没有这等事。
-“还请注意，卡拉马佐夫的风险有多大：他是主凶，而另一个不是主犯，只不过是纵容者，一直躺在板壁后面，于是他把责任往躺着的人身上推。可是躺着的那个可能发起火来，单是为了保全自己，也会急急忙忙把真相和盘托出，说：‘两人都有分，不过我没有杀人，只有听任和纵容他杀人，因为害怕。’斯乜尔加科夫可能懂得法院马上就会断定他的罪责有多重，因而他也可能指望，自己即使受到惩处，也比想把一切全推到他身上的主凶轻得多。在这种情况下，他会不由自主地招供的。然而我们并没有看到这样的情形。斯乜尔加科夫只字未提共谋的事，尽管凶犯把他一口咬定，始终指控他是唯一的凶手。 ^95c170</p>
+    <h1 id="news-a-nightly-version-of-controlnet-11-is-released">News: A nightly version of ControlNet 1.1 is released!
+</h1><p><a class="link" href="https://github.com/lllyasviel/ControlNet-v1-1-nightly"  target="_blank" rel="noopener"
+    >ControlNet 1.1</a> is released. Those new models will be merged to this repo after we make sure that everything is good.</p>
+<h1 id="below-is-controlnet-10">Below is ControlNet 1.0
+</h1><p>Official implementation of <a class="link" href="https://arxiv.org/abs/2302.05543"  target="_blank" rel="noopener"
+    >Adding Conditional Control to Text-to-Image Diffusion Models</a>.</p>
+<p>ControlNet is a neural network structure to control diffusion models by adding extra conditions.</p>
+<p><img src="/blog/github_page/he.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="img"
+	
+	
+></p>
+<p>It copys the weights of neural network blocks into a &ldquo;locked&rdquo; copy and a &ldquo;trainable&rdquo; copy.</p>
+<p>The &ldquo;trainable&rdquo; one learns your condition. The &ldquo;locked&rdquo; one preserves your model.</p>
+<p>Thanks to this, training with small dataset of image pairs will not destroy the production-ready diffusion models.</p>
+<p>The &ldquo;zero convolution&rdquo; is 1×1 convolution with both weight and bias initialized as zeros.</p>
+<p>Before training, all zero convolutions output zeros, and ControlNet will not cause any distortion.</p>
+<p>No layer is trained from scratch. You are still fine-tuning. Your original model is safe.</p>
+<p>This allows training on small-scale or even personal devices.</p>
+<p>This is also friendly to merge/replacement/offsetting of models/weights/blocks/layers.</p>
+<h3 id="faq">FAQ
+</h3><p><strong>Q:</strong> But wait, if the weight of a conv layer is zero, the gradient will also be zero, and the network will not learn anything. Why &ldquo;zero convolution&rdquo; works?</p>
+<p><strong>A:</strong> This is not true. <a class="link" href="docs/faq.md" >See an explanation here</a>.</p>
+<h1 id="stable-diffusion--controlnet">Stable Diffusion + ControlNet
+</h1><p>By repeating the above simple structure 14 times, we can control stable diffusion in this way:</p>
+<p><img src="/blog/github_page/sd.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="img"
+	
+	
+></p>
+<p>In this way, the ControlNet can <strong>reuse</strong> the SD encoder as a <strong>deep, strong, robust, and powerful backbone</strong> to learn diverse controls. Many evidences (like <a class="link" href="https://jerryxu.net/ODISE/"  target="_blank" rel="noopener"
+    >this</a> and <a class="link" href="https://vpd.ivg-research.xyz/"  target="_blank" rel="noopener"
+    >this</a>) validate that the SD encoder is an excellent backbone.</p>
+<p>Note that the way we connect layers is computational efficient. The original SD encoder does not need to store gradients (the locked original SD Encoder Block 1234 and Middle). The required GPU memory is not much larger than original SD, although many layers are added. Great!</p>
+<h1 id="features--news">Features &amp; News
+</h1><p>2023/0/14 - We released <a class="link" href="https://github.com/lllyasviel/ControlNet-v1-1-nightly"  target="_blank" rel="noopener"
+    >ControlNet 1.1</a>. Those new models will be merged to this repo after we make sure that everything is good.</p>
+<p>2023/03/03 - We released a discussion - <a class="link" href="https://github.com/lllyasviel/ControlNet/discussions/216"  target="_blank" rel="noopener"
+    >Precomputed ControlNet: Speed up ControlNet by 45%, but is it necessary?</a></p>
+<p>2023/02/26 - We released a blog - <a class="link" href="https://github.com/lllyasviel/ControlNet/discussions/188"  target="_blank" rel="noopener"
+    >Ablation Study: Why ControlNets use deep encoder? What if it was lighter? Or even an MLP?</a></p>
+<p>2023/02/20 - Implementation for non-prompt mode released. See also <a class="link" href="#guess-anchor" >Guess Mode / Non-Prompt Mode</a>.</p>
+<p>2023/02/12 - Now you can play with any community model by <a class="link" href="https://github.com/lllyasviel/ControlNet/discussions/12"  target="_blank" rel="noopener"
+    >Transferring the ControlNet</a>.</p>
+<p>2023/02/11 - <a class="link" href="docs/low_vram.md" >Low VRAM mode</a> is added. Please use this mode if you are using 8GB GPU(s) or if you want larger batch size.</p>
+<h1 id="production-ready-pretrained-models">Production-Ready Pretrained Models
+</h1><p>First create a new conda environment</p>
+<pre><code>conda env create -f environment.yaml
+conda activate control
+</code></pre>
+<p>All models and detectors can be downloaded from <a class="link" href="https://huggingface.co/lllyasviel/ControlNet"  target="_blank" rel="noopener"
+    >our Hugging Face page</a>. Make sure that SD models are put in &ldquo;ControlNet/models&rdquo; and detectors are put in &ldquo;ControlNet/annotator/ckpts&rdquo;. Make sure that you download all necessary pretrained weights and detector models from that Hugging Face page, including HED edge detection model, Midas depth estimation model, Openpose, and so on.</p>
+<p>We provide 9 Gradio apps with these models.</p>
+<p>All test images can be found at the folder &ldquo;test_imgs&rdquo;.</p>
+<h2 id="controlnet-with-canny-edge">ControlNet with Canny Edge
+</h2><p>Stable Diffusion 1.5 + ControlNet (using simple Canny edge detection)</p>
+<pre><code>python gradio_canny2image.py
+</code></pre>
+<p>The Gradio app also allows you to change the Canny edge thresholds. Just try it for more details.</p>
+<p>Prompt: &ldquo;bird&rdquo;
+<img src="/blog/github_page/p1.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<p>Prompt: &ldquo;cute dog&rdquo;
+<img src="/blog/github_page/p2.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<h2 id="controlnet-with-m-lsd-lines">ControlNet with M-LSD Lines
+</h2><p>Stable Diffusion 1.5 + ControlNet (using simple M-LSD straight line detection)</p>
+<pre><code>python gradio_hough2image.py
+</code></pre>
+<p>The Gradio app also allows you to change the M-LSD thresholds. Just try it for more details.</p>
+<p>Prompt: &ldquo;room&rdquo;
+<img src="/blog/github_page/p3.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<p>Prompt: &ldquo;building&rdquo;
+<img src="/blog/github_page/p4.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<h2 id="controlnet-with-hed-boundary">ControlNet with HED Boundary
+</h2><p>Stable Diffusion 1.5 + ControlNet (using soft HED Boundary)</p>
+<pre><code>python gradio_hed2image.py
+</code></pre>
+<p>The soft HED Boundary will preserve many details in input images, making this app suitable for recoloring and stylizing. Just try it for more details.</p>
+<p>Prompt: &ldquo;oil painting of handsome old man, masterpiece&rdquo;
+<img src="/blog/github_page/p5.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<p>Prompt: &ldquo;Cyberpunk robot&rdquo;
+<img src="/blog/github_page/p6.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<h2 id="controlnet-with-user-scribbles">ControlNet with User Scribbles
+</h2><p>Stable Diffusion 1.5 + ControlNet (using Scribbles)</p>
+<pre><code>python gradio_scribble2image.py
+</code></pre>
+<p>Note that the UI is based on Gradio, and Gradio is somewhat difficult to customize. Right now you need to draw scribbles outside the UI (using your favorite drawing software, for example, MS Paint) and then import the scribble image to Gradio.</p>
+<p>Prompt: &ldquo;turtle&rdquo;
+<img src="/blog/github_page/p7.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<p>Prompt: &ldquo;hot air balloon&rdquo;
+<img src="/blog/github_page/p8.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<h3 id="interactive-interface">Interactive Interface
+</h3><p>We actually provide an interactive interface</p>
+<pre><code>python gradio_scribble2image_interactive.py
+</code></pre>
+<p><del>However, because gradio is very <a class="link" href="https://github.com/gradio-app/gradio/issues/3166"  target="_blank" rel="noopener"
+    >buggy</a> and difficult to customize, right now, user need to first set canvas width and heights and then click &ldquo;Open drawing canvas&rdquo; to get a drawing area. Please do not upload image to that drawing canvas. Also, the drawing area is very small; it should be bigger. But I failed to find out how to make it larger. Again, gradio is really buggy.</del> (Now fixed, will update asap)</p>
+<p>The below dog sketch is drawn by me. Perhaps we should draw a better dog for showcase.</p>
+<p>Prompt: &ldquo;dog in a room&rdquo;
+<img src="/blog/github_page/p20.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<h2 id="controlnet-with-fake-scribbles">ControlNet with Fake Scribbles
+</h2><p>Stable Diffusion 1.5 + ControlNet (using fake scribbles)</p>
+<pre><code>python gradio_fake_scribble2image.py
+</code></pre>
+<p>Sometimes we are lazy, and we do not want to draw scribbles. This script use the exactly same scribble-based model but use a simple algorithm to synthesize scribbles from input images.</p>
+<p>Prompt: &ldquo;bag&rdquo;
+<img src="/blog/github_page/p9.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<p>Prompt: &ldquo;shose&rdquo; (Note that &ldquo;shose&rdquo; is a typo; it should be &ldquo;shoes&rdquo;. But it still seems to work.)
+<img src="/blog/github_page/p10.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<h2 id="controlnet-with-human-pose">ControlNet with Human Pose
+</h2><p>Stable Diffusion 1.5 + ControlNet (using human pose)</p>
+<pre><code>python gradio_pose2image.py
+</code></pre>
+<p>Apparently, this model deserves a better UI to directly manipulate pose skeleton. However, again, Gradio is somewhat difficult to customize. Right now you need to input an image and then the Openpose will detect the pose for you.</p>
+<p>Prompt: &ldquo;Chief in the kitchen&rdquo;
+<img src="/blog/github_page/p11.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<p>Prompt: &ldquo;An astronaut on the moon&rdquo;
+<img src="/blog/github_page/p12.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<h2 id="controlnet-with-semantic-segmentation">ControlNet with Semantic Segmentation
+</h2><p>Stable Diffusion 1.5 + ControlNet (using semantic segmentation)</p>
+<pre><code>python gradio_seg2image.py
+</code></pre>
+<p>This model use ADE20K&rsquo;s segmentation protocol. Again, this model deserves a better UI to directly draw the segmentations. However, again, Gradio is somewhat difficult to customize. Right now you need to input an image and then a model called Uniformer will detect the segmentations for you. Just try it for more details.</p>
+<p>Prompt: &ldquo;House&rdquo;
+<img src="/blog/github_page/p13.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<p>Prompt: &ldquo;River&rdquo;
+<img src="/blog/github_page/p14.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<h2 id="controlnet-with-depth">ControlNet with Depth
+</h2><p>Stable Diffusion 1.5 + ControlNet (using depth map)</p>
+<pre><code>python gradio_depth2image.py
+</code></pre>
+<p>Great! Now SD 1.5 also have a depth control. FINALLY. So many possibilities (considering SD1.5 has much more community models than SD2).</p>
+<p>Note that different from Stability&rsquo;s model, the ControlNet receive the full 512×512 depth map, rather than 64×64 depth. Note that Stability&rsquo;s SD2 depth model use 64*64 depth maps. This means that the ControlNet will preserve more details in the depth map.</p>
+<p>This is always a strength because if users do not want to preserve more details, they can simply use another SD to post-process an i2i. But if they want to preserve more details, ControlNet becomes their only choice. Again, SD2 uses 64×64 depth, we use 512×512.</p>
+<p>Prompt: &ldquo;Stormtrooper&rsquo;s lecture&rdquo;
+<img src="/blog/github_page/p15.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<h2 id="controlnet-with-normal-map">ControlNet with Normal Map
+</h2><p>Stable Diffusion 1.5 + ControlNet (using normal map)</p>
+<pre><code>python gradio_normal2image.py
+</code></pre>
+<p>This model use normal map. Rightnow in the APP, the normal is computed from the midas depth map and a user threshold (to determine how many area is background with identity normal face to viewer, tune the &ldquo;Normal background threshold&rdquo; in the gradio app to get a feeling).</p>
+<p>Prompt: &ldquo;Cute toy&rdquo;
+<img src="/blog/github_page/p17.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<p>Prompt: &ldquo;Plaster statue of Abraham Lincoln&rdquo;
+<img src="/blog/github_page/p18.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<p>Compared to depth model, this model seems to be a bit better at preserving the geometry. This is intuitive: minor details are not salient in depth maps, but are salient in normal maps. Below is the depth result with same inputs. You can see that the hairstyle of the man in the input image is modified by depth model, but preserved by the normal model.</p>
+<p>Prompt: &ldquo;Plaster statue of Abraham Lincoln&rdquo;
+<img src="/blog/github_page/p19.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<h2 id="controlnet-with-anime-line-drawing">ControlNet with Anime Line Drawing
+</h2><p>We also trained a relatively simple ControlNet for anime line drawings. This tool may be useful for artistic creations. (Although the image details in the results is a bit modified, since it still diffuse latent images.)</p>
+<p>This model is not available right now. We need to evaluate the potential risks before releasing this model. Nevertheless, you may be interested in <a class="link" href="https://github.com/lllyasviel/ControlNet/discussions/12"  target="_blank" rel="noopener"
+    >transferring the ControlNet to any community model</a>.</p>
+<p><img src="/blog/github_page/p21.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<p><a id="guess-anchor"></a></p>
+<h1 id="guess-mode--non-prompt-mode">Guess Mode / Non-Prompt Mode
+</h1><p>The &ldquo;guess mode&rdquo; (or called non-prompt mode) will completely unleash all the power of the very powerful ControlNet encoder.</p>
+<p>See also the blog - <a class="link" href="https://github.com/lllyasviel/ControlNet/discussions/188"  target="_blank" rel="noopener"
+    >Ablation Study: Why ControlNets use deep encoder? What if it was lighter? Or even an MLP?</a></p>
+<p>You need to manually check the &ldquo;Guess Mode&rdquo; toggle to enable this mode.</p>
+<p>In this mode, the ControlNet encoder will try best to recognize the content of the input control map, like depth map, edge map, scribbles, etc, even if you remove all prompts.</p>
+<p><strong>Let&rsquo;s have fun with some very challenging experimental settings!</strong></p>
+<p><strong>No prompts. No &ldquo;positive&rdquo; prompts. No &ldquo;negative&rdquo; prompts. No extra caption detector. One single diffusion loop.</strong></p>
+<p>For this mode, we recommend to use 50 steps and guidance scale between 3 and 5.</p>
+<p><img src="/blog/github_page/uc2a.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<p>No prompts:</p>
+<p><img src="/blog/github_page/uc2b.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<p>Note that the below example is 768×768. No prompts. No &ldquo;positive&rdquo; prompts. No &ldquo;negative&rdquo; prompts.</p>
+<p><img src="/blog/github_page/uc1.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<p>By tuning the parameters, you can get some very intereting results like below:</p>
+<p><img src="/blog/github_page/uc3.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<p>Because no prompt is available, the ControlNet encoder will &ldquo;guess&rdquo; what is in the control map. Sometimes the guess result is really interesting. Because diffusion algorithm can essentially give multiple results, the ControlNet seems able to give multiple guesses, like this:</p>
+<p><img src="/blog/github_page/uc4.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<p>Without prompt, the HED seems good at generating images look like paintings when the control strength is relatively low:</p>
+<p><img src="/blog/github_page/uc6.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<p>The Guess Mode is also supported in <a class="link" href="https://github.com/Mikubill/sd-webui-controlnet"  target="_blank" rel="noopener"
+    >WebUI Plugin</a>:</p>
+<p><img src="/blog/github_page/uci1.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<p>No prompts. Default WebUI parameters. Pure random results with the seed being 12345. Standard SD1.5. Input scribble is in &ldquo;test_imgs&rdquo; folder to reproduce.</p>
+<p><img src="/blog/github_page/uci2.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<p>Below is another challenging example:</p>
+<p><img src="/blog/github_page/uci3.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<p>No prompts. Default WebUI parameters. Pure random results with the seed being 12345. Standard SD1.5. Input scribble is in &ldquo;test_imgs&rdquo; folder to reproduce.</p>
+<p><img src="/blog/github_page/uci4.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<p>Note that in the guess mode, you will still be able to input prompts. The only difference is that the model will &ldquo;try harder&rdquo; to guess what is in the control map even if you do not provide the prompt. Just try it yourself!</p>
+<p>Besides, if you write some scripts (like BLIP) to generate image captions from the &ldquo;guess mode&rdquo; images, and then use the generated captions as prompts to diffuse again, you will get a SOTA pipeline for fully automatic conditional image generating.</p>
+<h1 id="combining-multiple-controlnets">Combining Multiple ControlNets
+</h1><p>ControlNets are composable: more than one ControlNet can be easily composed to multi-condition control.</p>
+<p>Right now this feature is in experimental stage in the <a class="link" href="https://github.com/Mikubill/sd-webui-controlnet"  target="_blank" rel="noopener"
+    >Mikubill&rsquo; A1111 Webui Plugin</a>:</p>
+<p><img src="/blog/github_page/multi2.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<p><img src="/blog/github_page/multi.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="p"
+	
+	
+></p>
+<p>As long as the models are controlling the same SD, the &ldquo;boundary&rdquo; between different research projects does not even exist. This plugin also allows different methods to work together!</p>
+<h1 id="use-controlnet-in-any-community-model-sd1x">Use ControlNet in Any Community Model (SD1.X)
+</h1><p>This is an experimental feature.</p>
+<p><a class="link" href="https://github.com/lllyasviel/ControlNet/discussions/12"  target="_blank" rel="noopener"
+    >See the steps here</a>.</p>
+<p>Or you may want to use the <a class="link" href="https://github.com/Mikubill/sd-webui-controlnet"  target="_blank" rel="noopener"
+    >Mikubill&rsquo; A1111 Webui Plugin</a> which is plug-and-play and does not need manual merging.</p>
+<h1 id="annotate-your-own-data">Annotate Your Own Data
+</h1><p>We provide simple python scripts to process images.</p>
+<p><a class="link" href="docs/annotator.md" >See a gradio example here</a>.</p>
+<h1 id="train-with-your-own-data">Train with Your Own Data
+</h1><p>Training a ControlNet is as easy as (or even easier than) training a simple pix2pix.</p>
+<p><a class="link" href="docs/train.md" >See the steps here</a>.</p>
+<h1 id="related-resources">Related Resources
+</h1><p>Special Thank to the great project - <a class="link" href="https://github.com/Mikubill/sd-webui-controlnet"  target="_blank" rel="noopener"
+    >Mikubill&rsquo; A1111 Webui Plugin</a> !</p>
+<p>We also thank Hysts for making <a class="link" href="https://huggingface.co/spaces/hysts/ControlNet"  target="_blank" rel="noopener"
+    >Hugging Face Space</a> as well as more than 65 models in that amazing <a class="link" href="https://github.com/camenduru/controlnet-colab"  target="_blank" rel="noopener"
+    >Colab list</a>!</p>
+<p>Thank haofanwang for making <a class="link" href="https://github.com/haofanwang/ControlNet-for-Diffusers"  target="_blank" rel="noopener"
+    >ControlNet-for-Diffusers</a>!</p>
+<p>We also thank all authors for making Controlnet DEMOs, including but not limited to <a class="link" href="https://huggingface.co/spaces/fffiloni/ControlNet-Video"  target="_blank" rel="noopener"
+    >fffiloni</a>, <a class="link" href="https://huggingface.co/spaces/hysts/ControlNet-with-other-models"  target="_blank" rel="noopener"
+    >other-model</a>, <a class="link" href="https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/7784"  target="_blank" rel="noopener"
+    >ThereforeGames</a>, <a class="link" href="https://huggingface.co/spaces/RamAnanth1/ControlNet"  target="_blank" rel="noopener"
+    >RamAnanth1</a>, etc!</p>
+<p>Besides, you may also want to read these amazing related works:</p>
+<p><a class="link" href="https://github.com/damo-vilab/composer"  target="_blank" rel="noopener"
+    >Composer: Creative and Controllable Image Synthesis with Composable Conditions</a>: A much bigger model to control diffusion!</p>
+<p><a class="link" href="https://github.com/TencentARC/T2I-Adapter"  target="_blank" rel="noopener"
+    >T2I-Adapter: Learning Adapters to Dig out More Controllable Ability for Text-to-Image Diffusion Models</a>: A much smaller model to control stable diffusion!</p>
+<p><a class="link" href="https://github.com/HighCWu/ControlLoRA"  target="_blank" rel="noopener"
+    >ControlLoRA: A Light Neural Network To Control Stable Diffusion Spatial Information</a>: Implement Controlnet using LORA!</p>
+<p>And these amazing recent projects: <a class="link" href="https://www.timothybrooks.com/instruct-pix2pix"  target="_blank" rel="noopener"
+    >InstructPix2Pix Learning to Follow Image Editing Instructions</a>, <a class="link" href="https://github.com/pix2pixzero/pix2pix-zero"  target="_blank" rel="noopener"
+    >Pix2pix-zero: Zero-shot Image-to-Image Translation</a>, <a class="link" href="https://github.com/MichalGeyer/plug-and-play"  target="_blank" rel="noopener"
+    >Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation</a>, <a class="link" href="https://arxiv.org/abs/2302.05496"  target="_blank" rel="noopener"
+    >MaskSketch: Unpaired Structure-guided Masked Image Generation</a>, <a class="link" href="https://arxiv.org/abs/2301.12247"  target="_blank" rel="noopener"
+    >SEGA: Instructing Diffusion using Semantic Dimensions</a>, <a class="link" href="https://github.com/arpitbansal297/Universal-Guided-Diffusion"  target="_blank" rel="noopener"
+    >Universal Guidance for Diffusion Models</a>, <a class="link" href="https://github.com/haha-lisa/RDM-Region-Aware-Diffusion-Model"  target="_blank" rel="noopener"
+    >Region-Aware Diffusion for Zero-shot Text-driven Image Editing</a>, <a class="link" href="https://arxiv.org/abs/2301.05225"  target="_blank" rel="noopener"
+    >Domain Expansion of Image Generators</a>, <a class="link" href="https://twitter.com/LambdaAPI/status/1626327289288957956"  target="_blank" rel="noopener"
+    >Image Mixer</a>, <a class="link" href="https://multidiffusion.github.io/"  target="_blank" rel="noopener"
+    >MultiDiffusion: Fusing Diffusion Paths for Controlled Image Generation</a></p>
+<h1 id="citation">Citation
+</h1><pre><code>@misc{zhang2023adding,
+  title={Adding Conditional Control to Text-to-Image Diffusion Models}, 
+  author={Lvmin Zhang and Anyi Rao and Maneesh Agrawala},
+  booktitle={IEEE International Conference on Computer Vision (ICCV)}
+  year={2023},
+}
+</code></pre>
+<p><a class="link" href="https://arxiv.org/abs/2302.05543"  target="_blank" rel="noopener"
+    >Arxiv Link</a></p>
+<p><a class="link" href="https://lllyasviel.github.io/misc/202309/cnet_supp.pdf"  target="_blank" rel="noopener"
+    >Supplementary Materials</a></p>
 
 </section>
 
