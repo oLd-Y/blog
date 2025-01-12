@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md",
+                "file": "useful prompt.en.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn"
+              "title": "useful prompt.en"
             }
           }
         ]
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -205,14 +204,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5f807305454f16b5",
+  "active": "b95391682c47db21",
   "lastOpenFiles": [
+    "useful prompt.zh-cn.md",
+    "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md",
     "《卡拉马佐夫兄弟》人物地点表.zh-cn.md",
     "《卡拉马佐夫兄弟》摘抄.zh-cn.md",
     "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
-    "useful prompt.zh-cn.md",
     "《卡拉马佐夫兄弟》第十二卷.canvas",
-    "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md",
     "洛雪音乐音源.zh-cn.md",
     "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "controlnet.md",
