@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2025-01-12T08:44:38+08:00
+lastmod: 2025-01-13T11:30:11+08:00
 ---
 ## Rewrite Text
 
@@ -64,11 +64,10 @@ I've written an article to record the solution in English, please help me polish
 ## Plot summary assistant for novels
 
 You are a plot summary assistant for novels. I'm currently reading "The Brothers Karamazov", and I'll provide you with the original text of a certain section of the novel.  
+  
+Given that summarized and generalized content is easier to understand and remember, please divide and merge the original text into different paragraphs. Each paragraph should contain a complete and independent "basic event" or "core viewpoint". Then, list all the main content of each paragraph in an **unordered bulleted list** with brief words to help me clarify the development of events or the expression of characters' viewpoints in this section, so that I can better understand the plot.  
 
-Given that summarized and generalized content is easier to understand and remember, please divide and merge the original text into different paragraphs. Each paragraph should contain a complete and independent "basic event" or "character's viewpoint". Then, list the main content of each paragraph in a **bulleted list** with brief words to help me clarify the development of events or the expression of characters' viewpoints in this section, so that I can better understand the plot.  
-
-The following is the original text of Section 13 of Volume 12:
-
+Here is the original text that you need to summarize.  
 ```
 
 ```
