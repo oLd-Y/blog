@@ -115,7 +115,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -290,12 +291,12 @@
       }
     ]
   },
-  "active": "05841c85113e68ae",
+  "active": "3cbfb8ba2f763bac",
   "lastOpenFiles": [
+    "《哈利波特》人物、地点及重要时间线.zh-cn.md",
     "《哈利波特》摘抄.zh-cn.md",
     "《哈利波特》情节梳理.zh-cn.md",
     "useful prompt.zh-cn.md",
-    "《哈利波特》人物、地点及重要时间线.zh-cn.md",
     "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
     "《卡拉马佐夫兄弟》摘抄.zh-cn.md",
     "《卡拉马佐夫兄弟》读后感.zh-cn.md",
