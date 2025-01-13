@@ -6866,8 +6866,9 @@ CHAPTER：&lt;/p&gt;
 &lt;p&gt;无论是否为第一次操作，你对小说要素的整理都应当满足下列要求：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;输出格式为 markdown，人物/地点/时间这三个类别以一个一级标题给出，而其下的每个项以二级标题列出。&lt;/li&gt;
-&lt;li&gt;对人物，你需要关注的有外貌、身份等；对地点，你需要关注它的位置、作用等；对于时间，只记录对剧情发展有关键作用的即可。&lt;/li&gt;
-&lt;li&gt;每出现一次对某一人、事、物的描写，都应整理成该项下的一个要点。&lt;/li&gt;
+&lt;li&gt;对人物，你需要记录整理的有外貌、身份等；对地点，你需要关注它的位置、作用等；对于时间，只记录对剧情发展有关键作用的即可。&lt;/li&gt;
+&lt;li&gt;不同位置的描述请分不同的点列出，以便记录人物、地点画像的完善过程。&lt;/li&gt;
+&lt;li&gt;每出现一次对某个人、事、重要时间的描写，都应整理成该对应项下的一个要点。&lt;/li&gt;
 &lt;li&gt;所有的信息不一定会一次性全部出现，可能会随着剧情的发展逐步完善。对于那些当前信息非常少的人物、地名或是建筑，比如只在他人的对话中提了一下，或者只是在某句话中出现了一次等等，你只需记录已有的信息即可。但是注意，你可以少写，甚至只记一个名字，但不能不记，因为他们在后续的剧情中可能有重要的作用。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;以下为用哈利波特中的文本举一个简单的例子，其他书籍或者小说也应当按照相同的方式进行总结整理。假设原文中的各处有如下文字：&lt;/p&gt;
@@ -6956,7 +6957,7 @@ CHAPTER：&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;## 德思礼太太
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; 弗农·德思礼的太太
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; 弗农·德思礼的妻子
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; 瘦削，金发，脖子很长
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;## 猫
@@ -7104,7 +7105,7 @@ CHAPTER：&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 地点
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;## 女贞路
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;## 女贞路4号
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; 德思礼夫妇的住所
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
