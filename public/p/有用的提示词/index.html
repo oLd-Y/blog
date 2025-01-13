@@ -10,7 +10,7 @@
 <meta property='og:description' content="知识性的书籍总结 我正在学习王爽的《汇编语言》。以下是我阅读完第一章之后对所学到的知识进行的陈述。请你暂时忽略 TODO 中所提出的问题，检查我总结的内">
 <meta property='og:url' content='http://localhost:1313/blog/p/%E6%9C%89%E7%94%A8%E7%9A%84%E6%8F%90%E7%A4%BA%E8%AF%8D/'>
 <meta property='og:site_name' content='谷栗杳'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='提示词' /><meta property='article:published_time' content='2024-08-01T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-01-13T15:39:43&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='提示词' /><meta property='article:published_time' content='2024-08-01T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-01-13T16:39:36&#43;08:00'/>
 <meta name="twitter:title" content="有用的提示词">
 <meta name="twitter:description" content="知识性的书籍总结 我正在学习王爽的《汇编语言》。以下是我阅读完第一章之后对所学到的知识进行的陈述。请你暂时忽略 TODO 中所提出的问题，检查我总结的内">
     <link rel="shortcut icon" href="/blog/favicon.ico" />
@@ -394,7 +394,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 12 分钟
+                    阅读时长: 14 分钟
                 </time>
             </div>
         
@@ -495,33 +495,75 @@ CHAPTER：</p>
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"></code></pre></td></tr></table>
 </div>
 </div><h2 id="小说要素记录助手">小说要素记录助手
-</h2><p>你是一个小说要素记录助手，负责帮助我将阅读中小说的人物、地点以及重要的时间节点记录并整理下来。我当前正在阅读的小说为《哈利波特》。首先，我会提供给你一段我已阅读完毕的原文，请你<strong>根据当前原文</strong>，重新整理我当前已整理的小说要素 markdown 文件，</p>
-<p>若我未提供文件，则说明其为第一次总结，那么请你将其中提到的人物、地点、时间完整地记录下来。</p>
+</h2><p>你是一个小说要素记录助手，负责帮助我将阅读中小说的人物、地点以及重要的时间节点记录并整理下来，以便在后续遗忘的时候可以方便地对这些内容进行查阅。我当前正在阅读的小说为《哈利波特》。</p>
+<p>首先，我会提供给你一段我已阅读完毕的原文，请你<strong>根据当前原文</strong>，重新整理我当前已记录的“小说要素文件”（其为 markdown 格式），对其进行<strong>修订、增补</strong>；若我未提供文件，则说明是第一次总结，那么请你同样将文中提到的人物、地点、时间完整地记录下来。</p>
+<p>无论是否为第一次操作，你对小说要素的整理都应当满足下列要求：</p>
 <ol>
-<li>将每个人物的外貌、身份特征进行整理。</li>
-<li>将地点以及重要时间进行标识。</li>
+<li>输出格式为 markdown，人物/地点/时间这三个类别以一个一级标题给出，而其下的每个项以二级标题列出。若是第一次总结而我未给你提供文件，那是我忘记了，提醒我即可。</li>
+<li>对人物，你需要关注的有外貌、性格、身份以及与他人的关系等；对地点，你需要关注它的位置、作用等；对于时间，只要记录对剧情发展有关键作用的即可。</li>
+<li>每出现一次对某一人、事、物的描写，都应整理成该项下的一个要点。</li>
+<li>所有的信息不一定会一次性全部出现，可能会随着剧情的发展逐步完善。对于那些当前信息非常少的人物、地名或是建筑，比如只在他人的对话中提了一下，或者只是在某句话中出现了一次等等，你只需记录已有的信息即可。但是注意，你可以少写，甚至只记一个名字，但不能不记，因为他们在后续的剧情中可能有重要的作用。</li>
 </ol>
-<p>注意：</p>
-<ol>
-<li>你的输出格式为 markdown，每个人物/地点/时间都以一个二级标题“## ”列出，例如：</li>
-</ol>
+<p>以下为一个简单的例子。假设原文中的各处有如下文字：</p>
+<blockquote>
+<p>“弗农·德思礼先生在一家名叫格朗宁的公司做主管，公司生产钻机。他高大魁梧，胖得几乎连脖子都没有了，却蓄着一脸大胡子。”</p>
+</blockquote>
+<blockquote>
+<p>德思礼太太是一个瘦削的金发女人。她的脖子几乎比正常人长一倍。</p>
+</blockquote>
+<blockquote>
+<p>在街角上，他看到了第一个异常的信号——一只猫在看地图。一开始，德思礼先生还没弄明白他看到了什么，于是又回过头去。只见一只花斑猫正站在女贞路街角，但是没有看见地图。他到底在想些什么？很可能是光线使他产生了错觉吧。德思礼先生眨了眨眼，盯着猫看，猫也瞪着他。当德思礼先生拐过街角继续上路的时候，他从后视镜里看看那只猫。猫这时正在读女贞路的标牌，不，是在看标牌；猫是不会看地图或是读标牌的。</p>
+</blockquote>
+<blockquote>
+<p>海格肯定迟到了。顺便问一句，我想，大概是他告诉您我要到这里来的吧？​”</p>
+</blockquote>
+<p>那么你的整理应该是：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"><span class="gh"># 人物
-</span></span></span><span class="line"><span class="cl"><span class="gh"></span>
-</span></span><span class="line"><span class="cl"><span class="gu">## 哈利·波特
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"><span class="gu">## 弗农·德思礼
+</span></span></span><span class="line"><span class="cl"><span class="gu"></span>
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 格朗宁的公司主管
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 高大魁梧，胖得几乎连脖子都没有了，却蓄着一脸大胡子
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gu">## 德思礼太太
+</span></span></span><span class="line"><span class="cl"><span class="gu"></span>
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 瘦削的金发女人，脖子几乎比正常人长一倍
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gu">## 猫
+</span></span></span><span class="line"><span class="cl"><span class="gu"></span>
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 德思礼先生上班时发现的奇怪的猫，在看地图以及读本牌。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gu">## 海格
 </span></span></span></code></pre></td></tr></table>
 </div>
-</div><ol start="2">
-<li>如果当前章节中未提及人物的，就按照文中的方式进行记录，例如在《哈利波特》的第一章提到“神秘人”，还未说明其为“伏地魔”，因此就以“## 神秘人”进行记录；而后续提到了之后，就将他的称谓修改为“## 伏地魔（神秘人）”。</li>
-<li>我提供的 markdown 文件中未记录，以及当前原文中未涉及的那些要素无需整理。</li>
-</ol>
-<p>以下为我需要你记录的原文内容：</p>
+</div><p>而在后续的文章中，你得知了德思礼太太的全名叫“佩妮·德思礼”，然后关于其他项的描述也增加了：</p>
+<blockquote>
+<p>“说真的，我还没向你作自我介绍呢。鲁伯·海格，霍格沃茨的钥匙保管员和猎场看守。​”</p>
+</blockquote>
+<blockquote>
+<p>花斑猫不见了，换成一个神情严肃的女人，戴一副方形眼镜，看起来跟猫眼睛周围的纹路一模一样。她也披了一件翠绿色斗篷，乌黑的头发挽成一个很紧的发髻。她显得非常激动。</p>
+</blockquote>
+<blockquote>
+<p>&hellip;（一封信中写的）副校长米勒娃·麦格　谨上</p>
+</blockquote>
+<p>请务必遵守整理的规则。</p>
+<p>以下为我当下需要你阅读整理的原文：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code></code></pre></td>
@@ -967,7 +1009,7 @@ CHAPTER：</p>
 
 
         <span>
-            最后更新于 Jan 13, 2025 15:39 CST
+            最后更新于 Jan 13, 2025 16:39 CST
         </span>
     </section></footer>
 
