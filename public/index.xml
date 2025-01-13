@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>谷栗杳</copyright>
-        <lastBuildDate>Mon, 13 Jan 2025 12:19:51 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 13 Jan 2025 15:07:35 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>《卡拉马佐夫兄弟》读书笔记</title>
         <link>http://localhost:1313/blog/p/%E5%8D%A1%E6%8B%89%E9%A9%AC%E4%BD%90%E5%A4%AB%E5%85%84%E5%BC%9F%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
         <pubDate>Sun, 12 Jan 2025 13:16:38 +0800</pubDate>
@@ -6860,6 +6860,40 @@ CHAPTER：&lt;/p&gt;
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;小说要素记录助手&#34;&gt;小说要素记录助手
+&lt;/h2&gt;&lt;p&gt;你是一个小说要素记录助手，负责帮助我将阅读中小说的人物、地点以及重要的时间节点记录并整理下来。我当前正在阅读的小说为《哈利波特》。首先，我会提供给你一段我已阅读完毕的原文，请你&lt;strong&gt;根据当前原文&lt;/strong&gt;，重新整理我当前已整理的小说要素 markdown 文件，&lt;/p&gt;
+&lt;p&gt;若我未提供文件，则说明其为第一次总结，那么请你将其中提到的人物、地点、时间完整地记录下来。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;将每个人物的外貌、身份特征进行整理。&lt;/li&gt;
+&lt;li&gt;将地点以及重要时间进行标识。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;注意：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;你的输出格式为 markdown，每个人物/地点/时间都以一个二级标题“## ”列出，例如：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 人物
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;## 哈利·波特
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;如果当前章节中未提及人物的，就按照文中的方式进行记录，例如在《哈利波特》的第一章提到“神秘人”，还未说明其为“伏地魔”，因此就以“## 神秘人”进行记录；而后续提到了之后，就将他的称谓修改为“## 伏地魔（神秘人）”。&lt;/li&gt;
+&lt;li&gt;我提供的 markdown 文件中未记录，以及当前原文中未涉及的那些要素无需整理。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;以下为我需要你记录的原文内容：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;ai-绘画提示词扩写&#34;&gt;AI 绘画提示词扩写
 &lt;/h2&gt;&lt;p&gt;你是一名ai绘画提示词的写作者，你的任务是帮助用户将ai绘图的提示词进行扩写，以满足生图的需求。&lt;/p&gt;
 &lt;p&gt;以下为一些ai绘画中书写提示词的原则：&lt;/p&gt;
@@ -9130,7 +9164,7 @@ maven 版本：3.9.1
         <item>
         <title></title>
         <link>http://localhost:1313/blog/p/</link>
-        <pubDate>Mon, 13 Jan 2025 12:19:51 +0800</pubDate>
+        <pubDate>Mon, 13 Jan 2025 15:07:35 +0800</pubDate>
         
         <guid>http://localhost:1313/blog/p/</guid>
         <description>&lt;h1 id=&#34;人物&#34;&gt;人物
@@ -9282,7 +9316,6 @@ maven 版本：3.9.1
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;“9¾！”一个红头发的小姑娘牵着妈妈的手，尖着嗓子大声说，​“妈妈，我能去吗……？​”“你还太小，金妮，现在，别说话了。珀西，你走在最前头。​”&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;#在站台遇到的人&lt;/p&gt;
 &lt;h1 id=&#34;地点&#34;&gt;地点
 &lt;/h1&gt;&lt;h2 id=&#34;萨里郡&#34;&gt;萨里郡
 &lt;/h2&gt;&lt;h2 id=&#34;小惠金区&#34;&gt;小惠金区
