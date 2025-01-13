@@ -82,7 +82,8 @@
               "title": "Untitled"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -264,13 +265,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b4ecaf5b7e9004a2",
+  "active": "60be3f61a2aac2a4",
   "lastOpenFiles": [
     "《哈利波特》情节梳理.zh-cn.md",
+    "《哈利波特》人物、地点及重要时间线.zh-cn.md",
+    "Untitled.md",
     "《哈利波特》摘抄.zh-cn.md",
     "useful prompt.zh-cn.md",
-    "Untitled.md",
-    "《哈利波特》人物、地点及重要时间线.zh-cn.md",
     "controlnet.md",
     "useful prompt.en.md",
     "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
