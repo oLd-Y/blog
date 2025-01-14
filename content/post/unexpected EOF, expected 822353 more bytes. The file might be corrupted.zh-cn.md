@@ -9,10 +9,9 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2025-01-14T20:50:40+08:00
+lastmod: 2025-01-14T20:58:23+08:00
 ---
-某个工作流的时候遇到了如下报错：
-
+某个工作流在运行到“Apply PuLID Flux“节点的时候出错，该节点所属的插件为[GitHub - sipie800/ComfyUI-PuLID-Flux-Enhanced](https://github.com/sipie800/ComfyUI-PuLID-Flux-Enhanced)，具体的报错日志如下所示：
 
 ```
 # ComfyUI Error Report
@@ -50,7 +49,7 @@ File "D:\software\ComfyUI-aki-v1.5\execution.py", line 323, in execute
     typed_storage._untyped_storage._set_from_file(
 ```
 
-这个原因是 facexlib 的权重没有下载完整就使用了，把其权重文件删了之后重新运行工作流，让它重新生成即可。
+出错的原因是 facexlib 模型的权重没有下载完就使用了，把其权重文件删了之后重新运行工作流，让它重新生成即可。这些权重文件所在的文件夹为：`D:\software\ComfyUI-aki-v1.5\python\Lib\site-packages\facexlib\weights`。
 
 参考资料：
 - [CSDN博客](https://blog.csdn.net/qq_39691492/article/details/123073208)

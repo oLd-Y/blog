@@ -113,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -296,10 +296,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1bf15890a8bf39f2",
+  "active": "ca6f467fbedc5446",
   "lastOpenFiles": [
-    "unexpected EOF, expected 822353 more bytes. The file might be corrupted.zh-cn.md",
     "DoubleStreamBlock.forward() got an unexpected keyword argument 'attn_mask'.zh-cn.md",
+    "unexpected EOF, expected 822353 more bytes. The file might be corrupted.zh-cn.md",
     "vscode 快捷键.zh-cn.md",
     "vscode vim 快捷键.md",
     "Obsidian Vim 自动切换搜狗输入法中英状态.md",

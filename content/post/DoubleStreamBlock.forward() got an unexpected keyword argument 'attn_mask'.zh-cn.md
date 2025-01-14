@@ -9,9 +9,9 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2025-01-14T20:50:24+08:00
+lastmod: 2025-01-14T20:53:50+08:00
 ---
-在运行到“自定义采样器（高级）”节点的时候出现了错误。该节点所属的插件为 [sipie800/ComfyUI-PuLID-Flux-Enhanced](https://github.com/sipie800/ComfyUI-PuLID-Flux-Enhanced)。报错日志如下向示：
+在运行到“自定义采样器（高级）”（SamplerCustomAdvanced）节点的时候出现了错误。该节点为 comfyui 官方插件中的节点。报错日志如下所示：
 
 ```
 # ComfyUI Error Report
