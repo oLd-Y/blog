@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-13T10:39:55+08:00
+lastmod: 2025-01-13T23:18:52+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -74,6 +74,12 @@ C-m：静音（使失效）
 [玩一玩ComfyUI - 文档共建 - LINUX DO](https://linux.do/t/topic/168312)
 
 ## LoRA: Low-Rank Adaption
+
+LoRA 原理：[Site Unreachable](https://zhuanlan.zhihu.com/p/646831196)
+
+## IPAdapter
+
+IPAdapter 原理：[GitHub - tencent-ailab/IP-Adapter: The image prompt adapter is designed to enable a pretrained text-to-image diffusion model to generate images with image prompt.](https://github.com/tencent-ailab/IP-Adapter)
 
 ## In-Context LoRA
 
