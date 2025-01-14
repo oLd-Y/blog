@@ -287,6 +287,7 @@
     "《哈利波特》人物、地点及重要时间线.zh-cn.md": "d87d3d2113d080f35404d3eaf13474cd347e76356994175aa1099a61afcffb1f",
     "《卡拉马佐夫兄弟》读后感.zh-cn.md": "00b79d3c3d797a8f7f29ef33a554a9411b4abfb40cf0fd9b6d7455299fc3ac73",
     "vscode 快捷键.zh-cn.md": "196d5404635fded48af742343df14ad9677bc658eb386e4cc50426b207762007",
-    "unexpected EOF, expected 822353 more bytes. The file might be corrupted.zh-cn.md": "fb5a8b51e03990503de0fab7c83af363578fbfc8b37f06d8f6ee8dda64eb888f"
+    "unexpected EOF, expected 822353 more bytes. The file might be corrupted.zh-cn.md": "7dc3bb762e154be551b448cb67579063e9f977d3dd761de9d1dceef7ce12536b",
+    "DoubleStreamBlock.forward() got an unexpected keyword argument 'attn_mask'.zh-cn.md": "e1938c34821779b987288864651d6d186518a0323e88835b126e3d2b5cc98e1d"
   }
 }

@@ -9,14 +9,9 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2025-01-14T19:34:21+08:00
+lastmod: 2025-01-14T20:50:40+08:00
 ---
-![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20250114191348.png)
-
-运行某个工作流的时候遇到了如下报错：
-
-
-
+某个工作流的时候遇到了如下报错：
 
 
 ```
@@ -54,3 +49,9 @@ File "D:\software\ComfyUI-aki-v1.5\execution.py", line 323, in execute
   File "D:\software\ComfyUI-aki-v1.5\python\lib\site-packages\torch\serialization.py", line 1647, in _legacy_load
     typed_storage._untyped_storage._set_from_file(
 ```
+
+这个原因是 facexlib 的权重没有下载完整就使用了，把其权重文件删了之后重新运行工作流，让它重新生成即可。
+
+参考资料：
+- [CSDN博客](https://blog.csdn.net/qq_39691492/article/details/123073208)
+- [SDXL_EcomID_ComfyUI/issues/32](https://github.com/alimama-creative/SDXL_EcomID_ComfyUI/issues/32)
