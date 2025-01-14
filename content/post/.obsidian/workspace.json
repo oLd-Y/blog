@@ -58,16 +58,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
+                "file": "ai 绘图模型汇总.zh-cn.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn"
+              "title": "ai 绘图模型汇总.zh-cn"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -250,13 +251,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5f807305454f16b5",
+  "active": "60be3f61a2aac2a4",
   "lastOpenFiles": [
-    "《哈利波特》情节梳理.zh-cn.md",
     "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
+    "《哈利波特》人物、地点及重要时间线.zh-cn.md",
+    "《哈利波特》情节梳理.zh-cn.md",
     "Untitled.md",
     "useful prompt.zh-cn.md",
-    "《哈利波特》人物、地点及重要时间线.zh-cn.md",
     "《哈利波特》摘抄.zh-cn.md",
     "controlnet.md",
     "useful prompt.en.md",

@@ -8,12 +8,17 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-09T09:55:11+08:00
+lastmod: 2025-01-14T14:10:34+08:00
 ---
-## Checkpoints
-
-### flux.1
+## flux.1
 
 flux.1-lumiere-alpha: 还原人物真实质感的模型
 
+
+### LoRA
+
+
+### Controlnet
+
+- pulid：
 

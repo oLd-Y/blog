@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-14T11:06:36+08:00
+lastmod: 2025-01-14T13:35:52+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -168,3 +168,7 @@ kijai:
 - 当值在2附近时，更适合生成艺术绘画风格的图像
 - 当值在3到3.5时，能应对不同场景
 - 当值超过3.5时，图像的细节可能会增强，但对比度可能也会很高
+
+## PuLID： 使用文本描述快速更改图像中人物的外貌和身份特征！
+
+[PuLID： 使用文本描述快速更改图像中人物的外貌和身份特征！ - 哔哩哔哩](https://www.bilibili.com/opus/979115031537909784)
