@@ -66,24 +66,8 @@
               "icon": "lucide-file",
               "title": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn"
             }
-          },
-          {
-            "id": "93379fef944ce9f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -266,16 +250,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5f807305454f16b5",
+  "active": "b4ecaf5b7e9004a2",
   "lastOpenFiles": [
-    "useful prompt.zh-cn.md",
     "《哈利波特》情节梳理.zh-cn.md",
-    "《哈利波特》人物、地点及重要时间线.zh-cn.md",
+    "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "Untitled.md",
+    "useful prompt.zh-cn.md",
+    "《哈利波特》人物、地点及重要时间线.zh-cn.md",
     "《哈利波特》摘抄.zh-cn.md",
     "controlnet.md",
     "useful prompt.en.md",
-    "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",
     "《卡拉马佐夫兄弟》摘抄.zh-cn.md",
     "《卡拉马佐夫兄弟》读后感.zh-cn.md",

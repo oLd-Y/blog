@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-13T23:18:52+08:00
+lastmod: 2025-01-14T11:06:36+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -30,6 +30,7 @@ C-m：静音（使失效）
 
 [Site Unreachable](https://stable-diffusion-art.com/how-stable-diffusion-work/)
 
+![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20250114110619.png)
 
 ## Sampler 采样器
 
