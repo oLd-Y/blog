@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "unexpected EOF, expected 822353 more bytes. The file might be corrupted.zh-cn",
-      "path": "unexpected EOF, expected 822353 more bytes. The file might be corrupted.zh-cn.md"
+      "basename": "《哈利波特》情节梳理.zh-cn",
+      "path": "《哈利波特》情节梳理.zh-cn.md"
     },
     {
       "basename": "DoubleStreamBlock.forward() got an unexpected keyword argument 'attn_mask'.zh-cn",
       "path": "DoubleStreamBlock.forward() got an unexpected keyword argument 'attn_mask'.zh-cn.md"
+    },
+    {
+      "basename": "unexpected EOF, expected 822353 more bytes. The file might be corrupted.zh-cn",
+      "path": "unexpected EOF, expected 822353 more bytes. The file might be corrupted.zh-cn.md"
     },
     {
       "basename": "vscode 快捷键.zh-cn",
@@ -31,10 +35,6 @@
     {
       "basename": "《哈利波特》人物、地点及重要时间线.zh-cn",
       "path": "《哈利波特》人物、地点及重要时间线.zh-cn.md"
-    },
-    {
-      "basename": "《哈利波特》情节梳理.zh-cn",
-      "path": "《哈利波特》情节梳理.zh-cn.md"
     },
     {
       "basename": "useful prompt.zh-cn",
