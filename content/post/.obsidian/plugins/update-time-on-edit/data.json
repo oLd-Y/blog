@@ -277,7 +277,7 @@
     "《寄生兽》看番笔记.zh-cn.md": "4312a93791d30a2229e635be344302187d26794459a5c221f0227c37d0213c38",
     "《寄生兽》人物分析.zh-cn.md": "2dd07b33c151a7f7a9a6a003d77c2809f22f94ac8a74d9189fb57bd320cc55e3",
     "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md": "ffdbc636c12eac471eeedc5d8bdd99e6870d833c57a0e9f49f4ed1468d975cfa",
-    "ai 绘图模型汇总.zh-cn.md": "70c0c1b81466c3764e6782afd675e260b7da6e9aada1b5c02e6e6ba7f942c277",
+    "ai 绘图模型汇总.zh-cn.md": "8890064e8480086391aff5f5e5955128a3b9aaa475d83dcbde0b754e7dbf01f3",
     "flux 原理.zh-cn.md": "7ed362b4e756ba81c9e8530cfe3f9c26c28026c1fbd3baf028cc460124801f5c",
     "洛雪音乐音源.zh-cn.md": "340ce9d8ffd0864360eebe443c2b873d4428d345c6372eff5eef1f6073b9c88b",
     "《卡拉马佐夫兄弟》摘抄.zh-cn.md": "aa0a729ad0a6334a87f23e6772eb449b1cbdf08aad8c20a6c8a33540fb5f00f5",
@@ -288,6 +288,7 @@
     "《卡拉马佐夫兄弟》读后感.zh-cn.md": "00b79d3c3d797a8f7f29ef33a554a9411b4abfb40cf0fd9b6d7455299fc3ac73",
     "vscode 快捷键.zh-cn.md": "196d5404635fded48af742343df14ad9677bc658eb386e4cc50426b207762007",
     "unexpected EOF, expected 822353 more bytes. The file might be corrupted.zh-cn.md": "55b2cf2527523e491774f4b672291d7ffb136800cec073892b826b05c5ab8db9",
-    "DoubleStreamBlock.forward() got an unexpected keyword argument 'attn_mask'.zh-cn.md": "9f2934b06a49960d22aa31ed6c0c05017cb407ea168d2e197a332efec58bf568"
+    "DoubleStreamBlock.forward() got an unexpected keyword argument 'attn_mask'.zh-cn.md": "9f2934b06a49960d22aa31ed6c0c05017cb407ea168d2e197a332efec58bf568",
+    "Comfyui 插件汇总.zh-cn.md": "d20c1a4de2f52ba4eac3c88f28757842fa2d77d5285a572e1fae8e6ef5618de0"
   }
 }
