@@ -10,7 +10,16 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2025-01-15T10:29:44+08:00
+lastmod: 2025-01-15T11:31:46+08:00
 ---
 
 ps 与 comfyui 结合：[sd-ppp](https://github.com/zombieyang/sd-ppp)
+
+## 反推提示词
+
+- MiniCPM
+- JoyCaptain
+- Florence2
+- comfyui-mixlab-nodes（Clip 询问机节点）
+- wd1.4 tagger
+- molmo

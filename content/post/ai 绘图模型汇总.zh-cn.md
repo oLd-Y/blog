@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-15T10:13:00+08:00
+lastmod: 2025-01-15T10:54:08+08:00
 ---
 ## flux.1
 
@@ -22,9 +22,4 @@ flux.1-lumiere-alpha: 还原人物真实质感的模型
 
 - pulid：
 
-## 反推提示词
 
-- MiniCPM
-- JoyCaptain
-- Florence2
-- 
