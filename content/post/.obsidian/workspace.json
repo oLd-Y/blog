@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai 绘图模型汇总.zh-cn.md",
+                "file": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ai 绘图模型汇总.zh-cn"
+              "title": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn"
             }
           },
           {
@@ -268,8 +268,8 @@
   },
   "active": "625ea2f924be00b2",
   "lastOpenFiles": [
-    "Comfyui 插件汇总.zh-cn.md",
     "ai 绘图模型汇总.zh-cn.md",
+    "Comfyui 插件汇总.zh-cn.md",
     "《哈利波特》情节梳理.zh-cn.md",
     "DoubleStreamBlock.forward() got an unexpected keyword argument 'attn_mask'.zh-cn.md",
     "unexpected EOF, expected 822353 more bytes. The file might be corrupted.zh-cn.md",
