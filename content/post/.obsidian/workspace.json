@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -266,7 +266,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "625ea2f924be00b2",
+  "active": "5f807305454f16b5",
   "lastOpenFiles": [
     "ai 绘图模型汇总.zh-cn.md",
     "Comfyui 插件汇总.zh-cn.md",
