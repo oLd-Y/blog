@@ -83,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -266,8 +266,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5f807305454f16b5",
+  "active": "ba2780ba52584aad",
   "lastOpenFiles": [
+    "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "ai 绘图模型汇总.zh-cn.md",
     "Comfyui 插件汇总.zh-cn.md",
     "《哈利波特》情节梳理.zh-cn.md",
@@ -276,7 +277,6 @@
     "vscode 快捷键.zh-cn.md",
     "vscode vim 快捷键.md",
     "Obsidian Vim 自动切换搜狗输入法中英状态.md",
-    "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "《哈利波特》人物、地点及重要时间线.zh-cn.md",
     "Untitled.md",
     "useful prompt.zh-cn.md",
