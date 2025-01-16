@@ -83,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -266,11 +266,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ba2780ba52584aad",
+  "active": "625ea2f924be00b2",
   "lastOpenFiles": [
+    "Comfyui 插件汇总.zh-cn.md",
     "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "ai 绘图模型汇总.zh-cn.md",
-    "Comfyui 插件汇总.zh-cn.md",
     "《哈利波特》情节梳理.zh-cn.md",
     "DoubleStreamBlock.forward() got an unexpected keyword argument 'attn_mask'.zh-cn.md",
     "unexpected EOF, expected 822353 more bytes. The file might be corrupted.zh-cn.md",
