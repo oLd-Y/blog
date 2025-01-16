@@ -83,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -266,10 +266,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5f807305454f16b5",
+  "active": "ba2780ba52584aad",
   "lastOpenFiles": [
-    "Comfyui 插件汇总.zh-cn.md",
+    "Weights only load failed.zh-cn.md",
     "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
+    "Comfyui 插件汇总.zh-cn.md",
     "ai 绘图模型汇总.zh-cn.md",
     "《哈利波特》情节梳理.zh-cn.md",
     "DoubleStreamBlock.forward() got an unexpected keyword argument 'attn_mask'.zh-cn.md",
@@ -294,7 +295,6 @@
     "《卡拉马佐夫兄弟》第十二卷.canvas",
     "洛雪音乐音源.zh-cn.md",
     "flux 原理.zh-cn.md",
-    "《为美好的世界献上祝福》阅读笔记.zh-cn.md",
     "《卡拉马佐夫兄弟》全文-第二卷.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
