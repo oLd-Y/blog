@@ -98,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -281,10 +281,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5525d23adc514876",
+  "active": "625ea2f924be00b2",
   "lastOpenFiles": [
-    "Comfyui 插件汇总.zh-cn.md",
     "windows 文件夹或文件已在另一程序中打开.zh-cn.md",
+    "Comfyui 插件汇总.zh-cn.md",
     "Weights only load failed.zh-cn.md",
     "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "ai 绘图模型汇总.zh-cn.md",

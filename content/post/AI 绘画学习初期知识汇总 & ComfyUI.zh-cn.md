@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-16T13:22:20+08:00
+lastmod: 2025-01-16T20:41:29+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -184,3 +184,5 @@ kijai:
 反推工具：
 
 ![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20250116132204.png)
+
+impact pack：快速切换节点
