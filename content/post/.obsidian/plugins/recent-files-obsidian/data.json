@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "vscode 快捷键.zh-cn",
+      "path": "vscode 快捷键.zh-cn.md"
+    },
+    {
+      "basename": "vscode vim 快捷键",
+      "path": "vscode vim 快捷键.md"
+    },
+    {
       "basename": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn",
       "path": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md"
     },
@@ -31,14 +39,6 @@
     {
       "basename": "unexpected EOF, expected 822353 more bytes. The file might be corrupted.zh-cn",
       "path": "unexpected EOF, expected 822353 more bytes. The file might be corrupted.zh-cn.md"
-    },
-    {
-      "basename": "vscode 快捷键.zh-cn",
-      "path": "vscode 快捷键.zh-cn.md"
-    },
-    {
-      "basename": "vscode vim 快捷键",
-      "path": "vscode vim 快捷键.md"
     },
     {
       "basename": "Obsidian Vim 自动切换搜狗输入法中英状态",

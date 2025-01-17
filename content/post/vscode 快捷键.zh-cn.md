@@ -1,5 +1,5 @@
 ---
-title: vscode 快捷键.zh-cn
+title: vscode 以及 vscode vim 快捷键.zh-cn
 categories: 计算机
 tags:
   - vscode
@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2025-01-14T16:16:23+08:00
+lastmod: 2025-01-16T23:44:31+08:00
 ---
 
 **1、注释**：
@@ -110,3 +110,5 @@ CTRL + D 批量更改变量（多按几次）
 CTRL+ENTER 光标在任意位置换行  
   
 CTRL + LEFT/RIGHT 光标跳到下一个单词
+
+[vscode + vim 全键盘操作高效搭配方案 - 云崖君 - 博客园](https://www.cnblogs.com/YunyaSir/p/15522565.html)
