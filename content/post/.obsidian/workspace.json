@@ -165,8 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -281,7 +280,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "625ea2f924be00b2",
+  "active": "5f807305454f16b5",
   "lastOpenFiles": [
     "vscode vim 快捷键.md",
     "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
