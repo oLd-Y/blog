@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Comfyui 插件汇总.zh-cn",
+      "path": "Comfyui 插件汇总.zh-cn.md"
+    },
+    {
       "basename": "vscode 快捷键.zh-cn",
       "path": "vscode 快捷键.zh-cn.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "windows 文件夹或文件已在另一程序中打开.zh-cn",
       "path": "windows 文件夹或文件已在另一程序中打开.zh-cn.md"
-    },
-    {
-      "basename": "Comfyui 插件汇总.zh-cn",
-      "path": "Comfyui 插件汇总.zh-cn.md"
     },
     {
       "basename": "Weights only load failed.zh-cn",

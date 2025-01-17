@@ -98,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -165,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 354.5,
+    "collapsed": true
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -277,11 +278,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "workspaces:Manage workspace layouts": false,
       "canvas:Create new canvas": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "5f807305454f16b5",
+  "active": "ba2780ba52584aad",
   "lastOpenFiles": [
+    "vscode 快捷键.zh-cn.md",
     "vscode vim 快捷键.md",
     "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "windows 文件夹或文件已在另一程序中打开.zh-cn.md",
@@ -291,7 +294,6 @@
     "《哈利波特》情节梳理.zh-cn.md",
     "DoubleStreamBlock.forward() got an unexpected keyword argument 'attn_mask'.zh-cn.md",
     "unexpected EOF, expected 822353 more bytes. The file might be corrupted.zh-cn.md",
-    "vscode 快捷键.zh-cn.md",
     "Obsidian Vim 自动切换搜狗输入法中英状态.md",
     "《哈利波特》人物、地点及重要时间线.zh-cn.md",
     "Untitled.md",
