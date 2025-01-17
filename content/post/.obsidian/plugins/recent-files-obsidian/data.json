@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "python 初期知识点汇总.zh-cn",
+      "path": "python 初期知识点汇总.zh-cn.md"
+    },
+    {
+      "basename": "windows 文件夹或文件已在另一程序中打开.zh-cn",
+      "path": "windows 文件夹或文件已在另一程序中打开.zh-cn.md"
+    },
+    {
       "basename": "Comfyui 插件汇总.zh-cn",
       "path": "Comfyui 插件汇总.zh-cn.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn",
       "path": "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md"
-    },
-    {
-      "basename": "windows 文件夹或文件已在另一程序中打开.zh-cn",
-      "path": "windows 文件夹或文件已在另一程序中打开.zh-cn.md"
     },
     {
       "basename": "Weights only load failed.zh-cn",
@@ -195,10 +199,6 @@
     {
       "basename": "_TODO",
       "path": "_TODO.md"
-    },
-    {
-      "basename": "逻辑运算符和位运算符.zh-cn",
-      "path": "逻辑运算符和位运算符.zh-cn.md"
     }
   ],
   "omittedPaths": []
