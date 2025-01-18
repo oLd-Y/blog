@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "《哈利波特》情节梳理.zh-cn",
-      "path": "《哈利波特》情节梳理.zh-cn.md"
-    },
-    {
       "basename": "Comfyui 插件汇总.zh-cn",
       "path": "Comfyui 插件汇总.zh-cn.md"
+    },
+    {
+      "basename": "《哈利波特》情节梳理.zh-cn",
+      "path": "《哈利波特》情节梳理.zh-cn.md"
     },
     {
       "basename": "vscode 快捷键.zh-cn",
@@ -195,10 +195,6 @@
     {
       "basename": "CSAPP practice problem and solutions-2.en",
       "path": "CSAPP practice problem and solutions-2.en.md"
-    },
-    {
-      "basename": "_TODO",
-      "path": "_TODO.md"
     }
   ],
   "omittedPaths": []

@@ -51,9 +51,24 @@
               "icon": "lucide-file",
               "title": "《哈利波特》情节梳理.zh-cn"
             }
+          },
+          {
+            "id": "f74e61e7010670c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Comfyui 插件汇总.zh-cn.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Comfyui 插件汇总.zh-cn"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -120,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -236,10 +250,46 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7b3a9c83b224ed32",
+  "floating": {
+    "id": "7ceb1dbe4942bc29",
+    "type": "floating",
+    "children": [
+      {
+        "id": "e558000982c83543",
+        "type": "window",
+        "children": [
+          {
+            "id": "f59acef8213ba6fc",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "cfb67a907b68902f",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 512,
+        "y": 152,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "cfb67a907b68902f",
   "lastOpenFiles": [
     "Comfyui 插件汇总.zh-cn.md",
     "《哈利波特》情节梳理.zh-cn.md",
+    "节点.md",
     "vscode 快捷键.zh-cn.md",
     "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "python 初期知识点汇总.zh-cn.md",
@@ -263,7 +313,6 @@
     "_excalidraw/Drawing 2025-01-05 16.15.47.excalidraw.md",
     "_excalidraw/Drawing 2025-01-05 18.17.01.excalidraw.md",
     "《卡拉马佐夫兄弟》人物地点表.zh-cn.md",
-    "通过基本的 ComfyUI 文生图工作流学习 AI 绘图.zh-cn.md",
     "《卡拉马佐夫兄弟》第十二卷.canvas",
     "《卡拉马佐夫兄弟》全文-第二卷.canvas",
     "Untitled 1.canvas",
