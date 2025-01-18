@@ -9,7 +9,7 @@ description:
 image: 
 weight: 1
 draft: true
-lastmod: 2025-01-16T20:41:29+08:00
+lastmod: 2025-01-18T08:07:23+08:00
 ---
 [diffusion model(十五) : IP-Adapter技术小结 | 莫叶何竹🍀](http://www.myhz0606.com/article/ip_adapter)
 
@@ -49,6 +49,10 @@ C-m：静音（使失效）
 ![image.png](https://raw.githubusercontent.com/oLd-Y/PicGoPictures/main/20241225103235.png)
 
 问题：ip-adapter 加载器和 ip-adapter 模型加载器的区别。
+
+## IP-adapter-plus
+
+[IPAdapter v2: all the new features! - YouTube](https://www.youtube.com/watch?v=_JzDcgKgghY&ab_channel=LatentVision)
 
 ## Tile 平铺预处理器
 

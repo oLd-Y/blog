@@ -51,69 +51,9 @@
               "icon": "lucide-file",
               "title": "《哈利波特》情节梳理.zh-cn"
             }
-          },
-          {
-            "id": "625ea2f924be00b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vscode 快捷键.zh-cn.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "vscode 快捷键.zh-cn"
-            }
-          },
-          {
-            "id": "ba2780ba52584aad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Comfyui 插件汇总.zh-cn.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Comfyui 插件汇总.zh-cn"
-            }
-          },
-          {
-            "id": "5525d23adc514876",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "windows 文件夹或文件已在另一程序中打开.zh-cn.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "windows 文件夹或文件已在另一程序中打开.zh-cn"
-            }
-          },
-          {
-            "id": "1e8af5fe553346f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "python 初期知识点汇总.zh-cn.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "python 初期知识点汇总.zh-cn"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -296,17 +236,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1e8af5fe553346f8",
+  "active": "7b3a9c83b224ed32",
   "lastOpenFiles": [
-    "windows 文件夹或文件已在另一程序中打开.zh-cn.md",
-    "python 初期知识点汇总.zh-cn.md",
     "Comfyui 插件汇总.zh-cn.md",
+    "《哈利波特》情节梳理.zh-cn.md",
     "vscode 快捷键.zh-cn.md",
-    "vscode vim 快捷键.md",
     "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
+    "python 初期知识点汇总.zh-cn.md",
+    "windows 文件夹或文件已在另一程序中打开.zh-cn.md",
+    "vscode vim 快捷键.md",
     "Weights only load failed.zh-cn.md",
     "ai 绘图模型汇总.zh-cn.md",
-    "《哈利波特》情节梳理.zh-cn.md",
     "DoubleStreamBlock.forward() got an unexpected keyword argument 'attn_mask'.zh-cn.md",
     "unexpected EOF, expected 822353 more bytes. The file might be corrupted.zh-cn.md",
     "Obsidian Vim 自动切换搜狗输入法中英状态.md",
