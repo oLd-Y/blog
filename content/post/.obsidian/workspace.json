@@ -67,8 +67,7 @@
               "title": "useful prompt.zh-cn"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -251,11 +250,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a9e8bf954fd91ecd",
+  "active": "b4ecaf5b7e9004a2",
   "lastOpenFiles": [
-    "《哈利波特》人物、地点记录.zh-cn.md",
-    "useful prompt.zh-cn.md",
     "《哈利波特》情节梳理.zh-cn.md",
+    "useful prompt.zh-cn.md",
+    "《哈利波特》人物、地点记录.zh-cn.md",
     "Comfyui 插件汇总.zh-cn.md",
     "节点.md",
     "vscode 快捷键.zh-cn.md",
