@@ -174,7 +174,7 @@
     "Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）.zh-cn.md": "423413c20b639cc8f183832ff5e8c690c9405cac368c845a33e474bdae3b8f79",
     "Ubuntu 命令行启动 Vue3 项目（以 ruoyi-ui-admin-vue3 为例）.zh-cn.md": "3efbc6369da18c93e3e4de8143d22291f0832724397e5183f5c9622722e4a1f6",
     "useful prompt.en.md": "ab20e9a2d2893d8731136f0213d5b75023af0b8bb639d9ae5f4871c29310ee8f",
-    "useful prompt.zh-cn.md": "ed367dff3f423f7da08b4621f0b09f7d1b72d8600d71f1d3500a806c424989bd",
+    "useful prompt.zh-cn.md": "a02301d6a0577dc46d1ef042935e8753b34e7d439d064900867e2c9a39747de5",
     "cargo installation.en.md": "327361df95c42a7a4e97ba07e439485a7a9531732c434d73c70e019f0dbd5f69",
     "Windows 布局和工作区.md": "7432180f88a8cc4547b5e4b4d8b27372d480e77f02b2dbaf0aa9d5c7de56dbdc",
     "160. 相交链表.zh-cn.md": "4e6572016c02777127a219ed4f65b8a1ed019b9d89414e2b91c80009e7da8810",
@@ -283,8 +283,7 @@
     "《卡拉马佐夫兄弟》摘抄.zh-cn.md": "aa0a729ad0a6334a87f23e6772eb449b1cbdf08aad8c20a6c8a33540fb5f00f5",
     "《卡拉马佐夫兄弟》人物地点表.zh-cn.md": "f8f90d8e220ad8151f66dfd444de5bda8246c2610ae5d6959037acdf21943369",
     "《哈利波特》摘抄.zh-cn.md": "994a1709d610a9669068a42c8c583e883fc94a03dd9ee0adfd2ee0fccc31fa52",
-    "《哈利波特》情节梳理.zh-cn.md": "c222a94e52d1fbfa49493214ccb9ebe9ed99c49f86fb4d74ef7e2c132eb7305a",
-    "《哈利波特》人物、地点及重要时间线.zh-cn.md": "1c96b01ba554f33279540b91f33765fd586d86411cf57a669b8b8d66f2a34d74",
+    "《哈利波特》情节梳理.zh-cn.md": "bb1a5d81d7144a4c8ea9199d3e9470c39c26221671385fc8e84b2f96c0254a96",
     "《卡拉马佐夫兄弟》读后感.zh-cn.md": "00b79d3c3d797a8f7f29ef33a554a9411b4abfb40cf0fd9b6d7455299fc3ac73",
     "vscode 快捷键.zh-cn.md": "b8d9517973dc0b93a721ed8498ad1c54bb0e37c657a1992627a9e5532b38d859",
     "unexpected EOF, expected 822353 more bytes. The file might be corrupted.zh-cn.md": "55b2cf2527523e491774f4b672291d7ffb136800cec073892b826b05c5ab8db9",
@@ -292,6 +291,7 @@
     "Comfyui 插件汇总.zh-cn.md": "d4dd104f2e130932c3d97ab252b9ee78ff2d101545f389a62918f7d4e7de037f",
     "Weights only load failed.zh-cn.md": "49999ee4842621c48b6e1de62ff790fc375ad6666e0218523bf28751d57b7a36",
     "windows 文件夹或文件已在另一程序中打开.zh-cn.md": "70dba6f40d6559eef4a89b72554d6a7c62edf87a98373db21dca32f755d80e88",
-    "python 初期知识点汇总.zh-cn.md": "6d9f7d54fbdb6a40f634833a5fff3940a339c6c4f7b6e0809026230a12c48f98"
+    "python 初期知识点汇总.zh-cn.md": "6d9f7d54fbdb6a40f634833a5fff3940a339c6c4f7b6e0809026230a12c48f98",
+    "《哈利波特》人物、地点记录.zh-cn.md": "8aadf774b5eb8aea775b7da078b63a2f979fb22f134d61305b83f5732eb64098"
   }
 }
