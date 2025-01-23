@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "windows 文件夹或文件已在另一程序中打开.zh-cn.md",
+                "file": "《哈利波特》人物、地点记录.zh-cn.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "windows 文件夹或文件已在另一程序中打开.zh-cn"
+              "title": "《哈利波特》人物、地点记录.zh-cn"
             }
           },
           {
@@ -67,7 +67,8 @@
               "title": "useful prompt.zh-cn"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -250,17 +251,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5f807305454f16b5",
+  "active": "7b3a9c83b224ed32",
   "lastOpenFiles": [
     "《哈利波特》人物、地点记录.zh-cn.md",
-    "《哈利波特》情节梳理.zh-cn.md",
     "useful prompt.zh-cn.md",
+    "windows 文件夹或文件已在另一程序中打开.zh-cn.md",
+    "《哈利波特》情节梳理.zh-cn.md",
     "Comfyui 插件汇总.zh-cn.md",
     "节点.md",
     "vscode 快捷键.zh-cn.md",
     "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "python 初期知识点汇总.zh-cn.md",
-    "windows 文件夹或文件已在另一程序中打开.zh-cn.md",
     "vscode vim 快捷键.md",
     "Weights only load failed.zh-cn.md",
     "ai 绘图模型汇总.zh-cn.md",
