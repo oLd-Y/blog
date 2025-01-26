@@ -8,7 +8,7 @@ description:
 image: 
 weight: 1
 draft: false
-lastmod: 2025-01-26T10:21:47+08:00
+lastmod: 2025-01-26T10:44:23+08:00
 ---
 ## 知识性的书籍总结
 
@@ -99,14 +99,17 @@ CHAPTER：
 
 \[EXAMPLE]
 
-输出参考如下 markdown 代码块中的格式：
+输出请参考如下 markdown 代码块中的格式：
 
 ```md
-## <章节标题>
+## 第 x 章 <章节标题>
 
 - <概述1>
+
 - <概述2>
+
 - <概述3>
+
 ……
 
 ```
