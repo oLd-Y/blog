@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -251,12 +251,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5f807305454f16b5",
+  "active": "a9e8bf954fd91ecd",
   "lastOpenFiles": [
-    "《哈利波特》人物、地点记录.zh-cn.md",
-    "useful prompt.zh-cn.md",
-    "windows 文件夹或文件已在另一程序中打开.zh-cn.md",
     "《哈利波特》情节梳理.zh-cn.md",
+    "useful prompt.zh-cn.md",
+    "《哈利波特》人物、地点记录.zh-cn.md",
+    "《哈利波特》摘抄.zh-cn.md",
+    "windows 文件夹或文件已在另一程序中打开.zh-cn.md",
     "Comfyui 插件汇总.zh-cn.md",
     "节点.md",
     "vscode 快捷键.zh-cn.md",
@@ -269,7 +270,6 @@
     "unexpected EOF, expected 822353 more bytes. The file might be corrupted.zh-cn.md",
     "Obsidian Vim 自动切换搜狗输入法中英状态.md",
     "Untitled.md",
-    "《哈利波特》摘抄.zh-cn.md",
     "controlnet.md",
     "useful prompt.en.md",
     "《卡拉马佐夫兄弟》读书笔记.zh-cn.md",

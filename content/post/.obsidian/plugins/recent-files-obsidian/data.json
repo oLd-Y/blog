@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "useful prompt.zh-cn",
+      "path": "useful prompt.zh-cn.md"
+    },
+    {
       "basename": "《哈利波特》情节梳理.zh-cn",
       "path": "《哈利波特》情节梳理.zh-cn.md"
     },
@@ -9,8 +13,8 @@
       "path": "《哈利波特》人物、地点记录.zh-cn.md"
     },
     {
-      "basename": "useful prompt.zh-cn",
-      "path": "useful prompt.zh-cn.md"
+      "basename": "《哈利波特》摘抄.zh-cn",
+      "path": "《哈利波特》摘抄.zh-cn.md"
     },
     {
       "basename": "windows 文件夹或文件已在另一程序中打开.zh-cn",
@@ -55,10 +59,6 @@
     {
       "basename": "Obsidian Vim 自动切换搜狗输入法中英状态",
       "path": "Obsidian Vim 自动切换搜狗输入法中英状态.md"
-    },
-    {
-      "basename": "《哈利波特》摘抄.zh-cn",
-      "path": "《哈利波特》摘抄.zh-cn.md"
     },
     {
       "basename": "useful prompt.en",
