@@ -30,8 +30,17 @@
               "state": {
                 "file": "《哈利波特》情节梳理.zh-cn.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "《哈利波特》情节梳理.zh-cn"
@@ -236,7 +245,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7b3a9c83b224ed32",
+  "active": "5f807305454f16b5",
   "lastOpenFiles": [
     "《哈利波特》人物、地点记录.zh-cn.md",
     "useful prompt.zh-cn.md",
