@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "36bea44e6be7d0fc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
+            }
+          },
+          {
             "id": "d2aa2825980d1a92",
             "type": "leaf",
             "state": {
@@ -104,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -171,8 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -287,12 +298,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7b3a9c83b224ed32",
+  "active": "5f807305454f16b5",
   "lastOpenFiles": [
-    "useful prompt.zh-cn.md",
-    "《哈利波特》情节梳理.zh-cn.md",
     "《哈利波特》人物、地点记录.zh-cn.md",
+    "《哈利波特》情节梳理.zh-cn.md",
     "《哈利波特》摘抄.zh-cn.md",
+    "useful prompt.zh-cn.md",
     "windows 文件夹或文件已在另一程序中打开.zh-cn.md",
     "Comfyui 插件汇总.zh-cn.md",
     "节点.md",
