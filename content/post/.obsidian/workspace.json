@@ -171,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -289,9 +288,9 @@
   },
   "active": "7b3a9c83b224ed32",
   "lastOpenFiles": [
+    "《哈利波特》摘抄.zh-cn.md",
     "《哈利波特》人物、地点记录.zh-cn.md",
     "《哈利波特》情节梳理.zh-cn.md",
-    "《哈利波特》摘抄.zh-cn.md",
     "useful prompt.zh-cn.md",
     "windows 文件夹或文件已在另一程序中打开.zh-cn.md",
     "Comfyui 插件汇总.zh-cn.md",
