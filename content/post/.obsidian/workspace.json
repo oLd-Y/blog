@@ -135,7 +135,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -178,8 +179,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -301,8 +301,10 @@
   },
   "active": "7b3a9c83b224ed32",
   "lastOpenFiles": [
-    "《哈利波特》人物、地点记录.zh-cn.md",
+    "_excalidraw/Drawing 2025-02-05 15.56.45.excalidraw.md",
     "《哈利波特》情节梳理.zh-cn.md",
+    "_excalidraw/test.md",
+    "《哈利波特》人物、地点记录.zh-cn.md",
     "《哈利波特》摘抄.zh-cn.md",
     "useful prompt.zh-cn.md",
     "windows 文件夹或文件已在另一程序中打开.zh-cn.md",
@@ -325,8 +327,6 @@
     "《卡拉马佐夫兄弟》读后感.zh-cn.md",
     "_excalidraw/Drawing 2025-01-05 16.26.41.excalidraw.md",
     "_excalidraw/Drawing 2025-01-05 16.15.47.excalidraw.md",
-    "_excalidraw/Drawing 2025-01-05 18.17.01.excalidraw.md",
-    "《卡拉马佐夫兄弟》人物地点表.zh-cn.md",
     "《卡拉马佐夫兄弟》第十二卷.canvas",
     "《卡拉马佐夫兄弟》全文-第二卷.canvas",
     "Untitled 1.canvas",
