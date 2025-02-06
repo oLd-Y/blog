@@ -184,8 +184,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 354.5
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -300,7 +299,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1ccc2c400a2df773",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
     "《哈利波特》情节梳理.zh-cn.md",
     "useful prompt.zh-cn.md",
