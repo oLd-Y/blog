@@ -174,7 +174,7 @@
     "Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）.zh-cn.md": "423413c20b639cc8f183832ff5e8c690c9405cac368c845a33e474bdae3b8f79",
     "Ubuntu 命令行启动 Vue3 项目（以 ruoyi-ui-admin-vue3 为例）.zh-cn.md": "3efbc6369da18c93e3e4de8143d22291f0832724397e5183f5c9622722e4a1f6",
     "useful prompt.en.md": "ab20e9a2d2893d8731136f0213d5b75023af0b8bb639d9ae5f4871c29310ee8f",
-    "useful prompt.zh-cn.md": "40515ea933d0269170828450835c069cfc4957feaeb060b1d8cb90a7efb34e98",
+    "useful prompt.zh-cn.md": "3f48a0306beed2e900c0de4746f087f6c561cd9c57ad9bae54a5805dd858e2e6",
     "cargo installation.en.md": "327361df95c42a7a4e97ba07e439485a7a9531732c434d73c70e019f0dbd5f69",
     "Windows 布局和工作区.md": "7432180f88a8cc4547b5e4b4d8b27372d480e77f02b2dbaf0aa9d5c7de56dbdc",
     "160. 相交链表.zh-cn.md": "4e6572016c02777127a219ed4f65b8a1ed019b9d89414e2b91c80009e7da8810",
@@ -283,7 +283,6 @@
     "《卡拉马佐夫兄弟》摘抄.zh-cn.md": "aa0a729ad0a6334a87f23e6772eb449b1cbdf08aad8c20a6c8a33540fb5f00f5",
     "《卡拉马佐夫兄弟》人物地点表.zh-cn.md": "f8f90d8e220ad8151f66dfd444de5bda8246c2610ae5d6959037acdf21943369",
     "《哈利波特》摘抄.zh-cn.md": "8e79b1ed7ead53df53c23aab61aab1310cb5dcb6a87a47401f0197b8303c53bd",
-    "《哈利波特》情节梳理.zh-cn.md": "8a98bc53bc580249f8354500c63712bb500c08206aeacb0407a7af0ff653835c",
     "《卡拉马佐夫兄弟》读后感.zh-cn.md": "00b79d3c3d797a8f7f29ef33a554a9411b4abfb40cf0fd9b6d7455299fc3ac73",
     "vscode 快捷键.zh-cn.md": "b8d9517973dc0b93a721ed8498ad1c54bb0e37c657a1992627a9e5532b38d859",
     "unexpected EOF, expected 822353 more bytes. The file might be corrupted.zh-cn.md": "55b2cf2527523e491774f4b672291d7ffb136800cec073892b826b05c5ab8db9",
@@ -292,8 +291,13 @@
     "Weights only load failed.zh-cn.md": "49999ee4842621c48b6e1de62ff790fc375ad6666e0218523bf28751d57b7a36",
     "windows 文件夹或文件已在另一程序中打开.zh-cn.md": "70dba6f40d6559eef4a89b72554d6a7c62edf87a98373db21dca32f755d80e88",
     "python 初期知识点汇总.zh-cn.md": "6d9f7d54fbdb6a40f634833a5fff3940a339c6c4f7b6e0809026230a12c48f98",
-    "《哈利波特》人物、地点记录.zh-cn.md": "216d063626df41303de515f5dca6f01f007c4901760b72a05622bf95cb08bb14",
     "《哈利波特与魔法石》读后感.zh-cn.md": "6a938de7db3c8eebfaf3daefc9dfe0898da3e51c5750b6b558c8f4fa25053a07",
-    "adobe 系列软件破解步骤（pr、ps、ae等）.zh-cn.md": "c722f6d7987e4c57a8ceb8af3187c67e3fab25a13af0d6e88922569086b278f9"
+    "adobe 系列软件破解步骤（pr、ps、ae等）.zh-cn.md": "c722f6d7987e4c57a8ceb8af3187c67e3fab25a13af0d6e88922569086b278f9",
+    "《哈利波特与魔法石》情节梳理.zh-cn.md": "4f2e696b9038488fe2852cbb0405a3ecadce6d2adc09542adfbda6e45ba4531b",
+    "《哈利波特与魔法石》人物、地点记录.zh-cn.md": "e3f3e31741114716305cb3df1fd013f6b3cf47710f8a59e6e55b9d0ee7535d4d",
+    "《哈利波特与密室》情节梳理.zh-cn.md": "1160f16cd004d59492cf485a95347f2f9c494f51b0fc691d281495554213e9ad",
+    "《哈利波特与密室》人物、地点记录.zh-cn.md": "bc008e8a8c894f23fcc3f68178a26e514305a3e1edca82a1974fc414dafeb46f",
+    "《哈利波特与阿兹卡班囚徒》人物、地点记录.zh-cn.md": "4653d8d5b4ed7bd6ea6b43e2d6efcd8c8ced03d643ced400d9fea3cafd4aef6c",
+    "《哈利波特与阿兹卡班囚徒》情节梳理.zh-cn.md": "a4dedbbe6541f459b4162f4471ec36e8bf7594d742a564053690dac75570ef3a"
   }
 }
