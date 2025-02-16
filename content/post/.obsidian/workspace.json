@@ -103,7 +103,8 @@
               "title": "useful prompt.zh-cn"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -286,7 +287,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b4ecaf5b7e9004a2",
+  "active": "1ccc2c400a2df773",
   "lastOpenFiles": [
     "《哈利波特》情节梳理.zh-cn.md",
     "《哈利波特》人物、地点记录.zh-cn.md",
