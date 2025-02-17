@@ -79,7 +79,8 @@
               "title": "useful prompt.zh-cn"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -263,10 +264,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c70e165b1326194d",
+  "active": "1a042365bfd2657d",
   "lastOpenFiles": [
-    "《哈利波特与阿兹卡班囚徒》情节梳理.zh-cn.md",
     "《哈利波特与阿兹卡班囚徒》人物、地点记录.zh-cn.md",
+    "《哈利波特与阿兹卡班囚徒》情节梳理.zh-cn.md",
     "useful prompt.zh-cn.md",
     "《哈利波特与密室》情节梳理.zh-cn.md",
     "《哈利波特与密室》人物、地点记录.zh-cn.md",
