@@ -60,8 +60,33 @@
               "icon": "lucide-file",
               "title": "《哈利波特与火焰杯》情节梳理.zh-cn"
             }
+          },
+          {
+            "id": "650fd2364b342d5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "《卡拉马佐夫兄弟》摘抄.zh-cn.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "《卡拉马佐夫兄弟》摘抄.zh-cn"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -235,8 +260,8 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
     "《哈利波特与火焰杯》情节梳理.zh-cn.md",
+    "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
     "《哈利波特与阿兹卡班囚徒》人物、地点记录.zh-cn.md",
     "《哈利波特与阿兹卡班囚徒》情节梳理.zh-cn.md",
     "useful prompt.zh-cn.md",
