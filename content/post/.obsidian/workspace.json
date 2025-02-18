@@ -32,30 +32,6 @@
             }
           },
           {
-            "id": "1a042365bfd2657d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "《哈利波特与阿兹卡班囚徒》情节梳理.zh-cn.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "《哈利波特与阿兹卡班囚徒》情节梳理.zh-cn"
-            }
-          },
-          {
             "id": "f7a7a0b2a5737f90",
             "type": "leaf",
             "state": {
@@ -79,8 +55,37 @@
               "title": "useful prompt.zh-cn"
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "795ef135ecdab25d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a042365bfd2657d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "《哈利波特与阿兹卡班囚徒》情节梳理.zh-cn.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "《哈利波特与阿兹卡班囚徒》情节梳理.zh-cn"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,16 +129,6 @@
             }
           },
           {
-            "id": "5f807305454f16b5",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
-            }
-          },
-          {
             "id": "c155a10a9555b9e9",
             "type": "leaf",
             "state": {
@@ -143,12 +138,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 354.5,
+    "collapsed": true
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
