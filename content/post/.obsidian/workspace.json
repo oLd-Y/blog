@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c70e165b1326194d",
+            "id": "1bb109ed158bb406",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "《哈利波特与阿兹卡班囚徒》人物、地点记录.zh-cn.md",
+                "file": "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,31 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "《哈利波特与阿兹卡班囚徒》人物、地点记录.zh-cn"
-            }
-          },
-          {
-            "id": "f7a7a0b2a5737f90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "useful prompt.zh-cn.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "useful prompt.zh-cn"
+              "title": "《哈利波特与火焰杯》人物、地点记录.zh-cn"
             }
           }
         ]
@@ -67,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "《哈利波特与阿兹卡班囚徒》情节梳理.zh-cn.md",
+                "file": "《哈利波特与火焰杯》情节梳理.zh-cn.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -82,7 +58,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "《哈利波特与阿兹卡班囚徒》情节梳理.zh-cn"
+              "title": "《哈利波特与火焰杯》情节梳理.zh-cn"
             }
           }
         ]
@@ -142,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
+    "width": 381.5,
     "collapsed": true
   },
   "right": {
@@ -260,6 +236,8 @@
   },
   "active": "1a042365bfd2657d",
   "lastOpenFiles": [
+    "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
+    "《哈利波特与火焰杯》情节梳理.zh-cn.md",
     "《哈利波特与阿兹卡班囚徒》人物、地点记录.zh-cn.md",
     "《哈利波特与阿兹卡班囚徒》情节梳理.zh-cn.md",
     "useful prompt.zh-cn.md",
@@ -284,8 +262,6 @@
     "DoubleStreamBlock.forward() got an unexpected keyword argument 'attn_mask'.zh-cn.md",
     "unexpected EOF, expected 822353 more bytes. The file might be corrupted.zh-cn.md",
     "Obsidian Vim 自动切换搜狗输入法中英状态.md",
-    "Untitled.md",
-    "controlnet.md",
     "《卡拉马佐夫兄弟》第十二卷.canvas",
     "《卡拉马佐夫兄弟》全文-第二卷.canvas",
     "Untitled 1.canvas",
