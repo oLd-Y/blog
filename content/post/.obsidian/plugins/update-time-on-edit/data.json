@@ -174,7 +174,7 @@
     "Ubuntu 命令行启动 SpringBoot 项目（以 ruoyi-vue-pro 为例）.zh-cn.md": "423413c20b639cc8f183832ff5e8c690c9405cac368c845a33e474bdae3b8f79",
     "Ubuntu 命令行启动 Vue3 项目（以 ruoyi-ui-admin-vue3 为例）.zh-cn.md": "3efbc6369da18c93e3e4de8143d22291f0832724397e5183f5c9622722e4a1f6",
     "useful prompt.en.md": "ab20e9a2d2893d8731136f0213d5b75023af0b8bb639d9ae5f4871c29310ee8f",
-    "useful prompt.zh-cn.md": "06d7cb8b7b2c252506509afb0a370f76cd127e47b69b9d43859490de96d72dc6",
+    "useful prompt.zh-cn.md": "692c741cb9209b6263933ba627aa41f815abe5123b88e35c94b1a5ba6fff4792",
     "cargo installation.en.md": "327361df95c42a7a4e97ba07e439485a7a9531732c434d73c70e019f0dbd5f69",
     "Windows 布局和工作区.md": "7432180f88a8cc4547b5e4b4d8b27372d480e77f02b2dbaf0aa9d5c7de56dbdc",
     "160. 相交链表.zh-cn.md": "4e6572016c02777127a219ed4f65b8a1ed019b9d89414e2b91c80009e7da8810",
@@ -299,9 +299,10 @@
     "《哈利波特与密室》人物、地点记录.zh-cn.md": "bc008e8a8c894f23fcc3f68178a26e514305a3e1edca82a1974fc414dafeb46f",
     "《哈利波特与阿兹卡班囚徒》人物、地点记录.zh-cn.md": "dc4189fa2df962bde415babc77de9766ccbae7521783279adba783e4b83e7820",
     "《哈利波特与阿兹卡班囚徒》情节梳理.zh-cn.md": "4bdb30c04b0492d22f0cea83e94e329bb8f7e6074ca1a49cc3f6ead7be972346",
-    "《哈利波特与火焰杯》情节梳理.zh-cn.md": "e5e6c2af46210c6dc70c51621b75e545d1b5de7a8f79473dcc78396c7bc06d4f",
-    "《哈利波特与火焰杯》人物、地点记录.zh-cn.md": "f9d63b6976cc531a4ae7940bb9aefdbd60a134a0a1787c873753bc9609f1d79d",
-    "提示词-小说要素记录助手.zh-cn.md": "cb52a82030a65cbc3484da1b022bb8755e6e8ca2f75c578520694c7db4792cc8",
-    "提示词-小说情节梳理.zh-cn.md": "6e560babe508e2261ce8f516864093312dae638fbf14d063c9541ed9d2d59bf6"
+    "《哈利波特与火焰杯》情节梳理.zh-cn.md": "8f271197ce9f153a17b712d9ba17c1e5c8b8498d6ca10e73cbf15890bfdb7a5d",
+    "《哈利波特与火焰杯》人物、地点记录.zh-cn.md": "c9b6699e8a17f9cc5a1664f7bb91667d688614786d03b003e75ff20480a90ff8",
+    "提示词-小说要素记录助手.zh-cn.md": "f1d08dd6f79fd8739c99ad5037687515d7ff9ef208405a6669e49e502a3a6a37",
+    "提示词-小说情节梳理.zh-cn.md": "af7000cb9f760ea6501729feb252923f47a12e80cd88839554e32c0d75a4f390",
+    "提示词-小说家.zh-cn.md": "e97e63abed6a98cc53b798ecaa718c4101c2dd1e54f2e61ad847b5576eb65f47"
   }
 }

@@ -32,30 +32,6 @@
             }
           },
           {
-            "id": "549b94d65f0bdb12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "useful prompt.zh-cn.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "useful prompt.zh-cn"
-            }
-          },
-          {
             "id": "74ae9e9f559d3f82",
             "type": "leaf",
             "state": {
@@ -103,8 +79,7 @@
               "title": "提示词-小说要素记录助手.zh-cn"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "795ef135ecdab25d",
@@ -166,7 +141,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "罗伯茨",
+                "query": "克劳奇",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -187,7 +162,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -306,13 +282,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "75ab60c5b57d6774",
   "lastOpenFiles": [
-    "提示词-小说情节梳理.zh-cn.md",
-    "提示词-小说要素记录助手.zh-cn.md",
-    "useful prompt.zh-cn.md",
-    "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
     "《哈利波特与火焰杯》情节梳理.zh-cn.md",
+    "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
+    "提示词-小说要素记录助手.zh-cn.md",
+    "提示词-小说家.zh-cn.md",
+    "useful prompt.zh-cn.md",
+    "提示词-小说情节梳理.zh-cn.md",
     "《卡拉马佐夫兄弟》摘抄.zh-cn.md",
     "《卡拉马佐夫兄弟》人物地点表.zh-cn.md",
     "《哈利波特与阿兹卡班囚徒》人物、地点记录.zh-cn.md",
@@ -333,7 +310,6 @@
     "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
     "python 初期知识点汇总.zh-cn.md",
     "vscode vim 快捷键.md",
-    "Weights only load failed.zh-cn.md",
     "《卡拉马佐夫兄弟》第十二卷.canvas",
     "《卡拉马佐夫兄弟》全文-第二卷.canvas",
     "Untitled 1.canvas",
