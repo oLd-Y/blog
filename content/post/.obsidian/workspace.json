@@ -183,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《哈利波特与火焰杯》情节梳理.zh-cn.md",
+                "file": "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 《哈利波特与火焰杯》情节梳理.zh-cn"
+              "title": "Outline of 《哈利波特与火焰杯》人物、地点记录.zh-cn"
             }
           },
           {
@@ -256,12 +256,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《哈利波特与火焰杯》情节梳理.zh-cn.md",
+                "file": "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 《哈利波特与火焰杯》情节梳理.zh-cn"
+              "title": "Outgoing links from 《哈利波特与火焰杯》人物、地点记录.zh-cn"
             }
           }
         ],
@@ -284,14 +284,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1a042365bfd2657d",
+  "active": "1bb109ed158bb406",
   "lastOpenFiles": [
-    "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
     "《哈利波特与火焰杯》情节梳理.zh-cn.md",
+    "提示词-小说情节梳理.zh-cn.md",
+    "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
     "提示词-小说要素记录助手.zh-cn.md",
     "提示词-小说家.zh-cn.md",
     "useful prompt.zh-cn.md",
-    "提示词-小说情节梳理.zh-cn.md",
     "《卡拉马佐夫兄弟》摘抄.zh-cn.md",
     "《卡拉马佐夫兄弟》人物地点表.zh-cn.md",
     "《哈利波特与阿兹卡班囚徒》人物、地点记录.zh-cn.md",
