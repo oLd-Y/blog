@@ -142,7 +142,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "克鲁姆",
+                "query": "卢修斯",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,8 +163,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -285,12 +284,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "34a3039920d9982c",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
     "《哈利波特与火焰杯》情节梳理.zh-cn.md",
+    "《哈利波特与阿兹卡班囚徒》人物、地点记录.zh-cn.md",
     "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
     "提示词-小说要素记录助手.zh-cn.md",
-    "《哈利波特与阿兹卡班囚徒》人物、地点记录.zh-cn.md",
     "提示词-小说情节梳理.zh-cn.md",
     "提示词-小说家.zh-cn.md",
     "useful prompt.zh-cn.md",
