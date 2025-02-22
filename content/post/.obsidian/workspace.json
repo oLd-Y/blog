@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "提示词-小说要素记录助手.zh-cn.md",
+                "file": "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "提示词-小说要素记录助手.zh-cn"
+              "title": "《哈利波特与火焰杯》人物、地点记录.zh-cn"
             }
           }
         ],
@@ -142,7 +142,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "巴格曼**",
+                "query": "克鲁姆",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "提示词-小说要素记录助手.zh-cn.md",
+                "file": "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 提示词-小说要素记录助手.zh-cn"
+              "title": "Outline of 《哈利波特与火焰杯》人物、地点记录.zh-cn"
             }
           },
           {
@@ -257,12 +257,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "提示词-小说要素记录助手.zh-cn.md",
+                "file": "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 提示词-小说要素记录助手.zh-cn"
+              "title": "Outgoing links from 《哈利波特与火焰杯》人物、地点记录.zh-cn"
             }
           }
         ],
@@ -287,11 +287,11 @@
   },
   "active": "34a3039920d9982c",
   "lastOpenFiles": [
+    "提示词-小说要素记录助手.zh-cn.md",
     "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
     "《哈利波特与火焰杯》情节梳理.zh-cn.md",
     "《哈利波特与阿兹卡班囚徒》人物、地点记录.zh-cn.md",
     "提示词-小说情节梳理.zh-cn.md",
-    "提示词-小说要素记录助手.zh-cn.md",
     "提示词-小说家.zh-cn.md",
     "useful prompt.zh-cn.md",
     "《卡拉马佐夫兄弟》摘抄.zh-cn.md",
