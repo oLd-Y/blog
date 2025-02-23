@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4ca152d450166d26",
+        "id": "9c07ba8884488074",
         "type": "tabs",
         "children": [
           {
-            "id": "1bb109ed158bb406",
+            "id": "28d2e1f56109235a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
+                "file": "《哈利波特与凤凰社》人物、地点记录.zh-cn.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,59 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "《哈利波特与火焰杯》人物、地点记录.zh-cn"
-            }
-          },
-          {
-            "id": "74ae9e9f559d3f82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "提示词-小说情节梳理.zh-cn.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "提示词-小说情节梳理.zh-cn"
-            }
-          },
-          {
-            "id": "34a3039920d9982c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "《哈利波特与火焰杯》人物、地点记录.zh-cn"
+              "title": "《哈利波特与凤凰社》人物、地点记录.zh-cn"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "795ef135ecdab25d",
@@ -92,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "《哈利波特与火焰杯》情节梳理.zh-cn.md",
+                "file": "《哈利波特与凤凰社》情节梳理.zh-cn.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -107,7 +58,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "《哈利波特与火焰杯》情节梳理.zh-cn"
+              "title": "《哈利波特与凤凰社》情节梳理.zh-cn"
             }
           }
         ]
@@ -142,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "卢修斯",
+                "query": "马克西姆",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,13 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
+                "file": "《哈利波特与凤凰社》人物、地点记录.zh-cn.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 《哈利波特与火焰杯》人物、地点记录.zh-cn"
+              "title": "Outline of 《哈利波特与凤凰社》人物、地点记录.zh-cn"
             }
           },
           {
@@ -256,12 +207,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
+                "file": "《哈利波特与凤凰社》人物、地点记录.zh-cn.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 《哈利波特与火焰杯》人物、地点记录.zh-cn"
+              "title": "Outgoing links from 《哈利波特与凤凰社》人物、地点记录.zh-cn"
             }
           }
         ],
@@ -286,6 +237,8 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "《哈利波特与凤凰社》人物、地点记录.zh-cn.md",
+    "《哈利波特与凤凰社》情节梳理.zh-cn.md",
     "《哈利波特与火焰杯》情节梳理.zh-cn.md",
     "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
     "《哈利波特与阿兹卡班囚徒》人物、地点记录.zh-cn.md",
@@ -310,8 +263,6 @@
     "节点.md",
     "vscode 快捷键.zh-cn.md",
     "AI 绘画学习初期知识汇总 & ComfyUI.zh-cn.md",
-    "python 初期知识点汇总.zh-cn.md",
-    "vscode vim 快捷键.md",
     "《卡拉马佐夫兄弟》第十二卷.canvas",
     "《卡拉马佐夫兄弟》全文-第二卷.canvas",
     "Untitled 1.canvas",
