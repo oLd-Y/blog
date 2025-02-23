@@ -93,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "马克西姆",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +114,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -235,7 +236,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "75ab60c5b57d6774",
   "lastOpenFiles": [
     "《哈利波特与凤凰社》人物、地点记录.zh-cn.md",
     "《哈利波特与凤凰社》情节梳理.zh-cn.md",
