@@ -142,7 +142,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "莱斯特兰奇",
+                "query": "西莫",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -285,7 +285,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a707ac3e30a4cf35",
+  "active": "75ab60c5b57d6774",
   "lastOpenFiles": [
     "《哈利波特与凤凰社》情节梳理.zh-cn.md",
     "提示词-小说情节梳理助手.zh-cn.md",
