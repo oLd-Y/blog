@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "提示词-小说要素记录助手.zh-cn"
             }
+          },
+          {
+            "id": "eff3a9b24bbb3b96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "《哈利波特与混血王子》摘抄.zh-cn.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "《哈利波特与混血王子》摘抄.zh-cn"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -129,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "提示词-小说要素记录助手.zh-cn.md",
+                "file": "《哈利波特与混血王子》摘抄.zh-cn.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 提示词-小说要素记录助手.zh-cn"
+              "title": "Outline of 《哈利波特与混血王子》摘抄.zh-cn"
             }
           },
           {
@@ -202,12 +226,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "提示词-小说要素记录助手.zh-cn.md",
+                "file": "《哈利波特与混血王子》摘抄.zh-cn.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 提示词-小说要素记录助手.zh-cn"
+              "title": "Outgoing links from 《哈利波特与混血王子》摘抄.zh-cn"
             }
           }
         ],
@@ -230,12 +254,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "eff3a9b24bbb3b96",
   "lastOpenFiles": [
-    "Untitled.md",
+    "提示词-小说要素记录助手.zh-cn.md",
+    "《哈利波特与混血王子》摘抄.zh-cn.md",
     "《哈利波特与凤凰社》情节梳理.zh-cn.md",
     "《哈利波特与凤凰社》人物、地点记录.zh-cn.md",
-    "提示词-小说要素记录助手.zh-cn.md",
     "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
     "提示词-小说情节梳理助手.zh-cn.md",
     "useful prompt.zh-cn.md",
