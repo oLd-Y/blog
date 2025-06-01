@@ -4,131 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "9c07ba8884488074",
+        "id": "c417d2a3c706bf2c",
         "type": "tabs",
         "children": [
           {
-            "id": "28d2e1f56109235a",
+            "id": "47089ad23a4ee1f2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "《哈利波特与凤凰社》人物、地点记录.zh-cn.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "《哈利波特与凤凰社》人物、地点记录.zh-cn"
-            }
-          },
-          {
-            "id": "52a08583627655fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "提示词-自媒体文案生成.zh-cn.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "提示词-自媒体文案生成.zh-cn"
-            }
-          },
-          {
-            "id": "ba6c2ee42a0a373a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "提示词-小说情节梳理助手.zh-cn.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "提示词-小说情节梳理助手.zh-cn"
-            }
-          },
-          {
-            "id": "e0157e12f580e72c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "提示词-小说要素记录助手.zh-cn.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "提示词-小说要素记录助手.zh-cn"
-            }
-          },
-          {
-            "id": "eff3a9b24bbb3b96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "《哈利波特与混血王子》摘抄.zh-cn.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "《哈利波特与混血王子》摘抄.zh-cn"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,7 +70,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -201,13 +91,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "提示词-小说情节梳理助手.zh-cn.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 提示词-小说情节梳理助手.zh-cn"
+              "title": "Outline"
             }
           },
           {
@@ -274,12 +163,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "提示词-小说情节梳理助手.zh-cn.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 提示词-小说情节梳理助手.zh-cn"
+              "title": "Outgoing links"
             }
           }
         ],
@@ -302,7 +190,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "75ab60c5b57d6774",
   "lastOpenFiles": [
     "提示词-自媒体文案生成.zh-cn.md",
     "提示词-小说情节梳理助手.zh-cn.md",
