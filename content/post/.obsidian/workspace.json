@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "西莫",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +70,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -179,6 +178,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
@@ -190,7 +190,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "75ab60c5b57d6774",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
     "提示词-自媒体文案生成.zh-cn.md",
     "提示词-小说情节梳理助手.zh-cn.md",
