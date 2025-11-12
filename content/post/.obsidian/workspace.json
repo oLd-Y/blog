@@ -42,9 +42,21 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.9.14"
             }
+          },
+          {
+            "id": "fc63703c2fdc9c05",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -218,7 +230,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7cae9aad799a7f45",
+  "active": "fc63703c2fdc9c05",
   "lastOpenFiles": [
     "提示词-自媒体文案生成.zh-cn.md",
     "提示词-小说情节梳理助手.zh-cn.md",
