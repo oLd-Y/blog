@@ -4,59 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "c417d2a3c706bf2c",
+        "id": "b453ab09fcfc38e8",
         "type": "tabs",
         "children": [
           {
-            "id": "47089ad23a4ee1f2",
+            "id": "dba7b2ed512f56d7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "虎码用法记录.zh-cn.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "虎码用法记录.zh-cn"
-            }
-          },
-          {
-            "id": "7cae9aad799a7f45",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.14"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
-            }
-          },
-          {
-            "id": "fc63703c2fdc9c05",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.3"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -230,8 +191,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fc63703c2fdc9c05",
+  "active": "dba7b2ed512f56d7",
   "lastOpenFiles": [
+    "Untitled.base",
+    "虎码用法记录.zh-cn.md",
     "提示词-自媒体文案生成.zh-cn.md",
     "提示词-小说情节梳理助手.zh-cn.md",
     "提示词-写作修改助手.zh-cn.md",
@@ -256,8 +219,6 @@
     "《哈利波特》摘抄.zh-cn.md",
     "_excalidraw/Drawing 2025-02-05 15.56.45.excalidraw.md",
     "_excalidraw/test.md",
-    "windows 文件夹或文件已在另一程序中打开.zh-cn.md",
-    "Comfyui 插件汇总.zh-cn.md",
     "《卡拉马佐夫兄弟》第十二卷.canvas",
     "《卡拉马佐夫兄弟》全文-第二卷.canvas",
     "Untitled 1.canvas",
