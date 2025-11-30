@@ -72,8 +72,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -193,7 +192,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dba7b2ed512f56d7",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
     "Untitled.base",
     "虎码用法记录.zh-cn.md",
