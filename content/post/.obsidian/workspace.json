@@ -4,19 +4,79 @@
     "type": "split",
     "children": [
       {
-        "id": "b453ab09fcfc38e8",
+        "id": "df8bca55ab815625",
         "type": "tabs",
         "children": [
           {
-            "id": "dba7b2ed512f56d7",
+            "id": "b862349a7523b6c2",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.6"
+                "file": "云顶大数据名次差.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
+              "icon": "lucide-file",
+              "title": "云顶大数据名次差"
+            }
+          },
+          {
+            "id": "a29572f9e19241fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "弃用 emacs 转用 neovim 的原因.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "弃用 emacs 转用 neovim 的原因"
+            }
+          },
+          {
+            "id": "7ebd62d09e59c507",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "线程.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "线程"
             }
           }
         ]
@@ -92,12 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "云顶大数据名次差.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 云顶大数据名次差"
             }
           },
           {
@@ -164,11 +225,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "云顶大数据名次差.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from 云顶大数据名次差"
             }
           }
         ],
@@ -176,7 +238,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 245.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,10 +257,16 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "Untitled.md",
+    "云顶大数据名次差.md",
+    "_TODO.md",
+    "线程.md",
+    "弃用 emacs 转用 neovim 的原因.md",
+    "提示词-小说情节梳理助手.zh-cn.md",
     "Untitled.base",
+    "Untitled 1.base",
     "虎码用法记录.zh-cn.md",
     "提示词-自媒体文案生成.zh-cn.md",
-    "提示词-小说情节梳理助手.zh-cn.md",
     "提示词-写作修改助手.zh-cn.md",
     "《哈利波特与火焰杯》情节梳理.zh-cn.md",
     "《哈利波特与凤凰社》人物、地点记录.zh-cn.md",
@@ -216,10 +285,6 @@
     "《哈利波特与魔法石》人物、地点记录.zh-cn.md",
     "《哈利波特与魔法石》情节梳理.zh-cn.md",
     "adobe 系列软件破解步骤（pr、ps、ae等）.zh-cn.md",
-    "《哈利波特与魔法石》读后感.zh-cn.md",
-    "《哈利波特》摘抄.zh-cn.md",
-    "_excalidraw/Drawing 2025-02-05 15.56.45.excalidraw.md",
-    "_excalidraw/test.md",
     "《卡拉马佐夫兄弟》第十二卷.canvas",
     "《卡拉马佐夫兄弟》全文-第二卷.canvas",
     "Untitled 1.canvas",
@@ -242,8 +307,6 @@
     "_ebooks",
     "新建文件夹",
     "static/ChatGPT",
-    "static/新建文件夹",
-    "_weread",
-    "_weread"
+    "static/新建文件夹"
   ]
 }
