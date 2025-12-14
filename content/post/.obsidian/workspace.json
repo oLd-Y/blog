@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "df8bca55ab815625",
+        "id": "5a989ac7248b9264",
         "type": "tabs",
         "children": [
           {
-            "id": "b862349a7523b6c2",
+            "id": "99d98c627257a631",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云顶大数据名次差.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "云顶大数据名次差"
+              "title": "New tab"
             }
           }
         ]
