@@ -11,10 +11,12 @@
             "id": "99d98c627257a631",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
             }
           }
         ]
@@ -193,7 +195,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "99d98c627257a631",
   "lastOpenFiles": [
     "Untitled.md",
     "云顶大数据名次差.md",
