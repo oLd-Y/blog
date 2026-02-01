@@ -4,35 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "5a989ac7248b9264",
+        "id": "f764a69f8b0beed4",
         "type": "tabs",
         "children": [
           {
-            "id": "99d98c627257a631",
+            "id": "b6305f5136da9aed",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.4"
-            }
-          },
-          {
-            "id": "6a9003655316c417",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.5"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.5"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,7 +193,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6a9003655316c417",
+  "active": "b6305f5136da9aed",
   "lastOpenFiles": [
     "Untitled.md",
     "云顶大数据名次差.md",
