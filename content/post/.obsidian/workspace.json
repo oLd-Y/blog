@@ -30,9 +30,57 @@
               "icon": "lucide-book-up",
               "title": "版本说明 1.12.4"
             }
+          },
+          {
+            "id": "10c4f830fa315338",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "提示词-微信读书章节情节梳理.zh-cn.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "提示词-微信读书章节情节梳理.zh-cn"
+            }
+          },
+          {
+            "id": "e42dee1aaaf31ca7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "提示词-小说情节梳理助手.zh-cn.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "提示词-小说情节梳理助手.zh-cn"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -208,14 +256,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b09ea9168f49a73c",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "提示词-小说情节梳理助手.zh-cn.md",
+    "提示词-微信读书章节情节梳理.zh-cn.md",
     "Untitled.md",
     "云顶大数据名次差.md",
     "_TODO.md",
     "线程.md",
     "弃用 emacs 转用 neovim 的原因.md",
-    "提示词-小说情节梳理助手.zh-cn.md",
     "Untitled.base",
     "Untitled 1.base",
     "虎码用法记录.zh-cn.md",
@@ -237,7 +286,6 @@
     "《哈利波特与密室》人物、地点记录.zh-cn.md",
     "《哈利波特与魔法石》人物、地点记录.zh-cn.md",
     "《哈利波特与魔法石》情节梳理.zh-cn.md",
-    "adobe 系列软件破解步骤（pr、ps、ae等）.zh-cn.md",
     "《卡拉马佐夫兄弟》第十二卷.canvas",
     "《卡拉马佐夫兄弟》全文-第二卷.canvas",
     "Untitled 1.canvas",
