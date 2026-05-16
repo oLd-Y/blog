@@ -1,5 +1,4 @@
 [
-  "obsidian-image-auto-upload-plugin",
   "update-time-on-edit",
   "obsidian-reveal-active-file",
   "templater-obsidian",
@@ -15,5 +14,6 @@
   "obsidian-latex-suite",
   "obsidian-markmind",
   "obsidian-mind-map",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "url-into-selection"
 ]

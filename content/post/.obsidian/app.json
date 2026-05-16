@@ -3,5 +3,6 @@
   "promptDelete": false,
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
-  "mobilePullAction": "obsidian-better-command-palette:open-better-commmand-palette"
+  "mobilePullAction": "obsidian-better-command-palette:open-better-commmand-palette",
+  "attachmentFolderPath": "/pictures"
 }

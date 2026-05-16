@@ -54,9 +54,45 @@
               "icon": "lucide-file",
               "title": "洛克王国六维计算"
             }
+          },
+          {
+            "id": "947f88cb43c91c24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "生命加成为什么永远优于单一防御加成.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "生命加成为什么永远优于单一防御加成"
+            }
+          },
+          {
+            "id": "174cfecab7079692",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "pictures/生命加成和防御加成的优劣比较.png"
+              },
+              "icon": "lucide-image",
+              "title": "生命加成和防御加成的优劣比较"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -88,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rime",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +132,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜索"
             }
           },
           {
@@ -234,8 +270,19 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "如何效率地进行放生.md",
+    "pictures/生命加成和防御加成的优劣比较.png",
+    "pictures/生命加成和防御加成的优劣比较.png",
+    "生命加成为什么永远优于单一防御加成.md",
+    "pictures/Pasted image 20260516232723.png",
+    "pictures/Pasted image 20260516233108.png",
+    "pictures/Pasted image 20260516232910.png",
     "洛克王国六维计算.md",
+    "pictures/Pasted image 20260516233541.png",
+    "pictures/Pasted image 20260516233537.png",
+    "pictures/Pasted image 20260516233532.png",
+    "pictures/Pasted image 20260516233507.png",
+    "pictures",
+    "如何效率地进行放生.md",
     "如何培养一只完美的精灵.md",
     "《哈利波特与阿兹卡班囚徒》情节梳理.zh-cn.md",
     "提示词-小说情节梳理助手.zh-cn.md",
@@ -260,30 +307,17 @@
     "《哈利波特与阿兹卡班囚徒》人物、地点记录.zh-cn.md",
     "提示词-小说家.zh-cn.md",
     "《卡拉马佐夫兄弟》摘抄.zh-cn.md",
-    "《卡拉马佐夫兄弟》人物地点表.zh-cn.md",
-    "《哈利波特与密室》情节梳理.zh-cn.md",
     "《卡拉马佐夫兄弟》第十二卷.canvas",
     "《卡拉马佐夫兄弟》全文-第二卷.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "Untitled 3.canvas",
-    "Pasted image 20250105160923.png",
-    "static/comfyui/basic-txt2img.png",
     "static/comfyui",
-    "static/CSAPP/shift-operations-in-c.png",
-    "static/CSAPP/2.32.png",
     "配置 C",
-    "static/CSAPP/pp2.54-2.png",
-    "static/CSAPP/pp2.54.png",
-    "static/CSAPP/pp2.53.png",
-    "static/CSAPP/pp2.52.png",
-    "static/CSAPP/pp2.51.png",
-    "static/CSAPP/pp2.50.png",
     "_ebooks/Computer Systems A Programmers Perspective by Ran.pdf",
     "_ebooks/Computer Systems A Programmers Perspective by Ran.pdf.lnk",
     "_ebooks",
     "新建文件夹",
-    "static/ChatGPT",
-    "static/新建文件夹"
+    "static/ChatGPT"
   ]
 }
