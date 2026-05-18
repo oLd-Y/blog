@@ -30,66 +30,6 @@
               "icon": "lucide-file",
               "title": "如何效率地进行放生"
             }
-          },
-          {
-            "id": "f82907b6cdd7aea6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "洛克王国六维计算.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "洛克王国六维计算"
-            }
-          },
-          {
-            "id": "947f88cb43c91c24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "生命加成为什么永远优于单一防御加成.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "生命加成为什么永远优于单一防御加成"
-            }
-          },
-          {
-            "id": "174cfecab7079692",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "pictures/生命加成和防御加成的优劣比较.png"
-              },
-              "icon": "lucide-image",
-              "title": "生命加成和防御加成的优劣比较"
-            }
           }
         ]
       }
@@ -148,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 381.5
+    "width": 381.5,
+    "collapsed": true
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -267,7 +208,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "2564db81fcae15d1",
   "lastOpenFiles": [
     "洛克王国六维计算.md",
     "生命加成为什么永远优于单一防御加成.md",
