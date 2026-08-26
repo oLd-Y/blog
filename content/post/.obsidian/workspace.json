@@ -78,9 +78,33 @@
               "icon": "lucide-file",
               "title": "对话式ai工程合作约束准则"
             }
+          },
+          {
+            "id": "286bea21c98e0ee6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "什么是句柄.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "什么是句柄"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -260,8 +284,9 @@
   },
   "active": "3c82df03627e692a",
   "lastOpenFiles": [
-    "PowerShell配置文件.md",
     "对话式ai工程合作约束准则.md",
+    "什么是句柄.md",
+    "PowerShell配置文件.md",
     "提示词-阅读助手.md",
     "提示词-小说情节梳理助手.zh-cn.md",
     "提示词-阅读助手.zh-cn.md",
@@ -297,7 +322,6 @@
     "《哈利波特与混血王子》摘抄.zh-cn.md",
     "《哈利波特与凤凰社》情节梳理.zh-cn.md",
     "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
-    "useful prompt.zh-cn.md",
     "《卡拉马佐夫兄弟》第十二卷.canvas",
     "《卡拉马佐夫兄弟》全文-第二卷.canvas",
     "Untitled 1.canvas",
