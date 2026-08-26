@@ -32,43 +32,31 @@
             }
           },
           {
-            "id": "1732fda990cf1631",
+            "id": "0607bd5c07048807",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.13.4"
+                "file": "PowerShell配置.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.13.4"
-            }
-          },
-          {
-            "id": "bd6059708bf1b139",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.13.6"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.13.6"
-            }
-          },
-          {
-            "id": "798e78d78ef2e859",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.13.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.13.7"
+              "icon": "lucide-file",
+              "title": "PowerShell配置"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +76,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byModifiedTime",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -125,8 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 381.5,
-    "collapsed": true
+    "width": 381.5
   },
   "right": {
     "id": "3dd1f0e1b777ab09",
@@ -245,11 +234,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "798e78d78ef2e859",
+  "active": "3c82df03627e692a",
   "lastOpenFiles": [
+    "提示词-阅读助手.md",
+    "PowerShell配置.md",
     "提示词-小说情节梳理助手.zh-cn.md",
     "提示词-阅读助手.zh-cn.md",
-    "提示词-阅读助手.md",
     "洛克王国六维计算.md",
     "生命加成为什么永远优于单一防御加成.md",
     "如何效率地进行放生.md",
@@ -284,7 +274,6 @@
     "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
     "useful prompt.zh-cn.md",
     "《哈利波特与阿兹卡班囚徒》人物、地点记录.zh-cn.md",
-    "提示词-小说家.zh-cn.md",
     "《卡拉马佐夫兄弟》第十二卷.canvas",
     "《卡拉马佐夫兄弟》全文-第二卷.canvas",
     "Untitled 1.canvas",
