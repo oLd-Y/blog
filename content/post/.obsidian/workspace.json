@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "提示词-阅读助手"
             }
+          },
+          {
+            "id": "4d7ccd874d21d9b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "电脑更改项目.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "电脑更改项目"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,12 +234,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3c82df03627e692a",
+  "active": "4d7ccd874d21d9b2",
   "lastOpenFiles": [
+    "提示词-阅读助手.md",
+    "电脑更改项目.md",
     "对话式ai工程合作约束准则.md",
     "什么是句柄.md",
     "PowerShell配置文件.md",
-    "提示词-阅读助手.md",
     "提示词-小说情节梳理助手.zh-cn.md",
     "提示词-阅读助手.zh-cn.md",
     "洛克王国六维计算.md",
@@ -248,7 +274,6 @@
     "提示词-小说要素记录助手.zh-cn.md",
     "《哈利波特与混血王子》摘抄.zh-cn.md",
     "《哈利波特与凤凰社》情节梳理.zh-cn.md",
-    "《哈利波特与火焰杯》人物、地点记录.zh-cn.md",
     "《卡拉马佐夫兄弟》第十二卷.canvas",
     "《卡拉马佐夫兄弟》全文-第二卷.canvas",
     "Untitled 1.canvas",
