@@ -4,95 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "f764a69f8b0beed4",
+        "id": "dcf72cd9dedc678b",
         "type": "tabs",
         "children": [
           {
-            "id": "9fd5223d535fe387",
+            "id": "bac0db6de86e5848",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "提示词-阅读助手.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "提示词-阅读助手"
-            }
-          },
-          {
-            "id": "4d7ccd874d21d9b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "电脑更改项目.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "电脑更改项目"
-            }
-          },
-          {
-            "id": "275a275a32fd499d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "洛克王国六维计算.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "洛克王国六维计算"
-            }
-          },
-          {
-            "id": "5fedadffcf82e92c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.14.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.14.4"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -270,7 +195,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5fedadffcf82e92c",
+  "active": "bac0db6de86e5848",
   "lastOpenFiles": [
     "电脑更改项目.md",
     "提示词-阅读助手.md",
