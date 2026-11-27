@@ -9,5 +9,6 @@
   "monospaceFontFamily": "Big Caslon",
   "enabledCssSnippets": [
     "canvas"
-  ]
+  ],
+  "showRibbon": true
 }
